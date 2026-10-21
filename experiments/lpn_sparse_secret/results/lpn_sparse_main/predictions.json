@@ -1,0 +1,1314 @@
+{
+ "exp": "lpn_sparse_main",
+ "T": 120,
+ "offset_s": 0.1,
+ "n_instances_manifest": 480,
+ "n_instances_complete": 480,
+ "missing_runs": 0,
+ "unverified_answers": [],
+ "cells": {
+  "implicit/planted": {
+   "n_instances": 80,
+   "D": {
+    "solved": 25,
+    "par2": 174.2577825875
+   },
+   "Im": {
+    "solved": 22,
+    "par2": 181.506474,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 15,
+    "losses": 15
+   },
+   "Fm": {
+    "solved": 61,
+    "par2": 71.2363323375,
+    "n": 80,
+    "median_log2_ratio": -2.4437197723345374,
+    "ci": [
+     -3.5373101629411714,
+     -1.6044716318410273
+    ],
+    "wins": 57,
+    "losses": 3
+   },
+   "Fp": {
+    "solved": 1,
+    "par2": 237.00013121249998,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 24
+   },
+   "Im_noR": {
+    "solved": 38,
+    "par2": 136.64550553750001,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     -1.0197135092428407,
+     0.0
+    ],
+    "wins": 33,
+    "losses": 8
+   }
+  },
+  "implicit/random": {
+   "n_instances": 80,
+   "D": {
+    "solved": 0,
+    "par2": 240.0
+   },
+   "Im": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 0
+   },
+   "Fm": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 0
+   },
+   "Fp": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 0
+   },
+   "Im_noR": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 0
+   }
+  },
+  "explicit/planted": {
+   "n_instances": 80,
+   "D": {
+    "solved": 80,
+    "par2": 2.3820331999999995
+   },
+   "Im": {
+    "solved": 80,
+    "par2": 2.305335075,
+    "n": 80,
+    "median_log2_ratio": -0.00656062429145646,
+    "ci": [
+     -0.20926802839044395,
+     0.2571586422749861
+    ],
+    "wins": 37,
+    "losses": 39
+   },
+   "Fm": {
+    "solved": 80,
+    "par2": 2.0087216249999997,
+    "n": 80,
+    "median_log2_ratio": -0.23283169918303223,
+    "ci": [
+     -0.4234219908098005,
+     0.03064701884990718
+    ],
+    "wins": 45,
+    "losses": 30
+   },
+   "Fp": {
+    "solved": 80,
+    "par2": 2.3369921125,
+    "n": 80,
+    "median_log2_ratio": -0.12809935759715368,
+    "ci": [
+     -0.37985409795205277,
+     0.1780103301406166
+    ],
+    "wins": 41,
+    "losses": 34
+   },
+   "Im_noR": {
+    "solved": 80,
+    "par2": 2.1355698125,
+    "n": 80,
+    "median_log2_ratio": -0.19042889653618483,
+    "ci": [
+     -0.3277430088789751,
+     0.06749151393091206
+    ],
+    "wins": 44,
+    "losses": 30
+   }
+  },
+  "explicit/random": {
+   "n_instances": 80,
+   "D": {
+    "solved": 80,
+    "par2": 4.3642404500000005
+   },
+   "Im": {
+    "solved": 80,
+    "par2": 4.386439675,
+    "n": 80,
+    "median_log2_ratio": -0.00774202578925754,
+    "ci": [
+     -0.032512678289453874,
+     0.027957118161417736
+    ],
+    "wins": 23,
+    "losses": 16
+   },
+   "Fm": {
+    "solved": 80,
+    "par2": 4.168895825,
+    "n": 80,
+    "median_log2_ratio": -0.0527559441478936,
+    "ci": [
+     -0.09822533261674844,
+     -0.0022114865265390137
+    ],
+    "wins": 38,
+    "losses": 15
+   },
+   "Fp": {
+    "solved": 80,
+    "par2": 3.8369490749999997,
+    "n": 80,
+    "median_log2_ratio": -0.12410560978233723,
+    "ci": [
+     -0.16279989861206537,
+     -0.07282057959872779
+    ],
+    "wins": 51,
+    "losses": 0
+   },
+   "Im_noR": {
+    "solved": 80,
+    "par2": 4.1742265750000005,
+    "n": 80,
+    "median_log2_ratio": -0.060416850508124724,
+    "ci": [
+     -0.0894894272912291,
+     -0.03763711719945742
+    ],
+    "wins": 37,
+    "losses": 10
+   }
+  },
+  "implicitflip/planted": {
+   "n_instances": 80,
+   "D": {
+    "solved": 19,
+    "par2": 191.78108887499997
+   },
+   "Im": {
+    "solved": 16,
+    "par2": 197.25883195,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 12,
+    "losses": 11
+   },
+   "Fm": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 19
+   },
+   "Fp": {
+    "solved": 56,
+    "par2": 86.426179175,
+    "n": 80,
+    "median_log2_ratio": -2.170672791568453,
+    "ci": [
+     -3.6241480724283077,
+     -1.3877744417764042
+    ],
+    "wins": 54,
+    "losses": 1
+   },
+   "Im_noR": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 19
+   }
+  },
+  "implicitflip/random": {
+   "n_instances": 80,
+   "D": {
+    "solved": 0,
+    "par2": 240.0
+   },
+   "Im": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 0
+   },
+   "Fm": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 0
+   },
+   "Fp": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 0
+   },
+   "Im_noR": {
+    "solved": 0,
+    "par2": 240.0,
+    "n": 80,
+    "median_log2_ratio": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wins": 0,
+    "losses": 0
+   }
+  }
+ },
+ "by_tau": {
+  "implicit/planted/tau=1/4": {
+   "n": 40,
+   "D": {
+    "solved": 12,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 8,
+    "median_r": 0.0
+   },
+   "Fm": {
+    "solved": 27,
+    "median_r": -1.2790399122748182
+   },
+   "Fp": {
+    "solved": 1,
+    "median_r": 0.0
+   },
+   "Im_noR": {
+    "solved": 16,
+    "median_r": 0.0
+   }
+  },
+  "implicit/planted/tau=1/5": {
+   "n": 40,
+   "D": {
+    "solved": 13,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 14,
+    "median_r": 0.0
+   },
+   "Fm": {
+    "solved": 34,
+    "median_r": -3.5717495089787317
+   },
+   "Fp": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Im_noR": {
+    "solved": 22,
+    "median_r": 0.0
+   }
+  },
+  "implicit/random/tau=1/4": {
+   "n": 40,
+   "D": {
+    "solved": 0,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fm": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fp": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Im_noR": {
+    "solved": 0,
+    "median_r": 0.0
+   }
+  },
+  "implicit/random/tau=1/5": {
+   "n": 40,
+   "D": {
+    "solved": 0,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fm": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fp": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Im_noR": {
+    "solved": 0,
+    "median_r": 0.0
+   }
+  },
+  "explicit/planted/tau=1/4": {
+   "n": 40,
+   "D": {
+    "solved": 40,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 40,
+    "median_r": -0.022132995331461982
+   },
+   "Fm": {
+    "solved": 40,
+    "median_r": -0.33036190146465266
+   },
+   "Fp": {
+    "solved": 40,
+    "median_r": 0.014204288318579244
+   },
+   "Im_noR": {
+    "solved": 40,
+    "median_r": -0.20467567975378662
+   }
+  },
+  "explicit/planted/tau=1/5": {
+   "n": 40,
+   "D": {
+    "solved": 40,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 40,
+    "median_r": 0.032608178355339024
+   },
+   "Fm": {
+    "solved": 40,
+    "median_r": -0.11972664097204613
+   },
+   "Fp": {
+    "solved": 40,
+    "median_r": -0.22374741306804297
+   },
+   "Im_noR": {
+    "solved": 40,
+    "median_r": -0.13192670614367313
+   }
+  },
+  "explicit/random/tau=1/4": {
+   "n": 40,
+   "D": {
+    "solved": 40,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 40,
+    "median_r": 0.005608991580740048
+   },
+   "Fm": {
+    "solved": 40,
+    "median_r": 0.002989976222566866
+   },
+   "Fp": {
+    "solved": 40,
+    "median_r": -0.06198468580315214
+   },
+   "Im_noR": {
+    "solved": 40,
+    "median_r": -0.035774850847030665
+   }
+  },
+  "explicit/random/tau=1/5": {
+   "n": 40,
+   "D": {
+    "solved": 40,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 40,
+    "median_r": -0.02378083725349311
+   },
+   "Fm": {
+    "solved": 40,
+    "median_r": -0.1076885915645816
+   },
+   "Fp": {
+    "solved": 40,
+    "median_r": -0.17086695018222053
+   },
+   "Im_noR": {
+    "solved": 40,
+    "median_r": -0.0911964239515389
+   }
+  },
+  "implicitflip/planted/tau=1/4": {
+   "n": 40,
+   "D": {
+    "solved": 7,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 5,
+    "median_r": 0.0
+   },
+   "Fm": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fp": {
+    "solved": 25,
+    "median_r": -1.4647922336162642
+   },
+   "Im_noR": {
+    "solved": 0,
+    "median_r": 0.0
+   }
+  },
+  "implicitflip/planted/tau=1/5": {
+   "n": 40,
+   "D": {
+    "solved": 12,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 11,
+    "median_r": 0.0
+   },
+   "Fm": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fp": {
+    "solved": 31,
+    "median_r": -3.4524918438720773
+   },
+   "Im_noR": {
+    "solved": 0,
+    "median_r": 0.0
+   }
+  },
+  "implicitflip/random/tau=1/4": {
+   "n": 40,
+   "D": {
+    "solved": 0,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fm": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fp": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Im_noR": {
+    "solved": 0,
+    "median_r": 0.0
+   }
+  },
+  "implicitflip/random/tau=1/5": {
+   "n": 40,
+   "D": {
+    "solved": 0,
+    "median_r": null
+   },
+   "Im": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fm": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Fp": {
+    "solved": 0,
+    "median_r": 0.0
+   },
+   "Im_noR": {
+    "solved": 0,
+    "median_r": 0.0
+   }
+  }
+ },
+ "by_n": {
+  "implicit/planted/n=24": {
+   "n": 20,
+   "D": {
+    "solved": 14
+   },
+   "Im": {
+    "solved": 12
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 1
+   },
+   "Im_noR": {
+    "solved": 19
+   }
+  },
+  "implicit/planted/n=32": {
+   "n": 20,
+   "D": {
+    "solved": 5
+   },
+   "Im": {
+    "solved": 3
+   },
+   "Fm": {
+    "solved": 19
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 10
+   }
+  },
+  "implicit/planted/n=40": {
+   "n": 20,
+   "D": {
+    "solved": 3
+   },
+   "Im": {
+    "solved": 3
+   },
+   "Fm": {
+    "solved": 14
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 5
+   }
+  },
+  "implicit/planted/n=48": {
+   "n": 20,
+   "D": {
+    "solved": 3
+   },
+   "Im": {
+    "solved": 4
+   },
+   "Fm": {
+    "solved": 8
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 4
+   }
+  },
+  "implicit/random/n=24": {
+   "n": 20,
+   "D": {
+    "solved": 0
+   },
+   "Im": {
+    "solved": 0
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicit/random/n=32": {
+   "n": 20,
+   "D": {
+    "solved": 0
+   },
+   "Im": {
+    "solved": 0
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicit/random/n=40": {
+   "n": 20,
+   "D": {
+    "solved": 0
+   },
+   "Im": {
+    "solved": 0
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicit/random/n=48": {
+   "n": 20,
+   "D": {
+    "solved": 0
+   },
+   "Im": {
+    "solved": 0
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "explicit/planted/n=24": {
+   "n": 20,
+   "D": {
+    "solved": 20
+   },
+   "Im": {
+    "solved": 20
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 20
+   }
+  },
+  "explicit/planted/n=32": {
+   "n": 20,
+   "D": {
+    "solved": 20
+   },
+   "Im": {
+    "solved": 20
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 20
+   }
+  },
+  "explicit/planted/n=40": {
+   "n": 20,
+   "D": {
+    "solved": 20
+   },
+   "Im": {
+    "solved": 20
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 20
+   }
+  },
+  "explicit/planted/n=48": {
+   "n": 20,
+   "D": {
+    "solved": 20
+   },
+   "Im": {
+    "solved": 20
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 20
+   }
+  },
+  "explicit/random/n=24": {
+   "n": 20,
+   "D": {
+    "solved": 20
+   },
+   "Im": {
+    "solved": 20
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 20
+   }
+  },
+  "explicit/random/n=32": {
+   "n": 20,
+   "D": {
+    "solved": 20
+   },
+   "Im": {
+    "solved": 20
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 20
+   }
+  },
+  "explicit/random/n=40": {
+   "n": 20,
+   "D": {
+    "solved": 20
+   },
+   "Im": {
+    "solved": 20
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 20
+   }
+  },
+  "explicit/random/n=48": {
+   "n": 20,
+   "D": {
+    "solved": 20
+   },
+   "Im": {
+    "solved": 20
+   },
+   "Fm": {
+    "solved": 20
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 20
+   }
+  },
+  "implicitflip/planted/n=24": {
+   "n": 20,
+   "D": {
+    "solved": 11
+   },
+   "Im": {
+    "solved": 9
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 20
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicitflip/planted/n=32": {
+   "n": 20,
+   "D": {
+    "solved": 2
+   },
+   "Im": {
+    "solved": 3
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 16
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicitflip/planted/n=40": {
+   "n": 20,
+   "D": {
+    "solved": 3
+   },
+   "Im": {
+    "solved": 3
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 14
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicitflip/planted/n=48": {
+   "n": 20,
+   "D": {
+    "solved": 3
+   },
+   "Im": {
+    "solved": 1
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 6
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicitflip/random/n=24": {
+   "n": 20,
+   "D": {
+    "solved": 0
+   },
+   "Im": {
+    "solved": 0
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicitflip/random/n=32": {
+   "n": 20,
+   "D": {
+    "solved": 0
+   },
+   "Im": {
+    "solved": 0
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicitflip/random/n=40": {
+   "n": 20,
+   "D": {
+    "solved": 0
+   },
+   "Im": {
+    "solved": 0
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  },
+  "implicitflip/random/n=48": {
+   "n": 20,
+   "D": {
+    "solved": 0
+   },
+   "Im": {
+    "solved": 0
+   },
+   "Fm": {
+    "solved": 0
+   },
+   "Fp": {
+    "solved": 0
+   },
+   "Im_noR": {
+    "solved": 0
+   }
+  }
+ },
+ "predictions": {
+  "Q1": {
+   "claim": "implicit+planted: F- faster than D",
+   "median": -2.4437197723345374,
+   "ci": [
+    -3.5373101629411714,
+    -1.6044716318410273
+   ],
+   "verdict": "supported",
+   "by_tau": {
+    "1/4": {
+     "n": 40,
+     "median_log2_ratio": -1.2790399122748182,
+     "ci": [
+      -2.4579316730325997,
+      0.0
+     ],
+     "wins": 25,
+     "losses": 1
+    },
+    "1/5": {
+     "n": 40,
+     "median_log2_ratio": -3.5717495089787317,
+     "ci": [
+      -5.29564243449541,
+      -2.4437197723345374
+     ],
+     "wins": 32,
+     "losses": 2
+    }
+   }
+  },
+  "Q2": {
+   "claim": "F- advantage over D smaller in explicit than implicit (paired d > 0)",
+   "n_pairs": 80,
+   "median_d": 2.2278990017392593,
+   "ci": [
+    1.1727651928828142,
+    3.32014223181313
+   ],
+   "verdict": "supported",
+   "explicit_Fm_vs_D": -0.23283169918303223,
+   "explicit_Fm_vs_D_ci": [
+    -0.4234219908098005,
+    0.03064701884990718
+   ]
+  },
+  "Q3": {
+   "claim": "implicitflip+planted: F+ faster than D and F- slower than D",
+   "Fp": {
+    "median": -2.170672791568453,
+    "ci": [
+     -3.6241480724283077,
+     -1.3877744417764042
+    ],
+    "verdict": "supported"
+   },
+   "Fm": {
+    "median": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "verdict": "not supported (CI includes 0)"
+   },
+   "solved": {
+    "D": 19,
+    "Im": 16,
+    "Fm": 0,
+    "Fp": 56,
+    "Im_noR": 0
+   },
+   "verdict": "not supported"
+  },
+  "Q4": {
+   "claim": "random: F- effect smaller than planted, no consistent F- advantage",
+   "implicit": {
+    "planted_median": -2.4437197723345374,
+    "random_median": 0.0,
+    "random_ci": [
+     0.0,
+     0.0
+    ],
+    "random_solved": {
+     "D": 0,
+     "Im": 0,
+     "Fm": 0,
+     "Fp": 0,
+     "Im_noR": 0
+    },
+    "verdict": "vacuous (nothing solved on random)"
+   },
+   "explicit": {
+    "planted_median": -0.23283169918303223,
+    "random_median": -0.0527559441478936,
+    "random_ci": [
+     -0.09822533261674844,
+     -0.0022114865265390137
+    ],
+    "random_solved": {
+     "D": 80,
+     "Im": 80,
+     "Fm": 80,
+     "Fp": 80,
+     "Im_noR": 80
+    },
+    "verdict": "not supported"
+   },
+   "implicitflip": {
+    "planted_median": 0.0,
+    "random_median": 0.0,
+    "random_ci": [
+     0.0,
+     0.0
+    ],
+    "random_solved": {
+     "D": 0,
+     "Im": 0,
+     "Fm": 0,
+     "Fp": 0,
+     "Im_noR": 0
+    },
+    "verdict": "vacuous (nothing solved on random)"
+   }
+  },
+  "Q5": {
+   "claim": "exploratory: F- vs I- (initial sign) and F- vs I-/no-R (forcing vs rephase off)",
+   "implicit/planted": {
+    "Fm_vs_Im": {
+     "n": 80,
+     "median_log2_ratio": -2.47195665924448,
+     "ci": [
+      -3.567950538570373,
+      -1.7422386074298513
+     ],
+     "wins": 57,
+     "losses": 3
+    },
+    "Fm_vs_Im_noR": {
+     "n": 80,
+     "median_log2_ratio": -1.4237884405187635,
+     "ci": [
+      -2.4397623517268214,
+      -0.03723541718713764
+     ],
+     "wins": 48,
+     "losses": 12
+    }
+   },
+   "implicit/random": {
+    "Fm_vs_Im": {
+     "n": 80,
+     "median_log2_ratio": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "wins": 0,
+     "losses": 0
+    },
+    "Fm_vs_Im_noR": {
+     "n": 80,
+     "median_log2_ratio": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "explicit/planted": {
+    "Fm_vs_Im": {
+     "n": 80,
+     "median_log2_ratio": -0.14833957974318424,
+     "ci": [
+      -0.48749005367615167,
+      0.07551185929146885
+     ],
+     "wins": 44,
+     "losses": 31
+    },
+    "Fm_vs_Im_noR": {
+     "n": 80,
+     "median_log2_ratio": 0.04566605720063388,
+     "ci": [
+      -0.32649823796229194,
+      0.1555712206520728
+     ],
+     "wins": 36,
+     "losses": 36
+    }
+   },
+   "explicit/random": {
+    "Fm_vs_Im": {
+     "n": 80,
+     "median_log2_ratio": -0.03881285779987438,
+     "ci": [
+      -0.06711246598536176,
+      -0.013051993640831129
+     ],
+     "wins": 30,
+     "losses": 9
+    },
+    "Fm_vs_Im_noR": {
+     "n": 80,
+     "median_log2_ratio": 0.0012484509154020193,
+     "ci": [
+      -0.02872674166900933,
+      0.016282697624743162
+     ],
+     "wins": 17,
+     "losses": 15
+    }
+   },
+   "implicitflip/planted": {
+    "Fm_vs_Im": {
+     "n": 80,
+     "median_log2_ratio": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "wins": 0,
+     "losses": 16
+    },
+    "Fm_vs_Im_noR": {
+     "n": 80,
+     "median_log2_ratio": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "wins": 0,
+     "losses": 0
+    }
+   },
+   "implicitflip/random": {
+    "Fm_vs_Im": {
+     "n": 80,
+     "median_log2_ratio": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "wins": 0,
+     "losses": 0
+    },
+    "Fm_vs_Im_noR": {
+     "n": 80,
+     "median_log2_ratio": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "wins": 0,
+     "losses": 0
+    }
+   }
+  }
+ }
+}

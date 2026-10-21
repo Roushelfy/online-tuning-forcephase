@@ -4,6 +4,8 @@
 
 **English summary.** On SAT Competition instances, forced-negative branching (F− = `--phase=0 --forcephase=1`) is almost never better than CaDiCaL's native phase policy (D). We construct a cryptographic family where it should be: LPN instances whose secret s is very sparse (weight k = 3), while the noise e is dense enough (rate 1/5 or 1/4) to keep the problem hard. In the "implicit" encoding the sparsity of s appears only in the solution, never in the constraints, so D cannot learn it by propagation and phase saving, while F− assumes it at every decision. Two controls test the mechanism: "explicit" writes wt(s) ≤ k into the CNF (F−'s prior becomes redundant), and "implicitflip" negates every s literal (the same problem with a dense solution, so F+ should win and F− should lose). An exploratory 20 s test gave solved counts of D 2/16, F− 10/16, I− 2/16. The formal grid and its predictions Q1–Q5 are pre-registered below.
 
+**Formal result (2026-10-21, `lpn_sparse_main`, 2,400 runs, all answers verified).** Q1 supported: on implicit/planted F− solves 61/80 vs D 25/80, median speed-up ×5.5 [CI ×3.0–×11.6]. Q2 supported: writing wt(s) ≤ 3 into the CNF removes F−'s advantage (paired d = +2.23 [+1.17, +3.32]), but explicit instances are easy for every configuration (80/80 each), so a ceiling effect cannot be excluded. Q3 not supported as a whole: the F+ mirror is supported (56/80 vs 19/80, ×4.5), while the F− part is censored (F− 0/80, but D also times out on 61/80 so the median is 0). Q4 vacuous for implicit/implicitflip (nothing solves random instances in 120 s) and not supported for explicit (a small F− gain, ×0.96, shared by every configuration that does not rephase). Q5: changing only the initial sign does nothing, turning rephase off helps, and persistent forcing helps most. Report: [results/lpn_sparse_main/REPORT.md](results/lpn_sparse_main/REPORT.md).
+
 ## 1. 研究问题
 
 主研究的结论是：在竞赛实例上，强制负分支 F− 几乎处处不如原生默认 D（见 `reports/FINAL_REPORT.md`；分支 `research/forcephase-study` 上的独立 M2 复现结果也一致）。这个实验反过来问：
@@ -121,12 +123,12 @@ WORKERS=46 experiments/lpn_sparse_secret/run_all.sh
 - **工作目录**：`LPN_WORK`，默认 `$FP_DATA/lpn_sparse_secret`（没有 `FP_DATA` 时为 `~/lpn-sparse-secret-work`），用于存放二进制、CNF、原始日志和临时 proof。仓库内只写 `results/<EXP>/` 下的小型账本和汇总。
 - **顺序与上限**：先 planted（Q1–Q3），再 random（Q4）。每轮受 `MAX_WALL_HOURS`（默认 5）限制，每轮之后自动续跑一次（上限 1 小时），用于重跑受争用的运行并补齐被截断的部分。重复执行 `run_all.sh` 是幂等的：已完成的运行会被跳过。
 - **计时有效性**：wall/CPU > 1.10 的运行判为受争用（contended），作废并重跑，最多 3 次。在独占节点上可以把 `QUIET_LOAD` 设得很大来关闭等待。本 runner 不做 CPU 绑定。
-- **slurm 示例**（仿照 `scripts/slurm_submit.sh`，未在集群上测试过）：
+- **slurm**（已在 CoreWeave 集群上实际使用，见 `results/lpn_sparse_main/REPORT.md`）：`slurm_run.sh` 在一个独占节点的 gs-srun 容器中执行 `run_all.sh`，并透传上面的环境变量。它提交的是单元素 array 作业，因为在普通（非 array）sbatch 分配里调用 gs-srun 会报 “CPU count per node can not be satisfied”。原先的 `sbatch --wrap` 示例因此不可用。
 
 ```bash
-sbatch --partition=cpu-low --nodes=1 --ntasks=1 --exclusive --mem=0 --time=12:00:00 \
-  --wrap "source /mnt/data/shared/config/env.sh; gs-srun --ntasks=1 --cpus-per-task=\$SLURM_CPUS_ON_NODE \
-          bash -c 'cd $PWD && WORKERS=46 QUIET_LOAD=1000 experiments/lpn_sparse_secret/run_all.sh'"
+export LPN_WORK=$FP_DATA/lpn_sparse_secret
+GRID=smoke T=10 WORKERS=8 experiments/lpn_sparse_secret/slurm_run.sh cpu-low 01:00:00
+WORKERS=46 VERIFY_WORKERS=16 experiments/lpn_sparse_secret/slurm_run.sh cpu-low 24:00:00
 ```
 
 **输出**：
@@ -138,6 +140,8 @@ sbatch --partition=cpu-low --nodes=1 --ntasks=1 --exclusive --mem=0 --time=12:00
 | `results/<EXP>/verify.jsonl` | model 校验和 LRAT 认证复跑 |
 | `results/<EXP>/predictions.md` / `.json` | Q1–Q5 判定与各格表 |
 | `results/<EXP>/effects.png` | 各配置相对 D 的效应图 |
+| `results/<EXP>/posthoc.md` | `posthoc.py`：独立复核（不复用 analyze.py）与事后探索分析 |
+| `results/lpn_sparse_main/REPORT.md` | 正式网格结果报告 |
 
 ## 8. 文件
 
@@ -151,6 +155,8 @@ sbatch --partition=cpu-low --nodes=1 --ntasks=1 --exclusive --mem=0 --time=12:00
 | `lpn_check.py` | SAT 答案的 LPN 语义检查 |
 | `verify_runs.py` | model 校验与 LRAT 认证复跑 |
 | `analyze.py` | Q1–Q5 分析 |
+| `posthoc.py` | 独立复核与事后（非预注册）分析 |
+| `slurm_run.sh` | 在 slurm 独占节点的 gs-srun 容器中运行 `run_all.sh` |
 | `fplib.py` | 配置、DIMACS、solver 调用、checker |
 | `PREREGISTRATION.md` | 预注册记录（按时间顺序，摘自实验日志） |
 | `results/PRIOR_RESULTS.md` | 第 6 节的探索性结果明细 |

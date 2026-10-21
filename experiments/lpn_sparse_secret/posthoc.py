@@ -1,0 +1,182 @@
+"""Independent recheck and post-hoc (exploratory) analysis of an LPN run.
+
+Part A re-derives every per-run cost from the raw ledgers (runs.jsonl,
+verify.jsonl, lpn_semantic.jsonl) without importing analyze.py, and compares
+solved counts and pre-registered point estimates with predictions.json
+(must match exactly); its bootstrap uses a different implementation and
+seed, so only approximate CI agreement is expected.
+Part B adds descriptive analyses that were NOT pre-registered: paired
+win/loss counts with an exact sign test (to read Q3 under censoring),
+the polarity-mirror comparison implicit/F- vs implicitflip/F+, and solved
+time quantiles. Nothing here changes the Q1-Q5 verdicts.
+
+Usage: python3 posthoc.py --exp lpn_sparse_main --manifest benchmarks/lpn_sparse_main.csv
+Writes results/<exp>/posthoc.md
+"""
+
+import argparse
+import csv
+import json
+import math
+import random
+import statistics
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+OFF = 0.1
+
+
+def read_jsonl(p):
+    with open(p) as f:
+        return [json.loads(l) for l in f if l.strip()]
+
+
+def sign_test_p(wins, losses):
+    """Two-sided exact binomial test of wins vs losses (ties dropped)."""
+    n = wins + losses
+    if n == 0:
+        return 1.0
+    k = min(wins, losses)
+    p = sum(math.comb(n, i) for i in range(k + 1)) / 2 ** n
+    return min(1.0, 2 * p)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--exp", required=True)
+    ap.add_argument("--manifest", required=True)
+    a = ap.parse_args()
+    d = HERE / "results" / a.exp
+    man = {r["hash"]: r for r in csv.DictReader(open(HERE / a.manifest))}
+
+    # ---------------------------------------------------- A: independent costs
+    last = {}
+    for r in read_jsonl(d / "runs.jsonl"):
+        prev = last.get(r["run_id"])
+        if prev is None or r.get("attempt", 1) >= prev.get("attempt", 1):
+            last[r["run_id"]] = r
+    ver = {v["vkey"]: v["verify"] for v in read_jsonl(d / "verify.jsonl")}
+    sem = {s["vkey"]: s["semantic"] for s in read_jsonl(d / "lpn_semantic.jsonl")}
+    T = next(iter(last.values()))["timeout_s"]
+    cfgs = sorted({r["config"] for r in last.values()})
+    cost, problems = {}, []
+    for r in last.values():
+        vkey = f"{r['run_id']}#a{r.get('attempt', 1)}"
+        answered = r["status"] in ("SAT", "UNSAT") and r["cpu_s"] <= T
+        if answered:
+            want = "VERIFIED_MODEL" if r["status"] == "SAT" else "VERIFIED_LRAT"
+            ok = ver.get(vkey) == want and (r["status"] == "UNSAT" or sem.get(vkey) == "LPN_OK")
+            if r["status"] == "UNSAT" and man[r["hash"]]["kind"] == "planted":
+                ok = False
+            if not ok:
+                problems.append(r["run_id"])
+            answered = ok
+        cost[(r["hash"], r["config"])] = r["cpu_s"] if answered else 2 * T
+    hashes = [h for h in man if all((h, c) in cost for c in cfgs)]
+
+    def lr(h, c, base="D"):
+        return math.log2((cost[(h, c)] + OFF) / (cost[(h, base)] + OFF))
+
+    def cell(enc, kind):
+        return [h for h in hashes if man[h]["enc"] == enc and man[h]["kind"] == kind]
+
+    def boot_ci(xs, n=4000, seed=7):
+        rng = random.Random(seed)
+        k = len(xs)
+        meds = sorted(statistics.median(xs[rng.randrange(k)] for _ in range(k)) for _ in range(n))
+        return meds[int(0.025 * n)], meds[int(0.975 * n) - 1]
+
+    P = json.loads((d / "predictions.json").read_text())
+    rows, mism = [], 0
+    for key, c in P["cells"].items():
+        enc, kind = key.split("/")
+        hs = cell(enc, kind)
+        for cfg in cfgs:
+            solved = sum(cost[(h, cfg)] < 2 * T for h in hs)
+            same = solved == c[cfg]["solved"]
+            if cfg != "D":
+                xs = [lr(h, cfg) for h in hs]
+                med = statistics.median(xs)
+                lo, hi = boot_ci(xs)
+                same = same and abs(med - c[cfg]["median_log2_ratio"]) < 1e-12
+                rows.append((key, cfg, solved, med, (lo, hi), c[cfg]["ci"], same))
+            mism += not same
+    q2 = []
+    for h in cell("implicit", "planted"):
+        tw = h.replace("lpn-implicit-", "lpn-explicit-")
+        q2.append(lr(tw, "Fm") - lr(h, "Fm"))
+    q2_same = abs(statistics.median(q2) - P["predictions"]["Q2"]["median_d"]) < 1e-12
+    mism += not q2_same
+
+    # ------------------------------------------------------- B: post-hoc
+    def paired(hs, x, y):
+        """x vs y on the same instances: solved by x only / y only / both / neither."""
+        xo = sum(cost[(h, x)] < 2 * T <= cost[(h, y)] for h in hs)
+        yo = sum(cost[(h, y)] < 2 * T <= cost[(h, x)] for h in hs)
+        both = sum(cost[(h, x)] < 2 * T and cost[(h, y)] < 2 * T for h in hs)
+        faster = sum(cost[(h, x)] < cost[(h, y)] / 1.05 for h in hs)
+        slower = sum(cost[(h, x)] > cost[(h, y)] * 1.05 for h in hs)
+        return xo, yo, both, len(hs) - xo - yo - both, faster, slower
+
+    L = [f"# {a.exp}: independent recheck and post-hoc analysis", "",
+         "Generated by `posthoc.py` (does not import `analyze.py`). Part B is **post hoc / exploratory** "
+         "and does not change the pre-registered Q1–Q5 verdicts in [predictions.md](predictions.md).", "",
+         "## A. Independent recheck", "",
+         f"- Runs (latest attempt): {len(last)}; instances with all {len(cfgs)} configurations: {len(hashes)} / {len(man)}.",
+         f"- Answered within T but failing verification or LPN semantics: {len(problems)}.",
+         f"- Solved counts and median log2 ratios vs D, all {len(rows)} (cell, configuration) pairs plus "
+         f"the Q2 paired median: **{'all identical' if mism == 0 else f'{mism} MISMATCHES'}** to predictions.json.",
+         "- Bootstrap CIs recomputed with a separate implementation (4,000 resamples, seed 7) agree up to "
+         "resampling noise:", "",
+         "| cell | config | solved | median r | CI (recheck) | CI (analyze.py) |", "|---|---|---:|---:|---|---|"]
+    for key, cfg, solved, med, ci, ci0, same in rows:
+        L.append(f"| {key} | {cfg} | {solved} | {med:+.2f} | [{ci[0]:+.2f}, {ci[1]:+.2f}] | "
+                 f"[{ci0[0]:+.2f}, {ci0[1]:+.2f}] |" + ("" if same else " **mismatch**"))
+
+    L += ["", "## B. Post hoc (exploratory)", "",
+          "### B1. Paired solved / faster counts (planted cells)", "",
+          "x-only = solved by x but not y; faster/slower = cost ratio beyond 5% (unsolved = 2T). "
+          "Sign test: exact two-sided binomial on x-only vs y-only (instances solved by exactly one).", "",
+          "| cell | x vs y | x-only | y-only | both | neither | x faster | x slower | sign-test p |",
+          "|---|---|---:|---:|---:|---:|---:|---:|---:|"]
+    pairs = [("implicit", "Fm", "D"), ("implicit", "Fm", "Im"), ("implicit", "Fm", "Im_noR"),
+             ("implicit", "Im_noR", "Im"), ("implicit", "Fp", "D"),
+             ("explicit", "Fm", "D"),
+             ("implicitflip", "Fp", "D"), ("implicitflip", "Fm", "D"), ("implicitflip", "Im_noR", "D")]
+    for enc, x, y in pairs:
+        xo, yo, both, nei, fa, sl = paired(cell(enc, "planted"), x, y)
+        L.append(f"| {enc}/planted | {x} vs {y} | {xo} | {yo} | {both} | {nei} | {fa} | {sl} | {sign_test_p(xo, yo):.2g} |")
+
+    L += ["", "### B2. Polarity mirror: F− on implicit vs F+ on implicitflip", "",
+          "Same (A, y) and same logical problem; implicitflip negates every s literal, so F+ there is the "
+          "relative-polarity twin of F− on implicit. CaDiCaL is not fully polarity-symmetric, so only "
+          "approximate agreement is expected.", ""]
+    mir, so, to = [], 0, 0
+    for h in cell("implicit", "planted"):
+        tw = h.replace("lpn-implicit-", "lpn-implicitflip-")
+        mir.append(math.log2((cost[(tw, "Fp")] + OFF) / (cost[(h, "Fm")] + OFF)))
+        so += cost[(h, "Fm")] < 2 * T
+        to += cost[(tw, "Fp")] < 2 * T
+    lo, hi = boot_ci(mir)
+    L += [f"- solved: implicit/F− {so}/{len(mir)}, implicitflip/F+ {to}/{len(mir)}",
+          f"- median log2(cost implicitflip/F+ ÷ cost implicit/F−) = {statistics.median(mir):+.2f} "
+          f"[{lo:+.2f}, {hi:+.2f}] (bootstrap over the {len(mir)} logical instances)", ""]
+
+    L += ["### B3. CPU time of solved runs (s): median / 90th percentile / max", "",
+          "| cell | " + " | ".join(cfgs) + " |", "|---|" + "---|" * len(cfgs)]
+    for key in P["cells"]:
+        enc, kind = key.split("/")
+        hs = cell(enc, kind)
+        out = []
+        for cfg in cfgs:
+            ts = sorted(cost[(h, cfg)] for h in hs if cost[(h, cfg)] < 2 * T)
+            out.append("—" if not ts else
+                       f"{statistics.median(ts):.1f} / {ts[min(len(ts) - 1, int(0.9 * len(ts)))]:.1f} / {ts[-1]:.1f}")
+        L.append(f"| {key} | " + " | ".join(out) + " |")
+    (d / "posthoc.md").write_text("\n".join(L) + "\n")
+    print("\n".join(L))
+    return 1 if mism or problems else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
