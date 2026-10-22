@@ -285,8 +285,7 @@ def main():
             rtr = spearman([x[j] for j in range(len(x)) if splitI[j] == "train"], [y[j] for j in range(len(y)) if splitI[j] == "train"])
             rva = spearman([x[j] for j in range(len(x)) if splitI[j] == "val"], [y[j] for j in range(len(y)) if splitI[j] == "val"])
             if not math.isnan(lo) and (lo > 0 or hi < 0):
-                same = (not math.isnan(rw)) and np.sign(rw) == np.sign(rho) and abs(rw) >= 0.1 \
-                    and np.sign(rtr) == np.sign(rho) and np.sign(rva) == np.sign(rho)
+                same = all((not math.isnan(v)) and np.sign(v) == np.sign(rho) and abs(v) >= 0.1 for v in (rw, rtr, rva))
                 lab = "稳定" if same else "相关"
             else:
                 lab = "未确认"
@@ -295,7 +294,7 @@ def main():
     L += ["## 4. 可观察特点：特征与相对 D 的代价比", "",
           f"响应量（{len(informative)} 个非“都超时 / 无可靠结果”实例）：r_F+ = log2((c_F+ + 1)/(c_D + 1))，r_F− 同理；"
           "负值表示比 D 快。ρ 为 Spearman；CI 为按家族组的 cluster bootstrap（400 次）；ρ_fam 为家族内中心化后的秩相关；"
-          "train/val 为两个 split 分别计算的 ρ。标签：**稳定** = CI 不含 0，且家族内、train、val 的符号都与整体相同（家族内 |ρ| ≥ 0.1）；"
+          "train/val 为两个 split 分别计算的 ρ。标签：**稳定** = CI 不含 0，且家族内、train、val 三个 ρ 都与整体同号、绝对值都 ≥ 0.1；"
           "**相关** = CI 不含 0，但不满足其余条件；**未确认** = CI 含 0。", ""]
     for rn in resp:
         top = sorted([r for r in res_rows if rn in r], key=lambda r: -abs(r[rn][0] if not math.isnan(r[rn][0]) else 0))[:14]
@@ -361,7 +360,8 @@ def main():
     # groups + gain concentration
     fig, axs = plt.subplots(1, 2, figsize=(9.6, 3.8))
     cnts = [sum(r["group"] == g for r in rows) for g in order]
-    axs[0].barh([glabel[g] for g in order][::-1], cnts[::-1], color=["#2a78d6", "#eda100", "#1baf7a", "#a7a6a0", "#d8d7d0", "#e87ba4"][::-1])
+    elabel = {"D-adv": "D better", "Fp-adv": "F+ better", "Fm-adv": "F- better", "close": "close", "all-timeout": "all time out", "invalid": "invalid"}
+    axs[0].barh([elabel[g] for g in order][::-1], cnts[::-1], color=["#2a78d6", "#eda100", "#1baf7a", "#a7a6a0", "#d8d7d0", "#e87ba4"][::-1])
     for i, v in enumerate(cnts[::-1]):
         axs[0].text(v + 2, i, str(v), va="center")
     axs[0].set_xlabel("dev instances"); axs[0].set_title("Winner groups (margin 1.5)", loc="left")
@@ -377,7 +377,7 @@ def main():
     gl = order[:5]
     for ax, k in zip(axs.flat, fshow):
         data = [[r.get(k) for r in rows if r["group"] == g and r.get(k) is not None] for g in gl]
-        ax.boxplot(data, labels=["D", "F+", "F−", "close", "TO"], showfliers=False)
+        ax.boxplot(data, tick_labels=["D", "F+", "F-", "close", "TO"], showfliers=False)
         for j, d in enumerate(data):
             ax.scatter(np.random.RandomState(j).normal(j + 1, 0.06, len(d)), d, s=5, alpha=.35, color="#52514e")
         ax.set_title(k, fontsize=9); ax.grid(alpha=.25)

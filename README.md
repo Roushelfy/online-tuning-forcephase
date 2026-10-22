@@ -6,6 +6,8 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **最终报告：[reports/FINAL_REPORT.md](reports/FINAL_REPORT.md)**（含英文 abstract）。
 
+**三选一研究进度（2026-10-22）**：S0 面板与协议已冻结（[THREE_WAY_PROTOCOL.md](docs/THREE_WAY_PROTOCOL.md)，[DATASET.md](reports/three_way/DATASET.md)）；S1 三固定动作对照与优势组特点已完成（[BASELINE_PROFILE.md](reports/three_way/BASELINE_PROFILE.md)）：dev 上 D 最好（PAR2 382 vs F+ 422、F− 425），oracle 上限 12% 且高度集中，特征与胜负只有弱相关。S2 选择器与 S3 测试进行中。
+
 **当前活动目标：[Agent Goal v4](docs/AGENT_GOAL.md)**（2026-10-22 与老师交流后收敛，尚未执行新实验）：先做简单公式分析或短时间试跑，再在默认 D、强制正 F+、强制负 F− 三种 flag 配置中选择一次。数据覆盖最近五届 SAT Competition **2022–2026**，每年约 **100 道代表性题目**、跨年去重后最多 **500 题**；按家族和规模抽样，不跑全量。观察、重新启动与正式求解都计入预算。具体见 [五年抽样计划](docs/FIVE_YEAR_SAMPLE_PLAN.md)。旧多次切换研究转为历史补充，旧 v3 goal 已[存档](docs/AGENT_GOAL_SWITCHING_V3.md)。
 
 **本阶段顺序**：先在五年抽样的开发题上运行 D/F+/F− 三种固定模式，比较每题的胜负与差距；再研究默认/强制正/强制负优势题的公式结构与短试跑特点；最后把可识别的特点转为一次性选择规则。先交付 `reports/three_way/BASELINE_PROFILE.md`，再训练模型。接近、全部超时及不确定实例单独保留；最终测试题不参与找规律。
