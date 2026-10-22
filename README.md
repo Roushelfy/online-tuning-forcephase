@@ -8,6 +8,8 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **当前活动目标：[Agent Goal v4](docs/AGENT_GOAL.md)**（2026-10-22 与老师交流后收敛，尚未执行新实验）：先做简单公式分析或短时间试跑，再在默认 D、强制正 F+、强制负 F− 三种 flag 配置中选择一次。数据覆盖最近五届 SAT Competition **2022–2026**，每年约 **100 道代表性题目**、跨年去重后最多 **500 题**；按家族和规模抽样，不跑全量。观察、重新启动与正式求解都计入预算。具体见 [五年抽样计划](docs/FIVE_YEAR_SAMPLE_PLAN.md)。旧多次切换研究转为历史补充，旧 v3 goal 已[存档](docs/AGENT_GOAL_SWITCHING_V3.md)。
 
+**本阶段顺序**：先在五年抽样的开发题上运行 D/F+/F− 三种固定模式，比较每题的胜负与差距；再研究默认/强制正/强制负优势题的公式结构与短试跑特点；最后把可识别的特点转为一次性选择规则。先交付 `reports/three_way/BASELINE_PROFILE.md`，再训练模型。接近、全部超时及不确定实例单独保留；最终测试题不参与找规律。
+
 ## 第一轮结论速览
 
 状态：第一轮 M0–M5 于 2026-10-19 完成；同日按 [Agent Goal v2](docs/AGENT_GOAL_AUDIT_V2.md) 完成**审计修正与科研收尾**（[纠正协议](docs/CORRECTION_PROTOCOL.md)、[逐项关闭记录](reports/AUDIT_CLOSURE.md)）。结论是**有边界的负结果**。数据：SAT Competition 2023–2026 主赛道（≤100 MB），CaDiCaL 3.0.1，T = 300 s，所有 solved 结果经模型检查或 LRAT 证明检查。原始任务：[AGENT_GOAL_INITIAL.md](docs/AGENT_GOAL_INITIAL.md)；第一轮最终报告存档：[FINAL_REPORT_round1.md](reports/FINAL_REPORT_round1.md)。
