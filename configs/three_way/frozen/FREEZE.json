@@ -1,0 +1,21 @@
+{
+ "frozen_utc": "2026-10-22T21:27:45Z",
+ "static_selector": "configs/three_way/frozen/static.json (logreg, static features; CV PAR2 392.95 vs D 382.10)",
+ "probe_selector": "configs/three_way/frozen/probe.json (logreg, static + D probe 0.1 s; CV PAR2 387.28 vs D 382.10)",
+ "best_fixed": "D (dev PAR2 382.10; F+ 422.01; F- 425.11)",
+ "test_runs_started": false,
+ "sha256": {
+  "configs/three_way/frozen/static.json": "334760145e6fc9eab5ab815223d86b7e14a71dddfe931c6836605e7bb6295fd4",
+  "configs/three_way/frozen/probe.json": "f0e3f7eeff8d8b79fd6648acfec6193ce824b27b620b5cbfe5a025451c7afbd5",
+  "configs/three_way/frozen/best_fixed.json": "03cf578ee3b9670dc1470bc4780b53291af0e65a6ea3ee460e37479112aa2e93",
+  "scripts/three_way/twlib.py": "ada899c863cec2d4a0793598f42e9b89380f97f73df6d001b2b7b283bcdbd372",
+  "scripts/three_way/select_solve.py": "e15fac78f59566807178e741f2f4bc1eaa4218f97fc2f2dabb46f9f67d54ca67",
+  "scripts/three_way/twrun.py": "fc4c47130e1f477c10d6462485b518ff3a67cf7654793b28ee49349984e0fd7a",
+  "configs/three_way/tw_test_fixed.json": "a553014a79c6fee8d7789473a59660163397b5f9ca0a17e7f346a1a96e852806",
+  "configs/three_way/test_hashes.txt": "08f92ea3a509ae5cf3a89e04c247e27a00795e2a3473177c2ccc52c8f00d6524",
+  "results/three_way/manifest.csv": "b2ae0147b1cee58ba2d9ea0da6aa60ace1d7c3d255f07c07b0f64a0a55a65a2b",
+  "build/tools/cnfprofile": "f3aa2e849f2557bbc59576734ef3cbe9ce3bd1b19269ea725437d49ae877be70",
+  "build/fpc/cadical": "6cf084699e872250ffa4d9a186d8ad7fe3829d06fc2d898294f2ac5e989ba884",
+  "docs/THREE_WAY_PROTOCOL.md": "1fb75c7b4b66f8024c4fa556f91ab2e29f791ba70e9a85267cfcce53c9266603"
+ }
+}
