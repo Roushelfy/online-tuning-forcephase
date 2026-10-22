@@ -1,0 +1,10 @@
+{
+ "name": "tw_dev_fixed",
+ "description": "Three-way study: fixed D / F+ / F- on the dev panel (train+val; S1a); round-1 run policy (build/fpc, seed 0, T = 300 s CPU, 16 GB, LRAT, telemetry) so identical round-1 runs are reused by run id",
+ "instances": {"hash_file": "configs/three_way/dev_hashes.txt"},
+ "configs": ["D", "Fplus", "Fminus"],
+ "seeds": [0],
+ "timeout": 300,
+ "memory_mb": 16000,
+ "proof": "lrat"
+}

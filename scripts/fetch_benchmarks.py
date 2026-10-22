@@ -2,12 +2,15 @@
 """Download and checksum the CNF instances listed in benchmarks/manifest.csv.
 
 Usage: scripts/fetch_benchmarks.py [--splits train,val,test,t2026] [--jobs 6] [--hash-file list.txt]
+       scripts/fetch_benchmarks.py --manifest results/three_way/manifest.csv \
+           --checksums results/three_way/checksums.csv --splits train,val,test   # three-way panel
 
 Files go to $FP_DATA/benchmarks/cnf/<hash>.cnf.xz (FP_DATA defaults to
 /mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase).  For every
 file the SHA-256 of the compressed download, the SHA-256 of the decompressed
 CNF and its DIMACS header are written to benchmarks/checksums.csv (merged
-with existing rows, sorted by hash).  Existing files whose recorded
+with existing rows, sorted by hash; --checksums writes a separate file and
+reuses rows of benchmarks/checksums.csv for files that are already present).  Existing files whose recorded
 compressed hash matches are not downloaded again.
 """
 
@@ -89,18 +92,23 @@ def main():
     ap.add_argument("--splits", default="train,val,test,t2026")
     ap.add_argument("--jobs", type=int, default=6)
     ap.add_argument("--hash-file", help="only fetch the hashes listed in this file")
+    ap.add_argument("--manifest", default=os.path.join(ROOT, "benchmarks", "manifest.csv"))
+    ap.add_argument("--checksums", default=CHECKSUMS, help="checksum file to write (default benchmarks/checksums.csv)")
     a = ap.parse_args()
     os.makedirs(CNF_DIR, exist_ok=True)
     splits = set(a.splits.split(","))
-    rows = [r for r in csv.DictReader(open(os.path.join(ROOT, "benchmarks", "manifest.csv")))
+    rows = [r for r in csv.DictReader(open(a.manifest))
             if r["split"] in splits]
     if a.hash_file:
         keep = {l.split()[0] for l in open(a.hash_file) if l.strip() and not l.startswith("#")}
         rows = [r for r in rows if r["hash"] in keep]
     known = {}
-    if os.path.exists(CHECKSUMS):
-        known = {r["hash"]: r for r in csv.DictReader(open(CHECKSUMS))}
-    out = dict(known)
+    for path in dict.fromkeys([CHECKSUMS, a.checksums]):
+        if os.path.exists(path):
+            known.update({r["hash"]: r for r in csv.DictReader(open(path))})
+    out = dict(known) if a.checksums == CHECKSUMS else {}
+    if a.checksums != CHECKSUMS and os.path.exists(a.checksums):
+        out = {r["hash"]: r for r in csv.DictReader(open(a.checksums))}
     status = {}
     with cf.ThreadPoolExecutor(a.jobs) as ex:
         futs = {ex.submit(fetch, r, known): r for r in rows}
@@ -117,7 +125,7 @@ def main():
                 print(f"FAILED {r['hash']}: {st}", file=sys.stderr)
             if i % 100 == 0:
                 print(f"{i}/{len(rows)} {status}", flush=True)
-    with open(CHECKSUMS, "w", newline="") as f:
+    with open(a.checksums, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS)
         w.writeheader()
         for h in sorted(out):

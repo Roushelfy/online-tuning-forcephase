@@ -1,0 +1,131 @@
+{
+ "seed": 20261022,
+ "quota": 100,
+ "cap": 10,
+ "max_bytes": 1000000000.0,
+ "official_lists": {
+  "2022": {
+   "file": "gbd_getinstances_main_2022.txt",
+   "sha256": "3726ae3459564c8c1ef8b9f6af61028df64f23b6a96081c002386fa1ec0fc627",
+   "n": 400
+  },
+  "2023": {
+   "file": "gbd_getinstances_main_2023.txt",
+   "sha256": "6c21f0a721f940cdb1a4de7a6204d0818bcaf604c5343c5b39fd17dd9435d057",
+   "n": 400
+  },
+  "2024": {
+   "file": "gbd_getinstances_main_2024.txt",
+   "sha256": "2a811049f9ce83c75301edc87f8ae3a889cf5960e70aa38b393bc62239e1e2f0",
+   "n": 400
+  },
+  "2025": {
+   "file": "gbd_getinstances_main_2025.txt",
+   "sha256": "7c444f6dd65920a8381033d1ba8cc781d796c2c12d4ba7f72b098efdf0f1d8fd",
+   "n": 400
+  },
+  "2026": {
+   "file": "track_main_2026.uri",
+   "sha256": "d4e5d76862bc5e8825e495a4f6b05163fc2ab4d706de0a3fd3defacf7808b995",
+   "n": 400
+  }
+ },
+ "strata_bounds_log10_clauses": {
+  "2022": [
+   4.945468585131819,
+   6.185742399745163
+  ],
+  "2023": [
+   4.435828445806947,
+   5.495547112582195
+  ],
+  "2024": [
+   4.132707844855448,
+   5.393852361390711
+  ],
+  "2025": [
+   4.647373188597217,
+   5.917046816278592
+  ],
+  "2026": [
+   4.505448453187231,
+   5.74979426915079
+  ]
+ },
+ "years": {
+  "2022": {
+   "problems": 375,
+   "eligible": 359,
+   "excluded_bytes": 16,
+   "groups": 54,
+   "selected": 100,
+   "uncovered_groups": [],
+   "groups_at_cap": [],
+   "unused_quota": 0
+  },
+  "2023": {
+   "problems": 395,
+   "eligible": 373,
+   "excluded_bytes": 22,
+   "groups": 55,
+   "selected": 100,
+   "uncovered_groups": [],
+   "groups_at_cap": [],
+   "unused_quota": 0
+  },
+  "2024": {
+   "problems": 392,
+   "eligible": 376,
+   "excluded_bytes": 16,
+   "groups": 61,
+   "selected": 100,
+   "uncovered_groups": [],
+   "groups_at_cap": [],
+   "unused_quota": 0
+  },
+  "2025": {
+   "problems": 372,
+   "eligible": 360,
+   "excluded_bytes": 12,
+   "groups": 78,
+   "selected": 100,
+   "uncovered_groups": [],
+   "groups_at_cap": [],
+   "unused_quota": 0
+  },
+  "2026": {
+   "problems": 331,
+   "eligible": 329,
+   "excluded_bytes": 2,
+   "groups": 79,
+   "selected": 100,
+   "uncovered_groups": [],
+   "groups_at_cap": [],
+   "unused_quota": 0
+  }
+ },
+ "test_target": 100.0,
+ "problems": 1865,
+ "panel": 500,
+ "split_instances": {
+  "test": 99,
+  "train": 301,
+  "val": 100
+ },
+ "split_groups": {
+  "test": 31,
+  "train": 96,
+  "val": 30
+ },
+ "split_unexposed_instances": {
+  "test": 79,
+  "train": 48,
+  "val": 9
+ },
+ "gbd": {
+  "meta.db": "5b8bbc767bc5300cca6a12717fb2d7c8d52ccee24aced4447d71846352744ff3",
+  "base.db": "15a3d19fd23ba72dd7c77b1b86113873f160760fa1c9710e9e5ed6a23ba29d84"
+ },
+ "manifest_sha256": "b2ae0147b1cee58ba2d9ea0da6aa60ace1d7c3d255f07c07b0f64a0a55a65a2b",
+ "candidates_sha256": "acfceefb541828488cb8f002bb5465ee1940fc16065cb2aff21c78acd55a928f"
+}
