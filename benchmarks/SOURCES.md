@@ -20,3 +20,12 @@ To rebuild from scratch:
     sha256sum meta.db base.db    # compare with the values above (GBD is updated over time)
     scripts/build_manifest.py --gbd $FP_DATA/benchmarks/gbd --out benchmarks
     scripts/fetch_benchmarks.py --splits train,val,test,t2026
+
+
+## Next-stage sampling plan (2026-10-22; not yet executed)
+
+The current study uses representative subsets of SAT Competition **2022–2026 main tracks**, targeting about **100 problems per year** and no more than **500 unique problems** overall, rather than all competition instances. See [the five-year sampling plan](../docs/FIVE_YEAR_SAMPLE_PLAN.md) and [current goal](../docs/AGENT_GOAL.md).
+
+The source snapshot and rebuild command above describe the historical 2023–2026 dataset only; they do not create the new five-year sample or fetch 2022. The execution agent must add a separate sampling entry point and manifest under `results/three_way/`, verify yearly membership against the source lists, record the new database hashes, cover families and size strata, deduplicate across years, and record prior exposure. Download only the selected CNFs and preselected replacements. Keep the old manifest and checksums intact.
+
+New selection rules must be fixed before measuring the new policies and must not use which flag wins. Resource exclusions and any missing year/family coverage must be reported. Old test/t2026 results are exposed evidence, not a new blind test. No new benchmark collection or solver experiment is claimed by this documentation update.

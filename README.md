@@ -1,12 +1,12 @@
 # Online Tuning of Forcephase
 
-Research question: **When should a CDCL SAT solver use its native phase policy, and when should it force negative decision literals? Which observations available during solving predict that choice?**
+Research question: **Can cheap formula analysis or a short search probe select once among CaDiCaL’s default, forced-positive, and forced-negative configurations, and improve total solving cost?**
 
 本仓库是科研项目 **Online Tuning Forcephase H:1** 的完整研究记录：固定版本 CaDiCaL 上的最小研究补丁、可复现的实验流水线、全部运行记录的汇总、分阶段报告和最终中文研究报告。
 
 **最终报告：[reports/FINAL_REPORT.md](reports/FINAL_REPORT.md)**（含英文 abstract）。
 
-**当前活动目标：[Agent Goal v3](docs/AGENT_GOAL.md)**（2026-10-19 设定，尚未执行）：先复核已有有限策略 oracle 的收益空间，再补采修复后的在线观测，按证据决定是否研究最多两次切换；候选通过开发与部署门槛后，才做一次新的独立确认。此阶段不把上一轮候选失败解释为所有在线切换无效。
+**当前活动目标：[Agent Goal v4](docs/AGENT_GOAL.md)**（2026-10-22 与老师交流后收敛，尚未执行新实验）：先做简单公式分析或短时间试跑，再在默认 D、强制正 F+、强制负 F− 三种 flag 配置中选择一次。数据覆盖最近五届 SAT Competition **2022–2026**，每年约 **100 道代表性题目**、跨年去重后最多 **500 题**；按家族和规模抽样，不跑全量。观察、重新启动与正式求解都计入预算。具体见 [五年抽样计划](docs/FIVE_YEAR_SAMPLE_PLAN.md)。旧多次切换研究转为历史补充，旧 v3 goal 已[存档](docs/AGENT_GOAL_SWITCHING_V3.md)。
 
 ## 第一轮结论速览
 
@@ -24,7 +24,9 @@ Research question: **When should a CDCL SAT solver use its native phase policy, 
 
 | 文档 | 内容 |
 | --- | --- |
-| [当前 Agent Goal v3](docs/AGENT_GOAL.md) | 下一阶段：有限策略收益空间、v2 观测、条件式多次切换与独立确认 |
+| [当前 Agent Goal v4](docs/AGENT_GOAL.md) | 简单观察后在 D/F+/F− 中选择一次，含观察成本的真实评估 |
+| [五年代表性抽样](docs/FIVE_YEAR_SAMPLE_PLAN.md) | 2022–2026，每年约 100 题，家族/规模覆盖、跨年去重与曝光标记 |
+| [旧在线切换目标 v3](docs/AGENT_GOAL_SWITCHING_V3.md) | 历史目标存档，本阶段不继续扩展反复切换 |
 | [研究计划](docs/RESEARCH_PLAN.md)、[实验协议](docs/EXPERIMENT_PROTOCOL.md)、[审计目标 v2](docs/AGENT_GOAL_AUDIT_V2.md) | 原问题、第一轮协议与审计交付标准 |
 | [相关工作](docs/RELATED_WORK.md)、[源码审计](docs/SOURCE_AUDIT.md) | 文献与固定源码事实 |
 | [实现设计](docs/DESIGN.md) | 补丁、控制器语义、切换状态处理、遥测 schema、策略文件格式 |
