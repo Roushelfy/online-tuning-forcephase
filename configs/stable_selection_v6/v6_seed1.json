@@ -1,0 +1,21 @@
+{
+ "name": "v6_seed1",
+ "description": "Goal v6 R1: fixed D / F+ / F- with solver seed 1 (--seed=1) on the 30-instance diagnostic panel; v4 run policy (build/fpc, T = 300 s CPU, 16 GB, LRAT, telemetry); identical runs of v5_seed1 are reused by run id",
+ "instances": {
+  "hash_file": "configs/stable_selection_v6/diag30.txt"
+ },
+ "configs": [
+  "D",
+  "Fplus",
+  "Fminus"
+ ],
+ "seeds": [
+  0
+ ],
+ "extra_args": [
+  "--seed=1"
+ ],
+ "timeout": 300,
+ "memory_mb": 16000,
+ "proof": "lrat"
+}

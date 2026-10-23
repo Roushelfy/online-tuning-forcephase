@@ -1,0 +1,141 @@
+{
+ "diag_D-adv": {
+  "n": 10,
+  "families": 10,
+  "strata": {
+   "small": 4,
+   "mid": 3,
+   "large": 3
+  },
+  "years": {
+   "2025": 1,
+   "2026": 2,
+   "2023": 6,
+   "2024": 1
+  }
+ },
+ "diag_Fp-adv": {
+  "n": 10,
+  "families": 10,
+  "strata": {
+   "small": 4,
+   "mid": 4,
+   "large": 2
+  },
+  "years": {
+   "2023": 2,
+   "2025": 2,
+   "2024": 2,
+   "2022": 1,
+   "2026": 3
+  }
+ },
+ "diag_Fm-adv": {
+  "n": 10,
+  "families": 10,
+  "strata": {
+   "small": 4,
+   "mid": 3,
+   "large": 3
+  },
+  "years": {
+   "2022": 3,
+   "2026": 3,
+   "2025": 1,
+   "2023": 3
+  }
+ },
+ "eng12": {
+  "strata": {
+   "large": 3,
+   "mid": 5,
+   "small": 4
+  },
+  "years": {
+   "2024": 3,
+   "2025": 3,
+   "2022": 3,
+   "2023": 2,
+   "2026": 1
+  }
+ },
+ "check30": {
+  "strata": {
+   "large": 12,
+   "mid": 9,
+   "small": 9
+  },
+  "years": {
+   "2023": 6,
+   "2026": 6,
+   "2022": 6,
+   "2025": 5,
+   "2024": 7
+  }
+ },
+ "validate_2022": {
+  "n": 12,
+  "non_dev_family": 9,
+  "dev_family": 3,
+  "strata": {
+   "small": 4,
+   "mid": 4,
+   "large": 4
+  },
+  "pool_non_dev": 84,
+  "pool_dev": 118
+ },
+ "validate_2023": {
+  "n": 7,
+  "non_dev_family": 2,
+  "dev_family": 5,
+  "strata": {
+   "large": 7
+  },
+  "pool_non_dev": 2,
+  "pool_dev": 5
+ },
+ "validate_2024": {
+  "n": 12,
+  "non_dev_family": 4,
+  "dev_family": 8,
+  "strata": {
+   "mid": 1,
+   "large": 11
+  },
+  "pool_non_dev": 9,
+  "pool_dev": 12
+ },
+ "validate_2025": {
+  "n": 12,
+  "non_dev_family": 7,
+  "dev_family": 5,
+  "strata": {
+   "large": 12
+  },
+  "pool_non_dev": 14,
+  "pool_dev": 12
+ },
+ "validate_2026": {
+  "n": 12,
+  "non_dev_family": 5,
+  "dev_family": 7,
+  "strata": {
+   "large": 12
+  },
+  "pool_non_dev": 11,
+  "pool_dev": 17
+ },
+ "validate": {
+  "n": 55,
+  "groups": 30,
+  "non_dev_family": 27,
+  "strata": {
+   "small": 4,
+   "mid": 5,
+   "large": 46
+  },
+  "pool": 284,
+  "never_seen_family_groups": 0
+ }
+}

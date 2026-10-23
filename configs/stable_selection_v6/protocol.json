@@ -1,0 +1,240 @@
+{
+ "version": 6,
+ "protocol": "docs/STABLE_SELECTION_PROTOCOL_V6.md",
+ "seed": 20261023,
+ "budget_cpu_hours": {
+  "v6_cap": 60,
+  "cumulative_cap": 200,
+  "ledger_before_v6": 122.28,
+  "stages": {
+   "R0_R1": 16,
+   "R2_R3": 8,
+   "dev_wrapper_check": 6,
+   "validation": 28,
+   "reserve": 2
+  }
+ },
+ "solver": {
+  "cadical": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+  "formal_binary": "build/fpc/cadical",
+  "formal_sha256": "6cf084699e872250ffa4d9a186d8ad7fe3829d06fc2d898294f2ac5e989ba884",
+  "probe_binary": "build/obs/cadical",
+  "probe_sha256": "7417d7eb5e85e7e7619f3724cf3cd7482bc62a3a5314ff03eae07fb8f437e332",
+  "actions": {
+   "D": [
+    "--phase=1",
+    "--forcephase=0"
+   ],
+   "Fp": [
+    "--phase=1",
+    "--forcephase=1"
+   ],
+   "Fm": [
+    "--phase=0",
+    "--forcephase=1"
+   ]
+  },
+  "policy": {
+   "T": 300,
+   "par2": 600,
+   "memory_mb": 16000,
+   "proof": "lrat",
+   "telemetry": true,
+   "formal_seed": 0
+  }
+ },
+ "panels": {
+  "diag30": "configs/stable_selection_v6/diag30.txt",
+  "eng12": "configs/stable_selection_v6/eng12.txt",
+  "check30": "configs/stable_selection_v6/check30.txt",
+  "validate": "configs/stable_selection_v6/validate_hashes.txt",
+  "folds": "configs/observations_v5/folds.csv"
+ },
+ "R1": {
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "experiments": [
+   "configs/stable_selection_v6/v6_seed1.json",
+   "configs/stable_selection_v6/v6_seed2.json"
+  ],
+  "q": "(min over the other two actions of c + 1) / (c_a + 1), c = PAR2 cost",
+  "stable": "q >= 1.5 on >= 2 of 3 seeds and q >= 1 on the others",
+  "shrink_rule": "stable share of original F+/F- advantage < 30% -> deploy at most 1 candidate"
+ },
+ "R2": {
+  "ls6": {
+   "tool": "tools/obsprofile6.c",
+   "starts": [
+    "zero",
+    "one",
+    "random"
+   ],
+   "flips_candidates": [
+    10000,
+    50000
+   ],
+   "rng": "seed 20261023 + 1000 + start index",
+   "section_cpu_cap_s": 1.0,
+   "choice_rule": "W=50000 if ls completes on >= 10/12 eng12 and median CPU <= 0.3 s else 10000",
+   "repro_check": "3 repeats on eng12: all non-timing features identical"
+  },
+  "satzilla": {
+   "repo": "https://github.com/hadarshavit/satzilla",
+   "commit": "6209d485108381ecb403c5af8aa7134645bae7fb",
+   "build": "make feature (src/), in the gs-srun container",
+   "excluded_groups": [
+    "ls",
+    "cl"
+   ],
+   "preprocess_timeout": 0,
+   "candidate_groups": [
+    "base",
+    "structure",
+    "ncnf-graphs",
+    "ncnf-constraints",
+    "ncnf-rwh",
+    "unit",
+    "dia",
+    "sp",
+    "lp",
+    "lobjois"
+   ],
+   "group_choice_rule": "keep groups completing on >= 9/12 eng12 with median CPU <= 0.5 s (3 s cap per group run)",
+   "dev_cap_s": 3.0,
+   "engineering_cap_cpu_hours": 2
+  }
+ },
+ "R3": {
+  "packages": {
+   "P1": {
+    "obsprofile6": [
+     "s28"
+    ],
+    "scap": 3.0
+   },
+   "P2": {
+    "obsprofile6": [
+     "resid",
+     "ls"
+    ],
+    "scap": 3.0
+   },
+   "P3": {
+    "obsprofile6": [
+     "s28"
+    ],
+    "satzilla": "chosen groups",
+    "scap": 3.0
+   },
+   "P4": {
+    "obsprofile6": [
+     "resid",
+     "bilat",
+     "graph"
+    ],
+    "scap": 3.0
+   }
+  },
+  "comparisons": [
+   "P1|RG",
+   "P1|M05",
+   "P2|RG",
+   "P2|M05",
+   "P3|RG",
+   "P3|M05",
+   "R-LS",
+   "R-SYM"
+  ],
+  "readers": {
+   "RG": {
+    "alpha": [
+     1,
+     10,
+     100
+    ],
+    "theta": [
+     0,
+     2,
+     5,
+     10,
+     20,
+     50,
+     100,
+     null
+    ]
+   },
+   "M05": {
+    "logistic_C": [
+     0.1,
+     1
+    ],
+    "time_ridge_alpha": 10,
+    "time_scale": "log1p + Duan smearing",
+    "theta": [
+     0,
+     2,
+     5,
+     10,
+     20,
+     50,
+     100,
+     null
+    ]
+   },
+   "rules": {
+    "depth": 2,
+    "min_samples_leaf": 15,
+    "leaf_support_min": 15,
+    "leaf_families_min": 3,
+    "theta": [
+     0,
+     2,
+     5,
+     10,
+     20,
+     50,
+     100,
+     null
+    ],
+    "R-LS": "6 LS6 start-difference features (l6_ prefix)",
+    "R-SYM": [
+     "b03_props_lr_top16",
+     "b03_props_lr_mean",
+     "d01_reach_lr_mean",
+     "d01_reach_pos_gt_frac",
+     "c04_inverse_share",
+     "b02_fail_any_frac"
+    ]
+   }
+  },
+  "kappa_s": 0.032,
+  "promotion": "OOF gain > 0, at most 2 (1 under the shrink rule); none positive -> best one as negative-control deployment",
+  "real_check": "check30 with fold models"
+ },
+ "R4": {
+  "list": "configs/stable_selection_v6/validate_hashes.txt",
+  "n": 55,
+  "freeze_tag": "v6-freeze",
+  "runs": "3 fixed actions + promoted wrappers, same batch interleaved",
+  "bootstrap": {
+   "resamples": 10000,
+   "seed": 20261023
+  },
+  "practical_target_pct": 2,
+  "reliable": "CI lower bound > 0",
+  "subsets": [
+   "all",
+   "family not in dev"
+  ]
+ },
+ "exposure": {
+  "v4_dev401": "exposed (all results)",
+  "v4_test99": "exposed",
+  "v5_confirm78": "exposed",
+  "v5_variants": "flipall/perm1 on the v5 engineering panel, exposed",
+  "round1": "exposed"
+ }
+}

@@ -1,0 +1,14 @@
+# goal v6 engineering panel (12 dev, manifest only, seed 20261023)
+# hash year stratum family_group
+0ae917c2e0c1d39cbe411c29b2f5ff08 2025 mid discrete-logarithm
+18d4124324b56e434118f9ef72198d84 2025 large cellular-automata
+2a53e9c6a25a50d753a94ead66065826 2024 mid popularity-similarity
+337ee3de87f824f99508e65faa6e1a0b 2026 mid social-golfer
+3ff263696219ca9e301b0a1b345eb9aa 2022 small set-covering
+4551c996fc6f5fbe62b43076abb25077 2022 mid knights-problem
+45742d067cc851edc1201d8a02586eac 2025 small mutilated-chessboard
+5cc5e3d24402696ed4ec03edfa42d663 2022 large sudoku
+79c109a8c1da53c6b636d3835f11a19d 2023 mid grs-fp-comm
+945d67baeb7860df648ab6ef4782d5ed 2023 small argumentation
+a5dc6226e4c0bebb06926efe55640995 2024 small disagreement-parity
+fa50d69adc71fe4daf7f9088cd02864a 2024 large random-circuits
