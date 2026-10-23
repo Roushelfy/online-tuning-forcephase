@@ -54,6 +54,16 @@ def sha(p):
     return fprun.sha256_file(p)
 
 
+def replace_json(path, obj):
+    """Overwrite (heartbeats); fprun.atomic_write_json never replaces an existing file."""
+    tmp = f"{path}.tmp.{os.getpid()}"
+    with open(tmp, "w") as f:
+        json.dump(obj, f, sort_keys=True)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp, path)
+
+
 def job_key(j, stage):
     key = {"schema": 1, "stage": stage, "instance": j["instance"], "method": j["method"], "kind": j["kind"],
            "formal_sha256": sha(FORMAL), "mem_mb": MEM_MB, "cap_cpu": j.get("cap_cpu"), "seed": 0, "proof": "lrat"}
@@ -259,7 +269,7 @@ def main():
                   "budget_cpu_hours": a.budget_cpu_hours,
                   "jobs": [{"id": j.id, "instance": j.spec["instance"], "method": j.spec["method"], "cpu": j.cpu,
                             "state": "finished" if j.done else ("stopping" if j.stop_reason else "running")} for j in jobs]}
-            fprun.atomic_write_json(os.path.join(stage_dir, "progress.json"), hb)
+            replace_json(os.path.join(stage_dir, "progress.json"), hb)
         if not running:
             break
         time.sleep(2)

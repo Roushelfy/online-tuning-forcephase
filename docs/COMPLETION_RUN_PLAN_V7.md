@@ -110,3 +110,7 @@
    - 处理：约 2 分钟后发现并取消，没有任何完成记录，只有一个心跳文件，留档于 `runs/completion_v7/void_stage1_h100_744154`。
    - 计费：作废尝试按 29 核 × 130 s 的上限 1.05 CPU 核时记账，见 `results/completion_v7/voided_attempts.json`。
    - 重新提交：以 `--array=0-0` 提交，仍为 72 个 CPU 的非独占分配，重新从头运行。
+3. **阶段 1 的进程内心跳只写了一次**（运行中发现，不影响任何结果记录）：
+   - 原因：`longrun.py` 用 `fprun.atomic_write_json` 写 `progress.json`，这个函数为保护结果记录而“从不覆盖已有文件”，所以第一次之后的心跳都被静默丢弃。每个运行的结果记录只写一次，不受影响。
+   - 处理：没有重启正在运行的阶段 1。`longrun.py` 改为心跳用覆盖写（`replace_json`），只影响以后的阶段；阶段 1 另用 `scripts/completion_v7/external_heartbeat.py` 从作业节点的 `/proc` 定期采样每个进程的实际 CPU，写入 `runs/completion_v7/stage1/heartbeat_external/`（只新增不覆盖）。
+   - 影响：心跳只用于控制器崩溃时给出实际下界；正常结束时以每个运行的结果记录为准。

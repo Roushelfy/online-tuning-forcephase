@@ -60,30 +60,8 @@ def norm_v7(r, method, cpu, derived=None):
             "host": r.get("host"), "stop_reason": r.get("stop_reason")}
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--stages", default="stage1,stage2")
-    a = ap.parse_args()
-    P = panel()
-    reuse = json.load(open(os.path.join(RES, "reuse_records.json")))
-    v6 = {(r["instance"], r["method"]): r for r in reuse}
-    v7 = v7_records([s for s in a.stages.split(",") if os.path.isdir(os.path.join(OUT, s))])
-    attempts = []
-    fixed7, wrap7 = {}, {}
-    for r in v7:
-        attempts.append({"instance": r["instance"], "method": r["method"], "kind": r["kind"], "stage": r["_stage"],
-                         "status": r["status"], "cpu": r["cpu"], "formal_cpu": r.get("formal_cpu"), "action": r.get("action"),
-                         "stop_reason": r.get("stop_reason"), "exit_code": r["exit_code"], "host": r["host"], "id": r["id"]})
-        if r["status"] not in VALID:
-            continue
-        if r["kind"] == "fixed":
-            prev = fixed7.get((r["instance"], r["method"]))
-            # several valid stages for one arm (stage-2 arms restart from scratch): the longest actual run
-            # is the one whose bound / completion is the measurement of record; it is fixed by stage order
-            if prev is None or r["_stage"] > prev["_stage"]:
-                fixed7[(r["instance"], r["method"])] = r
-        else:
-            wrap7[r["instance"]] = r
+def adopt(P, v6, fixed7, wrap7):
+    """One measurement per instance x method by the fixed adoption order."""
     out = []
     for h in P:
         for m in ("D", "Fp", "Fm"):
@@ -111,6 +89,34 @@ def main():
         else:
             out.append({"instance": h, "method": "P1_M05_long", "status": "missing", "cpu_seconds": None,
                         "verified": False, "measurement_valid": False})
+    return out
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--stages", default="stage1,stage2")
+    a = ap.parse_args()
+    P = panel()
+    reuse = json.load(open(os.path.join(RES, "reuse_records.json")))
+    v6 = {(r["instance"], r["method"]): r for r in reuse}
+    v7 = v7_records([s for s in a.stages.split(",") if os.path.isdir(os.path.join(OUT, s))])
+    attempts = []
+    fixed7, wrap7 = {}, {}
+    for r in v7:
+        attempts.append({"instance": r["instance"], "method": r["method"], "kind": r["kind"], "stage": r["_stage"],
+                         "status": r["status"], "cpu": r["cpu"], "formal_cpu": r.get("formal_cpu"), "action": r.get("action"),
+                         "stop_reason": r.get("stop_reason"), "exit_code": r["exit_code"], "host": r["host"], "id": r["id"]})
+        if r["status"] not in VALID:
+            continue
+        if r["kind"] == "fixed":
+            prev = fixed7.get((r["instance"], r["method"]))
+            # several valid stages for one arm (stage-2 arms restart from scratch): the longest actual run
+            # is the one whose bound / completion is the measurement of record; it is fixed by stage order
+            if prev is None or r["_stage"] > prev["_stage"]:
+                fixed7[(r["instance"], r["method"])] = r
+        else:
+            wrap7[r["instance"]] = r
+    out = adopt(P, v6, fixed7, wrap7)
     for dst in (os.path.join(OUT, "normalized.json"), os.path.join(RES, "normalized.json")):
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         json.dump(out, open(dst, "w"), indent=1)
