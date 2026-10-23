@@ -70,7 +70,10 @@ def key_id(key):
 
 
 def plan(a):
-    base = {"schema": SCHEMA, "code_sha256": sha_files(os.path.join(HERE, "v5lib.py"), os.path.join(HERE, "obsrun.py"))}
+    # record ids embed the runner code version; readers of older batches pass
+    # that batch's version (results/observations_v5/record_versions.json)
+    code = getattr(a, "code_sha", None) or sha_files(os.path.join(HERE, "v5lib.py"), os.path.join(HERE, "obsrun.py"))
+    base = {"schema": SCHEMA, "code_sha256": code}
     jobs = []
     for h in hashes(a.hashes):
         for var in a.variants.split(","):

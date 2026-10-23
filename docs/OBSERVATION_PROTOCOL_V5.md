@@ -258,3 +258,8 @@
    - 模拟（`v5data.py`）与 wrapper（`v5_wrapper.py`）都按这一规则执行。
 
 因为 `v5lib.py` 改变，按内容寻址的记录全部失效，所以 obsprofile、试跑臂、等价门和开销测量**全部重新采集**；第一次采集的记录保留在数据目录中，不再使用。特征定义（`obsfeat.py`）没有改动。
+
+3. **记录版本（不改变任何测量）**：记录 id 内嵌运行器代码的 hash，而部署阶段为支持“按实例指定折模型”修改过 `obsrun.py`。
+   - 读取旧批次的记录时，用 `results/observations_v5/record_versions.json` 中登记的版本：collection 是第二次采集，deploy_dev 是 dev 真实部署，confirm 是确认集。
+   - `v5data.Dev` 的 κ 直接读取建模前保存的 `results/observations_v5/kappa.json`。
+4. **冻结**：确认集运行之前，在 `configs/observations_v5/frozen/FREEZE.json` 中记录 S1/S2 最终模型、确认集清单、代码、二进制与本协议的 sha256，并打标签 `v5-freeze`。

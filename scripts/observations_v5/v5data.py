@@ -47,8 +47,15 @@ class Args:
         self.__dict__.update(kw)
 
 
+VERSIONS = json.load(open(os.path.join(ROOT, "results", "observations_v5", "record_versions.json"))) \
+    if os.path.exists(os.path.join(ROOT, "results", "observations_v5", "record_versions.json")) else {}
+
+
 def load_records(kind, hashes_file, variants="orig", **kw):
-    a = Args(cmd=kind, hashes=hashes_file, variants=variants, tags=kw.get("tags", "e02,e05,ec,fD"),
+    """Records of one batch; version = key of record_versions.json (default:
+    'collection' for obs/arm/eqv/observe-only wraps, current code otherwise)."""
+    version = kw.get("version", "collection" if kind in ("obs", "arm", "eqv") or kw.get("observe_only") else None)
+    a = Args(code_sha=VERSIONS.get(version) if version else None, cmd=kind, hashes=hashes_file, variants=variants, tags=kw.get("tags", "e02,e05,ec,fD"),
              actions=kw.get("actions", "D,Fp,Fm"), strategy=kw.get("strategy"), observe_only=kw.get("observe_only", False),
              conflicts=kw.get("conflicts", 20000), strategy_map=kw.get("strategy_map"))
     out = {}
@@ -106,7 +113,9 @@ class Dev:
         self.arms = [{(t, a): r for (h2, v, t, a, s), r in arms.items() if h2 == h and r is not None} for h in self.h]
         self.missing_obs = sum(o is None for o in self.obs)
         self.missing_arms = sum(r is None for r in arms.values())
-        self.kappa = kappa if kappa is not None else kappas()[0]
+        if kappa is None:  # the value measured before any model fitting
+            kappa = json.load(open(os.path.join(ROOT, "results", "observations_v5", "kappa.json")))["kappa_median_s"]
+        self.kappa = kappa
 
     # ------------------------------------------------------------ costs
     def formal_costs(self, o):

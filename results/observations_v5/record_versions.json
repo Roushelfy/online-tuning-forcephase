@@ -1,0 +1,7 @@
+{
+ "collection": "d337f25edeed73f89b213c396c780c75b227c0f760b87a396008dfa00bdeb188",
+ "deploy_dev": "a4aa7b7c619fac5a8dabc13d2b9a047cd4fb01df7e825131661e7f23f0050c62",
+ "superseded_first_collection": "dcc78b20989ef5783bc44bf4f795a75fdffe6b1bc851eaf38e36196ad69dbe30",
+ "note": "code_sha256 (v5lib.py + obsrun.py) embedded in the record ids of each batch. collection = obsprofile, arms, eqv and observe-only (kappa) wrappers of the second collection (after deviations 1-2); deploy_dev = dev real wrapper runs; the first collection is superseded and unused.",
+ "confirm": "7c4ccebf17df4a344c748d589cfb2e7a272fa4333389e440d3f618cb9d30d4d9"
+}

@@ -1,0 +1,26 @@
+{
+ "frozen_at_utc": "2026-10-23T06:55:10Z",
+ "before": "any solver run on the confirmation set (configs/observations_v5/confirm_hashes.txt)",
+ "strategies": {
+  "S1": "R09|RG",
+  "S2": "R11|TG"
+ },
+ "sha256": {
+  "configs/observations_v5/frozen/S1_final.json": "873ea8c7423013feb85dddde0ca9d3eb753a9779176d91c434626b24d32e5845",
+  "configs/observations_v5/frozen/S2_final.json": "fb9699318a1f4927d178b26192f82a8994fef76b52b6730554978ab0c638d1f0",
+  "configs/observations_v5/confirm_hashes.txt": "08e542ded8a7e470d0fdde5454fd4dc14847a58f9050b100fd6bcd90ecc86b38",
+  "configs/observations_v5/v5_confirm_fixed.json": "a65d38bc00f3c79b33822a26cc223fcac1fedb22493dcb782db0eb6364623c12",
+  "scripts/observations_v5/v5lib.py": "8b61bea092171744f85102838d2c7b5d65159d2cd8fea951bc24434b5f11406f",
+  "scripts/observations_v5/obsfeat.py": "f7e04067299866d5a67a41df7959c85ce571d7ea10790b983cc249937ad1bb5a",
+  "scripts/observations_v5/v5_wrapper.py": "aabcc799b3e4275203e6334d0071301dcabe9f5faa493c6bd96838bc9b0c1957",
+  "scripts/observations_v5/obsrun.py": "29752cddb5eeca3b0bfb8b09bd9085da5623fcaeade41a149cfaf262d1f12c6d",
+  "scripts/observations_v5/v5deploy.py": "093eedffb307f83ea09bd56e0f84c0c5f0d5437d7d314f3044c7501a377f4269",
+  "build/fpc/cadical": "6cf084699e872250ffa4d9a186d8ad7fe3829d06fc2d898294f2ac5e989ba884",
+  "build/obs/cadical": "7417d7eb5e85e7e7619f3724cf3cd7482bc62a3a5314ff03eae07fb8f437e332",
+  "build/tools/obsprofile": "2c1bae78b791de9a0da1d452af2b1224c252adf8d3b86ca8c6b3eae59bbcede7",
+  "docs/OBSERVATION_PROTOCOL_V5.md": "b7f585e1d5050f6b644437d633cb160183cca30dccc430edc6e2b3a5a92b7293",
+  "results/observations_v5/strategies.json": "f008d017b3739b27c02919dd923f43cac5e399b6d20fa345e9185776415c30be",
+  "results/observations_v5/confirm_manifest.csv": "c4382eb0852f2fedd0234f8b3d2e9f2794eb59e839e54dabc74ba3810187599f"
+ },
+ "confirm_record_code_sha256": "7c4ccebf17df4a344c748d589cfb2e7a272fa4333389e440d3f618cb9d30d4d9"
+}
