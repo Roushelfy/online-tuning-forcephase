@@ -2,7 +2,7 @@
 
 日期：2026-10-23（UTC）。分支 `research/forcephase-study`。
 
-- **执行目标**：[Agent Goal v5](../../docs/AGENT_GOAL.md)。
+- **执行目标**：[Agent Goal v5](../../docs/AGENT_GOAL_OBSERVATIONS_V5.md)。
 - **协议**：[OBSERVATION_PROTOCOL_V5.md](../../docs/OBSERVATION_PROTOCOL_V5.md)，在任何 v5 新求解之前提交（`fcf660e`）；偏离记录见协议第 11 节。
 - **确认前冻结**：提交 `e832b94`，标签 `v5-freeze`。
 

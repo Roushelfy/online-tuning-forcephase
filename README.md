@@ -10,6 +10,8 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **Goal v5（扩大观测方式）已完成（2026-10-23）：[reports/observations_v5/FINAL_REPORT.md](reports/observations_v5/FINAL_REPORT.md)。**在 v4 的五年面板上实施了候选库中的 50 项新观测（A–G 七类，外加 1 项部分实施），包括三动作配对短试跑、双边传播、根传播残余式、加权极性、修正的相位轨迹、蕴含图、社区/WL 和局部搜索；分装成 11 个观察包，每个配上带默认回退门的绝对成本读出器，在 dev 401 上做家族分组嵌套交叉验证，全部观察 CPU 计入成本。结果是有界负结果：27 个登记比较没有一个可靠优于始终 D（−2.2% 到 +0.0%）；同一读出器下，没有一个观察包相对 v4 的 28 个静态特征有增量；新读出器比 v4 读出器好，但只是因为更少偏离。两个按协议选出的策略，在 dev 真实部署中为 −0.25% 与 −0.01%，在冻结后的 78 题确认集上为 +0.4% [−4.8, +6.0] 与 −1.4%。另外发现：局部搜索观测不可复现，大公式上观察常常触顶，单 seed 的 D 优势标签不稳定。协议见 [OBSERVATION_PROTOCOL_V5.md](docs/OBSERVATION_PROTOCOL_V5.md)，注册表见 [registry.json](configs/observations_v5/registry.json)；算力 82.4 CPU 核时，v4 之后累计 122.3（[COMPUTE.md](results/observations_v5/COMPUTE.md)）。
 
+**当前执行目标：Agent Goal v6（已设定，尚未执行）：[docs/AGENT_GOAL.md](docs/AGENT_GOAL.md)。**先用约30道开发题、三个seed核实优势稳定性，修复固定工作量的局部搜索观测，再比较预算内的成熟SAT特征与“解出概率＋条件耗时”预测；最多两个候选冻结后在最多60道新实例上验证。v6新增CPU上限60核时，v4之后累计仍不超过200。优先寻找可解释、可迁移的F+/F−优势子群；可靠负结果也可完成。v5原目标存档：[AGENT_GOAL_OBSERVATIONS_V5.md](docs/AGENT_GOAL_OBSERVATIONS_V5.md)。
+
 **v5 的执行顺序**：核对旧观测的有效覆盖与错误损失 → 在小面板上验证新观测与开销 → 在开发集上分组筛选并保守选择 → 完整 wrapper 实测 → 小型新确认。各阶段的报告都在 `reports/observations_v5/`。
 
 ## 第一轮结论速览
@@ -28,7 +30,8 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 | 文档 | 内容 |
 | --- | --- |
-| [当前 Agent Goal v5](docs/AGENT_GOAL.md) | 新观测、跨动作探测、默认回退与完整成本验证 |
+| [当前 Agent Goal v6](docs/AGENT_GOAL.md) | 稳定优势子群、可复现局部搜索、成熟特征/M05对照与新实例验证 |
+| [已完成的观测目标 v5](docs/AGENT_GOAL_OBSERVATIONS_V5.md) | v5历史任务、候选库与结果边界 |
 | [观测候选库v5](docs/OBSERVATION_CATALOG_V5.md) | 80项观测、12类决策方法、优先级、成本、文献与首轮观察包 |
 | [已完成的三选一目标v4](docs/AGENT_GOAL_THREE_WAY_V4.md) | v4历史任务与结果边界 |
 | [五年代表性抽样](docs/FIVE_YEAR_SAMPLE_PLAN.md) | 2022–2026，每年约 100 题，家族/规模覆盖、跨年去重与曝光标记 |

@@ -1,6 +1,6 @@
 # 观测协议 v5：新观测、三动作配对探测与保守的一次性三选一
 
-状态：**在任何 v5 新求解运行之前提交**（2026-10-23，美东）。执行目标见 [Agent Goal v5](AGENT_GOAL.md)，候选库见 [OBSERVATION_CATALOG_V5.md](OBSERVATION_CATALOG_V5.md)，机器可读注册表见 [configs/observations_v5/registry.json](../configs/observations_v5/registry.json)。
+状态：**在任何 v5 新求解运行之前提交**（2026-10-23，美东）。执行目标见 [Agent Goal v5](AGENT_GOAL_OBSERVATIONS_V5.md)，候选库见 [OBSERVATION_CATALOG_V5.md](OBSERVATION_CATALOG_V5.md)，机器可读注册表见 [configs/observations_v5/registry.json](../configs/observations_v5/registry.json)。
 
 ## 0. 曝光、已做工作与预算
 
