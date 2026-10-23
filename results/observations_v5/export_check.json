@@ -1,0 +1,21 @@
+{
+ "S1": {
+  "comparison": "R09|RG",
+  "fold_model_choice_mismatches": 0,
+  "final": {
+   "hp": 100.0,
+   "theta": 5.0
+  }
+ },
+ "S2": {
+  "comparison": "R11|TG",
+  "fold_model_choice_mismatches": 0,
+  "final": {
+   "theta1": null,
+   "theta_ask": 0.0,
+   "hp1": 1,
+   "hp2": 1,
+   "theta2": null
+  }
+ }
+}

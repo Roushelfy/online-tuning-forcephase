@@ -36,20 +36,23 @@ def finish(out, workdir):
     json.dump(out, open(os.path.join(workdir, "result.json"), "w"))
 
 
-def run_arms(spec_arms, cnf, workdir, mem_mb, out):
-    """Run arms in order; returns (arms dict, answering arm or None)."""
+def run_arms(spec_arms, cnf, workdir, mem_mb, out, tcap):
+    """Run arms in order; returns (arms dict, answering arm or None, capped).
+    An arm starts only if the CPU used so far plus its budget fits in tcap."""
     arms = {}
     for tag, acts in spec_arms:
         for act in acts:
+            if twlib.self_cpu() + v5lib.ARMS[tag][0] > tcap:
+                return arms, None, True
             r = v5lib.run_arm(cnf, act, tag, workdir, mem_mb)
             arms[(tag, act)] = r
             out.setdefault("arms", []).append({k: r[k] for k in ("tag", "action", "cpu", "exit_code", "terminated_by",
                                                                    "answered")})
             if r["answered"]:
-                return arms, r
+                return arms, r, False
             if os.path.exists(r["proof"]):
                 os.unlink(r["proof"])
-    return arms, None
+    return arms, None, False
 
 
 def main():
@@ -84,9 +87,11 @@ def main():
             if act1 != "D" and strat["theta1"] is not None and best1 > strat["theta1"]:
                 action, path = act1, "stage1_direct"
             elif strat["theta_ask"] is not None and best1 > strat["theta_ask"]:
-                arms, ans = run_arms(spec["arms"], a.cnf, a.workdir, a.mem_mb, out)
+                arms, ans, cap = run_arms(spec["arms"], a.cnf, a.workdir, a.mem_mb, out, spec["tcap"])
                 if ans is not None:
                     path = "probe_answer"
+                elif cap:
+                    path = "obs_cap"
                 else:
                     f2 = obsfeat.package_features(pkg, obs, arms, stage=2)
                     action, g2 = v5lib.decide(strat["stage2"], f2)
@@ -95,9 +100,11 @@ def main():
             else:
                 path = "stage1_keep_D"
         else:
-            arms, ans = run_arms(spec["arms"], a.cnf, a.workdir, a.mem_mb, out)
+            arms, ans, cap = run_arms(spec["arms"], a.cnf, a.workdir, a.mem_mb, out, spec["tcap"])
             if ans is not None:
                 path = "probe_answer"
+            elif cap:
+                path = "obs_cap"
             else:
                 feats = obsfeat.package_features(pkg, obs, arms)
                 action, gains = v5lib.decide(strat["reader"], feats)

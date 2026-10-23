@@ -50,7 +50,7 @@ class Args:
 def load_records(kind, hashes_file, variants="orig", **kw):
     a = Args(cmd=kind, hashes=hashes_file, variants=variants, tags=kw.get("tags", "e02,e05,ec,fD"),
              actions=kw.get("actions", "D,Fp,Fm"), strategy=kw.get("strategy"), observe_only=kw.get("observe_only", False),
-             conflicts=kw.get("conflicts", 20000))
+             conflicts=kw.get("conflicts", 20000), strategy_map=kw.get("strategy_map"))
     out = {}
     for k, key, rid in obsrun.plan(a):
         p = obsrun.rec_path(k, rid)
@@ -117,21 +117,24 @@ class Dev:
             C[ok, j] = o[ok] + self.c0[ok, j]
         return C
 
-    def arm_cost(self, i, spec_arms):
-        """(CPU of the arms actually run, answered?) in the fixed order;
-        stops at the first verified answer. Missing record -> None."""
+    def arm_cost(self, i, spec_arms, spent, tcap):
+        """(CPU of the arms actually run, answered?, capped?) in the fixed
+        order; stops at the first verified answer; an arm starts only if
+        spent + arms so far + its budget <= tcap (protocol, deviation 2)."""
         cpu = 0.0
         for tag, acts in spec_arms:
             for a in acts:
+                if spent + cpu + v5lib.ARMS[tag][0] > tcap:
+                    return cpu, False, True
                 r = self.arms[i].get((tag, a))
                 if r is None:
-                    return None, False
+                    return None, False, False
                 cpu += r["cpu"]
                 if r.get("answered"):
                     if r.get("solved"):
-                        return cpu, True
+                        return cpu, True, False
                     raise RuntimeError(f"unverified/wrong probe answer {self.h[i]} {tag} {a}")
-        return cpu, False
+        return cpu, False, False
 
     def package(self, pkg, stage=None):
         """Feature table, cost matrix and flags for a package.
@@ -154,12 +157,17 @@ class Dev:
                 forced[i] = True
                 feats.append({})
             else:
-                acpu, ans = self.arm_cost(i, use_arms) if use_arms else (0.0, False)
+                acpu, ans, cap = self.arm_cost(i, use_arms, min(sc, spec["scap"]), spec["tcap"]) if use_arms \
+                    else (0.0, False, False)
                 if acpu is None:
                     raise RuntimeError(f"missing arm record {self.h[i]}")
                 o_i += acpu
                 answered[i] = ans
-                feats.append(obsfeat.package_features(pkg, ob, self.arms[i], stage=stage))
+                if cap:
+                    forced[i] = True
+                    feats.append({})
+                else:
+                    feats.append(obsfeat.package_features(pkg, ob, self.arms[i], stage=stage))
             o[i] = o_i
         names = sorted({k for f in feats for k in f})
         X = np.array([[fnum(f.get(k)) if f.get(k) is not None else np.nan for k in names] for f in feats], dtype=float)

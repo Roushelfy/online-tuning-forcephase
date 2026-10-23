@@ -30,26 +30,30 @@ RESERVE = twlib.RESERVE              # 0.1
 T = 300.0
 PAR2 = 600.0
 OBS_SEED = 20261023
-SECTION_CAPS = {"polar": 0.5, "resid": 0.5, "bilat": 0.5, "graph": 0.5, "comm": 1.0, "ls": 0.6}
+SECTION_CAPS = {"polar": 0.5, "resid": 0.5, "bilat": 0.5, "graph": 0.5, "comm": 1.0, "ls": 0.8}  # ls: 3 x 0.2 s + setup (deviation 1)
 PROBE_WIN = 100
 
 # Arm specs: tag -> (budget CPU s, conflict limit or None)
 ARMS = {"e02": (0.2, None), "e05": (0.5, None), "ec": (1.0, 512), "fD": (2.0, None)}
 
 # Packages (protocol section 4). static: obsprofile sections; scap: cap of
-# the static part (parsing included); arms: (tag, actions) run in order.
+# the static part (parsing included); arms: (tag, actions) run in order;
+# tcap: total observation cap -- an arm is started only if the observation
+# CPU so far plus its budget stays within tcap, else the wrapper keeps D
+# (an arm's own overshoot, e.g. while parsing a huge file, is charged).
 PACKAGES = {
-    "R01": {"static": ["polar", "resid"], "scap": 3.0, "arms": []},
-    "R02": {"static": ["resid", "bilat"], "scap": 3.0, "arms": []},
-    "R03": {"static": ["resid", "graph"], "scap": 3.0, "arms": []},
-    "R04": {"static": ["resid", "comm"], "scap": 3.0, "arms": []},
-    "R05": {"static": [], "scap": 3.0, "arms": [("fD", ("D",))]},
-    "R06": {"static": [], "scap": 3.0, "arms": [("e02", ACT_ORDER)]},
-    "R07": {"static": [], "scap": 3.0, "arms": [("e05", ACT_ORDER)]},
-    "R08": {"static": [], "scap": 3.0, "arms": [("ec", ACT_ORDER)]},
-    "R09": {"static": ["resid", "ls"], "scap": 3.0, "arms": []},
-    "R10": {"static": ["polar", "resid", "bilat"], "scap": 2.0, "arms": [("e02", ACT_ORDER)]},
-    "R11": {"static": ["polar", "resid", "bilat"], "scap": 2.0, "arms": [("e02", ACT_ORDER)], "conditional": True},
+    "R01": {"static": ["polar", "resid"], "scap": 3.0, "tcap": 3.0, "arms": []},
+    "R02": {"static": ["resid", "bilat"], "scap": 3.0, "tcap": 3.0, "arms": []},
+    "R03": {"static": ["resid", "graph"], "scap": 3.0, "tcap": 3.0, "arms": []},
+    "R04": {"static": ["resid", "comm"], "scap": 3.0, "tcap": 3.0, "arms": []},
+    "R05": {"static": [], "scap": 3.0, "tcap": 5.0, "arms": [("fD", ("D",))]},
+    "R06": {"static": [], "scap": 3.0, "tcap": 3.6, "arms": [("e02", ACT_ORDER)]},
+    "R07": {"static": [], "scap": 3.0, "tcap": 4.5, "arms": [("e05", ACT_ORDER)]},
+    "R08": {"static": [], "scap": 3.0, "tcap": 6.0, "arms": [("ec", ACT_ORDER)]},
+    "R09": {"static": ["resid", "ls"], "scap": 3.0, "tcap": 3.0, "arms": []},
+    "R10": {"static": ["polar", "resid", "bilat"], "scap": 2.0, "tcap": 3.0, "arms": [("e02", ACT_ORDER)]},
+    "R11": {"static": ["polar", "resid", "bilat"], "scap": 2.0, "tcap": 6.0, "arms": [("e02", ACT_ORDER)],
+            "conditional": True},
 }
 ALL_SECTIONS = ["s28", "polar", "resid", "bilat", "graph", "comm", "ls"]
 

@@ -243,7 +243,7 @@ def cv_v4_exact(kind, budget, D):
 
 def cv_two_stage(kind, D, P1, P2):
     """R11 (M10): stage 1 on the static part, conditional R06 arms, stage 2."""
-    hps = ALPHAS if kind == "ridge" else DEPTHS
+    hps = ALPHAS if kind == "ridge" else DEPTHS if kind == "tree" else [None]
     n = D.n
     choice_cost = np.zeros(n)
     path = np.zeros(n, int)  # 0 keep D, 1 direct, 2 probed
@@ -405,8 +405,12 @@ def main():
     promoted = sorted(best_by_pkg, key=lambda p: -best_by_pkg[p])[:3]
     meta["promoted"] = promoted
     for p in promoted:
-        if p == "R11":
-            continue  # two-stage: no RF variant (registered limit is per package; documented)
+        if p == "R11":  # two-stage: RF in both stages
+            res = cv_two_stage("forest", D, PK["R11s1"], PK["R11s2"])
+            P = dict(PK["R11s2"])
+            P["o"] = np.where(res["path"] == 2, PK["R11s2"]["o"], PK["R11s1"]["o"])
+            record("R11|RF", "R11", "RF", res, P, {"promoted": 1, "probed": int((res["path"] == 2).sum())})
+            continue
         res = cv_reader("forest", PK[p], D, hps=[None])
         record(f"{p}|RF", p, "RF", res, PK[p], {"promoted": 1})
 

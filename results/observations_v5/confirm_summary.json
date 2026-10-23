@@ -1,0 +1,45 @@
+{
+ "n": 78,
+ "pool": 198,
+ "pool_groups": 22,
+ "groups": 22,
+ "by_year": {
+  "2022": 40,
+  "2023": 6,
+  "2024": 3,
+  "2025": 17,
+  "2026": 12
+ },
+ "by_stratum": {
+  "large": 55,
+  "mid": 14,
+  "small": 9
+ },
+ "by_group": {
+  "unknown-author-mayer-eichberger": 1,
+  "tree-decomposition": 4,
+  "hashtable-safety": 4,
+  "software-verification": 4,
+  "algebra": 4,
+  "graph-isomorphism": 4,
+  "graceful-production": 4,
+  "baseball-lineup": 1,
+  "oddball-weighing": 4,
+  "algorithm-equivalence-checking": 4,
+  "sat-x": 4,
+  "cyclic-anti-bandwidth": 4,
+  "circuit-equivalence-checking": 4,
+  "ecc-equivalence-checking": 4,
+  "cril-misc": 4,
+  "maxsat-optimum": 4,
+  "md5-equivalence-checking": 3,
+  "polynomial-multiplication": 4,
+  "hardware": 4,
+  "petrinet-concurrency": 2,
+  "core-based-generator": 3,
+  "independent-set-reconfiguration": 4
+ },
+ "bytes_over_1e8": 51,
+ "never_seen_family_groups": 0,
+ "note": "all 2022-2026 main-track family groups occur in the v4 panel; these groups were in the v4 test split (their other instances' v4 test results have been seen) and are disjoint from dev"
+}

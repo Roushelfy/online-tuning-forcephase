@@ -1,16 +1,16 @@
 {
  "kappa_median_s": {
-  "R01": 0.032168499999999996,
-  "R02": 0.0323325,
-  "R03": 0.032314,
-  "R04": 0.032406000000000004,
-  "R05": 0.039480499999999585,
-  "R06": 0.03988849999999999,
-  "R07": 0.04215599999999997,
-  "R08": 0.03816,
-  "R09": 0.03223150000000006,
-  "R10": 0.0398385,
-  "R11": 0.0400434999999999
+  "R01": 0.032006,
+  "R02": 0.0320735,
+  "R03": 0.032128,
+  "R04": 0.032035,
+  "R05": 0.03932050000000009,
+  "R06": 0.03969300000000009,
+  "R07": 0.04190550000000004,
+  "R08": 0.0377975,
+  "R09": 0.032063999999999974,
+  "R10": 0.039691499999999935,
+  "R11": 0.039750999999999925
  },
  "n": {
   "R01": 96,
@@ -25,5 +25,5 @@
   "R10": 96,
   "R11": 96
  },
- "source": "observe-only v5_wrapper.py runs on configs/observations_v5/eng_panel.txt (protocol section 5); measured before any model fitting"
+ "source": "observe-only v5_wrapper.py runs on configs/observations_v5/eng_panel.txt (protocol section 5); measured before any model fitting (second collection, after deviations 1-2)"
 }

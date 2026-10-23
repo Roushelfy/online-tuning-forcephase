@@ -5,6 +5,7 @@
   obsrun.py arm  --hashes FILE --tags e02,e05,ec,fD [--actions D,Fp,Fm] [--variants orig]
   obsrun.py eqv  --hashes FILE                 (equivalence gate, protocol section 3)
   obsrun.py wrap --hashes FILE --strategy S1.json[,S2.json...] [--observe-only]
+  obsrun.py wrap --hashes FILE --strategy-map MAP.json     (per-instance strategies)
   ... [--jobs 48] [--shard i/n] [--status]
 
 obs: obsprofile with all sections (protocol section caps, total cap 30 s,
@@ -89,7 +90,10 @@ def plan(a):
                                              probe_sha256=fprun.sha256_file(v5lib.PROBE),
                                              formal_sha256=fprun.sha256_file(v5lib.FORMAL))))
             elif a.cmd == "wrap":
-              for strat in a.strategy.split(","):
+              strats = (json.load(open(a.strategy_map))[h] if getattr(a, "strategy_map", None)
+                        else a.strategy.split(","))
+              for strat in strats:
+                strat = os.path.join(fprun.ROOT, strat) if not os.path.isabs(strat) else strat
                 jobs.append(("wrap", dict(base, kind="wrap", instance=h, variant=var,
                                           strategy=os.path.relpath(os.path.abspath(strat), fprun.ROOT),
                                           strategy_sha256=fprun.sha256_file(strat),
@@ -281,14 +285,15 @@ def main():
     ap.add_argument("--actions", default="D,Fp,Fm")
     ap.add_argument("--conflicts", type=int, default=20000, help="eqv: conflict limit")
     ap.add_argument("--strategy")
+    ap.add_argument("--strategy-map", help="wrap: JSON {hash: [strategy paths]} (per-instance fold models)")
     ap.add_argument("--observe-only", action="store_true")
     ap.add_argument("--jobs", type=int, default=0)
     ap.add_argument("--shard", default="0/1")
     ap.add_argument("--order-seed", type=int, default=1)
     ap.add_argument("--status", action="store_true")
     a = ap.parse_args()
-    if a.cmd == "wrap" and not a.strategy:
-        raise SystemExit("--strategy required")
+    if a.cmd == "wrap" and not (a.strategy or a.strategy_map):
+        raise SystemExit("--strategy or --strategy-map required")
     (cmd_status if a.status else cmd_run)(a)
 
 
