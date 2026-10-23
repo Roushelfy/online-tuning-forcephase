@@ -10,6 +10,10 @@
 #   fpc2            as 'fpc' but with solver/*.{hpp,cpp} (audit v2 controller, schema 2)
 #   upstream-check  as 'upstream' but with assertions (./configure -c)
 #   fpc-check, fpc2-check   as 'fpc' / 'fpc2' with assertions
+#   obs             goal v5 observation build for short probes only: pinned
+#                   source + patches/cadical-fpc.patch + patches/cadical-obs.patch
+#                   (extra counters) + solver/obs/*.{hpp,cpp}; never used for
+#                   formal solves.  Built only on request (not in the default list).
 # NOTE: run ids embed the binary hash and CaDiCaL embeds the build time, so
 # rebuilding a variant in a checkout that already has results for it makes
 # those results unreachable by 'fprun.py plan'; rebuild only in fresh clones.
@@ -43,6 +47,7 @@ for v in "${variants[@]}"; do
     upstream-check)  patched=0; cfg=(-static -c) ;;
     fpc-check)       patched=1; srcdir=solver/v1; cfg=(-static -c) ;;
     fpc2-check)      patched=1; srcdir=solver; cfg=(-static -c) ;;
+    obs)             patched=1; srcdir=solver/obs; cfg=(-static) ;;
     *) echo "unknown variant $v" >&2; exit 1 ;;
   esac
   out="$ROOT/build/$v"
@@ -52,6 +57,9 @@ for v in "${variants[@]}"; do
   git -C "$SUB" archive "$PIN" | tar -x -C "$out/src"
   if [ "$patched" = 1 ]; then
     (cd "$out/src" && patch -p1 --quiet --forward < "$PATCH")
+    if [ "$v" = obs ]; then
+      (cd "$out/src" && patch -p1 --quiet --forward < "$ROOT/patches/cadical-obs.patch")
+    fi
     cp "$ROOT/$srcdir"/*.hpp "$ROOT/$srcdir"/*.cpp "$out/src/src/"
   fi
   (cd "$out/src" && ./configure "${cfg[@]}" > "$out/configure.log" 2>&1 \
@@ -66,6 +74,7 @@ for v in "${variants[@]}"; do
     echo "patched=$patched"
     if [ "$patched" = 1 ]; then
       echo "patch_sha256=$(sha256sum "$PATCH" | cut -d' ' -f1)"
+      [ "$v" = obs ] && echo "obs_patch_sha256=$(sha256sum "$ROOT/patches/cadical-obs.patch" | cut -d' ' -f1)"
       echo "solver_sources=$srcdir"
       echo "solver_sources_sha256=$(cat "$ROOT/$srcdir"/*.hpp "$ROOT/$srcdir"/*.cpp | sha256sum | cut -d' ' -f1)"
     fi

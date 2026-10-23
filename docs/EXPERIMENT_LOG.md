@@ -111,3 +111,15 @@ M5 唯一主要候选的选择规则（在看到 M4-lite 结果之前固定）�
 - S2（21:25）：12 个候选的家族分组 5 折 CV 全部不如 D（−1.4% 到 −7.8%）；按协议冻结静态逻辑回归与 0.1 s 试跑逻辑回归，tag `tw-freeze`（b9b7a87），之后才运行 test。
 - S3（21:28–21:44）：test 99 题真实运行（固定 297 次，其中复用 60 次；两个 wrapper 各 99 次）。D 397.6；静态 412.2（−3.7% [−10.4, +2.5]）；试跑 404.4（−1.7% [−7.9, +3.2]）；F+ −13.4%；F− −7.1%；oracle +8.5%。
 - S4：[reports/three_way/FINAL_REPORT.md](../reports/three_way/FINAL_REPORT.md)。本阶段新算力 39.9 CPU 核时；0 次中断、0 个运行器错误；所有 solved 都经独立检查。
+
+## 2026-10-23 — Agent Goal v5：扩大观测方式（进行中）
+
+- V0（05:20–06:00 UTC，任何 v5 新求解之前）：
+  - 用 v4 已有记录完成覆盖与损失分解（[COVERAGE_AND_ERRORS.md](../reports/observations_v5/COVERAGE_AND_ERRORS.md)）。v4 的 12 个交叉验证候选被逐个精确复现。
+  - 主要发现：0.1 s 探测有 30% 实例尚未进入搜索；所有候选的损失都集中在少数“D 可解、所选动作超时”的错误偏离上。
+- 提交了以下内容：
+  - 协议 [OBSERVATION_PROTOCOL_V5.md](OBSERVATION_PROTOCOL_V5.md)；
+  - 注册表 `configs/observations_v5/registry.json`；
+  - 工程面板（96 题）与折（外层 = v4 折）；
+  - 工具 `tools/obsprofile.c` 和只用于试跑的观测版求解器 `build/obs`（`patches/cadical-obs.patch`、`solver/obs/`）。
+- 工程 smoke 只做了 11 个 dev 实例的工具一致性检查：s28 与 cnfprofile 相同；翻转镜像检验通过；obs 与正式二进制在 2 万次冲突时搜索统计和 digest 相同。

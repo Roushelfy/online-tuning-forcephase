@@ -1,0 +1,49 @@
+diff --git a/src/analyze.cpp b/src/analyze.cpp
+--- a/src/analyze.cpp
++++ b/src/analyze.cpp
+@@ -1321,6 +1321,10 @@
+   stats.binaries += (size == 2);
+   UPDATE_AVERAGE (averages.current.size, size);
+   fpcc.minsize_sum += size;
++  int fpc_lpos = 0; // observation build: positive literals learned
++  for (const auto &other : clause)
++    fpc_lpos += (other > 0);
++  fpcc.learn_lits += size, fpcc.learn_pos += fpc_lpos;
+ 
+   // reverse lrat_chain. We could probably work with reversed iterators
+   // (views) to be more efficient but we would have to distinguish in proof
+@@ -1344,6 +1348,10 @@
+   int new_level = determine_actual_backtrack_level (jump);
+   UPDATE_AVERAGE (averages.current.level, new_level);
+   fpcc.analyzed++, fpcc.backjump_sum += level - new_level;
++  if (new_level != jump) { // observation build: chronological backtrack
++    fpcc.bt_chrono++, fpcc.glue_chrono += glue;
++    fpcc.learn_lits_chrono += size, fpcc.learn_pos_chrono += fpc_lpos;
++  }
+   backtrack (new_level);
+ 
+   // It should hold that (!level <=> size == 1)
+diff --git a/src/propagate.cpp b/src/propagate.cpp
+--- a/src/propagate.cpp
++++ b/src/propagate.cpp
+@@ -103,6 +103,7 @@
+ 
+   const int idx = vidx (lit);
+   const bool from_external = reason == external_reason;
++  const bool fpc_decision = reason == decision_reason; // observation build
+   assert (!val (idx));
+   assert (!flags (idx).eliminated () || reason == decision_reason ||
+           reason == external_reason);
+@@ -142,6 +143,12 @@
+   set_val (idx, tmp);
+   assert (val (lit) > 0);  // Just a bit paranoid but useful.
+   assert (val (-lit) < 0); // Ditto.
++  if (!searching_lucky_phases) { // observation build: assignment signs
++    if (!lit_level)
++      fpcc.asg_root++, fpcc.asg_root_pos += (tmp > 0);
++    else if (!fpc_decision)
++      fpcc.asg_prop++, fpcc.asg_prop_pos += (tmp > 0);
++  }
+   if (!searching_lucky_phases)
+     phases.saved[idx] = tmp; // phase saving during search
+   trail.push_back (lit);
