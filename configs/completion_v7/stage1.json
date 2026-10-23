@@ -1,0 +1,151 @@
+{
+ "stage": "stage1",
+ "description": "v7 stage 1: P1_M05_long long wrappers on the instances where the v6 wrapper was censored (their formal D solve is also the D measurement), plus standalone long D where the selector did not choose D; all start together; 40 CPU-h administrative budget",
+ "jobs": [
+  {
+   "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "090eefb9bc472f6478e70baf2c6d2403",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "0a8a4c28d27228e954354ea0a6e7f16c",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "25cc054738293c0d9377d7b72b78a341",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "37c88155822f1934a190dd6f4614f0ce",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "3b0eeddcabf36da8642c5774ac67680c",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "511a2d81661a185c2115daec42270dec",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "5ceb95f5960efe1f23c3014847dea118",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "6543793076c30fc7cdfa5a3c819cedc7",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "69e34d0f49c71a7e145d8104ebe0273f",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "7ff8c9781b3ada449ce489cdf444a760",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "8cfc8e99d31bcaf18ff3360b08c8521c",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "9541d12f3e3d9201085c13f25145d2f7",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "98c6da979a0a22d384d465a1da17111e",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "a28f59752c160af22b6d04cb89ddf802",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "ac3e3bb744e258282990aa4307c08cb8",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "af834fd3ce15078d2ab055c996758c00",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "b88d206fb35ef87bd7ec5d4a1430ae0c",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "c03f7f84f6ac9e523c17e391c3895183",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "c7bf3517f47d583ae567de3db3708969",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "c8cde50f32ca3f78a4c74a173c63449b",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "ca6db14aaa04027d2b8af47ec910bd68",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "d5b11b0b73eb4ecebdbf6ee8143da689",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "dbbcaa7797145dfddfa4fe73ce91fdec",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "ed410c758e5025f1bb97922574d1c2ff",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "761651d4b6454108403bdefe22720fb3",
+   "method": "D",
+   "kind": "fixed"
+  }
+ ]
+}

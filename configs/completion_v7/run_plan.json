@@ -1,0 +1,69 @@
+{
+ "version": 1,
+ "plan_doc": "docs/COMPLETION_RUN_PLAN_V7.md",
+ "available_cpu_hours": 55.35,
+ "ledger_before_v7": 144.65,
+ "stages": {
+  "stage1": {
+   "plan": "configs/completion_v7/stage1.json",
+   "budget_cpu_hours": 40,
+   "jobs": 29,
+   "content": "28 P1_M05_long long wrappers (formal D solve doubles as the D measurement) + 1 standalone long D (761651d4b6)",
+   "schedule": "all jobs start together, one physical core each; administrative stop when summed CPU reaches the budget"
+  },
+  "stage2": {
+   "budget_cpu_hours": 10,
+   "content": "F+/F- from scratch, capped at the completed best b, on instances whose three v6 arms were all censored and whose D completed in stage 1 at b > 300 s; smallest b first",
+   "status": "after stage 1"
+  },
+  "reserve_cpu_hours": 5.35
+ },
+ "adoption_order": {
+  "D/Fp/Fm": [
+   "v6 verified solve",
+   "v7 standalone long run",
+   "(D only) formal D inside v7 P1_M05_long",
+   "v6 300-s censored bound"
+  ],
+  "P1_M05_long": [
+   "v6 verified solve",
+   "v7 long wrapper",
+   "v6 censored bound"
+  ],
+  "invalid_attempts": "error / wrong / unverified kept in the attempt log; never displace a valid measurement"
+ },
+ "run_policy": {
+  "binary": "build/fpc/cadical",
+  "sha256": "6cf084699e872250ffa4d9a186d8ad7fe3829d06fc2d898294f2ac5e989ba884",
+  "args": {
+   "D": [
+    "--lrat=1",
+    "--phase=1",
+    "--forcephase=0",
+    "--fpc=1"
+   ],
+   "Fp": [
+    "--lrat=1",
+    "--phase=1",
+    "--forcephase=1",
+    "--fpc=1"
+   ],
+   "Fm": [
+    "--lrat=1",
+    "--phase=0",
+    "--forcephase=1",
+    "--fpc=1"
+   ]
+  },
+  "seed": 0,
+  "memory_mb": 16000,
+  "proof": "lrat on node-local /var/tmp, deleted after checking",
+  "checker": "checkmodel / lrat-trim, limit max(1800 s, 4 x solve CPU), 64 GB",
+  "scoring_cutoff": null
+ },
+ "P1_M05_long": {
+  "strategy": "configs/stable_selection_v6/frozen/P1_M05_final.json (unchanged)",
+  "entry": "scripts/completion_v7/wrapper_long.py",
+  "change_vs_v6": "formal solve has no 300-s stop (exec into the solver)"
+ }
+}
