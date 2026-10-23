@@ -1,0 +1,14 @@
+{
+ "voided_attempts": [
+  {
+   "what": "stage1 first submission (job 744153 -> nested gs-srun job 744154 on h100-206-173, wrong hardware)",
+   "start_utc": "2026-10-23T23:01:31Z",
+   "cancelled_utc": "2026-10-23T23:03:40Z",
+   "jobs": 29,
+   "cpu_hours_upper_bound": 1.05,
+   "last_heartbeat_cpu_hours": 0.189,
+   "records_written": 0,
+   "data": "$FP_DATA/runs/completion_v7/void_stage1_h100_744154 (heartbeat only)"
+  }
+ ]
+}
