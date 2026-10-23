@@ -80,6 +80,19 @@ static int capped = 0;  // current section hit its cap
 static int gcapped = 0; // the global cap was hit
 static unsigned tick_counter = 0;
 
+// Immediate check (reads the clock); used every few hundred iterations of
+// loops whose iterations can be expensive (v6).
+static inline int over_now (void) {
+  if (capped)
+    return 1;
+  double t = fast_cpu ();
+  if (t - sec_start > sec_cap)
+    capped = 1;
+  if (t > total_cap)
+    capped = gcapped = 1;
+  return capped;
+}
+
 // Cheap periodic check; returns 1 when the running section must stop.
 static inline int over (void) {
   if (capped)
@@ -392,7 +405,7 @@ static void build_occ (void) {
     die ("out of memory");
   for (int64_t k = 0; k < nlits; k++) {
     ostart[cl[k] + 1]++;
-    if (!(k & 0xfffff) && over ())
+    if (!(k & 0xfffff) && over_now ())
       return; // v6: cap also while building occurrence lists
   }
   for (long L = 0; L < 2 * nv + 2; L++)
@@ -405,7 +418,7 @@ static void build_occ (void) {
   for (int64_t c = 0; c < nc; c++) {
     for (int64_t k = cs[c]; k < cs[c + 1]; k++)
       occ[fill[cl[k]]++] = c;
-    if (!(c & 0xffff) && over ()) {
+    if (!(c & 0xffff) && over_now ()) {
       free (fill);
       return;
     }
@@ -1765,7 +1778,7 @@ static void sec_ls (void) {
   for (int64_t c = 0; c < nc; c++) {
     if (rootsat[c])
       continue;
-    if (!(c & 0xffff) && over ())
+    if (!(c & 0xffff) && over_now ())
       break;
     st[j] = k;
     int pos = 0, len = 0;
@@ -1790,7 +1803,7 @@ static void sec_ls (void) {
       os[L + 1] += os[L];
     int64_t *fill = malloc ((2 * n + 2) * sizeof *fill);
     memcpy (fill, os, (2 * n + 2) * sizeof *fill);
-    for (int64_t c = 0; c < m && !over (); c++)
+    for (int64_t c = 0; c < m && !((c & 0xffff) == 0 && over_now ()); c++)
       for (int64_t q = st[c]; q < st[c + 1]; q++)
         oc[fill[lits[q]]++] = c;
     free (fill);
@@ -1816,7 +1829,7 @@ static void sec_ls (void) {
       ntrue[c] = t;
       if (!t)
         upos[c] = nu, ulist[nu++] = c;
-      if (!(c & 0xffff) && over ())
+      if (!(c & 0xffff) && over_now ())
         break;
     }
     if (capped)
@@ -1827,7 +1840,7 @@ static void sec_ls (void) {
     long f;
     long quarter = ls_flips / 4;
     for (f = 0; f < ls_flips && nu > 0; f++) {
-      if (!(f & 255) && over ())
+      if (!(f & 255) && over_now ())
         break;
       int64_t c = ulist[rnd () % (uint64_t) nu];
       int len = (int) (st[c + 1] - st[c]);

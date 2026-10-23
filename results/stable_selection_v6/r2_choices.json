@@ -1,0 +1,26 @@
+{
+ "ls_flips": 50000,
+ "ls": {
+  "10000": {
+   "ls_ok": 11,
+   "ls_cpu_median": 0.018118,
+   "ls_cpu_max": 1.016629,
+   "all_ok": 11,
+   "instances_with_differing_features": 0
+  },
+  "50000": {
+   "ls_ok": 11,
+   "ls_cpu_median": 0.0592375,
+   "ls_cpu_max": 1.017675,
+   "all_ok": 11,
+   "instances_with_differing_features": 0
+  }
+ },
+ "satzilla_groups": [
+  "ncnf-constraints",
+  "ncnf-rwh",
+  "unit"
+ ],
+ "satzilla_complete": true,
+ "v5_nonreproducible_instances": 3
+}
