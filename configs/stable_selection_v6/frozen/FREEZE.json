@@ -1,0 +1,33 @@
+{
+ "frozen_at_utc": "2026-10-23T21:23:27Z",
+ "before": "any run on configs/stable_selection_v6/validate_hashes.txt",
+ "promoted": {
+  "promoted": [
+   "P1|M05"
+  ],
+  "mode": "negative-control deployment (no comparison with OOF gain > 0)",
+  "cap": 2
+ },
+ "sha256": {
+  "configs/stable_selection_v6/frozen/P1_M05_final.json": "ae8eb1a6476e250eec85ede05f88e48e3d6c0b54107d8f93c234f10d5792dccd",
+  "configs/stable_selection_v6/validate_hashes.txt": "a299298a21b2e7ad2739734a3df19034c779552f08c613f2af269834fbe51cb3",
+  "results/stable_selection_v6/validate_manifest.csv": "b36ab32b19ab043db173340dcd31e9a72d36a1b4a11ae95e99857cc35ff843c4",
+  "results/stable_selection_v6/validate_checksums.csv": "8b38baddc79f4c8e8b646d48bec28118e9d2a2456604b1ec8b1c1931565d8341",
+  "configs/stable_selection_v6/v6_validate_fixed.json": "ecd3e1a2225e871bdc51e9e7f104ff47ade12f5c6b88ccbc9385adeca60e1ba6",
+  "results/stable_selection_v6/promoted.json": "f5727e390c0a3ce9a1798cb32db91903c2af58c5e3033b28741bfd057abc3938",
+  "scripts/stable_selection_v6/v6lib.py": "b844fabe53457d1d3b75c59a88d455f04088d32a4bc3348bb59724615ca5fcb6",
+  "scripts/stable_selection_v6/v6_wrapper.py": "7505d0eb34e55e2d42a70ea11b483de2b3724e16f0e1d10b1f96ae4260f5c506",
+  "scripts/stable_selection_v6/v6_deploy.py": "19ab5647f434ee679161254391790795ed8406fa32141296abb66f6afc54ff2e",
+  "scripts/stable_selection_v6/v6run.py": "a1b0339f0032233ea4e6102b104bf8d8ba206a42e6cb37d84147575cf7976ae9",
+  "scripts/stable_selection_v6/szlib.py": "1aeaecd88651659b32b7fdf38d95908bc026fa220d30c356df47793aa7ce78c0",
+  "scripts/stable_selection_v6/v6_evaluate.py": "d715a7c4b9768659ea0347c1c29bf966bfd7ed5fc456b445be7d3798948701f3",
+  "scripts/stable_selection_v6/slurm_validate.sh": "a05bf7969b10346cfedf25ac6718bb39957e6b32bda860cb24f928cc90706a19",
+  "scripts/stable_selection_v6/on_socket.py": "81f747be13604f44e749e181f339af744ef1e7379b22411c4c2dca1d51da9660",
+  "scripts/observations_v5/v5lib.py": "8b61bea092171744f85102838d2c7b5d65159d2cd8fea951bc24434b5f11406f",
+  "scripts/three_way/twlib.py": "ada899c863cec2d4a0793598f42e9b89380f97f73df6d001b2b7b283bcdbd372",
+  "build/fpc/cadical": "6cf084699e872250ffa4d9a186d8ad7fe3829d06fc2d898294f2ac5e989ba884",
+  "build/tools/obsprofile6": "9819090ba0ae248ff86961f7404f9ab62174a633dd32b7a75eeec98aaa67d791",
+  "docs/STABLE_SELECTION_PROTOCOL_V6.md": "266ad9f3ffa5bba4435f630ee33f2233ce08a11d6bbed42ce60186983c6823e8"
+ },
+ "satzilla_features_sha256": "5cf3f4e0ad4061390e038beab9c010de31f850d027595e1ffd4ec1724ed57d84"
+}

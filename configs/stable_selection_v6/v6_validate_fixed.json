@@ -1,0 +1,18 @@
+{
+ "name": "v6_validate_fixed",
+ "description": "Goal v6 R4: fixed D / F+ / F- (seed 0) on the 55-problem validation list; v4 run policy (build/fpc, T = 300 s CPU, 16 GB, LRAT, telemetry); run interleaved with the frozen wrapper on the same nodes",
+ "instances": {
+  "hash_file": "configs/stable_selection_v6/validate_hashes.txt"
+ },
+ "configs": [
+  "D",
+  "Fplus",
+  "Fminus"
+ ],
+ "seeds": [
+  0
+ ],
+ "timeout": 300,
+ "memory_mb": 16000,
+ "proof": "lrat"
+}
