@@ -1,0 +1,7 @@
+{
+ "promoted": [
+  "P1|M05"
+ ],
+ "mode": "negative-control deployment (no comparison with OOF gain > 0)",
+ "cap": 2
+}

@@ -1,0 +1,63 @@
+{
+ "per_group": {
+  "D-adv": {
+   "n": 10,
+   "stable_same": 7,
+   "stable_other": 0,
+   "unstable": 3,
+   "won_all_seeds": 7,
+   "fastest_all_seeds": 8
+  },
+  "Fp-adv": {
+   "n": 10,
+   "stable_same": 8,
+   "stable_other": 0,
+   "unstable": 2,
+   "won_all_seeds": 5,
+   "fastest_all_seeds": 9
+  },
+  "Fm-adv": {
+   "n": 10,
+   "stable_same": 9,
+   "stable_other": 0,
+   "unstable": 1,
+   "won_all_seeds": 8,
+   "fastest_all_seeds": 9
+  }
+ },
+ "stable_share_FpFm": 0.85,
+ "shrink_rule_triggered": false,
+ "missing_runs": 0,
+ "stable": {
+  "09e0775d2b51c49ec1ec4d214ee7c8c8": "Fp",
+  "18d4124324b56e434118f9ef72198d84": "Fp",
+  "2b35377a7b95f24449a3b607b61fff05": "Fm",
+  "2d0c041c0fe72dc32527bfbf34f63e61": "D",
+  "33bcf82677b7fdacf18dd48892596a1d": "D",
+  "3cff6c97a515aecfe46ba0f1256a3c11": "D",
+  "474e9594ec7885cb1bebf66073eb2de2": "D",
+  "5457c05649be6f3bc4f743c5e6086a18": "Fm",
+  "5cae5c0629ce1c724746af890410cfc1": "Fp",
+  "5ce7d137442bd97a321a883c425e4634": null,
+  "65ee6b49612eccb7d213e4d950f23677": "Fm",
+  "73063c6257a4ffc29f5bea7028403a64": null,
+  "7d311f620f4ebc4adf8f4079899750eb": "Fp",
+  "8d31ec9edeac705ffd1b23f0cc4f3256": "Fm",
+  "92c17c00d862668de6e6c45d4eecdc75": "D",
+  "931621d9964e9d0cd1c4001822015c92": "Fp",
+  "945d67baeb7860df648ab6ef4782d5ed": "Fp",
+  "9de6ddddf7fde06bf2efd955e2bd1a83": "D",
+  "9ef9243ff051b32795890fccd6c3f6b2": "Fm",
+  "b438fa464c20a19fdb7788a3f0016f32": "Fm",
+  "bd0b055b890a9ace598a0c4aba40de30": "Fm",
+  "ddd3b43476c18cf483aac233d4dc1c68": null,
+  "de7a6b03999e2bc5bd750831c2662a4d": "D",
+  "e0bf26a7527cd162c7d3016d4b2ab9fb": "Fp",
+  "e7ee736cb1d140b3f70c6f519097aa32": "Fm",
+  "e9b4369f9a98e397ac69eb7740ffef49": "Fp",
+  "ea8a79747c7ab142a897b7e8e638245f": null,
+  "eca3692344e30ae83a49158b5baf3372": "Fm",
+  "fb0e505b8bd19a34f1f80b8e020e7856": null,
+  "fca71c20202ef404349136c3a00465eb": null
+ }
+}

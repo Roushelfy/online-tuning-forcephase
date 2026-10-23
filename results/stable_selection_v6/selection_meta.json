@@ -1,0 +1,223 @@
+{
+ "folds": {
+  "P1|RG": [
+   {
+    "fold": 0,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 1,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 2,
+    "hp": 1.0,
+    "theta": 100.0
+   },
+   {
+    "fold": 3,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 4,
+    "hp": 100.0,
+    "theta": null
+   }
+  ],
+  "P1|M05": [
+   {
+    "fold": 0,
+    "hp": 0.1,
+    "theta": null
+   },
+   {
+    "fold": 1,
+    "hp": 0.1,
+    "theta": 100.0
+   },
+   {
+    "fold": 2,
+    "hp": 0.1,
+    "theta": null
+   },
+   {
+    "fold": 3,
+    "hp": 0.1,
+    "theta": 100.0
+   },
+   {
+    "fold": 4,
+    "hp": 0.1,
+    "theta": null
+   }
+  ],
+  "P2|RG": [
+   {
+    "fold": 0,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 1,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 2,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 3,
+    "hp": 10.0,
+    "theta": 50.0
+   },
+   {
+    "fold": 4,
+    "hp": 100.0,
+    "theta": 10.0
+   }
+  ],
+  "P2|M05": [
+   {
+    "fold": 0,
+    "hp": 0.1,
+    "theta": null
+   },
+   {
+    "fold": 1,
+    "hp": 0.1,
+    "theta": null
+   },
+   {
+    "fold": 2,
+    "hp": 0.1,
+    "theta": null
+   },
+   {
+    "fold": 3,
+    "hp": 1.0,
+    "theta": 100.0
+   },
+   {
+    "fold": 4,
+    "hp": 0.1,
+    "theta": 5.0
+   }
+  ],
+  "P3|RG": [
+   {
+    "fold": 0,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 1,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 2,
+    "hp": 1.0,
+    "theta": 20.0
+   },
+   {
+    "fold": 3,
+    "hp": 100.0,
+    "theta": null
+   },
+   {
+    "fold": 4,
+    "hp": 100.0,
+    "theta": 50.0
+   }
+  ],
+  "P3|M05": [
+   {
+    "fold": 0,
+    "hp": 0.1,
+    "theta": null
+   },
+   {
+    "fold": 1,
+    "hp": 0.1,
+    "theta": null
+   },
+   {
+    "fold": 2,
+    "hp": 1.0,
+    "theta": 100.0
+   },
+   {
+    "fold": 3,
+    "hp": 0.1,
+    "theta": null
+   },
+   {
+    "fold": 4,
+    "hp": 0.1,
+    "theta": null
+   }
+  ],
+  "R-LS": [
+   {
+    "fold": 0,
+    "hp": null,
+    "theta": null
+   },
+   {
+    "fold": 1,
+    "hp": null,
+    "theta": null
+   },
+   {
+    "fold": 2,
+    "hp": null,
+    "theta": 100.0
+   },
+   {
+    "fold": 3,
+    "hp": null,
+    "theta": null
+   },
+   {
+    "fold": 4,
+    "hp": null,
+    "theta": null
+   }
+  ],
+  "R-SYM": [
+   {
+    "fold": 0,
+    "hp": null,
+    "theta": null
+   },
+   {
+    "fold": 1,
+    "hp": null,
+    "theta": null
+   },
+   {
+    "fold": 2,
+    "hp": null,
+    "theta": null
+   },
+   {
+    "fold": 3,
+    "hp": null,
+    "theta": 50.0
+   },
+   {
+    "fold": 4,
+    "hp": null,
+    "theta": null
+   }
+  ]
+ },
+ "promoted": [
+  "P1|M05"
+ ]
+}
