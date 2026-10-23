@@ -2,7 +2,7 @@
 
 日期：2026-10-23（UTC）。分支 `research/forcephase-study`。
 
-- **执行目标**：[Agent Goal v6](../../docs/AGENT_GOAL.md)。
+- **执行目标**：[Agent Goal v6](../../docs/AGENT_GOAL_STABLE_SELECTION_V6.md)。
 - **协议**：[STABLE_SELECTION_PROTOCOL_V6.md](../../docs/STABLE_SELECTION_PROTOCOL_V6.md)，在任何 v6 运行之前提交（`4e1e79e`）；偏离记录见第 7 节，共 3 项。
 - **验证前冻结**：提交 `176515a`，标签 `v6-freeze`。
 

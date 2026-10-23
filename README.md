@@ -4,7 +4,9 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 本仓库是科研项目 **Online Tuning Forcephase H:1** 的完整研究记录：固定版本 CaDiCaL 上的最小研究补丁、可复现的实验流水线、全部运行记录的汇总、分阶段报告和最终中文研究报告。
 
-**最终报告：[reports/FINAL_REPORT.md](reports/FINAL_REPORT.md)**（含英文 abstract）。
+**历史最终报告：[reports/FINAL_REPORT.md](reports/FINAL_REPORT.md)**（含英文 abstract）。
+
+**当前主评价口径为v7：同一批任务全部完成后的平均CPU时间。**下面v4–v6的PAR2数字均为历史截断实验，不是新口径下的完成时间；新口径尚未得到完整结果。
 
 **三选一研究（Agent Goal v4）已完成（2026-10-22）：[reports/three_way/FINAL_REPORT.md](reports/three_way/FINAL_REPORT.md)。**五年代表性面板（2022–2026，500 题，dev 401 / test 99，家族不相交）上，默认 D 是最佳固定动作；冻结的静态选择器与 0.1 s 试跑选择器在 test 上相对 D 为 PAR2 −3.7% [−10.4, +2.5] 与 −1.7% [−7.9, +3.2]（含全部观察成本），dev 交叉验证中 12 个候选也全部不如 D：有界负结果。oracle 上限 dev 12% / test 8.5%，但集中于少数实例，廉价特征只与胜负弱相关。协议 [THREE_WAY_PROTOCOL.md](docs/THREE_WAY_PROTOCOL.md)；面板 [DATASET.md](reports/three_way/DATASET.md)；S1 [BASELINE_PROFILE.md](reports/three_way/BASELINE_PROFILE.md)；S2 [SELECTOR_CV.md](reports/three_way/SELECTOR_CV.md)；S3 [TEST_RESULTS.md](reports/three_way/TEST_RESULTS.md)；算力 39.9 CPU 核时（[COMPUTE.md](results/three_way/COMPUTE.md)）。
 
@@ -12,7 +14,7 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **Goal v5（扩大观测方式）已完成（2026-10-23）：[reports/observations_v5/FINAL_REPORT.md](reports/observations_v5/FINAL_REPORT.md)。**在 v4 的五年面板上实施了候选库中的 50 项新观测（A–G 七类，外加 1 项部分实施），包括三动作配对短试跑、双边传播、根传播残余式、加权极性、修正的相位轨迹、蕴含图、社区/WL 和局部搜索；分装成 11 个观察包，每个配上带默认回退门的绝对成本读出器，在 dev 401 上做家族分组嵌套交叉验证，全部观察 CPU 计入成本。结果是有界负结果：27 个登记比较没有一个可靠优于始终 D（−2.2% 到 +0.0%）；同一读出器下，没有一个观察包相对 v4 的 28 个静态特征有增量；新读出器比 v4 读出器好，但只是因为更少偏离。两个按协议选出的策略，在 dev 真实部署中为 −0.25% 与 −0.01%，在冻结后的 78 题确认集上为 +0.4% [−4.8, +6.0] 与 −1.4%。另外发现：局部搜索观测不可复现，大公式上观察常常触顶，单 seed 的 D 优势标签不稳定。协议见 [OBSERVATION_PROTOCOL_V5.md](docs/OBSERVATION_PROTOCOL_V5.md)，注册表见 [registry.json](configs/observations_v5/registry.json)；算力 82.4 CPU 核时，v4 之后累计 122.3（[COMPUTE.md](results/observations_v5/COMPUTE.md)）。
 
-**当前执行目标：Agent Goal v6（已设定，尚未执行）：[docs/AGENT_GOAL.md](docs/AGENT_GOAL.md)。**先用约30道开发题、三个seed核实优势稳定性，修复固定工作量的局部搜索观测，再比较预算内的成熟SAT特征与“解出概率＋条件耗时”预测；最多两个候选冻结后在最多60道新实例上验证。v6新增CPU上限60核时，v4之后累计仍不超过200。优先寻找可解释、可迁移的F+/F−优势子群；可靠负结果也可完成。v5原目标存档：[AGENT_GOAL_OBSERVATIONS_V5.md](docs/AGENT_GOAL_OBSERVATIONS_V5.md)。
+**当前执行目标：Agent Goal v7（评价口径已改，长时数据待采集）：[docs/AGENT_GOAL.md](docs/AGENT_GOAL.md)。**主指标改为同一批实例全部有效完成后的算术平均CPU时间（含观察与重启），不使用超时惩罚或300秒截断均值；有题未完成时主均值与相关收益为未知。第一批固定沿用v6的55题，先补默认完整时间、oracle与冻结策略长时版。新协议：[COMPLETION_TIME_PROTOCOL_V7.md](docs/COMPLETION_TIME_PROTOCOL_V7.md)；评价脚本：[evaluate.py](scripts/completion_v7/evaluate.py)；当前状态：[STATUS.md](reports/completion_v7/STATUS.md)。v6目标存档：[AGENT_GOAL_STABLE_SELECTION_V6.md](docs/AGENT_GOAL_STABLE_SELECTION_V6.md)。
 
 **v5 的执行顺序**：核对旧观测的有效覆盖与错误损失 → 在小面板上验证新观测与开销 → 在开发集上分组筛选并保守选择 → 完整 wrapper 实测 → 小型新确认。各阶段的报告都在 `reports/observations_v5/`。
 
@@ -32,7 +34,9 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 | 文档 | 内容 |
 | --- | --- |
-| [当前 Agent Goal v6](docs/AGENT_GOAL.md) | 稳定优势子群、可复现局部搜索、成熟特征/M05对照与新实例验证 |
+| [当前 Agent Goal v7](docs/AGENT_GOAL.md) | 所有任务完成后的平均CPU时间、同面板长时复评 |
+| [完成时间评价协议 v7](docs/COMPLETION_TIME_PROTOCOL_V7.md) | 完整均值、未完成状态、oracle下界与评价入口 |
+| [已完成的稳定选择目标 v6](docs/AGENT_GOAL_STABLE_SELECTION_V6.md) | v6历史任务与旧300秒评价边界 |
 | [已完成的观测目标 v5](docs/AGENT_GOAL_OBSERVATIONS_V5.md) | v5历史任务、候选库与结果边界 |
 | [观测候选库v5](docs/OBSERVATION_CATALOG_V5.md) | 80项观测、12类决策方法、优先级、成本、文献与首轮观察包 |
 | [已完成的三选一目标v4](docs/AGENT_GOAL_THREE_WAY_V4.md) | v4历史任务与结果边界 |

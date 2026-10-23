@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "phase": "completion_v7",
+  "metric": "mean_completed_cpu_seconds",
+  "unit": "process_tree_cpu_seconds",
+  "aggregation": "arithmetic_mean_over_fixed_panel",
+  "panel_file": "configs/completion_v7/panel.txt",
+  "panel_size": 55,
+  "methods": [
+    "D",
+    "Fp",
+    "Fm",
+    "P1_M05_long"
+  ],
+  "baseline": "D",
+  "required_methods": [
+    "D",
+    "P1_M05_long"
+  ],
+  "oracle_actions": [
+    "D",
+    "Fp",
+    "Fm"
+  ],
+  "require_oracle_complete": true,
+  "scoring_cutoff_cpu_seconds": null,
+  "timeout_penalty": null,
+  "incomplete_mean": null,
+  "drop_incomplete_instances": false,
+  "include_observation_and_algorithmic_restart_cpu": true,
+  "independent_verification_required": true,
+  "checker_cpu_in_primary_metric": false,
+  "observation_cap_cpu_seconds": 6,
+  "formal_seed": 0,
+  "cumulative_budget_cpu_hours": 200,
+  "previous_used_cpu_hours": 144.65,
+  "collection_status": "pending long-running data collection and reuse audit",
+  "historical_source_commit": "068fca03b9fc793a05dca6b13670618a649fb504",
+  "historical_source_panel": "configs/stable_selection_v6/validate_hashes.txt"
+}
