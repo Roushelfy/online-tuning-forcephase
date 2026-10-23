@@ -1,0 +1,21 @@
+{
+ "name": "v5_seed1",
+ "description": "Goal v5 V1 diagnostic: fixed D / F+ / F- with solver seed 1 (--seed=1) on engineering-panel instances solved by >= 1 action in v4; otherwise the v4 run policy (build/fpc, T = 300 s CPU, 16 GB, LRAT, telemetry)",
+ "instances": {
+  "hash_file": "configs/observations_v5/repeat_hashes.txt"
+ },
+ "configs": [
+  "D",
+  "Fplus",
+  "Fminus"
+ ],
+ "seeds": [
+  0
+ ],
+ "extra_args": [
+  "--seed=1"
+ ],
+ "timeout": 300,
+ "memory_mb": 16000,
+ "proof": "lrat"
+}

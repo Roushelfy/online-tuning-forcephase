@@ -1,0 +1,24 @@
+{
+ "name": "kappa_R09",
+ "package": "R09",
+ "purpose": "observe-only overhead measurement (protocol section 5); trivial reader, always D",
+ "reader": {
+  "pre": {
+   "columns": [],
+   "standardize": false
+  },
+  "models": {
+   "Fp": {
+    "type": "ridge",
+    "intercept": 0.0,
+    "coef": []
+   },
+   "Fm": {
+    "type": "ridge",
+    "intercept": 0.0,
+    "coef": []
+   }
+  },
+  "theta": null
+ }
+}

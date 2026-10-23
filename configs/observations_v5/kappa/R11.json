@@ -1,0 +1,45 @@
+{
+ "name": "kappa_R11",
+ "package": "R11",
+ "purpose": "observe-only overhead measurement (protocol section 5); trivial reader, always D",
+ "stage1": {
+  "pre": {
+   "columns": [],
+   "standardize": false
+  },
+  "models": {
+   "Fp": {
+    "type": "ridge",
+    "intercept": 0.0,
+    "coef": []
+   },
+   "Fm": {
+    "type": "ridge",
+    "intercept": 0.0,
+    "coef": []
+   }
+  },
+  "theta": null
+ },
+ "stage2": {
+  "pre": {
+   "columns": [],
+   "standardize": false
+  },
+  "models": {
+   "Fp": {
+    "type": "ridge",
+    "intercept": 0.0,
+    "coef": []
+   },
+   "Fm": {
+    "type": "ridge",
+    "intercept": 0.0,
+    "coef": []
+   }
+  },
+  "theta": null
+ },
+ "theta1": null,
+ "theta_ask": -1e+18
+}
