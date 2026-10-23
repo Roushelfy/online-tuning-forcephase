@@ -137,3 +137,17 @@ M5 唯一主要候选的选择规则（在看到 M4-lite 结果之前固定）�
   - 冻结（e832b94，标签 v5-freeze）后运行 78 题确认集：S1 +0.4% [−4.8, +6.0]，S2 −1.4% [−3.6, −0.2]，F+ −9.8%，F− −2.1%，事后最优 +13.2%。
   - 发现局部搜索观测不可复现；大公式上观察常常触顶（确认集 48/78 题被强制回退 D）。
 - 报告：[reports/observations_v5/FINAL_REPORT.md](../reports/observations_v5/FINAL_REPORT.md)。v5 共 82.4 CPU 核时，v4 之后累计 122.3 / 200。
+
+## 2026-10-23 — Agent Goal v6：稳定的 forcephase 优势子群（R0–R4 完成）
+
+- R0（21:15 UTC，任何 v6 运行之前）：协议 [STABLE_SELECTION_PROTOCOL_V6.md](STABLE_SELECTION_PROTOCOL_V6.md)、诊断 30 题、工程 12 题、检查 30 题、验证清单 55 题。提交 4e1e79e。
+- R1：
+  - 运行：30 题 × 3 动作 × seed 1/2，新跑 159 次，复用 v5 的 21 次。
+  - 结果：F+/F− 原优势 17/20 稳定，D 原优势 7/10 稳定；F± 几乎不受 seed 影响。
+- R2：
+  - 局部搜索：v5 版有 3/12 题不可复现，已重现；obsprofile6 改为固定翻转，重复运行逐项相同。上限检查的粒度问题在 dev 采集前修正（偏离 1）。W = 50,000。
+  - SATzilla 2024：从源码构建，只有 ncnf-constraints、ncnf-rwh、unit 三组放得进预算。
+  - dev 采集完成。
+- R3：8 个登记比较都不优于始终 D；新特征和 M05 都没有增量。按规则晋级负对照 P1|M05；真实检查 30/30 与离线一致。
+- R4：冻结（176515a，标签 v6-freeze）后，在 55 道新题上，固定运行与 wrapper 同批交错运行。P1|M05 为 +2.2% [−0.2, +7.0]，非 dev 家族为 +0.0%。作业脚本空转后被手动取消（偏离 3），没有影响任何记录。
+- 报告：[reports/stable_selection_v6/FINAL_REPORT.md](../reports/stable_selection_v6/FINAL_REPORT.md)。v6 共 22.4 CPU 核时，累计 144.7 / 200。
