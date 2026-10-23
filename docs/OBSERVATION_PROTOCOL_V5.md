@@ -263,3 +263,11 @@
    - 读取旧批次的记录时，用 `results/observations_v5/record_versions.json` 中登记的版本：collection 是第二次采集，deploy_dev 是 dev 真实部署，confirm 是确认集。
    - `v5data.Dev` 的 κ 直接读取建模前保存的 `results/observations_v5/kappa.json`。
 4. **冻结**：确认集运行之前，在 `configs/observations_v5/frozen/FREEZE.json` 中记录 S1/S2 最终模型、确认集清单、代码、二进制与本协议的 sha256，并打标签 `v5-freeze`。
+5. **冻结之后的改动**：只改了分析脚本，没有改任何运行或判定。
+   - `v5deploy.py` 加入了图，并在缺失记录时只用有记录的题做配对计算；
+   - `compute_ledger.py` 改了一处批次标签。
+   - 冻结时记录的 `v5deploy.py` 的 sha256 对应改动前的版本。
+6. **缺失记录**：dev 真实部署中，S1 在 `f376d4c19151…` 上的那次运行没有写出记录。
+   - 原因：集群共享的 `/mnt/data` 在运行期间写满（800T/800T，Errno 122）。之后的补跑同样因此失败。
+   - 处理：按存储约定，没有把运行数据转写到 home；该题在 S1 的 dev 部署结果中按缺失处理，配对计算用 400 题，不填补，也不删除其他题。
+   - 其余 801 次 dev 运行与全部确认运行完整。

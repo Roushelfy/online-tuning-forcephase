@@ -155,6 +155,11 @@ def main():
            "status_values": {"planned": "first batch, in the named package(s)", "diagnostic": "robustness check, not a deployed input",
                              "analysis": "used in the analysis only", "partial": "part of the definition implemented",
                              "not_done": "not implemented in this study (not a negative result)"},
+           "result_status_values": {
+               "done: no signal shown": "implemented and measured; no 'consistent' univariate correlation and no package gain or increment over S28 (this panel only; not a proof of uselessness)",
+               "done: weak univariate signal, no gain or increment shown": "at least one feature passed the descriptive consistency screen, but its packages neither beat always-D nor S28",
+               "done: no comparison beats always-D": "decision method implemented; no registered comparison using it has a CI above 0",
+               "done: diagnostic": "robustness check reported", "done: analysis": "analysis reported"},
            "observations": obs, "decision_methods": meth}
     json.dump(out, open(os.path.join(CFG, "registry.json"), "w"), ensure_ascii=False, indent=1)
     from collections import Counter

@@ -91,11 +91,16 @@ def main():
         ok = ~np.isnan(real)
         if ok.sum() == 0:
             continue
-        g, lo, hi = boot.mean_ci(np.where(ok, c0 - np.nan_to_num(real), 0.0)) if ok.all() else (float("nan"),) * 3
+        # paired on the instances with a record (a missing record is reported, never imputed)
+        sub = VS.Boot([D.fam[i] for i in range(D.n) if ok[i]])
+        g, lo, hi = sub.mean_ci((c0 - real)[ok])
+        base = c0[ok].mean()
         dd = np.array(diffs)
-        L.append(f"| {sname} = `{cname}` | {done}/{D.n} | {int((real[ok] < PAR2).sum())} | {np.nanmean(real):.2f} | "
-                 f"{100 * g / c0.mean():+.2f}% [{100 * lo / c0.mean():+.2f}, {100 * hi / c0.mean():+.2f}] | {sim_res['cost'][ok].mean():.2f} | "
+        L.append(f"| {sname} = `{cname}` | {done}/{D.n} | {int((real[ok] < PAR2).sum())} | {real[ok].mean():.2f}（同题始终 D {base:.2f}） | "
+                 f"{100 * g / base:+.2f}% [{100 * lo / base:+.2f}, {100 * hi / base:+.2f}] | {sim_res['cost'][ok].mean():.2f} | "
                  f"{agree}/{done} | {np.median(dd):+.3f} / {np.max(np.abs(dd)):.1f} | {np.mean(obs):.3f} | {np.median(extra):.3f} |")
+        if not ok.all():
+            L.append(f"|  | 缺失记录：{', '.join(D.h[i][:12] for i in range(D.n) if not ok[i])}（见 DEPLOYMENT.md） | | | | | | | | |")
     L += ["", f"始终 D（固定运行，不观察）PAR2 = {c0.mean():.2f}。真实成本含观察、决策、正式求解和 wrapper 自身的全部 CPU。", ""]
     if rows:
         big = sorted(rows, key=lambda r: -abs(r["real_cost"] - r["sim_cost"]))[:8]
@@ -171,6 +176,42 @@ def main():
             w = csv.DictWriter(f, fieldnames=list(dict.fromkeys(k for r in crow for k in r)))
             w.writeheader()
             w.writerows(crow)
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+        fig_dir = os.path.join(VS.REP, "figures")
+        os.makedirs(fig_dir, exist_ok=True)
+        if rows:
+            fig, axs = plt.subplots(1, len(strategies), figsize=(5 * len(strategies), 4.2))
+            for ax, s in zip(np.atleast_1d(axs), strategies):
+                rr = [r for r in rows if r["strategy"] == s]
+                x = np.array([r["sim_cost"] for r in rr]) + 0.01
+                y = np.array([r["real_cost"] for r in rr]) + 0.01
+                ax.loglog(x, y, ".", ms=3)
+                ax.plot([0.01, 700], [0.01, 700], "k-", lw=0.6)
+                ax.set_xlabel("offline simulated cost (s)")
+                ax.set_ylabel("real wrapper cost (s)")
+                ax.set_title(f"{s} = {strategies[s]} (dev, fold models)", fontsize=9)
+            fig.tight_layout()
+            fig.savefig(os.path.join(fig_dir, "deploy_dev_real_vs_sim.png"), dpi=130)
+            L += ["![dev 真实 vs 模拟](figures/deploy_dev_real_vs_sim.png)", ""]
+        if a.confirm and not any(np.isnan(np.array(v, float)).any() for v in list(C.values()) + list(W.values())):
+            names = ["D", "F+", "F−"] + list(strategies) + ["oracle"]
+            vals = [np.array(C["D"]), np.array(C["Fp"]), np.array(C["Fm"])] + [np.array(W[s], float) for s in strategies] + \
+                [np.array([r["oracle"] for r in crow])]
+            ci = [cb.mean_ci(v) for v in vals]
+            fig, ax = plt.subplots(figsize=(7, 3.6))
+            ax.bar(range(len(names)), [c[0] for c in ci], yerr=[[c[0] - c[1] for c in ci], [c[2] - c[0] for c in ci]], capsize=3)
+            ax.set_xticks(range(len(names)))
+            ax.set_xticklabels(names)
+            ax.set_ylabel("mean PAR2 (s), 95% family cluster bootstrap")
+            ax.set_title(f"Confirmation set ({len(hs)} problems, {len(set(fam.values()))} family groups)", fontsize=9)
+            fig.tight_layout()
+            fig.savefig(os.path.join(fig_dir, "confirm_par2.png"), dpi=130)
+            L += ["![确认集 PAR2](figures/confirm_par2.png)", ""]
+    except ImportError:
+        pass
     open(os.path.join(VS.REP, "DEPLOY_TABLES.md"), "w").write("\n".join(L) + "\n")
     print("\n".join(L))
 

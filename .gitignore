@@ -5,3 +5,4 @@
 *.pyc
 __pycache__/
 .venv/
+results/observations_v5/selection_state.pkl

@@ -53,13 +53,14 @@ def main():
     L += ["## 1. 登记的比较（外层 5 折 OOF，dev 401）", "",
           f"始终 D（不观察）PAR2 = {R['always-D']['par2']:.2f}；事后最优 {R['oracle']['par2']:.2f}（{fmt_pct(R['oracle'])}）。"
           "净收益 = 始终 D 的成本 − 策略成本（含全部观察 CPU），正 = 更好；区间为家族 cluster bootstrap 95%（10,000 次）。"
-          "精度 = 偏离 D 的题中、比同一观察后选 D 更好的比例；错误偏离 = 这些题多付的秒数 / 401；严重回退 = D 在截止前解出而策略超时，或单题多付 ≥ 100 s。", "",
-          "| 包 | 内容 | 读出器 | PAR2 | 净收益（相对 D） | 偏离 F+/F− | 精度 | 正确偏离 s/题 | 错误偏离 s/题 | 严重回退 | 前 10 题占正收益 | 平均观察 CPU s |",
+          "精度 = 偏离 D 的题中、比同一观察后选 D 更好的比例；错误偏离 = 这些题多付的秒数 / 401；严重回退 = D 在截止前解出而策略超时，或单题多付 ≥ 100 s；"
+          "正/负收益实例 = 比始终 D 省时 / 费时的实例数（几乎所有“负”都是几十毫秒的观察开销）。", "",
+          "| 包 | 内容 | 读出器 | PAR2 | 净收益（相对 D） | 偏离 F+/F− | 精度 | 正确偏离 s/题 | 错误偏离 s/题 | 严重回退 | 正收益 / 负收益实例 | 平均观察 CPU s |",
           "|---|---|---|---:|---|---|---:|---:|---:|---:|---:|---:|"]
     for r in sorted(reg, key=lambda r: (["R00"] + VD.PKGS).index(r["package"]) * 10 + ["RG", "TG", "RF"].index(r["reader"])):
         L.append(f"| {r['package']} | {PKG_DESC[r['package']]} | {r['reader']} | {r['par2']:.2f} | {fmt_pct(r)} | {r['dev_Fp']}/{r['dev_Fm']} | "
                  f"{r['precision']:.2f} | {r['right_gain']:.2f} | {r['wrong_loss']:.2f} | {r['severe']} | "
-                 f"{r['top10_share']:.0%} | {r['obs_cpu']:.2f} |")
+                 f"{int(((c0 - oof[r['name']][0]['cost']) > 1e-9).sum())} / {int(((c0 - oof[r['name']][0]['cost']) < -1e-9).sum())} | {r['obs_cpu']:.2f} |")
     n_reg = len([r for r in reg if r["package"] != "R00"])
     L += ["", f"登记比较 {n_reg} 个（R01–R11 × RG/TG = 22，加上 R00 × RG/TG = 2，以及晋级包上的 RF {len([r for r in reg if r['reader'] == 'RF'])} 个）。"
           f"晋级（按 RG/TG 较好者的 OOF 净收益）：{', '.join(meta['promoted'])}。", ""]

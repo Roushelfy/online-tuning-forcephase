@@ -1,0 +1,3022 @@
+{
+ "A01": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.094,
+  "max_abs_rho_Fm": 0.192,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A02": {
+  "status": "done: no signal shown",
+  "n_features": 8,
+  "max_abs_rho_Fp": 0.126,
+  "max_abs_rho_Fm": 0.176,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A03": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.11,
+  "max_abs_rho_Fm": 0.163,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A04": {
+  "status": "done: no signal shown",
+  "n_features": 5,
+  "max_abs_rho_Fp": 0.123,
+  "max_abs_rho_Fm": 0.104,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A05": {
+  "status": "done: no signal shown",
+  "n_features": 7,
+  "max_abs_rho_Fp": 0.099,
+  "max_abs_rho_Fm": 0.184,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A07": {
+  "status": "done: no signal shown",
+  "n_features": 5,
+  "max_abs_rho_Fp": 0.187,
+  "max_abs_rho_Fm": 0.236,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A09": {
+  "status": "done: no signal shown",
+  "n_features": 4,
+  "max_abs_rho_Fp": 0.17,
+  "max_abs_rho_Fm": 0.13,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A10": {
+  "status": "done: no signal shown",
+  "n_features": 2,
+  "max_abs_rho_Fp": 0.072,
+  "max_abs_rho_Fm": 0.166,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A11": {
+  "status": "done: no signal shown",
+  "n_features": 2,
+  "max_abs_rho_Fp": 0.042,
+  "max_abs_rho_Fm": 0.143,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "A12": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.132,
+  "max_abs_rho_Fm": 0.14,
+  "consistent_tests": 0,
+  "packages": {
+   "R04|RG": {
+    "gain_pct": -2.18,
+    "ci": [
+     -5.45,
+     0.17
+    ],
+    "increment_vs_S28_s": [
+     -7.14,
+     -20.72,
+     3.66
+    ]
+   },
+   "R04|TG": {
+    "gain_pct": -0.5,
+    "ci": [
+     -1.28,
+     -0.02
+    ],
+    "increment_vs_S28_s": [
+     -1.86,
+     -4.84,
+     -0.04
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "B01": {
+  "status": "done: no signal shown",
+  "n_features": 2,
+  "max_abs_rho_Fp": 0.211,
+  "max_abs_rho_Fm": 0.044,
+  "consistent_tests": 0,
+  "packages": {
+   "R02|RG": {
+    "gain_pct": -0.81,
+    "ci": [
+     -3.23,
+     1.17
+    ],
+    "increment_vs_S28_s": [
+     -1.89,
+     -9.65,
+     3.62
+    ]
+   },
+   "R02|TG": {
+    "gain_pct": -1.26,
+    "ci": [
+     -3.45,
+     0.29
+    ],
+    "increment_vs_S28_s": [
+     -4.78,
+     -13.13,
+     1.14
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "B02": {
+  "status": "done: no signal shown",
+  "n_features": 5,
+  "max_abs_rho_Fp": 0.064,
+  "max_abs_rho_Fm": 0.074,
+  "consistent_tests": 0,
+  "packages": {
+   "R02|RG": {
+    "gain_pct": -0.81,
+    "ci": [
+     -3.23,
+     1.17
+    ],
+    "increment_vs_S28_s": [
+     -1.89,
+     -9.65,
+     3.62
+    ]
+   },
+   "R02|TG": {
+    "gain_pct": -1.26,
+    "ci": [
+     -3.45,
+     0.29
+    ],
+    "increment_vs_S28_s": [
+     -4.78,
+     -13.13,
+     1.14
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "B03": {
+  "status": "done: no signal shown",
+  "n_features": 6,
+  "max_abs_rho_Fp": 0.085,
+  "max_abs_rho_Fm": 0.228,
+  "consistent_tests": 0,
+  "packages": {
+   "R02|RG": {
+    "gain_pct": -0.81,
+    "ci": [
+     -3.23,
+     1.17
+    ],
+    "increment_vs_S28_s": [
+     -1.89,
+     -9.65,
+     3.62
+    ]
+   },
+   "R02|TG": {
+    "gain_pct": -1.26,
+    "ci": [
+     -3.45,
+     0.29
+    ],
+    "increment_vs_S28_s": [
+     -4.78,
+     -13.13,
+     1.14
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "B04": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.064,
+  "max_abs_rho_Fm": 0.074,
+  "consistent_tests": 0,
+  "packages": {
+   "R02|RG": {
+    "gain_pct": -0.81,
+    "ci": [
+     -3.23,
+     1.17
+    ],
+    "increment_vs_S28_s": [
+     -1.89,
+     -9.65,
+     3.62
+    ]
+   },
+   "R02|TG": {
+    "gain_pct": -1.26,
+    "ci": [
+     -3.45,
+     0.29
+    ],
+    "increment_vs_S28_s": [
+     -4.78,
+     -13.13,
+     1.14
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "B05": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.044,
+  "max_abs_rho_Fm": 0.163,
+  "consistent_tests": 0,
+  "packages": {
+   "R02|RG": {
+    "gain_pct": -0.81,
+    "ci": [
+     -3.23,
+     1.17
+    ],
+    "increment_vs_S28_s": [
+     -1.89,
+     -9.65,
+     3.62
+    ]
+   },
+   "R02|TG": {
+    "gain_pct": -1.26,
+    "ci": [
+     -3.45,
+     0.29
+    ],
+    "increment_vs_S28_s": [
+     -4.78,
+     -13.13,
+     1.14
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "B07": {
+  "status": "done: no signal shown",
+  "n_features": 8,
+  "max_abs_rho_Fp": 0.232,
+  "max_abs_rho_Fm": 0.142,
+  "consistent_tests": 0,
+  "packages": {
+   "R02|RG": {
+    "gain_pct": -0.81,
+    "ci": [
+     -3.23,
+     1.17
+    ],
+    "increment_vs_S28_s": [
+     -1.89,
+     -9.65,
+     3.62
+    ]
+   },
+   "R02|TG": {
+    "gain_pct": -1.26,
+    "ci": [
+     -3.45,
+     0.29
+    ],
+    "increment_vs_S28_s": [
+     -4.78,
+     -13.13,
+     1.14
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "B10": {
+  "status": "done: no signal shown",
+  "n_features": 2,
+  "max_abs_rho_Fp": 0.19,
+  "max_abs_rho_Fm": 0.163,
+  "consistent_tests": 0,
+  "packages": {
+   "R02|RG": {
+    "gain_pct": -0.81,
+    "ci": [
+     -3.23,
+     1.17
+    ],
+    "increment_vs_S28_s": [
+     -1.89,
+     -9.65,
+     3.62
+    ]
+   },
+   "R02|TG": {
+    "gain_pct": -1.26,
+    "ci": [
+     -3.45,
+     0.29
+    ],
+    "increment_vs_S28_s": [
+     -4.78,
+     -13.13,
+     1.14
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "C01": {
+  "status": "done: weak univariate signal, no gain or increment shown",
+  "n_features": 16,
+  "max_abs_rho_Fp": 0.251,
+  "max_abs_rho_Fm": 0.231,
+  "consistent_tests": 1,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "C02": {
+  "status": "done: no signal shown",
+  "n_features": 8,
+  "max_abs_rho_Fp": 0.1,
+  "max_abs_rho_Fm": 0.175,
+  "consistent_tests": 0,
+  "packages": {
+   "R01|RG": {
+    "gain_pct": -1.71,
+    "ci": [
+     -4.2,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -5.35,
+     -14.82,
+     2.17
+    ]
+   },
+   "R01|TG": {
+    "gain_pct": -0.42,
+    "ci": [
+     -1.38,
+     -0.01
+    ],
+    "increment_vs_S28_s": [
+     -1.55,
+     -5.22,
+     -0.02
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "C03": {
+  "status": "done: no signal shown",
+  "n_features": 1,
+  "max_abs_rho_Fp": 0.047,
+  "max_abs_rho_Fm": 0.077,
+  "consistent_tests": 0,
+  "packages": {
+   "R05|RG": {
+    "gain_pct": -0.36,
+    "ci": [
+     -1.11,
+     0.36
+    ],
+    "increment_vs_S28_s": [
+     -0.18,
+     -5.87,
+     6.06
+    ]
+   },
+   "R05|TG": {
+    "gain_pct": -1.29,
+    "ci": [
+     -3.69,
+     0.79
+    ],
+    "increment_vs_S28_s": [
+     -4.9,
+     -14.05,
+     3.07
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "C04": {
+  "status": "done: no signal shown",
+  "n_features": 2,
+  "max_abs_rho_Fp": 0.063,
+  "max_abs_rho_Fm": 0.283,
+  "consistent_tests": 0,
+  "packages": {
+   "R03|RG": {
+    "gain_pct": -0.43,
+    "ci": [
+     -2.22,
+     0.75
+    ],
+    "increment_vs_S28_s": [
+     -0.46,
+     -8.77,
+     6.85
+    ]
+   },
+   "R03|TG": {
+    "gain_pct": -0.25,
+    "ci": [
+     -0.91,
+     0.11
+    ],
+    "increment_vs_S28_s": [
+     -0.91,
+     -3.45,
+     0.45
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "C08": {
+  "status": "done: no signal shown",
+  "n_features": 27,
+  "max_abs_rho_Fp": 0.197,
+  "max_abs_rho_Fm": 0.152,
+  "consistent_tests": 0,
+  "packages": {
+   "R06|RG": {
+    "gain_pct": -0.7,
+    "ci": [
+     -1.7,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.47,
+     -7.63,
+     4.92
+    ]
+   },
+   "R06|TG": {
+    "gain_pct": -0.27,
+    "ci": [
+     -0.72,
+     -0.06
+    ],
+    "increment_vs_S28_s": [
+     -0.99,
+     -2.72,
+     -0.21
+    ]
+   },
+   "R07|RG": {
+    "gain_pct": -1.66,
+    "ci": [
+     -3.52,
+     -0.34
+    ],
+    "increment_vs_S28_s": [
+     -5.15,
+     -14.11,
+     2.89
+    ]
+   },
+   "R07|TG": {
+    "gain_pct": -0.31,
+    "ci": [
+     -0.76,
+     -0.04
+    ],
+    "increment_vs_S28_s": [
+     -1.13,
+     -2.88,
+     -0.11
+    ]
+   },
+   "R08|RG": {
+    "gain_pct": -0.54,
+    "ci": [
+     -1.69,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -7.47,
+     5.84
+    ]
+   },
+   "R08|TG": {
+    "gain_pct": -2.17,
+    "ci": [
+     -4.58,
+     -0.4
+    ],
+    "increment_vs_S28_s": [
+     -8.24,
+     -17.46,
+     -1.48
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "D01": {
+  "status": "done: no signal shown",
+  "n_features": 6,
+  "max_abs_rho_Fp": 0.047,
+  "max_abs_rho_Fm": 0.224,
+  "consistent_tests": 0,
+  "packages": {
+   "R03|RG": {
+    "gain_pct": -0.43,
+    "ci": [
+     -2.22,
+     0.75
+    ],
+    "increment_vs_S28_s": [
+     -0.46,
+     -8.77,
+     6.85
+    ]
+   },
+   "R03|TG": {
+    "gain_pct": -0.25,
+    "ci": [
+     -0.91,
+     0.11
+    ],
+    "increment_vs_S28_s": [
+     -0.91,
+     -3.45,
+     0.45
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "D02": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.156,
+  "max_abs_rho_Fm": 0.055,
+  "consistent_tests": 0,
+  "packages": {
+   "R03|RG": {
+    "gain_pct": -0.43,
+    "ci": [
+     -2.22,
+     0.75
+    ],
+    "increment_vs_S28_s": [
+     -0.46,
+     -8.77,
+     6.85
+    ]
+   },
+   "R03|TG": {
+    "gain_pct": -0.25,
+    "ci": [
+     -0.91,
+     0.11
+    ],
+    "increment_vs_S28_s": [
+     -0.91,
+     -3.45,
+     0.45
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "D03": {
+  "status": "done: no signal shown",
+  "n_features": 5,
+  "max_abs_rho_Fp": 0.055,
+  "max_abs_rho_Fm": 0.144,
+  "consistent_tests": 0,
+  "packages": {
+   "R03|RG": {
+    "gain_pct": -0.43,
+    "ci": [
+     -2.22,
+     0.75
+    ],
+    "increment_vs_S28_s": [
+     -0.46,
+     -8.77,
+     6.85
+    ]
+   },
+   "R03|TG": {
+    "gain_pct": -0.25,
+    "ci": [
+     -0.91,
+     0.11
+    ],
+    "increment_vs_S28_s": [
+     -0.91,
+     -3.45,
+     0.45
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "D04": {
+  "status": "done: no signal shown",
+  "n_features": 4,
+  "max_abs_rho_Fp": 0.198,
+  "max_abs_rho_Fm": 0.063,
+  "consistent_tests": 0,
+  "packages": {
+   "R04|RG": {
+    "gain_pct": -2.18,
+    "ci": [
+     -5.45,
+     0.17
+    ],
+    "increment_vs_S28_s": [
+     -7.14,
+     -20.72,
+     3.66
+    ]
+   },
+   "R04|TG": {
+    "gain_pct": -0.5,
+    "ci": [
+     -1.28,
+     -0.02
+    ],
+    "increment_vs_S28_s": [
+     -1.86,
+     -4.84,
+     -0.04
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "D05": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.115,
+  "max_abs_rho_Fm": 0.107,
+  "consistent_tests": 0,
+  "packages": {
+   "R04|RG": {
+    "gain_pct": -2.18,
+    "ci": [
+     -5.45,
+     0.17
+    ],
+    "increment_vs_S28_s": [
+     -7.14,
+     -20.72,
+     3.66
+    ]
+   },
+   "R04|TG": {
+    "gain_pct": -0.5,
+    "ci": [
+     -1.28,
+     -0.02
+    ],
+    "increment_vs_S28_s": [
+     -1.86,
+     -4.84,
+     -0.04
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "D07": {
+  "status": "done: no signal shown",
+  "n_features": 2,
+  "max_abs_rho_Fp": 0.039,
+  "max_abs_rho_Fm": 0.195,
+  "consistent_tests": 0,
+  "packages": {
+   "R03|RG": {
+    "gain_pct": -0.43,
+    "ci": [
+     -2.22,
+     0.75
+    ],
+    "increment_vs_S28_s": [
+     -0.46,
+     -8.77,
+     6.85
+    ]
+   },
+   "R03|TG": {
+    "gain_pct": -0.25,
+    "ci": [
+     -0.91,
+     0.11
+    ],
+    "increment_vs_S28_s": [
+     -0.91,
+     -3.45,
+     0.45
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "D10": {
+  "status": "done: no signal shown",
+  "n_features": 4,
+  "max_abs_rho_Fp": 0.079,
+  "max_abs_rho_Fm": 0.154,
+  "consistent_tests": 0,
+  "packages": {
+   "R04|RG": {
+    "gain_pct": -2.18,
+    "ci": [
+     -5.45,
+     0.17
+    ],
+    "increment_vs_S28_s": [
+     -7.14,
+     -20.72,
+     3.66
+    ]
+   },
+   "R04|TG": {
+    "gain_pct": -0.5,
+    "ci": [
+     -1.28,
+     -0.02
+    ],
+    "increment_vs_S28_s": [
+     -1.86,
+     -4.84,
+     -0.04
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E01": {
+  "status": "done: weak univariate signal, no gain or increment shown",
+  "n_features": 111,
+  "max_abs_rho_Fp": 0.219,
+  "max_abs_rho_Fm": 0.294,
+  "consistent_tests": 1,
+  "packages": {
+   "R06|RG": {
+    "gain_pct": -0.7,
+    "ci": [
+     -1.7,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.47,
+     -7.63,
+     4.92
+    ]
+   },
+   "R06|TG": {
+    "gain_pct": -0.27,
+    "ci": [
+     -0.72,
+     -0.06
+    ],
+    "increment_vs_S28_s": [
+     -0.99,
+     -2.72,
+     -0.21
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E02": {
+  "status": "done: no signal shown",
+  "n_features": 111,
+  "max_abs_rho_Fp": 0.232,
+  "max_abs_rho_Fm": 0.244,
+  "consistent_tests": 0,
+  "packages": {
+   "R07|RG": {
+    "gain_pct": -1.66,
+    "ci": [
+     -3.52,
+     -0.34
+    ],
+    "increment_vs_S28_s": [
+     -5.15,
+     -14.11,
+     2.89
+    ]
+   },
+   "R07|TG": {
+    "gain_pct": -0.31,
+    "ci": [
+     -0.76,
+     -0.04
+    ],
+    "increment_vs_S28_s": [
+     -1.13,
+     -2.88,
+     -0.11
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E03": {
+  "status": "done: weak univariate signal, no gain or increment shown",
+  "n_features": 120,
+  "max_abs_rho_Fp": 0.245,
+  "max_abs_rho_Fm": 0.264,
+  "consistent_tests": 1,
+  "packages": {
+   "R08|RG": {
+    "gain_pct": -0.54,
+    "ci": [
+     -1.69,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -7.47,
+     5.84
+    ]
+   },
+   "R08|TG": {
+    "gain_pct": -2.17,
+    "ci": [
+     -4.58,
+     -0.4
+    ],
+    "increment_vs_S28_s": [
+     -8.24,
+     -17.46,
+     -1.48
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E04": {
+  "status": "done: weak univariate signal, no gain or increment shown",
+  "n_features": 120,
+  "max_abs_rho_Fp": 0.245,
+  "max_abs_rho_Fm": 0.264,
+  "consistent_tests": 1,
+  "packages": {
+   "R08|RG": {
+    "gain_pct": -0.54,
+    "ci": [
+     -1.69,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -7.47,
+     5.84
+    ]
+   },
+   "R08|TG": {
+    "gain_pct": -2.17,
+    "ci": [
+     -4.58,
+     -0.4
+    ],
+    "increment_vs_S28_s": [
+     -8.24,
+     -17.46,
+     -1.48
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E05": {
+  "status": "done: weak univariate signal, no gain or increment shown",
+  "n_features": 147,
+  "max_abs_rho_Fp": 0.245,
+  "max_abs_rho_Fm": 0.294,
+  "consistent_tests": 2,
+  "packages": {
+   "R06|RG": {
+    "gain_pct": -0.7,
+    "ci": [
+     -1.7,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.47,
+     -7.63,
+     4.92
+    ]
+   },
+   "R06|TG": {
+    "gain_pct": -0.27,
+    "ci": [
+     -0.72,
+     -0.06
+    ],
+    "increment_vs_S28_s": [
+     -0.99,
+     -2.72,
+     -0.21
+    ]
+   },
+   "R07|RG": {
+    "gain_pct": -1.66,
+    "ci": [
+     -3.52,
+     -0.34
+    ],
+    "increment_vs_S28_s": [
+     -5.15,
+     -14.11,
+     2.89
+    ]
+   },
+   "R07|TG": {
+    "gain_pct": -0.31,
+    "ci": [
+     -0.76,
+     -0.04
+    ],
+    "increment_vs_S28_s": [
+     -1.13,
+     -2.88,
+     -0.11
+    ]
+   },
+   "R08|RG": {
+    "gain_pct": -0.54,
+    "ci": [
+     -1.69,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -7.47,
+     5.84
+    ]
+   },
+   "R08|TG": {
+    "gain_pct": -2.17,
+    "ci": [
+     -4.58,
+     -0.4
+    ],
+    "increment_vs_S28_s": [
+     -8.24,
+     -17.46,
+     -1.48
+    ]
+   },
+   "R10|RG": {
+    "gain_pct": -0.78,
+    "ci": [
+     -1.88,
+     -0.09
+    ],
+    "increment_vs_S28_s": [
+     -1.77,
+     -8.27,
+     4.71
+    ]
+   },
+   "R10|TG": {
+    "gain_pct": -0.28,
+    "ci": [
+     -0.73,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.02,
+     -2.74,
+     -0.23
+    ]
+   },
+   "R11|RG": {
+    "gain_pct": -0.56,
+    "ci": [
+     -2.18,
+     1.09
+    ],
+    "increment_vs_S28_s": [
+     -0.96,
+     -9.18,
+     7.26
+    ]
+   },
+   "R11|TG": {
+    "gain_pct": -0.23,
+    "ci": [
+     -0.68,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.83,
+     -2.56,
+     -0.06
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E06": {
+  "status": "done: weak univariate signal, no gain or increment shown",
+  "n_features": 54,
+  "max_abs_rho_Fp": 0.169,
+  "max_abs_rho_Fm": 0.294,
+  "consistent_tests": 1,
+  "packages": {
+   "R06|RG": {
+    "gain_pct": -0.7,
+    "ci": [
+     -1.7,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.47,
+     -7.63,
+     4.92
+    ]
+   },
+   "R06|TG": {
+    "gain_pct": -0.27,
+    "ci": [
+     -0.72,
+     -0.06
+    ],
+    "increment_vs_S28_s": [
+     -0.99,
+     -2.72,
+     -0.21
+    ]
+   },
+   "R07|RG": {
+    "gain_pct": -1.66,
+    "ci": [
+     -3.52,
+     -0.34
+    ],
+    "increment_vs_S28_s": [
+     -5.15,
+     -14.11,
+     2.89
+    ]
+   },
+   "R07|TG": {
+    "gain_pct": -0.31,
+    "ci": [
+     -0.76,
+     -0.04
+    ],
+    "increment_vs_S28_s": [
+     -1.13,
+     -2.88,
+     -0.11
+    ]
+   },
+   "R08|RG": {
+    "gain_pct": -0.54,
+    "ci": [
+     -1.69,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -7.47,
+     5.84
+    ]
+   },
+   "R08|TG": {
+    "gain_pct": -2.17,
+    "ci": [
+     -4.58,
+     -0.4
+    ],
+    "increment_vs_S28_s": [
+     -8.24,
+     -17.46,
+     -1.48
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E07": {
+  "status": "done: no signal shown",
+  "n_features": 36,
+  "max_abs_rho_Fp": 0.245,
+  "max_abs_rho_Fm": 0.176,
+  "consistent_tests": 0,
+  "packages": {
+   "R06|RG": {
+    "gain_pct": -0.7,
+    "ci": [
+     -1.7,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.47,
+     -7.63,
+     4.92
+    ]
+   },
+   "R06|TG": {
+    "gain_pct": -0.27,
+    "ci": [
+     -0.72,
+     -0.06
+    ],
+    "increment_vs_S28_s": [
+     -0.99,
+     -2.72,
+     -0.21
+    ]
+   },
+   "R07|RG": {
+    "gain_pct": -1.66,
+    "ci": [
+     -3.52,
+     -0.34
+    ],
+    "increment_vs_S28_s": [
+     -5.15,
+     -14.11,
+     2.89
+    ]
+   },
+   "R07|TG": {
+    "gain_pct": -0.31,
+    "ci": [
+     -0.76,
+     -0.04
+    ],
+    "increment_vs_S28_s": [
+     -1.13,
+     -2.88,
+     -0.11
+    ]
+   },
+   "R08|RG": {
+    "gain_pct": -0.54,
+    "ci": [
+     -1.69,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -7.47,
+     5.84
+    ]
+   },
+   "R08|TG": {
+    "gain_pct": -2.17,
+    "ci": [
+     -4.58,
+     -0.4
+    ],
+    "increment_vs_S28_s": [
+     -8.24,
+     -17.46,
+     -1.48
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E09": {
+  "status": "done: no signal shown",
+  "n_features": 54,
+  "max_abs_rho_Fp": 0.183,
+  "max_abs_rho_Fm": 0.158,
+  "consistent_tests": 0,
+  "packages": {
+   "R06|RG": {
+    "gain_pct": -0.7,
+    "ci": [
+     -1.7,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.47,
+     -7.63,
+     4.92
+    ]
+   },
+   "R06|TG": {
+    "gain_pct": -0.27,
+    "ci": [
+     -0.72,
+     -0.06
+    ],
+    "increment_vs_S28_s": [
+     -0.99,
+     -2.72,
+     -0.21
+    ]
+   },
+   "R07|RG": {
+    "gain_pct": -1.66,
+    "ci": [
+     -3.52,
+     -0.34
+    ],
+    "increment_vs_S28_s": [
+     -5.15,
+     -14.11,
+     2.89
+    ]
+   },
+   "R07|TG": {
+    "gain_pct": -0.31,
+    "ci": [
+     -0.76,
+     -0.04
+    ],
+    "increment_vs_S28_s": [
+     -1.13,
+     -2.88,
+     -0.11
+    ]
+   },
+   "R08|RG": {
+    "gain_pct": -0.54,
+    "ci": [
+     -1.69,
+     0.43
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -7.47,
+     5.84
+    ]
+   },
+   "R08|TG": {
+    "gain_pct": -2.17,
+    "ci": [
+     -4.58,
+     -0.4
+    ],
+    "increment_vs_S28_s": [
+     -8.24,
+     -17.46,
+     -1.48
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "E11": {
+  "status": "done: no signal shown",
+  "n_features": 18,
+  "max_abs_rho_Fp": 0.111,
+  "max_abs_rho_Fm": 0.193,
+  "consistent_tests": 0,
+  "packages": {
+   "R06|RG": {
+    "gain_pct": -0.7,
+    "ci": [
+     -1.7,
+     -0.07
+    ],
+    "increment_vs_S28_s": [
+     -1.47,
+     -7.63,
+     4.92
+    ]
+   },
+   "R06|TG": {
+    "gain_pct": -0.27,
+    "ci": [
+     -0.72,
+     -0.06
+    ],
+    "increment_vs_S28_s": [
+     -0.99,
+     -2.72,
+     -0.21
+    ]
+   },
+   "R07|RG": {
+    "gain_pct": -1.66,
+    "ci": [
+     -3.52,
+     -0.34
+    ],
+    "increment_vs_S28_s": [
+     -5.15,
+     -14.11,
+     2.89
+    ]
+   },
+   "R07|TG": {
+    "gain_pct": -0.31,
+    "ci": [
+     -0.76,
+     -0.04
+    ],
+    "increment_vs_S28_s": [
+     -1.13,
+     -2.88,
+     -0.11
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "F01": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.191,
+  "max_abs_rho_Fm": 0.132,
+  "consistent_tests": 0,
+  "packages": {
+   "R05|RG": {
+    "gain_pct": -0.36,
+    "ci": [
+     -1.11,
+     0.36
+    ],
+    "increment_vs_S28_s": [
+     -0.18,
+     -5.87,
+     6.06
+    ]
+   },
+   "R05|TG": {
+    "gain_pct": -1.29,
+    "ci": [
+     -3.69,
+     0.79
+    ],
+    "increment_vs_S28_s": [
+     -4.9,
+     -14.05,
+     3.07
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "F03": {
+  "status": "done: no signal shown",
+  "n_features": 4,
+  "max_abs_rho_Fp": 0.15,
+  "max_abs_rho_Fm": 0.109,
+  "consistent_tests": 0,
+  "packages": {
+   "R05|RG": {
+    "gain_pct": -0.36,
+    "ci": [
+     -1.11,
+     0.36
+    ],
+    "increment_vs_S28_s": [
+     -0.18,
+     -5.87,
+     6.06
+    ]
+   },
+   "R05|TG": {
+    "gain_pct": -1.29,
+    "ci": [
+     -3.69,
+     0.79
+    ],
+    "increment_vs_S28_s": [
+     -4.9,
+     -14.05,
+     3.07
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "F04": {
+  "status": "done: no signal shown",
+  "n_features": 4,
+  "max_abs_rho_Fp": 0.175,
+  "max_abs_rho_Fm": 0.185,
+  "consistent_tests": 0,
+  "packages": {
+   "R05|RG": {
+    "gain_pct": -0.36,
+    "ci": [
+     -1.11,
+     0.36
+    ],
+    "increment_vs_S28_s": [
+     -0.18,
+     -5.87,
+     6.06
+    ]
+   },
+   "R05|TG": {
+    "gain_pct": -1.29,
+    "ci": [
+     -3.69,
+     0.79
+    ],
+    "increment_vs_S28_s": [
+     -4.9,
+     -14.05,
+     3.07
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "F08": {
+  "status": "done: no signal shown",
+  "n_features": 2,
+  "max_abs_rho_Fp": 0.014,
+  "max_abs_rho_Fm": 0.229,
+  "consistent_tests": 0,
+  "packages": {
+   "R05|RG": {
+    "gain_pct": -0.36,
+    "ci": [
+     -1.11,
+     0.36
+    ],
+    "increment_vs_S28_s": [
+     -0.18,
+     -5.87,
+     6.06
+    ]
+   },
+   "R05|TG": {
+    "gain_pct": -1.29,
+    "ci": [
+     -3.69,
+     0.79
+    ],
+    "increment_vs_S28_s": [
+     -4.9,
+     -14.05,
+     3.07
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "F10": {
+  "status": "done: weak univariate signal, no gain or increment shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.293,
+  "max_abs_rho_Fm": 0.138,
+  "consistent_tests": 1,
+  "packages": {
+   "R05|RG": {
+    "gain_pct": -0.36,
+    "ci": [
+     -1.11,
+     0.36
+    ],
+    "increment_vs_S28_s": [
+     -0.18,
+     -5.87,
+     6.06
+    ]
+   },
+   "R05|TG": {
+    "gain_pct": -1.29,
+    "ci": [
+     -3.69,
+     0.79
+    ],
+    "increment_vs_S28_s": [
+     -4.9,
+     -14.05,
+     3.07
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "F11": {
+  "status": "done: no signal shown",
+  "n_features": 5,
+  "max_abs_rho_Fp": 0.16,
+  "max_abs_rho_Fm": 0.138,
+  "consistent_tests": 0,
+  "packages": {
+   "R05|RG": {
+    "gain_pct": -0.36,
+    "ci": [
+     -1.11,
+     0.36
+    ],
+    "increment_vs_S28_s": [
+     -0.18,
+     -5.87,
+     6.06
+    ]
+   },
+   "R05|TG": {
+    "gain_pct": -1.29,
+    "ci": [
+     -3.69,
+     0.79
+    ],
+    "increment_vs_S28_s": [
+     -4.9,
+     -14.05,
+     3.07
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "F12": {
+  "status": "done: no signal shown",
+  "n_features": 7,
+  "max_abs_rho_Fp": 0.162,
+  "max_abs_rho_Fm": 0.135,
+  "consistent_tests": 0,
+  "packages": {
+   "R05|RG": {
+    "gain_pct": -0.36,
+    "ci": [
+     -1.11,
+     0.36
+    ],
+    "increment_vs_S28_s": [
+     -0.18,
+     -5.87,
+     6.06
+    ]
+   },
+   "R05|TG": {
+    "gain_pct": -1.29,
+    "ci": [
+     -3.69,
+     0.79
+    ],
+    "increment_vs_S28_s": [
+     -4.9,
+     -14.05,
+     3.07
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "G01": {
+  "status": "done: no signal shown",
+  "n_features": 4,
+  "max_abs_rho_Fp": 0.145,
+  "max_abs_rho_Fm": 0.092,
+  "consistent_tests": 0,
+  "packages": {
+   "R09|RG": {
+    "gain_pct": 0.01,
+    "ci": [
+     -1.31,
+     1.25
+    ],
+    "increment_vs_S28_s": [
+     1.22,
+     -4.77,
+     7.47
+    ]
+   },
+   "R09|TG": {
+    "gain_pct": -0.24,
+    "ci": [
+     -0.69,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -2.59,
+     -0.09
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "G02": {
+  "status": "done: no signal shown",
+  "n_features": 4,
+  "max_abs_rho_Fp": 0.242,
+  "max_abs_rho_Fm": 0.077,
+  "consistent_tests": 0,
+  "packages": {
+   "R09|RG": {
+    "gain_pct": 0.01,
+    "ci": [
+     -1.31,
+     1.25
+    ],
+    "increment_vs_S28_s": [
+     1.22,
+     -4.77,
+     7.47
+    ]
+   },
+   "R09|TG": {
+    "gain_pct": -0.24,
+    "ci": [
+     -0.69,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -2.59,
+     -0.09
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "G03": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.162,
+  "max_abs_rho_Fm": 0.117,
+  "consistent_tests": 0,
+  "packages": {
+   "R09|RG": {
+    "gain_pct": 0.01,
+    "ci": [
+     -1.31,
+     1.25
+    ],
+    "increment_vs_S28_s": [
+     1.22,
+     -4.77,
+     7.47
+    ]
+   },
+   "R09|TG": {
+    "gain_pct": -0.24,
+    "ci": [
+     -0.69,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -2.59,
+     -0.09
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "G04": {
+  "status": "done: no signal shown",
+  "n_features": 2,
+  "max_abs_rho_Fp": 0.037,
+  "max_abs_rho_Fm": 0.119,
+  "consistent_tests": 0,
+  "packages": {
+   "R09|RG": {
+    "gain_pct": 0.01,
+    "ci": [
+     -1.31,
+     1.25
+    ],
+    "increment_vs_S28_s": [
+     1.22,
+     -4.77,
+     7.47
+    ]
+   },
+   "R09|TG": {
+    "gain_pct": -0.24,
+    "ci": [
+     -0.69,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -2.59,
+     -0.09
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "G06": {
+  "status": "done: no signal shown",
+  "n_features": 3,
+  "max_abs_rho_Fp": 0.055,
+  "max_abs_rho_Fm": 0.153,
+  "consistent_tests": 0,
+  "packages": {
+   "R09|RG": {
+    "gain_pct": 0.01,
+    "ci": [
+     -1.31,
+     1.25
+    ],
+    "increment_vs_S28_s": [
+     1.22,
+     -4.77,
+     7.47
+    ]
+   },
+   "R09|TG": {
+    "gain_pct": -0.24,
+    "ci": [
+     -0.69,
+     -0.03
+    ],
+    "increment_vs_S28_s": [
+     -0.87,
+     -2.59,
+     -0.09
+    ]
+   }
+  },
+  "scope": "dev 401, outer 5-fold OOF; see reports/observations_v5/"
+ },
+ "H01": {
+  "status": "done: diagnostic",
+  "report": "reports/observations_v5/V1_ENGINEERING.md section 4"
+ },
+ "H02": {
+  "status": "done: diagnostic",
+  "report": "reports/observations_v5/V1_ENGINEERING.md section 4"
+ },
+ "H04": {
+  "status": "done: analysis",
+  "report": "reports/observations_v5/SELECTION_AND_ABLATION.md section 6"
+ },
+ "M01": {
+  "status": "done: no comparison beats always-D",
+  "best": "R09|RG",
+  "best_gain_pct": 0.01,
+  "best_ci": [
+   -1.31,
+   1.25
+  ],
+  "vs_v4_readers_same_input": "22/33 paired CIs > 0"
+ },
+ "M02": {
+  "status": "done: no comparison beats always-D",
+  "best": "R09|RG",
+  "best_gain_pct": 0.01,
+  "best_ci": [
+   -1.31,
+   1.25
+  ],
+  "vs_v4_readers_same_input": "22/33 paired CIs > 0"
+ },
+ "M03": {
+  "status": "done: no comparison beats always-D",
+  "best": "R09|RG",
+  "best_gain_pct": 0.01,
+  "best_ci": [
+   -1.31,
+   1.25
+  ]
+ },
+ "M04": {
+  "status": "done: no comparison beats always-D",
+  "best": "R09|RG",
+  "best_gain_pct": 0.01,
+  "best_ci": [
+   -1.31,
+   1.25
+  ],
+  "vs_v4_readers_same_input": "22/33 paired CIs > 0"
+ },
+ "M06": {
+  "status": "done: no comparison beats always-D",
+  "best": "R03|RF",
+  "best_gain_pct": -0.72,
+  "best_ci": [
+   -2.22,
+   0.57
+  ]
+ },
+ "M07": {
+  "status": "done: no comparison beats always-D",
+  "best": "R00|TG",
+  "best_gain_pct": -0.22,
+  "best_ci": [
+   -0.67,
+   -0.02
+  ]
+ },
+ "M09": {
+  "status": "done: no comparison beats always-D",
+  "best": "R09|RG",
+  "best_gain_pct": 0.01,
+  "best_ci": [
+   -1.31,
+   1.25
+  ]
+ },
+ "M10": {
+  "status": "done: no comparison beats always-D",
+  "best": "R11|TG",
+  "best_gain_pct": -0.23,
+  "best_ci": [
+   -0.68,
+   -0.03
+  ]
+ },
+ "M11": {
+  "status": "done: no comparison beats always-D",
+  "best": "R09|RG",
+  "best_gain_pct": 0.01,
+  "best_ci": [
+   -1.31,
+   1.25
+  ]
+ }
+}
