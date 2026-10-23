@@ -8,9 +8,9 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **三选一研究（Agent Goal v4）已完成（2026-10-22）：[reports/three_way/FINAL_REPORT.md](reports/three_way/FINAL_REPORT.md)。**五年代表性面板（2022–2026，500 题，dev 401 / test 99，家族不相交）上，默认 D 是最佳固定动作；冻结的静态选择器与 0.1 s 试跑选择器在 test 上相对 D 为 PAR2 −3.7% [−10.4, +2.5] 与 −1.7% [−7.9, +3.2]（含全部观察成本），dev 交叉验证中 12 个候选也全部不如 D：有界负结果。oracle 上限 dev 12% / test 8.5%，但集中于少数实例，廉价特征只与胜负弱相关。协议 [THREE_WAY_PROTOCOL.md](docs/THREE_WAY_PROTOCOL.md)；面板 [DATASET.md](reports/three_way/DATASET.md)；S1 [BASELINE_PROFILE.md](reports/three_way/BASELINE_PROFILE.md)；S2 [SELECTOR_CV.md](reports/three_way/SELECTOR_CV.md)；S3 [TEST_RESULTS.md](reports/three_way/TEST_RESULTS.md)；算力 39.9 CPU 核时（[COMPUTE.md](results/three_way/COMPUTE.md)）。
 
-**当前活动目标：[Agent Goal v4](docs/AGENT_GOAL.md)**（2026-10-22 与老师交流后收敛，尚未执行新实验）：先做简单公式分析或短时间试跑，再在默认 D、强制正 F+、强制负 F− 三种 flag 配置中选择一次。数据覆盖最近五届 SAT Competition **2022–2026**，每年约 **100 道代表性题目**、跨年去重后最多 **500 题**；按家族和规模抽样，不跑全量。观察、重新启动与正式求解都计入预算。具体见 [五年抽样计划](docs/FIVE_YEAR_SAMPLE_PLAN.md)。旧多次切换研究转为历史补充，旧 v3 goal 已[存档](docs/AGENT_GOAL_SWITCHING_V3.md)。
+**当前活动目标：[Agent Goal v5](docs/AGENT_GOAL.md)**（2026-10-23设定，尚未运行新实验）：继续“简单观察后在D/F+/F−中选择一次”，系统扩大观察方式。新增[80项观测、12类决策方法的候选库](docs/OBSERVATION_CATALOG_V5.md)和[机器可读注册表](configs/observations_v5/catalog.json)，优先三动作配对短探测、双边BCP、预处理残余结构、短子句加权极性、正确相位轨迹及有把握才偏离D的选择。分批筛选、完整计费，正式配置只选择一次；旧99题test已曝光，不再作为新盲测。v4目标原样[存档](docs/AGENT_GOAL_THREE_WAY_V4.md)。
 
-**本阶段顺序**：先在五年抽样的开发题上运行 D/F+/F− 三种固定模式，比较每题的胜负与差距；再研究默认/强制正/强制负优势题的公式结构与短试跑特点；最后把可识别的特点转为一次性选择规则。先交付 `reports/three_way/BASELINE_PROFILE.md`，再训练模型。接近、全部超时及不确定实例单独保留；最终测试题不参与找规律。
+**本阶段顺序**：核对旧观测有效覆盖与错误损失 → 新观测小面板/开销验证 → 开发集分组筛选与保守选择 → 完整wrapper实测 → 有条件的小型新确认。优先按固定观察包开展，不将80项×12模型全量穷举。
 
 ## 第一轮结论速览
 
@@ -28,7 +28,9 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 | 文档 | 内容 |
 | --- | --- |
-| [当前 Agent Goal v4](docs/AGENT_GOAL.md) | 简单观察后在 D/F+/F− 中选择一次，含观察成本的真实评估 |
+| [当前 Agent Goal v5](docs/AGENT_GOAL.md) | 新观测、跨动作探测、默认回退与完整成本验证 |
+| [观测候选库v5](docs/OBSERVATION_CATALOG_V5.md) | 80项观测、12类决策方法、优先级、成本、文献与首轮观察包 |
+| [已完成的三选一目标v4](docs/AGENT_GOAL_THREE_WAY_V4.md) | v4历史任务与结果边界 |
 | [五年代表性抽样](docs/FIVE_YEAR_SAMPLE_PLAN.md) | 2022–2026，每年约 100 题，家族/规模覆盖、跨年去重与曝光标记 |
 | [旧在线切换目标 v3](docs/AGENT_GOAL_SWITCHING_V3.md) | 历史目标存档，本阶段不继续扩展反复切换 |
 | [研究计划](docs/RESEARCH_PLAN.md)、[实验协议](docs/EXPERIMENT_PROTOCOL.md)、[审计目标 v2](docs/AGENT_GOAL_AUDIT_V2.md) | 原问题、第一轮协议与审计交付标准 |
