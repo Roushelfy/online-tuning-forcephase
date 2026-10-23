@@ -98,7 +98,7 @@ This is a bounded negative result for the observations that were implemented, no
 | 协议 | 观察包 R00–R11、成本、读出器网格、断言规则、预算；注册表覆盖 80 项观测与 12 种方法 | [协议](../../docs/OBSERVATION_PROTOCOL_V5.md)、[registry.json](../../configs/observations_v5/registry.json) |
 | V1 | 观测工具与观测版求解器；等价门（搜索逐项相同）；覆盖、开销、κ；H01 / H02 编码诊断；修正两处工程缺陷后重新采集 | [V1_ENGINEERING.md](V1_ENGINEERING.md) |
 | V2 | 507 个新特征的筛查；27 个登记比较与对照、增量与读出器消融、回退曲线、OOD 分解；按规则选出 S1 / S2 | [OBSERVATION_SCREEN.md](OBSERVATION_SCREEN.md)、[SELECTION_AND_ABLATION.md](SELECTION_AND_ABLATION.md) |
-| V3 | dev 真实部署（折模型，801/802 次）；冻结后在确认集上运行三个固定动作与两个 wrapper | [DEPLOYMENT.md](DEPLOYMENT.md) |
+| V3 | dev 真实部署（折模型，802 次，其中 1 次补跑）；冻结后在确认集上运行三个固定动作与两个 wrapper | [DEPLOYMENT.md](DEPLOYMENT.md) |
 
 ## 3. 主要结果
 
@@ -136,7 +136,7 @@ This is a bounded negative result for the observations that were implemented, no
 
 | 场景 | 策略 | 真实结果 |
 | --- | --- | --- |
-| dev 401（折模型） | S1 = R09\|RG | −0.25% [−1.77, +1.15]（400 题；1 次运行因集群磁盘写满缺失） |
+| dev 401（折模型） | S1 = R09\|RG | −0.25% [−1.77, +1.15]（401 题；1 次运行因集群磁盘写满而失败，恢复后补跑） |
 | dev 401（折模型） | S2 = R11\|TG | −0.01% [−0.58, +0.57] |
 | 确认集 78 题 | D / F+ / F− | PAR2 382.2 / 419.6（−9.8%）/ 390.4（−2.1%） |
 | 确认集 78 题 | S1 | +0.4% [−4.8, +6.0]，与 D 同样解出 33 题 |
@@ -166,7 +166,7 @@ This is a bounded negative result for the observations that were implemented, no
   - 观测都按预先固定的预算和上限实现，没有为了提高覆盖去调预算；
   - 局部搜索观测的 CPU 时间预算导致不可复现，是本阶段应修而未在冻结前发现的缺陷；
   - 读出器网格固定且很小，没有做无界超参数搜索。
-- **缺失记录**：dev 部署中有 1 次 S1 运行缺失：集群共享的 `/mnt/data` 在 2026-10-23 约 07:28 UTC 写满（800T/800T）。该题按缺失处理，没有填补，补跑也因磁盘写满而失败。
+- **补跑**：dev 部署中有 1 次 S1 运行因集群共享的 `/mnt/data` 写满（2026-10-23 约 07:28 UTC，800T/800T）而失败。磁盘恢复后，用同一代码版本单独补跑；它与同批其他运行不在同一节点、同一时段，计时条件略有不同。
 
 ## 6. 交付物与复现
 
@@ -228,7 +228,7 @@ $FP_PY scripts/observations_v5/v5deploy.py --confirm
 
 ## 7. 算力
 
-v5 共用 82.30 CPU 核时（含作废的第一次采集和分析估计上限）；加上 v4 的 39.90，v4 之后累计 122.20 核时，上限为 200。
+v5 共用 82.38 CPU 核时（含作废的第一次采集、补跑和分析估计上限）；加上 v4 的 39.90，v4 之后累计 122.28 核时，上限为 200。
 
 | 阶段 | 核时 | 计划上限 |
 | --- | ---: | ---: |
