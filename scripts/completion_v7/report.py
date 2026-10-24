@@ -137,7 +137,14 @@ def main():
           "两个方法都已完成的题上差值精确；其余题只能给出区间。", "",
           f"- 差值精确的题：{sum(1 for x in diffs if x[1] != 'bound')}；只能给出区间的题：{len(open_hi)}"
           f"（{', '.join(h[:10] for h in open_hi) or '无'}）。",
-          f"- 总差值 Σ(P1 − D) ∈ [{lo_total:.1f}, {hi_total:.1f}] 秒（负 = P1_M05_long 更省时）。", ""]
+          f"- 总差值 Σ(P1 − D) ∈ [{lo_total:.1f}, {hi_total:.1f}] 秒（负 = P1_M05_long 更省时）。"]
+    lb_d = sum(lower(idx.get((h, "D"))) or 0.0 for h in panel)
+    if not open_hi:
+        # gain = -sum(P1 - D) / total(D) with total(D) >= lb_d: same sign, magnitude at most |diff| / lb_d
+        g = -lo_total / lb_d * 100
+        L += [f"- D 总 CPU 的实际下界为 {lb_d:.0f} 秒，所以若两方法都在同一次运行中完成，P1_M05_long 相对 D 的收益介于 0 与 {g:+.3f}% 之间"
+              "（收益 = −Σ(P1 − D) / D 总 CPU，分母只会更大）。这只是界，不是主指标；主指标仍为 null。"]
+    L.append("")
     # ledger
     acc = collections.defaultdict(lambda: [0, 0.0, 0.0])
     for st in sorted(os.listdir(OUT)) if os.path.isdir(OUT) else []:

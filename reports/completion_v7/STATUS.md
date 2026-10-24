@@ -29,3 +29,10 @@
 - 仅凭复用记录，oracle 已在 31 题上确定；所有完整均值仍为 null（`results/completion_v7/summary_c0.json`）。
 - 运行计划见 [COMPLETION_RUN_PLAN_V7.md](../../docs/COMPLETION_RUN_PLAN_V7.md)。长时入口为 `wrapper_long.py`、`longrun.py`；在 3 道 dev 题上冒烟测试，求解、验证、按预算停止都正常。
 - 预计结果：29 道 D 未解题中有 5 道是比赛中无人解出的（GBD unknown）。在 55.35 核时的剩余预算内，D 基线很可能补不齐。
+
+## 阶段 1–2 完成（2026-10-24 UTC 约 03:30）：新口径尚未测完
+
+- 完成数：D 47/55，P1_M05_long 47/55，F+ 30/55，F− 29/55；oracle 已确定 44/55。所有完整均值与收益都是 null。
+- 未完成的 8 题：`07df5e6f67`、`0a8a4c28d2`、`4af0fbe308`、`7ff8c9781b`、`aa6e6f6771`、`ac3e3bb744`、`af834fd3ce`、`c7bf3517f4`。D 与 P1 在这些题上是同一次运行，各已运行 12,222–12,297 s。
+- 补充界（不是主指标）：Σ(P1 − D) = −217.2 s，P1 相对 D 的收益介于 0 与 +0.149% 之间；oracle 至少比 D 省 26,998 s。
+- 累计算力 195.89 / 200 核时，剩余不足以补齐任何一题。报告与缺口清单见 [REPORT.md](REPORT.md)。
