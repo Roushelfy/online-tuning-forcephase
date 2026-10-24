@@ -1,0 +1,1290 @@
+{
+ "sbs": "Fp",
+ "wrappers": {
+  "configs/online_selection_v9/strategies/ref_D2_Fp.json": "W_ref"
+ },
+ "panels": {
+  "external": {
+   "n": 60,
+   "summary": {
+    "schema_version": 1,
+    "metric": "mean_completed_cpu_seconds",
+    "panel_size": 60,
+    "primary_comparison_complete": true,
+    "methods": {
+     "D": {
+      "status": "complete",
+      "completed": 60,
+      "panel_size": 60,
+      "total_cpu_seconds": 1.051805,
+      "mean_cpu_seconds": 0.017530083333333335,
+      "unresolved": []
+     },
+     "Fp": {
+      "status": "complete",
+      "completed": 60,
+      "panel_size": 60,
+      "total_cpu_seconds": 1.220275,
+      "mean_cpu_seconds": 0.020337916666666667,
+      "unresolved": []
+     },
+     "Fm": {
+      "status": "complete",
+      "completed": 60,
+      "panel_size": 60,
+      "total_cpu_seconds": 0.7951259999999998,
+      "mean_cpu_seconds": 0.013252099999999996,
+      "unresolved": []
+     },
+     "SBS": {
+      "status": "complete",
+      "completed": 60,
+      "panel_size": 60,
+      "total_cpu_seconds": 1.220275,
+      "mean_cpu_seconds": 0.020337916666666667,
+      "unresolved": []
+     },
+     "W_ref": {
+      "status": "complete",
+      "completed": 60,
+      "panel_size": 60,
+      "total_cpu_seconds": 2.8293540000000004,
+      "mean_cpu_seconds": 0.04715590000000001,
+      "unresolved": []
+     }
+    },
+    "oracle": {
+     "status": "complete",
+     "completed": 60,
+     "panel_size": 60,
+     "total_cpu_seconds": 0.7031239999999999,
+     "mean_cpu_seconds": 0.011718733333333332,
+     "unresolved": [],
+     "winners": {
+      "ext-uf250-1065-uf250-01": [
+       "Fp"
+      ],
+      "ext-uf250-1065-uf250-02": [
+       "Fp"
+      ],
+      "ext-uf250-1065-uf250-03": [
+       "Fp"
+      ],
+      "ext-uf250-1065-uf250-04": [
+       "Fp"
+      ],
+      "ext-uf250-1065-uf250-05": [
+       "Fm"
+      ],
+      "ext-uf250-1065-uf250-06": [
+       "D"
+      ],
+      "ext-uf250-1065-uf250-07": [
+       "Fm"
+      ],
+      "ext-uf250-1065-uf250-08": [
+       "Fp"
+      ],
+      "ext-uuf250-1065-uuf250-01": [
+       "Fm"
+      ],
+      "ext-uuf250-1065-uuf250-02": [
+       "Fp"
+      ],
+      "ext-uuf250-1065-uuf250-03": [
+       "Fp"
+      ],
+      "ext-uuf250-1065-uuf250-04": [
+       "Fp"
+      ],
+      "ext-uuf250-1065-uuf250-05": [
+       "Fp"
+      ],
+      "ext-uuf250-1065-uuf250-06": [
+       "D"
+      ],
+      "ext-uuf250-1065-uuf250-07": [
+       "Fm"
+      ],
+      "ext-flat200-479-flat200-1": [
+       "D"
+      ],
+      "ext-flat200-479-flat200-2": [
+       "Fp"
+      ],
+      "ext-flat200-479-flat200-3": [
+       "Fm"
+      ],
+      "ext-flat200-479-flat200-4": [
+       "D"
+      ],
+      "ext-flat200-479-flat200-5": [
+       "D"
+      ],
+      "ext-flat200-479-flat200-6": [
+       "D"
+      ],
+      "ext-flat200-479-flat200-7": [
+       "Fm"
+      ],
+      "ext-flat200-479-flat200-8": [
+       "Fm"
+      ],
+      "ext-flat200-479-flat200-9": [
+       "Fp"
+      ],
+      "ext-flat200-479-flat200-10": [
+       "Fm"
+      ],
+      "ext-flat200-479-flat200-11": [
+       "Fp"
+      ],
+      "ext-flat200-479-flat200-12": [
+       "Fm"
+      ],
+      "ext-flat200-479-flat200-13": [
+       "Fp"
+      ],
+      "ext-flat200-479-flat200-14": [
+       "Fm"
+      ],
+      "ext-flat200-479-flat200-15": [
+       "Fp"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-1": [
+       "Fm"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-2": [
+       "D"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-3": [
+       "Fm"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-4": [
+       "Fm"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-5": [
+       "D"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-6": [
+       "Fm"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-7": [
+       "D"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-8": [
+       "Fp"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-9": [
+       "D"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-10": [
+       "Fm"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-11": [
+       "D"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-12": [
+       "D"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-13": [
+       "Fm"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-14": [
+       "Fm"
+      ],
+      "ext-sw100-8-lp0-c5-sw100-15": [
+       "D"
+      ],
+      "ext-blocksworld-bw_large.a": [
+       "Fp"
+      ],
+      "ext-blocksworld-bw_large.b": [
+       "Fm"
+      ],
+      "ext-blocksworld-bw_large.c": [
+       "Fp"
+      ],
+      "ext-blocksworld-bw_large.d": [
+       "Fm"
+      ],
+      "ext-logistics-logistics.a": [
+       "D"
+      ],
+      "ext-logistics-logistics.b": [
+       "D"
+      ],
+      "ext-logistics-logistics.c": [
+       "Fp"
+      ],
+      "ext-logistics-logistics.d": [
+       "D"
+      ],
+      "ext-QG-qg1-07": [
+       "D"
+      ],
+      "ext-QG-qg2-07": [
+       "Fm"
+      ],
+      "ext-QG-qg3-08": [
+       "Fp"
+      ],
+      "ext-QG-qg4-08": [
+       "D"
+      ],
+      "ext-QG-qg5-09": [
+       "Fm"
+      ],
+      "ext-QG-qg6-09": [
+       "Fm"
+      ],
+      "ext-QG-qg7-09": [
+       "Fp"
+      ]
+     },
+     "interpretation": "ideal post-hoc choice, excluding observation cost"
+    },
+    "gain_percent_vs_baseline": {
+     "D": 0.0,
+     "Fp": -16.017227527916276,
+     "Fm": 24.40366798028155,
+     "SBS": -16.017227527916276,
+     "W_ref": -168.99986214174683,
+     "oracle": 33.150726608069
+    },
+    "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   },
+   "ci": {
+    "W_ref_vs_D": [
+     -293.17805667419367,
+     -106.80851651220556
+    ],
+    "W_ref_vs_SBS": [
+     -324.7034365029948,
+     -48.31309515248361
+    ],
+    "SBS_vs_D": [
+     -47.38871283374297,
+     26.987866517890225
+    ],
+    "oracle_vs_D": [
+     16.639641737471067,
+     43.84641094070122
+    ],
+    "oracle_vs_SBS": [
+     14.997828448971584,
+     54.56897571958657
+    ],
+    "Fp_vs_D": [
+     -47.38871283374297,
+     26.987866517890225
+    ],
+    "Fp_vs_SBS": [
+     0.0,
+     0.0
+    ],
+    "Fm_vs_D": [
+     -1.0606661239011217,
+     38.80894994699333
+    ],
+    "Fm_vs_SBS": [
+     -1.846766182834303,
+     51.22535065122553
+    ]
+   },
+   "per_instance": [
+    {
+     "instance": "ext-uf250-1065-uf250-01",
+     "cell": "ext-uf250-1065-E",
+     "split": "E",
+     "D": 0.005170999999999999,
+     "Fp": 0.003793,
+     "Fm": 0.003825,
+     "SBS": 0.003793,
+     "W_ref": 0.032100000000000004,
+     "oracle": 0.003793,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uf250-1065-uf250-02",
+     "cell": "ext-uf250-1065-E",
+     "split": "E",
+     "D": 0.0045049999999999995,
+     "Fp": 0.0034999999999999996,
+     "Fm": 0.003565,
+     "SBS": 0.0034999999999999996,
+     "W_ref": 0.03232,
+     "oracle": 0.0034999999999999996,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uf250-1065-uf250-03",
+     "cell": "ext-uf250-1065-E",
+     "split": "E",
+     "D": 0.003642,
+     "Fp": 0.003518,
+     "Fm": 0.003916,
+     "SBS": 0.003518,
+     "W_ref": 0.034591,
+     "oracle": 0.003518,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uf250-1065-uf250-04",
+     "cell": "ext-uf250-1065-E",
+     "split": "E",
+     "D": 0.003997,
+     "Fp": 0.003398,
+     "Fm": 0.0034059999999999997,
+     "SBS": 0.003398,
+     "W_ref": 0.032867999999999994,
+     "oracle": 0.003398,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uf250-1065-uf250-05",
+     "cell": "ext-uf250-1065-E",
+     "split": "E",
+     "D": 0.0039059999999999997,
+     "Fp": 0.0033109999999999997,
+     "Fm": 0.003276,
+     "SBS": 0.0033109999999999997,
+     "W_ref": 0.031574,
+     "oracle": 0.003276,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uf250-1065-uf250-06",
+     "cell": "ext-uf250-1065-E",
+     "split": "E",
+     "D": 0.003484,
+     "Fp": 0.004249,
+     "Fm": 0.0041849999999999995,
+     "SBS": 0.004249,
+     "W_ref": 0.032339,
+     "oracle": 0.003484,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uf250-1065-uf250-07",
+     "cell": "ext-uf250-1065-E",
+     "split": "E",
+     "D": 0.003744,
+     "Fp": 0.003524,
+     "Fm": 0.0034029999999999998,
+     "SBS": 0.003524,
+     "W_ref": 0.033052,
+     "oracle": 0.0034029999999999998,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uf250-1065-uf250-08",
+     "cell": "ext-uf250-1065-E",
+     "split": "E",
+     "D": 0.003623,
+     "Fp": 0.003238,
+     "Fm": 0.003266,
+     "SBS": 0.003238,
+     "W_ref": 0.033456,
+     "oracle": 0.003238,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uuf250-1065-uuf250-01",
+     "cell": "ext-uuf250-1065-E",
+     "split": "E",
+     "D": 0.003678,
+     "Fp": 0.004177999999999999,
+     "Fm": 0.0035859999999999998,
+     "SBS": 0.004177999999999999,
+     "W_ref": 0.033937999999999996,
+     "oracle": 0.0035859999999999998,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uuf250-1065-uuf250-02",
+     "cell": "ext-uuf250-1065-E",
+     "split": "E",
+     "D": 0.004073,
+     "Fp": 0.00358,
+     "Fm": 0.003663,
+     "SBS": 0.00358,
+     "W_ref": 0.032279,
+     "oracle": 0.00358,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uuf250-1065-uuf250-03",
+     "cell": "ext-uuf250-1065-E",
+     "split": "E",
+     "D": 0.003391,
+     "Fp": 0.0032779999999999997,
+     "Fm": 0.004338,
+     "SBS": 0.0032779999999999997,
+     "W_ref": 0.033184,
+     "oracle": 0.0032779999999999997,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uuf250-1065-uuf250-04",
+     "cell": "ext-uuf250-1065-E",
+     "split": "E",
+     "D": 0.004174000000000001,
+     "Fp": 0.003727,
+     "Fm": 0.0038599999999999997,
+     "SBS": 0.003727,
+     "W_ref": 0.034205,
+     "oracle": 0.003727,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uuf250-1065-uuf250-05",
+     "cell": "ext-uuf250-1065-E",
+     "split": "E",
+     "D": 0.0036889999999999996,
+     "Fp": 0.003672,
+     "Fm": 0.003907,
+     "SBS": 0.003672,
+     "W_ref": 0.044032999999999996,
+     "oracle": 0.003672,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uuf250-1065-uuf250-06",
+     "cell": "ext-uuf250-1065-E",
+     "split": "E",
+     "D": 0.0035659999999999997,
+     "Fp": 0.0042,
+     "Fm": 0.0037869999999999996,
+     "SBS": 0.0042,
+     "W_ref": 0.03376,
+     "oracle": 0.0035659999999999997,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-uuf250-1065-uuf250-07",
+     "cell": "ext-uuf250-1065-E",
+     "split": "E",
+     "D": 0.003773,
+     "Fp": 0.004251,
+     "Fm": 0.00373,
+     "SBS": 0.004251,
+     "W_ref": 0.034263,
+     "oracle": 0.00373,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-1",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.010790000000000001,
+     "Fp": 0.021581,
+     "Fm": 0.012981,
+     "SBS": 0.021581,
+     "W_ref": 0.040187,
+     "oracle": 0.010790000000000001,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-2",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.028027999999999997,
+     "Fp": 0.025171,
+     "Fm": 0.028177999999999998,
+     "SBS": 0.025171,
+     "W_ref": 0.057566,
+     "oracle": 0.025171,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-3",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.031655,
+     "Fp": 0.022536,
+     "Fm": 0.014331,
+     "SBS": 0.022536,
+     "W_ref": 0.061251999999999994,
+     "oracle": 0.014331,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-4",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.007753999999999999,
+     "Fp": 0.017772,
+     "Fm": 0.021529,
+     "SBS": 0.017772,
+     "W_ref": 0.037269,
+     "oracle": 0.007753999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-5",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.033454,
+     "Fp": 0.06788999999999999,
+     "Fm": 0.049806,
+     "SBS": 0.06788999999999999,
+     "W_ref": 0.06421199999999999,
+     "oracle": 0.033454,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-6",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.017284,
+     "Fp": 0.051434,
+     "Fm": 0.018357,
+     "SBS": 0.051434,
+     "W_ref": 0.045102,
+     "oracle": 0.017284,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-7",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.130621,
+     "Fp": 0.032826,
+     "Fm": 0.028447999999999998,
+     "SBS": 0.032826,
+     "W_ref": 0.158917,
+     "oracle": 0.028447999999999998,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-8",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.029375,
+     "Fp": 0.010731,
+     "Fm": 0.006513,
+     "SBS": 0.010731,
+     "W_ref": 0.059833,
+     "oracle": 0.006513,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-9",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.0077339999999999996,
+     "Fp": 0.0070539999999999995,
+     "Fm": 0.015465,
+     "SBS": 0.0070539999999999995,
+     "W_ref": 0.037205,
+     "oracle": 0.0070539999999999995,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-10",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.033727,
+     "Fp": 0.026347,
+     "Fm": 0.020184999999999998,
+     "SBS": 0.026347,
+     "W_ref": 0.063837,
+     "oracle": 0.020184999999999998,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-11",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.011012,
+     "Fp": 0.008416,
+     "Fm": 0.009461999999999998,
+     "SBS": 0.008416,
+     "W_ref": 0.042835,
+     "oracle": 0.008416,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-12",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.02651,
+     "Fp": 0.030844,
+     "Fm": 0.010062999999999999,
+     "SBS": 0.030844,
+     "W_ref": 0.053387000000000004,
+     "oracle": 0.010062999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-13",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.009141999999999999,
+     "Fp": 0.008258,
+     "Fm": 0.009004,
+     "SBS": 0.008258,
+     "W_ref": 0.037869,
+     "oracle": 0.008258,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-14",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.017231999999999997,
+     "Fp": 0.015286,
+     "Fm": 0.012406,
+     "SBS": 0.015286,
+     "W_ref": 0.045808,
+     "oracle": 0.012406,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-flat200-479-flat200-15",
+     "cell": "ext-flat200-479-E",
+     "split": "E",
+     "D": 0.029289999999999997,
+     "Fp": 0.012863999999999999,
+     "Fm": 0.014249999999999999,
+     "SBS": 0.012863999999999999,
+     "W_ref": 0.060628999999999995,
+     "oracle": 0.012863999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-1",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004881,
+     "Fp": 0.004711,
+     "Fm": 0.004555999999999999,
+     "SBS": 0.004711,
+     "W_ref": 0.03465699999999999,
+     "oracle": 0.004555999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-2",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004013,
+     "Fp": 0.004621999999999999,
+     "Fm": 0.004261,
+     "SBS": 0.004621999999999999,
+     "W_ref": 0.034126,
+     "oracle": 0.004013,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-3",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.005232999999999999,
+     "Fp": 0.0052899999999999996,
+     "Fm": 0.0049499999999999995,
+     "SBS": 0.0052899999999999996,
+     "W_ref": 0.034534999999999996,
+     "oracle": 0.0049499999999999995,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-4",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.00488,
+     "Fp": 0.004802,
+     "Fm": 0.004758999999999999,
+     "SBS": 0.004802,
+     "W_ref": 0.033592,
+     "oracle": 0.004758999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-5",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004491,
+     "Fp": 0.004991,
+     "Fm": 0.004529,
+     "SBS": 0.004991,
+     "W_ref": 0.034472,
+     "oracle": 0.004491,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-6",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004467,
+     "Fp": 0.004645,
+     "Fm": 0.004300999999999999,
+     "SBS": 0.004645,
+     "W_ref": 0.033909999999999996,
+     "oracle": 0.004300999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-7",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004384,
+     "Fp": 0.0047,
+     "Fm": 0.005444,
+     "SBS": 0.0047,
+     "W_ref": 0.034788,
+     "oracle": 0.004384,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-8",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004761,
+     "Fp": 0.00437,
+     "Fm": 0.004996,
+     "SBS": 0.00437,
+     "W_ref": 0.034211,
+     "oracle": 0.00437,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-9",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004438999999999999,
+     "Fp": 0.004559,
+     "Fm": 0.004497,
+     "SBS": 0.004559,
+     "W_ref": 0.032804,
+     "oracle": 0.004438999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-10",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004984,
+     "Fp": 0.005023999999999999,
+     "Fm": 0.004248,
+     "SBS": 0.005023999999999999,
+     "W_ref": 0.035892999999999994,
+     "oracle": 0.004248,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-11",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.0044329999999999994,
+     "Fp": 0.004535,
+     "Fm": 0.004482,
+     "SBS": 0.004535,
+     "W_ref": 0.034055,
+     "oracle": 0.0044329999999999994,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-12",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004567,
+     "Fp": 0.005509,
+     "Fm": 0.005372999999999999,
+     "SBS": 0.005509,
+     "W_ref": 0.034866,
+     "oracle": 0.004567,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-13",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.0045579999999999996,
+     "Fp": 0.005802,
+     "Fm": 0.004385,
+     "SBS": 0.005802,
+     "W_ref": 0.033270999999999995,
+     "oracle": 0.004385,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-14",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.005235999999999999,
+     "Fp": 0.004685,
+     "Fm": 0.004403,
+     "SBS": 0.004685,
+     "W_ref": 0.035068,
+     "oracle": 0.004403,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-sw100-8-lp0-c5-sw100-15",
+     "cell": "ext-sw100-8-lp0-c5-E",
+     "split": "E",
+     "D": 0.004812,
+     "Fp": 0.0049499999999999995,
+     "Fm": 0.005058,
+     "SBS": 0.0049499999999999995,
+     "W_ref": 0.033399,
+     "oracle": 0.004812,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-blocksworld-bw_large.a",
+     "cell": "ext-blocksworld-E",
+     "split": "E",
+     "D": 0.007389999999999999,
+     "Fp": 0.005768,
+     "Fm": 0.006320999999999999,
+     "SBS": 0.005768,
+     "W_ref": 0.035747,
+     "oracle": 0.005768,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-blocksworld-bw_large.b",
+     "cell": "ext-blocksworld-E",
+     "split": "E",
+     "D": 0.009784,
+     "Fp": 0.010199999999999999,
+     "Fm": 0.009464,
+     "SBS": 0.010199999999999999,
+     "W_ref": 0.038600999999999996,
+     "oracle": 0.009464,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-blocksworld-bw_large.c",
+     "cell": "ext-blocksworld-E",
+     "split": "E",
+     "D": 0.039092999999999996,
+     "Fp": 0.031924,
+     "Fm": 0.053169999999999995,
+     "SBS": 0.031924,
+     "W_ref": 0.067186,
+     "oracle": 0.031924,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-blocksworld-bw_large.d",
+     "cell": "ext-blocksworld-E",
+     "split": "E",
+     "D": 0.310727,
+     "Fp": 0.5500209999999999,
+     "Fm": 0.18492799999999998,
+     "SBS": 0.5500209999999999,
+     "W_ref": 0.34046499999999996,
+     "oracle": 0.18492799999999998,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-logistics-logistics.a",
+     "cell": "ext-logistics-E",
+     "split": "E",
+     "D": 0.007829,
+     "Fp": 0.007892,
+     "Fm": 0.008435,
+     "SBS": 0.007892,
+     "W_ref": 0.038686,
+     "oracle": 0.007829,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-logistics-logistics.b",
+     "cell": "ext-logistics-E",
+     "split": "E",
+     "D": 0.008135,
+     "Fp": 0.009628000000000001,
+     "Fm": 0.009651,
+     "SBS": 0.009628000000000001,
+     "W_ref": 0.038,
+     "oracle": 0.008135,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-logistics-logistics.c",
+     "cell": "ext-logistics-E",
+     "split": "E",
+     "D": 0.014440999999999999,
+     "Fp": 0.013696999999999999,
+     "Fm": 0.015364,
+     "SBS": 0.013696999999999999,
+     "W_ref": 0.04577,
+     "oracle": 0.013696999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-logistics-logistics.d",
+     "cell": "ext-logistics-E",
+     "split": "E",
+     "D": 0.015323999999999999,
+     "Fp": 0.015798,
+     "Fm": 0.016172,
+     "SBS": 0.015798,
+     "W_ref": 0.044435999999999996,
+     "oracle": 0.015323999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-QG-qg1-07",
+     "cell": "ext-QG-E",
+     "split": "E",
+     "D": 0.017051,
+     "Fp": 0.019101,
+     "Fm": 0.018424999999999997,
+     "SBS": 0.019101,
+     "W_ref": 0.046505,
+     "oracle": 0.017051,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-QG-qg2-07",
+     "cell": "ext-QG-E",
+     "split": "E",
+     "D": 0.016631999999999997,
+     "Fp": 0.017818,
+     "Fm": 0.016399999999999998,
+     "SBS": 0.017818,
+     "W_ref": 0.044916,
+     "oracle": 0.016399999999999998,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-QG-qg3-08",
+     "cell": "ext-QG-E",
+     "split": "E",
+     "D": 0.006654,
+     "Fp": 0.00618,
+     "Fm": 0.009453999999999999,
+     "SBS": 0.00618,
+     "W_ref": 0.038051,
+     "oracle": 0.00618,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-QG-qg4-08",
+     "cell": "ext-QG-E",
+     "split": "E",
+     "D": 0.017129,
+     "Fp": 0.017248,
+     "Fm": 0.023159,
+     "SBS": 0.017248,
+     "W_ref": 0.049186,
+     "oracle": 0.017129,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-QG-qg5-09",
+     "cell": "ext-QG-E",
+     "split": "E",
+     "D": 0.011182999999999998,
+     "Fp": 0.010974000000000001,
+     "Fm": 0.010225,
+     "SBS": 0.010974000000000001,
+     "W_ref": 0.04042,
+     "oracle": 0.010225,
+     "answer": "UNSAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-QG-qg6-09",
+     "cell": "ext-QG-E",
+     "split": "E",
+     "D": 0.009323,
+     "Fp": 0.008374,
+     "Fm": 0.008189,
+     "SBS": 0.008374,
+     "W_ref": 0.037563,
+     "oracle": 0.008189,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "ext-QG-qg7-09",
+     "cell": "ext-QG-E",
+     "split": "E",
+     "D": 0.008947,
+     "Fp": 0.008029999999999999,
+     "Fm": 0.008836,
+     "SBS": 0.008029999999999999,
+     "W_ref": 0.036305,
+     "oracle": 0.008029999999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    }
+   ],
+   "W_ref_vs_D_detail": {
+    "total_saving": -1.7775489999999998,
+    "worst_loss": [
+     -0.040344,
+     "ext-uuf250-1065-uuf250-05"
+    ],
+    "best_gain": [
+     -0.026877000000000005,
+     "ext-flat200-479-flat200-12"
+    ],
+    "top1_share_of_positive": null,
+    "top3_share_of_positive": null,
+    "wins": 0,
+    "losses": 60
+   },
+   "by_cell": {
+    "ext-QG-E": {
+     "D": 0.012416999999999997,
+     "Fp": 0.012532142857142855,
+     "Fm": 0.013526857142857143,
+     "SBS": 0.012532142857142855,
+     "W_ref": 0.04184942857142857,
+     "oracle": 0.011886285714285712
+    },
+    "ext-blocksworld-E": {
+     "D": 0.0917485,
+     "Fp": 0.14947824999999998,
+     "Fm": 0.06347074999999999,
+     "SBS": 0.14947824999999998,
+     "W_ref": 0.12049974999999999,
+     "oracle": 0.058020999999999996
+    },
+    "ext-flat200-479-E": {
+     "D": 0.028240533333333328,
+     "Fp": 0.023933999999999997,
+     "Fm": 0.018065200000000003,
+     "SBS": 0.023933999999999997,
+     "W_ref": 0.0577272,
+     "oracle": 0.014866066666666665
+    },
+    "ext-logistics-E": {
+     "D": 0.01143225,
+     "Fp": 0.01175375,
+     "Fm": 0.012405499999999998,
+     "SBS": 0.01175375,
+     "W_ref": 0.041723,
+     "oracle": 0.01124625
+    },
+    "ext-sw100-8-lp0-c5-E": {
+     "D": 0.0046759333333333325,
+     "Fp": 0.004879666666666666,
+     "Fm": 0.0046828,
+     "SBS": 0.004879666666666666,
+     "W_ref": 0.03424313333333333,
+     "oracle": 0.004474066666666666
+    },
+    "ext-uf250-1065-E": {
+     "D": 0.0040089999999999995,
+     "Fp": 0.003566375,
+     "Fm": 0.00360525,
+     "SBS": 0.003566375,
+     "W_ref": 0.0327875,
+     "oracle": 0.0034512500000000003
+    },
+    "ext-uuf250-1065-E": {
+     "D": 0.003763428571428571,
+     "Fp": 0.003840857142857143,
+     "Fm": 0.0038387142857142856,
+     "SBS": 0.003840857142857143,
+     "W_ref": 0.035094571428571426,
+     "oracle": 0.003591285714285714
+    }
+   },
+   "by_type_answer": {
+    "ext-UNSAT": {
+     "n": 17,
+     "D": 0.086728,
+     "Fp": 0.083639,
+     "Fm": 0.089097,
+     "SBS": 0.083639,
+     "W_ref": 0.597568
+    },
+    "ext-SAT": {
+     "n": 43,
+     "D": 0.9650770000000001,
+     "Fp": 1.1366360000000002,
+     "Fm": 0.7060289999999998,
+     "SBS": 1.1366360000000002,
+     "W_ref": 2.2317860000000005
+    }
+   }
+  }
+ }
+}
