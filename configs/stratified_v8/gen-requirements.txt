@@ -1,0 +1,8 @@
+# v8 generator environment (resolved with uv 0.12.1 --exclude-newer 2026-10-01, Python 3.10.12 in the
+# genesis-v1_26 container; venv /mnt/data/zhaofeng/venvs/online-tuning-forcephase-v8gen, --system-site-packages)
+cnfgen==0.9.6
+python-sat==1.9.dev15
+networkx==3.4.2
+pydot==4.0.1
+pyparsing==3.3.3
+six==1.17.0

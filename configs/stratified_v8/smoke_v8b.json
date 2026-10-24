@@ -1,0 +1,34 @@
+{
+ "stage": "smoke_v8b",
+ "manifest": "results/stratified_v8/smoke_b_manifest.json",
+ "jobs": [
+  {
+   "instance": "v8smoke-rand3-b",
+   "sha256": "bd505dc08998dcb2f726fc7a66a9b727c1f0e733e11bbfae4a567c011992a1a1",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 1.0
+  },
+  {
+   "instance": "v8smoke-rand3-b",
+   "sha256": "bd505dc08998dcb2f726fc7a66a9b727c1f0e733e11bbfae4a567c011992a1a1",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 1.0
+  },
+  {
+   "instance": "v8smoke-rand3-b",
+   "sha256": "bd505dc08998dcb2f726fc7a66a9b727c1f0e733e11bbfae4a567c011992a1a1",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 1.0
+  },
+  {
+   "instance": "v8smoke-rand3-b",
+   "sha256": "bd505dc08998dcb2f726fc7a66a9b727c1f0e733e11bbfae4a567c011992a1a1",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 1.0
+  }
+ ]
+}

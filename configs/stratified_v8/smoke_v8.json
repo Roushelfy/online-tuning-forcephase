@@ -1,0 +1,62 @@
+{
+ "stage": "smoke_v8",
+ "manifest": "results/stratified_v8/smoke_manifest.json",
+ "jobs": [
+  {
+   "instance": "v8smoke-rand3",
+   "sha256": "f62b3d9fbbb1ee7fe0d413942733f1d47cf9dc8e10a4ae76ac32c820ecf4c8a2",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 5.0
+  },
+  {
+   "instance": "v8smoke-rand3",
+   "sha256": "f62b3d9fbbb1ee7fe0d413942733f1d47cf9dc8e10a4ae76ac32c820ecf4c8a2",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 5.0
+  },
+  {
+   "instance": "v8smoke-rand3",
+   "sha256": "f62b3d9fbbb1ee7fe0d413942733f1d47cf9dc8e10a4ae76ac32c820ecf4c8a2",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 5.0
+  },
+  {
+   "instance": "v8smoke-rand3",
+   "sha256": "f62b3d9fbbb1ee7fe0d413942733f1d47cf9dc8e10a4ae76ac32c820ecf4c8a2",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 5.0
+  },
+  {
+   "instance": "v8smoke-assign",
+   "sha256": "2322c0a5b0826555319f1b8d19e057469da70d6c81a680aa8b717090593efe1d",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 5.0
+  },
+  {
+   "instance": "v8smoke-assign",
+   "sha256": "2322c0a5b0826555319f1b8d19e057469da70d6c81a680aa8b717090593efe1d",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 5.0
+  },
+  {
+   "instance": "v8smoke-assign",
+   "sha256": "2322c0a5b0826555319f1b8d19e057469da70d6c81a680aa8b717090593efe1d",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 5.0
+  },
+  {
+   "instance": "v8smoke-assign",
+   "sha256": "2322c0a5b0826555319f1b8d19e057469da70d6c81a680aa8b717090593efe1d",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 5.0
+  }
+ ]
+}

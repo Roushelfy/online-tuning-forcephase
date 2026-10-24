@@ -1,0 +1,2 @@
+{"stage": "smoke_v8b", "instances": [
+ {"id": "v8smoke-rand3-b", "type": "rand3", "scale": "M", "param": 330, "seed": 7000003, "role": "smoke"}]}
