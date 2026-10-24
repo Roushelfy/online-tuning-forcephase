@@ -1,0 +1,102 @@
+{
+ "stage": "pilot_r2",
+ "note": "protocol deviation 2: assign2 structure round",
+ "instances": [
+  {
+   "id": "v9p-r2-assign2-D-T250-0",
+   "type": "assign2",
+   "structure": "D",
+   "param": 250,
+   "seed": 9002200,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-D-T250-1",
+   "type": "assign2",
+   "structure": "D",
+   "param": 250,
+   "seed": 9002201,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-D-T400-0",
+   "type": "assign2",
+   "structure": "D",
+   "param": 400,
+   "seed": 9002210,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-D-T400-1",
+   "type": "assign2",
+   "structure": "D",
+   "param": 400,
+   "seed": 9002211,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-E-T250-0",
+   "type": "assign2",
+   "structure": "E",
+   "param": 250,
+   "seed": 9002220,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-E-T250-1",
+   "type": "assign2",
+   "structure": "E",
+   "param": 250,
+   "seed": 9002221,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-E-T400-0",
+   "type": "assign2",
+   "structure": "E",
+   "param": 400,
+   "seed": 9002230,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-E-T400-1",
+   "type": "assign2",
+   "structure": "E",
+   "param": 400,
+   "seed": 9002231,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-F-T250-0",
+   "type": "assign2",
+   "structure": "F",
+   "param": 250,
+   "seed": 9002240,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-F-T250-1",
+   "type": "assign2",
+   "structure": "F",
+   "param": 250,
+   "seed": 9002241,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-F-T400-0",
+   "type": "assign2",
+   "structure": "F",
+   "param": 400,
+   "seed": 9002250,
+   "round": 2
+  },
+  {
+   "id": "v9p-r2-assign2-F-T400-1",
+   "type": "assign2",
+   "structure": "F",
+   "param": 400,
+   "seed": 9002251,
+   "round": 2
+  }
+ ]
+}
