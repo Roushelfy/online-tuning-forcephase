@@ -38,7 +38,12 @@
    - 换 solver seed，总收益基本不变（F+ 对 D：+36.5% → +35.1%）；
    - 变量换号会让逐题时间变化 1.4–1.6 倍、逐题赢家一半以上改变，但总收益稳定（+33% 至 +47%）。
    - 结论只依赖整块面板的完整总量。
-6. **外推与外部**：外部 SATLIB 题都很小（亚秒到数秒），F+ 无收益（−2.1%），短 probe 是净开销。规模外推见下文第“外推”节。
+6. **外推与外部（实测，单独报告）**：
+   - **规模外推只在着色上保持**：主策略 F+ 的收益在更大的着色题上仍在（n 575 / 600：+64% / +31%）。
+   - **耦合分配题规模变大后 F+ 明显变差**：T 550 慢 1.2 倍；T 700 按已完成部分的下界，至少慢 1.45 倍。
+   - **随机 3-SAT 上方向随抽样变化**：n 375 时 F+ 慢一倍，n 400 时 F± 至少快 19%（D 有两道题仍在运行）。
+   - **外部 SATLIB 题都很小**：亚秒到数秒，F+ 无收益（−2.1%），短 probe 是净开销（−46%）。
+   - 所以“始终 F+ 比 D 好约 46%”只限于训练时的类型与规模范围。
 7. **原 55 题**：仍在无上限运行中，D 与冻结选择器的完整均值仍为 null，详见 OLD55_PROGRESS。
 
 **本轮没有回答的问题**：在线识别能否在 F+ 之上再稳定获益。按冻结的新数据看，答案是没有可靠证据，属于有界负结果。适用范围只限这三类生成题与这一求解器版本。
@@ -56,6 +61,7 @@ Question: does running default CaDiCaL (D) for a short window, returning easy an
 - **Content gate.** Content features read from the probe prefix added nothing: the satisfiable/unsatisfiable distinction that decides F+ versus D is not visible there.
 - **Mechanism.** Single-factor interventions show that the UNSAT advantage of forcephase comes from forcing a fixed decision phase over saved/target phases, not from disabling rephasing. This corrects a v8 statement.
 - **Robustness.** Totals are robust to solver seeds and variable renaming; per-instance winners are not.
+- **Extrapolation.** The F+ advantage holds at larger colouring sizes (+31% to +64%) but reverses for larger assignment instances (at least −145% at T = 700) and depends on the SAT/UNSAT draw for larger random 3-SAT (−103% at n = 375, at least +19% at n = 400). It is therefore limited to the training range.
 - **Old panel.** The original 55-instance competition panel is still running without limits; its complete means remain null.
 
 ## 核心图
@@ -74,15 +80,23 @@ Question: does running default CaDiCaL (D) for a short window, returning easy an
 
 | 类别 | 内容 |
 |---|---|
-| 实测（冻结后、独立验证） | 留出 270 + 15 题全部完成的主比较与三块；外部 60 题；稳健性 54 题；机制消融 54 题；规模外推 90 题（见下） |
+| 实测（冻结后、独立验证） | 留出 270 + 15 题全部完成的主比较与三块；外部 60 题；稳健性 54 题；机制消融 54 题；规模外推 90 题中已完成的 4 级（其余 2 级给出可证明的界） |
 | 事后回放（已曝光数据，只用于提出候选） | v8 的 54 题上“D 2 s → F+”为 −34.2%（理想化），见 `results/online_selection_v9/replay_v8.json` |
 | 开发集成本模型 | 时间门与内容门的交叉验证用 PROBE 实测加 S1 完整时间拼出；真实参照 wrapper 证实了模型（逐题中位差 −0.004 s） |
 | 机制假说 | saved 与 target 相位各自的贡献；SAT 题上 D 快速找到解与初始相位的关系 |
-| 未完成 | 原 55 题 D / 冻结选择器各差 8 题；oracle 已定 50 / 55 |
+| 未完成 | 原 55 题 D / 冻结选择器各差 8 题，oracle 已定 50 / 55；外推 rand3 n 400 的 2 个 D 运行与 assign2 T 700 的 10 个 F± / W_ref 运行仍在运行 |
 
 ## 外推（rand3 n 375 / 400，col3 n 575 / 600，assign2 T 550 / 700）
 
-（待外推阶段完成后填入。）
+详见 [VALIDATION.md](VALIDATION.md) 的外推一节。截至 12:30 UTC，360 个运行中 348 个已完成，其余 12 个仍在无上限运行，所以整块的完整均值为 null。
+
+| 级别 | F+ 相对 D | W_ref 相对 D |
+|---|---:|---:|
+| rand3 n 375 | −103% | −10% |
+| rand3 n 400 | ≥ +19%（D 未完成，按下界） | ≥ +23% |
+| col3 n 575 / 600 | +64% / +31% | +62% / +31% |
+| assign2 T 550 | −118% | −123% |
+| assign2 T 700 | ≤ −145%（F+ 未完成，按下界） | ≤ −147% |
 
 ## 复现
 

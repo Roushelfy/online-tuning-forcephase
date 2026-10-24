@@ -6,7 +6,7 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **用户资源政策更新（2026-10-24）：不设核时限制。**旧200核时及其阶段额度已取消；历史累计197.74核时只是账本，不是剩余配额。当前政策：[RESOURCE_POLICY.md](docs/RESOURCE_POLICY.md)、[resource_policy.json](configs/resource_policy.json)。运行器不再按累计CPU或旧budget参数停机。
 
-**当前目标：Agent Goal v9（已设定，实验待执行）：[docs/AGENT_GOAL.md](docs/AGENT_GOAL.md)。**优先验证“默认短预求解，未完成再选择flag”，采用270道新开发题＋270道独立留出题，另做外部/规模迁移和rephase单因素消融；保持全部完成后的平均CPU指标。原55题的无预算补跑并行推进，旧v8目标存档：[AGENT_GOAL_STRATIFIED_V8.md](docs/AGENT_GOAL_STRATIFIED_V8.md)。
+**Agent Goal v9（默认短预求解后的三选一，无核时上限）：新面板阶段结论已交付（2026-10-24），[reports/online_selection_v9/FINAL_REPORT.md](reports/online_selection_v9/FINAL_REPORT.md)；原55题与2级规模外推仍在无上限运行。**新生成 270 开发 + 270 留出（H1/H2/H3）题：随机3-SAT、图3着色、新的双边容量耦合分配，各三档规模，全部运行完成并独立验证。按预注册规则，开发集嵌套交叉验证中时间门（D先τ秒再F±）与内容门都没有胜过固定 F+，主策略为开发集 SBS＝始终 F+：留出 31.36 s 对 D 57.91 s，**+45.8% [+30.4, +54.6]**；参照“D 2 s → F+”为 +49.7% [+39.8, +55.8]，但相对 F+ 仅 +7.2% [−2.1, +20.7]（来自两道随机 SAT 大题，不可靠）。单因素消融：UNSAT 上 forcephase 的优势来自强制固定方向、跳过 saved/target 相位，而非关闭 rephase（纠正 v8 措辞）。F+ 的收益不外推：更大着色仍 +31–64%，更大分配题 ≤ −145%，更大随机题随抽样方向相反；SATLIB 小题上无收益。原55题：oracle 已定 50/55，D 与冻结选择器仍各差 8 题（均值 null）。协议：[ONLINE_SELECTION_PROTOCOL_V9.md](docs/ONLINE_SELECTION_PROTOCOL_V9.md)；算力只计量（[COMPUTE.md](results/online_selection_v9/COMPUTE.md)）。v8 目标存档：[AGENT_GOAL_STRATIFIED_V8.md](docs/AGENT_GOAL_STRATIFIED_V8.md)。
 
 **历史最终报告：[reports/FINAL_REPORT.md](reports/FINAL_REPORT.md)**（含英文 abstract）。
 

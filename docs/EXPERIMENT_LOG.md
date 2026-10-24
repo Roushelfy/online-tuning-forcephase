@@ -176,3 +176,15 @@ M5 唯一主要候选的选择规则（在看到 M4-lite 结果之前固定）�
 - S3：留出 72 个运行全部完成。W 24.13 s，相对 D −334.5%、相对 SBS +1.3%；D 5.55 s、oracle 3.73 s。
 - 机制检查：216 个运行。flipall 使 F+ 与 F− 对调；rand3 UNSAT 优势对换号与翻转都稳健；col3 SAT 与 assign 上逐题赢家约一半随换号改变。
 - 报告：[reports/stratified_v8/FINAL_REPORT.md](../reports/stratified_v8/FINAL_REPORT.md)。v8 共 1.85 核时，累计 197.74 / 200。
+
+## 2026-10-24 — Agent Goal v9：默认短预求解后的三选一（无核时上限）
+
+- R0（042b9a4，任何 v9 SAT 运行之前）：协议 [ONLINE_SELECTION_PROTOCOL_V9.md](ONLINE_SELECTION_PROTOCOL_V9.md)；presolve wrapper（probe 解出时复用答案，未解时从头重跑所选动作并计费）；v9 运行器；v8 已曝光数据回放（D 2 s → F+ 为 −34.2%，只作探索）。
+- R5（4b4f10c）：原 55 题恢复分两节点无上限运行，并加入本地盘平台保护。oracle 已定 50 / 55；D 与 P1_M05_long 仍差 8 题。
+- 试采样：60 题。偏离 1：col3 L 档保留 550。偏离 2：assign2 结构 A–C 太容易，增加一轮结构校准，选中 F（c = 3.1，双边容量），T = 300 / 350 / 450。
+- 面板冻结（8b679f2，`v9-panel-freeze`）：主面板 540 题（开发 270 + H1 / H2 / H3 各 90）、对照 30 题、外推 90 题。
+- 开发集：S1 855、PROBE 1995、REF 285 个运行全部验证。嵌套交叉验证外层总量 SBS(F+) 9039 / A 9083 / B 9456 / B_s 9060，主策略为 SBS = 始终 F+（88b95e9，`v9-rule-freeze`）。
+- 留出：1140 个运行全部验证。F+ 相对 D +45.8% [+30.4, +54.6]；W_ref 相对 D +49.7% [+39.8, +55.8]，相对 F+ +7.2% [−2.1, +20.7]。
+- 外部：偏离 3 是 SATLIB 末尾 `%` / `0` 被误解析为空子句，第一批作废，重跑为 `external_r2`。
+- 稳健性：378 个运行。机制：324 个运行；UNSAT 上的优势来自强制方向，而非关闭 rephase。外推：348 / 360 个运行已完成。
+- 报告：[reports/online_selection_v9/FINAL_REPORT.md](../reports/online_selection_v9/FINAL_REPORT.md)。

@@ -1,0 +1,2480 @@
+{
+ "sbs": "Fp",
+ "wrappers": {
+  "configs/online_selection_v9/strategies/ref_D2_Fp.json": "W_ref"
+ },
+ "panels": {
+  "extrapolation": {
+   "n": 90,
+   "summary": {
+    "schema_version": 1,
+    "metric": "mean_completed_cpu_seconds",
+    "panel_size": 90,
+    "primary_comparison_complete": false,
+    "methods": {
+     "D": {
+      "status": "incomplete",
+      "completed": 88,
+      "panel_size": 90,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-rand3-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-rand3-X2-14",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     },
+     "Fp": {
+      "status": "incomplete",
+      "completed": 87,
+      "panel_size": 90,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-assign2-X2-02",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-11",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     },
+     "Fm": {
+      "status": "incomplete",
+      "completed": 87,
+      "panel_size": 90,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-assign2-X2-02",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-14",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     },
+     "SBS": {
+      "status": "incomplete",
+      "completed": 87,
+      "panel_size": 90,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-assign2-X2-02",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-11",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     },
+     "W_ref": {
+      "status": "incomplete",
+      "completed": 86,
+      "panel_size": 90,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-assign2-X2-02",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-09",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-11",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     }
+    },
+    "oracle": {
+     "status": "incomplete",
+     "completed": 84,
+     "panel_size": 90,
+     "total_cpu_seconds": null,
+     "mean_cpu_seconds": null,
+     "unresolved": [
+      {
+       "instance": "v9x-assign2-X2-02",
+       "unresolved_actions": [
+        "Fp",
+        "Fm"
+       ]
+      },
+      {
+       "instance": "v9x-assign2-X2-03",
+       "unresolved_actions": [
+        "Fp",
+        "Fm"
+       ]
+      },
+      {
+       "instance": "v9x-assign2-X2-11",
+       "unresolved_actions": [
+        "Fp"
+       ]
+      },
+      {
+       "instance": "v9x-assign2-X2-14",
+       "unresolved_actions": [
+        "Fm"
+       ]
+      },
+      {
+       "instance": "v9x-rand3-X2-03",
+       "unresolved_actions": [
+        "D"
+       ]
+      },
+      {
+       "instance": "v9x-rand3-X2-14",
+       "unresolved_actions": [
+        "D"
+       ]
+      }
+     ],
+     "winners": {
+      "v9x-assign2-X1-00": [
+       "D"
+      ],
+      "v9x-assign2-X1-01": [
+       "D"
+      ],
+      "v9x-assign2-X1-02": [
+       "D"
+      ],
+      "v9x-assign2-X1-03": [
+       "D"
+      ],
+      "v9x-assign2-X1-04": [
+       "Fp"
+      ],
+      "v9x-assign2-X1-05": [
+       "D"
+      ],
+      "v9x-assign2-X1-06": [
+       "Fm"
+      ],
+      "v9x-assign2-X1-07": [
+       "Fp"
+      ],
+      "v9x-assign2-X1-08": [
+       "D"
+      ],
+      "v9x-assign2-X1-09": [
+       "Fm"
+      ],
+      "v9x-assign2-X1-10": [
+       "Fp"
+      ],
+      "v9x-assign2-X1-11": [
+       "Fm"
+      ],
+      "v9x-assign2-X1-12": [
+       "D"
+      ],
+      "v9x-assign2-X1-13": [
+       "Fp"
+      ],
+      "v9x-assign2-X1-14": [
+       "D"
+      ],
+      "v9x-assign2-X2-00": [
+       "Fp"
+      ],
+      "v9x-assign2-X2-01": [
+       "D"
+      ],
+      "v9x-assign2-X2-04": [
+       "D"
+      ],
+      "v9x-assign2-X2-05": [
+       "D"
+      ],
+      "v9x-assign2-X2-06": [
+       "Fm"
+      ],
+      "v9x-assign2-X2-07": [
+       "Fm"
+      ],
+      "v9x-assign2-X2-08": [
+       "D"
+      ],
+      "v9x-assign2-X2-09": [
+       "Fm"
+      ],
+      "v9x-assign2-X2-10": [
+       "D"
+      ],
+      "v9x-assign2-X2-12": [
+       "Fp"
+      ],
+      "v9x-assign2-X2-13": [
+       "Fm"
+      ],
+      "v9x-col3-X1-00": [
+       "Fp"
+      ],
+      "v9x-col3-X1-01": [
+       "Fm"
+      ],
+      "v9x-col3-X1-02": [
+       "Fm"
+      ],
+      "v9x-col3-X1-03": [
+       "Fp"
+      ],
+      "v9x-col3-X1-04": [
+       "D"
+      ],
+      "v9x-col3-X1-05": [
+       "Fp"
+      ],
+      "v9x-col3-X1-06": [
+       "Fm"
+      ],
+      "v9x-col3-X1-07": [
+       "Fp"
+      ],
+      "v9x-col3-X1-08": [
+       "D"
+      ],
+      "v9x-col3-X1-09": [
+       "Fp"
+      ],
+      "v9x-col3-X1-10": [
+       "Fm"
+      ],
+      "v9x-col3-X1-11": [
+       "Fm"
+      ],
+      "v9x-col3-X1-12": [
+       "Fp"
+      ],
+      "v9x-col3-X1-13": [
+       "D"
+      ],
+      "v9x-col3-X1-14": [
+       "Fp"
+      ],
+      "v9x-col3-X2-00": [
+       "Fp"
+      ],
+      "v9x-col3-X2-01": [
+       "D"
+      ],
+      "v9x-col3-X2-02": [
+       "Fp"
+      ],
+      "v9x-col3-X2-03": [
+       "Fm"
+      ],
+      "v9x-col3-X2-04": [
+       "D"
+      ],
+      "v9x-col3-X2-05": [
+       "Fm"
+      ],
+      "v9x-col3-X2-06": [
+       "Fm"
+      ],
+      "v9x-col3-X2-07": [
+       "Fp"
+      ],
+      "v9x-col3-X2-08": [
+       "D"
+      ],
+      "v9x-col3-X2-09": [
+       "Fp"
+      ],
+      "v9x-col3-X2-10": [
+       "D"
+      ],
+      "v9x-col3-X2-11": [
+       "Fm"
+      ],
+      "v9x-col3-X2-12": [
+       "Fp"
+      ],
+      "v9x-col3-X2-13": [
+       "Fp"
+      ],
+      "v9x-col3-X2-14": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-00": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-01": [
+       "D"
+      ],
+      "v9x-rand3-X1-02": [
+       "D"
+      ],
+      "v9x-rand3-X1-03": [
+       "D"
+      ],
+      "v9x-rand3-X1-04": [
+       "D"
+      ],
+      "v9x-rand3-X1-05": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-06": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-07": [
+       "D"
+      ],
+      "v9x-rand3-X1-08": [
+       "D"
+      ],
+      "v9x-rand3-X1-09": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-10": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-11": [
+       "D"
+      ],
+      "v9x-rand3-X1-12": [
+       "D"
+      ],
+      "v9x-rand3-X1-13": [
+       "D"
+      ],
+      "v9x-rand3-X1-14": [
+       "D"
+      ],
+      "v9x-rand3-X2-00": [
+       "D"
+      ],
+      "v9x-rand3-X2-01": [
+       "D"
+      ],
+      "v9x-rand3-X2-02": [
+       "Fp"
+      ],
+      "v9x-rand3-X2-04": [
+       "Fm"
+      ],
+      "v9x-rand3-X2-05": [
+       "D"
+      ],
+      "v9x-rand3-X2-06": [
+       "D"
+      ],
+      "v9x-rand3-X2-07": [
+       "Fp"
+      ],
+      "v9x-rand3-X2-08": [
+       "Fp"
+      ],
+      "v9x-rand3-X2-09": [
+       "D"
+      ],
+      "v9x-rand3-X2-10": [
+       "D"
+      ],
+      "v9x-rand3-X2-11": [
+       "D"
+      ],
+      "v9x-rand3-X2-12": [
+       "D"
+      ],
+      "v9x-rand3-X2-13": [
+       "D"
+      ]
+     },
+     "interpretation": "ideal post-hoc choice, excluding observation cost"
+    },
+    "gain_percent_vs_baseline": {
+     "D": null,
+     "Fp": null,
+     "Fm": null,
+     "SBS": null,
+     "W_ref": null,
+     "oracle": null
+    },
+    "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   }
+  },
+  "extrap_rand3_X1": {
+   "n": 15,
+   "summary": {
+    "schema_version": 1,
+    "metric": "mean_completed_cpu_seconds",
+    "panel_size": 15,
+    "primary_comparison_complete": true,
+    "methods": {
+     "D": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 4554.708557999999,
+      "mean_cpu_seconds": 303.64723719999995,
+      "unresolved": []
+     },
+     "Fp": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 9235.955408,
+      "mean_cpu_seconds": 615.7303605333333,
+      "unresolved": []
+     },
+     "Fm": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 6891.117531,
+      "mean_cpu_seconds": 459.4078354,
+      "unresolved": []
+     },
+     "SBS": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 9235.955408,
+      "mean_cpu_seconds": 615.7303605333333,
+      "unresolved": []
+     },
+     "W_ref": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 5014.535608,
+      "mean_cpu_seconds": 334.3023738666667,
+      "unresolved": []
+     }
+    },
+    "oracle": {
+     "status": "complete",
+     "completed": 15,
+     "panel_size": 15,
+     "total_cpu_seconds": 1912.180019,
+     "mean_cpu_seconds": 127.47866793333333,
+     "unresolved": [],
+     "winners": {
+      "v9x-rand3-X1-00": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-01": [
+       "D"
+      ],
+      "v9x-rand3-X1-02": [
+       "D"
+      ],
+      "v9x-rand3-X1-03": [
+       "D"
+      ],
+      "v9x-rand3-X1-04": [
+       "D"
+      ],
+      "v9x-rand3-X1-05": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-06": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-07": [
+       "D"
+      ],
+      "v9x-rand3-X1-08": [
+       "D"
+      ],
+      "v9x-rand3-X1-09": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-10": [
+       "Fm"
+      ],
+      "v9x-rand3-X1-11": [
+       "D"
+      ],
+      "v9x-rand3-X1-12": [
+       "D"
+      ],
+      "v9x-rand3-X1-13": [
+       "D"
+      ],
+      "v9x-rand3-X1-14": [
+       "D"
+      ]
+     },
+     "interpretation": "ideal post-hoc choice, excluding observation cost"
+    },
+    "gain_percent_vs_baseline": {
+     "D": 0.0,
+     "Fp": -102.77818636228098,
+     "Fm": -51.29656361648598,
+     "SBS": -102.77818636228098,
+     "W_ref": -10.095641557402168,
+     "oracle": 58.01751100756158
+    },
+    "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   },
+   "ci": {
+    "W_ref_vs_D": [
+     -434.8792931669929,
+     51.582236270111515
+    ],
+    "W_ref_vs_SBS": [
+     8.252967585568072,
+     78.9192708578633
+    ],
+    "SBS_vs_D": [
+     -1071.4955382762164,
+     18.937677318312584
+    ],
+    "oracle_vs_D": [
+     47.96637773865423,
+     62.39586889473826
+    ],
+    "oracle_vs_SBS": [
+     48.9998758471217,
+     96.19248752961425
+    ],
+    "Fp_vs_D": [
+     -1071.4955382762164,
+     18.937677318312584
+    ],
+    "Fp_vs_SBS": [
+     0.0,
+     0.0
+    ],
+    "Fm_vs_D": [
+     -735.4075991068962,
+     33.43094664944653
+    ],
+    "Fm_vs_SBS": [
+     -63.12569351759487,
+     63.281152062960125
+    ]
+   },
+   "per_instance": [
+    {
+     "instance": "v9x-rand3-X1-00",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 2066.7964580000003,
+     "Fp": 827.752738,
+     "Fm": 766.6816550000001,
+     "SBS": 827.752738,
+     "W_ref": 882.817348,
+     "oracle": 766.6816550000001,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.034332
+    },
+    {
+     "instance": "v9x-rand3-X1-01",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 0.555667,
+     "Fp": 1832.33744,
+     "Fm": 348.683999,
+     "SBS": 1832.33744,
+     "W_ref": 0.560103,
+     "oracle": 0.555667,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X1-02",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 2.071669,
+     "Fp": 45.063229,
+     "Fm": 1662.935523,
+     "SBS": 45.063229,
+     "W_ref": 46.98652,
+     "oracle": 2.071669,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.041387
+    },
+    {
+     "instance": "v9x-rand3-X1-03",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 2.305168,
+     "Fp": 19.148118999999998,
+     "Fm": 569.566674,
+     "SBS": 19.148118999999998,
+     "W_ref": 20.800952,
+     "oracle": 2.305168,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0436900000000002
+    },
+    {
+     "instance": "v9x-rand3-X1-04",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 0.536924,
+     "Fp": 3.7219010000000003,
+     "Fm": 56.500549,
+     "SBS": 3.7219010000000003,
+     "W_ref": 0.5708799999999999,
+     "oracle": 0.536924,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X1-05",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 1036.8348440000002,
+     "Fp": 640.664851,
+     "Fm": 535.962276,
+     "SBS": 640.664851,
+     "W_ref": 625.162579,
+     "oracle": 535.962276,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0459449999999997
+    },
+    {
+     "instance": "v9x-rand3-X1-06",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 2.1665650000000003,
+     "Fp": 78.026596,
+     "Fm": 0.5545249999999999,
+     "SBS": 78.026596,
+     "W_ref": 78.825159,
+     "oracle": 0.5545249999999999,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.045124
+    },
+    {
+     "instance": "v9x-rand3-X1-07",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 0.536038,
+     "Fp": 69.285684,
+     "Fm": 68.327871,
+     "SBS": 69.285684,
+     "W_ref": 0.560719,
+     "oracle": 0.536038,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X1-08",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 3.280087,
+     "Fp": 1844.532615,
+     "Fm": 52.72535,
+     "SBS": 1844.532615,
+     "W_ref": 1778.9076220000002,
+     "oracle": 3.280087,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0391449999999995
+    },
+    {
+     "instance": "v9x-rand3-X1-09",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 768.814992,
+     "Fp": 345.540752,
+     "Fm": 314.25402699999995,
+     "SBS": 345.540752,
+     "W_ref": 349.499409,
+     "oracle": 314.25402699999995,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.047047
+    },
+    {
+     "instance": "v9x-rand3-X1-10",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 667.1348800000001,
+     "Fp": 333.71103700000003,
+     "Fm": 281.766717,
+     "SBS": 333.71103700000003,
+     "W_ref": 333.242547,
+     "oracle": 281.766717,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.037277
+    },
+    {
+     "instance": "v9x-rand3-X1-11",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 0.52449,
+     "Fp": 408.730698,
+     "Fm": 528.439082,
+     "SBS": 408.730698,
+     "W_ref": 0.601833,
+     "oracle": 0.52449,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X1-12",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 0.526793,
+     "Fp": 507.433399,
+     "Fm": 127.496337,
+     "SBS": 507.433399,
+     "W_ref": 0.553644,
+     "oracle": 0.526793,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X1-13",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 0.5265129999999999,
+     "Fp": 1419.990177,
+     "Fm": 445.346791,
+     "SBS": 1419.990177,
+     "W_ref": 0.573832,
+     "oracle": 0.5265129999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X1-14",
+     "cell": "rand3-X1",
+     "split": "X",
+     "D": 2.09747,
+     "Fp": 860.016172,
+     "Fm": 1131.876155,
+     "SBS": 860.016172,
+     "W_ref": 894.8724609999999,
+     "oracle": 2.09747,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.035147
+    }
+   ],
+   "W_ref_vs_D_detail": {
+    "total_saving": -459.8270499999994,
+    "worst_loss": [
+     -1775.627535,
+     "v9x-rand3-X1-08"
+    ],
+    "best_gain": [
+     1183.9791100000002,
+     "v9x-rand3-X1-00"
+    ],
+    "top1_share_of_positive": 0.5040655753780526,
+    "top3_share_of_positive": 0.8578491550007453,
+    "wins": 4,
+    "losses": 11
+   },
+   "by_cell": {
+    "rand3-X1": {
+     "D": 303.64723719999995,
+     "Fp": 615.7303605333333,
+     "Fm": 459.4078354,
+     "SBS": 615.7303605333333,
+     "W_ref": 334.3023738666667,
+     "oracle": 127.47866793333333
+    }
+   },
+   "by_type_answer": {
+    "rand3-UNSAT": {
+     "n": 4,
+     "D": 4539.581174000001,
+     "Fp": 2147.669378,
+     "Fm": 1898.664675,
+     "SBS": 2147.669378,
+     "W_ref": 2190.721883
+    },
+    "rand3-SAT": {
+     "n": 11,
+     "D": 15.127384,
+     "Fp": 7088.286029999999,
+     "Fm": 4992.452856,
+     "SBS": 7088.286029999999,
+     "W_ref": 2823.813725
+    }
+   }
+  },
+  "extrap_rand3_X2": {
+   "n": 15,
+   "summary": {
+    "schema_version": 1,
+    "metric": "mean_completed_cpu_seconds",
+    "panel_size": 15,
+    "primary_comparison_complete": false,
+    "methods": {
+     "D": {
+      "status": "incomplete",
+      "completed": 13,
+      "panel_size": 15,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-rand3-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-rand3-X2-14",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     },
+     "Fp": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 45954.441228,
+      "mean_cpu_seconds": 3063.6294152,
+      "unresolved": []
+     },
+     "Fm": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 37913.491307000004,
+      "mean_cpu_seconds": 2527.5660871333334,
+      "unresolved": []
+     },
+     "SBS": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 45954.441228,
+      "mean_cpu_seconds": 3063.6294152,
+      "unresolved": []
+     },
+     "W_ref": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 43697.956750000005,
+      "mean_cpu_seconds": 2913.197116666667,
+      "unresolved": []
+     }
+    },
+    "oracle": {
+     "status": "incomplete",
+     "completed": 13,
+     "panel_size": 15,
+     "total_cpu_seconds": null,
+     "mean_cpu_seconds": null,
+     "unresolved": [
+      {
+       "instance": "v9x-rand3-X2-03",
+       "unresolved_actions": [
+        "D"
+       ]
+      },
+      {
+       "instance": "v9x-rand3-X2-14",
+       "unresolved_actions": [
+        "D"
+       ]
+      }
+     ],
+     "winners": {
+      "v9x-rand3-X2-00": [
+       "D"
+      ],
+      "v9x-rand3-X2-01": [
+       "D"
+      ],
+      "v9x-rand3-X2-02": [
+       "Fp"
+      ],
+      "v9x-rand3-X2-04": [
+       "Fm"
+      ],
+      "v9x-rand3-X2-05": [
+       "D"
+      ],
+      "v9x-rand3-X2-06": [
+       "D"
+      ],
+      "v9x-rand3-X2-07": [
+       "Fp"
+      ],
+      "v9x-rand3-X2-08": [
+       "Fp"
+      ],
+      "v9x-rand3-X2-09": [
+       "D"
+      ],
+      "v9x-rand3-X2-10": [
+       "D"
+      ],
+      "v9x-rand3-X2-11": [
+       "D"
+      ],
+      "v9x-rand3-X2-12": [
+       "D"
+      ],
+      "v9x-rand3-X2-13": [
+       "D"
+      ]
+     },
+     "interpretation": "ideal post-hoc choice, excluding observation cost"
+    },
+    "gain_percent_vs_baseline": {
+     "D": null,
+     "Fp": null,
+     "Fm": null,
+     "SBS": null,
+     "W_ref": null,
+     "oracle": null
+    },
+    "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   }
+  },
+  "extrap_col3_X1": {
+   "n": 15,
+   "summary": {
+    "schema_version": 1,
+    "metric": "mean_completed_cpu_seconds",
+    "panel_size": 15,
+    "primary_comparison_complete": true,
+    "methods": {
+     "D": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 478.77568899999994,
+      "mean_cpu_seconds": 31.918379266666662,
+      "unresolved": []
+     },
+     "Fp": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 170.440966,
+      "mean_cpu_seconds": 11.362731066666667,
+      "unresolved": []
+     },
+     "Fm": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 465.12096600000007,
+      "mean_cpu_seconds": 31.008064400000006,
+      "unresolved": []
+     },
+     "SBS": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 170.440966,
+      "mean_cpu_seconds": 11.362731066666667,
+      "unresolved": []
+     },
+     "W_ref": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 183.69414100000003,
+      "mean_cpu_seconds": 12.246276066666669,
+      "unresolved": []
+     }
+    },
+    "oracle": {
+     "status": "complete",
+     "completed": 15,
+     "panel_size": 15,
+     "total_cpu_seconds": 150.107266,
+     "mean_cpu_seconds": 10.007151066666667,
+     "unresolved": [],
+     "winners": {
+      "v9x-col3-X1-00": [
+       "Fp"
+      ],
+      "v9x-col3-X1-01": [
+       "Fm"
+      ],
+      "v9x-col3-X1-02": [
+       "Fm"
+      ],
+      "v9x-col3-X1-03": [
+       "Fp"
+      ],
+      "v9x-col3-X1-04": [
+       "D"
+      ],
+      "v9x-col3-X1-05": [
+       "Fp"
+      ],
+      "v9x-col3-X1-06": [
+       "Fm"
+      ],
+      "v9x-col3-X1-07": [
+       "Fp"
+      ],
+      "v9x-col3-X1-08": [
+       "D"
+      ],
+      "v9x-col3-X1-09": [
+       "Fp"
+      ],
+      "v9x-col3-X1-10": [
+       "Fm"
+      ],
+      "v9x-col3-X1-11": [
+       "Fm"
+      ],
+      "v9x-col3-X1-12": [
+       "Fp"
+      ],
+      "v9x-col3-X1-13": [
+       "D"
+      ],
+      "v9x-col3-X1-14": [
+       "Fp"
+      ]
+     },
+     "interpretation": "ideal post-hoc choice, excluding observation cost"
+    },
+    "gain_percent_vs_baseline": {
+     "D": 0.0,
+     "Fp": 64.40066404457725,
+     "Fm": 2.8520084276877022,
+     "SBS": 64.40066404457725,
+     "W_ref": 61.63252537244011,
+     "oracle": 68.6476841976828
+    },
+    "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   },
+   "ci": {
+    "W_ref_vs_D": [
+     34.08812113550452,
+     85.81381029663594
+    ],
+    "W_ref_vs_SBS": [
+     -28.161163610903305,
+     -1.374900354090558
+    ],
+    "SBS_vs_D": [
+     37.56698682496638,
+     88.44238010913512
+    ],
+    "oracle_vs_D": [
+     45.11601089151818,
+     92.85797141831786
+    ],
+    "oracle_vs_SBS": [
+     1.8955150109065677,
+     56.094969915849106
+    ],
+    "Fp_vs_D": [
+     37.56698682496638,
+     88.44238010913512
+    ],
+    "Fp_vs_SBS": [
+     0.0,
+     0.0
+    ],
+    "Fm_vs_D": [
+     -126.5946791854947,
+     70.93764711503408
+    ],
+    "Fm_vs_SBS": [
+     -767.5872856005877,
+     -25.91214571011451
+    ]
+   },
+   "per_instance": [
+    {
+     "instance": "v9x-col3-X1-00",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 167.97591,
+     "Fp": 99.367741,
+     "Fm": 202.93994,
+     "SBS": 99.367741,
+     "W_ref": 101.643842,
+     "oracle": 99.367741,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0467079999999997
+    },
+    {
+     "instance": "v9x-col3-X1-01",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 2.294775,
+     "Fp": 11.295373999999999,
+     "Fm": 0.249383,
+     "SBS": 11.295373999999999,
+     "W_ref": 13.10737,
+     "oracle": 0.249383,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.033229
+    },
+    {
+     "instance": "v9x-col3-X1-02",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 128.429281,
+     "Fp": 4.2839789999999995,
+     "Fm": 3.755569,
+     "SBS": 4.2839789999999995,
+     "W_ref": 6.2661489999999995,
+     "oracle": 3.755569,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.047561
+    },
+    {
+     "instance": "v9x-col3-X1-03",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 56.299091999999995,
+     "Fp": 8.76897,
+     "Fm": 32.900025,
+     "SBS": 8.76897,
+     "W_ref": 10.819495,
+     "oracle": 8.76897,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.044889
+    },
+    {
+     "instance": "v9x-col3-X1-04",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 0.26764,
+     "Fp": 0.270597,
+     "Fm": 0.6651929999999999,
+     "SBS": 0.270597,
+     "W_ref": 0.301973,
+     "oracle": 0.26764,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X1-05",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 37.301125,
+     "Fp": 25.738722,
+     "Fm": 32.448632,
+     "SBS": 25.738722,
+     "W_ref": 27.881559,
+     "oracle": 25.738722,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.046652
+    },
+    {
+     "instance": "v9x-col3-X1-06",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 0.592857,
+     "Fp": 2.408751,
+     "Fm": 0.466061,
+     "SBS": 2.408751,
+     "W_ref": 0.6255439999999999,
+     "oracle": 0.466061,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X1-07",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 14.56879,
+     "Fp": 0.243437,
+     "Fm": 142.937246,
+     "SBS": 0.243437,
+     "W_ref": 2.276116,
+     "oracle": 0.243437,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.034468
+    },
+    {
+     "instance": "v9x-col3-X1-08",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 0.24475399999999997,
+     "Fp": 0.276242,
+     "Fm": 0.724101,
+     "SBS": 0.276242,
+     "W_ref": 0.276728,
+     "oracle": 0.24475399999999997,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X1-09",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 50.136038,
+     "Fp": 3.4661310000000003,
+     "Fm": 33.837034,
+     "SBS": 3.4661310000000003,
+     "W_ref": 5.572436000000001,
+     "oracle": 3.4661310000000003,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.044909
+    },
+    {
+     "instance": "v9x-col3-X1-10",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 0.650486,
+     "Fp": 2.019325,
+     "Fm": 0.183836,
+     "SBS": 2.019325,
+     "W_ref": 0.734661,
+     "oracle": 0.183836,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X1-11",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 16.733578,
+     "Fp": 8.811888999999999,
+     "Fm": 5.757969999999999,
+     "SBS": 8.811888999999999,
+     "W_ref": 10.761206999999999,
+     "oracle": 5.757969999999999,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.031956
+    },
+    {
+     "instance": "v9x-col3-X1-12",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 1.478295,
+     "Fp": 0.60583,
+     "Fm": 1.300304,
+     "SBS": 0.60583,
+     "W_ref": 1.550215,
+     "oracle": 0.60583,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X1-13",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 0.597483,
+     "Fp": 2.490239,
+     "Fm": 6.326012,
+     "SBS": 2.490239,
+     "W_ref": 0.6285949999999999,
+     "oracle": 0.597483,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X1-14",
+     "cell": "col3-X1",
+     "split": "X",
+     "D": 1.205585,
+     "Fp": 0.393739,
+     "Fm": 0.62966,
+     "SBS": 0.393739,
+     "W_ref": 1.248251,
+     "oracle": 0.393739,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    }
+   ],
+   "W_ref_vs_D_detail": {
+    "total_saving": 295.081548,
+    "worst_loss": [
+     -10.812595,
+     "v9x-col3-X1-01"
+    ],
+    "best_gain": [
+     122.163132,
+     "v9x-col3-X1-02"
+    ],
+    "top1_share_of_positive": 0.39893518125891325,
+    "top3_share_of_positive": 0.7640666748067039,
+    "wins": 7,
+    "losses": 8
+   },
+   "by_cell": {
+    "col3-X1": {
+     "D": 31.918379266666662,
+     "Fp": 11.362731066666667,
+     "Fm": 31.008064400000006,
+     "SBS": 11.362731066666667,
+     "W_ref": 12.246276066666669,
+     "oracle": 10.007151066666667
+    }
+   },
+   "by_type_answer": {
+    "col3-UNSAT": {
+     "n": 2,
+     "D": 205.277035,
+     "Fp": 125.10646299999999,
+     "Fm": 235.388572,
+     "SBS": 125.10646299999999,
+     "W_ref": 129.52540100000002
+    },
+    "col3-SAT": {
+     "n": 13,
+     "D": 273.49865400000004,
+     "Fp": 45.33450299999999,
+     "Fm": 229.732394,
+     "SBS": 45.33450299999999,
+     "W_ref": 54.16874000000001
+    }
+   }
+  },
+  "extrap_col3_X2": {
+   "n": 15,
+   "summary": {
+    "schema_version": 1,
+    "metric": "mean_completed_cpu_seconds",
+    "panel_size": 15,
+    "primary_comparison_complete": true,
+    "methods": {
+     "D": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 790.2491669999998,
+      "mean_cpu_seconds": 52.68327779999999,
+      "unresolved": []
+     },
+     "Fp": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 545.671656,
+      "mean_cpu_seconds": 36.3781104,
+      "unresolved": []
+     },
+     "Fm": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 729.3033439999999,
+      "mean_cpu_seconds": 48.62022293333333,
+      "unresolved": []
+     },
+     "SBS": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 545.671656,
+      "mean_cpu_seconds": 36.3781104,
+      "unresolved": []
+     },
+     "W_ref": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 549.4231870000001,
+      "mean_cpu_seconds": 36.628212466666675,
+      "unresolved": []
+     }
+    },
+    "oracle": {
+     "status": "complete",
+     "completed": 15,
+     "panel_size": 15,
+     "total_cpu_seconds": 383.399071,
+     "mean_cpu_seconds": 25.559938066666668,
+     "unresolved": [],
+     "winners": {
+      "v9x-col3-X2-00": [
+       "Fp"
+      ],
+      "v9x-col3-X2-01": [
+       "D"
+      ],
+      "v9x-col3-X2-02": [
+       "Fp"
+      ],
+      "v9x-col3-X2-03": [
+       "Fm"
+      ],
+      "v9x-col3-X2-04": [
+       "D"
+      ],
+      "v9x-col3-X2-05": [
+       "Fm"
+      ],
+      "v9x-col3-X2-06": [
+       "Fm"
+      ],
+      "v9x-col3-X2-07": [
+       "Fp"
+      ],
+      "v9x-col3-X2-08": [
+       "D"
+      ],
+      "v9x-col3-X2-09": [
+       "Fp"
+      ],
+      "v9x-col3-X2-10": [
+       "D"
+      ],
+      "v9x-col3-X2-11": [
+       "Fm"
+      ],
+      "v9x-col3-X2-12": [
+       "Fp"
+      ],
+      "v9x-col3-X2-13": [
+       "Fp"
+      ],
+      "v9x-col3-X2-14": [
+       "Fm"
+      ]
+     },
+     "interpretation": "ideal post-hoc choice, excluding observation cost"
+    },
+    "gain_percent_vs_baseline": {
+     "D": 0.0,
+     "Fp": 30.949417122258094,
+     "Fm": 7.712228692548551,
+     "SBS": 30.949417122258094,
+     "W_ref": 30.47468951017569,
+     "oracle": 51.48377410437688
+    },
+    "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   },
+   "ci": {
+    "W_ref_vs_D": [
+     -79.55800645603306,
+     48.560788552088795
+    ],
+    "W_ref_vs_SBS": [
+     -10.970169003118624,
+     3.515641958321958
+    ],
+    "SBS_vs_D": [
+     -74.33089852989056,
+     48.15158228267502
+    ],
+    "oracle_vs_D": [
+     35.59296359601555,
+     67.6046966912313
+    ],
+    "oracle_vs_SBS": [
+     7.45322060478415,
+     71.92079823890262
+    ],
+    "Fp_vs_D": [
+     -74.33089852989056,
+     48.15158228267502
+    ],
+    "Fp_vs_SBS": [
+     0.0,
+     0.0
+    ],
+    "Fm_vs_D": [
+     -51.09213953262217,
+     49.009325711938686
+    ],
+    "Fm_vs_SBS": [
+     -76.97586610455602,
+     50.12391725154842
+    ]
+   },
+   "per_instance": [
+    {
+     "instance": "v9x-col3-X2-00",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 579.275957,
+     "Fp": 282.284024,
+     "Fm": 540.71095,
+     "SBS": 282.284024,
+     "W_ref": 275.259234,
+     "oracle": 282.284024,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0455489999999994
+    },
+    {
+     "instance": "v9x-col3-X2-01",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 15.601387,
+     "Fp": 67.802397,
+     "Fm": 61.522611000000005,
+     "SBS": 67.802397,
+     "W_ref": 69.76775099999999,
+     "oracle": 15.601387,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.044305
+    },
+    {
+     "instance": "v9x-col3-X2-02",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 12.336535999999999,
+     "Fp": 10.476464,
+     "Fm": 11.504744,
+     "SBS": 10.476464,
+     "W_ref": 12.311191,
+     "oracle": 10.476464,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.045308
+    },
+    {
+     "instance": "v9x-col3-X2-03",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 34.424911,
+     "Fp": 12.186314,
+     "Fm": 1.468885,
+     "SBS": 12.186314,
+     "W_ref": 14.19104,
+     "oracle": 1.468885,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0466049999999996
+    },
+    {
+     "instance": "v9x-col3-X2-04",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 2.440035,
+     "Fp": 10.664462,
+     "Fm": 26.983314,
+     "SBS": 10.664462,
+     "W_ref": 12.450510999999999,
+     "oracle": 2.440035,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0419840000000002
+    },
+    {
+     "instance": "v9x-col3-X2-05",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 58.42556,
+     "Fp": 84.779802,
+     "Fm": 27.820421,
+     "SBS": 84.779802,
+     "W_ref": 85.74142,
+     "oracle": 27.820421,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.046158
+    },
+    {
+     "instance": "v9x-col3-X2-06",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 14.921486,
+     "Fp": 11.929727,
+     "Fm": 2.463844,
+     "SBS": 11.929727,
+     "W_ref": 13.899622,
+     "oracle": 2.463844,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.049959
+    },
+    {
+     "instance": "v9x-col3-X2-07",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 2.048159,
+     "Fp": 0.186136,
+     "Fm": 2.386131,
+     "SBS": 0.186136,
+     "W_ref": 2.2279619999999998,
+     "oracle": 0.186136,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.039325
+    },
+    {
+     "instance": "v9x-col3-X2-08",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 1.2434299999999998,
+     "Fp": 3.692829,
+     "Fm": 3.0161890000000002,
+     "SBS": 3.692829,
+     "W_ref": 1.275955,
+     "oracle": 1.2434299999999998,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X2-09",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 2.4149480000000003,
+     "Fp": 0.5279259999999999,
+     "Fm": 6.03916,
+     "SBS": 0.5279259999999999,
+     "W_ref": 2.56133,
+     "oracle": 0.5279259999999999,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.035171
+    },
+    {
+     "instance": "v9x-col3-X2-10",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 1.55205,
+     "Fp": 8.850945,
+     "Fm": 2.443854,
+     "SBS": 8.850945,
+     "W_ref": 1.587891,
+     "oracle": 1.55205,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X2-11",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 16.118208,
+     "Fp": 18.937223999999997,
+     "Fm": 6.220032,
+     "SBS": 18.937223999999997,
+     "W_ref": 21.126204,
+     "oracle": 6.220032,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0465139999999997
+    },
+    {
+     "instance": "v9x-col3-X2-12",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 0.5855199999999999,
+     "Fp": 0.1877,
+     "Fm": 0.483666,
+     "SBS": 0.1877,
+     "W_ref": 0.621576,
+     "oracle": 0.1877,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-col3-X2-13",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 34.384245,
+     "Fp": 28.830979,
+     "Fm": 34.143785,
+     "SBS": 28.830979,
+     "W_ref": 30.034561,
+     "oracle": 28.830979,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.045839
+    },
+    {
+     "instance": "v9x-col3-X2-14",
+     "cell": "col3-X2",
+     "split": "X",
+     "D": 14.476735,
+     "Fp": 4.334727,
+     "Fm": 2.095758,
+     "SBS": 4.334727,
+     "W_ref": 6.366939,
+     "oracle": 2.095758,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.034786
+    }
+   ],
+   "W_ref_vs_D_detail": {
+    "total_saving": 240.82597999999993,
+    "worst_loss": [
+     -54.16636399999999,
+     "v9x-col3-X2-01"
+    ],
+    "best_gain": [
+     304.01672299999996,
+     "v9x-col3-X2-00"
+    ],
+    "top1_share_of_positive": 0.9001041229953284,
+    "top3_share_of_positive": 0.9840213867423844,
+    "wins": 6,
+    "losses": 9
+   },
+   "by_cell": {
+    "col3-X2": {
+     "D": 52.68327779999999,
+     "Fp": 36.3781104,
+     "Fm": 48.62022293333333,
+     "SBS": 36.3781104,
+     "W_ref": 36.628212466666675,
+     "oracle": 25.559938066666668
+    }
+   },
+   "by_type_answer": {
+    "col3-UNSAT": {
+     "n": 3,
+     "D": 625.9967379999999,
+     "Fp": 321.591467,
+     "Fm": 586.359479,
+     "SBS": 321.591467,
+     "W_ref": 317.604986
+    },
+    "col3-SAT": {
+     "n": 12,
+     "D": 164.25242900000003,
+     "Fp": 224.080189,
+     "Fm": 142.943865,
+     "SBS": 224.080189,
+     "W_ref": 231.81820100000002
+    }
+   }
+  },
+  "extrap_assign2_X1": {
+   "n": 15,
+   "summary": {
+    "schema_version": 1,
+    "metric": "mean_completed_cpu_seconds",
+    "panel_size": 15,
+    "primary_comparison_complete": true,
+    "methods": {
+     "D": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 2674.5364769999996,
+      "mean_cpu_seconds": 178.30243179999997,
+      "unresolved": []
+     },
+     "Fp": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 5819.4359110000005,
+      "mean_cpu_seconds": 387.9623940666667,
+      "unresolved": []
+     },
+     "Fm": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 4635.832154,
+      "mean_cpu_seconds": 309.0554769333333,
+      "unresolved": []
+     },
+     "SBS": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 5819.4359110000005,
+      "mean_cpu_seconds": 387.9623940666667,
+      "unresolved": []
+     },
+     "W_ref": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 5961.446110000001,
+      "mean_cpu_seconds": 397.4297406666667,
+      "unresolved": []
+     }
+    },
+    "oracle": {
+     "status": "complete",
+     "completed": 15,
+     "panel_size": 15,
+     "total_cpu_seconds": 1966.1582740000001,
+     "mean_cpu_seconds": 131.07721826666668,
+     "unresolved": [],
+     "winners": {
+      "v9x-assign2-X1-00": [
+       "D"
+      ],
+      "v9x-assign2-X1-01": [
+       "D"
+      ],
+      "v9x-assign2-X1-02": [
+       "D"
+      ],
+      "v9x-assign2-X1-03": [
+       "D"
+      ],
+      "v9x-assign2-X1-04": [
+       "Fp"
+      ],
+      "v9x-assign2-X1-05": [
+       "D"
+      ],
+      "v9x-assign2-X1-06": [
+       "Fm"
+      ],
+      "v9x-assign2-X1-07": [
+       "Fp"
+      ],
+      "v9x-assign2-X1-08": [
+       "D"
+      ],
+      "v9x-assign2-X1-09": [
+       "Fm"
+      ],
+      "v9x-assign2-X1-10": [
+       "Fp"
+      ],
+      "v9x-assign2-X1-11": [
+       "Fm"
+      ],
+      "v9x-assign2-X1-12": [
+       "D"
+      ],
+      "v9x-assign2-X1-13": [
+       "Fp"
+      ],
+      "v9x-assign2-X1-14": [
+       "D"
+      ]
+     },
+     "interpretation": "ideal post-hoc choice, excluding observation cost"
+    },
+    "gain_percent_vs_baseline": {
+     "D": 0.0,
+     "Fp": -117.58670936234914,
+     "Fm": -73.33217153201686,
+     "SBS": -117.58670936234914,
+     "W_ref": -122.89642191333634,
+     "oracle": 26.486017636767478
+    },
+    "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   },
+   "ci": {
+    "W_ref_vs_D": [
+     -493.2703761374493,
+     -6.86477520101012
+    ],
+    "W_ref_vs_SBS": [
+     -11.364843050730023,
+     8.407358903514783
+    ],
+    "SBS_vs_D": [
+     -442.79009028711397,
+     -14.766007069785815
+    ],
+    "oracle_vs_D": [
+     4.943568254205477,
+     56.51724652272199
+    ],
+    "oracle_vs_SBS": [
+     39.615991058461766,
+     87.003891038208
+    ],
+    "Fp_vs_D": [
+     -442.79009028711397,
+     -14.766007069785815
+    ],
+    "Fp_vs_SBS": [
+     0.0,
+     0.0
+    ],
+    "Fm_vs_D": [
+     -303.74479277041894,
+     2.061148013249303
+    ],
+    "Fm_vs_SBS": [
+     -15.135810375294101,
+     44.579789309016185
+    ]
+   },
+   "per_instance": [
+    {
+     "instance": "v9x-assign2-X1-00",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 61.225139,
+     "Fp": 1440.859623,
+     "Fm": 1062.8065680000002,
+     "SBS": 1440.859623,
+     "W_ref": 1730.412593,
+     "oracle": 61.225139,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.055466
+    },
+    {
+     "instance": "v9x-assign2-X1-01",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 617.732021,
+     "Fp": 1314.291603,
+     "Fm": 943.1136759999999,
+     "SBS": 1314.291603,
+     "W_ref": 1328.86002,
+     "oracle": 617.732021,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0580260000000004
+    },
+    {
+     "instance": "v9x-assign2-X1-02",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 59.033049999999996,
+     "Fp": 189.653515,
+     "Fm": 89.023985,
+     "SBS": 189.653515,
+     "W_ref": 196.83110900000003,
+     "oracle": 59.033049999999996,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.1861520000000003
+    },
+    {
+     "instance": "v9x-assign2-X1-03",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 70.914585,
+     "Fp": 257.65176399999996,
+     "Fm": 109.610826,
+     "SBS": 257.65176399999996,
+     "W_ref": 243.232397,
+     "oracle": 70.914585,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.148746
+    },
+    {
+     "instance": "v9x-assign2-X1-04",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 26.840147,
+     "Fp": 22.061470999999997,
+     "Fm": 104.89709,
+     "SBS": 22.061470999999997,
+     "W_ref": 27.754002,
+     "oracle": 22.061470999999997,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.112008
+    },
+    {
+     "instance": "v9x-assign2-X1-05",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 41.411843000000005,
+     "Fp": 221.78812299999998,
+     "Fm": 250.16747600000002,
+     "SBS": 221.78812299999998,
+     "W_ref": 201.357233,
+     "oracle": 41.411843000000005,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.1421099999999997
+    },
+    {
+     "instance": "v9x-assign2-X1-06",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 499.09364800000003,
+     "Fp": 252.762444,
+     "Fm": 79.04151599999999,
+     "SBS": 252.762444,
+     "W_ref": 247.04997200000003,
+     "oracle": 79.04151599999999,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.121704
+    },
+    {
+     "instance": "v9x-assign2-X1-07",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 16.608773,
+     "Fp": 8.379933000000001,
+     "Fm": 38.004105,
+     "SBS": 8.379933000000001,
+     "W_ref": 11.216988,
+     "oracle": 8.379933000000001,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.061292
+    },
+    {
+     "instance": "v9x-assign2-X1-08",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 68.30616900000001,
+     "Fp": 745.5208230000001,
+     "Fm": 246.647503,
+     "SBS": 745.5208230000001,
+     "W_ref": 780.0799959999999,
+     "oracle": 68.30616900000001,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.107804
+    },
+    {
+     "instance": "v9x-assign2-X1-09",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 71.663496,
+     "Fp": 69.993129,
+     "Fm": 13.848013,
+     "SBS": 69.993129,
+     "W_ref": 74.63268599999999,
+     "oracle": 13.848013,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.1738869999999997
+    },
+    {
+     "instance": "v9x-assign2-X1-10",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 16.657969,
+     "Fp": 6.263502,
+     "Fm": 25.655727000000002,
+     "SBS": 6.263502,
+     "W_ref": 8.518114,
+     "oracle": 6.263502,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.133628
+    },
+    {
+     "instance": "v9x-assign2-X1-11",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 141.51734299999998,
+     "Fp": 326.04548300000005,
+     "Fm": 107.982909,
+     "SBS": 326.04548300000005,
+     "W_ref": 286.674476,
+     "oracle": 107.982909,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0581169999999998
+    },
+    {
+     "instance": "v9x-assign2-X1-12",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 9.786963,
+     "Fp": 106.305027,
+     "Fm": 21.998669999999997,
+     "SBS": 106.305027,
+     "W_ref": 95.403222,
+     "oracle": 9.786963,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.201116
+    },
+    {
+     "instance": "v9x-assign2-X1-13",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 905.093525,
+     "Fp": 731.5193539999999,
+     "Fm": 1035.5924630000002,
+     "SBS": 731.5193539999999,
+     "W_ref": 618.050624,
+     "oracle": 731.5193539999999,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.0618469999999998
+    },
+    {
+     "instance": "v9x-assign2-X1-14",
+     "cell": "assign2-X1",
+     "split": "X",
+     "D": 68.65180600000001,
+     "Fp": 126.34011699999999,
+     "Fm": 507.441627,
+     "SBS": 126.34011699999999,
+     "W_ref": 111.37267800000001,
+     "oracle": 68.65180600000001,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.185845
+    }
+   ],
+   "W_ref_vs_D_detail": {
+    "total_saving": -3286.909633,
+    "worst_loss": [
+     -1669.1874540000001,
+     "v9x-assign2-X1-00"
+    ],
+    "best_gain": [
+     287.04290100000003,
+     "v9x-assign2-X1-13"
+    ],
+    "top1_share_of_positive": 0.5194235227319696,
+    "top3_share_of_positive": 0.9902432007593408,
+    "wins": 4,
+    "losses": 11
+   },
+   "by_cell": {
+    "assign2-X1": {
+     "D": 178.30243179999997,
+     "Fp": 387.9623940666667,
+     "Fm": 309.0554769333333,
+     "SBS": 387.9623940666667,
+     "W_ref": 397.4297406666667,
+     "oracle": 131.07721826666668
+    }
+   },
+   "by_type_answer": {
+    "assign2-SAT": {
+     "n": 14,
+     "D": 1769.442952,
+     "Fp": 5087.9165570000005,
+     "Fm": 3600.2396909999998,
+     "SBS": 5087.9165570000005,
+     "W_ref": 5343.395486000001
+    },
+    "assign2-UNSAT": {
+     "n": 1,
+     "D": 905.093525,
+     "Fp": 731.5193539999999,
+     "Fm": 1035.5924630000002,
+     "SBS": 731.5193539999999,
+     "W_ref": 618.050624
+    }
+   }
+  },
+  "extrap_assign2_X2": {
+   "n": 15,
+   "summary": {
+    "schema_version": 1,
+    "metric": "mean_completed_cpu_seconds",
+    "panel_size": 15,
+    "primary_comparison_complete": false,
+    "methods": {
+     "D": {
+      "status": "complete",
+      "completed": 15,
+      "panel_size": 15,
+      "total_cpu_seconds": 22324.152809,
+      "mean_cpu_seconds": 1488.2768539333333,
+      "unresolved": []
+     },
+     "Fp": {
+      "status": "incomplete",
+      "completed": 12,
+      "panel_size": 15,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-assign2-X2-02",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-11",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     },
+     "Fm": {
+      "status": "incomplete",
+      "completed": 12,
+      "panel_size": 15,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-assign2-X2-02",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-14",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     },
+     "SBS": {
+      "status": "incomplete",
+      "completed": 12,
+      "panel_size": 15,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-assign2-X2-02",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-11",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     },
+     "W_ref": {
+      "status": "incomplete",
+      "completed": 11,
+      "panel_size": 15,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+       {
+        "instance": "v9x-assign2-X2-02",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-03",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-09",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       },
+       {
+        "instance": "v9x-assign2-X2-11",
+        "status": "missing",
+        "reason": "not a verified, valid completed measurement"
+       }
+      ]
+     }
+    },
+    "oracle": {
+     "status": "incomplete",
+     "completed": 11,
+     "panel_size": 15,
+     "total_cpu_seconds": null,
+     "mean_cpu_seconds": null,
+     "unresolved": [
+      {
+       "instance": "v9x-assign2-X2-02",
+       "unresolved_actions": [
+        "Fp",
+        "Fm"
+       ]
+      },
+      {
+       "instance": "v9x-assign2-X2-03",
+       "unresolved_actions": [
+        "Fp",
+        "Fm"
+       ]
+      },
+      {
+       "instance": "v9x-assign2-X2-11",
+       "unresolved_actions": [
+        "Fp"
+       ]
+      },
+      {
+       "instance": "v9x-assign2-X2-14",
+       "unresolved_actions": [
+        "Fm"
+       ]
+      }
+     ],
+     "winners": {
+      "v9x-assign2-X2-00": [
+       "Fp"
+      ],
+      "v9x-assign2-X2-01": [
+       "D"
+      ],
+      "v9x-assign2-X2-04": [
+       "D"
+      ],
+      "v9x-assign2-X2-05": [
+       "D"
+      ],
+      "v9x-assign2-X2-06": [
+       "Fm"
+      ],
+      "v9x-assign2-X2-07": [
+       "Fm"
+      ],
+      "v9x-assign2-X2-08": [
+       "D"
+      ],
+      "v9x-assign2-X2-09": [
+       "Fm"
+      ],
+      "v9x-assign2-X2-10": [
+       "D"
+      ],
+      "v9x-assign2-X2-12": [
+       "Fp"
+      ],
+      "v9x-assign2-X2-13": [
+       "Fm"
+      ]
+     },
+     "interpretation": "ideal post-hoc choice, excluding observation cost"
+    },
+    "gain_percent_vs_baseline": {
+     "D": 0.0,
+     "Fp": null,
+     "Fm": null,
+     "SBS": null,
+     "W_ref": null,
+     "oracle": null
+    },
+    "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   }
+  }
+ }
+}

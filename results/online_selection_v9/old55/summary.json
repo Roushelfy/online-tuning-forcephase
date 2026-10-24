@@ -6,7 +6,7 @@
   "methods": {
     "D": {
       "status": "incomplete",
-      "completed": 47,
+      "completed": 48,
       "panel_size": 55,
       "total_cpu_seconds": null,
       "mean_cpu_seconds": null,
@@ -45,17 +45,12 @@
           "instance": "af834fd3ce15078d2ab055c996758c00",
           "status": "censored",
           "reason": "not a verified, valid completed measurement"
-        },
-        {
-          "instance": "c7bf3517f47d583ae567de3db3708969",
-          "status": "censored",
-          "reason": "not a verified, valid completed measurement"
         }
       ]
     },
     "Fp": {
       "status": "incomplete",
-      "completed": 33,
+      "completed": 34,
       "panel_size": 55,
       "total_cpu_seconds": null,
       "mean_cpu_seconds": null,
@@ -146,11 +141,6 @@
           "reason": "not a verified, valid completed measurement"
         },
         {
-          "instance": "c7bf3517f47d583ae567de3db3708969",
-          "status": "censored",
-          "reason": "not a verified, valid completed measurement"
-        },
-        {
           "instance": "c8cde50f32ca3f78a4c74a173c63449b",
           "status": "noncompetitive_bound",
           "reason": "not a verified, valid completed measurement"
@@ -174,7 +164,7 @@
     },
     "Fm": {
       "status": "incomplete",
-      "completed": 32,
+      "completed": 33,
       "panel_size": 55,
       "total_cpu_seconds": null,
       "mean_cpu_seconds": null,
@@ -265,11 +255,6 @@
           "reason": "not a verified, valid completed measurement"
         },
         {
-          "instance": "c7bf3517f47d583ae567de3db3708969",
-          "status": "censored",
-          "reason": "not a verified, valid completed measurement"
-        },
-        {
           "instance": "c8cde50f32ca3f78a4c74a173c63449b",
           "status": "noncompetitive_bound",
           "reason": "not a verified, valid completed measurement"
@@ -298,7 +283,7 @@
     },
     "P1_M05_long": {
       "status": "incomplete",
-      "completed": 47,
+      "completed": 48,
       "panel_size": 55,
       "total_cpu_seconds": null,
       "mean_cpu_seconds": null,
@@ -337,18 +322,13 @@
           "instance": "af834fd3ce15078d2ab055c996758c00",
           "status": "censored",
           "reason": "not a verified, valid completed measurement"
-        },
-        {
-          "instance": "c7bf3517f47d583ae567de3db3708969",
-          "status": "censored",
-          "reason": "not a verified, valid completed measurement"
         }
       ]
     }
   },
   "oracle": {
     "status": "incomplete",
-    "completed": 50,
+    "completed": 51,
     "panel_size": 55,
     "total_cpu_seconds": null,
     "mean_cpu_seconds": null,
@@ -379,14 +359,6 @@
       },
       {
         "instance": "aa6e6f67719ca43aef922f2ebabc409a",
-        "unresolved_actions": [
-          "D",
-          "Fp",
-          "Fm"
-        ]
-      },
-      {
-        "instance": "c7bf3517f47d583ae567de3db3708969",
         "unresolved_actions": [
           "D",
           "Fp",
@@ -511,6 +483,9 @@
       ],
       "c3de1f05d136b8ec420732ca829f3217": [
         "D"
+      ],
+      "c7bf3517f47d583ae567de3db3708969": [
+        "Fm"
       ],
       "c8cde50f32ca3f78a4c74a173c63449b": [
         "D"

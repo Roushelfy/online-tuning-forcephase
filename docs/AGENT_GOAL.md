@@ -1,6 +1,6 @@
 # Agent Goal v9：无核时上限，验证默认短预求解后的三选一
 
-设定日期：2026-10-24（美东）。状态：R0 协议已提交（[ONLINE_SELECTION_PROTOCOL_V9.md](ONLINE_SELECTION_PROTOCOL_V9.md)）；R5 原55题恢复运行中（[OLD55_RECOVERY_V9.md](OLD55_RECOVERY_V9.md)）；试采样进行中。
+设定日期：2026-10-24（美东）。状态：新面板阶段（R0–R4）已完成并交付（[FINAL_REPORT](../reports/online_selection_v9/FINAL_REPORT.md)，2026-10-24 UTC）；规模外推剩 12 个运行、R5 原55题恢复（[OLD55_PROGRESS](../reports/online_selection_v9/OLD55_PROGRESS.md)）仍在无上限运行。
 
 **用户已明确取消核时限制。** 本阶段及后续工作不受旧200核时、剩余2.26核时或任何阶段核时额度约束。按研究价值推进，持续记账即可。权威政策见 [RESOURCE_POLICY.md](RESOURCE_POLICY.md) 和 [resource_policy.json](../configs/resource_policy.json)。旧预算不能继续限制样本量、阻止补跑或触发额外请示。
 
