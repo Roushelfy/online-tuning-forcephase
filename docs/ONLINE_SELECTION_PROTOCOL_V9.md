@@ -252,3 +252,17 @@ assign2 的候选结构（generators.json），只看成本、覆盖和是否进
 - **部署**：主策略是固定动作，没有主 wrapper；只部署参照 wrapper “D 2 s → F+”（W_ref）。留出与外推都运行 {D, F+, F−, W_ref}，主比较中的 W_main 即 F+。
 - 留出计划 `holdout.json`（1140 个运行）与外推计划 `extrap.json`（360 个运行）与本次冻结一同提交。
 
+### 外部 60 题固定（冻结之后、任何外部运行之前）
+
+- **来源**：SATLIB 档案，SHA-256 记录在 `results/online_selection_v9/external_manifest.json`。
+- **组成**：
+  - uf250 8 题 + uuf250 7 题；
+  - flat200 15 题；
+  - sw100-8-lp0-c5 15 题（sw100-8 族在 SATLIB 列表中的第一个档案）；
+  - bw_large.a–d 4 题；
+  - logistics.a–d 4 题；
+  - qg1–qg7 各族的第一个文件，共 7 题。
+- **处理**：文件解析后改写为无注释的 DIMACS（去掉 SATLIB 末尾的 `%` / `0` 行），同时保留原文件哈希。
+- **审计**：与 v8 / v9 的全部实例，以及 GBD 中文件名匹配这些族、且项目曾下载的比赛 CNF，比较规范哈希与换号不变哈希，没有重复。比赛中的 logistics / QG 文件是不同的变体。
+- 运行计划：`external.json`（240 个运行：{D, F+, F−, W_ref}）。
+
