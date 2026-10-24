@@ -1,0 +1,206 @@
+{
+ "stage": "stage2",
+ "description": "v7 stage 2: F+/F- from scratch capped at the completed D time b (oracle certificates), smallest b first",
+ "budget_cpu_hours": 10.0,
+ "planned_cpu_hours_upper_bound": 9.469144624444445,
+ "jobs": [
+  {
+   "instance": "c8cde50f32ca3f78a4c74a173c63449b",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 632.614
+  },
+  {
+   "instance": "c8cde50f32ca3f78a4c74a173c63449b",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 632.614
+  },
+  {
+   "instance": "5ceb95f5960efe1f23c3014847dea118",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 635.869
+  },
+  {
+   "instance": "5ceb95f5960efe1f23c3014847dea118",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 635.869
+  },
+  {
+   "instance": "511a2d81661a185c2115daec42270dec",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 653.962
+  },
+  {
+   "instance": "511a2d81661a185c2115daec42270dec",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 653.962
+  },
+  {
+   "instance": "090eefb9bc472f6478e70baf2c6d2403",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 794.682
+  },
+  {
+   "instance": "090eefb9bc472f6478e70baf2c6d2403",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 794.682
+  },
+  {
+   "instance": "37c88155822f1934a190dd6f4614f0ce",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 877.272
+  },
+  {
+   "instance": "37c88155822f1934a190dd6f4614f0ce",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 877.272
+  },
+  {
+   "instance": "b88d206fb35ef87bd7ec5d4a1430ae0c",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 1003.157
+  },
+  {
+   "instance": "b88d206fb35ef87bd7ec5d4a1430ae0c",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 1003.157
+  },
+  {
+   "instance": "69e34d0f49c71a7e145d8104ebe0273f",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 1074.95
+  },
+  {
+   "instance": "69e34d0f49c71a7e145d8104ebe0273f",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 1074.95
+  },
+  {
+   "instance": "6543793076c30fc7cdfa5a3c819cedc7",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 1092.784
+  },
+  {
+   "instance": "6543793076c30fc7cdfa5a3c819cedc7",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 1092.784
+  },
+  {
+   "instance": "ed410c758e5025f1bb97922574d1c2ff",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 1120.646
+  },
+  {
+   "instance": "ed410c758e5025f1bb97922574d1c2ff",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 1120.646
+  },
+  {
+   "instance": "25cc054738293c0d9377d7b72b78a341",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 1125.445
+  },
+  {
+   "instance": "25cc054738293c0d9377d7b72b78a341",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 1125.445
+  },
+  {
+   "instance": "9541d12f3e3d9201085c13f25145d2f7",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 1934.239
+  },
+  {
+   "instance": "9541d12f3e3d9201085c13f25145d2f7",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 1934.239
+  },
+  {
+   "instance": "a28f59752c160af22b6d04cb89ddf802",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 2939.523
+  },
+  {
+   "instance": "a28f59752c160af22b6d04cb89ddf802",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 2939.523
+  },
+  {
+   "instance": "98c6da979a0a22d384d465a1da17111e",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 3159.316
+  },
+  {
+   "instance": "98c6da979a0a22d384d465a1da17111e",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 3159.316
+  }
+ ],
+ "not_scheduled": [
+  {
+   "instance": "3b0eeddcabf36da8642c5774ac67680c",
+   "b": 3807.719301,
+   "arms": [
+    "Fp",
+    "Fm"
+   ]
+  },
+  {
+   "instance": "8cfc8e99d31bcaf18ff3360b08c8521c",
+   "b": 4486.346087,
+   "arms": [
+    "Fp",
+    "Fm"
+   ]
+  },
+  {
+   "instance": "dbbcaa7797145dfddfa4fe73ce91fdec",
+   "b": 5057.480705,
+   "arms": [
+    "Fp",
+    "Fm"
+   ]
+  },
+  {
+   "instance": "d5b11b0b73eb4ecebdbf6ee8143da689",
+   "b": 5121.300799,
+   "arms": [
+    "Fp",
+    "Fm"
+   ]
+  },
+  {
+   "instance": "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+   "b": 8696.356281,
+   "arms": [
+    "Fp",
+    "Fm"
+   ]
+  }
+ ]
+}
