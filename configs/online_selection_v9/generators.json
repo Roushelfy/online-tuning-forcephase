@@ -1,0 +1,38 @@
+{
+  "rand3": {
+    "description": "uniform random 3-SAT at the threshold (CNFgen randkcnf; as v8)",
+    "k": 3,
+    "ratio": 4.26,
+    "size_parameter": "n (variables)",
+    "grid": [150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450]
+  },
+  "col3": {
+    "description": "graph 3-coloring of uniform G(n, m), m = round(2.3 n), graph sampled with random.Random(seed), CNFgen kcolor on the DIMACS graph (as v8)",
+    "colors": 3,
+    "edges_per_vertex": 2.3,
+    "size_parameter": "n (vertices)",
+    "grid": [100, 125, 150, 175, 200, 225, 250, 275, 300, 325, 350, 375, 400, 425, 450, 475, 500, 525, 550, 575, 600, 625, 650, 700, 800, 900, 1000]
+  },
+  "assign2": {
+    "description": "coupled task assignment (v9): T tasks, R resources, each task allowed a random list of L resources; exactly one resource per task; per-resource capacity at most ceil(slack*T/R) and optionally at least floor(T/R) - lower_gap; conflicting tasks (random G(T, round(c*T))) never share a resource. PySAT CardEnc sequential counter. One structure is chosen in the pilot (protocol section 2).",
+    "encoding": "seqcounter",
+    "structures": {
+      "A": {"resources": 4, "list_size": 3, "conflicts_per_task": 3.0, "capacity_slack": 1.0, "lower_gap": null},
+      "B": {"resources": 4, "list_size": 3, "conflicts_per_task": 3.5, "capacity_slack": 1.0, "lower_gap": null},
+      "C": {"resources": 4, "list_size": 3, "conflicts_per_task": 3.0, "capacity_slack": 1.0, "lower_gap": 0}
+    },
+    "size_parameter": "T (tasks)",
+    "grid": [40, 60, 80, 100, 125, 150, 175, 200, 250, 300, 350, 400, 500, 600]
+  },
+  "assign0": {
+    "description": "v8 assignment structure (fast control): R = 4, L = 3, conflicts 2.8 T, capacity ceil(1.04 T / 4), no lower bound",
+    "resources": 4,
+    "list_size": 3,
+    "conflicts_per_task": 2.8,
+    "capacity_slack": 1.04,
+    "lower_gap": null,
+    "encoding": "seqcounter",
+    "size_parameter": "T (tasks)",
+    "grid": [400, 500, 600]
+  }
+}

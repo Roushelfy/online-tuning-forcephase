@@ -1,0 +1,243 @@
+{
+ "generator_versions": {
+  "python": "3.10.12",
+  "cnfgen": "0.9.6",
+  "python-sat": "1.9.dev15",
+  "networkx": "3.4.2"
+ },
+ "generators": {
+  "rand3": {
+   "description": "uniform random 3-SAT at the threshold (CNFgen randkcnf; as v8)",
+   "k": 3,
+   "ratio": 4.26,
+   "size_parameter": "n (variables)",
+   "grid": [
+    150,
+    160,
+    170,
+    180,
+    190,
+    200,
+    210,
+    220,
+    230,
+    240,
+    250,
+    260,
+    270,
+    280,
+    290,
+    300,
+    310,
+    320,
+    330,
+    340,
+    350,
+    360,
+    370,
+    380,
+    390,
+    400,
+    410,
+    420,
+    430,
+    440,
+    450
+   ]
+  },
+  "col3": {
+   "description": "graph 3-coloring of uniform G(n, m), m = round(2.3 n), graph sampled with random.Random(seed), CNFgen kcolor on the DIMACS graph (as v8)",
+   "colors": 3,
+   "edges_per_vertex": 2.3,
+   "size_parameter": "n (vertices)",
+   "grid": [
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    300,
+    325,
+    350,
+    375,
+    400,
+    425,
+    450,
+    475,
+    500,
+    525,
+    550,
+    575,
+    600,
+    625,
+    650,
+    700,
+    800,
+    900,
+    1000
+   ]
+  },
+  "assign2": {
+   "description": "coupled task assignment (v9): T tasks, R resources, each task allowed a random list of L resources; exactly one resource per task; per-resource capacity at most ceil(slack*T/R) and optionally at least floor(T/R) - lower_gap; conflicting tasks (random G(T, round(c*T))) never share a resource. PySAT CardEnc sequential counter. One structure is chosen in the pilot (protocol section 2).",
+   "encoding": "seqcounter",
+   "structures": {
+    "A": {
+     "resources": 4,
+     "list_size": 3,
+     "conflicts_per_task": 3.0,
+     "capacity_slack": 1.0,
+     "lower_gap": null
+    },
+    "B": {
+     "resources": 4,
+     "list_size": 3,
+     "conflicts_per_task": 3.5,
+     "capacity_slack": 1.0,
+     "lower_gap": null
+    },
+    "C": {
+     "resources": 4,
+     "list_size": 3,
+     "conflicts_per_task": 3.0,
+     "capacity_slack": 1.0,
+     "lower_gap": 0
+    }
+   },
+   "size_parameter": "T (tasks)",
+   "grid": [
+    40,
+    60,
+    80,
+    100,
+    125,
+    150,
+    175,
+    200,
+    250,
+    300,
+    350,
+    400,
+    500,
+    600
+   ]
+  },
+  "assign0": {
+   "description": "v8 assignment structure (fast control): R = 4, L = 3, conflicts 2.8 T, capacity ceil(1.04 T / 4), no lower bound",
+   "resources": 4,
+   "list_size": 3,
+   "conflicts_per_task": 2.8,
+   "capacity_slack": 1.04,
+   "lower_gap": null,
+   "encoding": "seqcounter",
+   "size_parameter": "T (tasks)",
+   "grid": [
+    400,
+    500,
+    600
+   ]
+  }
+ },
+ "instances": [
+  {
+   "id": "v9smoke-rand3-200",
+   "type": "rand3",
+   "param": 200,
+   "seed": 9900001,
+   "cmd": [
+    "cnfgen",
+    "-q",
+    "--seed",
+    "9900001",
+    "randkcnf",
+    "3",
+    "200",
+    "852"
+   ],
+   "params": {
+    "n": 200,
+    "m": 852
+   },
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "canonical_sha256": "1a8cde66ef15d3ea37b6e3052d05789320381aba728138bf6eede4c26573a18a",
+   "invariant_sha256": "fcfe1e554c3e86588f1aad8f3374b2d48d63a4c5e8ad52fadb34182f178d8a8b",
+   "vars": 200,
+   "clauses": 852,
+   "literals": 2556,
+   "units": 0,
+   "binaries": 0,
+   "gen_cpu": 0.23935299999999995,
+   "path": "online_selection_v9/cnf/v9smoke-rand3-200.cnf"
+  },
+  {
+   "id": "v9smoke-rand3-290",
+   "type": "rand3",
+   "param": 290,
+   "seed": 9900002,
+   "cmd": [
+    "cnfgen",
+    "-q",
+    "--seed",
+    "9900002",
+    "randkcnf",
+    "3",
+    "290",
+    "1235"
+   ],
+   "params": {
+    "n": 290,
+    "m": 1235
+   },
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "canonical_sha256": "c8778f6ec65b799d21b59520bd421be467f30265b6ee7f70da2a525e45c84443",
+   "invariant_sha256": "15c39f5eb806862f0db957e24221df16c3aa9b4e8cfbf97b8cb329536a133cda",
+   "vars": 290,
+   "clauses": 1235,
+   "literals": 3705,
+   "units": 0,
+   "binaries": 0,
+   "gen_cpu": 0.19764199999999993,
+   "path": "online_selection_v9/cnf/v9smoke-rand3-290.cnf"
+  },
+  {
+   "id": "v9smoke-assign2C-60",
+   "type": "assign2",
+   "param": 60,
+   "seed": 9900003,
+   "structure": "C",
+   "cmd": [
+    "generate.py:assign2",
+    "T=60",
+    "seed=9900003",
+    "structure=C",
+    "capacity_slack=1.0",
+    "conflicts_per_task=3.0",
+    "list_size=3",
+    "lower_gap=0",
+    "resources=4"
+   ],
+   "params": {
+    "T": 60,
+    "R": 4,
+    "L": 3,
+    "conflict_edges": 180,
+    "capacity": 15,
+    "lower": 15,
+    "structure": "C"
+   },
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "canonical_sha256": "e9fa08a234ac46459b63f3cc900b4348f16a2cdcedfbe000afa049a1999fdfa1",
+   "invariant_sha256": "4d34a4548eb401899c7350ac69793321fb0b192d675ee327681016b145642956",
+   "vars": 3900,
+   "clauses": 7966,
+   "literals": 19412,
+   "units": 0,
+   "binaries": 4486,
+   "gen_cpu": 0.0125050000000001,
+   "path": "online_selection_v9/cnf/v9smoke-assign2C-60.cnf"
+  }
+ ],
+ "gen_cpu_total": 0.4495
+}

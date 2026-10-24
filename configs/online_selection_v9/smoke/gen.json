@@ -1,0 +1,24 @@
+{
+ "stage": "smoke_v9",
+ "instances": [
+  {
+   "id": "v9smoke-rand3-200",
+   "type": "rand3",
+   "param": 200,
+   "seed": 9900001
+  },
+  {
+   "id": "v9smoke-rand3-290",
+   "type": "rand3",
+   "param": 290,
+   "seed": 9900002
+  },
+  {
+   "id": "v9smoke-assign2C-60",
+   "type": "assign2",
+   "param": 60,
+   "seed": 9900003,
+   "structure": "C"
+  }
+ ]
+}

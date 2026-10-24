@@ -1,0 +1,224 @@
+{
+ "stage": "smoke_v9",
+ "jobs": [
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "D"
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "Fp"
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "Fm",
+   "seed": 1
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "D_R0"
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "D_R0_P0"
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "PROBE",
+   "tau": 0.25
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "PROBE",
+   "tau": 2.0
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/p01_Fp.json"
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/p2_Fp.json"
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/gate.json"
+  },
+  {
+   "instance": "v9smoke-rand3-200",
+   "sha256": "5e829d06ffb63302a95843a7b375e4c285dfd4aba17c4e61749238f926558aca",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/fixed_Fm.json"
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "D"
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "Fp"
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "Fm",
+   "seed": 1
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "D_R0"
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "D_R0_P0"
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "PROBE",
+   "tau": 0.25
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "PROBE",
+   "tau": 2.0
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/p01_Fp.json"
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/p2_Fp.json"
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/gate.json"
+  },
+  {
+   "instance": "v9smoke-rand3-290",
+   "sha256": "1c17924d4bdf36b09f019597b99b9febe79ac7a84760e14436dde6ff99891331",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/fixed_Fm.json"
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "D"
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "Fp"
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "Fm",
+   "seed": 1
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "D_R0"
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "D_R0_P0"
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "PROBE",
+   "tau": 0.25
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "PROBE",
+   "tau": 2.0
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/p01_Fp.json"
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/p2_Fp.json"
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/gate.json"
+  },
+  {
+   "instance": "v9smoke-assign2C-60",
+   "sha256": "16d16e99a4b417d2b70ac1b0cce75a55461f2e6584e1e24142f10396c8a168f1",
+   "rep": 0,
+   "method": "W",
+   "strategy": "configs/online_selection_v9/smoke/fixed_Fm.json"
+  }
+ ]
+}

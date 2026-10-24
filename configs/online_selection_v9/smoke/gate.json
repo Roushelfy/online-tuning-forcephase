@@ -1,0 +1,1 @@
+{"name": "smoke_gate", "kind": "gate", "tau": 0.25, "features": ["r_log_conflicts", "s_cv_ratio"], "missing_action": "Fp", "reader": {"method": "tree", "tree": {"feature": "r_log_conflicts", "threshold": 3.0, "left": {"leaf": "D"}, "right": {"leaf": "Fm"}}}}
