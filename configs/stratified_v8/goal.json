@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "status": "goal set; pilot not started",
+  "status": "complete 2026-10-24 (UTC): reports/stratified_v8/FINAL_REPORT.md; protocol docs/STRATIFIED_PROTOCOL_V8.md",
   "goal_file": "docs/AGENT_GOAL.md",
   "research_question": "Recognize when D/Fp/Fm works best across controlled problem types, scales and difficulty.",
   "metric": "mean_completed_cpu_seconds",
@@ -33,7 +33,7 @@
       54,
       27
     ],
-    "selected_size": null,
+    "selected_size": 54,
     "instance_seed_sets": "independent of pilot; fixed before formal runs",
     "split_by_cell": {
       "27": {

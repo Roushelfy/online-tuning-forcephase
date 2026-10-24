@@ -47,21 +47,25 @@ def fig1():
 
 
 def fig2():
-    fig, axes = plt.subplots(1, 2, figsize=(11, 3.8), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(11, 4.0), sharey=True)
+    colr = {("rand3", "SAT"): "#4c72b0", ("rand3", "UNSAT"): "#dd8452", ("col3", "SAT"): "#55a868",
+            ("col3", "UNSAT"): "#c44e52", ("assign", "SAT"): "#8172b3", ("assign", "UNSAT"): "#937860"}
     for ax, m in zip(axes, ("Fp", "Fm")):
         for k, t in enumerate(TYPES):
             for ans, mk in (("SAT", "o"), ("UNSAT", "x")):
                 rs = [r for r in rows if r["type"] == t and r.get("answer") == ans]
+                if not rs:
+                    continue
                 xs = [k + {"S": -0.2, "M": 0.0, "L": 0.2}[r["scale"]] for r in rs]
-                ax.scatter(xs, [math.log2(r[m] / r["D"]) for r in rs], marker=mk, alpha=0.75,
-                           color={"S": "#8da0cb", "M": "#66c2a5", "L": "#e78ac3"}[rs[0]["scale"]] if False else None,
-                           label=f"{t} {ans}" if False else None)
+                ax.scatter(xs, [math.log2(r[m] / r["D"]) for r in rs], marker=mk, alpha=0.8, color=colr[(t, ans)],
+                           label=f"{t} {ans}")
         ax.axhline(0, color="k", lw=0.8)
         ax.set_xticks(range(3))
         ax.set_xticklabels(TYPES)
-        ax.set_title(f"log2({NAME[m]} / D) per instance (o SAT, x UNSAT; S/M/L left to right)")
+        ax.set_title(f"log2({NAME[m]} / D)")
     axes[0].set_ylabel("log2 time ratio (<0: faster than D)")
-    fig.suptitle("Fig 2. forcephase vs default per instance")
+    axes[1].legend(fontsize=7, loc="upper right")
+    fig.suptitle("Fig 2. forcephase vs default per instance (all 54; within a type S/M/L left to right)")
     fig.tight_layout()
     fig.savefig(os.path.join(REP, "fig2_ratios.png"), dpi=130)
 

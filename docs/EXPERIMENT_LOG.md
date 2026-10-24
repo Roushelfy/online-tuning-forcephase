@@ -165,3 +165,14 @@ M5 唯一主要候选的选择规则（在看到 M4-lite 结果之前固定）�
 - 阶段 2（Slurm 744571，8.99 核时）：在 13 题上从头跑 F± 到 D 的完成时间 b 为止，9 个完成、17 个停在 ≥ b。oracle 确定 44/55。
 - 补充界：Σ(P1 − D) = −217.2 s，精确；P1 相对收益在 0 与 +0.149% 之间；Σ(D − oracle) ≥ 26,998 s，主要来自 2 道 sat-x 重尾题。
 - 报告：[reports/completion_v7/REPORT.md](../reports/completion_v7/REPORT.md)，是透明的未完成报告，含缺口与补齐所需算力。v7 共 51.2 核时，累计 195.9 / 200。
+
+## 2026-10-24 — Agent Goal v8：受控类型、规模与难度（S0–S3 与机制检查完成）
+
+- S0（b9dd488，任何试采样之前）：协议 [STRATIFIED_PROTOCOL_V8.md](STRATIFIED_PROTOCOL_V8.md)；生成器（CNFgen 0.9.6 的 randkcnf / kcolor，G(n, m) 自行按 seed 抽样，因为 CNFgen 的 gnm 不受 --seed 控制；PySAT 顺序计数器的耦合分配）；队列运行器；生成器测试与停止路径烟雾测试。
+- 试采样：两轮 16 题，0.39 核时。rand3 落在区间；col3 很陡；assign 在网格内都 < 1 s。偏离 1（冲突处理按文字实现）、偏离 2（目标夹在两个已测点之间时插值；N 因此从 27 变为 54）。
+- 面板冻结（f213347，`v8-panel-freeze`）：54 题，每格 4 道开发、2 道留出。
+- S1：开发 108 个运行全部完成。SBS = F−；oracle 比 SBS 少 76 s。
+- S2：嵌套交叉验证 T 398.1 / R 291.8 / T_s 292.6 / R_s 513.1，SBS 321.3；冻结岭回归（5450003，`v8-rule-freeze`），实机 decide-only 检查 36/36。
+- S3：留出 72 个运行全部完成。W 24.13 s，相对 D −334.5%、相对 SBS +1.3%；D 5.55 s、oracle 3.73 s。
+- 机制检查：216 个运行。flipall 使 F+ 与 F− 对调；rand3 UNSAT 优势对换号与翻转都稳健；col3 SAT 与 assign 上逐题赢家约一半随换号改变。
+- 报告：[reports/stratified_v8/FINAL_REPORT.md](../reports/stratified_v8/FINAL_REPORT.md)。v8 共 1.85 核时，累计 197.74 / 200。

@@ -1,6 +1,6 @@
 # Agent Goal v8：在不同类型、规模与难度的问题上研究三种 flag 的适用条件
 
-设定日期：2026-10-23（美东）。状态：S0 协议已提交（[STRATIFIED_PROTOCOL_V8.md](STRATIFIED_PROTOCOL_V8.md)，2026-10-24 UTC）；试采样进行中。
+设定日期：2026-10-23（美东）。状态：已完成（2026-10-24 UTC），最终报告 [reports/stratified_v8/FINAL_REPORT.md](../reports/stratified_v8/FINAL_REPORT.md)；协议 [STRATIFIED_PROTOCOL_V8.md](STRATIFIED_PROTOCOL_V8.md)。
 
 依据用户要求，下一阶段加入非比赛题与可控生成的问题，先在合理成本下观察 D / F+ / F− 的优势分布，再寻找简单的识别规则。**先三种模式完整运行，再看优势题的特点；主指标继续使用同一批题全部完成后的平均 CPU 时间。**
 
