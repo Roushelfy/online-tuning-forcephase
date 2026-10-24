@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "metric": "mean_completed_cpu_seconds",
+  "panel_size": 55,
+  "primary_comparison_complete": false,
+  "methods": {
+    "D": {
+      "status": "incomplete",
+      "completed": 47,
+      "panel_size": 55,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+        {
+          "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "0a8a4c28d27228e954354ea0a6e7f16c",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "7ff8c9781b3ada449ce489cdf444a760",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "ac3e3bb744e258282990aa4307c08cb8",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "af834fd3ce15078d2ab055c996758c00",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "c7bf3517f47d583ae567de3db3708969",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        }
+      ]
+    },
+    "Fp": {
+      "status": "incomplete",
+      "completed": 33,
+      "panel_size": 55,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+        {
+          "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "090eefb9bc472f6478e70baf2c6d2403",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "0a8a4c28d27228e954354ea0a6e7f16c",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "1afa2d7a3d817c3149da432eece66da8",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "1b8806812861df2b7e91dc316ad1ef80",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "25cc054738293c0d9377d7b72b78a341",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "3b0eeddcabf36da8642c5774ac67680c",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "511a2d81661a185c2115daec42270dec",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "6543793076c30fc7cdfa5a3c819cedc7",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "7ff8c9781b3ada449ce489cdf444a760",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "8cfc8e99d31bcaf18ff3360b08c8521c",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "9541d12f3e3d9201085c13f25145d2f7",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "98c6da979a0a22d384d465a1da17111e",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "af834fd3ce15078d2ab055c996758c00",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "b64f7d56f1b369fac6a3bcb1efd784da",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "c7bf3517f47d583ae567de3db3708969",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "c8cde50f32ca3f78a4c74a173c63449b",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "dbbcaa7797145dfddfa4fe73ce91fdec",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "e2deb375e56da2360ecd08fc1179fb7d",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "ed410c758e5025f1bb97922574d1c2ff",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        }
+      ]
+    },
+    "Fm": {
+      "status": "incomplete",
+      "completed": 32,
+      "panel_size": 55,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+        {
+          "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "090eefb9bc472f6478e70baf2c6d2403",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "1b8806812861df2b7e91dc316ad1ef80",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "25cc054738293c0d9377d7b72b78a341",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "2e058841373f34cc47d8dec927fd1796",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "3b0eeddcabf36da8642c5774ac67680c",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "511a2d81661a185c2115daec42270dec",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "5ceb95f5960efe1f23c3014847dea118",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "69e34d0f49c71a7e145d8104ebe0273f",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "761651d4b6454108403bdefe22720fb3",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "7ff8c9781b3ada449ce489cdf444a760",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "8cfc8e99d31bcaf18ff3360b08c8521c",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "9541d12f3e3d9201085c13f25145d2f7",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "b64f7d56f1b369fac6a3bcb1efd784da",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "b88d206fb35ef87bd7ec5d4a1430ae0c",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "c7bf3517f47d583ae567de3db3708969",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "c8cde50f32ca3f78a4c74a173c63449b",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "ca6db14aaa04027d2b8af47ec910bd68",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "dbbcaa7797145dfddfa4fe73ce91fdec",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "e8abb9c83efdd96a99990f3b914ea873",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "ed410c758e5025f1bb97922574d1c2ff",
+          "status": "noncompetitive_bound",
+          "reason": "not a verified, valid completed measurement"
+        }
+      ]
+    },
+    "P1_M05_long": {
+      "status": "incomplete",
+      "completed": 47,
+      "panel_size": 55,
+      "total_cpu_seconds": null,
+      "mean_cpu_seconds": null,
+      "unresolved": [
+        {
+          "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "0a8a4c28d27228e954354ea0a6e7f16c",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "7ff8c9781b3ada449ce489cdf444a760",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "ac3e3bb744e258282990aa4307c08cb8",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "af834fd3ce15078d2ab055c996758c00",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        },
+        {
+          "instance": "c7bf3517f47d583ae567de3db3708969",
+          "status": "censored",
+          "reason": "not a verified, valid completed measurement"
+        }
+      ]
+    }
+  },
+  "oracle": {
+    "status": "incomplete",
+    "completed": 50,
+    "panel_size": 55,
+    "total_cpu_seconds": null,
+    "mean_cpu_seconds": null,
+    "unresolved": [
+      {
+        "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+        "unresolved_actions": [
+          "D",
+          "Fp",
+          "Fm"
+        ]
+      },
+      {
+        "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+        "unresolved_actions": [
+          "D",
+          "Fp",
+          "Fm"
+        ]
+      },
+      {
+        "instance": "7ff8c9781b3ada449ce489cdf444a760",
+        "unresolved_actions": [
+          "D",
+          "Fp",
+          "Fm"
+        ]
+      },
+      {
+        "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+        "unresolved_actions": [
+          "D",
+          "Fp",
+          "Fm"
+        ]
+      },
+      {
+        "instance": "c7bf3517f47d583ae567de3db3708969",
+        "unresolved_actions": [
+          "D",
+          "Fp",
+          "Fm"
+        ]
+      }
+    ],
+    "winners": {
+      "032941f5f28c9ac53fa1c80d35f3206f": [
+        "Fm"
+      ],
+      "0398e6b20de133ba8b49c74b67dad7b7": [
+        "D"
+      ],
+      "048142b6048cb6c10415e08f68a2c3a3": [
+        "Fm"
+      ],
+      "07b7859003d84402cbb1ebdc37655d55": [
+        "D"
+      ],
+      "090eefb9bc472f6478e70baf2c6d2403": [
+        "D"
+      ],
+      "0a8a4c28d27228e954354ea0a6e7f16c": [
+        "Fm"
+      ],
+      "0ef0d91d378eab41ba6fb9dfc9b87fc8": [
+        "Fm"
+      ],
+      "1427381a809c64c721838894ece6756d": [
+        "Fm"
+      ],
+      "1afa2d7a3d817c3149da432eece66da8": [
+        "Fm"
+      ],
+      "1b8806812861df2b7e91dc316ad1ef80": [
+        "D"
+      ],
+      "218f0eccbff400e06c9736bd759c1d3a": [
+        "Fp"
+      ],
+      "25cc054738293c0d9377d7b72b78a341": [
+        "D"
+      ],
+      "28e45a3e488ddac73b6116cc6f3e67e0": [
+        "Fp"
+      ],
+      "2e058841373f34cc47d8dec927fd1796": [
+        "Fp"
+      ],
+      "37c88155822f1934a190dd6f4614f0ce": [
+        "Fp"
+      ],
+      "3b0eeddcabf36da8642c5774ac67680c": [
+        "D"
+      ],
+      "488b147304549670f31653c932684e2c": [
+        "Fp"
+      ],
+      "511a2d81661a185c2115daec42270dec": [
+        "D"
+      ],
+      "54d496c14fd2461642ef6be5341b297b": [
+        "D"
+      ],
+      "5ceb95f5960efe1f23c3014847dea118": [
+        "Fp"
+      ],
+      "6543793076c30fc7cdfa5a3c819cedc7": [
+        "Fm"
+      ],
+      "65b1e2253626af4a72b954f8186a5880": [
+        "D"
+      ],
+      "69e34d0f49c71a7e145d8104ebe0273f": [
+        "Fp"
+      ],
+      "761651d4b6454108403bdefe22720fb3": [
+        "Fp"
+      ],
+      "80bb5209e88def5643bf5593320b104f": [
+        "Fm"
+      ],
+      "8cfc8e99d31bcaf18ff3360b08c8521c": [
+        "D"
+      ],
+      "8db998d5fd64f85a1847115208f73873": [
+        "D"
+      ],
+      "9541d12f3e3d9201085c13f25145d2f7": [
+        "D"
+      ],
+      "96a472b1fd7bf855fbe44fc2d5e745ce": [
+        "D"
+      ],
+      "98c6da979a0a22d384d465a1da17111e": [
+        "Fm"
+      ],
+      "9c5dd2eb0a40a150c686459a118c720a": [
+        "Fm"
+      ],
+      "a28f59752c160af22b6d04cb89ddf802": [
+        "Fp"
+      ],
+      "ac3e3bb744e258282990aa4307c08cb8": [
+        "Fm"
+      ],
+      "af834fd3ce15078d2ab055c996758c00": [
+        "Fm"
+      ],
+      "b64f7d56f1b369fac6a3bcb1efd784da": [
+        "D"
+      ],
+      "b88d206fb35ef87bd7ec5d4a1430ae0c": [
+        "Fp"
+      ],
+      "c03f7f84f6ac9e523c17e391c3895183": [
+        "Fm"
+      ],
+      "c1b30b4e03c3024ad9d084e29e79aa46": [
+        "D"
+      ],
+      "c3de1f05d136b8ec420732ca829f3217": [
+        "D"
+      ],
+      "c8cde50f32ca3f78a4c74a173c63449b": [
+        "D"
+      ],
+      "c8e64404361f2426490d39459832c66a": [
+        "Fp"
+      ],
+      "ca6db14aaa04027d2b8af47ec910bd68": [
+        "Fp"
+      ],
+      "d5b11b0b73eb4ecebdbf6ee8143da689": [
+        "Fp"
+      ],
+      "d699355595398f0765c5f51c9d0ad852": [
+        "Fm"
+      ],
+      "dbbcaa7797145dfddfa4fe73ce91fdec": [
+        "D"
+      ],
+      "e2deb375e56da2360ecd08fc1179fb7d": [
+        "D"
+      ],
+      "e8abb9c83efdd96a99990f3b914ea873": [
+        "D"
+      ],
+      "ed410c758e5025f1bb97922574d1c2ff": [
+        "D"
+      ],
+      "f554b55356a5e0ed39dbf8c1030ebce0": [
+        "Fp"
+      ],
+      "f6a085f3c728e53f57542e62df20e56b": [
+        "Fm"
+      ]
+    },
+    "interpretation": "ideal post-hoc choice, excluding observation cost"
+  },
+  "gain_percent_vs_baseline": {
+    "D": null,
+    "Fp": null,
+    "Fm": null,
+    "P1_M05_long": null,
+    "oracle": null
+  },
+  "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+}

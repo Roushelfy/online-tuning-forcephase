@@ -1,0 +1,174 @@
+{
+ "per_tau": {
+  "0.1": {
+   "solved_main": 13,
+   "solved_controls": 0,
+   "overshoot_median": 0.012896999999999992,
+   "overshoot_p95": 0.020092,
+   "overshoot_max": 0.02436199999999998,
+   "wrapper_overhead_median": 0.032304999999999987,
+   "wrapper_overhead_p95": 0.034859,
+   "stopped_with_checkpoint": 167,
+   "stopped": 272,
+   "killed": 0
+  },
+  "0.25": {
+   "solved_main": 39,
+   "solved_controls": 6,
+   "overshoot_median": 0.013066999999999995,
+   "overshoot_p95": 0.025434000000000012,
+   "overshoot_max": 0.045881000000000005,
+   "wrapper_overhead_median": 0.032476000000000005,
+   "wrapper_overhead_p95": 0.035719999999999974,
+   "stopped_with_checkpoint": 145,
+   "stopped": 240,
+   "killed": 0
+  },
+  "0.5": {
+   "solved_main": 63,
+   "solved_controls": 15,
+   "overshoot_median": 0.013232000000000022,
+   "overshoot_p95": 0.039761999999999964,
+   "overshoot_max": 0.08846600000000004,
+   "wrapper_overhead_median": 0.032547000000000104,
+   "wrapper_overhead_p95": 0.035149999999999904,
+   "stopped_with_checkpoint": 131,
+   "stopped": 207,
+   "killed": 0
+  },
+  "1.0": {
+   "solved_main": 88,
+   "solved_controls": 15,
+   "overshoot_median": 0.013708000000000053,
+   "overshoot_p95": 0.07427699999999993,
+   "overshoot_max": 0.10724899999999993,
+   "wrapper_overhead_median": 0.03265600000000024,
+   "wrapper_overhead_p95": 0.03628100000000001,
+   "stopped_with_checkpoint": 122,
+   "stopped": 182,
+   "killed": 0
+  },
+  "2.0": {
+   "solved_main": 116,
+   "solved_controls": 15,
+   "overshoot_median": 0.014342999999999773,
+   "overshoot_p95": 0.1235520000000001,
+   "overshoot_max": 0.2682100000000003,
+   "wrapper_overhead_median": 0.03327800000000014,
+   "wrapper_overhead_p95": 0.03720800000000013,
+   "stopped_with_checkpoint": 130,
+   "stopped": 154,
+   "killed": 0
+  },
+  "5.0": {
+   "solved_main": 169,
+   "solved_controls": 15,
+   "overshoot_median": 0.017139000000000237,
+   "overshoot_p95": 0.03774699999999953,
+   "overshoot_max": 0.06458799999999965,
+   "wrapper_overhead_median": 0.033433000000000046,
+   "wrapper_overhead_p95": 0.03743799999999986,
+   "stopped_with_checkpoint": 101,
+   "stopped": 101,
+   "killed": 0
+  },
+  "10.0": {
+   "solved_main": 197,
+   "solved_controls": 15,
+   "overshoot_median": 0.012944000000000955,
+   "overshoot_p95": 0.04346199999999989,
+   "overshoot_max": 0.07905300000000004,
+   "wrapper_overhead_median": 0.03321500000000005,
+   "wrapper_overhead_p95": 0.03932000000000002,
+   "stopped_with_checkpoint": 73,
+   "stopped": 73,
+   "killed": 0
+  }
+ },
+ "gates": {
+  "P(0.1,Fp)": {
+   "mean": 33.607184055555535,
+   "gain_vs_D": 39.466259366232805
+  },
+  "P(0.1,Fm)": {
+   "mean": 45.59665519629633,
+   "gain_vs_D": 17.87065245165511
+  },
+  "P(0.25,Fp)": {
+   "mean": 33.69636977407407,
+   "gain_vs_D": 39.305616774336
+  },
+  "P(0.25,Fm)": {
+   "mean": 45.62728899629631,
+   "gain_vs_D": 17.81547441291317
+  },
+  "P(0.5,Fp)": {
+   "mean": 33.02685280740739,
+   "gain_vs_D": 40.51156031138186
+  },
+  "P(0.5,Fm)": {
+   "mean": 44.782357133333335,
+   "gain_vs_D": 19.337377770280327
+  },
+  "P(1,Fp)": {
+   "mean": 32.252312818518526,
+   "gain_vs_D": 41.90667281829029
+  },
+  "P(1,Fm)": {
+   "mean": 41.0691831777778,
+   "gain_vs_D": 26.025599811796518
+  },
+  "P(2,Fp)": {
+   "mean": 32.533757440740715,
+   "gain_vs_D": 41.39973073899549
+  },
+  "P(2,Fm)": {
+   "mean": 41.02467343703702,
+   "gain_vs_D": 26.105771393480502
+  },
+  "P(5,Fp)": {
+   "mean": 33.31720552962964,
+   "gain_vs_D": 39.9885728349466
+  },
+  "P(5,Fm)": {
+   "mean": 41.18872601851855,
+   "gain_vs_D": 25.810277537128645
+  },
+  "P(10,Fp)": {
+   "mean": 31.912056681481477,
+   "gain_vs_D": 42.519547039302076
+  },
+  "P(10,Fm)": {
+   "mean": 40.672575937037045,
+   "gain_vs_D": 26.739974446838467
+  }
+ },
+ "fixed": {
+  "D": 55.51810230740743,
+  "Fp": 33.477680533333356,
+  "Fm": 45.48893187037037,
+  "oracle": 26.015330685185184
+ },
+ "ref": {
+  "probe_outcome_mismatch": [
+   "v9-assign2-M-00",
+   "v9-assign2-M-11",
+   "v9-assign2-M-16",
+   "v9-assign2-M-54",
+   "v9-assign2-S-35",
+   "v9-assign2-S-55"
+  ],
+  "n": 285,
+  "paths": {
+   "fallback": 156,
+   "probe_solved": 129
+  },
+  "diff_median": -0.0037789999999997548,
+  "diff_p05": -4.679921000000007,
+  "diff_p95": 0.342414,
+  "rel_median": -0.0055667514746291676,
+  "total_diff": -446.68161800000024,
+  "real_mean_main": 30.87894157777778,
+  "simulated_mean_main": 32.533757440740715
+ }
+}

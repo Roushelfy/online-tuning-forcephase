@@ -1,0 +1,8 @@
+{
+ "action": "Fp",
+ "family": "SBS",
+ "in_sample_total": 9038.973744000006,
+ "inner_cv_total_all_dev": null,
+ "kind": "fixed",
+ "name": "v9_main_SBS"
+}

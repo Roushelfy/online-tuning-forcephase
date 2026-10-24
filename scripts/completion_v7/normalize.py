@@ -110,7 +110,9 @@ def better(r, prev):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--stages", default="stage1,stage2,old55_r1a,old55_r1b")
+    ap.add_argument("--stages", default="stage1,stage2")
+    ap.add_argument("--res-dir", default=RES, help="where normalized.json / attempts.csv go (v9 R5: results/online_selection_v9/old55)")
+    ap.add_argument("--data-copy", default=os.path.join(OUT, "normalized.json"))
     a = ap.parse_args()
     P = panel()
     reuse = json.load(open(os.path.join(RES, "reuse_records.json")))
@@ -132,10 +134,10 @@ def main():
         if prev is None or better(r, prev):
             book[key] = r
     out = adopt(P, v6, fixed7, wrap7)
-    for dst in (os.path.join(OUT, "normalized.json"), os.path.join(RES, "normalized.json")):
+    for dst in (a.data_copy, os.path.join(a.res_dir, "normalized.json")):
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         json.dump(out, open(dst, "w"), indent=1)
-    with open(os.path.join(RES, "attempts.csv"), "w", newline="") as f:
+    with open(os.path.join(a.res_dir, "attempts.csv"), "w", newline="") as f:
         fields = ["instance", "method", "kind", "stage", "status", "cpu", "formal_cpu", "action", "stop_reason", "exit_code",
                   "host", "id"]
         w = csv.DictWriter(f, fieldnames=fields)

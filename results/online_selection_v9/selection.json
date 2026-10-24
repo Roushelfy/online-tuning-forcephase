@@ -1,0 +1,4637 @@
+{
+ "n_dev": 270,
+ "n_controls": 15,
+ "fixed_totals": {
+  "D": 14989.887623000006,
+  "Fp": 9038.973744000006,
+  "Fm": 12282.011605
+ },
+ "oracle_total": 7024.139284999999,
+ "SBS_in_sample": "Fp",
+ "A_in_sample": {
+  "P(0.1,Fp)": 9073.939694999994,
+  "P(0.1,Fm)": 12311.09690300001,
+  "P(0.25,Fp)": 9098.019838999999,
+  "P(0.25,Fm)": 12319.368029000003,
+  "P(0.5,Fp)": 8917.250257999995,
+  "P(0.5,Fm)": 12091.236426,
+  "P(1,Fp)": 8708.124461000001,
+  "P(1,Fm)": 11088.679458000006,
+  "P(2,Fp)": 8784.114508999994,
+  "P(2,Fm)": 11076.661827999997,
+  "P(5,Fp)": 8995.645493000002,
+  "P(5,Fm)": 11120.956025000009,
+  "P(10,Fp)": 8616.255303999998,
+  "P(10,Fm)": 10981.595503000002
+ },
+ "cv": {
+  "SBS": {
+   "cv_total": 9038.973744000004,
+   "per_instance": {
+    "v9-assign2-L-00": {
+     "cost": 34.996919,
+     "action": "Fp"
+    },
+    "v9-assign2-L-05": {
+     "cost": 15.234133,
+     "action": "Fp"
+    },
+    "v9-assign2-L-28": {
+     "cost": 42.089692,
+     "action": "Fp"
+    },
+    "v9-assign2-L-37": {
+     "cost": 28.846890000000002,
+     "action": "Fp"
+    },
+    "v9-assign2-L-39": {
+     "cost": 35.817876000000005,
+     "action": "Fp"
+    },
+    "v9-assign2-L-52": {
+     "cost": 8.400978,
+     "action": "Fp"
+    },
+    "v9-assign2-M-00": {
+     "cost": 0.633601,
+     "action": "Fp"
+    },
+    "v9-assign2-M-06": {
+     "cost": 3.01801,
+     "action": "Fp"
+    },
+    "v9-assign2-M-24": {
+     "cost": 4.552663,
+     "action": "Fp"
+    },
+    "v9-assign2-M-39": {
+     "cost": 1.8793659999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-M-42": {
+     "cost": 2.155222,
+     "action": "Fp"
+    },
+    "v9-assign2-M-54": {
+     "cost": 0.702341,
+     "action": "Fp"
+    },
+    "v9-assign2-S-05": {
+     "cost": 1.975669,
+     "action": "Fp"
+    },
+    "v9-assign2-S-08": {
+     "cost": 0.267916,
+     "action": "Fp"
+    },
+    "v9-assign2-S-15": {
+     "cost": 1.2405359999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-S-23": {
+     "cost": 0.28402499999999997,
+     "action": "Fp"
+    },
+    "v9-assign2-S-28": {
+     "cost": 1.923317,
+     "action": "Fp"
+    },
+    "v9-assign2-S-46": {
+     "cost": 1.356315,
+     "action": "Fp"
+    },
+    "v9-col3-L-16": {
+     "cost": 6.998246000000001,
+     "action": "Fp"
+    },
+    "v9-col3-L-19": {
+     "cost": 1082.485054,
+     "action": "Fp"
+    },
+    "v9-col3-L-29": {
+     "cost": 11.289152000000001,
+     "action": "Fp"
+    },
+    "v9-col3-L-32": {
+     "cost": 1.328224,
+     "action": "Fp"
+    },
+    "v9-col3-L-48": {
+     "cost": 0.14442199999999997,
+     "action": "Fp"
+    },
+    "v9-col3-L-49": {
+     "cost": 0.028813,
+     "action": "Fp"
+    },
+    "v9-col3-M-02": {
+     "cost": 30.374828,
+     "action": "Fp"
+    },
+    "v9-col3-M-32": {
+     "cost": 0.581979,
+     "action": "Fp"
+    },
+    "v9-col3-M-40": {
+     "cost": 0.593303,
+     "action": "Fp"
+    },
+    "v9-col3-M-41": {
+     "cost": 0.6467369999999999,
+     "action": "Fp"
+    },
+    "v9-col3-M-43": {
+     "cost": 1.949658,
+     "action": "Fp"
+    },
+    "v9-col3-M-54": {
+     "cost": 1.288885,
+     "action": "Fp"
+    },
+    "v9-col3-S-10": {
+     "cost": 1.790405,
+     "action": "Fp"
+    },
+    "v9-col3-S-19": {
+     "cost": 0.006111,
+     "action": "Fp"
+    },
+    "v9-col3-S-24": {
+     "cost": 0.048658999999999994,
+     "action": "Fp"
+    },
+    "v9-col3-S-30": {
+     "cost": 0.12489199999999999,
+     "action": "Fp"
+    },
+    "v9-col3-S-39": {
+     "cost": 1.880922,
+     "action": "Fp"
+    },
+    "v9-col3-S-43": {
+     "cost": 0.047363999999999996,
+     "action": "Fp"
+    },
+    "v9-rand3-L-05": {
+     "cost": 144.334894,
+     "action": "Fp"
+    },
+    "v9-rand3-L-06": {
+     "cost": 3.484415,
+     "action": "Fp"
+    },
+    "v9-rand3-L-26": {
+     "cost": 240.077179,
+     "action": "Fp"
+    },
+    "v9-rand3-L-42": {
+     "cost": 121.02389,
+     "action": "Fp"
+    },
+    "v9-rand3-L-46": {
+     "cost": 238.487808,
+     "action": "Fp"
+    },
+    "v9-rand3-L-47": {
+     "cost": 96.650238,
+     "action": "Fp"
+    },
+    "v9-rand3-M-10": {
+     "cost": 27.633611,
+     "action": "Fp"
+    },
+    "v9-rand3-M-12": {
+     "cost": 4.442878,
+     "action": "Fp"
+    },
+    "v9-rand3-M-14": {
+     "cost": 15.875342999999999,
+     "action": "Fp"
+    },
+    "v9-rand3-M-21": {
+     "cost": 36.391419,
+     "action": "Fp"
+    },
+    "v9-rand3-M-43": {
+     "cost": 0.20738099999999998,
+     "action": "Fp"
+    },
+    "v9-rand3-M-55": {
+     "cost": 0.111621,
+     "action": "Fp"
+    },
+    "v9-rand3-S-13": {
+     "cost": 4.70346,
+     "action": "Fp"
+    },
+    "v9-rand3-S-19": {
+     "cost": 6.840457,
+     "action": "Fp"
+    },
+    "v9-rand3-S-37": {
+     "cost": 1.551436,
+     "action": "Fp"
+    },
+    "v9-rand3-S-38": {
+     "cost": 7.191365,
+     "action": "Fp"
+    },
+    "v9-rand3-S-44": {
+     "cost": 4.124665,
+     "action": "Fp"
+    },
+    "v9-rand3-S-56": {
+     "cost": 0.806682,
+     "action": "Fp"
+    },
+    "v9-assign2-L-10": {
+     "cost": 38.061937,
+     "action": "Fp"
+    },
+    "v9-assign2-L-13": {
+     "cost": 48.166892000000004,
+     "action": "Fp"
+    },
+    "v9-assign2-L-21": {
+     "cost": 6.5944389999999995,
+     "action": "Fp"
+    },
+    "v9-assign2-L-42": {
+     "cost": 33.688055,
+     "action": "Fp"
+    },
+    "v9-assign2-L-46": {
+     "cost": 5.665403,
+     "action": "Fp"
+    },
+    "v9-assign2-L-58": {
+     "cost": 9.940275999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-M-10": {
+     "cost": 4.095406,
+     "action": "Fp"
+    },
+    "v9-assign2-M-35": {
+     "cost": 3.139561,
+     "action": "Fp"
+    },
+    "v9-assign2-M-49": {
+     "cost": 24.453553000000003,
+     "action": "Fp"
+    },
+    "v9-assign2-M-53": {
+     "cost": 0.593101,
+     "action": "Fp"
+    },
+    "v9-assign2-M-57": {
+     "cost": 3.882192,
+     "action": "Fp"
+    },
+    "v9-assign2-M-58": {
+     "cost": 1.600067,
+     "action": "Fp"
+    },
+    "v9-assign2-S-00": {
+     "cost": 1.761777,
+     "action": "Fp"
+    },
+    "v9-assign2-S-16": {
+     "cost": 0.194022,
+     "action": "Fp"
+    },
+    "v9-assign2-S-35": {
+     "cost": 2.26456,
+     "action": "Fp"
+    },
+    "v9-assign2-S-45": {
+     "cost": 1.4240210000000002,
+     "action": "Fp"
+    },
+    "v9-assign2-S-47": {
+     "cost": 0.50459,
+     "action": "Fp"
+    },
+    "v9-assign2-S-54": {
+     "cost": 0.70641,
+     "action": "Fp"
+    },
+    "v9-col3-L-00": {
+     "cost": 4.088736,
+     "action": "Fp"
+    },
+    "v9-col3-L-03": {
+     "cost": 2.2282,
+     "action": "Fp"
+    },
+    "v9-col3-L-07": {
+     "cost": 7.397776,
+     "action": "Fp"
+    },
+    "v9-col3-L-17": {
+     "cost": 0.9554849999999999,
+     "action": "Fp"
+    },
+    "v9-col3-L-25": {
+     "cost": 5.346812,
+     "action": "Fp"
+    },
+    "v9-col3-L-37": {
+     "cost": 1.213919,
+     "action": "Fp"
+    },
+    "v9-col3-M-00": {
+     "cost": 0.265682,
+     "action": "Fp"
+    },
+    "v9-col3-M-11": {
+     "cost": 0.602707,
+     "action": "Fp"
+    },
+    "v9-col3-M-12": {
+     "cost": 0.20457499999999998,
+     "action": "Fp"
+    },
+    "v9-col3-M-35": {
+     "cost": 3.9841,
+     "action": "Fp"
+    },
+    "v9-col3-M-42": {
+     "cost": 0.17536,
+     "action": "Fp"
+    },
+    "v9-col3-M-49": {
+     "cost": 4.790020999999999,
+     "action": "Fp"
+    },
+    "v9-col3-S-11": {
+     "cost": 0.047158,
+     "action": "Fp"
+    },
+    "v9-col3-S-16": {
+     "cost": 0.02743,
+     "action": "Fp"
+    },
+    "v9-col3-S-29": {
+     "cost": 0.185068,
+     "action": "Fp"
+    },
+    "v9-col3-S-41": {
+     "cost": 0.04602199999999999,
+     "action": "Fp"
+    },
+    "v9-col3-S-51": {
+     "cost": 0.5808869999999999,
+     "action": "Fp"
+    },
+    "v9-col3-S-59": {
+     "cost": 0.180913,
+     "action": "Fp"
+    },
+    "v9-rand3-L-18": {
+     "cost": 49.172453000000004,
+     "action": "Fp"
+    },
+    "v9-rand3-L-19": {
+     "cost": 900.155968,
+     "action": "Fp"
+    },
+    "v9-rand3-L-29": {
+     "cost": 93.748654,
+     "action": "Fp"
+    },
+    "v9-rand3-L-34": {
+     "cost": 241.367854,
+     "action": "Fp"
+    },
+    "v9-rand3-L-41": {
+     "cost": 376.71336,
+     "action": "Fp"
+    },
+    "v9-rand3-L-53": {
+     "cost": 13.516233999999999,
+     "action": "Fp"
+    },
+    "v9-rand3-M-01": {
+     "cost": 4.924672,
+     "action": "Fp"
+    },
+    "v9-rand3-M-05": {
+     "cost": 19.147081,
+     "action": "Fp"
+    },
+    "v9-rand3-M-22": {
+     "cost": 0.8629769999999999,
+     "action": "Fp"
+    },
+    "v9-rand3-M-24": {
+     "cost": 15.932049000000001,
+     "action": "Fp"
+    },
+    "v9-rand3-M-44": {
+     "cost": 42.675329000000005,
+     "action": "Fp"
+    },
+    "v9-rand3-M-46": {
+     "cost": 14.716987,
+     "action": "Fp"
+    },
+    "v9-rand3-S-03": {
+     "cost": 6.191338,
+     "action": "Fp"
+    },
+    "v9-rand3-S-09": {
+     "cost": 1.1688999999999998,
+     "action": "Fp"
+    },
+    "v9-rand3-S-36": {
+     "cost": 1.3187479999999998,
+     "action": "Fp"
+    },
+    "v9-rand3-S-46": {
+     "cost": 1.1603299999999999,
+     "action": "Fp"
+    },
+    "v9-rand3-S-53": {
+     "cost": 0.437915,
+     "action": "Fp"
+    },
+    "v9-rand3-S-58": {
+     "cost": 4.303853,
+     "action": "Fp"
+    },
+    "v9-assign2-L-12": {
+     "cost": 55.743007,
+     "action": "Fp"
+    },
+    "v9-assign2-L-18": {
+     "cost": 13.72224,
+     "action": "Fp"
+    },
+    "v9-assign2-L-38": {
+     "cost": 10.281076,
+     "action": "Fp"
+    },
+    "v9-assign2-L-50": {
+     "cost": 6.4063669999999995,
+     "action": "Fp"
+    },
+    "v9-assign2-L-51": {
+     "cost": 3.9703829999999996,
+     "action": "Fp"
+    },
+    "v9-assign2-L-55": {
+     "cost": 30.105964999999998,
+     "action": "Fp"
+    },
+    "v9-assign2-M-15": {
+     "cost": 2.813478,
+     "action": "Fp"
+    },
+    "v9-assign2-M-16": {
+     "cost": 2.002033,
+     "action": "Fp"
+    },
+    "v9-assign2-M-22": {
+     "cost": 15.196592,
+     "action": "Fp"
+    },
+    "v9-assign2-M-26": {
+     "cost": 10.083644,
+     "action": "Fp"
+    },
+    "v9-assign2-M-27": {
+     "cost": 2.7362450000000003,
+     "action": "Fp"
+    },
+    "v9-assign2-M-51": {
+     "cost": 2.307563,
+     "action": "Fp"
+    },
+    "v9-assign2-S-01": {
+     "cost": 2.792317,
+     "action": "Fp"
+    },
+    "v9-assign2-S-06": {
+     "cost": 2.782354,
+     "action": "Fp"
+    },
+    "v9-assign2-S-09": {
+     "cost": 1.439068,
+     "action": "Fp"
+    },
+    "v9-assign2-S-24": {
+     "cost": 0.15241699999999997,
+     "action": "Fp"
+    },
+    "v9-assign2-S-26": {
+     "cost": 0.308486,
+     "action": "Fp"
+    },
+    "v9-assign2-S-33": {
+     "cost": 0.46086299999999997,
+     "action": "Fp"
+    },
+    "v9-col3-L-01": {
+     "cost": 3.2751799999999998,
+     "action": "Fp"
+    },
+    "v9-col3-L-06": {
+     "cost": 144.773616,
+     "action": "Fp"
+    },
+    "v9-col3-L-09": {
+     "cost": 0.20809899999999998,
+     "action": "Fp"
+    },
+    "v9-col3-L-14": {
+     "cost": 0.141244,
+     "action": "Fp"
+    },
+    "v9-col3-L-18": {
+     "cost": 0.07360599999999999,
+     "action": "Fp"
+    },
+    "v9-col3-L-39": {
+     "cost": 0.507995,
+     "action": "Fp"
+    },
+    "v9-col3-M-05": {
+     "cost": 1.108695,
+     "action": "Fp"
+    },
+    "v9-col3-M-34": {
+     "cost": 1.0400349999999998,
+     "action": "Fp"
+    },
+    "v9-col3-M-47": {
+     "cost": 0.22704599999999997,
+     "action": "Fp"
+    },
+    "v9-col3-M-48": {
+     "cost": 4.231849,
+     "action": "Fp"
+    },
+    "v9-col3-M-58": {
+     "cost": 0.07003799999999999,
+     "action": "Fp"
+    },
+    "v9-col3-M-59": {
+     "cost": 0.217492,
+     "action": "Fp"
+    },
+    "v9-col3-S-18": {
+     "cost": 0.19368399999999997,
+     "action": "Fp"
+    },
+    "v9-col3-S-33": {
+     "cost": 0.143783,
+     "action": "Fp"
+    },
+    "v9-col3-S-37": {
+     "cost": 0.025526,
+     "action": "Fp"
+    },
+    "v9-col3-S-40": {
+     "cost": 0.137499,
+     "action": "Fp"
+    },
+    "v9-col3-S-44": {
+     "cost": 0.240838,
+     "action": "Fp"
+    },
+    "v9-col3-S-52": {
+     "cost": 0.12473799999999999,
+     "action": "Fp"
+    },
+    "v9-rand3-L-12": {
+     "cost": 6.432596,
+     "action": "Fp"
+    },
+    "v9-rand3-L-13": {
+     "cost": 257.859977,
+     "action": "Fp"
+    },
+    "v9-rand3-L-27": {
+     "cost": 12.921568,
+     "action": "Fp"
+    },
+    "v9-rand3-L-35": {
+     "cost": 594.8810319999999,
+     "action": "Fp"
+    },
+    "v9-rand3-L-36": {
+     "cost": 130.177661,
+     "action": "Fp"
+    },
+    "v9-rand3-L-40": {
+     "cost": 131.752596,
+     "action": "Fp"
+    },
+    "v9-rand3-M-09": {
+     "cost": 5.993606,
+     "action": "Fp"
+    },
+    "v9-rand3-M-23": {
+     "cost": 56.505672,
+     "action": "Fp"
+    },
+    "v9-rand3-M-30": {
+     "cost": 22.78052,
+     "action": "Fp"
+    },
+    "v9-rand3-M-33": {
+     "cost": 12.730483999999999,
+     "action": "Fp"
+    },
+    "v9-rand3-M-34": {
+     "cost": 24.588212,
+     "action": "Fp"
+    },
+    "v9-rand3-M-42": {
+     "cost": 71.26298799999999,
+     "action": "Fp"
+    },
+    "v9-rand3-S-24": {
+     "cost": 3.511511,
+     "action": "Fp"
+    },
+    "v9-rand3-S-25": {
+     "cost": 4.174763,
+     "action": "Fp"
+    },
+    "v9-rand3-S-28": {
+     "cost": 3.083694,
+     "action": "Fp"
+    },
+    "v9-rand3-S-30": {
+     "cost": 1.3592229999999998,
+     "action": "Fp"
+    },
+    "v9-rand3-S-43": {
+     "cost": 2.454888,
+     "action": "Fp"
+    },
+    "v9-rand3-S-57": {
+     "cost": 2.123014,
+     "action": "Fp"
+    },
+    "v9-assign2-L-07": {
+     "cost": 8.881736,
+     "action": "Fp"
+    },
+    "v9-assign2-L-20": {
+     "cost": 22.863951,
+     "action": "Fp"
+    },
+    "v9-assign2-L-33": {
+     "cost": 53.7558,
+     "action": "Fp"
+    },
+    "v9-assign2-L-43": {
+     "cost": 16.888538,
+     "action": "Fp"
+    },
+    "v9-assign2-L-44": {
+     "cost": 5.018317,
+     "action": "Fp"
+    },
+    "v9-assign2-L-47": {
+     "cost": 5.802979,
+     "action": "Fp"
+    },
+    "v9-assign2-M-11": {
+     "cost": 4.218677,
+     "action": "Fp"
+    },
+    "v9-assign2-M-28": {
+     "cost": 0.222764,
+     "action": "Fp"
+    },
+    "v9-assign2-M-31": {
+     "cost": 3.205161,
+     "action": "Fp"
+    },
+    "v9-assign2-M-33": {
+     "cost": 1.781438,
+     "action": "Fp"
+    },
+    "v9-assign2-M-41": {
+     "cost": 0.26387099999999997,
+     "action": "Fp"
+    },
+    "v9-assign2-M-55": {
+     "cost": 3.514012,
+     "action": "Fp"
+    },
+    "v9-assign2-S-03": {
+     "cost": 1.9000979999999998,
+     "action": "Fp"
+    },
+    "v9-assign2-S-10": {
+     "cost": 0.247716,
+     "action": "Fp"
+    },
+    "v9-assign2-S-25": {
+     "cost": 2.2554790000000002,
+     "action": "Fp"
+    },
+    "v9-assign2-S-34": {
+     "cost": 3.129295,
+     "action": "Fp"
+    },
+    "v9-assign2-S-49": {
+     "cost": 1.921617,
+     "action": "Fp"
+    },
+    "v9-assign2-S-52": {
+     "cost": 5.842956,
+     "action": "Fp"
+    },
+    "v9-col3-L-04": {
+     "cost": 6.313111,
+     "action": "Fp"
+    },
+    "v9-col3-L-08": {
+     "cost": 5.48108,
+     "action": "Fp"
+    },
+    "v9-col3-L-20": {
+     "cost": 5.450892,
+     "action": "Fp"
+    },
+    "v9-col3-L-23": {
+     "cost": 2.258524,
+     "action": "Fp"
+    },
+    "v9-col3-L-28": {
+     "cost": 1.25507,
+     "action": "Fp"
+    },
+    "v9-col3-L-34": {
+     "cost": 0.580888,
+     "action": "Fp"
+    },
+    "v9-col3-M-08": {
+     "cost": 58.963496,
+     "action": "Fp"
+    },
+    "v9-col3-M-27": {
+     "cost": 1.1091659999999999,
+     "action": "Fp"
+    },
+    "v9-col3-M-29": {
+     "cost": 28.653559,
+     "action": "Fp"
+    },
+    "v9-col3-M-30": {
+     "cost": 123.09475800000001,
+     "action": "Fp"
+    },
+    "v9-col3-M-45": {
+     "cost": 0.8666079999999999,
+     "action": "Fp"
+    },
+    "v9-col3-M-56": {
+     "cost": 0.231736,
+     "action": "Fp"
+    },
+    "v9-col3-S-05": {
+     "cost": 0.167562,
+     "action": "Fp"
+    },
+    "v9-col3-S-14": {
+     "cost": 0.481095,
+     "action": "Fp"
+    },
+    "v9-col3-S-34": {
+     "cost": 0.118795,
+     "action": "Fp"
+    },
+    "v9-col3-S-55": {
+     "cost": 1.046034,
+     "action": "Fp"
+    },
+    "v9-col3-S-56": {
+     "cost": 0.13011,
+     "action": "Fp"
+    },
+    "v9-col3-S-58": {
+     "cost": 0.577001,
+     "action": "Fp"
+    },
+    "v9-rand3-L-16": {
+     "cost": 132.005466,
+     "action": "Fp"
+    },
+    "v9-rand3-L-24": {
+     "cost": 146.20993099999998,
+     "action": "Fp"
+    },
+    "v9-rand3-L-25": {
+     "cost": 104.967915,
+     "action": "Fp"
+    },
+    "v9-rand3-L-51": {
+     "cost": 490.65258600000004,
+     "action": "Fp"
+    },
+    "v9-rand3-L-52": {
+     "cost": 24.944137,
+     "action": "Fp"
+    },
+    "v9-rand3-L-59": {
+     "cost": 30.591949,
+     "action": "Fp"
+    },
+    "v9-rand3-M-03": {
+     "cost": 16.360809999999997,
+     "action": "Fp"
+    },
+    "v9-rand3-M-08": {
+     "cost": 11.139246,
+     "action": "Fp"
+    },
+    "v9-rand3-M-26": {
+     "cost": 24.658887999999997,
+     "action": "Fp"
+    },
+    "v9-rand3-M-41": {
+     "cost": 2.570943,
+     "action": "Fp"
+    },
+    "v9-rand3-M-49": {
+     "cost": 28.780389,
+     "action": "Fp"
+    },
+    "v9-rand3-M-50": {
+     "cost": 18.456276,
+     "action": "Fp"
+    },
+    "v9-rand3-S-12": {
+     "cost": 3.352522,
+     "action": "Fp"
+    },
+    "v9-rand3-S-17": {
+     "cost": 0.778697,
+     "action": "Fp"
+    },
+    "v9-rand3-S-31": {
+     "cost": 1.792882,
+     "action": "Fp"
+    },
+    "v9-rand3-S-35": {
+     "cost": 2.1334589999999998,
+     "action": "Fp"
+    },
+    "v9-rand3-S-40": {
+     "cost": 1.076867,
+     "action": "Fp"
+    },
+    "v9-rand3-S-50": {
+     "cost": 4.437109,
+     "action": "Fp"
+    },
+    "v9-assign2-L-01": {
+     "cost": 24.614138,
+     "action": "Fp"
+    },
+    "v9-assign2-L-09": {
+     "cost": 13.265834,
+     "action": "Fp"
+    },
+    "v9-assign2-L-16": {
+     "cost": 9.646628000000002,
+     "action": "Fp"
+    },
+    "v9-assign2-L-23": {
+     "cost": 3.464378,
+     "action": "Fp"
+    },
+    "v9-assign2-L-27": {
+     "cost": 7.088549,
+     "action": "Fp"
+    },
+    "v9-assign2-L-32": {
+     "cost": 8.47452,
+     "action": "Fp"
+    },
+    "v9-assign2-M-02": {
+     "cost": 13.374997,
+     "action": "Fp"
+    },
+    "v9-assign2-M-03": {
+     "cost": 7.466369,
+     "action": "Fp"
+    },
+    "v9-assign2-M-12": {
+     "cost": 6.453424,
+     "action": "Fp"
+    },
+    "v9-assign2-M-29": {
+     "cost": 0.365281,
+     "action": "Fp"
+    },
+    "v9-assign2-M-45": {
+     "cost": 13.458801,
+     "action": "Fp"
+    },
+    "v9-assign2-M-47": {
+     "cost": 0.577148,
+     "action": "Fp"
+    },
+    "v9-assign2-S-20": {
+     "cost": 2.088264,
+     "action": "Fp"
+    },
+    "v9-assign2-S-21": {
+     "cost": 2.55346,
+     "action": "Fp"
+    },
+    "v9-assign2-S-30": {
+     "cost": 1.839394,
+     "action": "Fp"
+    },
+    "v9-assign2-S-43": {
+     "cost": 1.770239,
+     "action": "Fp"
+    },
+    "v9-assign2-S-55": {
+     "cost": 1.1666759999999998,
+     "action": "Fp"
+    },
+    "v9-assign2-S-56": {
+     "cost": 1.713711,
+     "action": "Fp"
+    },
+    "v9-col3-L-21": {
+     "cost": 21.521534,
+     "action": "Fp"
+    },
+    "v9-col3-L-22": {
+     "cost": 90.188164,
+     "action": "Fp"
+    },
+    "v9-col3-L-27": {
+     "cost": 6.526141,
+     "action": "Fp"
+    },
+    "v9-col3-L-47": {
+     "cost": 0.284993,
+     "action": "Fp"
+    },
+    "v9-col3-L-50": {
+     "cost": 1.9422949999999999,
+     "action": "Fp"
+    },
+    "v9-col3-L-55": {
+     "cost": 2.144044,
+     "action": "Fp"
+    },
+    "v9-col3-M-04": {
+     "cost": 0.65467,
+     "action": "Fp"
+    },
+    "v9-col3-M-06": {
+     "cost": 0.083881,
+     "action": "Fp"
+    },
+    "v9-col3-M-15": {
+     "cost": 3.3472239999999998,
+     "action": "Fp"
+    },
+    "v9-col3-M-23": {
+     "cost": 24.819947999999997,
+     "action": "Fp"
+    },
+    "v9-col3-M-25": {
+     "cost": 15.867267,
+     "action": "Fp"
+    },
+    "v9-col3-M-37": {
+     "cost": 0.593444,
+     "action": "Fp"
+    },
+    "v9-col3-S-07": {
+     "cost": 0.09380799999999999,
+     "action": "Fp"
+    },
+    "v9-col3-S-17": {
+     "cost": 0.55265,
+     "action": "Fp"
+    },
+    "v9-col3-S-42": {
+     "cost": 0.126015,
+     "action": "Fp"
+    },
+    "v9-col3-S-47": {
+     "cost": 0.584792,
+     "action": "Fp"
+    },
+    "v9-col3-S-48": {
+     "cost": 0.422663,
+     "action": "Fp"
+    },
+    "v9-col3-S-54": {
+     "cost": 0.454252,
+     "action": "Fp"
+    },
+    "v9-rand3-L-00": {
+     "cost": 544.9458539999999,
+     "action": "Fp"
+    },
+    "v9-rand3-L-15": {
+     "cost": 9.045185,
+     "action": "Fp"
+    },
+    "v9-rand3-L-32": {
+     "cost": 33.581072,
+     "action": "Fp"
+    },
+    "v9-rand3-L-33": {
+     "cost": 2.0535870000000003,
+     "action": "Fp"
+    },
+    "v9-rand3-L-38": {
+     "cost": 600.509033,
+     "action": "Fp"
+    },
+    "v9-rand3-L-49": {
+     "cost": 43.798688999999996,
+     "action": "Fp"
+    },
+    "v9-rand3-M-06": {
+     "cost": 2.423026,
+     "action": "Fp"
+    },
+    "v9-rand3-M-13": {
+     "cost": 25.771134,
+     "action": "Fp"
+    },
+    "v9-rand3-M-29": {
+     "cost": 9.761243,
+     "action": "Fp"
+    },
+    "v9-rand3-M-40": {
+     "cost": 32.485348,
+     "action": "Fp"
+    },
+    "v9-rand3-M-53": {
+     "cost": 24.478109,
+     "action": "Fp"
+    },
+    "v9-rand3-M-58": {
+     "cost": 19.866711000000002,
+     "action": "Fp"
+    },
+    "v9-rand3-S-05": {
+     "cost": 1.193961,
+     "action": "Fp"
+    },
+    "v9-rand3-S-08": {
+     "cost": 3.584899,
+     "action": "Fp"
+    },
+    "v9-rand3-S-15": {
+     "cost": 5.942432,
+     "action": "Fp"
+    },
+    "v9-rand3-S-18": {
+     "cost": 5.437832,
+     "action": "Fp"
+    },
+    "v9-rand3-S-32": {
+     "cost": 2.152349,
+     "action": "Fp"
+    },
+    "v9-rand3-S-47": {
+     "cost": 6.8169759999999995,
+     "action": "Fp"
+    }
+   },
+   "chosen_by_fold": {
+    "0": {
+     "kind": "fixed",
+     "action": "Fp"
+    },
+    "1": {
+     "kind": "fixed",
+     "action": "Fp"
+    },
+    "2": {
+     "kind": "fixed",
+     "action": "Fp"
+    },
+    "3": {
+     "kind": "fixed",
+     "action": "Fp"
+    },
+    "4": {
+     "kind": "fixed",
+     "action": "Fp"
+    }
+   }
+  },
+  "A": {
+   "cv_total": 9082.862627,
+   "per_instance": {
+    "v9-assign2-L-00": {
+     "cost": 45.059382,
+     "action": "Fp"
+    },
+    "v9-assign2-L-05": {
+     "cost": 25.305226,
+     "action": "Fp"
+    },
+    "v9-assign2-L-28": {
+     "cost": 52.158863,
+     "action": "Fp"
+    },
+    "v9-assign2-L-37": {
+     "cost": 38.953739,
+     "action": "Fp"
+    },
+    "v9-assign2-L-39": {
+     "cost": 45.884435,
+     "action": "Fp"
+    },
+    "v9-assign2-L-52": {
+     "cost": 5.467771,
+     "action": "probe"
+    },
+    "v9-assign2-M-00": {
+     "cost": 2.314817,
+     "action": "probe"
+    },
+    "v9-assign2-M-06": {
+     "cost": 0.451045,
+     "action": "probe"
+    },
+    "v9-assign2-M-24": {
+     "cost": 0.538078,
+     "action": "probe"
+    },
+    "v9-assign2-M-39": {
+     "cost": 4.221531000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-42": {
+     "cost": 1.917855,
+     "action": "probe"
+    },
+    "v9-assign2-M-54": {
+     "cost": 1.66208,
+     "action": "probe"
+    },
+    "v9-assign2-S-05": {
+     "cost": 2.293276,
+     "action": "probe"
+    },
+    "v9-assign2-S-08": {
+     "cost": 1.017214,
+     "action": "probe"
+    },
+    "v9-assign2-S-15": {
+     "cost": 2.37432,
+     "action": "probe"
+    },
+    "v9-assign2-S-23": {
+     "cost": 1.052055,
+     "action": "probe"
+    },
+    "v9-assign2-S-28": {
+     "cost": 2.35832,
+     "action": "probe"
+    },
+    "v9-assign2-S-46": {
+     "cost": 1.019305,
+     "action": "probe"
+    },
+    "v9-col3-L-16": {
+     "cost": 6.985184,
+     "action": "probe"
+    },
+    "v9-col3-L-19": {
+     "cost": 1092.532249,
+     "action": "Fp"
+    },
+    "v9-col3-L-29": {
+     "cost": 21.343129,
+     "action": "Fp"
+    },
+    "v9-col3-L-32": {
+     "cost": 0.935306,
+     "action": "probe"
+    },
+    "v9-col3-L-48": {
+     "cost": 0.28450299999999995,
+     "action": "probe"
+    },
+    "v9-col3-L-49": {
+     "cost": 0.12039699999999999,
+     "action": "probe"
+    },
+    "v9-col3-M-02": {
+     "cost": 40.426229,
+     "action": "Fp"
+    },
+    "v9-col3-M-32": {
+     "cost": 0.105715,
+     "action": "probe"
+    },
+    "v9-col3-M-40": {
+     "cost": 0.49262799999999995,
+     "action": "probe"
+    },
+    "v9-col3-M-41": {
+     "cost": 1.264681,
+     "action": "probe"
+    },
+    "v9-col3-M-43": {
+     "cost": 0.630689,
+     "action": "probe"
+    },
+    "v9-col3-M-54": {
+     "cost": 0.568332,
+     "action": "probe"
+    },
+    "v9-col3-S-10": {
+     "cost": 1.8861149999999998,
+     "action": "probe"
+    },
+    "v9-col3-S-19": {
+     "cost": 0.03966499999999999,
+     "action": "probe"
+    },
+    "v9-col3-S-24": {
+     "cost": 0.152971,
+     "action": "probe"
+    },
+    "v9-col3-S-30": {
+     "cost": 0.047983,
+     "action": "probe"
+    },
+    "v9-col3-S-39": {
+     "cost": 2.0704629999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-43": {
+     "cost": 0.16067399999999998,
+     "action": "probe"
+    },
+    "v9-rand3-L-05": {
+     "cost": 154.38387,
+     "action": "Fp"
+    },
+    "v9-rand3-L-06": {
+     "cost": 0.547481,
+     "action": "probe"
+    },
+    "v9-rand3-L-26": {
+     "cost": 250.126412,
+     "action": "Fp"
+    },
+    "v9-rand3-L-42": {
+     "cost": 131.072037,
+     "action": "Fp"
+    },
+    "v9-rand3-L-46": {
+     "cost": 248.536002,
+     "action": "Fp"
+    },
+    "v9-rand3-L-47": {
+     "cost": 0.535258,
+     "action": "probe"
+    },
+    "v9-rand3-M-10": {
+     "cost": 0.478653,
+     "action": "probe"
+    },
+    "v9-rand3-M-12": {
+     "cost": 6.245578,
+     "action": "probe"
+    },
+    "v9-rand3-M-14": {
+     "cost": 25.925984,
+     "action": "Fp"
+    },
+    "v9-rand3-M-21": {
+     "cost": 0.721953,
+     "action": "probe"
+    },
+    "v9-rand3-M-43": {
+     "cost": 0.522482,
+     "action": "probe"
+    },
+    "v9-rand3-M-55": {
+     "cost": 0.507063,
+     "action": "probe"
+    },
+    "v9-rand3-S-13": {
+     "cost": 6.694702,
+     "action": "probe"
+    },
+    "v9-rand3-S-19": {
+     "cost": 7.699061,
+     "action": "probe"
+    },
+    "v9-rand3-S-37": {
+     "cost": 0.235296,
+     "action": "probe"
+    },
+    "v9-rand3-S-38": {
+     "cost": 17.244631,
+     "action": "Fp"
+    },
+    "v9-rand3-S-44": {
+     "cost": 6.114243999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-56": {
+     "cost": 0.25146,
+     "action": "probe"
+    },
+    "v9-assign2-L-10": {
+     "cost": 48.142973,
+     "action": "Fp"
+    },
+    "v9-assign2-L-13": {
+     "cost": 58.230776000000006,
+     "action": "Fp"
+    },
+    "v9-assign2-L-21": {
+     "cost": 2.669564,
+     "action": "probe"
+    },
+    "v9-assign2-L-42": {
+     "cost": 5.611027,
+     "action": "probe"
+    },
+    "v9-assign2-L-46": {
+     "cost": 2.318251,
+     "action": "probe"
+    },
+    "v9-assign2-L-58": {
+     "cost": 6.426116,
+     "action": "probe"
+    },
+    "v9-assign2-M-10": {
+     "cost": 3.466693,
+     "action": "probe"
+    },
+    "v9-assign2-M-35": {
+     "cost": 2.165889,
+     "action": "probe"
+    },
+    "v9-assign2-M-49": {
+     "cost": 34.539763,
+     "action": "Fp"
+    },
+    "v9-assign2-M-53": {
+     "cost": 0.6858960000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-57": {
+     "cost": 5.288631,
+     "action": "probe"
+    },
+    "v9-assign2-M-58": {
+     "cost": 4.4349169999999996,
+     "action": "probe"
+    },
+    "v9-assign2-S-00": {
+     "cost": 2.517385,
+     "action": "probe"
+    },
+    "v9-assign2-S-16": {
+     "cost": 0.29212,
+     "action": "probe"
+    },
+    "v9-assign2-S-35": {
+     "cost": 2.014844,
+     "action": "probe"
+    },
+    "v9-assign2-S-45": {
+     "cost": 0.351213,
+     "action": "probe"
+    },
+    "v9-assign2-S-47": {
+     "cost": 1.65391,
+     "action": "probe"
+    },
+    "v9-assign2-S-54": {
+     "cost": 0.254594,
+     "action": "probe"
+    },
+    "v9-col3-L-00": {
+     "cost": 2.765238,
+     "action": "probe"
+    },
+    "v9-col3-L-03": {
+     "cost": 1.457489,
+     "action": "probe"
+    },
+    "v9-col3-L-07": {
+     "cost": 3.93233,
+     "action": "probe"
+    },
+    "v9-col3-L-17": {
+     "cost": 3.500345,
+     "action": "probe"
+    },
+    "v9-col3-L-25": {
+     "cost": 0.406053,
+     "action": "probe"
+    },
+    "v9-col3-L-37": {
+     "cost": 0.735069,
+     "action": "probe"
+    },
+    "v9-col3-M-00": {
+     "cost": 0.182471,
+     "action": "probe"
+    },
+    "v9-col3-M-11": {
+     "cost": 0.57683,
+     "action": "probe"
+    },
+    "v9-col3-M-12": {
+     "cost": 0.283426,
+     "action": "probe"
+    },
+    "v9-col3-M-35": {
+     "cost": 4.846471,
+     "action": "probe"
+    },
+    "v9-col3-M-42": {
+     "cost": 3.323291,
+     "action": "probe"
+    },
+    "v9-col3-M-49": {
+     "cost": 5.836645,
+     "action": "probe"
+    },
+    "v9-col3-S-11": {
+     "cost": 0.205433,
+     "action": "probe"
+    },
+    "v9-col3-S-16": {
+     "cost": 0.055645999999999994,
+     "action": "probe"
+    },
+    "v9-col3-S-29": {
+     "cost": 0.176983,
+     "action": "probe"
+    },
+    "v9-col3-S-41": {
+     "cost": 0.045119,
+     "action": "probe"
+    },
+    "v9-col3-S-51": {
+     "cost": 0.628345,
+     "action": "probe"
+    },
+    "v9-col3-S-59": {
+     "cost": 0.08191799999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-18": {
+     "cost": 0.546769,
+     "action": "probe"
+    },
+    "v9-rand3-L-19": {
+     "cost": 910.21454,
+     "action": "Fp"
+    },
+    "v9-rand3-L-29": {
+     "cost": 103.798133,
+     "action": "Fp"
+    },
+    "v9-rand3-L-34": {
+     "cost": 251.41366499999998,
+     "action": "Fp"
+    },
+    "v9-rand3-L-41": {
+     "cost": 386.76378300000005,
+     "action": "Fp"
+    },
+    "v9-rand3-L-53": {
+     "cost": 6.368186000000001,
+     "action": "probe"
+    },
+    "v9-rand3-M-01": {
+     "cost": 5.876221,
+     "action": "probe"
+    },
+    "v9-rand3-M-05": {
+     "cost": 29.199605,
+     "action": "Fp"
+    },
+    "v9-rand3-M-22": {
+     "cost": 0.509724,
+     "action": "probe"
+    },
+    "v9-rand3-M-24": {
+     "cost": 25.982276,
+     "action": "Fp"
+    },
+    "v9-rand3-M-44": {
+     "cost": 52.73575600000001,
+     "action": "Fp"
+    },
+    "v9-rand3-M-46": {
+     "cost": 24.766269,
+     "action": "Fp"
+    },
+    "v9-rand3-S-03": {
+     "cost": 16.239229,
+     "action": "Fp"
+    },
+    "v9-rand3-S-09": {
+     "cost": 0.48686399999999996,
+     "action": "probe"
+    },
+    "v9-rand3-S-36": {
+     "cost": 0.795431,
+     "action": "probe"
+    },
+    "v9-rand3-S-46": {
+     "cost": 0.202599,
+     "action": "probe"
+    },
+    "v9-rand3-S-53": {
+     "cost": 0.092088,
+     "action": "probe"
+    },
+    "v9-rand3-S-58": {
+     "cost": 5.335189000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-12": {
+     "cost": 56.826601,
+     "action": "Fp"
+    },
+    "v9-assign2-L-18": {
+     "cost": 14.770430999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-L-38": {
+     "cost": 11.388739000000001,
+     "action": "Fp"
+    },
+    "v9-assign2-L-50": {
+     "cost": 7.548512,
+     "action": "Fp"
+    },
+    "v9-assign2-L-51": {
+     "cost": 5.062137999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-L-55": {
+     "cost": 31.165595999999997,
+     "action": "Fp"
+    },
+    "v9-assign2-M-15": {
+     "cost": 3.913722,
+     "action": "Fp"
+    },
+    "v9-assign2-M-16": {
+     "cost": 3.065792,
+     "action": "Fp"
+    },
+    "v9-assign2-M-22": {
+     "cost": 16.299343,
+     "action": "Fp"
+    },
+    "v9-assign2-M-26": {
+     "cost": 11.173491,
+     "action": "Fp"
+    },
+    "v9-assign2-M-27": {
+     "cost": 3.8196410000000003,
+     "action": "Fp"
+    },
+    "v9-assign2-M-51": {
+     "cost": 3.400629,
+     "action": "Fp"
+    },
+    "v9-assign2-S-01": {
+     "cost": 3.844739,
+     "action": "Fp"
+    },
+    "v9-assign2-S-06": {
+     "cost": 3.845307,
+     "action": "Fp"
+    },
+    "v9-assign2-S-09": {
+     "cost": 2.491141,
+     "action": "Fp"
+    },
+    "v9-assign2-S-24": {
+     "cost": 0.19256,
+     "action": "probe"
+    },
+    "v9-assign2-S-26": {
+     "cost": 0.212723,
+     "action": "probe"
+    },
+    "v9-assign2-S-33": {
+     "cost": 1.536935,
+     "action": "Fp"
+    },
+    "v9-col3-L-01": {
+     "cost": 4.321255,
+     "action": "Fp"
+    },
+    "v9-col3-L-06": {
+     "cost": 145.81372100000002,
+     "action": "Fp"
+    },
+    "v9-col3-L-09": {
+     "cost": 1.252899,
+     "action": "Fp"
+    },
+    "v9-col3-L-14": {
+     "cost": 1.1936859999999998,
+     "action": "Fp"
+    },
+    "v9-col3-L-18": {
+     "cost": 0.280906,
+     "action": "probe"
+    },
+    "v9-col3-L-39": {
+     "cost": 0.612646,
+     "action": "probe"
+    },
+    "v9-col3-M-05": {
+     "cost": 2.156796,
+     "action": "Fp"
+    },
+    "v9-col3-M-34": {
+     "cost": 0.611569,
+     "action": "probe"
+    },
+    "v9-col3-M-47": {
+     "cost": 0.541256,
+     "action": "probe"
+    },
+    "v9-col3-M-48": {
+     "cost": 5.265447,
+     "action": "Fp"
+    },
+    "v9-col3-M-58": {
+     "cost": 0.146031,
+     "action": "probe"
+    },
+    "v9-col3-M-59": {
+     "cost": 1.253743,
+     "action": "Fp"
+    },
+    "v9-col3-S-18": {
+     "cost": 0.094011,
+     "action": "probe"
+    },
+    "v9-col3-S-33": {
+     "cost": 0.407622,
+     "action": "probe"
+    },
+    "v9-col3-S-37": {
+     "cost": 0.167269,
+     "action": "probe"
+    },
+    "v9-col3-S-40": {
+     "cost": 0.18580799999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-44": {
+     "cost": 1.2851780000000002,
+     "action": "Fp"
+    },
+    "v9-col3-S-52": {
+     "cost": 0.258992,
+     "action": "probe"
+    },
+    "v9-rand3-L-12": {
+     "cost": 0.5265679999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-13": {
+     "cost": 258.895635,
+     "action": "Fp"
+    },
+    "v9-rand3-L-27": {
+     "cost": 0.538382,
+     "action": "probe"
+    },
+    "v9-rand3-L-35": {
+     "cost": 595.9307559999999,
+     "action": "Fp"
+    },
+    "v9-rand3-L-36": {
+     "cost": 131.213483,
+     "action": "Fp"
+    },
+    "v9-rand3-L-40": {
+     "cost": 132.798583,
+     "action": "Fp"
+    },
+    "v9-rand3-M-09": {
+     "cost": 7.0377149999999995,
+     "action": "Fp"
+    },
+    "v9-rand3-M-23": {
+     "cost": 0.5229769999999999,
+     "action": "probe"
+    },
+    "v9-rand3-M-30": {
+     "cost": 23.81469,
+     "action": "Fp"
+    },
+    "v9-rand3-M-33": {
+     "cost": 13.775837,
+     "action": "Fp"
+    },
+    "v9-rand3-M-34": {
+     "cost": 25.635669,
+     "action": "Fp"
+    },
+    "v9-rand3-M-42": {
+     "cost": 72.309929,
+     "action": "Fp"
+    },
+    "v9-rand3-S-24": {
+     "cost": 4.557742,
+     "action": "Fp"
+    },
+    "v9-rand3-S-25": {
+     "cost": 5.221061,
+     "action": "Fp"
+    },
+    "v9-rand3-S-28": {
+     "cost": 4.128237,
+     "action": "Fp"
+    },
+    "v9-rand3-S-30": {
+     "cost": 0.469001,
+     "action": "probe"
+    },
+    "v9-rand3-S-43": {
+     "cost": 3.501905,
+     "action": "Fp"
+    },
+    "v9-rand3-S-57": {
+     "cost": 3.168612,
+     "action": "Fp"
+    },
+    "v9-assign2-L-07": {
+     "cost": 5.486153000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-20": {
+     "cost": 32.925746000000004,
+     "action": "Fp"
+    },
+    "v9-assign2-L-33": {
+     "cost": 63.824627,
+     "action": "Fp"
+    },
+    "v9-assign2-L-43": {
+     "cost": 26.950012,
+     "action": "Fp"
+    },
+    "v9-assign2-L-44": {
+     "cost": 5.844518000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-47": {
+     "cost": 5.1658409999999995,
+     "action": "probe"
+    },
+    "v9-assign2-M-11": {
+     "cost": 1.7652750000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-28": {
+     "cost": 0.45545800000000003,
+     "action": "probe"
+    },
+    "v9-assign2-M-31": {
+     "cost": 3.510598,
+     "action": "probe"
+    },
+    "v9-assign2-M-33": {
+     "cost": 3.081993,
+     "action": "probe"
+    },
+    "v9-assign2-M-41": {
+     "cost": 3.5414109999999996,
+     "action": "probe"
+    },
+    "v9-assign2-M-55": {
+     "cost": 2.46914,
+     "action": "probe"
+    },
+    "v9-assign2-S-03": {
+     "cost": 0.412381,
+     "action": "probe"
+    },
+    "v9-assign2-S-10": {
+     "cost": 0.452867,
+     "action": "probe"
+    },
+    "v9-assign2-S-25": {
+     "cost": 3.269778,
+     "action": "probe"
+    },
+    "v9-assign2-S-34": {
+     "cost": 3.9290439999999998,
+     "action": "probe"
+    },
+    "v9-assign2-S-49": {
+     "cost": 1.895016,
+     "action": "probe"
+    },
+    "v9-assign2-S-52": {
+     "cost": 5.239342000000001,
+     "action": "probe"
+    },
+    "v9-col3-L-04": {
+     "cost": 1.431195,
+     "action": "probe"
+    },
+    "v9-col3-L-08": {
+     "cost": 3.5295099999999997,
+     "action": "probe"
+    },
+    "v9-col3-L-20": {
+     "cost": 15.504551000000001,
+     "action": "Fp"
+    },
+    "v9-col3-L-23": {
+     "cost": 1.444905,
+     "action": "probe"
+    },
+    "v9-col3-L-28": {
+     "cost": 1.5850840000000002,
+     "action": "probe"
+    },
+    "v9-col3-L-34": {
+     "cost": 3.612712,
+     "action": "probe"
+    },
+    "v9-col3-M-08": {
+     "cost": 69.015699,
+     "action": "Fp"
+    },
+    "v9-col3-M-27": {
+     "cost": 1.267011,
+     "action": "probe"
+    },
+    "v9-col3-M-29": {
+     "cost": 38.7055,
+     "action": "Fp"
+    },
+    "v9-col3-M-30": {
+     "cost": 133.155829,
+     "action": "Fp"
+    },
+    "v9-col3-M-45": {
+     "cost": 1.387872,
+     "action": "probe"
+    },
+    "v9-col3-M-56": {
+     "cost": 1.2341579999999999,
+     "action": "probe"
+    },
+    "v9-col3-S-05": {
+     "cost": 0.22463499999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-14": {
+     "cost": 0.592674,
+     "action": "probe"
+    },
+    "v9-col3-S-34": {
+     "cost": 0.042904,
+     "action": "probe"
+    },
+    "v9-col3-S-55": {
+     "cost": 1.381184,
+     "action": "probe"
+    },
+    "v9-col3-S-56": {
+     "cost": 0.21095999999999998,
+     "action": "probe"
+    },
+    "v9-col3-S-58": {
+     "cost": 0.653719,
+     "action": "probe"
+    },
+    "v9-rand3-L-16": {
+     "cost": 142.05495900000003,
+     "action": "Fp"
+    },
+    "v9-rand3-L-24": {
+     "cost": 156.254868,
+     "action": "Fp"
+    },
+    "v9-rand3-L-25": {
+     "cost": 0.5358689999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-51": {
+     "cost": 500.70067900000004,
+     "action": "Fp"
+    },
+    "v9-rand3-L-52": {
+     "cost": 0.535472,
+     "action": "probe"
+    },
+    "v9-rand3-L-59": {
+     "cost": 1.984365,
+     "action": "probe"
+    },
+    "v9-rand3-M-03": {
+     "cost": 26.411921999999997,
+     "action": "Fp"
+    },
+    "v9-rand3-M-08": {
+     "cost": 1.9585000000000001,
+     "action": "probe"
+    },
+    "v9-rand3-M-26": {
+     "cost": 34.709424,
+     "action": "Fp"
+    },
+    "v9-rand3-M-41": {
+     "cost": 0.5261009999999999,
+     "action": "probe"
+    },
+    "v9-rand3-M-49": {
+     "cost": 38.827816999999996,
+     "action": "Fp"
+    },
+    "v9-rand3-M-50": {
+     "cost": 28.507942999999997,
+     "action": "Fp"
+    },
+    "v9-rand3-S-12": {
+     "cost": 4.427715999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-17": {
+     "cost": 0.414188,
+     "action": "probe"
+    },
+    "v9-rand3-S-31": {
+     "cost": 0.09986699999999998,
+     "action": "probe"
+    },
+    "v9-rand3-S-35": {
+     "cost": 2.51731,
+     "action": "probe"
+    },
+    "v9-rand3-S-40": {
+     "cost": 0.253724,
+     "action": "probe"
+    },
+    "v9-rand3-S-50": {
+     "cost": 0.263461,
+     "action": "probe"
+    },
+    "v9-assign2-L-01": {
+     "cost": 34.680514,
+     "action": "Fp"
+    },
+    "v9-assign2-L-09": {
+     "cost": 5.2912040000000005,
+     "action": "probe"
+    },
+    "v9-assign2-L-16": {
+     "cost": 19.713057,
+     "action": "Fp"
+    },
+    "v9-assign2-L-23": {
+     "cost": 5.693498,
+     "action": "probe"
+    },
+    "v9-assign2-L-27": {
+     "cost": 4.3862559999999995,
+     "action": "probe"
+    },
+    "v9-assign2-L-32": {
+     "cost": 18.540678,
+     "action": "Fp"
+    },
+    "v9-assign2-M-02": {
+     "cost": 23.431593,
+     "action": "Fp"
+    },
+    "v9-assign2-M-03": {
+     "cost": 6.227848,
+     "action": "probe"
+    },
+    "v9-assign2-M-12": {
+     "cost": 6.159925,
+     "action": "probe"
+    },
+    "v9-assign2-M-29": {
+     "cost": 2.8621779999999997,
+     "action": "probe"
+    },
+    "v9-assign2-M-45": {
+     "cost": 23.516875,
+     "action": "Fp"
+    },
+    "v9-assign2-M-47": {
+     "cost": 6.950578999999999,
+     "action": "probe"
+    },
+    "v9-assign2-S-20": {
+     "cost": 2.226638,
+     "action": "probe"
+    },
+    "v9-assign2-S-21": {
+     "cost": 2.181292,
+     "action": "probe"
+    },
+    "v9-assign2-S-30": {
+     "cost": 1.609257,
+     "action": "probe"
+    },
+    "v9-assign2-S-43": {
+     "cost": 0.410114,
+     "action": "probe"
+    },
+    "v9-assign2-S-55": {
+     "cost": 1.8955189999999997,
+     "action": "probe"
+    },
+    "v9-assign2-S-56": {
+     "cost": 4.240873000000001,
+     "action": "probe"
+    },
+    "v9-col3-L-21": {
+     "cost": 31.576307999999997,
+     "action": "Fp"
+    },
+    "v9-col3-L-22": {
+     "cost": 100.244747,
+     "action": "Fp"
+    },
+    "v9-col3-L-27": {
+     "cost": 16.583884,
+     "action": "Fp"
+    },
+    "v9-col3-L-47": {
+     "cost": 0.29307500000000003,
+     "action": "probe"
+    },
+    "v9-col3-L-50": {
+     "cost": 3.301626,
+     "action": "probe"
+    },
+    "v9-col3-L-55": {
+     "cost": 12.204433000000002,
+     "action": "Fp"
+    },
+    "v9-col3-M-04": {
+     "cost": 0.715298,
+     "action": "probe"
+    },
+    "v9-col3-M-06": {
+     "cost": 0.096857,
+     "action": "probe"
+    },
+    "v9-col3-M-15": {
+     "cost": 2.893813,
+     "action": "probe"
+    },
+    "v9-col3-M-23": {
+     "cost": 34.87113599999999,
+     "action": "Fp"
+    },
+    "v9-col3-M-25": {
+     "cost": 25.924576000000002,
+     "action": "Fp"
+    },
+    "v9-col3-M-37": {
+     "cost": 0.7239990000000001,
+     "action": "probe"
+    },
+    "v9-col3-S-07": {
+     "cost": 0.055201,
+     "action": "probe"
+    },
+    "v9-col3-S-17": {
+     "cost": 4.788365,
+     "action": "probe"
+    },
+    "v9-col3-S-42": {
+     "cost": 0.191972,
+     "action": "probe"
+    },
+    "v9-col3-S-47": {
+     "cost": 0.800327,
+     "action": "probe"
+    },
+    "v9-col3-S-48": {
+     "cost": 0.276844,
+     "action": "probe"
+    },
+    "v9-col3-S-54": {
+     "cost": 0.525172,
+     "action": "probe"
+    },
+    "v9-rand3-L-00": {
+     "cost": 554.9936929999999,
+     "action": "Fp"
+    },
+    "v9-rand3-L-15": {
+     "cost": 2.827456,
+     "action": "probe"
+    },
+    "v9-rand3-L-32": {
+     "cost": 0.558073,
+     "action": "probe"
+    },
+    "v9-rand3-L-33": {
+     "cost": 0.5515469999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-38": {
+     "cost": 610.55632,
+     "action": "Fp"
+    },
+    "v9-rand3-L-49": {
+     "cost": 0.950108,
+     "action": "probe"
+    },
+    "v9-rand3-M-06": {
+     "cost": 0.497245,
+     "action": "probe"
+    },
+    "v9-rand3-M-13": {
+     "cost": 35.831544,
+     "action": "Fp"
+    },
+    "v9-rand3-M-29": {
+     "cost": 19.807282999999998,
+     "action": "Fp"
+    },
+    "v9-rand3-M-40": {
+     "cost": 42.534586000000004,
+     "action": "Fp"
+    },
+    "v9-rand3-M-53": {
+     "cost": 34.530273,
+     "action": "Fp"
+    },
+    "v9-rand3-M-58": {
+     "cost": 29.919771000000004,
+     "action": "Fp"
+    },
+    "v9-rand3-S-05": {
+     "cost": 1.633504,
+     "action": "probe"
+    },
+    "v9-rand3-S-08": {
+     "cost": 4.600893,
+     "action": "probe"
+    },
+    "v9-rand3-S-15": {
+     "cost": 5.746563,
+     "action": "probe"
+    },
+    "v9-rand3-S-18": {
+     "cost": 8.218323999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-32": {
+     "cost": 3.6310000000000002,
+     "action": "probe"
+    },
+    "v9-rand3-S-47": {
+     "cost": 9.383386000000002,
+     "action": "probe"
+    }
+   },
+   "chosen_by_fold": {
+    "0": {
+     "kind": "presolve",
+     "tau": 10,
+     "fallback": "Fp"
+    },
+    "1": {
+     "kind": "presolve",
+     "tau": 10,
+     "fallback": "Fp"
+    },
+    "2": {
+     "kind": "presolve",
+     "tau": 1,
+     "fallback": "Fp"
+    },
+    "3": {
+     "kind": "presolve",
+     "tau": 10,
+     "fallback": "Fp"
+    },
+    "4": {
+     "kind": "presolve",
+     "tau": 10,
+     "fallback": "Fp"
+    }
+   }
+  },
+  "B": {
+   "cv_total": 9455.516985999997,
+   "per_instance": {
+    "v9-assign2-L-00": {
+     "cost": 33.878189,
+     "action": "D"
+    },
+    "v9-assign2-L-05": {
+     "cost": 24.813077,
+     "action": "D"
+    },
+    "v9-assign2-L-28": {
+     "cost": 50.58037,
+     "action": "D"
+    },
+    "v9-assign2-L-37": {
+     "cost": 37.529738,
+     "action": "D"
+    },
+    "v9-assign2-L-39": {
+     "cost": 45.884435,
+     "action": "Fp"
+    },
+    "v9-assign2-L-52": {
+     "cost": 5.467771,
+     "action": "probe"
+    },
+    "v9-assign2-M-00": {
+     "cost": 2.314817,
+     "action": "probe"
+    },
+    "v9-assign2-M-06": {
+     "cost": 0.451045,
+     "action": "probe"
+    },
+    "v9-assign2-M-24": {
+     "cost": 0.538078,
+     "action": "probe"
+    },
+    "v9-assign2-M-39": {
+     "cost": 4.221531000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-42": {
+     "cost": 1.917855,
+     "action": "probe"
+    },
+    "v9-assign2-M-54": {
+     "cost": 1.66208,
+     "action": "probe"
+    },
+    "v9-assign2-S-05": {
+     "cost": 2.293276,
+     "action": "probe"
+    },
+    "v9-assign2-S-08": {
+     "cost": 1.017214,
+     "action": "probe"
+    },
+    "v9-assign2-S-15": {
+     "cost": 2.37432,
+     "action": "probe"
+    },
+    "v9-assign2-S-23": {
+     "cost": 1.052055,
+     "action": "probe"
+    },
+    "v9-assign2-S-28": {
+     "cost": 2.35832,
+     "action": "probe"
+    },
+    "v9-assign2-S-46": {
+     "cost": 1.019305,
+     "action": "probe"
+    },
+    "v9-col3-L-16": {
+     "cost": 6.985184,
+     "action": "probe"
+    },
+    "v9-col3-L-19": {
+     "cost": 1092.532249,
+     "action": "Fp"
+    },
+    "v9-col3-L-29": {
+     "cost": 25.111295,
+     "action": "D"
+    },
+    "v9-col3-L-32": {
+     "cost": 0.935306,
+     "action": "probe"
+    },
+    "v9-col3-L-48": {
+     "cost": 0.28450299999999995,
+     "action": "probe"
+    },
+    "v9-col3-L-49": {
+     "cost": 0.12039699999999999,
+     "action": "probe"
+    },
+    "v9-col3-M-02": {
+     "cost": 40.426229,
+     "action": "Fp"
+    },
+    "v9-col3-M-32": {
+     "cost": 0.105715,
+     "action": "probe"
+    },
+    "v9-col3-M-40": {
+     "cost": 0.49262799999999995,
+     "action": "probe"
+    },
+    "v9-col3-M-41": {
+     "cost": 1.264681,
+     "action": "probe"
+    },
+    "v9-col3-M-43": {
+     "cost": 0.630689,
+     "action": "probe"
+    },
+    "v9-col3-M-54": {
+     "cost": 0.568332,
+     "action": "probe"
+    },
+    "v9-col3-S-10": {
+     "cost": 1.8861149999999998,
+     "action": "probe"
+    },
+    "v9-col3-S-19": {
+     "cost": 0.03966499999999999,
+     "action": "probe"
+    },
+    "v9-col3-S-24": {
+     "cost": 0.152971,
+     "action": "probe"
+    },
+    "v9-col3-S-30": {
+     "cost": 0.047983,
+     "action": "probe"
+    },
+    "v9-col3-S-39": {
+     "cost": 2.0704629999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-43": {
+     "cost": 0.16067399999999998,
+     "action": "probe"
+    },
+    "v9-rand3-L-05": {
+     "cost": 154.38387,
+     "action": "Fp"
+    },
+    "v9-rand3-L-06": {
+     "cost": 0.547481,
+     "action": "probe"
+    },
+    "v9-rand3-L-26": {
+     "cost": 250.126412,
+     "action": "Fp"
+    },
+    "v9-rand3-L-42": {
+     "cost": 131.072037,
+     "action": "Fp"
+    },
+    "v9-rand3-L-46": {
+     "cost": 248.536002,
+     "action": "Fp"
+    },
+    "v9-rand3-L-47": {
+     "cost": 0.535258,
+     "action": "probe"
+    },
+    "v9-rand3-M-10": {
+     "cost": 0.478653,
+     "action": "probe"
+    },
+    "v9-rand3-M-12": {
+     "cost": 6.245578,
+     "action": "probe"
+    },
+    "v9-rand3-M-14": {
+     "cost": 25.925984,
+     "action": "Fp"
+    },
+    "v9-rand3-M-21": {
+     "cost": 0.721953,
+     "action": "probe"
+    },
+    "v9-rand3-M-43": {
+     "cost": 0.522482,
+     "action": "probe"
+    },
+    "v9-rand3-M-55": {
+     "cost": 0.507063,
+     "action": "probe"
+    },
+    "v9-rand3-S-13": {
+     "cost": 6.694702,
+     "action": "probe"
+    },
+    "v9-rand3-S-19": {
+     "cost": 7.699061,
+     "action": "probe"
+    },
+    "v9-rand3-S-37": {
+     "cost": 0.235296,
+     "action": "probe"
+    },
+    "v9-rand3-S-38": {
+     "cost": 17.244631,
+     "action": "Fp"
+    },
+    "v9-rand3-S-44": {
+     "cost": 6.114243999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-56": {
+     "cost": 0.25146,
+     "action": "probe"
+    },
+    "v9-assign2-L-10": {
+     "cost": 50.211394999999996,
+     "action": "D"
+    },
+    "v9-assign2-L-13": {
+     "cost": 58.230776000000006,
+     "action": "Fp"
+    },
+    "v9-assign2-L-21": {
+     "cost": 2.669564,
+     "action": "probe"
+    },
+    "v9-assign2-L-42": {
+     "cost": 5.611027,
+     "action": "probe"
+    },
+    "v9-assign2-L-46": {
+     "cost": 2.318251,
+     "action": "probe"
+    },
+    "v9-assign2-L-58": {
+     "cost": 6.426116,
+     "action": "probe"
+    },
+    "v9-assign2-M-10": {
+     "cost": 3.466693,
+     "action": "probe"
+    },
+    "v9-assign2-M-35": {
+     "cost": 2.165889,
+     "action": "probe"
+    },
+    "v9-assign2-M-49": {
+     "cost": 34.539763,
+     "action": "Fp"
+    },
+    "v9-assign2-M-53": {
+     "cost": 0.6858960000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-57": {
+     "cost": 5.288631,
+     "action": "probe"
+    },
+    "v9-assign2-M-58": {
+     "cost": 4.4349169999999996,
+     "action": "probe"
+    },
+    "v9-assign2-S-00": {
+     "cost": 2.517385,
+     "action": "probe"
+    },
+    "v9-assign2-S-16": {
+     "cost": 0.29212,
+     "action": "probe"
+    },
+    "v9-assign2-S-35": {
+     "cost": 2.014844,
+     "action": "probe"
+    },
+    "v9-assign2-S-45": {
+     "cost": 0.351213,
+     "action": "probe"
+    },
+    "v9-assign2-S-47": {
+     "cost": 1.65391,
+     "action": "probe"
+    },
+    "v9-assign2-S-54": {
+     "cost": 0.254594,
+     "action": "probe"
+    },
+    "v9-col3-L-00": {
+     "cost": 2.765238,
+     "action": "probe"
+    },
+    "v9-col3-L-03": {
+     "cost": 1.457489,
+     "action": "probe"
+    },
+    "v9-col3-L-07": {
+     "cost": 3.93233,
+     "action": "probe"
+    },
+    "v9-col3-L-17": {
+     "cost": 3.500345,
+     "action": "probe"
+    },
+    "v9-col3-L-25": {
+     "cost": 0.406053,
+     "action": "probe"
+    },
+    "v9-col3-L-37": {
+     "cost": 0.735069,
+     "action": "probe"
+    },
+    "v9-col3-M-00": {
+     "cost": 0.182471,
+     "action": "probe"
+    },
+    "v9-col3-M-11": {
+     "cost": 0.57683,
+     "action": "probe"
+    },
+    "v9-col3-M-12": {
+     "cost": 0.283426,
+     "action": "probe"
+    },
+    "v9-col3-M-35": {
+     "cost": 4.846471,
+     "action": "probe"
+    },
+    "v9-col3-M-42": {
+     "cost": 3.323291,
+     "action": "probe"
+    },
+    "v9-col3-M-49": {
+     "cost": 5.836645,
+     "action": "probe"
+    },
+    "v9-col3-S-11": {
+     "cost": 0.205433,
+     "action": "probe"
+    },
+    "v9-col3-S-16": {
+     "cost": 0.055645999999999994,
+     "action": "probe"
+    },
+    "v9-col3-S-29": {
+     "cost": 0.176983,
+     "action": "probe"
+    },
+    "v9-col3-S-41": {
+     "cost": 0.045119,
+     "action": "probe"
+    },
+    "v9-col3-S-51": {
+     "cost": 0.628345,
+     "action": "probe"
+    },
+    "v9-col3-S-59": {
+     "cost": 0.08191799999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-18": {
+     "cost": 0.546769,
+     "action": "probe"
+    },
+    "v9-rand3-L-19": {
+     "cost": 910.21454,
+     "action": "Fp"
+    },
+    "v9-rand3-L-29": {
+     "cost": 103.798133,
+     "action": "Fp"
+    },
+    "v9-rand3-L-34": {
+     "cost": 251.41366499999998,
+     "action": "Fp"
+    },
+    "v9-rand3-L-41": {
+     "cost": 445.940567,
+     "action": "Fm"
+    },
+    "v9-rand3-L-53": {
+     "cost": 6.368186000000001,
+     "action": "probe"
+    },
+    "v9-rand3-M-01": {
+     "cost": 5.876221,
+     "action": "probe"
+    },
+    "v9-rand3-M-05": {
+     "cost": 22.616498999999997,
+     "action": "Fm"
+    },
+    "v9-rand3-M-22": {
+     "cost": 0.509724,
+     "action": "probe"
+    },
+    "v9-rand3-M-24": {
+     "cost": 25.982276,
+     "action": "Fp"
+    },
+    "v9-rand3-M-44": {
+     "cost": 51.74679999999999,
+     "action": "Fm"
+    },
+    "v9-rand3-M-46": {
+     "cost": 26.309171000000003,
+     "action": "Fm"
+    },
+    "v9-rand3-S-03": {
+     "cost": 16.417713,
+     "action": "Fm"
+    },
+    "v9-rand3-S-09": {
+     "cost": 0.48686399999999996,
+     "action": "probe"
+    },
+    "v9-rand3-S-36": {
+     "cost": 0.795431,
+     "action": "probe"
+    },
+    "v9-rand3-S-46": {
+     "cost": 0.202599,
+     "action": "probe"
+    },
+    "v9-rand3-S-53": {
+     "cost": 0.092088,
+     "action": "probe"
+    },
+    "v9-rand3-S-58": {
+     "cost": 5.335189000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-12": {
+     "cost": 56.826601,
+     "action": "Fp"
+    },
+    "v9-assign2-L-18": {
+     "cost": 14.770430999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-L-38": {
+     "cost": 11.388739000000001,
+     "action": "Fp"
+    },
+    "v9-assign2-L-50": {
+     "cost": 7.548512,
+     "action": "Fp"
+    },
+    "v9-assign2-L-51": {
+     "cost": 5.062137999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-L-55": {
+     "cost": 31.165595999999997,
+     "action": "Fp"
+    },
+    "v9-assign2-M-15": {
+     "cost": 3.913722,
+     "action": "Fp"
+    },
+    "v9-assign2-M-16": {
+     "cost": 3.065792,
+     "action": "Fp"
+    },
+    "v9-assign2-M-22": {
+     "cost": 16.299343,
+     "action": "Fp"
+    },
+    "v9-assign2-M-26": {
+     "cost": 11.173491,
+     "action": "Fp"
+    },
+    "v9-assign2-M-27": {
+     "cost": 3.8196410000000003,
+     "action": "Fp"
+    },
+    "v9-assign2-M-51": {
+     "cost": 3.400629,
+     "action": "Fp"
+    },
+    "v9-assign2-S-01": {
+     "cost": 2.638618,
+     "action": "D"
+    },
+    "v9-assign2-S-06": {
+     "cost": 4.075908999999999,
+     "action": "D"
+    },
+    "v9-assign2-S-09": {
+     "cost": 2.0038669999999996,
+     "action": "Fm"
+    },
+    "v9-assign2-S-24": {
+     "cost": 0.19256,
+     "action": "probe"
+    },
+    "v9-assign2-S-26": {
+     "cost": 0.212723,
+     "action": "probe"
+    },
+    "v9-assign2-S-33": {
+     "cost": 1.536935,
+     "action": "Fp"
+    },
+    "v9-col3-L-01": {
+     "cost": 4.321255,
+     "action": "Fp"
+    },
+    "v9-col3-L-06": {
+     "cost": 145.81372100000002,
+     "action": "Fp"
+    },
+    "v9-col3-L-09": {
+     "cost": 1.252899,
+     "action": "Fp"
+    },
+    "v9-col3-L-14": {
+     "cost": 1.1936859999999998,
+     "action": "Fp"
+    },
+    "v9-col3-L-18": {
+     "cost": 0.280906,
+     "action": "probe"
+    },
+    "v9-col3-L-39": {
+     "cost": 0.612646,
+     "action": "probe"
+    },
+    "v9-col3-M-05": {
+     "cost": 2.156796,
+     "action": "Fp"
+    },
+    "v9-col3-M-34": {
+     "cost": 0.611569,
+     "action": "probe"
+    },
+    "v9-col3-M-47": {
+     "cost": 0.541256,
+     "action": "probe"
+    },
+    "v9-col3-M-48": {
+     "cost": 4.8715209999999995,
+     "action": "D"
+    },
+    "v9-col3-M-58": {
+     "cost": 0.146031,
+     "action": "probe"
+    },
+    "v9-col3-M-59": {
+     "cost": 1.253743,
+     "action": "Fp"
+    },
+    "v9-col3-S-18": {
+     "cost": 0.094011,
+     "action": "probe"
+    },
+    "v9-col3-S-33": {
+     "cost": 0.407622,
+     "action": "probe"
+    },
+    "v9-col3-S-37": {
+     "cost": 0.167269,
+     "action": "probe"
+    },
+    "v9-col3-S-40": {
+     "cost": 0.18580799999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-44": {
+     "cost": 3.116187,
+     "action": "D"
+    },
+    "v9-col3-S-52": {
+     "cost": 0.258992,
+     "action": "probe"
+    },
+    "v9-rand3-L-12": {
+     "cost": 0.5265679999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-13": {
+     "cost": 258.895635,
+     "action": "Fp"
+    },
+    "v9-rand3-L-27": {
+     "cost": 0.538382,
+     "action": "probe"
+    },
+    "v9-rand3-L-35": {
+     "cost": 595.9307559999999,
+     "action": "Fp"
+    },
+    "v9-rand3-L-36": {
+     "cost": 131.213483,
+     "action": "Fp"
+    },
+    "v9-rand3-L-40": {
+     "cost": 132.798583,
+     "action": "Fp"
+    },
+    "v9-rand3-M-09": {
+     "cost": 6.804663,
+     "action": "Fm"
+    },
+    "v9-rand3-M-23": {
+     "cost": 0.5229769999999999,
+     "action": "probe"
+    },
+    "v9-rand3-M-30": {
+     "cost": 23.81469,
+     "action": "Fp"
+    },
+    "v9-rand3-M-33": {
+     "cost": 13.775837,
+     "action": "Fp"
+    },
+    "v9-rand3-M-34": {
+     "cost": 25.635669,
+     "action": "Fp"
+    },
+    "v9-rand3-M-42": {
+     "cost": 72.309929,
+     "action": "Fp"
+    },
+    "v9-rand3-S-24": {
+     "cost": 4.5298490000000005,
+     "action": "Fm"
+    },
+    "v9-rand3-S-25": {
+     "cost": 5.868877,
+     "action": "Fm"
+    },
+    "v9-rand3-S-28": {
+     "cost": 4.212046,
+     "action": "Fm"
+    },
+    "v9-rand3-S-30": {
+     "cost": 0.469001,
+     "action": "probe"
+    },
+    "v9-rand3-S-43": {
+     "cost": 1.80274,
+     "action": "Fm"
+    },
+    "v9-rand3-S-57": {
+     "cost": 3.188861,
+     "action": "Fm"
+    },
+    "v9-assign2-L-07": {
+     "cost": 5.486153000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-20": {
+     "cost": 34.650554,
+     "action": "D"
+    },
+    "v9-assign2-L-33": {
+     "cost": 63.824627,
+     "action": "Fp"
+    },
+    "v9-assign2-L-43": {
+     "cost": 26.950012,
+     "action": "Fp"
+    },
+    "v9-assign2-L-44": {
+     "cost": 5.844518000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-47": {
+     "cost": 5.1658409999999995,
+     "action": "probe"
+    },
+    "v9-assign2-M-11": {
+     "cost": 1.7652750000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-28": {
+     "cost": 0.45545800000000003,
+     "action": "probe"
+    },
+    "v9-assign2-M-31": {
+     "cost": 3.510598,
+     "action": "probe"
+    },
+    "v9-assign2-M-33": {
+     "cost": 3.081993,
+     "action": "probe"
+    },
+    "v9-assign2-M-41": {
+     "cost": 3.5414109999999996,
+     "action": "probe"
+    },
+    "v9-assign2-M-55": {
+     "cost": 2.46914,
+     "action": "probe"
+    },
+    "v9-assign2-S-03": {
+     "cost": 0.412381,
+     "action": "probe"
+    },
+    "v9-assign2-S-10": {
+     "cost": 0.452867,
+     "action": "probe"
+    },
+    "v9-assign2-S-25": {
+     "cost": 3.269778,
+     "action": "probe"
+    },
+    "v9-assign2-S-34": {
+     "cost": 3.9290439999999998,
+     "action": "probe"
+    },
+    "v9-assign2-S-49": {
+     "cost": 1.895016,
+     "action": "probe"
+    },
+    "v9-assign2-S-52": {
+     "cost": 5.239342000000001,
+     "action": "probe"
+    },
+    "v9-col3-L-04": {
+     "cost": 1.431195,
+     "action": "probe"
+    },
+    "v9-col3-L-08": {
+     "cost": 3.5295099999999997,
+     "action": "probe"
+    },
+    "v9-col3-L-20": {
+     "cost": 15.504551000000001,
+     "action": "Fp"
+    },
+    "v9-col3-L-23": {
+     "cost": 1.444905,
+     "action": "probe"
+    },
+    "v9-col3-L-28": {
+     "cost": 1.5850840000000002,
+     "action": "probe"
+    },
+    "v9-col3-L-34": {
+     "cost": 3.612712,
+     "action": "probe"
+    },
+    "v9-col3-M-08": {
+     "cost": 69.015699,
+     "action": "Fp"
+    },
+    "v9-col3-M-27": {
+     "cost": 1.267011,
+     "action": "probe"
+    },
+    "v9-col3-M-29": {
+     "cost": 38.7055,
+     "action": "Fp"
+    },
+    "v9-col3-M-30": {
+     "cost": 133.155829,
+     "action": "Fp"
+    },
+    "v9-col3-M-45": {
+     "cost": 1.387872,
+     "action": "probe"
+    },
+    "v9-col3-M-56": {
+     "cost": 1.2341579999999999,
+     "action": "probe"
+    },
+    "v9-col3-S-05": {
+     "cost": 0.22463499999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-14": {
+     "cost": 0.592674,
+     "action": "probe"
+    },
+    "v9-col3-S-34": {
+     "cost": 0.042904,
+     "action": "probe"
+    },
+    "v9-col3-S-55": {
+     "cost": 1.381184,
+     "action": "probe"
+    },
+    "v9-col3-S-56": {
+     "cost": 0.21095999999999998,
+     "action": "probe"
+    },
+    "v9-col3-S-58": {
+     "cost": 0.653719,
+     "action": "probe"
+    },
+    "v9-rand3-L-16": {
+     "cost": 142.05495900000003,
+     "action": "Fp"
+    },
+    "v9-rand3-L-24": {
+     "cost": 156.254868,
+     "action": "Fp"
+    },
+    "v9-rand3-L-25": {
+     "cost": 0.5358689999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-51": {
+     "cost": 500.70067900000004,
+     "action": "Fp"
+    },
+    "v9-rand3-L-52": {
+     "cost": 0.535472,
+     "action": "probe"
+    },
+    "v9-rand3-L-59": {
+     "cost": 1.984365,
+     "action": "probe"
+    },
+    "v9-rand3-M-03": {
+     "cost": 26.411921999999997,
+     "action": "Fp"
+    },
+    "v9-rand3-M-08": {
+     "cost": 1.9585000000000001,
+     "action": "probe"
+    },
+    "v9-rand3-M-26": {
+     "cost": 34.709424,
+     "action": "Fp"
+    },
+    "v9-rand3-M-41": {
+     "cost": 0.5261009999999999,
+     "action": "probe"
+    },
+    "v9-rand3-M-49": {
+     "cost": 38.827816999999996,
+     "action": "Fp"
+    },
+    "v9-rand3-M-50": {
+     "cost": 28.507942999999997,
+     "action": "Fp"
+    },
+    "v9-rand3-S-12": {
+     "cost": 4.427715999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-17": {
+     "cost": 0.414188,
+     "action": "probe"
+    },
+    "v9-rand3-S-31": {
+     "cost": 0.09986699999999998,
+     "action": "probe"
+    },
+    "v9-rand3-S-35": {
+     "cost": 2.51731,
+     "action": "probe"
+    },
+    "v9-rand3-S-40": {
+     "cost": 0.253724,
+     "action": "probe"
+    },
+    "v9-rand3-S-50": {
+     "cost": 0.263461,
+     "action": "probe"
+    },
+    "v9-assign2-L-01": {
+     "cost": 34.680514,
+     "action": "Fp"
+    },
+    "v9-assign2-L-09": {
+     "cost": 5.2912040000000005,
+     "action": "probe"
+    },
+    "v9-assign2-L-16": {
+     "cost": 19.713057,
+     "action": "Fp"
+    },
+    "v9-assign2-L-23": {
+     "cost": 5.693498,
+     "action": "probe"
+    },
+    "v9-assign2-L-27": {
+     "cost": 4.3862559999999995,
+     "action": "probe"
+    },
+    "v9-assign2-L-32": {
+     "cost": 18.540678,
+     "action": "Fp"
+    },
+    "v9-assign2-M-02": {
+     "cost": 23.431593,
+     "action": "Fp"
+    },
+    "v9-assign2-M-03": {
+     "cost": 6.227848,
+     "action": "probe"
+    },
+    "v9-assign2-M-12": {
+     "cost": 6.159925,
+     "action": "probe"
+    },
+    "v9-assign2-M-29": {
+     "cost": 2.8621779999999997,
+     "action": "probe"
+    },
+    "v9-assign2-M-45": {
+     "cost": 30.834403000000002,
+     "action": "D"
+    },
+    "v9-assign2-M-47": {
+     "cost": 6.950578999999999,
+     "action": "probe"
+    },
+    "v9-assign2-S-20": {
+     "cost": 2.226638,
+     "action": "probe"
+    },
+    "v9-assign2-S-21": {
+     "cost": 2.181292,
+     "action": "probe"
+    },
+    "v9-assign2-S-30": {
+     "cost": 1.609257,
+     "action": "probe"
+    },
+    "v9-assign2-S-43": {
+     "cost": 0.410114,
+     "action": "probe"
+    },
+    "v9-assign2-S-55": {
+     "cost": 1.8955189999999997,
+     "action": "probe"
+    },
+    "v9-assign2-S-56": {
+     "cost": 4.240873000000001,
+     "action": "probe"
+    },
+    "v9-col3-L-21": {
+     "cost": 31.576307999999997,
+     "action": "Fp"
+    },
+    "v9-col3-L-22": {
+     "cost": 100.244747,
+     "action": "Fp"
+    },
+    "v9-col3-L-27": {
+     "cost": 16.583884,
+     "action": "Fp"
+    },
+    "v9-col3-L-47": {
+     "cost": 0.29307500000000003,
+     "action": "probe"
+    },
+    "v9-col3-L-50": {
+     "cost": 3.301626,
+     "action": "probe"
+    },
+    "v9-col3-L-55": {
+     "cost": 12.204433000000002,
+     "action": "Fp"
+    },
+    "v9-col3-M-04": {
+     "cost": 0.715298,
+     "action": "probe"
+    },
+    "v9-col3-M-06": {
+     "cost": 0.096857,
+     "action": "probe"
+    },
+    "v9-col3-M-15": {
+     "cost": 2.893813,
+     "action": "probe"
+    },
+    "v9-col3-M-23": {
+     "cost": 34.87113599999999,
+     "action": "Fp"
+    },
+    "v9-col3-M-25": {
+     "cost": 25.924576000000002,
+     "action": "Fp"
+    },
+    "v9-col3-M-37": {
+     "cost": 0.7239990000000001,
+     "action": "probe"
+    },
+    "v9-col3-S-07": {
+     "cost": 0.055201,
+     "action": "probe"
+    },
+    "v9-col3-S-17": {
+     "cost": 4.788365,
+     "action": "probe"
+    },
+    "v9-col3-S-42": {
+     "cost": 0.191972,
+     "action": "probe"
+    },
+    "v9-col3-S-47": {
+     "cost": 0.800327,
+     "action": "probe"
+    },
+    "v9-col3-S-48": {
+     "cost": 0.276844,
+     "action": "probe"
+    },
+    "v9-col3-S-54": {
+     "cost": 0.525172,
+     "action": "probe"
+    },
+    "v9-rand3-L-00": {
+     "cost": 947.956471,
+     "action": "Fm"
+    },
+    "v9-rand3-L-15": {
+     "cost": 2.827456,
+     "action": "probe"
+    },
+    "v9-rand3-L-32": {
+     "cost": 0.558073,
+     "action": "probe"
+    },
+    "v9-rand3-L-33": {
+     "cost": 0.5515469999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-38": {
+     "cost": 546.996321,
+     "action": "Fm"
+    },
+    "v9-rand3-L-49": {
+     "cost": 0.950108,
+     "action": "probe"
+    },
+    "v9-rand3-M-06": {
+     "cost": 0.497245,
+     "action": "probe"
+    },
+    "v9-rand3-M-13": {
+     "cost": 37.654928999999996,
+     "action": "Fm"
+    },
+    "v9-rand3-M-29": {
+     "cost": 19.807282999999998,
+     "action": "Fp"
+    },
+    "v9-rand3-M-40": {
+     "cost": 37.689879000000005,
+     "action": "Fm"
+    },
+    "v9-rand3-M-53": {
+     "cost": 28.507925,
+     "action": "Fm"
+    },
+    "v9-rand3-M-58": {
+     "cost": 29.919771000000004,
+     "action": "Fp"
+    },
+    "v9-rand3-S-05": {
+     "cost": 1.633504,
+     "action": "probe"
+    },
+    "v9-rand3-S-08": {
+     "cost": 4.600893,
+     "action": "probe"
+    },
+    "v9-rand3-S-15": {
+     "cost": 5.746563,
+     "action": "probe"
+    },
+    "v9-rand3-S-18": {
+     "cost": 8.218323999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-32": {
+     "cost": 3.6310000000000002,
+     "action": "probe"
+    },
+    "v9-rand3-S-47": {
+     "cost": 9.383386000000002,
+     "action": "probe"
+    }
+   },
+   "chosen_by_fold": {
+    "0": {
+     "kind": "gate",
+     "tau": 10,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio",
+      "s_bin_frac",
+      "s_pos_frac",
+      "r_log_conflicts",
+      "c_dec_per_conf",
+      "c_props_per_dec",
+      "c_glue_mean",
+      "x_trail_frac",
+      "x_best_frac",
+      "x_saved_neg_frac"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "ridge",
+      "alpha": 100,
+      "margin": 20
+     },
+     "reader_method": "ridge"
+    },
+    "1": {
+     "kind": "gate",
+     "tau": 10,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio",
+      "s_bin_frac",
+      "s_pos_frac",
+      "r_log_conflicts",
+      "c_dec_per_conf",
+      "c_props_per_dec",
+      "c_glue_mean",
+      "x_trail_frac",
+      "x_best_frac",
+      "x_saved_neg_frac"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "ridge",
+      "alpha": 1,
+      "margin": 0
+     },
+     "reader_method": "ridge"
+    },
+    "2": {
+     "kind": "gate",
+     "tau": 1,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio",
+      "s_bin_frac",
+      "s_pos_frac",
+      "r_log_conflicts",
+      "c_dec_per_conf",
+      "c_props_per_dec",
+      "c_glue_mean",
+      "x_trail_frac",
+      "x_best_frac",
+      "x_saved_neg_frac"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "ridge",
+      "alpha": 10,
+      "margin": 0
+     },
+     "reader_method": "ridge"
+    },
+    "3": {
+     "kind": "gate",
+     "tau": 10,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio",
+      "s_bin_frac",
+      "s_pos_frac",
+      "r_log_conflicts",
+      "c_dec_per_conf",
+      "c_props_per_dec",
+      "c_glue_mean",
+      "x_trail_frac",
+      "x_best_frac",
+      "x_saved_neg_frac"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "ridge",
+      "alpha": 100,
+      "margin": 0
+     },
+     "reader_method": "ridge"
+    },
+    "4": {
+     "kind": "gate",
+     "tau": 10,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio",
+      "s_bin_frac",
+      "s_pos_frac",
+      "r_log_conflicts",
+      "c_dec_per_conf",
+      "c_props_per_dec",
+      "c_glue_mean",
+      "x_trail_frac",
+      "x_best_frac",
+      "x_saved_neg_frac"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "ridge",
+      "alpha": 1,
+      "margin": 0
+     },
+     "reader_method": "ridge"
+    }
+   }
+  },
+  "B_s": {
+   "cv_total": 9060.177855999998,
+   "per_instance": {
+    "v9-assign2-L-00": {
+     "cost": 45.059382,
+     "action": "Fp"
+    },
+    "v9-assign2-L-05": {
+     "cost": 25.305226,
+     "action": "Fp"
+    },
+    "v9-assign2-L-28": {
+     "cost": 52.158863,
+     "action": "Fp"
+    },
+    "v9-assign2-L-37": {
+     "cost": 38.953739,
+     "action": "Fp"
+    },
+    "v9-assign2-L-39": {
+     "cost": 45.884435,
+     "action": "Fp"
+    },
+    "v9-assign2-L-52": {
+     "cost": 5.467771,
+     "action": "probe"
+    },
+    "v9-assign2-M-00": {
+     "cost": 2.314817,
+     "action": "probe"
+    },
+    "v9-assign2-M-06": {
+     "cost": 0.451045,
+     "action": "probe"
+    },
+    "v9-assign2-M-24": {
+     "cost": 0.538078,
+     "action": "probe"
+    },
+    "v9-assign2-M-39": {
+     "cost": 4.221531000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-42": {
+     "cost": 1.917855,
+     "action": "probe"
+    },
+    "v9-assign2-M-54": {
+     "cost": 1.66208,
+     "action": "probe"
+    },
+    "v9-assign2-S-05": {
+     "cost": 2.293276,
+     "action": "probe"
+    },
+    "v9-assign2-S-08": {
+     "cost": 1.017214,
+     "action": "probe"
+    },
+    "v9-assign2-S-15": {
+     "cost": 2.37432,
+     "action": "probe"
+    },
+    "v9-assign2-S-23": {
+     "cost": 1.052055,
+     "action": "probe"
+    },
+    "v9-assign2-S-28": {
+     "cost": 2.35832,
+     "action": "probe"
+    },
+    "v9-assign2-S-46": {
+     "cost": 1.019305,
+     "action": "probe"
+    },
+    "v9-col3-L-16": {
+     "cost": 6.985184,
+     "action": "probe"
+    },
+    "v9-col3-L-19": {
+     "cost": 1092.532249,
+     "action": "Fp"
+    },
+    "v9-col3-L-29": {
+     "cost": 21.343129,
+     "action": "Fp"
+    },
+    "v9-col3-L-32": {
+     "cost": 0.935306,
+     "action": "probe"
+    },
+    "v9-col3-L-48": {
+     "cost": 0.28450299999999995,
+     "action": "probe"
+    },
+    "v9-col3-L-49": {
+     "cost": 0.12039699999999999,
+     "action": "probe"
+    },
+    "v9-col3-M-02": {
+     "cost": 40.426229,
+     "action": "Fp"
+    },
+    "v9-col3-M-32": {
+     "cost": 0.105715,
+     "action": "probe"
+    },
+    "v9-col3-M-40": {
+     "cost": 0.49262799999999995,
+     "action": "probe"
+    },
+    "v9-col3-M-41": {
+     "cost": 1.264681,
+     "action": "probe"
+    },
+    "v9-col3-M-43": {
+     "cost": 0.630689,
+     "action": "probe"
+    },
+    "v9-col3-M-54": {
+     "cost": 0.568332,
+     "action": "probe"
+    },
+    "v9-col3-S-10": {
+     "cost": 1.8861149999999998,
+     "action": "probe"
+    },
+    "v9-col3-S-19": {
+     "cost": 0.03966499999999999,
+     "action": "probe"
+    },
+    "v9-col3-S-24": {
+     "cost": 0.152971,
+     "action": "probe"
+    },
+    "v9-col3-S-30": {
+     "cost": 0.047983,
+     "action": "probe"
+    },
+    "v9-col3-S-39": {
+     "cost": 2.0704629999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-43": {
+     "cost": 0.16067399999999998,
+     "action": "probe"
+    },
+    "v9-rand3-L-05": {
+     "cost": 154.38387,
+     "action": "Fp"
+    },
+    "v9-rand3-L-06": {
+     "cost": 0.547481,
+     "action": "probe"
+    },
+    "v9-rand3-L-26": {
+     "cost": 250.126412,
+     "action": "Fp"
+    },
+    "v9-rand3-L-42": {
+     "cost": 131.072037,
+     "action": "Fp"
+    },
+    "v9-rand3-L-46": {
+     "cost": 248.536002,
+     "action": "Fp"
+    },
+    "v9-rand3-L-47": {
+     "cost": 0.535258,
+     "action": "probe"
+    },
+    "v9-rand3-M-10": {
+     "cost": 0.478653,
+     "action": "probe"
+    },
+    "v9-rand3-M-12": {
+     "cost": 6.245578,
+     "action": "probe"
+    },
+    "v9-rand3-M-14": {
+     "cost": 25.925984,
+     "action": "Fp"
+    },
+    "v9-rand3-M-21": {
+     "cost": 0.721953,
+     "action": "probe"
+    },
+    "v9-rand3-M-43": {
+     "cost": 0.522482,
+     "action": "probe"
+    },
+    "v9-rand3-M-55": {
+     "cost": 0.507063,
+     "action": "probe"
+    },
+    "v9-rand3-S-13": {
+     "cost": 6.694702,
+     "action": "probe"
+    },
+    "v9-rand3-S-19": {
+     "cost": 7.699061,
+     "action": "probe"
+    },
+    "v9-rand3-S-37": {
+     "cost": 0.235296,
+     "action": "probe"
+    },
+    "v9-rand3-S-38": {
+     "cost": 17.244631,
+     "action": "Fp"
+    },
+    "v9-rand3-S-44": {
+     "cost": 6.114243999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-56": {
+     "cost": 0.25146,
+     "action": "probe"
+    },
+    "v9-assign2-L-10": {
+     "cost": 48.142973,
+     "action": "Fp"
+    },
+    "v9-assign2-L-13": {
+     "cost": 58.230776000000006,
+     "action": "Fp"
+    },
+    "v9-assign2-L-21": {
+     "cost": 2.669564,
+     "action": "probe"
+    },
+    "v9-assign2-L-42": {
+     "cost": 5.611027,
+     "action": "probe"
+    },
+    "v9-assign2-L-46": {
+     "cost": 2.318251,
+     "action": "probe"
+    },
+    "v9-assign2-L-58": {
+     "cost": 6.426116,
+     "action": "probe"
+    },
+    "v9-assign2-M-10": {
+     "cost": 3.466693,
+     "action": "probe"
+    },
+    "v9-assign2-M-35": {
+     "cost": 2.165889,
+     "action": "probe"
+    },
+    "v9-assign2-M-49": {
+     "cost": 34.539763,
+     "action": "Fp"
+    },
+    "v9-assign2-M-53": {
+     "cost": 0.6858960000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-57": {
+     "cost": 5.288631,
+     "action": "probe"
+    },
+    "v9-assign2-M-58": {
+     "cost": 4.4349169999999996,
+     "action": "probe"
+    },
+    "v9-assign2-S-00": {
+     "cost": 2.517385,
+     "action": "probe"
+    },
+    "v9-assign2-S-16": {
+     "cost": 0.29212,
+     "action": "probe"
+    },
+    "v9-assign2-S-35": {
+     "cost": 2.014844,
+     "action": "probe"
+    },
+    "v9-assign2-S-45": {
+     "cost": 0.351213,
+     "action": "probe"
+    },
+    "v9-assign2-S-47": {
+     "cost": 1.65391,
+     "action": "probe"
+    },
+    "v9-assign2-S-54": {
+     "cost": 0.254594,
+     "action": "probe"
+    },
+    "v9-col3-L-00": {
+     "cost": 2.765238,
+     "action": "probe"
+    },
+    "v9-col3-L-03": {
+     "cost": 1.457489,
+     "action": "probe"
+    },
+    "v9-col3-L-07": {
+     "cost": 3.93233,
+     "action": "probe"
+    },
+    "v9-col3-L-17": {
+     "cost": 3.500345,
+     "action": "probe"
+    },
+    "v9-col3-L-25": {
+     "cost": 0.406053,
+     "action": "probe"
+    },
+    "v9-col3-L-37": {
+     "cost": 0.735069,
+     "action": "probe"
+    },
+    "v9-col3-M-00": {
+     "cost": 0.182471,
+     "action": "probe"
+    },
+    "v9-col3-M-11": {
+     "cost": 0.57683,
+     "action": "probe"
+    },
+    "v9-col3-M-12": {
+     "cost": 0.283426,
+     "action": "probe"
+    },
+    "v9-col3-M-35": {
+     "cost": 4.846471,
+     "action": "probe"
+    },
+    "v9-col3-M-42": {
+     "cost": 3.323291,
+     "action": "probe"
+    },
+    "v9-col3-M-49": {
+     "cost": 5.836645,
+     "action": "probe"
+    },
+    "v9-col3-S-11": {
+     "cost": 0.205433,
+     "action": "probe"
+    },
+    "v9-col3-S-16": {
+     "cost": 0.055645999999999994,
+     "action": "probe"
+    },
+    "v9-col3-S-29": {
+     "cost": 0.176983,
+     "action": "probe"
+    },
+    "v9-col3-S-41": {
+     "cost": 0.045119,
+     "action": "probe"
+    },
+    "v9-col3-S-51": {
+     "cost": 0.628345,
+     "action": "probe"
+    },
+    "v9-col3-S-59": {
+     "cost": 0.08191799999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-18": {
+     "cost": 0.546769,
+     "action": "probe"
+    },
+    "v9-rand3-L-19": {
+     "cost": 910.21454,
+     "action": "Fp"
+    },
+    "v9-rand3-L-29": {
+     "cost": 103.798133,
+     "action": "Fp"
+    },
+    "v9-rand3-L-34": {
+     "cost": 251.41366499999998,
+     "action": "Fp"
+    },
+    "v9-rand3-L-41": {
+     "cost": 386.76378300000005,
+     "action": "Fp"
+    },
+    "v9-rand3-L-53": {
+     "cost": 6.368186000000001,
+     "action": "probe"
+    },
+    "v9-rand3-M-01": {
+     "cost": 5.876221,
+     "action": "probe"
+    },
+    "v9-rand3-M-05": {
+     "cost": 29.199605,
+     "action": "Fp"
+    },
+    "v9-rand3-M-22": {
+     "cost": 0.509724,
+     "action": "probe"
+    },
+    "v9-rand3-M-24": {
+     "cost": 25.982276,
+     "action": "Fp"
+    },
+    "v9-rand3-M-44": {
+     "cost": 52.73575600000001,
+     "action": "Fp"
+    },
+    "v9-rand3-M-46": {
+     "cost": 24.766269,
+     "action": "Fp"
+    },
+    "v9-rand3-S-03": {
+     "cost": 16.239229,
+     "action": "Fp"
+    },
+    "v9-rand3-S-09": {
+     "cost": 0.48686399999999996,
+     "action": "probe"
+    },
+    "v9-rand3-S-36": {
+     "cost": 0.795431,
+     "action": "probe"
+    },
+    "v9-rand3-S-46": {
+     "cost": 0.202599,
+     "action": "probe"
+    },
+    "v9-rand3-S-53": {
+     "cost": 0.092088,
+     "action": "probe"
+    },
+    "v9-rand3-S-58": {
+     "cost": 5.335189000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-12": {
+     "cost": 56.826601,
+     "action": "Fp"
+    },
+    "v9-assign2-L-18": {
+     "cost": 14.770430999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-L-38": {
+     "cost": 11.388739000000001,
+     "action": "Fp"
+    },
+    "v9-assign2-L-50": {
+     "cost": 7.548512,
+     "action": "Fp"
+    },
+    "v9-assign2-L-51": {
+     "cost": 5.062137999999999,
+     "action": "Fp"
+    },
+    "v9-assign2-L-55": {
+     "cost": 31.165595999999997,
+     "action": "Fp"
+    },
+    "v9-assign2-M-15": {
+     "cost": 3.913722,
+     "action": "Fp"
+    },
+    "v9-assign2-M-16": {
+     "cost": 3.065792,
+     "action": "Fp"
+    },
+    "v9-assign2-M-22": {
+     "cost": 16.299343,
+     "action": "Fp"
+    },
+    "v9-assign2-M-26": {
+     "cost": 11.173491,
+     "action": "Fp"
+    },
+    "v9-assign2-M-27": {
+     "cost": 3.8196410000000003,
+     "action": "Fp"
+    },
+    "v9-assign2-M-51": {
+     "cost": 3.400629,
+     "action": "Fp"
+    },
+    "v9-assign2-S-01": {
+     "cost": 3.844739,
+     "action": "Fp"
+    },
+    "v9-assign2-S-06": {
+     "cost": 3.845307,
+     "action": "Fp"
+    },
+    "v9-assign2-S-09": {
+     "cost": 2.491141,
+     "action": "Fp"
+    },
+    "v9-assign2-S-24": {
+     "cost": 0.19256,
+     "action": "probe"
+    },
+    "v9-assign2-S-26": {
+     "cost": 0.212723,
+     "action": "probe"
+    },
+    "v9-assign2-S-33": {
+     "cost": 1.536935,
+     "action": "Fp"
+    },
+    "v9-col3-L-01": {
+     "cost": 4.321255,
+     "action": "Fp"
+    },
+    "v9-col3-L-06": {
+     "cost": 145.81372100000002,
+     "action": "Fp"
+    },
+    "v9-col3-L-09": {
+     "cost": 1.252899,
+     "action": "Fp"
+    },
+    "v9-col3-L-14": {
+     "cost": 1.1936859999999998,
+     "action": "Fp"
+    },
+    "v9-col3-L-18": {
+     "cost": 0.280906,
+     "action": "probe"
+    },
+    "v9-col3-L-39": {
+     "cost": 0.612646,
+     "action": "probe"
+    },
+    "v9-col3-M-05": {
+     "cost": 2.156796,
+     "action": "Fp"
+    },
+    "v9-col3-M-34": {
+     "cost": 0.611569,
+     "action": "probe"
+    },
+    "v9-col3-M-47": {
+     "cost": 0.541256,
+     "action": "probe"
+    },
+    "v9-col3-M-48": {
+     "cost": 5.265447,
+     "action": "Fp"
+    },
+    "v9-col3-M-58": {
+     "cost": 0.146031,
+     "action": "probe"
+    },
+    "v9-col3-M-59": {
+     "cost": 1.253743,
+     "action": "Fp"
+    },
+    "v9-col3-S-18": {
+     "cost": 0.094011,
+     "action": "probe"
+    },
+    "v9-col3-S-33": {
+     "cost": 0.407622,
+     "action": "probe"
+    },
+    "v9-col3-S-37": {
+     "cost": 0.167269,
+     "action": "probe"
+    },
+    "v9-col3-S-40": {
+     "cost": 0.18580799999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-44": {
+     "cost": 1.2851780000000002,
+     "action": "Fp"
+    },
+    "v9-col3-S-52": {
+     "cost": 0.258992,
+     "action": "probe"
+    },
+    "v9-rand3-L-12": {
+     "cost": 0.5265679999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-13": {
+     "cost": 258.895635,
+     "action": "Fp"
+    },
+    "v9-rand3-L-27": {
+     "cost": 0.538382,
+     "action": "probe"
+    },
+    "v9-rand3-L-35": {
+     "cost": 595.9307559999999,
+     "action": "Fp"
+    },
+    "v9-rand3-L-36": {
+     "cost": 131.213483,
+     "action": "Fp"
+    },
+    "v9-rand3-L-40": {
+     "cost": 132.798583,
+     "action": "Fp"
+    },
+    "v9-rand3-M-09": {
+     "cost": 6.804663,
+     "action": "Fm"
+    },
+    "v9-rand3-M-23": {
+     "cost": 0.5229769999999999,
+     "action": "probe"
+    },
+    "v9-rand3-M-30": {
+     "cost": 20.79963,
+     "action": "Fm"
+    },
+    "v9-rand3-M-33": {
+     "cost": 15.61907,
+     "action": "Fm"
+    },
+    "v9-rand3-M-34": {
+     "cost": 20.310009000000004,
+     "action": "Fm"
+    },
+    "v9-rand3-M-42": {
+     "cost": 63.526472999999996,
+     "action": "Fm"
+    },
+    "v9-rand3-S-24": {
+     "cost": 4.5298490000000005,
+     "action": "Fm"
+    },
+    "v9-rand3-S-25": {
+     "cost": 5.868877,
+     "action": "Fm"
+    },
+    "v9-rand3-S-28": {
+     "cost": 4.212046,
+     "action": "Fm"
+    },
+    "v9-rand3-S-30": {
+     "cost": 0.469001,
+     "action": "probe"
+    },
+    "v9-rand3-S-43": {
+     "cost": 1.80274,
+     "action": "Fm"
+    },
+    "v9-rand3-S-57": {
+     "cost": 3.188861,
+     "action": "Fm"
+    },
+    "v9-assign2-L-07": {
+     "cost": 5.486153000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-20": {
+     "cost": 32.925746000000004,
+     "action": "Fp"
+    },
+    "v9-assign2-L-33": {
+     "cost": 63.824627,
+     "action": "Fp"
+    },
+    "v9-assign2-L-43": {
+     "cost": 26.950012,
+     "action": "Fp"
+    },
+    "v9-assign2-L-44": {
+     "cost": 5.844518000000001,
+     "action": "probe"
+    },
+    "v9-assign2-L-47": {
+     "cost": 5.1658409999999995,
+     "action": "probe"
+    },
+    "v9-assign2-M-11": {
+     "cost": 1.7652750000000001,
+     "action": "probe"
+    },
+    "v9-assign2-M-28": {
+     "cost": 0.45545800000000003,
+     "action": "probe"
+    },
+    "v9-assign2-M-31": {
+     "cost": 3.510598,
+     "action": "probe"
+    },
+    "v9-assign2-M-33": {
+     "cost": 3.081993,
+     "action": "probe"
+    },
+    "v9-assign2-M-41": {
+     "cost": 3.5414109999999996,
+     "action": "probe"
+    },
+    "v9-assign2-M-55": {
+     "cost": 2.46914,
+     "action": "probe"
+    },
+    "v9-assign2-S-03": {
+     "cost": 0.412381,
+     "action": "probe"
+    },
+    "v9-assign2-S-10": {
+     "cost": 0.452867,
+     "action": "probe"
+    },
+    "v9-assign2-S-25": {
+     "cost": 3.269778,
+     "action": "probe"
+    },
+    "v9-assign2-S-34": {
+     "cost": 3.9290439999999998,
+     "action": "probe"
+    },
+    "v9-assign2-S-49": {
+     "cost": 1.895016,
+     "action": "probe"
+    },
+    "v9-assign2-S-52": {
+     "cost": 5.239342000000001,
+     "action": "probe"
+    },
+    "v9-col3-L-04": {
+     "cost": 1.431195,
+     "action": "probe"
+    },
+    "v9-col3-L-08": {
+     "cost": 3.5295099999999997,
+     "action": "probe"
+    },
+    "v9-col3-L-20": {
+     "cost": 15.504551000000001,
+     "action": "Fp"
+    },
+    "v9-col3-L-23": {
+     "cost": 1.444905,
+     "action": "probe"
+    },
+    "v9-col3-L-28": {
+     "cost": 1.5850840000000002,
+     "action": "probe"
+    },
+    "v9-col3-L-34": {
+     "cost": 3.612712,
+     "action": "probe"
+    },
+    "v9-col3-M-08": {
+     "cost": 69.015699,
+     "action": "Fp"
+    },
+    "v9-col3-M-27": {
+     "cost": 1.267011,
+     "action": "probe"
+    },
+    "v9-col3-M-29": {
+     "cost": 38.7055,
+     "action": "Fp"
+    },
+    "v9-col3-M-30": {
+     "cost": 133.155829,
+     "action": "Fp"
+    },
+    "v9-col3-M-45": {
+     "cost": 1.387872,
+     "action": "probe"
+    },
+    "v9-col3-M-56": {
+     "cost": 1.2341579999999999,
+     "action": "probe"
+    },
+    "v9-col3-S-05": {
+     "cost": 0.22463499999999997,
+     "action": "probe"
+    },
+    "v9-col3-S-14": {
+     "cost": 0.592674,
+     "action": "probe"
+    },
+    "v9-col3-S-34": {
+     "cost": 0.042904,
+     "action": "probe"
+    },
+    "v9-col3-S-55": {
+     "cost": 1.381184,
+     "action": "probe"
+    },
+    "v9-col3-S-56": {
+     "cost": 0.21095999999999998,
+     "action": "probe"
+    },
+    "v9-col3-S-58": {
+     "cost": 0.653719,
+     "action": "probe"
+    },
+    "v9-rand3-L-16": {
+     "cost": 142.05495900000003,
+     "action": "Fp"
+    },
+    "v9-rand3-L-24": {
+     "cost": 156.254868,
+     "action": "Fp"
+    },
+    "v9-rand3-L-25": {
+     "cost": 0.5358689999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-51": {
+     "cost": 500.70067900000004,
+     "action": "Fp"
+    },
+    "v9-rand3-L-52": {
+     "cost": 0.535472,
+     "action": "probe"
+    },
+    "v9-rand3-L-59": {
+     "cost": 1.984365,
+     "action": "probe"
+    },
+    "v9-rand3-M-03": {
+     "cost": 21.970039999999997,
+     "action": "Fm"
+    },
+    "v9-rand3-M-08": {
+     "cost": 1.9585000000000001,
+     "action": "probe"
+    },
+    "v9-rand3-M-26": {
+     "cost": 34.334751,
+     "action": "Fm"
+    },
+    "v9-rand3-M-41": {
+     "cost": 0.5261009999999999,
+     "action": "probe"
+    },
+    "v9-rand3-M-49": {
+     "cost": 37.731629,
+     "action": "Fm"
+    },
+    "v9-rand3-M-50": {
+     "cost": 28.225094,
+     "action": "Fm"
+    },
+    "v9-rand3-S-12": {
+     "cost": 4.427715999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-17": {
+     "cost": 0.414188,
+     "action": "probe"
+    },
+    "v9-rand3-S-31": {
+     "cost": 0.09986699999999998,
+     "action": "probe"
+    },
+    "v9-rand3-S-35": {
+     "cost": 2.51731,
+     "action": "probe"
+    },
+    "v9-rand3-S-40": {
+     "cost": 0.253724,
+     "action": "probe"
+    },
+    "v9-rand3-S-50": {
+     "cost": 0.263461,
+     "action": "probe"
+    },
+    "v9-assign2-L-01": {
+     "cost": 34.680514,
+     "action": "Fp"
+    },
+    "v9-assign2-L-09": {
+     "cost": 5.2912040000000005,
+     "action": "probe"
+    },
+    "v9-assign2-L-16": {
+     "cost": 19.713057,
+     "action": "Fp"
+    },
+    "v9-assign2-L-23": {
+     "cost": 5.693498,
+     "action": "probe"
+    },
+    "v9-assign2-L-27": {
+     "cost": 4.3862559999999995,
+     "action": "probe"
+    },
+    "v9-assign2-L-32": {
+     "cost": 18.540678,
+     "action": "Fp"
+    },
+    "v9-assign2-M-02": {
+     "cost": 23.431593,
+     "action": "Fp"
+    },
+    "v9-assign2-M-03": {
+     "cost": 6.227848,
+     "action": "probe"
+    },
+    "v9-assign2-M-12": {
+     "cost": 6.159925,
+     "action": "probe"
+    },
+    "v9-assign2-M-29": {
+     "cost": 2.8621779999999997,
+     "action": "probe"
+    },
+    "v9-assign2-M-45": {
+     "cost": 23.516875,
+     "action": "Fp"
+    },
+    "v9-assign2-M-47": {
+     "cost": 6.950578999999999,
+     "action": "probe"
+    },
+    "v9-assign2-S-20": {
+     "cost": 2.226638,
+     "action": "probe"
+    },
+    "v9-assign2-S-21": {
+     "cost": 2.181292,
+     "action": "probe"
+    },
+    "v9-assign2-S-30": {
+     "cost": 1.609257,
+     "action": "probe"
+    },
+    "v9-assign2-S-43": {
+     "cost": 0.410114,
+     "action": "probe"
+    },
+    "v9-assign2-S-55": {
+     "cost": 1.8955189999999997,
+     "action": "probe"
+    },
+    "v9-assign2-S-56": {
+     "cost": 4.240873000000001,
+     "action": "probe"
+    },
+    "v9-col3-L-21": {
+     "cost": 31.576307999999997,
+     "action": "Fp"
+    },
+    "v9-col3-L-22": {
+     "cost": 100.244747,
+     "action": "Fp"
+    },
+    "v9-col3-L-27": {
+     "cost": 16.583884,
+     "action": "Fp"
+    },
+    "v9-col3-L-47": {
+     "cost": 0.29307500000000003,
+     "action": "probe"
+    },
+    "v9-col3-L-50": {
+     "cost": 3.301626,
+     "action": "probe"
+    },
+    "v9-col3-L-55": {
+     "cost": 12.204433000000002,
+     "action": "Fp"
+    },
+    "v9-col3-M-04": {
+     "cost": 0.715298,
+     "action": "probe"
+    },
+    "v9-col3-M-06": {
+     "cost": 0.096857,
+     "action": "probe"
+    },
+    "v9-col3-M-15": {
+     "cost": 2.893813,
+     "action": "probe"
+    },
+    "v9-col3-M-23": {
+     "cost": 34.87113599999999,
+     "action": "Fp"
+    },
+    "v9-col3-M-25": {
+     "cost": 25.924576000000002,
+     "action": "Fp"
+    },
+    "v9-col3-M-37": {
+     "cost": 0.7239990000000001,
+     "action": "probe"
+    },
+    "v9-col3-S-07": {
+     "cost": 0.055201,
+     "action": "probe"
+    },
+    "v9-col3-S-17": {
+     "cost": 4.788365,
+     "action": "probe"
+    },
+    "v9-col3-S-42": {
+     "cost": 0.191972,
+     "action": "probe"
+    },
+    "v9-col3-S-47": {
+     "cost": 0.800327,
+     "action": "probe"
+    },
+    "v9-col3-S-48": {
+     "cost": 0.276844,
+     "action": "probe"
+    },
+    "v9-col3-S-54": {
+     "cost": 0.525172,
+     "action": "probe"
+    },
+    "v9-rand3-L-00": {
+     "cost": 554.9936929999999,
+     "action": "Fp"
+    },
+    "v9-rand3-L-15": {
+     "cost": 2.827456,
+     "action": "probe"
+    },
+    "v9-rand3-L-32": {
+     "cost": 0.558073,
+     "action": "probe"
+    },
+    "v9-rand3-L-33": {
+     "cost": 0.5515469999999999,
+     "action": "probe"
+    },
+    "v9-rand3-L-38": {
+     "cost": 610.55632,
+     "action": "Fp"
+    },
+    "v9-rand3-L-49": {
+     "cost": 0.950108,
+     "action": "probe"
+    },
+    "v9-rand3-M-06": {
+     "cost": 0.497245,
+     "action": "probe"
+    },
+    "v9-rand3-M-13": {
+     "cost": 35.831544,
+     "action": "Fp"
+    },
+    "v9-rand3-M-29": {
+     "cost": 19.807282999999998,
+     "action": "Fp"
+    },
+    "v9-rand3-M-40": {
+     "cost": 42.534586000000004,
+     "action": "Fp"
+    },
+    "v9-rand3-M-53": {
+     "cost": 34.530273,
+     "action": "Fp"
+    },
+    "v9-rand3-M-58": {
+     "cost": 29.919771000000004,
+     "action": "Fp"
+    },
+    "v9-rand3-S-05": {
+     "cost": 1.633504,
+     "action": "probe"
+    },
+    "v9-rand3-S-08": {
+     "cost": 4.600893,
+     "action": "probe"
+    },
+    "v9-rand3-S-15": {
+     "cost": 5.746563,
+     "action": "probe"
+    },
+    "v9-rand3-S-18": {
+     "cost": 8.218323999999999,
+     "action": "probe"
+    },
+    "v9-rand3-S-32": {
+     "cost": 3.6310000000000002,
+     "action": "probe"
+    },
+    "v9-rand3-S-47": {
+     "cost": 9.383386000000002,
+     "action": "probe"
+    }
+   },
+   "chosen_by_fold": {
+    "0": {
+     "kind": "gate",
+     "tau": 10,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "ridge",
+      "alpha": 10,
+      "margin": 0
+     },
+     "reader_method": "ridge"
+    },
+    "1": {
+     "kind": "gate",
+     "tau": 10,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "tree",
+      "margin": 0
+     },
+     "reader_method": "tree"
+    },
+    "2": {
+     "kind": "gate",
+     "tau": 1,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "tree",
+      "margin": 0
+     },
+     "reader_method": "tree"
+    },
+    "3": {
+     "kind": "gate",
+     "tau": 10,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "tree",
+      "margin": 0
+     },
+     "reader_method": "tree"
+    },
+    "4": {
+     "kind": "gate",
+     "tau": 10,
+     "features": [
+      "s_log_vars",
+      "s_log_clauses",
+      "s_cv_ratio"
+     ],
+     "missing_action": "Fp",
+     "hyper": {
+      "reader": "ridge",
+      "alpha": 10,
+      "margin": 0
+     },
+     "reader_method": "ridge"
+    }
+   }
+  }
+ },
+ "main_family": "SBS",
+ "main_strategy": {
+  "kind": "fixed",
+  "action": "Fp",
+  "name": "v9_main_SBS",
+  "family": "SBS",
+  "inner_cv_total_all_dev": null,
+  "in_sample_total": 9038.973744000006
+ },
+ "controls_in_sample": {
+  "D": 4.338417000000001,
+  "main": 3.936424
+ }
+}

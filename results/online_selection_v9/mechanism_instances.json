@@ -1,0 +1,168 @@
+{
+ "instances": [
+  "v9-rand3-S-53",
+  "v9-rand3-S-30",
+  "v9-rand3-S-56",
+  "v9-rand3-S-44",
+  "v9-rand3-S-35",
+  "v9-rand3-S-32",
+  "v9-rand3-M-10",
+  "v9-rand3-M-41",
+  "v9-rand3-M-55",
+  "v9-rand3-M-44",
+  "v9-rand3-M-33",
+  "v9-rand3-M-58",
+  "v9-rand3-L-47",
+  "v9-rand3-L-18",
+  "v9-rand3-L-35",
+  "v9-rand3-L-16",
+  "v9-rand3-L-00",
+  "v9-rand3-L-42",
+  "v9-col3-S-16",
+  "v9-col3-S-18",
+  "v9-col3-S-34",
+  "v9-col3-S-19",
+  "v9-col3-S-58",
+  "v9-col3-S-40",
+  "v9-col3-M-54",
+  "v9-col3-M-59",
+  "v9-col3-M-40",
+  "v9-col3-M-49",
+  "v9-col3-M-08",
+  "v9-col3-M-25",
+  "v9-col3-L-03",
+  "v9-col3-L-09",
+  "v9-col3-L-20",
+  "v9-col3-L-19",
+  "v9-col3-L-16",
+  "v9-col3-L-22",
+  "v9-assign2-S-23",
+  "v9-assign2-S-16",
+  "v9-assign2-S-09",
+  "v9-assign2-S-06",
+  "v9-assign2-S-05",
+  "v9-assign2-S-10",
+  "v9-assign2-M-06",
+  "v9-assign2-M-53",
+  "v9-assign2-M-15",
+  "v9-assign2-M-22",
+  "v9-assign2-M-57",
+  "v9-assign2-M-12",
+  "v9-assign2-L-39",
+  "v9-assign2-L-42",
+  "v9-assign2-L-51",
+  "v9-assign2-L-20",
+  "v9-assign2-L-12",
+  "v9-assign2-L-37"
+ ],
+ "cells": {
+  "rand3-S": {
+   "SAT_available": 12,
+   "UNSAT_available": 18,
+   "picked": {
+    "v9-rand3-S-53": "SAT",
+    "v9-rand3-S-30": "SAT",
+    "v9-rand3-S-56": "SAT",
+    "v9-rand3-S-44": "UNSAT",
+    "v9-rand3-S-35": "UNSAT",
+    "v9-rand3-S-32": "UNSAT"
+   }
+  },
+  "rand3-M": {
+   "SAT_available": 10,
+   "UNSAT_available": 20,
+   "picked": {
+    "v9-rand3-M-10": "SAT",
+    "v9-rand3-M-41": "SAT",
+    "v9-rand3-M-55": "SAT",
+    "v9-rand3-M-44": "UNSAT",
+    "v9-rand3-M-33": "UNSAT",
+    "v9-rand3-M-58": "UNSAT"
+   }
+  },
+  "rand3-L": {
+   "SAT_available": 15,
+   "UNSAT_available": 15,
+   "picked": {
+    "v9-rand3-L-47": "SAT",
+    "v9-rand3-L-18": "SAT",
+    "v9-rand3-L-35": "SAT",
+    "v9-rand3-L-16": "UNSAT",
+    "v9-rand3-L-00": "UNSAT",
+    "v9-rand3-L-42": "UNSAT"
+   }
+  },
+  "col3-S": {
+   "SAT_available": 19,
+   "UNSAT_available": 11,
+   "picked": {
+    "v9-col3-S-16": "SAT",
+    "v9-col3-S-18": "SAT",
+    "v9-col3-S-34": "SAT",
+    "v9-col3-S-19": "UNSAT",
+    "v9-col3-S-58": "UNSAT",
+    "v9-col3-S-40": "UNSAT"
+   }
+  },
+  "col3-M": {
+   "SAT_available": 23,
+   "UNSAT_available": 7,
+   "picked": {
+    "v9-col3-M-54": "SAT",
+    "v9-col3-M-59": "SAT",
+    "v9-col3-M-40": "SAT",
+    "v9-col3-M-49": "UNSAT",
+    "v9-col3-M-08": "UNSAT",
+    "v9-col3-M-25": "UNSAT"
+   }
+  },
+  "col3-L": {
+   "SAT_available": 24,
+   "UNSAT_available": 6,
+   "picked": {
+    "v9-col3-L-03": "SAT",
+    "v9-col3-L-09": "SAT",
+    "v9-col3-L-20": "SAT",
+    "v9-col3-L-19": "UNSAT",
+    "v9-col3-L-16": "UNSAT",
+    "v9-col3-L-22": "UNSAT"
+   }
+  },
+  "assign2-S": {
+   "SAT_available": 28,
+   "UNSAT_available": 2,
+   "picked": {
+    "v9-assign2-S-23": "SAT",
+    "v9-assign2-S-16": "SAT",
+    "v9-assign2-S-09": "SAT",
+    "v9-assign2-S-06": "UNSAT",
+    "v9-assign2-S-05": "UNSAT",
+    "v9-assign2-S-10": "SAT"
+   }
+  },
+  "assign2-M": {
+   "SAT_available": 27,
+   "UNSAT_available": 3,
+   "picked": {
+    "v9-assign2-M-06": "SAT",
+    "v9-assign2-M-53": "SAT",
+    "v9-assign2-M-15": "SAT",
+    "v9-assign2-M-22": "UNSAT",
+    "v9-assign2-M-57": "UNSAT",
+    "v9-assign2-M-12": "UNSAT"
+   }
+  },
+  "assign2-L": {
+   "SAT_available": 27,
+   "UNSAT_available": 3,
+   "picked": {
+    "v9-assign2-L-39": "SAT",
+    "v9-assign2-L-42": "SAT",
+    "v9-assign2-L-51": "SAT",
+    "v9-assign2-L-20": "UNSAT",
+    "v9-assign2-L-12": "UNSAT",
+    "v9-assign2-L-37": "UNSAT"
+   }
+  }
+ }
+}

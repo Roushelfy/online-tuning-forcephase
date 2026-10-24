@@ -10,7 +10,7 @@ STAGE="$1"; PLAN="${2:-}"; GENPLAN="${3:-}"; GENMAN="${4:-}"; TIME="${5:-7-00:00
 FP_DATA="${FP_DATA:-/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase}"
 mkdir -p "$FP_DATA/logs/slurm"
 # --array=0-0: gs-srun inside sbatch runs in the allocation only for array jobs
-sbatch --parsable --job-name="v9-$STAGE" --partition=cpu-low --nodes=1 --ntasks=1 --cpus-per-task=72 --mem=700G \
+sbatch --parsable --job-name="v9-$STAGE" --partition=cpu-low --nodes=1 --ntasks=1 --cpus-per-task="${V9_CPUS:-72}" --mem="${V9_MEM:-700G}" \
   --time="$TIME" --array=0-0 $EXTRA \
   --output="$FP_DATA/logs/slurm/v9-$STAGE-%A_%a.out" --error="$FP_DATA/logs/slurm/v9-$STAGE-%A_%a.err" \
   --export=ALL,FP_DATA="$FP_DATA",V9_ROOT="$ROOT",V9_PLAN="$PLAN",V9_STAGE="$STAGE",V9_GENPLAN="$GENPLAN",V9_GENMAN="$GENMAN" <<'EOS'
