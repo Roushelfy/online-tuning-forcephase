@@ -1,0 +1,102 @@
+{
+  "version": 8,
+  "status": "goal set; pilot not started",
+  "goal_file": "docs/AGENT_GOAL.md",
+  "research_question": "Recognize when D/Fp/Fm works best across controlled problem types, scales and difficulty.",
+  "metric": "mean_completed_cpu_seconds",
+  "aggregation": "arithmetic_mean_on_identical_fixed_panel",
+  "scoring_cutoff_cpu_seconds": null,
+  "timeout_penalty": null,
+  "incomplete_mean": null,
+  "problem_types": [
+    "random_k_sat",
+    "graph_coloring",
+    "coupled_cardinality_assignment_or_scheduling"
+  ],
+  "scale_levels": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "scale_definition": "per-family generator parameters; pilot calibrated",
+  "pilot": {
+    "initial_base_instances": 9,
+    "max_base_instances": 18,
+    "max_calibration_rounds": 2,
+    "administrative_cpu_cap_per_run": 180,
+    "formal_panel_overlap": false
+  },
+  "formal": {
+    "target_base_instances": 90,
+    "allowed_sizes_before_freeze": [
+      90,
+      54,
+      27
+    ],
+    "selected_size": null,
+    "instance_seed_sets": "independent of pilot; fixed before formal runs",
+    "split_by_cell": {
+      "27": {
+        "development": 2,
+        "heldout": 1
+      },
+      "54": {
+        "development": 4,
+        "heldout": 2
+      },
+      "90": {
+        "development": 7,
+        "heldout": 3
+      }
+    },
+    "selection_basis": "pilot compute/coverage, never which action wins",
+    "post_freeze_drop_or_replace": false,
+    "holdout_outcomes_hidden_until_rule_freeze": true,
+    "variant_grouping": "all encodings/sign flips/permutations of a base problem stay together"
+  },
+  "actions": {
+    "D": [
+      "--phase=1",
+      "--forcephase=0"
+    ],
+    "Fp": [
+      "--phase=1",
+      "--forcephase=1"
+    ],
+    "Fm": [
+      "--phase=0",
+      "--forcephase=1"
+    ]
+  },
+  "solver_commit": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+  "solver_seed": 0,
+  "max_rule_methods": 2,
+  "max_final_selectors": 1,
+  "initial_feature_count_target": [
+    8,
+    12
+  ],
+  "preserve_v7_panel_and_results": true,
+  "v7_source_commit": "8727837b07c76e69ad2f9c6499b4ba7e4ec97acf",
+  "budget": {
+    "cumulative_cpu_hours_cap": 200,
+    "used_cpu_hours_at_goal_estimate": 195.89,
+    "remaining_cpu_hours_estimate": 4.11,
+    "stage_plan_cpu_hours": {
+      "pilot_and_generation": 0.75,
+      "formal_fixed_features_and_wrapper": 2.5,
+      "checks_models_analysis_reports": 0.6,
+      "reserve": 0.26
+    },
+    "requires_actual_ledger_check_before_run": true,
+    "automatic_budget_increase": false
+  },
+  "comparators": [
+    "always_D",
+    "Fp",
+    "Fm",
+    "best_fixed_action_selected_on_development",
+    "oracle"
+  ],
+  "selector_gain_claim_requires_comparison_with_development_selected_SBS": true
+}
