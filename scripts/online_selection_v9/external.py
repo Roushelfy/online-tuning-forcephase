@@ -115,7 +115,7 @@ def main():
         b = {"instance": r["id"], "sha256": r["sha256"], "rep": 0}
         jobs += [dict(b, method=m) for m in ("D", "Fp", "Fm")]
         jobs.append(dict(b, method="W", strategy="configs/online_selection_v9/strategies/ref_D2_Fp.json"))
-    json.dump({"stage": "external", "jobs": jobs}, open(os.path.join(CFG, "external.json"), "w"), indent=1)
+    json.dump({"stage": "external_r2", "jobs": jobs}, open(os.path.join(CFG, "external.json"), "w"), indent=1)
     print(len(rows), "selected;", len(ids), "kept; duplicates", dups, "; competition matches checked", len(comp))
 
 

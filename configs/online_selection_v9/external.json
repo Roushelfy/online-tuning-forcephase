@@ -1,377 +1,377 @@
 {
- "stage": "external",
+ "stage": "external_r2",
  "jobs": [
   {
    "instance": "ext-uf250-1065-uf250-01",
-   "sha256": "6424cfd179e01d1a3e79f140477953c4cecf80456c6c5f2364c8114985c23209",
+   "sha256": "7d1811c02e0b7ed4a775670a66cf1d0f236cb0cf5216cf5a22cf743278c29176",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uf250-1065-uf250-01",
-   "sha256": "6424cfd179e01d1a3e79f140477953c4cecf80456c6c5f2364c8114985c23209",
+   "sha256": "7d1811c02e0b7ed4a775670a66cf1d0f236cb0cf5216cf5a22cf743278c29176",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uf250-1065-uf250-01",
-   "sha256": "6424cfd179e01d1a3e79f140477953c4cecf80456c6c5f2364c8114985c23209",
+   "sha256": "7d1811c02e0b7ed4a775670a66cf1d0f236cb0cf5216cf5a22cf743278c29176",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uf250-1065-uf250-01",
-   "sha256": "6424cfd179e01d1a3e79f140477953c4cecf80456c6c5f2364c8114985c23209",
+   "sha256": "7d1811c02e0b7ed4a775670a66cf1d0f236cb0cf5216cf5a22cf743278c29176",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uf250-1065-uf250-02",
-   "sha256": "d5f83f0b2a3f8fb5a975b38643f5248202a0ba6a84ef327007643fb3c265d538",
+   "sha256": "591b7938039ab190e36cee282d1430b6d8cbe1bdf7e68a67f4ddb35edc675804",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uf250-1065-uf250-02",
-   "sha256": "d5f83f0b2a3f8fb5a975b38643f5248202a0ba6a84ef327007643fb3c265d538",
+   "sha256": "591b7938039ab190e36cee282d1430b6d8cbe1bdf7e68a67f4ddb35edc675804",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uf250-1065-uf250-02",
-   "sha256": "d5f83f0b2a3f8fb5a975b38643f5248202a0ba6a84ef327007643fb3c265d538",
+   "sha256": "591b7938039ab190e36cee282d1430b6d8cbe1bdf7e68a67f4ddb35edc675804",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uf250-1065-uf250-02",
-   "sha256": "d5f83f0b2a3f8fb5a975b38643f5248202a0ba6a84ef327007643fb3c265d538",
+   "sha256": "591b7938039ab190e36cee282d1430b6d8cbe1bdf7e68a67f4ddb35edc675804",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uf250-1065-uf250-03",
-   "sha256": "514f073327962e3f1bed673028d3c359301ac7ebe62b0d50d8d90f97cf1ab285",
+   "sha256": "1ef306ae2fc8ebe33ea30e97e2247a938bb896bb4de896949577d4443c79ef1b",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uf250-1065-uf250-03",
-   "sha256": "514f073327962e3f1bed673028d3c359301ac7ebe62b0d50d8d90f97cf1ab285",
+   "sha256": "1ef306ae2fc8ebe33ea30e97e2247a938bb896bb4de896949577d4443c79ef1b",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uf250-1065-uf250-03",
-   "sha256": "514f073327962e3f1bed673028d3c359301ac7ebe62b0d50d8d90f97cf1ab285",
+   "sha256": "1ef306ae2fc8ebe33ea30e97e2247a938bb896bb4de896949577d4443c79ef1b",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uf250-1065-uf250-03",
-   "sha256": "514f073327962e3f1bed673028d3c359301ac7ebe62b0d50d8d90f97cf1ab285",
+   "sha256": "1ef306ae2fc8ebe33ea30e97e2247a938bb896bb4de896949577d4443c79ef1b",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uf250-1065-uf250-04",
-   "sha256": "c3fbcd6fd28afebb464a4a26840d355d25c15c4c1022e685ff10a12e9d878c72",
+   "sha256": "f6e062e1437456e183e74e8e4d8faf3188a8b925691c14fd66a7c6792db8243e",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uf250-1065-uf250-04",
-   "sha256": "c3fbcd6fd28afebb464a4a26840d355d25c15c4c1022e685ff10a12e9d878c72",
+   "sha256": "f6e062e1437456e183e74e8e4d8faf3188a8b925691c14fd66a7c6792db8243e",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uf250-1065-uf250-04",
-   "sha256": "c3fbcd6fd28afebb464a4a26840d355d25c15c4c1022e685ff10a12e9d878c72",
+   "sha256": "f6e062e1437456e183e74e8e4d8faf3188a8b925691c14fd66a7c6792db8243e",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uf250-1065-uf250-04",
-   "sha256": "c3fbcd6fd28afebb464a4a26840d355d25c15c4c1022e685ff10a12e9d878c72",
+   "sha256": "f6e062e1437456e183e74e8e4d8faf3188a8b925691c14fd66a7c6792db8243e",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uf250-1065-uf250-05",
-   "sha256": "29e3a9f0703af7e93a0086d4a8955656435c01d7cb2b295fcb91a62e816134ad",
+   "sha256": "51daa47d2b716e5b84ebf470ca31cd8db689354025e266121f07379a3fc39f92",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uf250-1065-uf250-05",
-   "sha256": "29e3a9f0703af7e93a0086d4a8955656435c01d7cb2b295fcb91a62e816134ad",
+   "sha256": "51daa47d2b716e5b84ebf470ca31cd8db689354025e266121f07379a3fc39f92",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uf250-1065-uf250-05",
-   "sha256": "29e3a9f0703af7e93a0086d4a8955656435c01d7cb2b295fcb91a62e816134ad",
+   "sha256": "51daa47d2b716e5b84ebf470ca31cd8db689354025e266121f07379a3fc39f92",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uf250-1065-uf250-05",
-   "sha256": "29e3a9f0703af7e93a0086d4a8955656435c01d7cb2b295fcb91a62e816134ad",
+   "sha256": "51daa47d2b716e5b84ebf470ca31cd8db689354025e266121f07379a3fc39f92",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uf250-1065-uf250-06",
-   "sha256": "bfc61a8227c0888a879a8d2077b6349c099d1ee91dac1d118a8d1d86d2d63024",
+   "sha256": "80f748827dff7b7bf24dc15ce055d5138d37ef7689c8158b99cf7d827d831680",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uf250-1065-uf250-06",
-   "sha256": "bfc61a8227c0888a879a8d2077b6349c099d1ee91dac1d118a8d1d86d2d63024",
+   "sha256": "80f748827dff7b7bf24dc15ce055d5138d37ef7689c8158b99cf7d827d831680",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uf250-1065-uf250-06",
-   "sha256": "bfc61a8227c0888a879a8d2077b6349c099d1ee91dac1d118a8d1d86d2d63024",
+   "sha256": "80f748827dff7b7bf24dc15ce055d5138d37ef7689c8158b99cf7d827d831680",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uf250-1065-uf250-06",
-   "sha256": "bfc61a8227c0888a879a8d2077b6349c099d1ee91dac1d118a8d1d86d2d63024",
+   "sha256": "80f748827dff7b7bf24dc15ce055d5138d37ef7689c8158b99cf7d827d831680",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uf250-1065-uf250-07",
-   "sha256": "eab718b66f4be4db477c2adcfff022cd6d1ab932868439b542ee239721039f08",
+   "sha256": "bea92c786295b4456a1a3a2a8c067a57793ba377803f36836acd96574213574f",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uf250-1065-uf250-07",
-   "sha256": "eab718b66f4be4db477c2adcfff022cd6d1ab932868439b542ee239721039f08",
+   "sha256": "bea92c786295b4456a1a3a2a8c067a57793ba377803f36836acd96574213574f",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uf250-1065-uf250-07",
-   "sha256": "eab718b66f4be4db477c2adcfff022cd6d1ab932868439b542ee239721039f08",
+   "sha256": "bea92c786295b4456a1a3a2a8c067a57793ba377803f36836acd96574213574f",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uf250-1065-uf250-07",
-   "sha256": "eab718b66f4be4db477c2adcfff022cd6d1ab932868439b542ee239721039f08",
+   "sha256": "bea92c786295b4456a1a3a2a8c067a57793ba377803f36836acd96574213574f",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uf250-1065-uf250-08",
-   "sha256": "da0a61f34ce8788a6c01dcbe8bb0b29a4ea50909952c9661a7a4ab45fa088aa2",
+   "sha256": "54898728b5fccdb8ebe9cdb5840a5d44b30b0e77f6cfc682053421d2fb9ff723",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uf250-1065-uf250-08",
-   "sha256": "da0a61f34ce8788a6c01dcbe8bb0b29a4ea50909952c9661a7a4ab45fa088aa2",
+   "sha256": "54898728b5fccdb8ebe9cdb5840a5d44b30b0e77f6cfc682053421d2fb9ff723",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uf250-1065-uf250-08",
-   "sha256": "da0a61f34ce8788a6c01dcbe8bb0b29a4ea50909952c9661a7a4ab45fa088aa2",
+   "sha256": "54898728b5fccdb8ebe9cdb5840a5d44b30b0e77f6cfc682053421d2fb9ff723",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uf250-1065-uf250-08",
-   "sha256": "da0a61f34ce8788a6c01dcbe8bb0b29a4ea50909952c9661a7a4ab45fa088aa2",
+   "sha256": "54898728b5fccdb8ebe9cdb5840a5d44b30b0e77f6cfc682053421d2fb9ff723",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-01",
-   "sha256": "c5288813129af583741b694b42a423179ae6f6783c2cbae5ec62d476a724344a",
+   "sha256": "840d1365f2faa35b6039626b881d838c747dd84880924ef5cf066ba1a1bdb611",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-01",
-   "sha256": "c5288813129af583741b694b42a423179ae6f6783c2cbae5ec62d476a724344a",
+   "sha256": "840d1365f2faa35b6039626b881d838c747dd84880924ef5cf066ba1a1bdb611",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-01",
-   "sha256": "c5288813129af583741b694b42a423179ae6f6783c2cbae5ec62d476a724344a",
+   "sha256": "840d1365f2faa35b6039626b881d838c747dd84880924ef5cf066ba1a1bdb611",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-01",
-   "sha256": "c5288813129af583741b694b42a423179ae6f6783c2cbae5ec62d476a724344a",
+   "sha256": "840d1365f2faa35b6039626b881d838c747dd84880924ef5cf066ba1a1bdb611",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-02",
-   "sha256": "b02da20f2d0944a026e77f297a0ac45492a499c4b71acb3177d265ed03831de9",
+   "sha256": "c4882d7f566b15e88113fdc750ab4c008f29b4c6bb00c61e973204ab08eb4627",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-02",
-   "sha256": "b02da20f2d0944a026e77f297a0ac45492a499c4b71acb3177d265ed03831de9",
+   "sha256": "c4882d7f566b15e88113fdc750ab4c008f29b4c6bb00c61e973204ab08eb4627",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-02",
-   "sha256": "b02da20f2d0944a026e77f297a0ac45492a499c4b71acb3177d265ed03831de9",
+   "sha256": "c4882d7f566b15e88113fdc750ab4c008f29b4c6bb00c61e973204ab08eb4627",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-02",
-   "sha256": "b02da20f2d0944a026e77f297a0ac45492a499c4b71acb3177d265ed03831de9",
+   "sha256": "c4882d7f566b15e88113fdc750ab4c008f29b4c6bb00c61e973204ab08eb4627",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-03",
-   "sha256": "fcb5594ff9084c7d4f5a2d4dc563a943c797ecf9c5a39686735c55a186bcad25",
+   "sha256": "1a3bb4f0f856ee2916157a1bd6adee0fb3a3db7ebd7a950245222f216b7457cf",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-03",
-   "sha256": "fcb5594ff9084c7d4f5a2d4dc563a943c797ecf9c5a39686735c55a186bcad25",
+   "sha256": "1a3bb4f0f856ee2916157a1bd6adee0fb3a3db7ebd7a950245222f216b7457cf",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-03",
-   "sha256": "fcb5594ff9084c7d4f5a2d4dc563a943c797ecf9c5a39686735c55a186bcad25",
+   "sha256": "1a3bb4f0f856ee2916157a1bd6adee0fb3a3db7ebd7a950245222f216b7457cf",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-03",
-   "sha256": "fcb5594ff9084c7d4f5a2d4dc563a943c797ecf9c5a39686735c55a186bcad25",
+   "sha256": "1a3bb4f0f856ee2916157a1bd6adee0fb3a3db7ebd7a950245222f216b7457cf",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-04",
-   "sha256": "690797d8bb39411648e215f7e762e217abe685682c3e8bb05dd62fac1f7444ea",
+   "sha256": "eaf6d16842c118f93446d1d2539dec7e62ed65e624f9149afc84610aec05b232",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-04",
-   "sha256": "690797d8bb39411648e215f7e762e217abe685682c3e8bb05dd62fac1f7444ea",
+   "sha256": "eaf6d16842c118f93446d1d2539dec7e62ed65e624f9149afc84610aec05b232",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-04",
-   "sha256": "690797d8bb39411648e215f7e762e217abe685682c3e8bb05dd62fac1f7444ea",
+   "sha256": "eaf6d16842c118f93446d1d2539dec7e62ed65e624f9149afc84610aec05b232",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-04",
-   "sha256": "690797d8bb39411648e215f7e762e217abe685682c3e8bb05dd62fac1f7444ea",
+   "sha256": "eaf6d16842c118f93446d1d2539dec7e62ed65e624f9149afc84610aec05b232",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-05",
-   "sha256": "bf5d05c80a37b426ae0bd1c6a93c7e091f2065927d6407fa26eda228d31467e7",
+   "sha256": "9fbdb0d14a5e97e592b0041496e19d2685a1be6984c3a9519fa283665536c9cf",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-05",
-   "sha256": "bf5d05c80a37b426ae0bd1c6a93c7e091f2065927d6407fa26eda228d31467e7",
+   "sha256": "9fbdb0d14a5e97e592b0041496e19d2685a1be6984c3a9519fa283665536c9cf",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-05",
-   "sha256": "bf5d05c80a37b426ae0bd1c6a93c7e091f2065927d6407fa26eda228d31467e7",
+   "sha256": "9fbdb0d14a5e97e592b0041496e19d2685a1be6984c3a9519fa283665536c9cf",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-05",
-   "sha256": "bf5d05c80a37b426ae0bd1c6a93c7e091f2065927d6407fa26eda228d31467e7",
+   "sha256": "9fbdb0d14a5e97e592b0041496e19d2685a1be6984c3a9519fa283665536c9cf",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-06",
-   "sha256": "7196f5fa28b8ebac73bd1e495a73704b08021abb64e16c5068fbdc54d1c2361f",
+   "sha256": "54b16e200bc9a231bc656159996428b0763e2af22dbc51fa5eca4b7dee3cc5c7",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-06",
-   "sha256": "7196f5fa28b8ebac73bd1e495a73704b08021abb64e16c5068fbdc54d1c2361f",
+   "sha256": "54b16e200bc9a231bc656159996428b0763e2af22dbc51fa5eca4b7dee3cc5c7",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-06",
-   "sha256": "7196f5fa28b8ebac73bd1e495a73704b08021abb64e16c5068fbdc54d1c2361f",
+   "sha256": "54b16e200bc9a231bc656159996428b0763e2af22dbc51fa5eca4b7dee3cc5c7",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-06",
-   "sha256": "7196f5fa28b8ebac73bd1e495a73704b08021abb64e16c5068fbdc54d1c2361f",
+   "sha256": "54b16e200bc9a231bc656159996428b0763e2af22dbc51fa5eca4b7dee3cc5c7",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-07",
-   "sha256": "fc0a497f52121173b50f4174857b8acdf1f143282bc5d093438f45e7e57373d1",
+   "sha256": "01bdde0f600a2b4281a459926ff9efb0dbc336eb0c05c53c75107bfc37124a8d",
    "rep": 0,
    "method": "D"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-07",
-   "sha256": "fc0a497f52121173b50f4174857b8acdf1f143282bc5d093438f45e7e57373d1",
+   "sha256": "01bdde0f600a2b4281a459926ff9efb0dbc336eb0c05c53c75107bfc37124a8d",
    "rep": 0,
    "method": "Fp"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-07",
-   "sha256": "fc0a497f52121173b50f4174857b8acdf1f143282bc5d093438f45e7e57373d1",
+   "sha256": "01bdde0f600a2b4281a459926ff9efb0dbc336eb0c05c53c75107bfc37124a8d",
    "rep": 0,
    "method": "Fm"
   },
   {
    "instance": "ext-uuf250-1065-uuf250-07",
-   "sha256": "fc0a497f52121173b50f4174857b8acdf1f143282bc5d093438f45e7e57373d1",
+   "sha256": "01bdde0f600a2b4281a459926ff9efb0dbc336eb0c05c53c75107bfc37124a8d",
    "rep": 0,
    "method": "W",
    "strategy": "configs/online_selection_v9/strategies/ref_D2_Fp.json"

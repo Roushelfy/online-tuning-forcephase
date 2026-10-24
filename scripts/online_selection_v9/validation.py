@@ -106,6 +106,8 @@ def main():
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
     split = json.load(open(os.path.join(CFG, "split.json")))
+    if os.path.exists(os.path.join(CFG, "split_external.json")):  # external SATLIB panel: one 'cell' per archive
+        split.update(json.load(open(os.path.join(CFG, "split_external.json"))))
     wrappers = {}
     if a.main:
         wrappers[a.main] = "W_main"

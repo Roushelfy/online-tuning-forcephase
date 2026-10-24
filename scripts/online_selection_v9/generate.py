@@ -46,7 +46,9 @@ def parse_dimacs(text):
     nv, clauses, cur = 0, [], []
     for line in text.splitlines():
         line = line.strip()
-        if not line or line[0] in "c%":
+        if line.startswith("%"):
+            break  # SATLIB end-of-formula marker; a following lone '0' is not an empty clause (deviation 3)
+        if not line or line[0] == "c":
             continue
         if line[0] == "p":
             nv = int(line.split()[2])
