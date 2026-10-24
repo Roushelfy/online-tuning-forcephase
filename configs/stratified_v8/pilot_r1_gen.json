@@ -1,0 +1,86 @@
+{
+ "stage": "pilot_r1",
+ "instances": [
+  {
+   "id": "v8p-r1-rand3-S",
+   "type": "rand3",
+   "scale": "S",
+   "param": 260,
+   "seed": 8001000,
+   "role": "pilot",
+   "round": 1
+  },
+  {
+   "id": "v8p-r1-rand3-M",
+   "type": "rand3",
+   "scale": "M",
+   "param": 300,
+   "seed": 8001010,
+   "role": "pilot",
+   "round": 1
+  },
+  {
+   "id": "v8p-r1-rand3-L",
+   "type": "rand3",
+   "scale": "L",
+   "param": 340,
+   "seed": 8001020,
+   "role": "pilot",
+   "round": 1
+  },
+  {
+   "id": "v8p-r1-col3-S",
+   "type": "col3",
+   "scale": "S",
+   "param": 250,
+   "seed": 8001100,
+   "role": "pilot",
+   "round": 1
+  },
+  {
+   "id": "v8p-r1-col3-M",
+   "type": "col3",
+   "scale": "M",
+   "param": 400,
+   "seed": 8001110,
+   "role": "pilot",
+   "round": 1
+  },
+  {
+   "id": "v8p-r1-col3-L",
+   "type": "col3",
+   "scale": "L",
+   "param": 550,
+   "seed": 8001120,
+   "role": "pilot",
+   "round": 1
+  },
+  {
+   "id": "v8p-r1-assign-S",
+   "type": "assign",
+   "scale": "S",
+   "param": 100,
+   "seed": 8001200,
+   "role": "pilot",
+   "round": 1
+  },
+  {
+   "id": "v8p-r1-assign-M",
+   "type": "assign",
+   "scale": "M",
+   "param": 200,
+   "seed": 8001210,
+   "role": "pilot",
+   "round": 1
+  },
+  {
+   "id": "v8p-r1-assign-L",
+   "type": "assign",
+   "scale": "L",
+   "param": 300,
+   "seed": 8001220,
+   "role": "pilot",
+   "round": 1
+  }
+ ]
+}

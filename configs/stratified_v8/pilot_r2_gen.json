@@ -1,0 +1,68 @@
+{
+ "stage": "pilot_r2",
+ "instances": [
+  {
+   "id": "v8p-r2-rand3-L",
+   "type": "rand3",
+   "scale": "L",
+   "param": 360,
+   "seed": 8002020,
+   "role": "pilot",
+   "round": 2
+  },
+  {
+   "id": "v8p-r2-col3-S",
+   "type": "col3",
+   "scale": "S",
+   "param": 375,
+   "seed": 8002100,
+   "role": "pilot",
+   "round": 2
+  },
+  {
+   "id": "v8p-r2-col3-M",
+   "type": "col3",
+   "scale": "M",
+   "param": 450,
+   "seed": 8002110,
+   "role": "pilot",
+   "round": 2
+  },
+  {
+   "id": "v8p-r2-col3-L",
+   "type": "col3",
+   "scale": "L",
+   "param": 500,
+   "seed": 8002120,
+   "role": "pilot",
+   "round": 2
+  },
+  {
+   "id": "v8p-r2-assign-S",
+   "type": "assign",
+   "scale": "S",
+   "param": 400,
+   "seed": 8002200,
+   "role": "pilot",
+   "round": 2
+  },
+  {
+   "id": "v8p-r2-assign-M",
+   "type": "assign",
+   "scale": "M",
+   "param": 500,
+   "seed": 8002210,
+   "role": "pilot",
+   "round": 2
+  },
+  {
+   "id": "v8p-r2-assign-L",
+   "type": "assign",
+   "scale": "L",
+   "param": 600,
+   "seed": 8002220,
+   "role": "pilot",
+   "round": 2
+  }
+ ]
+}

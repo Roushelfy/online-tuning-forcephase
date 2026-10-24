@@ -136,15 +136,23 @@ def predict(t, s, ref, sl):
     return max(0, min(len(grid) - 1, g2))
 
 
-def enforce_order(t, idx):
-    """idx: {S: g, M: g, L: g} -> strictly increasing, moving later scales up when needed."""
-    grid = G[t]["grid"]
+def enforce_order(t, idx, direction):
+    """Make S < M < L strictly increasing (protocol section 2: on a collision the cells move apart one
+    grid step, each toward its own band). direction[s]: +1 needs a harder parameter, -1 an easier one,
+    0 fixed (already in band). On a collision of a lower scale a with a higher scale b: a fixed b moves
+    up; otherwise a yields (one step below b) unless b is fixed, or both need easier parameters, or
+    a cannot go lower -- then b moves one step above a."""
+    n = len(G[t]["grid"])
     out = dict(idx)
-    for a, b in (("S", "M"), ("M", "L")):
-        if out[b] <= out[a]:
-            out[b] = min(len(grid) - 1, out[a] + 1)
-    if out["M"] <= out["S"]:
-        out["S"] = max(0, out["M"] - 1)
+    for a, b in (("M", "L"), ("S", "M"), ("M", "L")):
+        if out[a] < out[b]:
+            continue
+        if direction[a] == 0 or (direction[a] < 0 and direction[b] < 0) or out[b] - 1 < 0:
+            out[b] = min(n - 1, out[a] + 1)
+        else:
+            out[a] = out[b] - 1
+    if not out["S"] < out["M"] < out["L"]:
+        raise SystemExit(f"{t}: cannot order scales on the grid: {out}")
     return out
 
 
@@ -160,14 +168,15 @@ def analyze(write):
     for t in TYPES:
         pts = [r for r in r1 if r["type"] == t and r["c"] is not None]
         sl = slope(pts)
-        want = {}
+        want, dirn = {}, {}
         for s in SCALES:
             ref = next((r for r in pts if r["scale"] == s), None)
             if ref is None or in_band(ref["c"], s):
-                want[s] = gidx(t, ref["param"]) if ref else None
+                want[s], dirn[s] = (gidx(t, ref["param"]) if ref else 0), 0
                 continue
             want[s] = predict(t, s, ref, sl)
-        fixed = enforce_order(t, {s: (want[s] if want[s] is not None else 0) for s in SCALES})
+            dirn[s] = 1 if ref["c"] < PIL["bands_cpu_seconds"][s][0] else -1
+        fixed = enforce_order(t, want, dirn)
         for s in SCALES:
             ref = next((r for r in pts if r["scale"] == s), None)
             if ref is not None and not in_band(ref["c"], s):
@@ -185,18 +194,19 @@ def final(ledger_extra_h):
     choice, est = {}, {}
     for t in TYPES:
         pts = [r for r in rows if r["type"] == t and r["c"] is not None]
-        idx = {}
+        idx, dirn = {}, {}
         for s in SCALES:
             cand = [r for r in pts if in_band(r["c"], s)]
             if cand:
                 best = min(cand, key=lambda r: abs(math.log(r["c"]) - math.log(PIL["targets_cpu_seconds"][s])))
-                idx[s] = gidx(t, best["param"])
+                idx[s], dirn[s] = gidx(t, best["param"]), 0
             else:
                 done = [r for r in pts if r["complete"]]
                 sl = slope(done) if len(done) >= 2 else None
                 ref = min(pts, key=lambda r: abs(math.log(max(r["c"], 1e-3)) - math.log(PIL["targets_cpu_seconds"][s])))
                 idx[s] = predict(t, s, ref, sl)
-        idx = enforce_order(t, idx)
+                dirn[s] = 1 if ref["c"] < PIL["targets_cpu_seconds"][s] else -1
+        idx = enforce_order(t, idx, dirn)
         for s in SCALES:
             p = G[t]["grid"][idx[s]]
             meas = [r for r in pts if r["param"] == p]

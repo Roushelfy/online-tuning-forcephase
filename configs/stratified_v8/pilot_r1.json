@@ -1,0 +1,258 @@
+{
+ "stage": "pilot_r1",
+ "manifest": "results/stratified_v8/pilot_r1_manifest.json",
+ "jobs": [
+  {
+   "instance": "v8p-r1-rand3-S",
+   "sha256": "566840f61c30ad4b317213305913e839b7d3798c937a8746f61144e22bc6a6d8",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-S",
+   "sha256": "566840f61c30ad4b317213305913e839b7d3798c937a8746f61144e22bc6a6d8",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-S",
+   "sha256": "566840f61c30ad4b317213305913e839b7d3798c937a8746f61144e22bc6a6d8",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-S",
+   "sha256": "566840f61c30ad4b317213305913e839b7d3798c937a8746f61144e22bc6a6d8",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-M",
+   "sha256": "62b696402741e6fec5f62b51fadeb78f6d3c79ed74e70bbb2828578f31247df6",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-M",
+   "sha256": "62b696402741e6fec5f62b51fadeb78f6d3c79ed74e70bbb2828578f31247df6",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-M",
+   "sha256": "62b696402741e6fec5f62b51fadeb78f6d3c79ed74e70bbb2828578f31247df6",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-M",
+   "sha256": "62b696402741e6fec5f62b51fadeb78f6d3c79ed74e70bbb2828578f31247df6",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-L",
+   "sha256": "2c944f496625c2a61b3858aa5d51b19f0a338039935d1dace634b17b5172b8f9",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-L",
+   "sha256": "2c944f496625c2a61b3858aa5d51b19f0a338039935d1dace634b17b5172b8f9",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-L",
+   "sha256": "2c944f496625c2a61b3858aa5d51b19f0a338039935d1dace634b17b5172b8f9",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-rand3-L",
+   "sha256": "2c944f496625c2a61b3858aa5d51b19f0a338039935d1dace634b17b5172b8f9",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-S",
+   "sha256": "86b922499edaa073e08e38a3931bfe06f93f76ca42a4b6059f88fe97c123183e",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-S",
+   "sha256": "86b922499edaa073e08e38a3931bfe06f93f76ca42a4b6059f88fe97c123183e",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-S",
+   "sha256": "86b922499edaa073e08e38a3931bfe06f93f76ca42a4b6059f88fe97c123183e",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-S",
+   "sha256": "86b922499edaa073e08e38a3931bfe06f93f76ca42a4b6059f88fe97c123183e",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-M",
+   "sha256": "29419d6085a296dade35ac1188d1634f7213f6456d12d3031c209a91f69d1c4c",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-M",
+   "sha256": "29419d6085a296dade35ac1188d1634f7213f6456d12d3031c209a91f69d1c4c",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-M",
+   "sha256": "29419d6085a296dade35ac1188d1634f7213f6456d12d3031c209a91f69d1c4c",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-M",
+   "sha256": "29419d6085a296dade35ac1188d1634f7213f6456d12d3031c209a91f69d1c4c",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-L",
+   "sha256": "ad5685a48fb9f7f8164c67eb3296727be646f75ac8c864a7c73ea612972ba0bc",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-L",
+   "sha256": "ad5685a48fb9f7f8164c67eb3296727be646f75ac8c864a7c73ea612972ba0bc",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-L",
+   "sha256": "ad5685a48fb9f7f8164c67eb3296727be646f75ac8c864a7c73ea612972ba0bc",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-col3-L",
+   "sha256": "ad5685a48fb9f7f8164c67eb3296727be646f75ac8c864a7c73ea612972ba0bc",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-S",
+   "sha256": "f6c07f9ee3b184f006fda6a1e2bb4e397302a7749bf67f2aa3b30bdab89b3935",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-S",
+   "sha256": "f6c07f9ee3b184f006fda6a1e2bb4e397302a7749bf67f2aa3b30bdab89b3935",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-S",
+   "sha256": "f6c07f9ee3b184f006fda6a1e2bb4e397302a7749bf67f2aa3b30bdab89b3935",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-S",
+   "sha256": "f6c07f9ee3b184f006fda6a1e2bb4e397302a7749bf67f2aa3b30bdab89b3935",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-M",
+   "sha256": "80adfb81206379050f9138226d3714d4bd1f7ad9d570dbd6361d283857e1fe68",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-M",
+   "sha256": "80adfb81206379050f9138226d3714d4bd1f7ad9d570dbd6361d283857e1fe68",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-M",
+   "sha256": "80adfb81206379050f9138226d3714d4bd1f7ad9d570dbd6361d283857e1fe68",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-M",
+   "sha256": "80adfb81206379050f9138226d3714d4bd1f7ad9d570dbd6361d283857e1fe68",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-L",
+   "sha256": "ac8f0432fd81edf09b8bf4f9faeeea2c07beb8325c363ba51f4e61d654722bda",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-L",
+   "sha256": "ac8f0432fd81edf09b8bf4f9faeeea2c07beb8325c363ba51f4e61d654722bda",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-L",
+   "sha256": "ac8f0432fd81edf09b8bf4f9faeeea2c07beb8325c363ba51f4e61d654722bda",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 180
+  },
+  {
+   "instance": "v8p-r1-assign-L",
+   "sha256": "ac8f0432fd81edf09b8bf4f9faeeea2c07beb8325c363ba51f4e61d654722bda",
+   "method": "D",
+   "rep": 1,
+   "cap_cpu": 180
+  }
+ ]
+}
