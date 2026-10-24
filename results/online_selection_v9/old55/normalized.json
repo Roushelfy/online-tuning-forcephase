@@ -1396,15 +1396,15 @@
  {
   "instance": "7ff8c9781b3ada449ce489cdf444a760",
   "method": "D",
-  "status": "censored",
-  "cpu_seconds": 12252.510765,
+  "status": "solved",
+  "cpu_seconds": 27169.954103999997,
   "time_kind": "measured_process_tree_cpu",
-  "source_run_id": "v7:stage1:5d468cbf43441d9f7fb2c879ec9272a1eebd7750:formal_subprocess",
-  "verified": false,
+  "source_run_id": "v7:old55_r1a:e169f8727bf24a21eec9ae63bc56c98c738b6c31:formal_subprocess",
+  "verified": true,
   "measurement_valid": true,
-  "origin": "v7_stage1_formal_subprocess",
-  "host": "cpu-207-115",
-  "stop_reason": "budget"
+  "origin": "v7_old55_r1a_formal_subprocess",
+  "host": "cpu-208-039",
+  "stop_reason": null
  },
  {
   "instance": "7ff8c9781b3ada449ce489cdf444a760",
@@ -1435,15 +1435,15 @@
  {
   "instance": "7ff8c9781b3ada449ce489cdf444a760",
   "method": "P1_M05_long",
-  "status": "censored",
-  "cpu_seconds": 12252.541014,
+  "status": "solved",
+  "cpu_seconds": 27169.982973,
   "time_kind": "measured_process_tree_cpu",
-  "source_run_id": "v7:stage1:5d468cbf43441d9f7fb2c879ec9272a1eebd7750",
-  "verified": false,
+  "source_run_id": "v7:old55_r1a:e169f8727bf24a21eec9ae63bc56c98c738b6c31",
+  "verified": true,
   "measurement_valid": true,
-  "origin": "v7_stage1",
-  "host": "cpu-207-115",
-  "stop_reason": "budget"
+  "origin": "v7_old55_r1a",
+  "host": "cpu-208-039",
+  "stop_reason": null
  },
  {
   "instance": "80bb5209e88def5643bf5593320b104f",

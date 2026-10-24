@@ -6,7 +6,7 @@
   "methods": {
     "D": {
       "status": "incomplete",
-      "completed": 48,
+      "completed": 49,
       "panel_size": 55,
       "total_cpu_seconds": null,
       "mean_cpu_seconds": null,
@@ -23,11 +23,6 @@
         },
         {
           "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
-          "status": "censored",
-          "reason": "not a verified, valid completed measurement"
-        },
-        {
-          "instance": "7ff8c9781b3ada449ce489cdf444a760",
           "status": "censored",
           "reason": "not a verified, valid completed measurement"
         },
@@ -283,7 +278,7 @@
     },
     "P1_M05_long": {
       "status": "incomplete",
-      "completed": 48,
+      "completed": 49,
       "panel_size": 55,
       "total_cpu_seconds": null,
       "mean_cpu_seconds": null,
@@ -300,11 +295,6 @@
         },
         {
           "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
-          "status": "censored",
-          "reason": "not a verified, valid completed measurement"
-        },
-        {
-          "instance": "7ff8c9781b3ada449ce489cdf444a760",
           "status": "censored",
           "reason": "not a verified, valid completed measurement"
         },
@@ -352,7 +342,6 @@
       {
         "instance": "7ff8c9781b3ada449ce489cdf444a760",
         "unresolved_actions": [
-          "D",
           "Fp",
           "Fm"
         ]
