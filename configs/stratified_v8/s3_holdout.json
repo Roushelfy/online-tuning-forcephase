@@ -1,0 +1,527 @@
+{
+ "stage": "s3_holdout",
+ "jobs": [
+  {
+   "instance": "v8-rand3-L-04",
+   "sha256": "b99374fd9106052fd73fa6fb4cc9aca6a9a8b7038d66186143ec237362be2179",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-04",
+   "sha256": "b99374fd9106052fd73fa6fb4cc9aca6a9a8b7038d66186143ec237362be2179",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-04",
+   "sha256": "b99374fd9106052fd73fa6fb4cc9aca6a9a8b7038d66186143ec237362be2179",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-04",
+   "sha256": "b99374fd9106052fd73fa6fb4cc9aca6a9a8b7038d66186143ec237362be2179",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-rand3-L-00",
+   "sha256": "4295c7d4e444e7573d8c091f0260a208337706496dd94708872068d59d7ff6a8",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-00",
+   "sha256": "4295c7d4e444e7573d8c091f0260a208337706496dd94708872068d59d7ff6a8",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-00",
+   "sha256": "4295c7d4e444e7573d8c091f0260a208337706496dd94708872068d59d7ff6a8",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-00",
+   "sha256": "4295c7d4e444e7573d8c091f0260a208337706496dd94708872068d59d7ff6a8",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-col3-L-05",
+   "sha256": "39340b9929b5dc03b780a1713a3623c733f52255da8704da619efd965d30387a",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-05",
+   "sha256": "39340b9929b5dc03b780a1713a3623c733f52255da8704da619efd965d30387a",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-05",
+   "sha256": "39340b9929b5dc03b780a1713a3623c733f52255da8704da619efd965d30387a",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-05",
+   "sha256": "39340b9929b5dc03b780a1713a3623c733f52255da8704da619efd965d30387a",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-col3-L-03",
+   "sha256": "6b4b057613a06526b4419c39c2ce961710544cb1ab83f814c430f217b0176cdc",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-03",
+   "sha256": "6b4b057613a06526b4419c39c2ce961710544cb1ab83f814c430f217b0176cdc",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-03",
+   "sha256": "6b4b057613a06526b4419c39c2ce961710544cb1ab83f814c430f217b0176cdc",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-03",
+   "sha256": "6b4b057613a06526b4419c39c2ce961710544cb1ab83f814c430f217b0176cdc",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-assign-L-02",
+   "sha256": "1f07f2b2c3d8c32c881d33a07a33d626f22b8c0ac036f99f2bbf4c4c69966cd1",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-02",
+   "sha256": "1f07f2b2c3d8c32c881d33a07a33d626f22b8c0ac036f99f2bbf4c4c69966cd1",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-02",
+   "sha256": "1f07f2b2c3d8c32c881d33a07a33d626f22b8c0ac036f99f2bbf4c4c69966cd1",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-02",
+   "sha256": "1f07f2b2c3d8c32c881d33a07a33d626f22b8c0ac036f99f2bbf4c4c69966cd1",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-assign-L-04",
+   "sha256": "a4d440f048f07a1d95ad9142ddc06109d04730e313fb57c8d8b46f5ced9c02b3",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-04",
+   "sha256": "a4d440f048f07a1d95ad9142ddc06109d04730e313fb57c8d8b46f5ced9c02b3",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-04",
+   "sha256": "a4d440f048f07a1d95ad9142ddc06109d04730e313fb57c8d8b46f5ced9c02b3",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-04",
+   "sha256": "a4d440f048f07a1d95ad9142ddc06109d04730e313fb57c8d8b46f5ced9c02b3",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-rand3-M-03",
+   "sha256": "5d66ebf3941eb7d78f3b2c6fb2a9dbfa415e727a7ba483ac48919d17551702e6",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-03",
+   "sha256": "5d66ebf3941eb7d78f3b2c6fb2a9dbfa415e727a7ba483ac48919d17551702e6",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-03",
+   "sha256": "5d66ebf3941eb7d78f3b2c6fb2a9dbfa415e727a7ba483ac48919d17551702e6",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-03",
+   "sha256": "5d66ebf3941eb7d78f3b2c6fb2a9dbfa415e727a7ba483ac48919d17551702e6",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-rand3-M-04",
+   "sha256": "4fb625487d9731468565e076ad19712a05b407a87471ff3f9c23ec93413065cc",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-04",
+   "sha256": "4fb625487d9731468565e076ad19712a05b407a87471ff3f9c23ec93413065cc",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-04",
+   "sha256": "4fb625487d9731468565e076ad19712a05b407a87471ff3f9c23ec93413065cc",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-04",
+   "sha256": "4fb625487d9731468565e076ad19712a05b407a87471ff3f9c23ec93413065cc",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-col3-M-01",
+   "sha256": "0ac69d475e5bfeeebc1f30c4630aeecdde7ccb884a81d6e8453ff97a8b9cce19",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-01",
+   "sha256": "0ac69d475e5bfeeebc1f30c4630aeecdde7ccb884a81d6e8453ff97a8b9cce19",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-01",
+   "sha256": "0ac69d475e5bfeeebc1f30c4630aeecdde7ccb884a81d6e8453ff97a8b9cce19",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-01",
+   "sha256": "0ac69d475e5bfeeebc1f30c4630aeecdde7ccb884a81d6e8453ff97a8b9cce19",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-col3-M-02",
+   "sha256": "be9fa4227fe34fdb0f347a79dcd6592732f14c3a3f7e8f9117091cece9ed51c4",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-02",
+   "sha256": "be9fa4227fe34fdb0f347a79dcd6592732f14c3a3f7e8f9117091cece9ed51c4",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-02",
+   "sha256": "be9fa4227fe34fdb0f347a79dcd6592732f14c3a3f7e8f9117091cece9ed51c4",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-02",
+   "sha256": "be9fa4227fe34fdb0f347a79dcd6592732f14c3a3f7e8f9117091cece9ed51c4",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-assign-M-03",
+   "sha256": "d70be1bcefd32e073538056d45f23affdb733f0ee4b3f952440c586ea83cd1f5",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-03",
+   "sha256": "d70be1bcefd32e073538056d45f23affdb733f0ee4b3f952440c586ea83cd1f5",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-03",
+   "sha256": "d70be1bcefd32e073538056d45f23affdb733f0ee4b3f952440c586ea83cd1f5",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-03",
+   "sha256": "d70be1bcefd32e073538056d45f23affdb733f0ee4b3f952440c586ea83cd1f5",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-assign-M-04",
+   "sha256": "5912dd203ee6abf3fff6ec6689a72618325ac250fc77557612b74eb87c5c50d1",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-04",
+   "sha256": "5912dd203ee6abf3fff6ec6689a72618325ac250fc77557612b74eb87c5c50d1",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-04",
+   "sha256": "5912dd203ee6abf3fff6ec6689a72618325ac250fc77557612b74eb87c5c50d1",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-04",
+   "sha256": "5912dd203ee6abf3fff6ec6689a72618325ac250fc77557612b74eb87c5c50d1",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-rand3-S-05",
+   "sha256": "6b79a0b1dedbd68c161fbf6cbf6a96bdb9a3b663a278c377199a08230d378cd9",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-05",
+   "sha256": "6b79a0b1dedbd68c161fbf6cbf6a96bdb9a3b663a278c377199a08230d378cd9",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-05",
+   "sha256": "6b79a0b1dedbd68c161fbf6cbf6a96bdb9a3b663a278c377199a08230d378cd9",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-05",
+   "sha256": "6b79a0b1dedbd68c161fbf6cbf6a96bdb9a3b663a278c377199a08230d378cd9",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-rand3-S-01",
+   "sha256": "c296e60fe5d997520a1b4f7a1aba73610c18f0662f5e6c1d6664e1ce3c66fb94",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-01",
+   "sha256": "c296e60fe5d997520a1b4f7a1aba73610c18f0662f5e6c1d6664e1ce3c66fb94",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-01",
+   "sha256": "c296e60fe5d997520a1b4f7a1aba73610c18f0662f5e6c1d6664e1ce3c66fb94",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-01",
+   "sha256": "c296e60fe5d997520a1b4f7a1aba73610c18f0662f5e6c1d6664e1ce3c66fb94",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-col3-S-03",
+   "sha256": "58cf1f9e4d898ace7441e9ffbd5f8f6da48b4a0c2dfd599d390e1f77d4c7aaa6",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-03",
+   "sha256": "58cf1f9e4d898ace7441e9ffbd5f8f6da48b4a0c2dfd599d390e1f77d4c7aaa6",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-03",
+   "sha256": "58cf1f9e4d898ace7441e9ffbd5f8f6da48b4a0c2dfd599d390e1f77d4c7aaa6",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-03",
+   "sha256": "58cf1f9e4d898ace7441e9ffbd5f8f6da48b4a0c2dfd599d390e1f77d4c7aaa6",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-col3-S-01",
+   "sha256": "b93d571b8357168ff77327a4cb7c444a0a6e620242beb7ac0c77260ca57a7a52",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-01",
+   "sha256": "b93d571b8357168ff77327a4cb7c444a0a6e620242beb7ac0c77260ca57a7a52",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-01",
+   "sha256": "b93d571b8357168ff77327a4cb7c444a0a6e620242beb7ac0c77260ca57a7a52",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-01",
+   "sha256": "b93d571b8357168ff77327a4cb7c444a0a6e620242beb7ac0c77260ca57a7a52",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-assign-S-00",
+   "sha256": "665141d9b2bfdba7891a5b6235c77372f63c5479226a51475e8a1ea3bfab83cb",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-00",
+   "sha256": "665141d9b2bfdba7891a5b6235c77372f63c5479226a51475e8a1ea3bfab83cb",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-00",
+   "sha256": "665141d9b2bfdba7891a5b6235c77372f63c5479226a51475e8a1ea3bfab83cb",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-00",
+   "sha256": "665141d9b2bfdba7891a5b6235c77372f63c5479226a51475e8a1ea3bfab83cb",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  },
+  {
+   "instance": "v8-assign-S-01",
+   "sha256": "8e328c70ca61ad2955224732011c2407a190bda2debd4c51806eaefac4da0eac",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-01",
+   "sha256": "8e328c70ca61ad2955224732011c2407a190bda2debd4c51806eaefac4da0eac",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-01",
+   "sha256": "8e328c70ca61ad2955224732011c2407a190bda2debd4c51806eaefac4da0eac",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-01",
+   "sha256": "8e328c70ca61ad2955224732011c2407a190bda2debd4c51806eaefac4da0eac",
+   "method": "W",
+   "rep": 0,
+   "cap_cpu": 900,
+   "strategy": "configs/stratified_v8/frozen/strategy.json"
+  }
+ ]
+}

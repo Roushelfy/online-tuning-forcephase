@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "metric": "mean_completed_cpu_seconds",
+  "panel_size": 36,
+  "primary_comparison_complete": true,
+  "methods": {
+    "D": {
+      "status": "complete",
+      "completed": 36,
+      "panel_size": 36,
+      "total_cpu_seconds": 487.01729199999994,
+      "mean_cpu_seconds": 13.528258111111109,
+      "unresolved": []
+    },
+    "Fp": {
+      "status": "complete",
+      "completed": 36,
+      "panel_size": 36,
+      "total_cpu_seconds": 368.71406699999994,
+      "mean_cpu_seconds": 10.242057416666665,
+      "unresolved": []
+    },
+    "Fm": {
+      "status": "complete",
+      "completed": 36,
+      "panel_size": 36,
+      "total_cpu_seconds": 321.305008,
+      "mean_cpu_seconds": 8.925139111111111,
+      "unresolved": []
+    }
+  },
+  "oracle": {
+    "status": "complete",
+    "completed": 36,
+    "panel_size": 36,
+    "total_cpu_seconds": 245.276851,
+    "mean_cpu_seconds": 6.813245861111111,
+    "unresolved": [],
+    "winners": {
+      "v8-assign-L-00": [
+        "Fp"
+      ],
+      "v8-assign-L-01": [
+        "D"
+      ],
+      "v8-assign-L-03": [
+        "Fp"
+      ],
+      "v8-assign-L-05": [
+        "D"
+      ],
+      "v8-assign-M-00": [
+        "Fp"
+      ],
+      "v8-assign-M-01": [
+        "D"
+      ],
+      "v8-assign-M-02": [
+        "Fp"
+      ],
+      "v8-assign-M-05": [
+        "Fp"
+      ],
+      "v8-assign-S-02": [
+        "D"
+      ],
+      "v8-assign-S-03": [
+        "D"
+      ],
+      "v8-assign-S-04": [
+        "Fp"
+      ],
+      "v8-assign-S-05": [
+        "D"
+      ],
+      "v8-col3-L-00": [
+        "Fp"
+      ],
+      "v8-col3-L-01": [
+        "D"
+      ],
+      "v8-col3-L-02": [
+        "D"
+      ],
+      "v8-col3-L-04": [
+        "Fp"
+      ],
+      "v8-col3-M-00": [
+        "Fp"
+      ],
+      "v8-col3-M-03": [
+        "D"
+      ],
+      "v8-col3-M-04": [
+        "Fp"
+      ],
+      "v8-col3-M-05": [
+        "Fp"
+      ],
+      "v8-col3-S-00": [
+        "Fp"
+      ],
+      "v8-col3-S-02": [
+        "Fp"
+      ],
+      "v8-col3-S-04": [
+        "Fp"
+      ],
+      "v8-col3-S-05": [
+        "Fp"
+      ],
+      "v8-rand3-L-01": [
+        "D"
+      ],
+      "v8-rand3-L-02": [
+        "D"
+      ],
+      "v8-rand3-L-03": [
+        "Fp"
+      ],
+      "v8-rand3-L-05": [
+        "Fm"
+      ],
+      "v8-rand3-M-00": [
+        "Fm"
+      ],
+      "v8-rand3-M-01": [
+        "D"
+      ],
+      "v8-rand3-M-02": [
+        "D"
+      ],
+      "v8-rand3-M-05": [
+        "Fp"
+      ],
+      "v8-rand3-S-00": [
+        "Fp"
+      ],
+      "v8-rand3-S-02": [
+        "D"
+      ],
+      "v8-rand3-S-03": [
+        "D"
+      ],
+      "v8-rand3-S-04": [
+        "Fp"
+      ]
+    },
+    "interpretation": "ideal post-hoc choice, excluding observation cost"
+  },
+  "gain_percent_vs_baseline": {
+    "D": 0.0,
+    "Fp": 24.291380807891315,
+    "Fm": 34.02595487307665,
+    "oracle": 49.63693178270147
+  },
+  "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+}

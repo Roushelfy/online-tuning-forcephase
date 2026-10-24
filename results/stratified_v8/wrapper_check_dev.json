@@ -1,0 +1,333 @@
+{
+ "strategy": "configs/stratified_v8/frozen/strategy.json",
+ "n": 36,
+ "actions_match": 36,
+ "features_equal": 36,
+ "wrapper_cpu_total": 2.10253,
+ "rows": [
+  {
+   "instance": "v8-assign-L-00",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.135407,
+   "obs_cpu": 0.10119099999999999
+  },
+  {
+   "instance": "v8-assign-L-01",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.132384,
+   "obs_cpu": 0.099393
+  },
+  {
+   "instance": "v8-assign-L-03",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.133212,
+   "obs_cpu": 0.100384
+  },
+  {
+   "instance": "v8-assign-L-05",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.13102499999999995,
+   "obs_cpu": 0.097954
+  },
+  {
+   "instance": "v8-assign-M-00",
+   "live": "Fp",
+   "offline": "Fp",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.10372300000000001,
+   "obs_cpu": 0.07054099999999999
+  },
+  {
+   "instance": "v8-assign-M-01",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.10122500000000001,
+   "obs_cpu": 0.06831799999999999
+  },
+  {
+   "instance": "v8-assign-M-02",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.10430299999999992,
+   "obs_cpu": 0.071142
+  },
+  {
+   "instance": "v8-assign-M-05",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.10330700000000004,
+   "obs_cpu": 0.070227
+  },
+  {
+   "instance": "v8-assign-S-02",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.07703299999999991,
+   "obs_cpu": 0.044187
+  },
+  {
+   "instance": "v8-assign-S-03",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.07722400000000018,
+   "obs_cpu": 0.044541
+  },
+  {
+   "instance": "v8-assign-S-04",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.07737799999999995,
+   "obs_cpu": 0.044474
+  },
+  {
+   "instance": "v8-assign-S-05",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.07810000000000006,
+   "obs_cpu": 0.044964
+  },
+  {
+   "instance": "v8-col3-L-00",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03607199999999988,
+   "obs_cpu": 0.002871
+  },
+  {
+   "instance": "v8-col3-L-01",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03610599999999997,
+   "obs_cpu": 0.0029119999999999997
+  },
+  {
+   "instance": "v8-col3-L-02",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03590300000000002,
+   "obs_cpu": 0.002898
+  },
+  {
+   "instance": "v8-col3-L-04",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03582200000000002,
+   "obs_cpu": 0.00292
+  },
+  {
+   "instance": "v8-col3-M-00",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03586,
+   "obs_cpu": 0.0028239999999999997
+  },
+  {
+   "instance": "v8-col3-M-03",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03573599999999999,
+   "obs_cpu": 0.002845
+  },
+  {
+   "instance": "v8-col3-M-04",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03572299999999995,
+   "obs_cpu": 0.002816
+  },
+  {
+   "instance": "v8-col3-M-05",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.0356749999999999,
+   "obs_cpu": 0.002869
+  },
+  {
+   "instance": "v8-col3-S-00",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.0353460000000001,
+   "obs_cpu": 0.002546
+  },
+  {
+   "instance": "v8-col3-S-02",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03566500000000028,
+   "obs_cpu": 0.002472
+  },
+  {
+   "instance": "v8-col3-S-04",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.035504999999999676,
+   "obs_cpu": 0.002558
+  },
+  {
+   "instance": "v8-col3-S-05",
+   "live": "D",
+   "offline": "D",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.035338000000000314,
+   "obs_cpu": 0.002578
+  },
+  {
+   "instance": "v8-rand3-L-01",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.035015999999999936,
+   "obs_cpu": 0.0021319999999999998
+  },
+  {
+   "instance": "v8-rand3-L-02",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03486699999999998,
+   "obs_cpu": 0.002094
+  },
+  {
+   "instance": "v8-rand3-L-03",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03493499999999994,
+   "obs_cpu": 0.00208
+  },
+  {
+   "instance": "v8-rand3-L-05",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03507199999999999,
+   "obs_cpu": 0.0020469999999999998
+  },
+  {
+   "instance": "v8-rand3-M-00",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03512399999999993,
+   "obs_cpu": 0.002023
+  },
+  {
+   "instance": "v8-rand3-M-01",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03475600000000001,
+   "obs_cpu": 0.0019879999999999997
+  },
+  {
+   "instance": "v8-rand3-M-02",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03474900000000014,
+   "obs_cpu": 0.0020139999999999997
+  },
+  {
+   "instance": "v8-rand3-M-05",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.0350109999999999,
+   "obs_cpu": 0.002019
+  },
+  {
+   "instance": "v8-rand3-S-00",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03507900000000008,
+   "obs_cpu": 0.002029
+  },
+  {
+   "instance": "v8-rand3-S-02",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03498000000000001,
+   "obs_cpu": 0.0019379999999999998
+  },
+  {
+   "instance": "v8-rand3-S-03",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.034942999999999724,
+   "obs_cpu": 0.0019939999999999997
+  },
+  {
+   "instance": "v8-rand3-S-04",
+   "live": "Fm",
+   "offline": "Fm",
+   "match": true,
+   "features_equal": true,
+   "wrapper_cpu": 0.03492600000000001,
+   "obs_cpu": 0.00198
+  }
+ ]
+}
