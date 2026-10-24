@@ -1,0 +1,116 @@
+{
+ "stage": "old55_r1a",
+ "description": "v9 R5 old-55 recovery (docs/OLD55_RECOVERY_V9.md): P1_M05_long wrappers (formal D shared) on the 8 D-incomplete instances + oracle arms capped at the completed D time on the 5 D-complete unresolved instances",
+ "jobs": [
+  {
+   "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "0a8a4c28d27228e954354ea0a6e7f16c",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "7ff8c9781b3ada449ce489cdf444a760",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "ac3e3bb744e258282990aa4307c08cb8",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "af834fd3ce15078d2ab055c996758c00",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "c7bf3517f47d583ae567de3db3708969",
+   "method": "P1_M05_long",
+   "kind": "wrapper"
+  },
+  {
+   "instance": "3b0eeddcabf36da8642c5774ac67680c",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 3808.719,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "3b0eeddcabf36da8642c5774ac67680c",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 3808.719,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "8cfc8e99d31bcaf18ff3360b08c8521c",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 4487.346,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "8cfc8e99d31bcaf18ff3360b08c8521c",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 4487.346,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "dbbcaa7797145dfddfa4fe73ce91fdec",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 5058.481,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "dbbcaa7797145dfddfa4fe73ce91fdec",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 5058.481,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "d5b11b0b73eb4ecebdbf6ee8143da689",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 5122.301,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "d5b11b0b73eb4ecebdbf6ee8143da689",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 5122.301,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+   "method": "Fp",
+   "kind": "fixed",
+   "cap_cpu": 8697.356,
+   "cap_kind": "oracle_noncompetitive_bound"
+  },
+  {
+   "instance": "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+   "method": "Fm",
+   "kind": "fixed",
+   "cap_cpu": 8697.356,
+   "cap_kind": "oracle_noncompetitive_bound"
+  }
+ ]
+}

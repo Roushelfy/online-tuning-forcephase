@@ -1,0 +1,66 @@
+{
+ "stage": "old55_r1b",
+ "description": "v9 R5 old-55 recovery (docs/OLD55_RECOVERY_V9.md): uncapped F+/F- completion runs on the 6 instances where no action has completed",
+ "jobs": [
+  {
+   "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+   "method": "Fp",
+   "kind": "fixed"
+  },
+  {
+   "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+   "method": "Fm",
+   "kind": "fixed"
+  },
+  {
+   "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+   "method": "Fp",
+   "kind": "fixed"
+  },
+  {
+   "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+   "method": "Fm",
+   "kind": "fixed"
+  },
+  {
+   "instance": "7ff8c9781b3ada449ce489cdf444a760",
+   "method": "Fp",
+   "kind": "fixed"
+  },
+  {
+   "instance": "7ff8c9781b3ada449ce489cdf444a760",
+   "method": "Fm",
+   "kind": "fixed"
+  },
+  {
+   "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+   "method": "Fp",
+   "kind": "fixed"
+  },
+  {
+   "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+   "method": "Fm",
+   "kind": "fixed"
+  },
+  {
+   "instance": "ac3e3bb744e258282990aa4307c08cb8",
+   "method": "Fp",
+   "kind": "fixed"
+  },
+  {
+   "instance": "ac3e3bb744e258282990aa4307c08cb8",
+   "method": "Fm",
+   "kind": "fixed"
+  },
+  {
+   "instance": "c7bf3517f47d583ae567de3db3708969",
+   "method": "Fp",
+   "kind": "fixed"
+  },
+  {
+   "instance": "c7bf3517f47d583ae567de3db3708969",
+   "method": "Fm",
+   "kind": "fixed"
+  }
+ ]
+}

@@ -53,6 +53,23 @@ def replace_json(path, obj):
     os.replace(tmp, path)
 
 
+DISK_MIN_GB = float(os.environ.get("V7_DISK_MIN_GB", "400"))
+
+
+def proof_size(job):
+    try:
+        return os.path.getsize(os.path.join(job.wd, "final.lrat"))
+    except (OSError, AttributeError, TypeError):
+        return 0
+
+
+def work_free_gb():
+    try:
+        return shutil.disk_usage(WORK).free / 1e9
+    except OSError:
+        return None
+
+
 def job_key(j, stage):
     key = {"schema": 1, "stage": stage, "instance": j["instance"], "method": j["method"], "kind": j["kind"],
            "formal_sha256": sha(FORMAL), "mem_mb": MEM_MB, "cap_cpu": j.get("cap_cpu"), "seed": 0, "proof": "lrat"}
@@ -175,7 +192,7 @@ def finalize(job, stage_dir):
     elif job.stop_reason == "cap":
         status = ("noncompetitive_bound" if job.spec.get("cap_kind") == "oracle_noncompetitive_bound"
                   else "censored")
-    elif job.stop_reason == "budget":
+    elif job.stop_reason in ("budget", "platform_disk"):
         status = "censored"
     else:
         status = "error"
@@ -256,9 +273,19 @@ def main():
         spent = prior + sum(j.cpu for j in jobs)
         if time.time() - last_hb > 60 or not running:
             last_hb = time.time()
+            free_gb = work_free_gb()
+            # platform guard (not a CPU limit): LRAT proofs live on node-local disk; when it is nearly
+            # full, stop the running job with the largest proof -> 'censored', stop_reason 'platform_disk'
+            if free_gb is not None and free_gb < DISK_MIN_GB and running and not any(j.stop_reason == "platform_disk" and not j.done for j in jobs):
+                victim = max(running, key=lambda j: proof_size(j))
+                print(f"[longrun] platform guard: {free_gb:.0f} GB free on {WORK}; stopping "
+                      f"{victim.spec['instance'][:10]} {victim.spec['method']} (proof {proof_size(victim) / 1e9:.0f} GB)",
+                      flush=True)
+                victim.term("platform_disk")
             hb = {"utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "host": socket.gethostname(),
                   "slurm_job": os.environ.get("SLURM_JOB_ID"), "spent_cpu_hours": spent / 3600,
-                  "budget_cpu_hours": None, "resource_policy_id": policy["policy_id"],
+                  "budget_cpu_hours": None, "resource_policy_id": policy["policy_id"], "work_free_gb": free_gb,
+                  "proof_gb": {j.id: proof_size(j) / 1e9 for j in running},
                   "jobs": [{"id": j.id, "instance": j.spec["instance"], "method": j.spec["method"], "cpu": j.cpu,
                             "state": "finished" if j.done else ("stopping" if j.stop_reason else "running")} for j in jobs]}
             replace_json(os.path.join(stage_dir, "progress.json"), hb)
