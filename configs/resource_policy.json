@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "policy_id": "user-unlimited-cpu-2026-10-24",
+  "authority": "Explicit user instruction: 删掉这个限制，没有核时限制。重新规划下阶段目标",
+  "mode": "unlimited_cpu_hours",
+  "project_cpu_hours_cap": null,
+  "stage_cpu_hours_cap": null,
+  "completion_cpu_seconds_cap": null,
+  "legacy_budget_flags": "accepted for compatibility but ignored",
+  "legacy_stage_and_pilot_caps": "historical only; ignored for ordinary complete runs",
+  "permitted_algorithmic_windows": [
+    "bounded observation/presolve window",
+    "oracle bound after an already verified faster answer"
+  ],
+  "account_actual_cpu": true,
+  "include_failures_retries_and_checkers_in_ledger": true,
+  "scoring_metric": "mean_completed_cpu_seconds",
+  "incomplete_means": null,
+  "automatic_stop_at_200_cpu_hours": false,
+  "applies_to": "current and future research; supersedes numerical limits in old goals and plans",
+  "historical_protocols": "retain as historical records; old numeric budgets are not active policy"
+}

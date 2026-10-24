@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 # Run one v8 stage on a non-exclusive cpu-low allocation (72 logical CPUs = 36 physical cores, 700 GB) inside
 # the gs-srun container. Optionally generate instances first (generator venv).
-#   scripts/stratified_v8/slurm_run.sh <stage> <budget-cpu-hours> [plan.json] [gen-plan.json gen-manifest.json] [--quiet-outcomes]
+#   scripts/stratified_v8/slurm_run.sh <stage> <unlimited-placeholder; legacy number ignored> [plan.json] [gen-plan.json gen-manifest.json] [--quiet-outcomes]
 # Logs: $FP_DATA/logs/slurm/v8-<stage>-<jobid>_0.{out,err}
+# CPU-hour limits were withdrawn by the user; the legacy positional budget is ignored.
+# Slurm walltime is a scheduling constraint, not a scientific score or project quota.
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
-STAGE="$1"; BUDGET="$2"; PLAN="${3:-}"; GENPLAN="${4:-}"; GENMAN="${5:-}"; QUIET="${6:-}"
+STAGE="$1"; BUDGET="${2:-unlimited}"; PLAN="${3:-}"; GENPLAN="${4:-}"; GENMAN="${5:-}"; QUIET="${6:-}"
 FP_DATA="${FP_DATA:-/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase}"
 mkdir -p "$FP_DATA/logs/slurm"
 # --array=0-0: gs-srun inside sbatch runs in the allocation only for array jobs
@@ -23,7 +25,7 @@ gs-srun --ntasks=1 --cpus-per-task="${SLURM_CPUS_PER_TASK:-$SLURM_CPUS_ON_NODE}"
     /mnt/data/zhaofeng/venvs/online-tuning-forcephase-v8gen/bin/python scripts/stratified_v8/generate.py --plan '$V8_GENPLAN' --out-manifest '$V8_GENMAN'
   fi
   if [ -n '$V8_PLAN' ]; then
-    python3 scripts/stratified_v8/runner.py --plan '$V8_PLAN' --stage '$V8_STAGE' --budget-cpu-hours '$V8_BUDGET' $V8_QUIET
+    python3 scripts/stratified_v8/runner.py --plan '$V8_PLAN' --stage '$V8_STAGE' $V8_QUIET
   fi"
 echo "finished at $(date -u)"
 EOS

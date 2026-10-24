@@ -1,0 +1,76 @@
+{
+  "version": 9,
+  "status": "goal set; v9 SAT experiments not started",
+  "goal_file": "docs/AGENT_GOAL.md",
+  "resource_policy": "configs/resource_policy.json",
+  "project_cpu_hours_cap": null,
+  "stage_cpu_hours_cap": null,
+  "completion_cpu_seconds_cap": null,
+  "automatic_stop_at_200_cpu_hours": false,
+  "actual_cpu_accounting": true,
+  "metric": "mean_completed_cpu_seconds",
+  "timeout_penalty": null,
+  "incomplete_mean": null,
+  "reuse_v8_for": "exposed development/exploration only; no old holdout reused as blind test",
+  "problem_types": [
+    "random_3sat",
+    "graph_3coloring",
+    "coupled_assignment_scheduling"
+  ],
+  "scale_levels": [
+    "S",
+    "M",
+    "L"
+  ],
+  "pilot_base_instances": 36,
+  "new_development_base_instances": 270,
+  "new_holdout_base_instances": 270,
+  "per_cell_per_split": 30,
+  "holdout_blocks": 3,
+  "instances_per_holdout_block": 90,
+  "external_public_instances_target": 60,
+  "scale_extrapolation_instances_target": 90,
+  "selector_methods": [
+    "default_presolve_then_fixed_forcephase",
+    "default_presolve_then_content_gate"
+  ],
+  "tau_cpu_seconds_grid": [
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2,
+    5,
+    10
+  ],
+  "fallback_actions": [
+    "Fp",
+    "Fm"
+  ],
+  "fixed_reference": {
+    "probe_action": "D",
+    "probe_cpu_seconds": 2,
+    "fallback_action": "Fp"
+  },
+  "probe_answer_policy": "return verified answer without rerun",
+  "unsolved_probe_policy": "restart chosen action from original input; charge all repeated work",
+  "max_deployed_wrappers": 2,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "comparators": [
+    "D",
+    "Fp",
+    "Fm",
+    "SBS_selected_on_development",
+    "oracle"
+  ],
+  "minimum_practical_gain_target_percent": 5,
+  "primary_confidence_interval": 0.95,
+  "mechanism_diagnostic_instances_target": 54,
+  "robustness_diagnostic_instances_target": 54,
+  "formal_solver_seed": 0,
+  "solver_commit": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+  "resume_old55": true,
+  "old55_blocks_new_study": false,
+  "old_completed_study_commit": "aba8b228f975fb9226cdb4ec357cf0811c37b42c"
+}

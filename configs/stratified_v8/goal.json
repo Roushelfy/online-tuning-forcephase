@@ -1,7 +1,7 @@
 {
   "version": 8,
   "status": "complete 2026-10-24 (UTC): reports/stratified_v8/FINAL_REPORT.md; protocol docs/STRATIFIED_PROTOCOL_V8.md",
-  "goal_file": "docs/AGENT_GOAL.md",
+  "goal_file": "docs/AGENT_GOAL_STRATIFIED_V8.md",
   "research_question": "Recognize when D/Fp/Fm works best across controlled problem types, scales and difficulty.",
   "metric": "mean_completed_cpu_seconds",
   "aggregation": "arithmetic_mean_on_identical_fixed_panel",
@@ -79,17 +79,12 @@
   "preserve_v7_panel_and_results": true,
   "v7_source_commit": "8727837b07c76e69ad2f9c6499b4ba7e4ec97acf",
   "budget": {
-    "cumulative_cpu_hours_cap": 200,
-    "used_cpu_hours_at_goal_estimate": 195.89,
-    "remaining_cpu_hours_estimate": 4.11,
-    "stage_plan_cpu_hours": {
-      "pilot_and_generation": 0.75,
-      "formal_fixed_features_and_wrapper": 2.5,
-      "checks_models_analysis_reports": 0.6,
-      "reserve": 0.26
-    },
-    "requires_actual_ledger_check_before_run": true,
-    "automatic_budget_increase": false
+    "resource_policy": "configs/resource_policy.json",
+    "cumulative_cpu_hours_cap": null,
+    "stage_cpu_hours_cap": null,
+    "used_cpu_hours_estimate_after_v8": 197.74,
+    "accounting_only": true,
+    "old_budget_status": "withdrawn by user 2026-10-24; historical values remain in archived v8 goal"
   },
   "comparators": [
     "always_D",

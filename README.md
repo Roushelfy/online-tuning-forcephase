@@ -4,11 +4,15 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 本仓库是科研项目 **Online Tuning Forcephase H:1** 的完整研究记录：固定版本 CaDiCaL 上的最小研究补丁、可复现的实验流水线、全部运行记录的汇总、分阶段报告和最终中文研究报告。
 
+**用户资源政策更新（2026-10-24）：不设核时限制。**旧200核时及其阶段额度已取消；历史累计197.74核时只是账本，不是剩余配额。当前政策：[RESOURCE_POLICY.md](docs/RESOURCE_POLICY.md)、[resource_policy.json](configs/resource_policy.json)。运行器不再按累计CPU或旧budget参数停机。
+
+**当前目标：Agent Goal v9（已设定，实验待执行）：[docs/AGENT_GOAL.md](docs/AGENT_GOAL.md)。**优先验证“默认短预求解，未完成再选择flag”，采用270道新开发题＋270道独立留出题，另做外部/规模迁移和rephase单因素消融；保持全部完成后的平均CPU指标。原55题的无预算补跑并行推进，旧v8目标存档：[AGENT_GOAL_STRATIFIED_V8.md](docs/AGENT_GOAL_STRATIFIED_V8.md)。
+
 **历史最终报告：[reports/FINAL_REPORT.md](reports/FINAL_REPORT.md)**（含英文 abstract）。
 
 **当前主评价口径为v7：同一批任务全部完成后的平均CPU时间。**下面v4–v6的PAR2数字均为历史截断实验，不是新口径下的完成时间；新口径在 55 题面板上仍有 8 题未完成，完整均值未知。
 
-**Agent Goal v8（受控类型、规模与难度）已完成（2026-10-24）：[reports/stratified_v8/FINAL_REPORT.md](reports/stratified_v8/FINAL_REPORT.md)。**生成 54 道新题（随机 3-SAT、图 3 着色、耦合任务分配 × 三档规模，按试采样校准；N 由预定规则从 90/54/27 中选为 54），D/F+/F− 共 162 次正式运行全部完成并验证，完整均值可计算。规律：随机 3-SAT 上 F± 在 UNSAT 题 7/7 更快（约 1.3–2 倍），在 SAT 题上 D 11 题赢 10 题、F± 最坏慢约 600 倍；图着色上 F+ 最稳（18 题赢 14）、F− 常更差；分配题极易，D≈F+、F− 约慢 1.9 倍。全部 54 题：D 10.87 s，F+ 9.96 s（+8.4%），F− 14.10 s（−29.7%），oracle 5.78 s（+46.8%），节省高度集中。机制检查：取反全部文字使 F+/F− 几乎对调（极性效应），UNSAT 优势对换号与翻转都稳健，着色 SAT 与分配题上逐题胜负约一半随换号改变。廉价静态指标能认出题型但分不开 SAT/UNSAT；按规则冻结的岭回归选择器在留出 18 题上为 24.13 s，相对 D −334%、相对开发集 SBS（F−）+1.3%，原因是留出的大随机题恰为 SAT（开发集与留出集的 SBS 方向相反）。结论：没有在线识别收益的证据。协议：[STRATIFIED_PROTOCOL_V8.md](docs/STRATIFIED_PROTOCOL_V8.md)；算力 1.85 核时，累计 197.74 / 200。v7 目标存档：[AGENT_GOAL_COMPLETION_V7.md](docs/AGENT_GOAL_COMPLETION_V7.md)。
+**Agent Goal v8（受控类型、规模与难度）已完成（2026-10-24）：[reports/stratified_v8/FINAL_REPORT.md](reports/stratified_v8/FINAL_REPORT.md)。**生成 54 道新题（随机 3-SAT、图 3 着色、耦合任务分配 × 三档规模，按试采样校准；N 由预定规则从 90/54/27 中选为 54），D/F+/F− 共 162 次正式运行全部完成并验证，完整均值可计算。规律：随机 3-SAT 上 F± 在 UNSAT 题 7/7 更快（约 1.3–2 倍），在 SAT 题上 D 11 题赢 10 题、F± 最坏慢约 600 倍；图着色上 F+ 最稳（18 题赢 14）、F− 常更差；分配题极易，D≈F+、F− 约慢 1.9 倍。全部 54 题：D 10.87 s，F+ 9.96 s（+8.4%），F− 14.10 s（−29.7%），oracle 5.78 s（+46.8%），节省高度集中。机制检查：取反全部文字使 F+/F− 几乎对调（极性效应），UNSAT 优势对换号与翻转都稳健，着色 SAT 与分配题上逐题胜负约一半随换号改变。廉价静态指标能认出题型但分不开 SAT/UNSAT；按规则冻结的岭回归选择器在留出 18 题上为 24.13 s，相对 D −334%、相对开发集 SBS（F−）+1.3%，原因是留出的大随机题恰为 SAT（开发集与留出集的 SBS 方向相反）。结论：没有在线识别收益的证据。协议：[STRATIFIED_PROTOCOL_V8.md](docs/STRATIFIED_PROTOCOL_V8.md)；算力 1.85 核时，累计197.74核时（当时的200上限现已取消）。v7 目标存档：[AGENT_GOAL_COMPLETION_V7.md](docs/AGENT_GOAL_COMPLETION_V7.md)。
 
 **三选一研究（Agent Goal v4）已完成（2026-10-22）：[reports/three_way/FINAL_REPORT.md](reports/three_way/FINAL_REPORT.md)。**五年代表性面板（2022–2026，500 题，dev 401 / test 99，家族不相交）上，默认 D 是最佳固定动作；冻结的静态选择器与 0.1 s 试跑选择器在 test 上相对 D 为 PAR2 −3.7% [−10.4, +2.5] 与 −1.7% [−7.9, +3.2]（含全部观察成本），dev 交叉验证中 12 个候选也全部不如 D：有界负结果。oracle 上限 dev 12% / test 8.5%，但集中于少数实例，廉价特征只与胜负弱相关。协议 [THREE_WAY_PROTOCOL.md](docs/THREE_WAY_PROTOCOL.md)；面板 [DATASET.md](reports/three_way/DATASET.md)；S1 [BASELINE_PROFILE.md](reports/three_way/BASELINE_PROFILE.md)；S2 [SELECTOR_CV.md](reports/three_way/SELECTOR_CV.md)；S3 [TEST_RESULTS.md](reports/three_way/TEST_RESULTS.md)；算力 39.9 CPU 核时（[COMPUTE.md](results/three_way/COMPUTE.md)）。
 
@@ -16,7 +20,7 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **Goal v5（扩大观测方式）已完成（2026-10-23）：[reports/observations_v5/FINAL_REPORT.md](reports/observations_v5/FINAL_REPORT.md)。**在 v4 的五年面板上实施了候选库中的 50 项新观测（A–G 七类，外加 1 项部分实施），包括三动作配对短试跑、双边传播、根传播残余式、加权极性、修正的相位轨迹、蕴含图、社区/WL 和局部搜索；分装成 11 个观察包，每个配上带默认回退门的绝对成本读出器，在 dev 401 上做家族分组嵌套交叉验证，全部观察 CPU 计入成本。结果是有界负结果：27 个登记比较没有一个可靠优于始终 D（−2.2% 到 +0.0%）；同一读出器下，没有一个观察包相对 v4 的 28 个静态特征有增量；新读出器比 v4 读出器好，但只是因为更少偏离。两个按协议选出的策略，在 dev 真实部署中为 −0.25% 与 −0.01%，在冻结后的 78 题确认集上为 +0.4% [−4.8, +6.0] 与 −1.4%。另外发现：局部搜索观测不可复现，大公式上观察常常触顶，单 seed 的 D 优势标签不稳定。协议见 [OBSERVATION_PROTOCOL_V5.md](docs/OBSERVATION_PROTOCOL_V5.md)，注册表见 [registry.json](configs/observations_v5/registry.json)；算力 82.4 CPU 核时，v4 之后累计 122.3（[COMPUTE.md](results/observations_v5/COMPUTE.md)）。
 
-**Agent Goal v7（全部完成后的平均 CPU 时间）：新口径尚未测完（2026-10-24），报告 [reports/completion_v7/REPORT.md](reports/completion_v7/REPORT.md)。**固定的 55 题面板上，D 与冻结选择器长时版 P1_M05_long 都完成 47/55，F+ 30/55，F− 29/55，oracle 已确定 44/55；所以所有完整均值与收益都是 null，没有宣布任何结论。8 道未完成的题各已实际运行约 12,250 s，其中 4 道比赛中无人解出。可证明的补充界：P1_M05_long 在 28 道长时题上全选 D，与 v6 决策逐题一致，与 D 共用同一次运行，所以 55 题的 P1 − D 都精确已知：Σ = −217.2 s，相对收益介于 0 与 +0.149% 之间；oracle 在 44 题上比 D 至少省 26,998 s，其中约 90% 来自两道 sat-x 题（F− 不到 51 s 完成，D 超过 12,200 s 仍未完成）。缺口与补齐所需算力见报告第 5 节，需要用户做资源决策。历史目标：[AGENT_GOAL_COMPLETION_V7.md](docs/AGENT_GOAL_COMPLETION_V7.md)；协议：[COMPLETION_TIME_PROTOCOL_V7.md](docs/COMPLETION_TIME_PROTOCOL_V7.md)；运行计划：[COMPLETION_RUN_PLAN_V7.md](docs/COMPLETION_RUN_PLAN_V7.md)；v7 算力 51.2 核时，累计 195.9 / 200。v6 目标存档：[AGENT_GOAL_STABLE_SELECTION_V6.md](docs/AGENT_GOAL_STABLE_SELECTION_V6.md)。
+**Agent Goal v7（全部完成后的平均 CPU 时间）：新口径尚未测完（2026-10-24），报告 [reports/completion_v7/REPORT.md](reports/completion_v7/REPORT.md)。**固定的 55 题面板上，D 与冻结选择器长时版 P1_M05_long 都完成 47/55，F+ 30/55，F− 29/55，oracle 已确定 44/55；所以所有完整均值与收益都是 null，没有宣布任何结论。8 道未完成的题各已实际运行约 12,250 s，其中 4 道比赛中无人解出。可证明的补充界：P1_M05_long 在 28 道长时题上全选 D，与 v6 决策逐题一致，与 D 共用同一次运行，所以 55 题的 P1 − D 都精确已知：Σ = −217.2 s，相对收益介于 0 与 +0.149% 之间；oracle 在 44 题上比 D 至少省 26,998 s，其中约 90% 来自两道 sat-x 题（F− 不到 51 s 完成，D 超过 12,200 s 仍未完成）。缺口与补齐所需工作见报告第5节；该报告当时的核时上限现已由用户取消。历史目标：[AGENT_GOAL_COMPLETION_V7.md](docs/AGENT_GOAL_COMPLETION_V7.md)；协议：[COMPLETION_TIME_PROTOCOL_V7.md](docs/COMPLETION_TIME_PROTOCOL_V7.md)；运行计划：[COMPLETION_RUN_PLAN_V7.md](docs/COMPLETION_RUN_PLAN_V7.md)；v7 算力 51.2 核时，累计195.9核时（历史上限已取消）。v6 目标存档：[AGENT_GOAL_STABLE_SELECTION_V6.md](docs/AGENT_GOAL_STABLE_SELECTION_V6.md)。
 
 **v5 的执行顺序**：核对旧观测的有效覆盖与错误损失 → 在小面板上验证新观测与开销 → 在开发集上分组筛选并保守选择 → 完整 wrapper 实测 → 小型新确认。各阶段的报告都在 `reports/observations_v5/`。
 
@@ -36,7 +40,9 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 | 文档 | 内容 |
 | --- | --- |
-| [当前 Agent Goal v8](docs/AGENT_GOAL.md) | 非比赛题、类型/规模/难度分层、先三模式基线再找规则 |
+| [当前 Agent Goal v9](docs/AGENT_GOAL.md) | 默认短预求解、扩大独立验证、rephase消融与原55题恢复 |
+| [资源政策：无核时上限](docs/RESOURCE_POLICY.md) | 用户授权、运行器语义与历史预算失效范围 |
+| [已完成的分层目标 v8](docs/AGENT_GOAL_STRATIFIED_V8.md) | 54题分层研究与当时的历史预算 |
 | [长时目标 v7存档](docs/AGENT_GOAL_COMPLETION_V7.md) | 原55题的全部完成时间研究，仍未测完 |
 | [完成时间评价协议 v7](docs/COMPLETION_TIME_PROTOCOL_V7.md) | 完整均值、未完成状态、oracle下界与评价入口 |
 | [已完成的稳定选择目标 v6](docs/AGENT_GOAL_STABLE_SELECTION_V6.md) | v6历史任务与旧300秒评价边界 |

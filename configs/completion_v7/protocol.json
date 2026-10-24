@@ -32,9 +32,10 @@
   "checker_cpu_in_primary_metric": false,
   "observation_cap_cpu_seconds": 6,
   "formal_seed": 0,
-  "cumulative_budget_cpu_hours": 200,
+  "cumulative_budget_cpu_hours": null,
   "previous_used_cpu_hours": 144.65,
-  "collection_status": "pending long-running data collection and reuse audit",
+  "collection_status": "v7 incomplete; CPU-hour limits withdrawn by user 2026-10-24; continue with new unrestricted stages",
   "historical_source_commit": "068fca03b9fc793a05dca6b13670618a649fb504",
-  "historical_source_panel": "configs/stable_selection_v6/validate_hashes.txt"
+  "historical_source_panel": "configs/stable_selection_v6/validate_hashes.txt",
+  "resource_policy": "configs/resource_policy.json"
 }

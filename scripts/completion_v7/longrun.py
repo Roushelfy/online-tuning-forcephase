@@ -1,23 +1,11 @@
 #!/usr/bin/env python3
-"""v7 long-run controller (docs/COMPLETION_RUN_PLAN_V7.md sections 2-4).
+"""Run a queued research stage with CPU accounting and no CPU-hour stop.
 
-  longrun.py --plan configs/completion_v7/stage1.json --stage stage1 --budget-cpu-hours 40
-
-Starts every pending job of the plan at the same time, one physical core each
-(fair: unfinished jobs always have received the same CPU), with NO scoring
-cutoff. Administrative stops only:
-  * budget: when the summed CPU of all jobs of this stage (finished + running)
-    reaches the stage budget, every running job gets SIGTERM (CaDiCaL stops
-    cleanly), SIGKILL after 60 s -> status 'censored' with its actual CPU;
-  * cap (optional per job, stage 2 oracle arms): SIGTERM once the job's own CPU
-    reaches cap -> status 'noncompetitive_bound'.
-Jobs: kind 'fixed' runs build/fpc with the action's flags (the fixed-run
-command); kind 'wrapper' runs scripts/completion_v7/wrapper_long.py
-(P1_M05_long). Answers are verified at once (checkmodel / lrat-trim with
-max(1800 s, 4 x CPU)); proofs live on node-local disk (/var/tmp) and are
-deleted after checking. Every 60 s a heartbeat with each job's actual CPU is
-written to $FP_DATA/runs/completion_v7/<stage>/progress.json.
-Records: $FP_DATA/runs/completion_v7/<stage>/<id>.json (finished jobs are skipped).
+The user withdrew project, stage, and ordinary completion-time CPU caps on
+2026-10-24. Legacy --budget-cpu-hours arguments are accepted but ignored.
+Only explicitly typed oracle certificates or observation windows retain
+algorithmic stopping windows. Historical protocols describe past runs;
+reproduce those using their pinned historical commit.
 """
 
 import argparse
@@ -39,6 +27,7 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 sys.path.insert(0, os.path.join(ROOT, "scripts", "three_way"))
 import fprun  # noqa: E402
 import twlib  # noqa: E402
+import resource_policy  # noqa: E402
 
 FORMAL = os.path.join(ROOT, "build", "fpc", "cadical")
 WRAPPER = os.path.join(HERE, "wrapper_long.py")
@@ -67,6 +56,9 @@ def replace_json(path, obj):
 def job_key(j, stage):
     key = {"schema": 1, "stage": stage, "instance": j["instance"], "method": j["method"], "kind": j["kind"],
            "formal_sha256": sha(FORMAL), "mem_mb": MEM_MB, "cap_cpu": j.get("cap_cpu"), "seed": 0, "proof": "lrat"}
+    if j.get("resource_policy_id"):
+        key["resource_policy_id"] = j["resource_policy_id"]
+        key["cap_kind"] = j.get("cap_kind")
     if j["kind"] == "wrapper":
         key.update(strategy_sha256=sha(STRATEGY), wrapper_sha256=sha(WRAPPER),
                    v6lib_sha256=sha(os.path.join(ROOT, "scripts", "stable_selection_v6", "v6lib.py")),
@@ -181,7 +173,8 @@ def finalize(job, stage_dir):
     if answered:
         status = {True: "solved", False: "wrong"}.get(ver["ok"] if ver else None, "unverified")
     elif job.stop_reason == "cap":
-        status = "noncompetitive_bound"
+        status = ("noncompetitive_bound" if job.spec.get("cap_kind") == "oracle_noncompetitive_bound"
+                  else "censored")
     elif job.stop_reason == "budget":
         status = "censored"
     else:
@@ -215,12 +208,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--plan", required=True)
     ap.add_argument("--stage", required=True)
-    ap.add_argument("--budget-cpu-hours", type=float, required=True)
+    ap.add_argument("--budget-cpu-hours", type=float, default=None,
+                    help="deprecated compatibility argument; ignored by current no-limit policy")
     ap.add_argument("--status", action="store_true")
     a = ap.parse_args()
-    plan = json.load(open(a.plan))
+    policy = resource_policy.load_policy(ROOT)
+    with open(a.plan) as plan_file:
+        plan = resource_policy.prepare_plan(json.load(plan_file), policy)
+    if a.budget_cpu_hours is not None:
+        print("[resource-policy] ignoring legacy --budget-cpu-hours; no CPU-hour limit", flush=True)
     stage_dir = os.path.join(OUT, a.stage)
     os.makedirs(stage_dir, exist_ok=True)
+    replace_json(os.path.join(stage_dir, "effective_plan.json"), plan)
     specs = plan["jobs"]
     if a.status:
         done = sum(os.path.exists(os.path.join(stage_dir, job_key(s, a.stage)[1] + ".json")) for s in specs)
@@ -235,16 +234,14 @@ def main():
     step = max(1, (len(cores) - 4) // max(1, len(pending)))
     jobs = [Job(s, a.stage, cores[k * step]) for k, s in enumerate(pending)]
     free = [c for c in cores if c not in {j.core for j in jobs}]
-    budget = a.budget_cpu_hours * 3600.0
-    print(f"[longrun] {a.stage}: {len(specs)} jobs, {len(jobs)} pending, budget {a.budget_cpu_hours} CPU-h "
-          f"(already spent {prior / 3600:.2f})", flush=True)
+    print(f"[longrun] {a.stage}: {len(specs)} jobs, {len(jobs)} pending; "
+          f"CPU-hour limit: none (accounted {prior / 3600:.2f})", flush=True)
     for j in jobs:
         j.launch()
     os.sched_setaffinity(0, set(free))  # controller and checkers stay off the job cores
     pool = cf.ThreadPoolExecutor(max_workers=8)
     futs = []
     last_hb = 0
-    stopping = False
     while True:
         running = [j for j in jobs if not j.done]
         for j in running:
@@ -257,16 +254,11 @@ def main():
             j.kill_if_late()
         running = [j for j in jobs if not j.done]
         spent = prior + sum(j.cpu for j in jobs)
-        if not stopping and spent >= budget and running:
-            stopping = True
-            print(f"[longrun] budget reached ({spent / 3600:.2f} CPU-h): stopping {len(running)} jobs", flush=True)
-            for j in running:
-                j.term("budget")
         if time.time() - last_hb > 60 or not running:
             last_hb = time.time()
             hb = {"utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "host": socket.gethostname(),
                   "slurm_job": os.environ.get("SLURM_JOB_ID"), "spent_cpu_hours": spent / 3600,
-                  "budget_cpu_hours": a.budget_cpu_hours,
+                  "budget_cpu_hours": None, "resource_policy_id": policy["policy_id"],
                   "jobs": [{"id": j.id, "instance": j.spec["instance"], "method": j.spec["method"], "cpu": j.cpu,
                             "state": "finished" if j.done else ("stopping" if j.stop_reason else "running")} for j in jobs]}
             replace_json(os.path.join(stage_dir, "progress.json"), hb)
