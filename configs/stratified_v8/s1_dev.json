@@ -1,0 +1,761 @@
+{
+ "stage": "s1_dev",
+ "jobs": [
+  {
+   "instance": "v8-rand3-L-02",
+   "sha256": "2439da3de2eba670485dc00559cc881be69b51517c68b949e95bc83395112dca",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-02",
+   "sha256": "2439da3de2eba670485dc00559cc881be69b51517c68b949e95bc83395112dca",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-02",
+   "sha256": "2439da3de2eba670485dc00559cc881be69b51517c68b949e95bc83395112dca",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-01",
+   "sha256": "7a0922e442cdbafb35cf635f79b491ceb85b955cba591a103c0d6ff875447fb7",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-01",
+   "sha256": "7a0922e442cdbafb35cf635f79b491ceb85b955cba591a103c0d6ff875447fb7",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-01",
+   "sha256": "7a0922e442cdbafb35cf635f79b491ceb85b955cba591a103c0d6ff875447fb7",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-03",
+   "sha256": "5785ad70177a7bffb3fd668a99465fd6088783fb2958514aab45a0e203a3afa8",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-03",
+   "sha256": "5785ad70177a7bffb3fd668a99465fd6088783fb2958514aab45a0e203a3afa8",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-03",
+   "sha256": "5785ad70177a7bffb3fd668a99465fd6088783fb2958514aab45a0e203a3afa8",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-05",
+   "sha256": "05b98ddf996d0d3b0c3e6a8701dab96cea068f0e2f021eaefbbd92ef091b1ea6",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-05",
+   "sha256": "05b98ddf996d0d3b0c3e6a8701dab96cea068f0e2f021eaefbbd92ef091b1ea6",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-L-05",
+   "sha256": "05b98ddf996d0d3b0c3e6a8701dab96cea068f0e2f021eaefbbd92ef091b1ea6",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-02",
+   "sha256": "26af2b0df93888b8d19ad0ade065946f8bcd9266d476d11c943be1d12c181b88",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-02",
+   "sha256": "26af2b0df93888b8d19ad0ade065946f8bcd9266d476d11c943be1d12c181b88",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-02",
+   "sha256": "26af2b0df93888b8d19ad0ade065946f8bcd9266d476d11c943be1d12c181b88",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-04",
+   "sha256": "4a68c0f8456a8a0db5e9f56917e3e3f7cc2fc3428139c5d25d08a35db6d87c95",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-04",
+   "sha256": "4a68c0f8456a8a0db5e9f56917e3e3f7cc2fc3428139c5d25d08a35db6d87c95",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-04",
+   "sha256": "4a68c0f8456a8a0db5e9f56917e3e3f7cc2fc3428139c5d25d08a35db6d87c95",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-01",
+   "sha256": "ebbf5438250cd45ef310e3f70cfa0d339f5452dca094fabe4ac79406b145f07d",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-01",
+   "sha256": "ebbf5438250cd45ef310e3f70cfa0d339f5452dca094fabe4ac79406b145f07d",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-01",
+   "sha256": "ebbf5438250cd45ef310e3f70cfa0d339f5452dca094fabe4ac79406b145f07d",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-00",
+   "sha256": "ab91cfff3a300ddc51e03766e5adc336469a118a1f77589c8ce664bab519f8ae",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-00",
+   "sha256": "ab91cfff3a300ddc51e03766e5adc336469a118a1f77589c8ce664bab519f8ae",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-L-00",
+   "sha256": "ab91cfff3a300ddc51e03766e5adc336469a118a1f77589c8ce664bab519f8ae",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-00",
+   "sha256": "100290d14940e292a0ffde30e370b96c2feab1b784ecda2bd26cf997d672bb24",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-00",
+   "sha256": "100290d14940e292a0ffde30e370b96c2feab1b784ecda2bd26cf997d672bb24",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-00",
+   "sha256": "100290d14940e292a0ffde30e370b96c2feab1b784ecda2bd26cf997d672bb24",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-03",
+   "sha256": "e60d8ddb6943e82ef6743568888d2fdabcfa46f34c61fa5953e5bf5a0ee1d271",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-03",
+   "sha256": "e60d8ddb6943e82ef6743568888d2fdabcfa46f34c61fa5953e5bf5a0ee1d271",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-03",
+   "sha256": "e60d8ddb6943e82ef6743568888d2fdabcfa46f34c61fa5953e5bf5a0ee1d271",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-01",
+   "sha256": "81ffe574b480e0c7332baba005c52b506d60ee520a928623a25c17b17e6fe003",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-01",
+   "sha256": "81ffe574b480e0c7332baba005c52b506d60ee520a928623a25c17b17e6fe003",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-01",
+   "sha256": "81ffe574b480e0c7332baba005c52b506d60ee520a928623a25c17b17e6fe003",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-05",
+   "sha256": "f5032eaf613a23feb747fa1493d244ff5d304ca4d3a09af1a1e32f916841c2c7",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-05",
+   "sha256": "f5032eaf613a23feb747fa1493d244ff5d304ca4d3a09af1a1e32f916841c2c7",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-L-05",
+   "sha256": "f5032eaf613a23feb747fa1493d244ff5d304ca4d3a09af1a1e32f916841c2c7",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-01",
+   "sha256": "d9f1ef59ebc1260d3ce28200319a2d458cf3676cf33cd0dd11a6421bc1a2b200",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-01",
+   "sha256": "d9f1ef59ebc1260d3ce28200319a2d458cf3676cf33cd0dd11a6421bc1a2b200",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-01",
+   "sha256": "d9f1ef59ebc1260d3ce28200319a2d458cf3676cf33cd0dd11a6421bc1a2b200",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-00",
+   "sha256": "cf8d135dd53b94087786db68e78f94646cc618eb51105f0f0121b25f219000dd",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-00",
+   "sha256": "cf8d135dd53b94087786db68e78f94646cc618eb51105f0f0121b25f219000dd",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-00",
+   "sha256": "cf8d135dd53b94087786db68e78f94646cc618eb51105f0f0121b25f219000dd",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-05",
+   "sha256": "22262e859c00d183ac34e3ec7986c17fe441cececa36549211a5aeb5f9cf0e0d",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-05",
+   "sha256": "22262e859c00d183ac34e3ec7986c17fe441cececa36549211a5aeb5f9cf0e0d",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-05",
+   "sha256": "22262e859c00d183ac34e3ec7986c17fe441cececa36549211a5aeb5f9cf0e0d",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-02",
+   "sha256": "1d2a5aa70b625e52ce74d11908bf969002c56eccdb16e9f88cc452fb3197a65f",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-02",
+   "sha256": "1d2a5aa70b625e52ce74d11908bf969002c56eccdb16e9f88cc452fb3197a65f",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-M-02",
+   "sha256": "1d2a5aa70b625e52ce74d11908bf969002c56eccdb16e9f88cc452fb3197a65f",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-05",
+   "sha256": "370efe9b7b15ba576a00fbb77bff4bf79ebcf8271872d856334b1e77b860a547",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-05",
+   "sha256": "370efe9b7b15ba576a00fbb77bff4bf79ebcf8271872d856334b1e77b860a547",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-05",
+   "sha256": "370efe9b7b15ba576a00fbb77bff4bf79ebcf8271872d856334b1e77b860a547",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-03",
+   "sha256": "d2b7d61524afa53818e8da963a45e6fe3abd5ed4b814e20ed64ba0fd6a4db62a",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-03",
+   "sha256": "d2b7d61524afa53818e8da963a45e6fe3abd5ed4b814e20ed64ba0fd6a4db62a",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-03",
+   "sha256": "d2b7d61524afa53818e8da963a45e6fe3abd5ed4b814e20ed64ba0fd6a4db62a",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-00",
+   "sha256": "0f1cf0ae792b206033440dcc1388ed28dc3effe5fffdf35112f273b51a6c768b",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-00",
+   "sha256": "0f1cf0ae792b206033440dcc1388ed28dc3effe5fffdf35112f273b51a6c768b",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-00",
+   "sha256": "0f1cf0ae792b206033440dcc1388ed28dc3effe5fffdf35112f273b51a6c768b",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-04",
+   "sha256": "b6245a5207686b396cdb9eb784f2efdb3141f2ac639cb6e0b70052439acf28f9",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-04",
+   "sha256": "b6245a5207686b396cdb9eb784f2efdb3141f2ac639cb6e0b70052439acf28f9",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-M-04",
+   "sha256": "b6245a5207686b396cdb9eb784f2efdb3141f2ac639cb6e0b70052439acf28f9",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-01",
+   "sha256": "f2c337f8a6e8445315169d1c5a71c8fdd591c597c6f0db23461c35d446ec2877",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-01",
+   "sha256": "f2c337f8a6e8445315169d1c5a71c8fdd591c597c6f0db23461c35d446ec2877",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-01",
+   "sha256": "f2c337f8a6e8445315169d1c5a71c8fdd591c597c6f0db23461c35d446ec2877",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-00",
+   "sha256": "bfcff1d2b1d5982f986d63a87fe2f093aef831fdd43f74d268f8f695d3ed7aea",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-00",
+   "sha256": "bfcff1d2b1d5982f986d63a87fe2f093aef831fdd43f74d268f8f695d3ed7aea",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-00",
+   "sha256": "bfcff1d2b1d5982f986d63a87fe2f093aef831fdd43f74d268f8f695d3ed7aea",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-02",
+   "sha256": "7be392e9f5a0ebe665ee9ca2ee932f15f2ed4f320b3d167cc48a7e7ffd1c22d8",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-02",
+   "sha256": "7be392e9f5a0ebe665ee9ca2ee932f15f2ed4f320b3d167cc48a7e7ffd1c22d8",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-02",
+   "sha256": "7be392e9f5a0ebe665ee9ca2ee932f15f2ed4f320b3d167cc48a7e7ffd1c22d8",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-05",
+   "sha256": "533454710246df25e24bc6e1ed5b46b23e8e6cace8696fd0f49b9706b6d0634d",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-05",
+   "sha256": "533454710246df25e24bc6e1ed5b46b23e8e6cace8696fd0f49b9706b6d0634d",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-M-05",
+   "sha256": "533454710246df25e24bc6e1ed5b46b23e8e6cace8696fd0f49b9706b6d0634d",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-04",
+   "sha256": "70a0af7cc0141076dccd8425cf68daa1932d651b394220766f63dfa5b7c05c21",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-04",
+   "sha256": "70a0af7cc0141076dccd8425cf68daa1932d651b394220766f63dfa5b7c05c21",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-04",
+   "sha256": "70a0af7cc0141076dccd8425cf68daa1932d651b394220766f63dfa5b7c05c21",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-00",
+   "sha256": "f61a2c781a26e8bc827d2952bc9a3a870e382ddffc3173e99a9c2382c490b510",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-00",
+   "sha256": "f61a2c781a26e8bc827d2952bc9a3a870e382ddffc3173e99a9c2382c490b510",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-00",
+   "sha256": "f61a2c781a26e8bc827d2952bc9a3a870e382ddffc3173e99a9c2382c490b510",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-03",
+   "sha256": "130de49281dd14d47dc15ab12b9e1363d02e40f77659ef5510932edce222c197",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-03",
+   "sha256": "130de49281dd14d47dc15ab12b9e1363d02e40f77659ef5510932edce222c197",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-03",
+   "sha256": "130de49281dd14d47dc15ab12b9e1363d02e40f77659ef5510932edce222c197",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-02",
+   "sha256": "fed8816d83cb49679db26c13690d3d6849d394ffb016cd1e81f2af093465883f",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-02",
+   "sha256": "fed8816d83cb49679db26c13690d3d6849d394ffb016cd1e81f2af093465883f",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-rand3-S-02",
+   "sha256": "fed8816d83cb49679db26c13690d3d6849d394ffb016cd1e81f2af093465883f",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-02",
+   "sha256": "04f26c951f0fe5b4ba0d967d9938e586134c891ace16584160de2648ed0d1143",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-02",
+   "sha256": "04f26c951f0fe5b4ba0d967d9938e586134c891ace16584160de2648ed0d1143",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-02",
+   "sha256": "04f26c951f0fe5b4ba0d967d9938e586134c891ace16584160de2648ed0d1143",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-05",
+   "sha256": "c0c9d61c1a27aae5b4361172aaaf15ed1169ce96a45f6eba4df5688b24ec8ed3",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-05",
+   "sha256": "c0c9d61c1a27aae5b4361172aaaf15ed1169ce96a45f6eba4df5688b24ec8ed3",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-05",
+   "sha256": "c0c9d61c1a27aae5b4361172aaaf15ed1169ce96a45f6eba4df5688b24ec8ed3",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-04",
+   "sha256": "1029d82b6a2966f7a0e38819403cae290f9269ca4cae2a127768b1816817aad1",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-04",
+   "sha256": "1029d82b6a2966f7a0e38819403cae290f9269ca4cae2a127768b1816817aad1",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-04",
+   "sha256": "1029d82b6a2966f7a0e38819403cae290f9269ca4cae2a127768b1816817aad1",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-00",
+   "sha256": "71bbe525de45bbf85b0b043f543e63f6c6d78d69e9f6ad6f5e101d8a0896c107",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-00",
+   "sha256": "71bbe525de45bbf85b0b043f543e63f6c6d78d69e9f6ad6f5e101d8a0896c107",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-col3-S-00",
+   "sha256": "71bbe525de45bbf85b0b043f543e63f6c6d78d69e9f6ad6f5e101d8a0896c107",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-04",
+   "sha256": "8e0f164de5f6d2626a2e595de825001f09e460123eea15326fde57aa53f00a81",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-04",
+   "sha256": "8e0f164de5f6d2626a2e595de825001f09e460123eea15326fde57aa53f00a81",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-04",
+   "sha256": "8e0f164de5f6d2626a2e595de825001f09e460123eea15326fde57aa53f00a81",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-03",
+   "sha256": "7ce748457a5afcc36b3cefc4f8ddeab4338d9044157c891edc86055cb24d1922",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-03",
+   "sha256": "7ce748457a5afcc36b3cefc4f8ddeab4338d9044157c891edc86055cb24d1922",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-03",
+   "sha256": "7ce748457a5afcc36b3cefc4f8ddeab4338d9044157c891edc86055cb24d1922",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-05",
+   "sha256": "3a62582c7bce3298190797a0f74df5215c77821b2fe8762d20ea7aff6ea05388",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-05",
+   "sha256": "3a62582c7bce3298190797a0f74df5215c77821b2fe8762d20ea7aff6ea05388",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-05",
+   "sha256": "3a62582c7bce3298190797a0f74df5215c77821b2fe8762d20ea7aff6ea05388",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-02",
+   "sha256": "eb34ad71e77d214f7ed8a3fa39d3fb5068404b60643a93116fa86fa0aa11c4c2",
+   "method": "D",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-02",
+   "sha256": "eb34ad71e77d214f7ed8a3fa39d3fb5068404b60643a93116fa86fa0aa11c4c2",
+   "method": "Fp",
+   "rep": 0,
+   "cap_cpu": 900
+  },
+  {
+   "instance": "v8-assign-S-02",
+   "sha256": "eb34ad71e77d214f7ed8a3fa39d3fb5068404b60643a93116fa86fa0aa11c4c2",
+   "method": "Fm",
+   "rep": 0,
+   "cap_cpu": 900
+  }
+ ]
+}

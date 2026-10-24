@@ -1,0 +1,34 @@
+{
+ "schema_version": 1,
+ "phase": "stratified_v8_dev",
+ "metric": "mean_completed_cpu_seconds",
+ "unit": "process_tree_cpu_seconds",
+ "aggregation": "arithmetic_mean_over_fixed_panel",
+ "panel_file": "configs/stratified_v8/panel_dev.txt",
+ "panel_size": 36,
+ "methods": [
+  "D",
+  "Fp",
+  "Fm"
+ ],
+ "baseline": "D",
+ "required_methods": [
+  "D",
+  "Fp",
+  "Fm"
+ ],
+ "oracle_actions": [
+  "D",
+  "Fp",
+  "Fm"
+ ],
+ "require_oracle_complete": true,
+ "scoring_cutoff_cpu_seconds": null,
+ "timeout_penalty": null,
+ "incomplete_mean": null,
+ "drop_incomplete_instances": false,
+ "include_observation_and_algorithmic_restart_cpu": true,
+ "independent_verification_required": true,
+ "checker_cpu_in_primary_metric": false,
+ "formal_seed": 0
+}

@@ -1,0 +1,19 @@
+# v8 holdout panel (18 base instances), frozen by scripts/stratified_v8/panel.py
+v8-assign-L-02
+v8-assign-L-04
+v8-assign-M-03
+v8-assign-M-04
+v8-assign-S-00
+v8-assign-S-01
+v8-col3-L-03
+v8-col3-L-05
+v8-col3-M-01
+v8-col3-M-02
+v8-col3-S-01
+v8-col3-S-03
+v8-rand3-L-00
+v8-rand3-L-04
+v8-rand3-M-03
+v8-rand3-M-04
+v8-rand3-S-01
+v8-rand3-S-05
