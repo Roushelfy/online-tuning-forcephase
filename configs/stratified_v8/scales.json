@@ -1,0 +1,98 @@
+{
+ "params": {
+  "rand3": {
+   "S": 260,
+   "M": 300,
+   "L": 350
+  },
+  "col3": {
+   "S": 400,
+   "M": 500,
+   "L": 550
+  },
+  "assign": {
+   "S": 400,
+   "M": 500,
+   "L": 600
+  }
+ },
+ "estimates": {
+  "rand3-S": {
+   "param": 260,
+   "C3_seconds": 7.137115,
+   "source": "measured"
+  },
+  "rand3-M": {
+   "param": 300,
+   "C3_seconds": 35.967094,
+   "source": "measured"
+  },
+  "rand3-L": {
+   "param": 350,
+   "C3_seconds": 191.3293031109076,
+   "source": "interpolated between v8p-r1-rand3-L and v8p-r2-rand3-L (the upper one a lower bound if censored)"
+  },
+  "col3-S": {
+   "param": 400,
+   "C3_seconds": 3.8767769999999997,
+   "source": "measured"
+  },
+  "col3-M": {
+   "param": 500,
+   "C3_seconds": 28.661800999999997,
+   "source": "measured"
+  },
+  "col3-L": {
+   "param": 550,
+   "C3_seconds": 503.258152,
+   "source": "measured"
+  },
+  "assign-S": {
+   "param": 400,
+   "C3_seconds": 0.648299,
+   "source": "measured"
+  },
+  "assign-M": {
+   "param": 500,
+   "C3_seconds": 0.9422299999999999,
+   "source": "measured"
+  },
+  "assign-L": {
+   "param": 600,
+   "C3_seconds": 1.6187999999999998,
+   "source": "measured"
+  }
+ },
+ "kappa": 1.0076207543846525,
+ "tail_factor": 2.0,
+ "ledger_after_pilot_cpu_hours": 196.30197922055555,
+ "ledger_parts": {
+  "before_v8": 195.89,
+  "env_setup": 0.02,
+  "generation": 0.0007776883333333334,
+  "pilot_solver": 0.3870519047222222,
+  "pilot_checker": 0.0029496275000000004,
+  "extra": 0.0012
+ },
+ "formal_budget_B_f_cpu_hours": 3.088020779444448,
+ "estimated_cost_cpu_hours": {
+  "90": 4.767595225096072,
+  "54": 2.8894213485404494,
+  "27": 1.4447106742702247
+ },
+ "N": 54,
+ "per_cell": [
+  4,
+  2
+ ],
+ "timing_noise_median_rel": 0.002850980559526803,
+ "timing_noise_pairs": [
+  0.00028458854541289265,
+  0.005417372573640713,
+  0.0001230804096038574,
+  0.01738033197608363
+ ],
+ "tau_rel": 0.05,
+ "tau_abs": 0.25,
+ "S1_budget_cpu_hours": 1.9334522400455865
+}

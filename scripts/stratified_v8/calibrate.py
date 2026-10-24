@@ -189,6 +189,19 @@ def analyze(write):
     return rows
 
 
+def bracket(t, s, pts):
+    """(lo, hi): the highest-grid measured point below scale s's band and the lowest-grid one above it,
+    if lo lies below hi on the grid; else None."""
+    a, b = PIL["bands_cpu_seconds"][s]
+    below = [r for r in pts if r["c"] < a]
+    above = [r for r in pts if r["c"] > b]
+    if not below or not above:
+        return None
+    lo = max(below, key=lambda r: gidx(t, r["param"]))
+    hi = min(above, key=lambda r: gidx(t, r["param"]))
+    return (lo, hi) if gidx(t, lo["param"]) < gidx(t, hi["param"]) else None
+
+
 def final(ledger_extra_h):
     rows, solver, checker, noise = pilot_points()
     choice, est = {}, {}
@@ -200,6 +213,18 @@ def final(ledger_extra_h):
             if cand:
                 best = min(cand, key=lambda r: abs(math.log(r["c"]) - math.log(PIL["targets_cpu_seconds"][s])))
                 idx[s], dirn[s] = gidx(t, best["param"]), 0
+            elif bracket(t, s, pts):
+                # deviation 2: the target lies between two measured points -> interpolate, never
+                # extrapolate past a measured point
+                lo, hi = bracket(t, s, pts)
+                gl, gh = gidx(t, lo["param"]), gidx(t, hi["param"])
+                tgt = math.log(PIL["targets_cpu_seconds"][s])
+                if gh - gl >= 2:
+                    pos = gl + (tgt - math.log(lo["c"])) / (math.log(hi["c"]) - math.log(lo["c"])) * (gh - gl)
+                    idx[s], dirn[s] = min(gh - 1, max(gl + 1, int(round(pos)))), 0
+                else:
+                    near = min((lo, hi), key=lambda r: (abs(math.log(r["c"]) - tgt), r["c"]))
+                    idx[s], dirn[s] = gidx(t, near["param"]), (1 if near is lo else -1)
             else:
                 done = [r for r in pts if r["complete"]]
                 sl = slope(done) if len(done) >= 2 else None
@@ -210,9 +235,16 @@ def final(ledger_extra_h):
         for s in SCALES:
             p = G[t]["grid"][idx[s]]
             meas = [r for r in pts if r["param"] == p]
+            br = bracket(t, s, pts)
             if meas:
                 c3 = sum(r["sum3"] for r in meas) / len(meas)
                 src = "measured"
+            elif br and gidx(t, br[0]["param"]) < idx[s] < gidx(t, br[1]["param"]):
+                lo, hi = br
+                gl, gh = gidx(t, lo["param"]), gidx(t, hi["param"])
+                lc = math.log(lo["c"]) + (math.log(hi["c"]) - math.log(lo["c"])) * (idx[s] - gl) / (gh - gl)
+                c3 = 3 * math.exp(lc)
+                src = f"interpolated between {lo['id']} and {hi['id']} (the upper one a lower bound if censored)"
             else:
                 done = [r for r in pts if r["complete"]]
                 sl = slope(done) if len(done) >= 2 else None
