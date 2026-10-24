@@ -41,7 +41,7 @@ def v7_records(stages):
     out = []
     for st in stages:
         for p in sorted(glob.glob(os.path.join(OUT, st, "*.json"))):
-            if p.endswith("progress.json"):
+            if p.endswith(("progress.json", "effective_plan.json")):
                 continue
             r = json.load(open(p))
             r["_stage"] = st
@@ -92,9 +92,25 @@ def adopt(P, v6, fixed7, wrap7):
     return out
 
 
+STAGE_ORDER = ["stage1", "stage2", "old55_r1a", "old55_r1b"]  # registration order; later R5 stages are appended
+
+
+def stage_rank(st):
+    return STAGE_ORDER.index(st) if st in STAGE_ORDER else len(STAGE_ORDER) + sorted([st]).index(st)
+
+
+def better(r, prev):
+    rs, ps = r["status"] == "solved", prev["status"] == "solved"
+    if rs != ps:
+        return rs
+    if rs:
+        return stage_rank(r["_stage"]) < stage_rank(prev["_stage"])
+    return r["cpu"] > prev["cpu"]
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--stages", default="stage1,stage2")
+    ap.add_argument("--stages", default="stage1,stage2,old55_r1a,old55_r1b")
     a = ap.parse_args()
     P = panel()
     reuse = json.load(open(os.path.join(RES, "reuse_records.json")))
@@ -108,14 +124,13 @@ def main():
                          "stop_reason": r.get("stop_reason"), "exit_code": r["exit_code"], "host": r["host"], "id": r["id"]})
         if r["status"] not in VALID:
             continue
-        if r["kind"] == "fixed":
-            prev = fixed7.get((r["instance"], r["method"]))
-            # several valid stages for one arm (stage-2 arms restart from scratch): the longest actual run
-            # is the one whose bound / completion is the measurement of record; it is fixed by stage order
-            if prev is None or r["_stage"] > prev["_stage"]:
-                fixed7[(r["instance"], r["method"])] = r
-        else:
-            wrap7[r["instance"]] = r
+        # several valid records for one instance x method (later stages restart from scratch; never spliced):
+        # docs/OLD55_RECOVERY_V9.md section 4 -- a verified completion from the earliest registered stage,
+        # otherwise the bound with the largest actual CPU
+        book, key = (fixed7, (r["instance"], r["method"])) if r["kind"] == "fixed" else (wrap7, r["instance"])
+        prev = book.get(key)
+        if prev is None or better(r, prev):
+            book[key] = r
     out = adopt(P, v6, fixed7, wrap7)
     for dst in (os.path.join(OUT, "normalized.json"), os.path.join(RES, "normalized.json")):
         os.makedirs(os.path.dirname(dst), exist_ok=True)

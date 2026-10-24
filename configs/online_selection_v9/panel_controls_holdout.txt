@@ -1,0 +1,16 @@
+# v9 panel controls_holdout (15 base instances), frozen by scripts/online_selection_v9/panel.py
+v9-assign0-L-01
+v9-assign0-L-02
+v9-assign0-L-04
+v9-assign0-L-07
+v9-assign0-L-09
+v9-assign0-M-01
+v9-assign0-M-02
+v9-assign0-M-07
+v9-assign0-M-08
+v9-assign0-M-09
+v9-assign0-S-00
+v9-assign0-S-04
+v9-assign0-S-06
+v9-assign0-S-07
+v9-assign0-S-09

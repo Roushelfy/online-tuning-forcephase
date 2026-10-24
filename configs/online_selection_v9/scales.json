@@ -1,0 +1,101 @@
+{
+ "params": {
+  "rand3": {
+   "S": 260,
+   "M": 300,
+   "L": 350
+  },
+  "col3": {
+   "S": 400,
+   "M": 500,
+   "L": 550
+  },
+  "assign2": {
+   "S": 300,
+   "M": 350,
+   "L": 450
+  },
+  "assign0": {
+   "S": 400,
+   "M": 500,
+   "L": 600
+  }
+ },
+ "details": {
+  "rand3-S": {
+   "median_c": 2.5919208333333335,
+   "kept_v8": true,
+   "range": [
+    0.2,
+    25
+   ]
+  },
+  "rand3-M": {
+   "median_c": 5.069047333333334,
+   "kept_v8": true,
+   "range": [
+    1.0,
+    150
+   ]
+  },
+  "rand3-L": {
+   "median_c": 219.00528066666666,
+   "kept_v8": true,
+   "range": [
+    6.0,
+    600
+   ]
+  },
+  "col3-S": {
+   "median_c": 0.7909201666666666,
+   "kept_v8": true,
+   "range": [
+    0.2,
+    25
+   ]
+  },
+  "col3-M": {
+   "median_c": 4.009448999999999,
+   "kept_v8": true,
+   "range": [
+    1.0,
+    150
+   ]
+  },
+  "col3-L": {
+   "median_c": 5.402829666666666,
+   "kept_v8": true,
+   "range": [
+    6.0,
+    600
+   ]
+  },
+  "assign2-S": {
+   "round3_median_c": 1.3009988333333333,
+   "in_band": true
+  },
+  "assign2-M": {
+   "round3_median_c": 7.680340666666667,
+   "in_band": true
+  },
+  "assign2-L": {
+   "round3_median_c": 24.648652166666665,
+   "in_band": false
+  }
+ },
+ "assign2_structure": "F",
+ "extrapolation": {
+  "rand3": [
+   375,
+   400
+  ],
+  "col3": [
+   575,
+   600
+  ],
+  "assign2": [
+   550,
+   700
+  ]
+ }
+}

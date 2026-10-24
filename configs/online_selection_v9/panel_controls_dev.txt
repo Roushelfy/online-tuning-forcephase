@@ -1,0 +1,16 @@
+# v9 panel controls_dev (15 base instances), frozen by scripts/online_selection_v9/panel.py
+v9-assign0-L-00
+v9-assign0-L-03
+v9-assign0-L-05
+v9-assign0-L-06
+v9-assign0-L-08
+v9-assign0-M-00
+v9-assign0-M-03
+v9-assign0-M-04
+v9-assign0-M-05
+v9-assign0-M-06
+v9-assign0-S-01
+v9-assign0-S-02
+v9-assign0-S-03
+v9-assign0-S-05
+v9-assign0-S-08

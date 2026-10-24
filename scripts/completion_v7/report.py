@@ -149,7 +149,7 @@ def main():
     acc = collections.defaultdict(lambda: [0, 0.0, 0.0])
     for st in sorted(os.listdir(OUT)) if os.path.isdir(OUT) else []:
         for p in glob.glob(os.path.join(OUT, st, "*.json")):
-            if p.endswith("progress.json"):
+            if p.endswith(("progress.json", "effective_plan.json")):
                 continue
             r = json.load(open(p))
             acc[st][0] += 1
