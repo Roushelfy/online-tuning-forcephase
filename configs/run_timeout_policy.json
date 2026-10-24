@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "policy_id": "user-per-run-3600-cpu-2026-10-24",
+  "authority": "User: 那还是应该加一个合理的超时限制; 3600 CPU seconds selected as implementation default",
+  "project_cpu_hours_cap": null,
+  "stage_cpu_hours_cap": null,
+  "per_instance_method_cpu_seconds": 3600,
+  "scope": "entire solver process tree; online observation, selection, restart and final solve combined",
+  "timeout_status": "policy_timeout",
+  "incomplete_mean": null,
+  "par2_primary": false,
+  "execution_status": "controller integration and remote running-job application required; not yet applied by this policy-only commit"
+}

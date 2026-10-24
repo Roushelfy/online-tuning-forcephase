@@ -1,4 +1,6 @@
-# Agent Goal v9：无核时上限，验证默认短预求解后的三选一
+# Agent Goal v9：三选一研究与统一单次超时
+
+**最新执行覆盖（2026-10-24）：用户要求增加合理超时。每题每方法统一3600 CPU秒，累计核时不限。以下v9原研究设计保留作历史；其中普通求解无限运行的条款被新[资源政策](RESOURCE_POLICY.md)覆盖。下一步先接入控制器、处理已超时的运行中作业并刷新报告；本提交尚未操作远端进程。机器配置：[run_timeout_policy.json](../configs/run_timeout_policy.json)。不得把超时值当作完整完成时间，不自动恢复PAR2。**
 
 设定日期：2026-10-24（美东）。状态：新面板阶段（R0–R4）已完成并交付（[FINAL_REPORT](../reports/online_selection_v9/FINAL_REPORT.md)，2026-10-24 UTC）；规模外推剩 12 个运行、R5 原55题恢复（[OLD55_PROGRESS](../reports/online_selection_v9/OLD55_PROGRESS.md)）仍在无上限运行。
 
