@@ -1,0 +1,222 @@
+{
+ "stage": "pilot_r2",
+ "manifest": "results/online_selection_v9/pilot_r2_manifest.json",
+ "jobs": [
+  {
+   "instance": "v9p-r2-assign2-D-T250-0",
+   "sha256": "d4644b597a4659f2ec26d646741caf9b10f9f08e22066dec9de267e743ced31a",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T250-0",
+   "sha256": "d4644b597a4659f2ec26d646741caf9b10f9f08e22066dec9de267e743ced31a",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T250-0",
+   "sha256": "d4644b597a4659f2ec26d646741caf9b10f9f08e22066dec9de267e743ced31a",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T250-1",
+   "sha256": "d4055673f3dea5288a14c42ad7fadf38e27d0ce0862cdcab75eaa88fb02279ce",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T250-1",
+   "sha256": "d4055673f3dea5288a14c42ad7fadf38e27d0ce0862cdcab75eaa88fb02279ce",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T250-1",
+   "sha256": "d4055673f3dea5288a14c42ad7fadf38e27d0ce0862cdcab75eaa88fb02279ce",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T400-0",
+   "sha256": "fb3d4e79be817cdd8b9e6f2a30d20b418dc75e04e8504d9d554950307658a1c4",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T400-0",
+   "sha256": "fb3d4e79be817cdd8b9e6f2a30d20b418dc75e04e8504d9d554950307658a1c4",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T400-0",
+   "sha256": "fb3d4e79be817cdd8b9e6f2a30d20b418dc75e04e8504d9d554950307658a1c4",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T400-1",
+   "sha256": "1471b3a232552974a933cfeac88084dd6e23be301cad6c3c2a9adf4fc84f45e5",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T400-1",
+   "sha256": "1471b3a232552974a933cfeac88084dd6e23be301cad6c3c2a9adf4fc84f45e5",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-D-T400-1",
+   "sha256": "1471b3a232552974a933cfeac88084dd6e23be301cad6c3c2a9adf4fc84f45e5",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T250-0",
+   "sha256": "d5c88456ef273a21b00dbd39b1cff760bdf52e92464496f3c59edbaff4292aa1",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T250-0",
+   "sha256": "d5c88456ef273a21b00dbd39b1cff760bdf52e92464496f3c59edbaff4292aa1",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T250-0",
+   "sha256": "d5c88456ef273a21b00dbd39b1cff760bdf52e92464496f3c59edbaff4292aa1",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T250-1",
+   "sha256": "bf7a8af3bf438301ded64a03eacbc47976655754615826dddea2a8845c20c9cc",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T250-1",
+   "sha256": "bf7a8af3bf438301ded64a03eacbc47976655754615826dddea2a8845c20c9cc",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T250-1",
+   "sha256": "bf7a8af3bf438301ded64a03eacbc47976655754615826dddea2a8845c20c9cc",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T400-0",
+   "sha256": "e5bbce07df40e6ce9b7052a731b58cdd8c9a11ad9f52f100ea5949d767a2a183",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T400-0",
+   "sha256": "e5bbce07df40e6ce9b7052a731b58cdd8c9a11ad9f52f100ea5949d767a2a183",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T400-0",
+   "sha256": "e5bbce07df40e6ce9b7052a731b58cdd8c9a11ad9f52f100ea5949d767a2a183",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T400-1",
+   "sha256": "3e4ab9170e2caf94ba51c8a9877fc9eed4a268fdabd4bc829dbe23faae2924a5",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T400-1",
+   "sha256": "3e4ab9170e2caf94ba51c8a9877fc9eed4a268fdabd4bc829dbe23faae2924a5",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-E-T400-1",
+   "sha256": "3e4ab9170e2caf94ba51c8a9877fc9eed4a268fdabd4bc829dbe23faae2924a5",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T250-0",
+   "sha256": "390b34dddf84e790d35f028f0c814b9384e0de05bc925119f39fbd7347bf3225",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T250-0",
+   "sha256": "390b34dddf84e790d35f028f0c814b9384e0de05bc925119f39fbd7347bf3225",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T250-0",
+   "sha256": "390b34dddf84e790d35f028f0c814b9384e0de05bc925119f39fbd7347bf3225",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T250-1",
+   "sha256": "b3422bd542f8c72802c5f47aece08b6c946a997f547899a2a9d5a998c2e063c6",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T250-1",
+   "sha256": "b3422bd542f8c72802c5f47aece08b6c946a997f547899a2a9d5a998c2e063c6",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T250-1",
+   "sha256": "b3422bd542f8c72802c5f47aece08b6c946a997f547899a2a9d5a998c2e063c6",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T400-0",
+   "sha256": "9aa136babb078ab0d845f5ecbd19cc27ec7cc87c2e410b7e6843d753a613cb54",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T400-0",
+   "sha256": "9aa136babb078ab0d845f5ecbd19cc27ec7cc87c2e410b7e6843d753a613cb54",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T400-0",
+   "sha256": "9aa136babb078ab0d845f5ecbd19cc27ec7cc87c2e410b7e6843d753a613cb54",
+   "method": "Fm",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T400-1",
+   "sha256": "bdd87ade932b33c8b0a7df30b0bc49d7ed39d062bfd0884bf1148327e8b78b3c",
+   "method": "D",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T400-1",
+   "sha256": "bdd87ade932b33c8b0a7df30b0bc49d7ed39d062bfd0884bf1148327e8b78b3c",
+   "method": "Fp",
+   "rep": 0
+  },
+  {
+   "instance": "v9p-r2-assign2-F-T400-1",
+   "sha256": "bdd87ade932b33c8b0a7df30b0bc49d7ed39d062bfd0884bf1148327e8b78b3c",
+   "method": "Fm",
+   "rep": 0
+  }
+ ]
+}

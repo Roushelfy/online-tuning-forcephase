@@ -1,0 +1,153 @@
+{
+ "stage": "pilot_r3",
+ "structure": "F",
+ "structure_score": {
+  "A": [
+   0,
+   1,
+   5.759971905522334,
+   0
+  ],
+  "B": [
+   0,
+   1,
+   5.980053921358507,
+   1
+  ],
+  "C": [
+   0,
+   0,
+   5.557491294801943,
+   2
+  ],
+  "D": [
+   -1,
+   0,
+   1.6262559961128344,
+   3
+  ],
+  "E": [
+   -2,
+   1,
+   1.9721121127492398,
+   4
+  ],
+  "F": [
+   -2,
+   0,
+   1.250739972901948,
+   5
+  ]
+ },
+ "slope_loglog": 7.138974340682137,
+ "instances": [
+  {
+   "id": "v9p-r3-assign2-F-S-0",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "S",
+   "param": 300,
+   "seed": 9003200,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-S-1",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "S",
+   "param": 300,
+   "seed": 9003201,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-S-2",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "S",
+   "param": 300,
+   "seed": 9003202,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-S-3",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "S",
+   "param": 300,
+   "seed": 9003203,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-M-0",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "M",
+   "param": 350,
+   "seed": 9003210,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-M-1",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "M",
+   "param": 350,
+   "seed": 9003211,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-M-2",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "M",
+   "param": 350,
+   "seed": 9003212,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-M-3",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "M",
+   "param": 350,
+   "seed": 9003213,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-L-0",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "L",
+   "param": 450,
+   "seed": 9003220,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-L-1",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "L",
+   "param": 450,
+   "seed": 9003221,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-L-2",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "L",
+   "param": 450,
+   "seed": 9003222,
+   "round": 3
+  },
+  {
+   "id": "v9p-r3-assign2-F-L-3",
+   "type": "assign2",
+   "structure": "F",
+   "scale": "L",
+   "param": 450,
+   "seed": 9003223,
+   "round": 3
+  }
+ ]
+}
