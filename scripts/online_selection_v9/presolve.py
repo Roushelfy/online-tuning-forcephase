@@ -30,6 +30,9 @@ import os
 import resource
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import run_timeout_policy  # noqa: E402
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, os.path.join(ROOT, "scripts", "three_way"))
@@ -143,6 +146,8 @@ def main():
     json.dump(out, open(os.path.join(a.workdir, "decision.json"), "w"))
     resource.setrlimit(resource.RLIMIT_AS, (a.mem_mb << 20, a.mem_mb << 20))
     resource.setrlimit(resource.RLIMIT_CORE, (0, 0))
+    if run_timeout_policy.wrapper_limit():  # per-run cap for the whole tree (probe/observation already waited for)
+        run_timeout_policy.set_cpu_rlimit(run_timeout_policy.wrapper_limit())
     fo = os.open(final["out"], os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o640)
     fe = os.open(final["err"], os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o640)
     sys.stdout.flush()

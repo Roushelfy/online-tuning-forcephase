@@ -3,7 +3,8 @@
 #   scripts/completion_v7/slurm_longrun.sh <plan.json> <stage> [legacy-budget-ignored=unlimited] [time=24:00:00] [cpus=exclusive|N] [extra sbatch args, e.g. --exclude=node]
 # cpus=N requests a non-exclusive allocation of N logical CPUs (N/2 physical cores) and 700 GB.
 # Logs: $FP_DATA/logs/slurm/v7-<stage>-<jobid>.{out,err}
-# CPU-hour limits were withdrawn by the user; the legacy positional budget is ignored.
+# No aggregate CPU-hour limit (the legacy positional budget is ignored); every run is capped at 3600 CPU s
+# by the controller (configs/run_timeout_policy.json).
 # Slurm walltime is a scheduling constraint, not a scientific score or project quota.
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"

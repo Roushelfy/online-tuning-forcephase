@@ -44,6 +44,34 @@ def apply(plan, pol):
     return eff
 
 
+ENV_LIMIT = "FP_RUN_CPU_LIMIT"  # set by the controllers for wrapper jobs: the job's per-run cap (process tree)
+
+
+def set_cpu_rlimit(limit, include_waited_children=True):
+    """Make the kernel enforce `limit` CPU s for this process and what it execs (RLIMIT_CPU; SIGXCPU at the soft
+    limit, SIGKILL 60 s later). RLIMIT_CPU counts the process's own CPU, which persists across exec; CPU of
+    children already waited for (a wrapper's probe) is subtracted so that the whole tree stops at `limit`."""
+    import resource
+    used = 0.0
+    if include_waited_children:
+        c = resource.getrusage(resource.RUSAGE_CHILDREN)
+        used = c.ru_utime + c.ru_stime
+    soft = max(1, int(math.ceil(limit - used)))
+    resource.setrlimit(resource.RLIMIT_CPU, (soft, soft + 60))
+    return soft
+
+
+def wrapper_limit():
+    """Per-run cap handed to a wrapper by its controller (None outside policy-timeout jobs)."""
+    v = os.environ.get(ENV_LIMIT)
+    return float(v) if v else None
+
+
+def is_timeout(job_cpu, spec):
+    """A run that ended without a verified answer at/after its policy cap (controller stop or SIGXCPU)."""
+    return spec.get("cap_kind") == "policy_timeout" and spec.get("cap_cpu") is not None and job_cpu >= spec["cap_cpu"] - 0.5
+
+
 def classify_after_cap(answered, cpu, spec, verified_status):
     """Status of a run under the timeout: an answer counts only if it came within the limit."""
     if spec.get("cap_kind") == "policy_timeout" and cpu > spec["cap_cpu"]:

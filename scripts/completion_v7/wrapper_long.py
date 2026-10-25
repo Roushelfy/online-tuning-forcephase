@@ -20,6 +20,9 @@ import os
 import resource
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import run_timeout_policy  # noqa: E402
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(os.path.dirname(HERE), "stable_selection_v6"))
 import szlib  # noqa: E402
@@ -68,6 +71,8 @@ def main():
     env = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "LC_ALL": "C", "FPC_LOG": tel}
     resource.setrlimit(resource.RLIMIT_AS, (a.mem_mb << 20, a.mem_mb << 20))
     resource.setrlimit(resource.RLIMIT_CORE, (0, 0))
+    if run_timeout_policy.wrapper_limit():  # per-run cap for the whole tree (probe/observation already waited for)
+        run_timeout_policy.set_cpu_rlimit(run_timeout_policy.wrapper_limit())
     fo = os.open(so, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o640)
     fe = os.open(se, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o640)
     sys.stdout.flush()

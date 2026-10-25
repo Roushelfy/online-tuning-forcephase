@@ -3,8 +3,11 @@
 
   runner.py --plan configs/online_selection_v9/<stage>.json --stage <stage>
 
-No CPU-hour stop and no ordinary run cap (configs/resource_policy.json); only typed algorithmic
-windows survive (the probe window lives inside presolve.py). Queue in the plan's pre-registered order
+No aggregate CPU-hour stop (configs/resource_policy.json). Since 2026-10-25 every run -- a fixed arm or a
+wrapper's whole process tree (probe, selection, restart, final solve) -- is capped at 3600 CPU s
+(configs/run_timeout_policy.json, scripts/run_timeout_policy.py): controller stop at cap_cpu, kernel RLIMIT_CPU
+for fixed runs, and the wrapper sets RLIMIT_CPU on the remaining budget before exec; unanswered runs at the cap
+and answers after it -> status 'policy_timeout'. The probe window tau lives inside presolve.py. Queue in the plan's pre-registered order
 on K = physical cores - 4 slots, one physical core per run; controller and checkers on the rest.
 Job spec: {instance, sha256, method, rep, seed (solver seed, default 0), [cnf], [strategy], [tau]}.
   methods D / Fp / Fm             formal actions (build/fpc, --lrat=1 <action> --fpc=1 [--seed=s])
@@ -23,6 +26,7 @@ import concurrent.futures as cf
 import gzip
 import hashlib
 import json
+import math
 import os
 import shutil
 import signal
@@ -127,14 +131,18 @@ class Job:
         if sha(self.cnf) != self.spec["sha256"]:
             raise SystemExit(f"CNF checksum mismatch: {self.spec['instance']}")
         self.so, self.proof = os.path.join(self.wd, "final.out"), os.path.join(self.wd, "final.lrat")
+        cpu_cap = self.spec.get("cap_cpu") if self.spec.get("cap_kind") == "policy_timeout" else None
         m = self.spec["method"]
         if m in ("W", "PROBE"):
             cmd = [sys.executable, WRAPPER, "--cnf", self.cnf, "--workdir", self.wd, "--mem-mb", str(MEM_MB)]
             cmd += (["--strategy", os.path.join(ROOT, self.spec["strategy"])] if m == "W"
                     else ["--probe-only", "--tau", repr(float(self.spec["tau"]))])
             env = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "LC_ALL": "C", "FP_DATA": fprun.DATA}
-            if os.environ.get("FP_FORMAL_OVERRIDE"):  # tests only
-                env["FP_FORMAL_OVERRIDE"] = os.environ["FP_FORMAL_OVERRIDE"]
+            if self.spec.get("cap_kind") == "policy_timeout":  # the wrapper enforces the cap on its whole tree too
+                env[run_timeout_policy.ENV_LIMIT] = repr(float(self.spec["cap_cpu"]))
+            for k in ("FP_RUN_TIMEOUT_POLICY", "FP_FORMAL_OVERRIDE"):  # tests only
+                if os.environ.get(k):
+                    env[k] = os.environ[k]
             out, err = open(os.path.join(self.wd, "wrapper.out"), "wb"), open(os.path.join(self.wd, "wrapper.err"), "wb")
 
             def pre():
@@ -152,6 +160,8 @@ class Job:
                 os.sched_setaffinity(0, {core})
                 resource.setrlimit(resource.RLIMIT_AS, (MEM_MB << 20, MEM_MB << 20))
                 resource.setrlimit(resource.RLIMIT_CORE, (0, 0))
+                if cpu_cap:  # kernel-enforced per-run cap (SIGXCPU), besides the controller's own stop
+                    resource.setrlimit(resource.RLIMIT_CPU, (int(math.ceil(cpu_cap)), int(math.ceil(cpu_cap)) + 60))
         self.cmd = cmd
         self.start = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
         self.t0 = time.time()
@@ -217,7 +227,7 @@ def finalize(job, stage_dir):
         ver = fprun.verify(job.exit_code, job.cnf, so, proof, max(300.0, job.cpu), MEM_MB, job.wd)
         status = {True: "solved", False: "wrong"}.get(ver["ok"] if ver else None, "unverified")
         status = run_timeout_policy.classify_after_cap(True, job.cpu, job.spec, status)
-    elif job.stop_reason == "cap" and job.spec.get("cap_kind") == "policy_timeout":
+    elif run_timeout_policy.is_timeout(job.cpu, job.spec):  # controller stop or kernel SIGXCPU at the cap
         status = "policy_timeout"
     elif job.spec["method"] == "PROBE" and job.exit_code == 0 and dec and dec.get("path") == "probe_unsolved":
         status = "probe_unsolved"

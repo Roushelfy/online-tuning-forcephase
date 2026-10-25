@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Run a queued research stage with CPU accounting and no CPU-hour stop.
 
-The user withdrew project, stage, and ordinary completion-time CPU caps on
-2026-10-24. Legacy --budget-cpu-hours arguments are accepted but ignored.
-Only explicitly typed oracle certificates or observation windows retain
-algorithmic stopping windows. Historical protocols describe past runs;
+Aggregate compute is unlimited (no project / stage CPU-hour stop; legacy
+--budget-cpu-hours is accepted but ignored). Since 2026-10-25 every run is
+capped at 3600 CPU s of process-tree CPU (configs/run_timeout_policy.json via
+scripts/run_timeout_policy.py): controller stop at cap_cpu plus kernel
+RLIMIT_CPU (wrappers enforce the remaining budget before exec); unanswered runs
+at the cap -> status 'policy_timeout'. Historical protocols describe past runs;
 reproduce those using their pinned historical commit.
 """
 
@@ -13,6 +15,7 @@ import concurrent.futures as cf
 import gzip
 import hashlib
 import json
+import math
 import os
 import shutil
 import signal
@@ -30,7 +33,7 @@ import twlib  # noqa: E402
 import resource_policy  # noqa: E402
 import run_timeout_policy  # noqa: E402
 
-FORMAL = os.path.join(ROOT, "build", "fpc", "cadical")
+FORMAL = os.environ.get("FP_FORMAL_OVERRIDE") or os.path.join(ROOT, "build", "fpc", "cadical")  # override: tests only
 WRAPPER = os.path.join(HERE, "wrapper.py")
 ARGS = {"D": ["--phase=1", "--forcephase=0"], "Fp": ["--phase=1", "--forcephase=1"], "Fm": ["--phase=0", "--forcephase=1"]}
 MEM_MB = 16000
@@ -108,11 +111,17 @@ class Job:
         self.cnf = cnf_path(self.spec["instance"])
         if sha(self.cnf) != self.spec["sha256"]:
             raise SystemExit(f"CNF checksum mismatch: {self.spec['instance']}")
+        cpu_cap = self.spec.get("cap_cpu") if self.spec.get("cap_kind") == "policy_timeout" else None
         self.so, self.proof = os.path.join(self.wd, "final.out"), os.path.join(self.wd, "final.lrat")
         if self.spec["method"] == "W":
             cmd = [sys.executable, WRAPPER, "--strategy", os.path.join(ROOT, self.spec["strategy"]), "--cnf", self.cnf,
                    "--workdir", self.wd, "--mem-mb", str(MEM_MB)]
             env = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "LC_ALL": "C", "FP_DATA": fprun.DATA}
+            if self.spec.get("cap_kind") == "policy_timeout":  # the wrapper enforces the cap on its whole tree too
+                env[run_timeout_policy.ENV_LIMIT] = repr(float(self.spec["cap_cpu"]))
+            for k in ("FP_RUN_TIMEOUT_POLICY", "FP_FORMAL_OVERRIDE"):  # tests only
+                if os.environ.get(k):
+                    env[k] = os.environ[k]
             out, err = open(os.path.join(self.wd, "wrapper.out"), "wb"), open(os.path.join(self.wd, "wrapper.err"), "wb")
 
             def pre():
@@ -130,6 +139,8 @@ class Job:
                 os.sched_setaffinity(0, {core})
                 resource.setrlimit(resource.RLIMIT_AS, (MEM_MB << 20, MEM_MB << 20))
                 resource.setrlimit(resource.RLIMIT_CORE, (0, 0))
+                if cpu_cap:  # kernel-enforced per-run cap (SIGXCPU), besides the controller's own stop
+                    resource.setrlimit(resource.RLIMIT_CPU, (int(math.ceil(cpu_cap)), int(math.ceil(cpu_cap)) + 60))
         self.cmd = cmd
         self.start = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
         self.t0 = time.time()
@@ -188,7 +199,7 @@ def finalize(job, stage_dir):
         status = run_timeout_policy.classify_after_cap(True, job.cpu, job.spec, status)
     elif job.stop_reason == "cap" and job.spec.get("cap_kind") == "oracle_noncompetitive_bound":
         status = "noncompetitive_bound"
-    elif job.stop_reason == "cap" and job.spec.get("cap_kind") == "policy_timeout":
+    elif run_timeout_policy.is_timeout(job.cpu, job.spec):
         status = "policy_timeout"
     elif job.stop_reason in ("cap", "budget"):
         status = "censored"

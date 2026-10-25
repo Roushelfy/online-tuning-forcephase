@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Run one v9 stage on a non-exclusive cpu-low allocation (72 logical CPUs = 36 physical cores, 700 GB) inside the
-# gs-srun container; optionally generate instances first (generator venv). No CPU-hour limit (configs/resource_policy.json);
+# gs-srun container; optionally generate instances first (generator venv). No aggregate CPU-hour limit
+# (configs/resource_policy.json); every run is capped at 3600 CPU s by the controller (configs/run_timeout_policy.json);
 # the Slurm walltime is a scheduling constraint only.
 #   scripts/online_selection_v9/slurm_run.sh <stage> [plan.json] [gen-plan.json gen-manifest.json] [time=7-00:00:00] [extra sbatch args]
 # Logs: $FP_DATA/logs/slurm/v9-<stage>-<jobid>_0.{out,err}

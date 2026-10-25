@@ -115,6 +115,92 @@ class RunTimeoutPolicyTests(unittest.TestCase):
             eff = json.loads((tmp / "data/runs/online_selection_v9/t/effective_plan.json").read_text())
             self.assertTrue(all(j["cap_cpu"] == LIMIT and j["cap_kind"] == "policy_timeout" for j in eff["jobs"]))
 
+    def _fake(self, tmp):
+        fake = tmp / "cadical"
+        fake.write_text(FAKE)
+        fake.chmod(fake.stat().st_mode | stat.S_IEXEC)
+        pol = tmp / "policy.json"
+        pol.write_text(json.dumps({"policy_id": "test-1.5s", "per_instance_method_cpu_seconds": LIMIT,
+                                   "project_cpu_hours_cap": None, "stage_cpu_hours_cap": None}))
+        return fake, pol
+
+    def _records(self, d):
+        out = {}
+        for p in pathlib.Path(d).glob("*.json"):
+            if p.name in ("progress.json", "effective_plan.json"):
+                continue
+            x = json.loads(p.read_text())
+            out[(x["instance"], x["method"])] = x
+        return out
+
+    def test_v8_runner_fixed_arms_with_controlled_subprocesses(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = pathlib.Path(tmp)
+            fake, pol = self._fake(tmp)
+            cnfdir = tmp / "data" / "stratified_v8" / "cnf"
+            cnfdir.mkdir(parents=True)
+            jobs = []
+            for name, text in (("burn", "c FAKE burn\np cnf 1 1\n1 0\n"), ("quick", "c FAKE answer 0.2\np cnf 1 1\n1 0\n")):
+                (cnfdir / f"t-{name}.cnf").write_text(text)
+                jobs.append({"instance": f"t-{name}", "sha256": hashlib.sha256(text.encode()).hexdigest(), "method": "D",
+                             "rep": 0, "cap_cpu": 900})  # legacy cap -> replaced by the policy cap
+            plan = tmp / "plan.json"
+            plan.write_text(json.dumps({"stage": "t8", "jobs": jobs}))
+            env = dict(os.environ, FP_DATA=str(tmp / "data"), V8_WORK=str(tmp / "work"), FP_RUN_TIMEOUT_POLICY=str(pol),
+                       FP_FORMAL_OVERRIDE=str(fake))
+            r = subprocess.run([sys.executable, str(ROOT / "scripts/stratified_v8/runner.py"), "--plan", str(plan),
+                                "--stage", "t8"], env=env, capture_output=True, text=True, timeout=300)
+            self.assertEqual(r.returncode, 0, r.stderr[-2000:])
+            recs = self._records(tmp / "data/runs/stratified_v8/t8")
+            self.assertEqual(recs[("t-burn", "D")]["status"], "policy_timeout")
+            self.assertLess(recs[("t-burn", "D")]["cpu"], LIMIT + 1.5)
+            self.assertEqual(recs[("t-quick", "D")]["status"], "solved")
+
+    def test_v7_longrun_fixed_arms_with_controlled_subprocesses(self):
+        import lzma
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = pathlib.Path(tmp)
+            fake, pol = self._fake(tmp)
+            cnfdir = tmp / "data" / "benchmarks" / "cnf"
+            cnfdir.mkdir(parents=True)
+            jobs = []
+            for h, text in (("aaaa", "c FAKE burn\np cnf 1 1\n1 0\n"), ("bbbb", "c FAKE answer 0.2\np cnf 1 1\n1 0\n")):
+                with lzma.open(cnfdir / f"{h}.cnf.xz", "wt") as f:
+                    f.write(text)
+                jobs.append({"instance": h, "method": "D", "kind": "fixed"})
+            plan = tmp / "plan.json"
+            plan.write_text(json.dumps({"stage": "t7", "jobs": jobs}))
+            env = dict(os.environ, FP_DATA=str(tmp / "data"), FP_LOCAL=str(tmp / "local"), V7_WORK=str(tmp / "work"),
+                       FP_RUN_TIMEOUT_POLICY=str(pol), FP_FORMAL_OVERRIDE=str(fake))
+            r = subprocess.run([sys.executable, str(ROOT / "scripts/completion_v7/longrun.py"), "--plan", str(plan),
+                                "--stage", "t7"], env=env, capture_output=True, text=True, timeout=300)
+            self.assertEqual(r.returncode, 0, r.stderr[-2000:])
+            recs = self._records(tmp / "data/runs/completion_v7/t7")
+            self.assertEqual(recs[("aaaa", "D")]["status"], "policy_timeout")
+            self.assertLess(recs[("aaaa", "D")]["cpu"], LIMIT + 2.5)
+            self.assertEqual(recs[("bbbb", "D")]["status"], "solved")
+
+    def test_wrapper_enforces_the_cap_on_its_whole_tree_without_a_controller(self):
+        import resource as res
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = pathlib.Path(tmp)
+            fake, _ = self._fake(tmp)
+            cnf = tmp / "burn.cnf"
+            cnf.write_text("c FAKE burn\np cnf 1 1\n1 0\n")
+            strat = tmp / "s.json"
+            strat.write_text(json.dumps({"name": "t", "kind": "presolve", "tau": 0.5, "fallback": "Fp"}))
+            env = dict(os.environ, FP_FORMAL_OVERRIDE=str(fake), FP_RUN_CPU_LIMIT="2.0")
+            p = subprocess.Popen([sys.executable, str(ROOT / "scripts/online_selection_v9/presolve.py"), "--strategy", str(strat),
+                                  "--cnf", str(cnf), "--workdir", str(tmp / "w")], env=env)
+            _, status, ru = os.wait4(p.pid, 0)
+            p.returncode = os.waitstatus_to_exitcode(status)  # reaped here
+            cpu = ru.ru_utime + ru.ru_stime
+            self.assertNotEqual(os.waitstatus_to_exitcode(status), 0)  # killed by SIGXCPU, no answer
+            self.assertGreaterEqual(cpu, 2.0 - 0.05)
+            self.assertLess(cpu, 2.0 + 1.5)  # probe (0.5 s) + restart together, RLIMIT_CPU has 1 s granularity
+            dec = json.loads((tmp / "w" / "decision.json").read_text())
+            self.assertEqual(dec["path"], "fallback")
+
     def test_v9_historical_run_ids_unchanged(self):
         spec = importlib.util.spec_from_file_location("v9runner", ROOT / "scripts/online_selection_v9/runner.py")
         mod = importlib.util.module_from_spec(spec)

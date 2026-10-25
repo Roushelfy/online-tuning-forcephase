@@ -30,13 +30,14 @@
 - **限额与状态**：每个普通作业 `cap_cpu = 3600`、`cap_kind = policy_timeout`；更短的显式 oracle 界保留原值。到达上限即停止，记为 `policy_timeout`；越过上限才给出的答案也记为超时。
 - **新运行 id**：运行 id 中加入了 `run_policy_id`，旧记录不会被跳过，也不会被覆盖。
 - **wrapper 的计时**：wrapper 的 probe 是被等待的子进程，exec 后的正式求解是同一进程，所以观察、选择、重启与正式求解合计受同一个 3600 s 限制。
+- **内核层面的双重保护**：固定运行另设 RLIMIT_CPU = 3600 s；三个 wrapper 在 exec 之前，把 RLIMIT_CPU 设为剩余预算。控制器轮询滞后时，进程树也会在上限处停止。
 - **测试**：`tests/test_run_timeout_policy.py` 用受控子进程（伪求解器）做检查。
   - 固定臂到上限即停止；
   - wrapper 的 probe（0.5 s 窗口）与重启合计计时，而不是 probe 之后再给一个完整上限；
   - 上限内给出的答案仍由真实的 checkmodel 检查；
   - 旧运行 id 不变。
 
-  更新后的 `tests/test_resource_policy.py` 检查三个控制器都没有累计停止、但都执行单次上限。
+  另有 v7 `longrun.py` 与 v8 `runner.py` 的受控子进程测试：固定臂超时、答案经验证；以及 wrapper 在没有控制器时也在上限处停止整棵进程树的测试。更新后的 `tests/test_resource_policy.py` 检查三个控制器都没有累计停止、但都执行单次上限。共 26 项测试，全部通过。
 - **旧政策实现保留**：`scripts/resource_policy.py` 仍负责“累计不限”，不再单独作为单次运行政策。
 
 ## 3. 两种视图

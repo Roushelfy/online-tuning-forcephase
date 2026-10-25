@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy_id": "user-per-run-3600-cpu-2026-10-24",
-  "authority": "User: 那还是应该加一个合理的超时限制; 3600 CPU seconds selected as implementation default",
+  "authority": "User: \u90a3\u8fd8\u662f\u5e94\u8be5\u52a0\u4e00\u4e2a\u5408\u7406\u7684\u8d85\u65f6\u9650\u5236; 3600 CPU seconds selected as implementation default",
   "project_cpu_hours_cap": null,
   "stage_cpu_hours_cap": null,
   "per_instance_method_cpu_seconds": 3600,
@@ -9,5 +9,10 @@
   "timeout_status": "policy_timeout",
   "incomplete_mean": null,
   "par2_primary": false,
-  "execution_status": "controller integration and remote running-job application required; not yet applied by this policy-only commit"
+  "execution_status": "applied 2026-10-25: the 13 running solver runs past the limit were stopped 06:10 UTC (results/policy_stops.json); enforced by scripts/run_timeout_policy.py in scripts/completion_v7/longrun.py, scripts/stratified_v8/runner.py, scripts/online_selection_v9/runner.py (controller stop at cap_cpu + kernel RLIMIT_CPU for fixed runs) and in the wrappers scripts/completion_v7/wrapper_long.py, scripts/stratified_v8/wrapper.py, scripts/online_selection_v9/presolve.py (RLIMIT_CPU on the remaining budget before exec, so observation + restart + final solve share one cap); tests tests/test_run_timeout_policy.py; docs/RUN_TIMEOUT_APPLICATION.md",
+  "enforcement": {
+    "controller": "SIGTERM at cap_cpu (60 s later SIGKILL); status policy_timeout; run ids carry run_policy_id",
+    "kernel": "RLIMIT_CPU soft = cap (fixed runs) or cap - waited-children CPU (wrappers, set before exec); SIGXCPU, hard = soft + 60",
+    "answers_after_cap": "policy_timeout (not counted as solved)"
+  }
 }

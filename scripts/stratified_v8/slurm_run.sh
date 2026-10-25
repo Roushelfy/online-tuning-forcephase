@@ -3,7 +3,8 @@
 # the gs-srun container. Optionally generate instances first (generator venv).
 #   scripts/stratified_v8/slurm_run.sh <stage> <unlimited-placeholder; legacy number ignored> [plan.json] [gen-plan.json gen-manifest.json] [--quiet-outcomes]
 # Logs: $FP_DATA/logs/slurm/v8-<stage>-<jobid>_0.{out,err}
-# CPU-hour limits were withdrawn by the user; the legacy positional budget is ignored.
+# No aggregate CPU-hour limit (the legacy positional budget is ignored); every run is capped at 3600 CPU s
+# by the controller (configs/run_timeout_policy.json).
 # Slurm walltime is a scheduling constraint, not a scientific score or project quota.
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"

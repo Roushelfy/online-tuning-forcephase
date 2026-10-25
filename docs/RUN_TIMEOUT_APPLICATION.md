@@ -34,6 +34,7 @@
   - CPU 达到 3600 s 即 SIGTERM（60 s 后 SIGKILL）。若随后仍正常给出答案，照常检查；否则记为 `policy_timeout`。
   - 计时对象是整棵进程树：wrapper 的 probe 是被等待的子进程，exec 后的正式求解是同一进程，所以“观察 + 重启 + 正式求解”合计受同一个 3600 s 限制，不是 probe 之后再给 3600 s。
   - 检查器的 CPU 另记。
+- **内核层面的上限（2026-10-25 补充）**：除控制器在 cap_cpu 处停止外，固定运行在启动时设 RLIMIT_CPU = 3600 s；三个 wrapper（v7 `wrapper_long.py`、v8 `wrapper.py`、v9 `presolve.py`）在 exec 正式求解之前，把 RLIMIT_CPU 设为“3600 − 已等待的观察 / probe 子进程 CPU”。这样即使控制器轮询滞后，整棵进程树也在上限处被 SIGXCPU 停止。控制器把这种退出同样记为 `policy_timeout`。上限值由控制器通过环境变量 `FP_RUN_CPU_LIMIT` 传给 wrapper。
 - **测试**：用受控子进程（不调用 SAT 求解器）检查：
   - 固定臂到 3600 s 时停止；
   - wrapper 的 probe 与重启合计计时；
