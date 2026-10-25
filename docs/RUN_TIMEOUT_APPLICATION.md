@@ -53,3 +53,15 @@
 
   共同已解子集上的配对均值只作次要描述，并标明筛选偏差；不自动使用 PAR2。
 - **v9 主比较**：270 题按原冻结协议与数字不变。若给出它的 3600 s 视图，标明是事后敏感性分析。
+
+## 5. 执行清单完成情况（对照 [RESOURCE_POLICY.md](RESOURCE_POLICY.md)“执行 agent 下一步必须先”）
+
+| 步骤 | 状态 | 依据 |
+|---|---|---|
+| 1. 盘点作业与验证状态，安全停止达到截止且未求解的作业，提交实际停止时间与逐题清单 | 完成 | 第 1–2 节；停止日志 `$FP_DATA/logs/policy_stops/2026-10-25T06:10*`；逐题清单 [policy_stops.json](../results/policy_stops.json)，共 13 个，实际停止 CPU 与时间都在其中；停止时没有正在验证的任务；三个作业随后结束，目前没有运行中的作业 |
+| 2. 接入 v7 / v8 / v9 控制器及 wrapper：累计不限、统一进程树计时、`policy_timeout` 状态、新的运行 id | 完成 | `scripts/run_timeout_policy.py`；`completion_v7/longrun.py`、`stratified_v8/runner.py`、`online_selection_v9/runner.py`：在 cap 处停止，并加内核 RLIMIT_CPU；wrapper `completion_v7/wrapper_long.py`、`stratified_v8/wrapper.py`、`online_selection_v9/presolve.py`：exec 前按剩余预算设 RLIMIT_CPU；运行 id 含 `run_policy_id` |
+| 3. 用可控子进程验证固定臂、probe 后重启的总计时、已出答案的独立验证与历史记录兼容，再发布运行配置 | 完成 | `tests/test_run_timeout_policy.py`：v7、v8、v9 控制器的真实子进程、wrapper 自身限时、checkmodel 验证、旧运行 id 不变；`tests/test_resource_policy.py` 已更新；26 项全部通过；运行配置已发布在 [run_timeout_policy.json](../configs/run_timeout_policy.json) 的 `execution_status` 与 `enforcement` |
+| 4. 重建旧 55 题与外推进度报告，分开呈现旧无限运行结果与新 3600 s 评价，只重建轨迹充分的记录 | 完成 | [TIMEOUT_3600.md](../reports/online_selection_v9/TIMEOUT_3600.md)、[TIMEOUT_3600_TABLES.md](../reports/online_selection_v9/TIMEOUT_3600_TABLES.md)、[OLD55_PROGRESS.md](../reports/online_selection_v9/OLD55_PROGRESS.md)、[VALIDATION.md](../reports/online_selection_v9/VALIDATION.md) 外推一节；只有 300 s 下界的历史记录标为不可重建 |
+| 5. 后续研究以秒级到分钟级的多规模面板为主，极难比赛题在统一截止下作压力测试 | 已写入方向 | TIMEOUT_3600.md 第 4 节；之后的新面板在冻结前用独立试采样选择能在 3600 s 内覆盖的规模。这一条不是本次执行要立即完成的实验 |
+
+原 55 题的完整均值仍为 null，这是如实记录的状态，不是遗漏。按政策，不为超时题放宽上限或重跑。
