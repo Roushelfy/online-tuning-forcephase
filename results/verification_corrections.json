@@ -1,0 +1,26 @@
+{
+ "corrections": [
+  {
+   "phase": "v7",
+   "stage": "old55_r1a",
+   "id": "addf05d53ebd4387658bad6da7fc71c4e92c3724",
+   "instance": "ac3e3bb744e258282990aa4307c08cb8",
+   "method": "P1_M05_long",
+   "cpu": 24105.63646,
+   "recorded_status": "wrong",
+   "status": "unverified",
+   "reason": "lrat-trim out-of-memory under its 64 GB RLIMIT_AS (checker resource limit, not a rejected proof); proof already deleted, not re-checkable without re-solving"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1b",
+   "id": "fe909c120d75b81fe3311717b231025573e38707",
+   "instance": "7ff8c9781b3ada449ce489cdf444a760",
+   "method": "Fm",
+   "cpu": 49615.825332,
+   "recorded_status": "wrong",
+   "status": "unverified",
+   "reason": "lrat-trim out-of-memory under its 64 GB RLIMIT_AS (checker resource limit, not a rejected proof); proof already deleted, not re-checkable without re-solving"
+  }
+ ]
+}

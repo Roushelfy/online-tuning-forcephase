@@ -1,0 +1,174 @@
+{
+ "policy": "configs/run_timeout_policy.json",
+ "applied_by": "scripts/policy_stop.py (2026-10-25T06:09:54Z dry run, 06:10 stop)",
+ "stop_logs": [
+  {
+   "host": "cpu-208-039",
+   "utc": "2026-10-25T06:10:28Z",
+   "stopped": 5
+  },
+  {
+   "host": "cpu-207-115",
+   "utc": "2026-10-25T06:10:29Z",
+   "stopped": 8
+  }
+ ],
+ "stops": [
+  {
+   "phase": "v9",
+   "stage": "extrap",
+   "id": "83c814ad70951f13d08a7bf02eccdd15dc2fd50f",
+   "instance": "v9x-assign2-X2-03",
+   "method": "Fm",
+   "cpu": 43104.094131000005,
+   "end_utc": "2026-10-25T06:10:29Z",
+   "host": "cpu-207-115",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1a",
+   "id": "20a6568ad0340e0c26640c42f08e704ecfd5904a",
+   "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+   "method": "P1_M05_long",
+   "cpu": 85808.74295799999,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-208-039",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1a",
+   "id": "18083a5bd4ea923aed4a26253a8a89d0c0cfe6d5",
+   "instance": "0a8a4c28d27228e954354ea0a6e7f16c",
+   "method": "P1_M05_long",
+   "cpu": 86053.14466399999,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-208-039",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1a",
+   "id": "fbb0f4e99e80104849defb0460c3e030732abf41",
+   "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+   "method": "P1_M05_long",
+   "cpu": 85916.477402,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-208-039",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1a",
+   "id": "bf4d575889100448d3fea9c37266b3ac3bc68f0c",
+   "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+   "method": "P1_M05_long",
+   "cpu": 84927.566061,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-208-039",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1a",
+   "id": "33bf7e93f07f015a416a5c7a18ca900fff8bdbb3",
+   "instance": "af834fd3ce15078d2ab055c996758c00",
+   "method": "P1_M05_long",
+   "cpu": 85376.677586,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-208-039",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1b",
+   "id": "1a8aa32d636cb81d2f2574ccd578199df643baec",
+   "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+   "method": "Fm",
+   "cpu": 85373.47215599999,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-207-115",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1b",
+   "id": "ae9c238701201d0eb2361f58453bc1542be094c3",
+   "instance": "07df5e6f674201e2bf31bcaa8866ba75",
+   "method": "Fp",
+   "cpu": 85069.784087,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-207-115",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1b",
+   "id": "5c04dba495207ddd70cccb2a7733a83ab6838d78",
+   "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+   "method": "Fm",
+   "cpu": 85212.69551,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-207-115",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1b",
+   "id": "57d112af7aa6705a6a6d5ba23dc3000b66fa9141",
+   "instance": "4af0fbe3087b6e3ad54177e16b85ed06",
+   "method": "Fp",
+   "cpu": 84939.525072,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-207-115",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1b",
+   "id": "a5eb351d7e602cf4ebb9636717ce84913a96400d",
+   "instance": "7ff8c9781b3ada449ce489cdf444a760",
+   "method": "Fp",
+   "cpu": 85297.06975299999,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-207-115",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1b",
+   "id": "1447b0c83b15e675826f4192add28262cfc02579",
+   "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+   "method": "Fm",
+   "cpu": 84963.26771999999,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-207-115",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  },
+  {
+   "phase": "v7",
+   "stage": "old55_r1b",
+   "id": "ff3241accd5a2f6321ae77738e029c60c788db39",
+   "instance": "aa6e6f67719ca43aef922f2ebabc409a",
+   "method": "Fp",
+   "cpu": 84729.104775,
+   "end_utc": "2026-10-25T06:10:30Z",
+   "host": "cpu-207-115",
+   "status": "policy_timeout",
+   "recorded_status": "error"
+  }
+ ]
+}

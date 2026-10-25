@@ -368,8 +368,8 @@ def verify(code, cnf, stdout_path, proof_path, timeout, mem_mb, workdir):
         r = run_limited([os.path.join(TOOLS, "lrat-trim"), "-q", cnf, proof_path], dict(os.environ),
                         limit, 64000, None, out, out + ".err", 2 * limit)
         text = (open(out).read() + open(out + ".err").read()).strip()
-        if r["terminated_by"] or r["exit_code"] < 0:
-            ok = None  # checker resource limit: unverified
+        if r["terminated_by"] or r["exit_code"] < 0 or (r["exit_code"] != 20 and "out-of-memory" in text):
+            ok = None  # checker resource limit (incl. lrat-trim out-of-memory under RLIMIT_AS): unverified
         else:
             ok = r["exit_code"] == 20
         return {"method": "lrat-trim", "ok": ok, "cpu": r["cpu"], "wall": r["wall"], "exit_code": r["exit_code"],

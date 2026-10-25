@@ -28,6 +28,7 @@ sys.path.insert(0, os.path.join(ROOT, "scripts", "three_way"))
 import fprun  # noqa: E402
 import twlib  # noqa: E402
 import resource_policy  # noqa: E402
+import run_timeout_policy  # noqa: E402
 
 FORMAL = os.path.join(ROOT, "build", "fpc", "cadical")
 WRAPPER = os.path.join(HERE, "wrapper_long.py")
@@ -76,6 +77,8 @@ def job_key(j, stage):
     if j.get("resource_policy_id"):
         key["resource_policy_id"] = j["resource_policy_id"]
         key["cap_kind"] = j.get("cap_kind")
+    if j.get("run_policy_id"):
+        key["run_policy_id"] = j["run_policy_id"]
     if j["kind"] == "wrapper":
         key.update(strategy_sha256=sha(STRATEGY), wrapper_sha256=sha(WRAPPER),
                    v6lib_sha256=sha(os.path.join(ROOT, "scripts", "stable_selection_v6", "v6lib.py")),
@@ -189,9 +192,10 @@ def finalize(job, stage_dir):
         ver = fprun.verify(job.exit_code, job.cnf, so, proof, max(300.0, job.cpu), MEM_MB, job.wd)
     if answered:
         status = {True: "solved", False: "wrong"}.get(ver["ok"] if ver else None, "unverified")
+        status = run_timeout_policy.classify_after_cap(True, job.cpu, job.spec, status)
     elif job.stop_reason == "cap":
-        status = ("noncompetitive_bound" if job.spec.get("cap_kind") == "oracle_noncompetitive_bound"
-                  else "censored")
+        status = {"oracle_noncompetitive_bound": "noncompetitive_bound",
+                  "policy_timeout": "policy_timeout"}.get(job.spec.get("cap_kind"), "censored")
     elif job.stop_reason in ("budget", "platform_disk"):
         status = "censored"
     else:
@@ -232,6 +236,7 @@ def main():
     policy = resource_policy.load_policy(ROOT)
     with open(a.plan) as plan_file:
         plan = resource_policy.prepare_plan(json.load(plan_file), policy)
+    plan = run_timeout_policy.apply(plan, run_timeout_policy.load(ROOT))  # per-run 3600 CPU s
     if a.budget_cpu_hours is not None:
         print("[resource-policy] ignoring legacy --budget-cpu-hours; no CPU-hour limit", flush=True)
     stage_dir = os.path.join(OUT, a.stage)

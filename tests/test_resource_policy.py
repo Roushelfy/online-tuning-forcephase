@@ -80,8 +80,10 @@ class ResourcePolicyTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 resource_policy.prepare_plan({"jobs": [{**job, "cap_cpu": invalid}]}, policy)
 
-    def test_both_controllers_finish_jobs_with_no_budget_argument_or_zero_legacy_budget(self):
-        for relative in ("scripts/stratified_v8/runner.py", "scripts/completion_v7/longrun.py"):
+    def test_controllers_have_no_aggregate_stop_but_apply_the_per_run_timeout(self):
+        # 2026-10-24 policy: aggregate CPU unlimited, every run capped at 3600 CPU s (policy_timeout)
+        for relative in ("scripts/stratified_v8/runner.py", "scripts/completion_v7/longrun.py",
+                         "scripts/online_selection_v9/runner.py"):
             for legacy_args in ([], ["--budget-cpu-hours", "0"]):
                 with self.subTest(controller=relative, arguments=legacy_args), tempfile.TemporaryDirectory() as tmp:
                     tmp = pathlib.Path(tmp)
@@ -111,11 +113,13 @@ class ResourcePolicyTests(unittest.TestCase):
                             mock.patch.object(sys, "argv", argv), contextlib.redirect_stdout(io.StringIO()):
                         module.main()
                     self.assertEqual(len(finalized), 2)
-                    self.assertTrue(all(job.done and not job.terminated for job in FakeJob.instances))
+                    # each fake job reports 1e6 CPU s: stopped by its own 3600 s cap, never by a stage budget
+                    self.assertTrue(all(job.done and job.terminated == ["cap"] for job in FakeJob.instances))
                     heartbeat = json.loads((tmp / "runs/unlimited-test/progress.json").read_text())
                     effective = json.loads((tmp / "runs/unlimited-test/effective_plan.json").read_text())
-                    self.assertTrue(all(j["cap_cpu"] is None and j["resource_policy_id"] for j in effective["jobs"]))
-                    self.assertIsNone(heartbeat["budget_cpu_hours"])
+                    self.assertTrue(all(j["cap_cpu"] == 3600 and j["cap_kind"] == "policy_timeout"
+                                        and j["resource_policy_id"] and j["run_policy_id"] for j in effective["jobs"]))
+                    self.assertIsNone(heartbeat.get("budget_cpu_hours"))
                     self.assertGreater(heartbeat["spent_cpu_hours"], 200)
 
     def test_historical_run_ids_remain_unchanged(self):

@@ -28,6 +28,7 @@ sys.path.insert(0, os.path.join(ROOT, "scripts", "three_way"))
 import fprun  # noqa: E402
 import twlib  # noqa: E402
 import resource_policy  # noqa: E402
+import run_timeout_policy  # noqa: E402
 
 FORMAL = os.path.join(ROOT, "build", "fpc", "cadical")
 WRAPPER = os.path.join(HERE, "wrapper.py")
@@ -66,6 +67,8 @@ def job_key(j, stage):
     if j.get("resource_policy_id"):
         key["resource_policy_id"] = j["resource_policy_id"]
         key["cap_kind"] = j.get("cap_kind")
+    if j.get("run_policy_id"):
+        key["run_policy_id"] = j["run_policy_id"]
     if j["method"] == "W":
         key.update(strategy=j["strategy"], strategy_sha256=sha(os.path.join(ROOT, j["strategy"])),
                    wrapper_sha256=sha(WRAPPER), features_sha256=sha(os.path.join(HERE, "features.py")),
@@ -182,8 +185,11 @@ def finalize(job, stage_dir):
     if answered:
         ver = fprun.verify(job.exit_code, job.cnf, so, proof, max(300.0, job.cpu), MEM_MB, job.wd)
         status = {True: "solved", False: "wrong"}.get(ver["ok"] if ver else None, "unverified")
+        status = run_timeout_policy.classify_after_cap(True, job.cpu, job.spec, status)
     elif job.stop_reason == "cap" and job.spec.get("cap_kind") == "oracle_noncompetitive_bound":
         status = "noncompetitive_bound"
+    elif job.stop_reason == "cap" and job.spec.get("cap_kind") == "policy_timeout":
+        status = "policy_timeout"
     elif job.stop_reason in ("cap", "budget"):
         status = "censored"
     else:
@@ -225,6 +231,7 @@ def main():
     policy = resource_policy.load_policy(ROOT)
     with open(a.plan) as plan_file:
         plan = resource_policy.prepare_plan(json.load(plan_file), policy)
+    plan = run_timeout_policy.apply(plan, run_timeout_policy.load(ROOT))  # per-run 3600 CPU s
     if a.budget_cpu_hours is not None:
         print("[resource-policy] ignoring legacy --budget-cpu-hours; no CPU-hour limit", flush=True)
     stage_dir = os.path.join(OUT, a.stage)

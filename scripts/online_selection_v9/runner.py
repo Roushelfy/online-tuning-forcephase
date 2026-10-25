@@ -38,8 +38,9 @@ sys.path.insert(0, os.path.join(ROOT, "scripts", "three_way"))
 import fprun  # noqa: E402
 import twlib  # noqa: E402
 import resource_policy  # noqa: E402
+import run_timeout_policy  # noqa: E402
 
-FORMAL = os.path.join(ROOT, "build", "fpc", "cadical")
+FORMAL = os.environ.get("FP_FORMAL_OVERRIDE") or os.path.join(ROOT, "build", "fpc", "cadical")  # override: tests only
 WRAPPER = os.path.join(HERE, "presolve.py")
 ARGS = {"D": ["--phase=1", "--forcephase=0"], "Fp": ["--phase=1", "--forcephase=1"], "Fm": ["--phase=0", "--forcephase=1"],
         "D_R0": ["--phase=1", "--forcephase=0", "--rephase=0"], "D_P0": ["--phase=0", "--forcephase=0"],
@@ -82,6 +83,8 @@ def job_key(j, stage):
            "cnf_sha256": j["sha256"], "method": j["method"], "rep": j.get("rep", 0), "seed": j.get("seed", 0),
            "formal_sha256": sha(FORMAL), "mem_mb": MEM_MB, "cap_cpu": j.get("cap_cpu"), "proof": "lrat",
            "resource_policy_id": j.get("resource_policy_id"), "cap_kind": j.get("cap_kind")}
+    if j.get("run_policy_id"):
+        key["run_policy_id"] = j["run_policy_id"]
     if j["method"] in ("W", "PROBE"):
         key.update(wrapper_sha256=sha(WRAPPER), twlib_sha256=sha(os.path.join(ROOT, "scripts", "three_way", "twlib.py")))
         if j["method"] == "W":
@@ -130,6 +133,8 @@ class Job:
             cmd += (["--strategy", os.path.join(ROOT, self.spec["strategy"])] if m == "W"
                     else ["--probe-only", "--tau", repr(float(self.spec["tau"]))])
             env = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "LC_ALL": "C", "FP_DATA": fprun.DATA}
+            if os.environ.get("FP_FORMAL_OVERRIDE"):  # tests only
+                env["FP_FORMAL_OVERRIDE"] = os.environ["FP_FORMAL_OVERRIDE"]
             out, err = open(os.path.join(self.wd, "wrapper.out"), "wb"), open(os.path.join(self.wd, "wrapper.err"), "wb")
 
             def pre():
@@ -211,6 +216,9 @@ def finalize(job, stage_dir):
     if answered:
         ver = fprun.verify(job.exit_code, job.cnf, so, proof, max(300.0, job.cpu), MEM_MB, job.wd)
         status = {True: "solved", False: "wrong"}.get(ver["ok"] if ver else None, "unverified")
+        status = run_timeout_policy.classify_after_cap(True, job.cpu, job.spec, status)
+    elif job.stop_reason == "cap" and job.spec.get("cap_kind") == "policy_timeout":
+        status = "policy_timeout"
     elif job.spec["method"] == "PROBE" and job.exit_code == 0 and dec and dec.get("path") == "probe_unsolved":
         status = "probe_unsolved"
     elif job.stop_reason == "cap" and job.spec.get("cap_kind") == "oracle_noncompetitive_bound":
@@ -252,12 +260,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--plan", required=True)
     ap.add_argument("--stage", required=True)
+    ap.add_argument("--budget-cpu-hours", type=float, default=None,
+                    help="deprecated compatibility argument; ignored (no aggregate CPU limit)")
     ap.add_argument("--quiet-outcomes", action="store_true",
                     help="log only job counts (no per-run CPU/answers); used for sealed runs")
     a = ap.parse_args()
     policy = resource_policy.load_policy(ROOT)
     with open(a.plan) as plan_file:
         plan = resource_policy.prepare_plan(json.load(plan_file), policy)
+    plan = run_timeout_policy.apply(plan, run_timeout_policy.load(ROOT))  # per-run 3600 CPU s (whole process tree)
     stage_dir = os.path.join(OUT, a.stage)
     os.makedirs(stage_dir, exist_ok=True)
     replace_json(os.path.join(stage_dir, "effective_plan.json"), plan)
