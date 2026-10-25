@@ -132,6 +132,24 @@ def fig5(mech):
     fig.savefig(os.path.join(REP, "fig5_mechanism.png"), dpi=130)
 
 
+def fig6(tv):
+    fig, axes = plt.subplots(1, 2, figsize=(11, 3.8))
+    for ax, key in zip(axes, ("old55", "extrapolation")):
+        r = tv[key]
+        for m, v in r["methods"].items():
+            ts = v["solve_times"]
+            ax.step(ts, range(1, len(ts) + 1), where="post", color=COL.get(m if m != "P1_M05_long" else "W_main"), label=m)
+        ax.axvline(3600, color="k", ls=":", lw=0.8)
+        ax.set_xscale("log")
+        ax.set_xlabel("CPU s (process tree)")
+        ax.set_ylabel(f"solved (of {r['n']})")
+        ax.set_title(r["panel"])
+        ax.legend(fontsize=7)
+    fig.suptitle("Fig 6. Solved within the 3600 s per-run limit (cactus)")
+    fig.tight_layout()
+    fig.savefig(os.path.join(REP, "fig6_timeout_cactus.png"), dpi=130)
+
+
 if __name__ == "__main__":
     os.makedirs(REP, exist_ok=True)
     pre, val, mech = load("pre_solve.json"), load("validation_holdout.json"), load("mechanism.json")
@@ -143,4 +161,7 @@ if __name__ == "__main__":
         fig4(val)
     if mech:
         fig5(mech)
+    tv = load("timeout_3600_view.json")
+    if tv:
+        fig6(tv)
     print("figures written")

@@ -49,6 +49,21 @@ def v7_records(stages):
     return out
 
 
+def apply_overrides(records):
+    """2026-10-25 ledgers (docs/RUN_TIMEOUT_APPLICATION.md): runs stopped under the 3600 s per-run policy are
+    actual-CPU lower bounds (historical unlimited view: 'censored', stop_reason 'policy_timeout'); answers whose
+    checker ran out of memory are 'unverified', not 'wrong'. Record files themselves are never modified."""
+    stops = os.path.join(ROOT, "results", "policy_stops.json")
+    corr = os.path.join(ROOT, "results", "verification_corrections.json")
+    ids = {s["id"] for s in json.load(open(stops))["stops"] if s["phase"] == "v7"} if os.path.exists(stops) else set()
+    cor = {c["id"]: c["status"] for c in json.load(open(corr))["corrections"] if c["phase"] == "v7"} if os.path.exists(corr) else {}
+    for r in records:
+        if r["id"] in ids:
+            r["recorded_status"], r["status"], r["stop_reason"] = r["status"], "censored", "policy_timeout"
+        elif r["id"] in cor:
+            r["recorded_status"], r["status"] = r["status"], cor[r["id"]]
+
+
 def norm_v7(r, method, cpu, derived=None):
     ok = r["status"] in VALID
     return {"instance": r["instance"], "method": method,
@@ -118,6 +133,7 @@ def main():
     reuse = json.load(open(os.path.join(RES, "reuse_records.json")))
     v6 = {(r["instance"], r["method"]): r for r in reuse}
     v7 = v7_records([s for s in a.stages.split(",") if os.path.isdir(os.path.join(OUT, s))])
+    apply_overrides(v7)
     attempts = []
     fixed7, wrap7 = {}, {}
     for r in v7:

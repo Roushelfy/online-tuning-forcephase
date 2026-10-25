@@ -13,172 +13,59 @@
     "primary_comparison_complete": false,
     "methods": {
      "D": {
-      "status": "incomplete",
-      "completed": 88,
+      "status": "complete",
+      "completed": 90,
       "panel_size": 90,
-      "total_cpu_seconds": null,
-      "mean_cpu_seconds": null,
-      "unresolved": [
-       {
-        "instance": "v9x-rand3-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-rand3-X2-14",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       }
-      ]
+      "total_cpu_seconds": 110331.802119,
+      "mean_cpu_seconds": 1225.9089124333334,
+      "unresolved": []
      },
      "Fp": {
-      "status": "incomplete",
-      "completed": 87,
+      "status": "complete",
+      "completed": 90,
       "panel_size": 90,
-      "total_cpu_seconds": null,
-      "mean_cpu_seconds": null,
-      "unresolved": [
-       {
-        "instance": "v9x-assign2-X2-02",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-11",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       }
-      ]
+      "total_cpu_seconds": 159145.90022200005,
+      "mean_cpu_seconds": 1768.287780244445,
+      "unresolved": []
      },
      "Fm": {
       "status": "incomplete",
-      "completed": 87,
+      "completed": 89,
       "panel_size": 90,
       "total_cpu_seconds": null,
       "mean_cpu_seconds": null,
       "unresolved": [
        {
-        "instance": "v9x-assign2-X2-02",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
         "instance": "v9x-assign2-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-14",
-        "status": "missing",
+        "status": "censored",
         "reason": "not a verified, valid completed measurement"
        }
       ]
      },
      "SBS": {
-      "status": "incomplete",
-      "completed": 87,
+      "status": "complete",
+      "completed": 90,
       "panel_size": 90,
-      "total_cpu_seconds": null,
-      "mean_cpu_seconds": null,
-      "unresolved": [
-       {
-        "instance": "v9x-assign2-X2-02",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-11",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       }
-      ]
+      "total_cpu_seconds": 159145.90022200005,
+      "mean_cpu_seconds": 1768.287780244445,
+      "unresolved": []
      },
      "W_ref": {
-      "status": "incomplete",
-      "completed": 86,
+      "status": "complete",
+      "completed": 90,
       "panel_size": 90,
-      "total_cpu_seconds": null,
-      "mean_cpu_seconds": null,
-      "unresolved": [
-       {
-        "instance": "v9x-assign2-X2-02",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-09",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-11",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       }
-      ]
+      "total_cpu_seconds": 152001.82858899998,
+      "mean_cpu_seconds": 1688.9092065444443,
+      "unresolved": []
      }
     },
     "oracle": {
-     "status": "incomplete",
-     "completed": 84,
+     "status": "complete",
+     "completed": 90,
      "panel_size": 90,
-     "total_cpu_seconds": null,
-     "mean_cpu_seconds": null,
-     "unresolved": [
-      {
-       "instance": "v9x-assign2-X2-02",
-       "unresolved_actions": [
-        "Fp",
-        "Fm"
-       ]
-      },
-      {
-       "instance": "v9x-assign2-X2-03",
-       "unresolved_actions": [
-        "Fp",
-        "Fm"
-       ]
-      },
-      {
-       "instance": "v9x-assign2-X2-11",
-       "unresolved_actions": [
-        "Fp"
-       ]
-      },
-      {
-       "instance": "v9x-assign2-X2-14",
-       "unresolved_actions": [
-        "Fm"
-       ]
-      },
-      {
-       "instance": "v9x-rand3-X2-03",
-       "unresolved_actions": [
-        "D"
-       ]
-      },
-      {
-       "instance": "v9x-rand3-X2-14",
-       "unresolved_actions": [
-        "D"
-       ]
-      }
-     ],
+     "total_cpu_seconds": 49985.676375999996,
+     "mean_cpu_seconds": 555.3964041777778,
+     "unresolved": [],
      "winners": {
       "v9x-assign2-X1-00": [
        "D"
@@ -231,6 +118,12 @@
       "v9x-assign2-X2-01": [
        "D"
       ],
+      "v9x-assign2-X2-02": [
+       "D"
+      ],
+      "v9x-assign2-X2-03": [
+       "D"
+      ],
       "v9x-assign2-X2-04": [
        "D"
       ],
@@ -252,11 +145,17 @@
       "v9x-assign2-X2-10": [
        "D"
       ],
+      "v9x-assign2-X2-11": [
+       "D"
+      ],
       "v9x-assign2-X2-12": [
        "Fp"
       ],
       "v9x-assign2-X2-13": [
        "Fm"
+      ],
+      "v9x-assign2-X2-14": [
+       "D"
       ],
       "v9x-col3-X1-00": [
        "Fp"
@@ -402,6 +301,9 @@
       "v9x-rand3-X2-02": [
        "Fp"
       ],
+      "v9x-rand3-X2-03": [
+       "Fm"
+      ],
       "v9x-rand3-X2-04": [
        "Fm"
       ],
@@ -431,17 +333,20 @@
       ],
       "v9x-rand3-X2-13": [
        "D"
+      ],
+      "v9x-rand3-X2-14": [
+       "Fm"
       ]
      },
      "interpretation": "ideal post-hoc choice, excluding observation cost"
     },
     "gain_percent_vs_baseline": {
-     "D": null,
-     "Fp": null,
+     "D": 0.0,
+     "Fp": -44.242998995295004,
      "Fm": null,
-     "SBS": null,
-     "W_ref": null,
-     "oracle": null
+     "SBS": -44.242998995295004,
+     "W_ref": -37.76791973818767,
+     "oracle": 54.6951328483811
     },
     "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
    }
@@ -876,26 +781,15 @@
     "schema_version": 1,
     "metric": "mean_completed_cpu_seconds",
     "panel_size": 15,
-    "primary_comparison_complete": false,
+    "primary_comparison_complete": true,
     "methods": {
      "D": {
-      "status": "incomplete",
-      "completed": 13,
+      "status": "complete",
+      "completed": 15,
       "panel_size": 15,
-      "total_cpu_seconds": null,
-      "mean_cpu_seconds": null,
-      "unresolved": [
-       {
-        "instance": "v9x-rand3-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-rand3-X2-14",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       }
-      ]
+      "total_cpu_seconds": 79509.379419,
+      "mean_cpu_seconds": 5300.6252946,
+      "unresolved": []
      },
      "Fp": {
       "status": "complete",
@@ -931,25 +825,12 @@
      }
     },
     "oracle": {
-     "status": "incomplete",
-     "completed": 13,
+     "status": "complete",
+     "completed": 15,
      "panel_size": 15,
-     "total_cpu_seconds": null,
-     "mean_cpu_seconds": null,
-     "unresolved": [
-      {
-       "instance": "v9x-rand3-X2-03",
-       "unresolved_actions": [
-        "D"
-       ]
-      },
-      {
-       "instance": "v9x-rand3-X2-14",
-       "unresolved_actions": [
-        "D"
-       ]
-      }
-     ],
+     "total_cpu_seconds": 28153.379717999997,
+     "mean_cpu_seconds": 1876.8919811999997,
+     "unresolved": [],
      "winners": {
       "v9x-rand3-X2-00": [
        "D"
@@ -959,6 +840,9 @@
       ],
       "v9x-rand3-X2-02": [
        "Fp"
+      ],
+      "v9x-rand3-X2-03": [
+       "Fm"
       ],
       "v9x-rand3-X2-04": [
        "Fm"
@@ -989,19 +873,330 @@
       ],
       "v9x-rand3-X2-13": [
        "D"
+      ],
+      "v9x-rand3-X2-14": [
+       "Fm"
       ]
      },
      "interpretation": "ideal post-hoc choice, excluding observation cost"
     },
     "gain_percent_vs_baseline": {
-     "D": null,
-     "Fp": null,
-     "Fm": null,
-     "SBS": null,
-     "W_ref": null,
-     "oracle": null
+     "D": 0.0,
+     "Fp": 42.20249036805025,
+     "Fm": 52.3156996268292,
+     "SBS": 42.20249036805025,
+     "W_ref": 45.040500794604746,
+     "oracle": 64.59112129446163
     },
     "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
+   },
+   "ci": {
+    "W_ref_vs_D": [
+     -19.532340081953215,
+     63.65307720032416
+    ],
+    "W_ref_vs_SBS": [
+     -1.2102090475295535,
+     16.908062674323542
+    ],
+    "SBS_vs_D": [
+     -29.465823397737157,
+     61.14151821539062
+    ],
+    "oracle_vs_D": [
+     61.268266164035666,
+     68.8878552611994
+    ],
+    "oracle_vs_SBS": [
+     11.215769263634757,
+     73.47115050139487
+    ],
+    "Fp_vs_D": [
+     -29.465823397737157,
+     61.14151821539062
+    ],
+    "Fp_vs_SBS": [
+     0.0,
+     0.0
+    ],
+    "Fm_vs_D": [
+     14.269758588676629,
+     60.882264237862096
+    ],
+    "Fm_vs_SBS": [
+     -23.991508197322275,
+     41.22965672948595
+    ]
+   },
+   "per_instance": [
+    {
+     "instance": "v9x-rand3-X2-00",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 0.543648,
+     "Fp": 14.749462000000001,
+     "Fm": 52.612071,
+     "SBS": 14.749462000000001,
+     "W_ref": 0.571537,
+     "oracle": 0.543648,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X2-01",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 0.559753,
+     "Fp": 25.538627,
+     "Fm": 89.009647,
+     "SBS": 25.538627,
+     "W_ref": 0.595577,
+     "oracle": 0.559753,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X2-02",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 7838.668117,
+     "Fp": 2909.7625660000003,
+     "Fm": 2986.9076440000003,
+     "SBS": 2909.7625660000003,
+     "W_ref": 2887.191288,
+     "oracle": 2909.7625660000003,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.045282
+    },
+    {
+     "instance": "v9x-rand3-X2-03",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 22525.221539000002,
+     "Fp": 12004.487963,
+     "Fm": 8177.4899319999995,
+     "SBS": 12004.487963,
+     "W_ref": 12120.527915,
+     "oracle": 8177.4899319999995,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.045648
+    },
+    {
+     "instance": "v9x-rand3-X2-04",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 4561.561554,
+     "Fp": 2410.739385,
+     "Fm": 2209.142844,
+     "SBS": 2410.739385,
+     "W_ref": 2372.971,
+     "oracle": 2209.142844,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.048397
+    },
+    {
+     "instance": "v9x-rand3-X2-05",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 0.5242439999999999,
+     "Fp": 129.56473100000002,
+     "Fm": 92.695257,
+     "SBS": 129.56473100000002,
+     "W_ref": 0.558736,
+     "oracle": 0.5242439999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X2-06",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 0.544056,
+     "Fp": 459.781952,
+     "Fm": 14.108766,
+     "SBS": 459.781952,
+     "W_ref": 0.574222,
+     "oracle": 0.544056,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X2-07",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 10151.178076,
+     "Fp": 3106.286398,
+     "Fm": 5290.934689000001,
+     "SBS": 3106.286398,
+     "W_ref": 3763.522245,
+     "oracle": 3106.286398,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.047255
+    },
+    {
+     "instance": "v9x-rand3-X2-08",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 6131.871638,
+     "Fp": 1476.461386,
+     "Fm": 1846.083017,
+     "SBS": 1476.461386,
+     "W_ref": 1461.488373,
+     "oracle": 1476.461386,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.045252
+    },
+    {
+     "instance": "v9x-rand3-X2-09",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 2.114822,
+     "Fp": 108.588128,
+     "Fm": 831.8059059999999,
+     "SBS": 108.588128,
+     "W_ref": 108.825456,
+     "oracle": 2.114822,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.034453
+    },
+    {
+     "instance": "v9x-rand3-X2-10",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 2.203397,
+     "Fp": 10455.256237,
+     "Fm": 3355.475242,
+     "SBS": 10455.256237,
+     "W_ref": 10081.033779,
+     "oracle": 2.203397,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.047333
+    },
+    {
+     "instance": "v9x-rand3-X2-11",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 0.5468729999999999,
+     "Fp": 189.803344,
+     "Fm": 767.252665,
+     "SBS": 189.803344,
+     "W_ref": 0.586682,
+     "oracle": 0.5468729999999999,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X2-12",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 5.006691,
+     "Fp": 404.32288,
+     "Fm": 1053.76,
+     "SBS": 404.32288,
+     "W_ref": 438.45796199999995,
+     "oracle": 5.006691,
+     "answer": "SAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.044838
+    },
+    {
+     "instance": "v9x-rand3-X2-13",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 1.513197,
+     "Fp": 1082.3420139999998,
+     "Fm": 885.533716,
+     "SBS": 1082.3420139999998,
+     "W_ref": 1.5545559999999998,
+     "oracle": 1.513197,
+     "answer": "SAT",
+     "W_ref_path": "probe_solved",
+     "W_ref_action": "D_probe",
+     "W_ref_pre_exec": null
+    },
+    {
+     "instance": "v9x-rand3-X2-14",
+     "cell": "rand3-X2",
+     "split": "X",
+     "D": 28287.321814000003,
+     "Fp": 11176.756155000001,
+     "Fm": 10260.679911000001,
+     "SBS": 11176.756155000001,
+     "W_ref": 10459.497422,
+     "oracle": 10260.679911000001,
+     "answer": "UNSAT",
+     "W_ref_path": "fallback",
+     "W_ref_action": "Fp",
+     "W_ref_pre_exec": 2.044957
+    }
+   ],
+   "W_ref_vs_D_detail": {
+    "total_saving": 35811.422669,
+    "worst_loss": [
+     -10078.830382,
+     "v9x-rand3-X2-10"
+    ],
+    "best_gain": [
+     17827.824392000002,
+     "v9x-rand3-X2-14"
+    ],
+    "top1_share_of_positive": 0.3839669310051998,
+    "top3_share_of_positive": 0.7456323110779646,
+    "wins": 6,
+    "losses": 9
+   },
+   "by_cell": {
+    "rand3-X2": {
+     "D": 5300.6252946,
+     "Fp": 3063.6294152,
+     "Fm": 2527.5660871333334,
+     "SBS": 3063.6294152,
+     "W_ref": 2913.197116666667,
+     "oracle": 1876.8919811999997
+    }
+   },
+   "by_type_answer": {
+    "rand3-SAT": {
+     "n": 9,
+     "D": 13.556681,
+     "Fp": 12869.947375,
+     "Fm": 7142.25327,
+     "SBS": 12869.947375,
+     "W_ref": 10632.758506999999
+    },
+    "rand3-UNSAT": {
+     "n": 6,
+     "D": 79495.82273799999,
+     "Fp": 33084.493853,
+     "Fm": 30771.238037000003,
+     "SBS": 33084.493853,
+     "W_ref": 33065.198243000006
+    }
    }
   },
   "extrap_col3_X1": {
@@ -2293,146 +2488,62 @@
       "unresolved": []
      },
      "Fp": {
-      "status": "incomplete",
-      "completed": 12,
+      "status": "complete",
+      "completed": 15,
       "panel_size": 15,
-      "total_cpu_seconds": null,
-      "mean_cpu_seconds": null,
-      "unresolved": [
-       {
-        "instance": "v9x-assign2-X2-02",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-11",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       }
-      ]
+      "total_cpu_seconds": 97419.95505300001,
+      "mean_cpu_seconds": 6494.6636702000005,
+      "unresolved": []
      },
      "Fm": {
       "status": "incomplete",
-      "completed": 12,
+      "completed": 14,
       "panel_size": 15,
       "total_cpu_seconds": null,
       "mean_cpu_seconds": null,
       "unresolved": [
        {
-        "instance": "v9x-assign2-X2-02",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
         "instance": "v9x-assign2-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-14",
-        "status": "missing",
+        "status": "censored",
         "reason": "not a verified, valid completed measurement"
        }
       ]
      },
      "SBS": {
-      "status": "incomplete",
-      "completed": 12,
+      "status": "complete",
+      "completed": 15,
       "panel_size": 15,
-      "total_cpu_seconds": null,
-      "mean_cpu_seconds": null,
-      "unresolved": [
-       {
-        "instance": "v9x-assign2-X2-02",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-11",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       }
-      ]
+      "total_cpu_seconds": 97419.95505300001,
+      "mean_cpu_seconds": 6494.6636702000005,
+      "unresolved": []
      },
      "W_ref": {
-      "status": "incomplete",
-      "completed": 11,
+      "status": "complete",
+      "completed": 15,
       "panel_size": 15,
-      "total_cpu_seconds": null,
-      "mean_cpu_seconds": null,
-      "unresolved": [
-       {
-        "instance": "v9x-assign2-X2-02",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-03",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-09",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       },
-       {
-        "instance": "v9x-assign2-X2-11",
-        "status": "missing",
-        "reason": "not a verified, valid completed measurement"
-       }
-      ]
+      "total_cpu_seconds": 96594.772793,
+      "mean_cpu_seconds": 6439.651519533333,
+      "unresolved": []
      }
     },
     "oracle": {
-     "status": "incomplete",
-     "completed": 11,
+     "status": "complete",
+     "completed": 15,
      "panel_size": 15,
-     "total_cpu_seconds": null,
-     "mean_cpu_seconds": null,
-     "unresolved": [
-      {
-       "instance": "v9x-assign2-X2-02",
-       "unresolved_actions": [
-        "Fp",
-        "Fm"
-       ]
-      },
-      {
-       "instance": "v9x-assign2-X2-03",
-       "unresolved_actions": [
-        "Fp",
-        "Fm"
-       ]
-      },
-      {
-       "instance": "v9x-assign2-X2-11",
-       "unresolved_actions": [
-        "Fp"
-       ]
-      },
-      {
-       "instance": "v9x-assign2-X2-14",
-       "unresolved_actions": [
-        "Fm"
-       ]
-      }
-     ],
+     "total_cpu_seconds": 17420.452028,
+     "mean_cpu_seconds": 1161.3634685333334,
+     "unresolved": [],
      "winners": {
       "v9x-assign2-X2-00": [
        "Fp"
       ],
       "v9x-assign2-X2-01": [
+       "D"
+      ],
+      "v9x-assign2-X2-02": [
+       "D"
+      ],
+      "v9x-assign2-X2-03": [
        "D"
       ],
       "v9x-assign2-X2-04": [
@@ -2456,22 +2567,28 @@
       "v9x-assign2-X2-10": [
        "D"
       ],
+      "v9x-assign2-X2-11": [
+       "D"
+      ],
       "v9x-assign2-X2-12": [
        "Fp"
       ],
       "v9x-assign2-X2-13": [
        "Fm"
+      ],
+      "v9x-assign2-X2-14": [
+       "D"
       ]
      },
      "interpretation": "ideal post-hoc choice, excluding observation cost"
     },
     "gain_percent_vs_baseline": {
      "D": 0.0,
-     "Fp": null,
+     "Fp": -336.38813927901924,
      "Fm": null,
-     "SBS": null,
-     "W_ref": null,
-     "oracle": null
+     "SBS": -336.38813927901924,
+     "W_ref": -332.69177388025105,
+     "oracle": 21.96589865225733
     },
     "note": "Incomplete means are null. No timeout penalty or solved-only mean is used."
    }

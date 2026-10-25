@@ -31,7 +31,17 @@ def panel(name):
     return [l.split()[0] for l in open(os.path.join(CFG, f"panel_{name}.txt")) if l.strip() and not l.startswith("#")]
 
 
+_STOPS = {x["id"] for x in json.load(open(os.path.join(ROOT, "results", "policy_stops.json")))["stops"]} \
+    if os.path.exists(os.path.join(ROOT, "results", "policy_stops.json")) else set()
+_CORR = {x["id"]: x["status"] for x in json.load(open(os.path.join(ROOT, "results", "verification_corrections.json")))["corrections"]} \
+    if os.path.exists(os.path.join(ROOT, "results", "verification_corrections.json")) else {}
+
+
 def norm(r, method):
+    if r is not None and r["id"] in _STOPS:  # stopped under the 3600 s policy: actual-CPU lower bound
+        r = dict(r, status="censored", stop_reason="policy_timeout")
+    elif r is not None and r["id"] in _CORR:
+        r = dict(r, status=_CORR[r["id"]])
     if r is None:
         return {"method": method, "status": "missing", "cpu_seconds": None, "verified": False, "measurement_valid": False}
     st = r["status"]

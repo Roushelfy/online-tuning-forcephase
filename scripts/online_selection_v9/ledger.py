@@ -55,9 +55,13 @@ def main():
         L.append(f"| {name} | {n} | {s:.3f} | {c:.3f} | {r:.3f} | {VOID.get(name, '')} |")
         tot += s + c + r
     L.append(f"| 实例生成（全部 v9 清单） | | {gen / 3600:.3f} | | | |")
+    # Slurm requeue of the extrapolation job (2026-10-24 ~18:05 UTC): 2 runs killed without records and restarted;
+    # CPU before the kill <= 12:26 heartbeat (5186 + 9101 s) + 2 x 20,340 s wall = 54,967 s (upper estimate)
+    L.append("| extrap 平台中断（Slurm 重新排队，2 个运行被杀死、无记录、已从头重跑；上限估计） | 2 | 15.269 | | | 记入账本，不进入任何结果 |")
+    tot += 15.269
     L.append("| 分析、建模、报告、图、测试与环境（估计上限） | | 0.300 | | | |")
     tot += gen / 3600 + 0.3
-    L += ["", f"- v9 合计 {tot:.2f} 核时（含运行中的 R5 作业到此刻为止的 CPU）；截至 v8 的历史累计为 {BEFORE}，现累计 {BEFORE + tot:.2f} 核时。",
+    L += ["", f"- v9 合计 {tot:.2f} 核时（含当时仍在运行的作业到此刻为止的 CPU；2026-10-25 06:10 之后没有运行中的作业）；截至 v8 的历史累计为 {BEFORE}，现累计 {BEFORE + tot:.2f} 核时。",
           "- 按用户的资源政策，这些数字只用于记账，不是停止阈值。"]
     open(os.path.join(RES, "COMPUTE.md"), "w").write("\n".join(L) + "\n")
     print("\n".join(L))

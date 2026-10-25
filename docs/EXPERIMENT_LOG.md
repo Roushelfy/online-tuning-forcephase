@@ -188,3 +188,13 @@ M5 唯一主要候选的选择规则（在看到 M4-lite 结果之前固定）�
 - 外部：偏离 3 是 SATLIB 末尾 `%` / `0` 被误解析为空子句，第一批作废，重跑为 `external_r2`。
 - 稳健性：378 个运行。机制：324 个运行；UNSAT 上的优势来自强制方向，而非关闭 rephase。外推：348 / 360 个运行已完成。
 - 报告：[reports/online_selection_v9/FINAL_REPORT.md](../reports/online_selection_v9/FINAL_REPORT.md)。
+
+## 2026-10-25 — 3600 CPU 秒单次超时的应用（资源政策更新）
+
+- 处理办法 [RUN_TIMEOUT_APPLICATION.md](RUN_TIMEOUT_APPLICATION.md)，在停止任何运行之前提交（888b847）。
+- 06:10 UTC 用 `scripts/policy_stop.py` 停止 13 个都超过 3600 s、都未解出的运行：原 55 题 12 个（约 85,000 s），外推 1 个（43,104 s）。台账 `results/policy_stops.json` 把它们记为 `policy_timeout`，实际 CPU 照记。
+- 两条“wrong”实为 lrat-trim 在 64 GB 下内存不足，更正为 unverified（`results/verification_corrections.json`），`fprun.verify` 已修正。
+- v7 / v8 / v9 控制器接入 `scripts/run_timeout_policy.py`（整棵进程树 3600 s，新的 run_policy_id）。受控子进程测试与更新后的资源政策测试都通过。
+- 报告：[TIMEOUT_3600.md](../reports/online_selection_v9/TIMEOUT_3600.md)，以及更新后的 OLD55_PROGRESS、VALIDATION（外推最终结果）与 FINAL_REPORT。
+- 3600 s 视图：原 55 题 D 42/55；v9 留出 270/270，与冻结主比较相同；外推 D 82/90。
+- extrap 作业曾在 10-24 约 18:05 被 Slurm 重新排队，被杀死部分约 15.3 核时（上限估计）只入账本。
