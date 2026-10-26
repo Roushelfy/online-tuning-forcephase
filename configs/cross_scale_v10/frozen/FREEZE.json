@@ -1,0 +1,58 @@
+{
+ "code_sha256": {
+  "common.py": "3c1ef312759004673129b31928faf686e1fdd1f46ab08ef899fbb1af9348878f",
+  "devlib.py": "4cd772cf6a26695cd1212e33032b912c21e197ef195fd4374ebbeb55bae69e02",
+  "runner.py": "1d14029d1a4f246fe4bfe55209672e9170d4f7bb246fabf3578d3055f051df01",
+  "selection.py": "3414354f14e297fd49219822060401bd305f626f76712a2b3fd87f112ce6b163",
+  "wrapper.py": "665712412056851263704edbe02c5a820d21c4731fa5d71c17ab06a372e890ca"
+ },
+ "date_utc": "2026-10-26T21:12:36Z",
+ "dev_sbs": "Fm",
+ "main_config_index": 33,
+ "main_family": "B",
+ "main_rule_trace": [
+  {
+   "beats_incumbent": true,
+   "beats_matched_control": true,
+   "family": "A",
+   "incumbent_after": "A",
+   "vs": "SBS"
+  },
+  {
+   "beats_incumbent": true,
+   "family": "N_B",
+   "incumbent_after": "N_B",
+   "vs": "A"
+  },
+  {
+   "beats_incumbent": true,
+   "beats_matched_control": true,
+   "family": "B",
+   "incumbent_after": "B",
+   "vs": "N_B"
+  },
+  {
+   "beats_incumbent": false,
+   "family": "N_C",
+   "incumbent_after": "B",
+   "vs": "B"
+  },
+  {
+   "beats_incumbent": false,
+   "beats_matched_control": false,
+   "family": "C",
+   "incumbent_after": "B",
+   "vs": "B"
+  }
+ ],
+ "main_wrapper": "configs/cross_scale_v10/frozen/main.json",
+ "oof_sbs": {
+  "solved": 270,
+  "total": 5181.423700000005
+ },
+ "reference_wrapper": "configs/cross_scale_v10/frozen/reference.json",
+ "sha256": {
+  "main_wrapper": "cf4289c96fc65b7b86c672eb87e5a308c9c3c6a3aba60d277693436555a49432",
+  "reference_wrapper": "900c5cfe4f744717def28c3c10a4b035437f8a52a755c024f60383aa192af456"
+ }
+}

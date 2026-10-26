@@ -1,0 +1,21 @@
+{
+ "stage": "robust_dev_r2",
+ "note": "re-run of the 2 robust_dev runs lost when Slurm preempted job 752386 (2026-10-26 21:00:55 UTC); same specs",
+ "jobs": [
+  {
+   "instance": "v10-rand3-L-07",
+   "method": "D",
+   "rep": 0,
+   "seed": 1,
+   "sha256": "8cce28055b40f269ae4d0e648cd969e3b6cdb5a5224e267a5bfd3af3511257ab"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/cnf_variants/v10-rand3-L-07-perm1.cnf",
+   "instance": "v10-rand3-L-07",
+   "method": "D",
+   "rep": 0,
+   "sha256": "abd53206a7e1a40b9b4ffbf1ceff3e77d05905c7c6d844da5a122387ccbd8d17",
+   "variant": "perm1"
+  }
+ ]
+}

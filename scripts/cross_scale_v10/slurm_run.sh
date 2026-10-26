@@ -13,7 +13,7 @@ FP_DATA="${FP_DATA:-/mnt/data/zhaofeng/projects/workspace/online-tuning-forcepha
 mkdir -p "$FP_DATA/logs/slurm"
 df -h /mnt/data | tail -1
 # --array=0-0: gs-srun inside sbatch runs in the allocation only for array jobs
-sbatch --parsable --no-requeue --job-name="v10-$STAGE" --partition=cpu-low --nodes=1 --ntasks=1 \
+sbatch --parsable --no-requeue --job-name="v10-$STAGE" --partition="${V10_PARTITION:-cpu-low}" --nodes=1 --ntasks=1 \
   --cpus-per-task="${V10_CPUS:-72}" --mem="${V10_MEM:-700G}" --time="$TIME" --array=0-0 $EXTRA \
   --output="$FP_DATA/logs/slurm/v10-$STAGE-%A_%a.out" --error="$FP_DATA/logs/slurm/v10-$STAGE-%A_%a.err" \
   --export=ALL,FP_DATA="$FP_DATA",V10_ROOT="$ROOT",V10_PLAN="$PLAN",V10_STAGE="$STAGE",V10_GENARGS="$GENARGS" <<'EOS'

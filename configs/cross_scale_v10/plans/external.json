@@ -1,0 +1,3781 @@
+{
+ "jobs": [
+  {
+   "instance": "v10e-bmc-bmc-ibm-2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "f82d90198c950d16ca910d42fd28f3b049334785b275cd02ae6ac1c33cb597ba"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "f82d90198c950d16ca910d42fd28f3b049334785b275cd02ae6ac1c33cb597ba"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "f82d90198c950d16ca910d42fd28f3b049334785b275cd02ae6ac1c33cb597ba"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "f82d90198c950d16ca910d42fd28f3b049334785b275cd02ae6ac1c33cb597ba",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "f82d90198c950d16ca910d42fd28f3b049334785b275cd02ae6ac1c33cb597ba",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-7",
+   "method": "D",
+   "rep": 0,
+   "sha256": "2e4305a91ee012754d437d7121fcd701abb19e80119dce4ab5bb1800fed64734"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-7",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "2e4305a91ee012754d437d7121fcd701abb19e80119dce4ab5bb1800fed64734"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-7",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "2e4305a91ee012754d437d7121fcd701abb19e80119dce4ab5bb1800fed64734"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-7",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2e4305a91ee012754d437d7121fcd701abb19e80119dce4ab5bb1800fed64734",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-7",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2e4305a91ee012754d437d7121fcd701abb19e80119dce4ab5bb1800fed64734",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-5",
+   "method": "D",
+   "rep": 0,
+   "sha256": "786a7c07afa6da37fa1baa2b50cb732731d82b404fb9e1d9e45de73588124f77"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-5",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "786a7c07afa6da37fa1baa2b50cb732731d82b404fb9e1d9e45de73588124f77"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-5",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "786a7c07afa6da37fa1baa2b50cb732731d82b404fb9e1d9e45de73588124f77"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-5",
+   "method": "W",
+   "rep": 0,
+   "sha256": "786a7c07afa6da37fa1baa2b50cb732731d82b404fb9e1d9e45de73588124f77",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-5",
+   "method": "W",
+   "rep": 0,
+   "sha256": "786a7c07afa6da37fa1baa2b50cb732731d82b404fb9e1d9e45de73588124f77",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "ccfe052c64a36c820faa7f373962f9f425df540620da63ab8ba2e3047a32a959"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "ccfe052c64a36c820faa7f373962f9f425df540620da63ab8ba2e3047a32a959"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "ccfe052c64a36c820faa7f373962f9f425df540620da63ab8ba2e3047a32a959"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "ccfe052c64a36c820faa7f373962f9f425df540620da63ab8ba2e3047a32a959",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "ccfe052c64a36c820faa7f373962f9f425df540620da63ab8ba2e3047a32a959",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-13",
+   "method": "D",
+   "rep": 0,
+   "sha256": "0dafcf6bcd20e453eb01cbef4c811b93d65a53d28f5087d26d79cbbe1f646919"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-13",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "0dafcf6bcd20e453eb01cbef4c811b93d65a53d28f5087d26d79cbbe1f646919"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-13",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "0dafcf6bcd20e453eb01cbef4c811b93d65a53d28f5087d26d79cbbe1f646919"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-13",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0dafcf6bcd20e453eb01cbef4c811b93d65a53d28f5087d26d79cbbe1f646919",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-13",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0dafcf6bcd20e453eb01cbef4c811b93d65a53d28f5087d26d79cbbe1f646919",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-3",
+   "method": "D",
+   "rep": 0,
+   "sha256": "400f1435b207e925c20ed27a4b2ff96ae5ef916b2f439c69fd77bd1c56ee99a3"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-3",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "400f1435b207e925c20ed27a4b2ff96ae5ef916b2f439c69fd77bd1c56ee99a3"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-3",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "400f1435b207e925c20ed27a4b2ff96ae5ef916b2f439c69fd77bd1c56ee99a3"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-3",
+   "method": "W",
+   "rep": 0,
+   "sha256": "400f1435b207e925c20ed27a4b2ff96ae5ef916b2f439c69fd77bd1c56ee99a3",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-3",
+   "method": "W",
+   "rep": 0,
+   "sha256": "400f1435b207e925c20ed27a4b2ff96ae5ef916b2f439c69fd77bd1c56ee99a3",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-4",
+   "method": "D",
+   "rep": 0,
+   "sha256": "8a3faefe7bee94fc9d7c06809f9e69feee9d9647ced0cf24f0750bb4af395699"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-4",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "8a3faefe7bee94fc9d7c06809f9e69feee9d9647ced0cf24f0750bb4af395699"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-4",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "8a3faefe7bee94fc9d7c06809f9e69feee9d9647ced0cf24f0750bb4af395699"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "8a3faefe7bee94fc9d7c06809f9e69feee9d9647ced0cf24f0750bb4af395699",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "8a3faefe7bee94fc9d7c06809f9e69feee9d9647ced0cf24f0750bb4af395699",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-11",
+   "method": "D",
+   "rep": 0,
+   "sha256": "26b95b63aac1a133a263771fa6591bc0861de8335931fe55a4e2c00800b81bd0"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-11",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "26b95b63aac1a133a263771fa6591bc0861de8335931fe55a4e2c00800b81bd0"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-11",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "26b95b63aac1a133a263771fa6591bc0861de8335931fe55a4e2c00800b81bd0"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "26b95b63aac1a133a263771fa6591bc0861de8335931fe55a4e2c00800b81bd0",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "26b95b63aac1a133a263771fa6591bc0861de8335931fe55a4e2c00800b81bd0",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-12",
+   "method": "D",
+   "rep": 0,
+   "sha256": "883e1d3cf1fd2623f44bf8895e2a2f1284ff5358d6469bd10b04ab1b642dc93e"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-12",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "883e1d3cf1fd2623f44bf8895e2a2f1284ff5358d6469bd10b04ab1b642dc93e"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-12",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "883e1d3cf1fd2623f44bf8895e2a2f1284ff5358d6469bd10b04ab1b642dc93e"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "883e1d3cf1fd2623f44bf8895e2a2f1284ff5358d6469bd10b04ab1b642dc93e",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "883e1d3cf1fd2623f44bf8895e2a2f1284ff5358d6469bd10b04ab1b642dc93e",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-8",
+   "method": "D",
+   "rep": 0,
+   "sha256": "d4067ccc2797e13412aa3bc5b23d48a976962b558017a277950d4ca2bdad61dc"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-8",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "d4067ccc2797e13412aa3bc5b23d48a976962b558017a277950d4ca2bdad61dc"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-8",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "d4067ccc2797e13412aa3bc5b23d48a976962b558017a277950d4ca2bdad61dc"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d4067ccc2797e13412aa3bc5b23d48a976962b558017a277950d4ca2bdad61dc",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d4067ccc2797e13412aa3bc5b23d48a976962b558017a277950d4ca2bdad61dc",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-10",
+   "method": "D",
+   "rep": 0,
+   "sha256": "d7f897c54f775edcef0ea51e97034a778e4ff03b570ae87305ed50616b049a51"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-10",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "d7f897c54f775edcef0ea51e97034a778e4ff03b570ae87305ed50616b049a51"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-10",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "d7f897c54f775edcef0ea51e97034a778e4ff03b570ae87305ed50616b049a51"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d7f897c54f775edcef0ea51e97034a778e4ff03b570ae87305ed50616b049a51",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d7f897c54f775edcef0ea51e97034a778e4ff03b570ae87305ed50616b049a51",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-9",
+   "method": "D",
+   "rep": 0,
+   "sha256": "3ab82be4e836102a752bb22c419877895fb2f159ab1a3e862c116c9f9a4e8628"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-9",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "3ab82be4e836102a752bb22c419877895fb2f159ab1a3e862c116c9f9a4e8628"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-9",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "3ab82be4e836102a752bb22c419877895fb2f159ab1a3e862c116c9f9a4e8628"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-9",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3ab82be4e836102a752bb22c419877895fb2f159ab1a3e862c116c9f9a4e8628",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-galileo-9",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3ab82be4e836102a752bb22c419877895fb2f159ab1a3e862c116c9f9a4e8628",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-6",
+   "method": "D",
+   "rep": 0,
+   "sha256": "63ef2fd92a3992ddcca27e2f2d83527ab63b7df826578d29f2b882c4e8cea47d"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-6",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "63ef2fd92a3992ddcca27e2f2d83527ab63b7df826578d29f2b882c4e8cea47d"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-6",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "63ef2fd92a3992ddcca27e2f2d83527ab63b7df826578d29f2b882c4e8cea47d"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-6",
+   "method": "W",
+   "rep": 0,
+   "sha256": "63ef2fd92a3992ddcca27e2f2d83527ab63b7df826578d29f2b882c4e8cea47d",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bmc-bmc-ibm-6",
+   "method": "W",
+   "rep": 0,
+   "sha256": "63ef2fd92a3992ddcca27e2f2d83527ab63b7df826578d29f2b882c4e8cea47d",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitcomp_5",
+   "method": "D",
+   "rep": 0,
+   "sha256": "0fb71f3c8390f65c88e885dbf2cc79ae97e42acba1a2b7568fd2f5f15a332d65"
+  },
+  {
+   "instance": "v10e-Bejing-2bitcomp_5",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "0fb71f3c8390f65c88e885dbf2cc79ae97e42acba1a2b7568fd2f5f15a332d65"
+  },
+  {
+   "instance": "v10e-Bejing-2bitcomp_5",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "0fb71f3c8390f65c88e885dbf2cc79ae97e42acba1a2b7568fd2f5f15a332d65"
+  },
+  {
+   "instance": "v10e-Bejing-2bitcomp_5",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0fb71f3c8390f65c88e885dbf2cc79ae97e42acba1a2b7568fd2f5f15a332d65",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitcomp_5",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0fb71f3c8390f65c88e885dbf2cc79ae97e42acba1a2b7568fd2f5f15a332d65",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitmax_6",
+   "method": "D",
+   "rep": 0,
+   "sha256": "35848511e87af9d7c3fc6be98407ebb92e9aa2eb1b5484af3a56ec404668152b"
+  },
+  {
+   "instance": "v10e-Bejing-2bitmax_6",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "35848511e87af9d7c3fc6be98407ebb92e9aa2eb1b5484af3a56ec404668152b"
+  },
+  {
+   "instance": "v10e-Bejing-2bitmax_6",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "35848511e87af9d7c3fc6be98407ebb92e9aa2eb1b5484af3a56ec404668152b"
+  },
+  {
+   "instance": "v10e-Bejing-2bitmax_6",
+   "method": "W",
+   "rep": 0,
+   "sha256": "35848511e87af9d7c3fc6be98407ebb92e9aa2eb1b5484af3a56ec404668152b",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitmax_6",
+   "method": "W",
+   "rep": 0,
+   "sha256": "35848511e87af9d7c3fc6be98407ebb92e9aa2eb1b5484af3a56ec404668152b",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_10",
+   "method": "D",
+   "rep": 0,
+   "sha256": "e10b20e3d1ab3ecd9a3ec1621538a9eb5d737fbfee8755b3e23c61b36b973fa6"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_10",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "e10b20e3d1ab3ecd9a3ec1621538a9eb5d737fbfee8755b3e23c61b36b973fa6"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_10",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "e10b20e3d1ab3ecd9a3ec1621538a9eb5d737fbfee8755b3e23c61b36b973fa6"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "e10b20e3d1ab3ecd9a3ec1621538a9eb5d737fbfee8755b3e23c61b36b973fa6",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "e10b20e3d1ab3ecd9a3ec1621538a9eb5d737fbfee8755b3e23c61b36b973fa6",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_11",
+   "method": "D",
+   "rep": 0,
+   "sha256": "0218f70806f9b7f8778f2e87c8ae1c458f473b2a0e40c152edee09145bf5a656"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_11",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "0218f70806f9b7f8778f2e87c8ae1c458f473b2a0e40c152edee09145bf5a656"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_11",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "0218f70806f9b7f8778f2e87c8ae1c458f473b2a0e40c152edee09145bf5a656"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0218f70806f9b7f8778f2e87c8ae1c458f473b2a0e40c152edee09145bf5a656",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0218f70806f9b7f8778f2e87c8ae1c458f473b2a0e40c152edee09145bf5a656",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_12",
+   "method": "D",
+   "rep": 0,
+   "sha256": "3e495f1a71759ee21619e8ef9775716722190f005a161889cf01dd51ca77962a"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_12",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "3e495f1a71759ee21619e8ef9775716722190f005a161889cf01dd51ca77962a"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_12",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "3e495f1a71759ee21619e8ef9775716722190f005a161889cf01dd51ca77962a"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3e495f1a71759ee21619e8ef9775716722190f005a161889cf01dd51ca77962a",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-2bitadd_12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3e495f1a71759ee21619e8ef9775716722190f005a161889cf01dd51ca77962a",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-3blocks",
+   "method": "D",
+   "rep": 0,
+   "sha256": "cc1230d15de2a3e28db68706f727701c3b58b3d499bc27bb5cab3e6c00857259"
+  },
+  {
+   "instance": "v10e-Bejing-3blocks",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "cc1230d15de2a3e28db68706f727701c3b58b3d499bc27bb5cab3e6c00857259"
+  },
+  {
+   "instance": "v10e-Bejing-3blocks",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "cc1230d15de2a3e28db68706f727701c3b58b3d499bc27bb5cab3e6c00857259"
+  },
+  {
+   "instance": "v10e-Bejing-3blocks",
+   "method": "W",
+   "rep": 0,
+   "sha256": "cc1230d15de2a3e28db68706f727701c3b58b3d499bc27bb5cab3e6c00857259",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-3blocks",
+   "method": "W",
+   "rep": 0,
+   "sha256": "cc1230d15de2a3e28db68706f727701c3b58b3d499bc27bb5cab3e6c00857259",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-4blocksb",
+   "method": "D",
+   "rep": 0,
+   "sha256": "2160713a70bb539948cc36e60d9ccdecdd709108afd5d63628d30c91bdf5824d"
+  },
+  {
+   "instance": "v10e-Bejing-4blocksb",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "2160713a70bb539948cc36e60d9ccdecdd709108afd5d63628d30c91bdf5824d"
+  },
+  {
+   "instance": "v10e-Bejing-4blocksb",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "2160713a70bb539948cc36e60d9ccdecdd709108afd5d63628d30c91bdf5824d"
+  },
+  {
+   "instance": "v10e-Bejing-4blocksb",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2160713a70bb539948cc36e60d9ccdecdd709108afd5d63628d30c91bdf5824d",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-4blocksb",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2160713a70bb539948cc36e60d9ccdecdd709108afd5d63628d30c91bdf5824d",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_31",
+   "method": "D",
+   "rep": 0,
+   "sha256": "a2255f1ec327f5fef38654ab06b009357d7a93c665a80a8c1e7d757d684e5b18"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_31",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "a2255f1ec327f5fef38654ab06b009357d7a93c665a80a8c1e7d757d684e5b18"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_31",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "a2255f1ec327f5fef38654ab06b009357d7a93c665a80a8c1e7d757d684e5b18"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_31",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a2255f1ec327f5fef38654ab06b009357d7a93c665a80a8c1e7d757d684e5b18",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_31",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a2255f1ec327f5fef38654ab06b009357d7a93c665a80a8c1e7d757d684e5b18",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_32",
+   "method": "D",
+   "rep": 0,
+   "sha256": "59b39aab90c2d2348e076573ec338c5d06932789aa35f0239c9025b6f518c702"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_32",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "59b39aab90c2d2348e076573ec338c5d06932789aa35f0239c9025b6f518c702"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_32",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "59b39aab90c2d2348e076573ec338c5d06932789aa35f0239c9025b6f518c702"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_32",
+   "method": "W",
+   "rep": 0,
+   "sha256": "59b39aab90c2d2348e076573ec338c5d06932789aa35f0239c9025b6f518c702",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-3bitadd_32",
+   "method": "W",
+   "rep": 0,
+   "sha256": "59b39aab90c2d2348e076573ec338c5d06932789aa35f0239c9025b6f518c702",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-4blocks",
+   "method": "D",
+   "rep": 0,
+   "sha256": "e22ec291e4d3d020f8b4c3764e83138489815b68568c2b9ef0509e9b8c8018ea"
+  },
+  {
+   "instance": "v10e-Bejing-4blocks",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "e22ec291e4d3d020f8b4c3764e83138489815b68568c2b9ef0509e9b8c8018ea"
+  },
+  {
+   "instance": "v10e-Bejing-4blocks",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "e22ec291e4d3d020f8b4c3764e83138489815b68568c2b9ef0509e9b8c8018ea"
+  },
+  {
+   "instance": "v10e-Bejing-4blocks",
+   "method": "W",
+   "rep": 0,
+   "sha256": "e22ec291e4d3d020f8b4c3764e83138489815b68568c2b9ef0509e9b8c8018ea",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-4blocks",
+   "method": "W",
+   "rep": 0,
+   "sha256": "e22ec291e4d3d020f8b4c3764e83138489815b68568c2b9ef0509e9b8c8018ea",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "25a49f01764090ece23d8b7994e023f6ea7e52d5fc25fa067b96b8be0eb681e5"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "25a49f01764090ece23d8b7994e023f6ea7e52d5fc25fa067b96b8be0eb681e5"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "25a49f01764090ece23d8b7994e023f6ea7e52d5fc25fa067b96b8be0eb681e5"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "25a49f01764090ece23d8b7994e023f6ea7e52d5fc25fa067b96b8be0eb681e5",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "25a49f01764090ece23d8b7994e023f6ea7e52d5fc25fa067b96b8be0eb681e5",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-4",
+   "method": "D",
+   "rep": 0,
+   "sha256": "060a44c813935b5289a36217b0648ed2dae60b6cf0820fb985cab761a3f96d25"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-4",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "060a44c813935b5289a36217b0648ed2dae60b6cf0820fb985cab761a3f96d25"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-4",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "060a44c813935b5289a36217b0648ed2dae60b6cf0820fb985cab761a3f96d25"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "060a44c813935b5289a36217b0648ed2dae60b6cf0820fb985cab761a3f96d25",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-e0ddr2-10-by-5-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "060a44c813935b5289a36217b0648ed2dae60b6cf0820fb985cab761a3f96d25",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "1197125be54524d0f6b3dc6b9fd88f7b0f313fd8509c3bc7537e7730cfa80076"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "1197125be54524d0f6b3dc6b9fd88f7b0f313fd8509c3bc7537e7730cfa80076"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "1197125be54524d0f6b3dc6b9fd88f7b0f313fd8509c3bc7537e7730cfa80076"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1197125be54524d0f6b3dc6b9fd88f7b0f313fd8509c3bc7537e7730cfa80076",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1197125be54524d0f6b3dc6b9fd88f7b0f313fd8509c3bc7537e7730cfa80076",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-8",
+   "method": "D",
+   "rep": 0,
+   "sha256": "3e188edbc7a068703a90a865a3a7d7f2954a423d74c149b61b0719a6145d7a63"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-8",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "3e188edbc7a068703a90a865a3a7d7f2954a423d74c149b61b0719a6145d7a63"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-8",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "3e188edbc7a068703a90a865a3a7d7f2954a423d74c149b61b0719a6145d7a63"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3e188edbc7a068703a90a865a3a7d7f2954a423d74c149b61b0719a6145d7a63",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-enddr2-10-by-5-8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3e188edbc7a068703a90a865a3a7d7f2954a423d74c149b61b0719a6145d7a63",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "eaa482265d5188b10c8c9a45f561c26fe06b6c18d585394ccde550816b8b97c4"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "eaa482265d5188b10c8c9a45f561c26fe06b6c18d585394ccde550816b8b97c4"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "eaa482265d5188b10c8c9a45f561c26fe06b6c18d585394ccde550816b8b97c4"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "eaa482265d5188b10c8c9a45f561c26fe06b6c18d585394ccde550816b8b97c4",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "eaa482265d5188b10c8c9a45f561c26fe06b6c18d585394ccde550816b8b97c4",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-8",
+   "method": "D",
+   "rep": 0,
+   "sha256": "47f29473e786732f1466f08203d49da0a99de74fa138506f6a074632b0272d7d"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-8",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "47f29473e786732f1466f08203d49da0a99de74fa138506f6a074632b0272d7d"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-8",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "47f29473e786732f1466f08203d49da0a99de74fa138506f6a074632b0272d7d"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "47f29473e786732f1466f08203d49da0a99de74fa138506f6a074632b0272d7d",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-Bejing-ewddr2-10-by-5-8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "47f29473e786732f1466f08203d49da0a99de74fa138506f6a074632b0272d7d",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg4-09",
+   "method": "D",
+   "rep": 0,
+   "sha256": "090ac159942bc1857688e7959c956b54c3425ac44b24f2acacc00b5f0ce22941"
+  },
+  {
+   "instance": "v10e-QG-qg4-09",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "090ac159942bc1857688e7959c956b54c3425ac44b24f2acacc00b5f0ce22941"
+  },
+  {
+   "instance": "v10e-QG-qg4-09",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "090ac159942bc1857688e7959c956b54c3425ac44b24f2acacc00b5f0ce22941"
+  },
+  {
+   "instance": "v10e-QG-qg4-09",
+   "method": "W",
+   "rep": 0,
+   "sha256": "090ac159942bc1857688e7959c956b54c3425ac44b24f2acacc00b5f0ce22941",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg4-09",
+   "method": "W",
+   "rep": 0,
+   "sha256": "090ac159942bc1857688e7959c956b54c3425ac44b24f2acacc00b5f0ce22941",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg3-09",
+   "method": "D",
+   "rep": 0,
+   "sha256": "a6f40afb873466d22813d437188dfc807664ea1bc634da48b4d731125acdd063"
+  },
+  {
+   "instance": "v10e-QG-qg3-09",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "a6f40afb873466d22813d437188dfc807664ea1bc634da48b4d731125acdd063"
+  },
+  {
+   "instance": "v10e-QG-qg3-09",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "a6f40afb873466d22813d437188dfc807664ea1bc634da48b4d731125acdd063"
+  },
+  {
+   "instance": "v10e-QG-qg3-09",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a6f40afb873466d22813d437188dfc807664ea1bc634da48b4d731125acdd063",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg3-09",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a6f40afb873466d22813d437188dfc807664ea1bc634da48b4d731125acdd063",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg6-10",
+   "method": "D",
+   "rep": 0,
+   "sha256": "ee716a9a63465e0fd364a6539d3e69105328f6b27503810683ade2f2f83177d2"
+  },
+  {
+   "instance": "v10e-QG-qg6-10",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "ee716a9a63465e0fd364a6539d3e69105328f6b27503810683ade2f2f83177d2"
+  },
+  {
+   "instance": "v10e-QG-qg6-10",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "ee716a9a63465e0fd364a6539d3e69105328f6b27503810683ade2f2f83177d2"
+  },
+  {
+   "instance": "v10e-QG-qg6-10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "ee716a9a63465e0fd364a6539d3e69105328f6b27503810683ade2f2f83177d2",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg6-10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "ee716a9a63465e0fd364a6539d3e69105328f6b27503810683ade2f2f83177d2",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg7-10",
+   "method": "D",
+   "rep": 0,
+   "sha256": "39eb20e230054cd8eb6da649e06f3aae32c7cf21dd0e4f3cfdf7ffc221acb48a"
+  },
+  {
+   "instance": "v10e-QG-qg7-10",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "39eb20e230054cd8eb6da649e06f3aae32c7cf21dd0e4f3cfdf7ffc221acb48a"
+  },
+  {
+   "instance": "v10e-QG-qg7-10",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "39eb20e230054cd8eb6da649e06f3aae32c7cf21dd0e4f3cfdf7ffc221acb48a"
+  },
+  {
+   "instance": "v10e-QG-qg7-10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "39eb20e230054cd8eb6da649e06f3aae32c7cf21dd0e4f3cfdf7ffc221acb48a",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg7-10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "39eb20e230054cd8eb6da649e06f3aae32c7cf21dd0e4f3cfdf7ffc221acb48a",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg5-10",
+   "method": "D",
+   "rep": 0,
+   "sha256": "b995b3bdd3627dfce2ab6929713f3c958a247006e2773f60bac94dd856b09acb"
+  },
+  {
+   "instance": "v10e-QG-qg5-10",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "b995b3bdd3627dfce2ab6929713f3c958a247006e2773f60bac94dd856b09acb"
+  },
+  {
+   "instance": "v10e-QG-qg5-10",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "b995b3bdd3627dfce2ab6929713f3c958a247006e2773f60bac94dd856b09acb"
+  },
+  {
+   "instance": "v10e-QG-qg5-10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b995b3bdd3627dfce2ab6929713f3c958a247006e2773f60bac94dd856b09acb",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg5-10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b995b3bdd3627dfce2ab6929713f3c958a247006e2773f60bac94dd856b09acb",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg6-11",
+   "method": "D",
+   "rep": 0,
+   "sha256": "0d4315cb6f7c6c0a01bbbaaeff4833aadd7a07afb75e755b962e2bfccf8bac26"
+  },
+  {
+   "instance": "v10e-QG-qg6-11",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "0d4315cb6f7c6c0a01bbbaaeff4833aadd7a07afb75e755b962e2bfccf8bac26"
+  },
+  {
+   "instance": "v10e-QG-qg6-11",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "0d4315cb6f7c6c0a01bbbaaeff4833aadd7a07afb75e755b962e2bfccf8bac26"
+  },
+  {
+   "instance": "v10e-QG-qg6-11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0d4315cb6f7c6c0a01bbbaaeff4833aadd7a07afb75e755b962e2bfccf8bac26",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg6-11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0d4315cb6f7c6c0a01bbbaaeff4833aadd7a07afb75e755b962e2bfccf8bac26",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg7-11",
+   "method": "D",
+   "rep": 0,
+   "sha256": "5543e7c083a3d154abb88bd407b2aa899c288d8c7794fe35d7dfcd6f62a7e8b9"
+  },
+  {
+   "instance": "v10e-QG-qg7-11",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "5543e7c083a3d154abb88bd407b2aa899c288d8c7794fe35d7dfcd6f62a7e8b9"
+  },
+  {
+   "instance": "v10e-QG-qg7-11",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "5543e7c083a3d154abb88bd407b2aa899c288d8c7794fe35d7dfcd6f62a7e8b9"
+  },
+  {
+   "instance": "v10e-QG-qg7-11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5543e7c083a3d154abb88bd407b2aa899c288d8c7794fe35d7dfcd6f62a7e8b9",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg7-11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5543e7c083a3d154abb88bd407b2aa899c288d8c7794fe35d7dfcd6f62a7e8b9",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg5-11",
+   "method": "D",
+   "rep": 0,
+   "sha256": "271450ca383244bab1344fade84c109ee828dd84540f18c04e469a86fd53f3b5"
+  },
+  {
+   "instance": "v10e-QG-qg5-11",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "271450ca383244bab1344fade84c109ee828dd84540f18c04e469a86fd53f3b5"
+  },
+  {
+   "instance": "v10e-QG-qg5-11",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "271450ca383244bab1344fade84c109ee828dd84540f18c04e469a86fd53f3b5"
+  },
+  {
+   "instance": "v10e-QG-qg5-11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "271450ca383244bab1344fade84c109ee828dd84540f18c04e469a86fd53f3b5",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg5-11",
+   "method": "W",
+   "rep": 0,
+   "sha256": "271450ca383244bab1344fade84c109ee828dd84540f18c04e469a86fd53f3b5",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg6-12",
+   "method": "D",
+   "rep": 0,
+   "sha256": "b26d4442f9ee6bb06fabc2818b0b880c51d103552da6ddb97fdac4f9d41becb9"
+  },
+  {
+   "instance": "v10e-QG-qg6-12",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "b26d4442f9ee6bb06fabc2818b0b880c51d103552da6ddb97fdac4f9d41becb9"
+  },
+  {
+   "instance": "v10e-QG-qg6-12",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "b26d4442f9ee6bb06fabc2818b0b880c51d103552da6ddb97fdac4f9d41becb9"
+  },
+  {
+   "instance": "v10e-QG-qg6-12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b26d4442f9ee6bb06fabc2818b0b880c51d103552da6ddb97fdac4f9d41becb9",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg6-12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b26d4442f9ee6bb06fabc2818b0b880c51d103552da6ddb97fdac4f9d41becb9",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg7-12",
+   "method": "D",
+   "rep": 0,
+   "sha256": "73bf0b80cbc25f2fd365af0d97e6814eddea3340cfd1d62da79d06742d305ad8"
+  },
+  {
+   "instance": "v10e-QG-qg7-12",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "73bf0b80cbc25f2fd365af0d97e6814eddea3340cfd1d62da79d06742d305ad8"
+  },
+  {
+   "instance": "v10e-QG-qg7-12",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "73bf0b80cbc25f2fd365af0d97e6814eddea3340cfd1d62da79d06742d305ad8"
+  },
+  {
+   "instance": "v10e-QG-qg7-12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "73bf0b80cbc25f2fd365af0d97e6814eddea3340cfd1d62da79d06742d305ad8",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg7-12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "73bf0b80cbc25f2fd365af0d97e6814eddea3340cfd1d62da79d06742d305ad8",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg5-12",
+   "method": "D",
+   "rep": 0,
+   "sha256": "3cf6e17c4271a6c093b0d72ecc65c87b7d07d08dfb29cda6a8f8b48ed8b84206"
+  },
+  {
+   "instance": "v10e-QG-qg5-12",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "3cf6e17c4271a6c093b0d72ecc65c87b7d07d08dfb29cda6a8f8b48ed8b84206"
+  },
+  {
+   "instance": "v10e-QG-qg5-12",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "3cf6e17c4271a6c093b0d72ecc65c87b7d07d08dfb29cda6a8f8b48ed8b84206"
+  },
+  {
+   "instance": "v10e-QG-qg5-12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3cf6e17c4271a6c093b0d72ecc65c87b7d07d08dfb29cda6a8f8b48ed8b84206",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg5-12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3cf6e17c4271a6c093b0d72ecc65c87b7d07d08dfb29cda6a8f8b48ed8b84206",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg7-13",
+   "method": "D",
+   "rep": 0,
+   "sha256": "f6a645060efa08daa8785a931d9b2c4354f0817da74f6887369f955338707fa8"
+  },
+  {
+   "instance": "v10e-QG-qg7-13",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "f6a645060efa08daa8785a931d9b2c4354f0817da74f6887369f955338707fa8"
+  },
+  {
+   "instance": "v10e-QG-qg7-13",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "f6a645060efa08daa8785a931d9b2c4354f0817da74f6887369f955338707fa8"
+  },
+  {
+   "instance": "v10e-QG-qg7-13",
+   "method": "W",
+   "rep": 0,
+   "sha256": "f6a645060efa08daa8785a931d9b2c4354f0817da74f6887369f955338707fa8",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg7-13",
+   "method": "W",
+   "rep": 0,
+   "sha256": "f6a645060efa08daa8785a931d9b2c4354f0817da74f6887369f955338707fa8",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg5-13",
+   "method": "D",
+   "rep": 0,
+   "sha256": "a5ee14fbfb2768d60505e84f789aa5c2caf9bd4f63c5ed3a4a482cf465dd2b38"
+  },
+  {
+   "instance": "v10e-QG-qg5-13",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "a5ee14fbfb2768d60505e84f789aa5c2caf9bd4f63c5ed3a4a482cf465dd2b38"
+  },
+  {
+   "instance": "v10e-QG-qg5-13",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "a5ee14fbfb2768d60505e84f789aa5c2caf9bd4f63c5ed3a4a482cf465dd2b38"
+  },
+  {
+   "instance": "v10e-QG-qg5-13",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a5ee14fbfb2768d60505e84f789aa5c2caf9bd4f63c5ed3a4a482cf465dd2b38",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg5-13",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a5ee14fbfb2768d60505e84f789aa5c2caf9bd4f63c5ed3a4a482cf465dd2b38",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg1-08",
+   "method": "D",
+   "rep": 0,
+   "sha256": "2f7c1519dab952b8e186e61b96057bc6aa802e26d8a5b74f41340f1ba2ea2a54"
+  },
+  {
+   "instance": "v10e-QG-qg1-08",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "2f7c1519dab952b8e186e61b96057bc6aa802e26d8a5b74f41340f1ba2ea2a54"
+  },
+  {
+   "instance": "v10e-QG-qg1-08",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "2f7c1519dab952b8e186e61b96057bc6aa802e26d8a5b74f41340f1ba2ea2a54"
+  },
+  {
+   "instance": "v10e-QG-qg1-08",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2f7c1519dab952b8e186e61b96057bc6aa802e26d8a5b74f41340f1ba2ea2a54",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg1-08",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2f7c1519dab952b8e186e61b96057bc6aa802e26d8a5b74f41340f1ba2ea2a54",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-QG-qg2-08",
+   "method": "D",
+   "rep": 0,
+   "sha256": "5bbfb428a6469414d409442f63d4576fab63990faf85ea5d59d2b6baa397fc92"
+  },
+  {
+   "instance": "v10e-QG-qg2-08",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "5bbfb428a6469414d409442f63d4576fab63990faf85ea5d59d2b6baa397fc92"
+  },
+  {
+   "instance": "v10e-QG-qg2-08",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "5bbfb428a6469414d409442f63d4576fab63990faf85ea5d59d2b6baa397fc92"
+  },
+  {
+   "instance": "v10e-QG-qg2-08",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5bbfb428a6469414d409442f63d4576fab63990faf85ea5d59d2b6baa397fc92",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-QG-qg2-08",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5bbfb428a6469414d409442f63d4576fab63990faf85ea5d59d2b6baa397fc92",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-blocksworld-anomaly",
+   "method": "D",
+   "rep": 0,
+   "sha256": "e42ab6247f2b17f4cf58b859ad184f2a5cb31c6b83fe5eb87823fc0056fc6f4a"
+  },
+  {
+   "instance": "v10e-blocksworld-anomaly",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "e42ab6247f2b17f4cf58b859ad184f2a5cb31c6b83fe5eb87823fc0056fc6f4a"
+  },
+  {
+   "instance": "v10e-blocksworld-anomaly",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "e42ab6247f2b17f4cf58b859ad184f2a5cb31c6b83fe5eb87823fc0056fc6f4a"
+  },
+  {
+   "instance": "v10e-blocksworld-anomaly",
+   "method": "W",
+   "rep": 0,
+   "sha256": "e42ab6247f2b17f4cf58b859ad184f2a5cb31c6b83fe5eb87823fc0056fc6f4a",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-blocksworld-anomaly",
+   "method": "W",
+   "rep": 0,
+   "sha256": "e42ab6247f2b17f4cf58b859ad184f2a5cb31c6b83fe5eb87823fc0056fc6f4a",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-blocksworld-medium",
+   "method": "D",
+   "rep": 0,
+   "sha256": "f38608f7da67260451fa1885e2704e7e335b69b027e8b9cb93f6c9b7d64106fd"
+  },
+  {
+   "instance": "v10e-blocksworld-medium",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "f38608f7da67260451fa1885e2704e7e335b69b027e8b9cb93f6c9b7d64106fd"
+  },
+  {
+   "instance": "v10e-blocksworld-medium",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "f38608f7da67260451fa1885e2704e7e335b69b027e8b9cb93f6c9b7d64106fd"
+  },
+  {
+   "instance": "v10e-blocksworld-medium",
+   "method": "W",
+   "rep": 0,
+   "sha256": "f38608f7da67260451fa1885e2704e7e335b69b027e8b9cb93f6c9b7d64106fd",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-blocksworld-medium",
+   "method": "W",
+   "rep": 0,
+   "sha256": "f38608f7da67260451fa1885e2704e7e335b69b027e8b9cb93f6c9b7d64106fd",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-blocksworld-huge",
+   "method": "D",
+   "rep": 0,
+   "sha256": "311c5579a0bc12d7a0020c25c486517e7fa10e952d92ff61ac89a73e2f2b9a11"
+  },
+  {
+   "instance": "v10e-blocksworld-huge",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "311c5579a0bc12d7a0020c25c486517e7fa10e952d92ff61ac89a73e2f2b9a11"
+  },
+  {
+   "instance": "v10e-blocksworld-huge",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "311c5579a0bc12d7a0020c25c486517e7fa10e952d92ff61ac89a73e2f2b9a11"
+  },
+  {
+   "instance": "v10e-blocksworld-huge",
+   "method": "W",
+   "rep": 0,
+   "sha256": "311c5579a0bc12d7a0020c25c486517e7fa10e952d92ff61ac89a73e2f2b9a11",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-blocksworld-huge",
+   "method": "W",
+   "rep": 0,
+   "sha256": "311c5579a0bc12d7a0020c25c486517e7fa10e952d92ff61ac89a73e2f2b9a11",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi4",
+   "method": "D",
+   "rep": 0,
+   "sha256": "e5d6fa5546d2e9e90e5be0ac54e1ea25b1b1f03e2cf8ca17b3a0000e6724c2c0"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi4",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "e5d6fa5546d2e9e90e5be0ac54e1ea25b1b1f03e2cf8ca17b3a0000e6724c2c0"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi4",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "e5d6fa5546d2e9e90e5be0ac54e1ea25b1b1f03e2cf8ca17b3a0000e6724c2c0"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "e5d6fa5546d2e9e90e5be0ac54e1ea25b1b1f03e2cf8ca17b3a0000e6724c2c0",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "e5d6fa5546d2e9e90e5be0ac54e1ea25b1b1f03e2cf8ca17b3a0000e6724c2c0",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi5",
+   "method": "D",
+   "rep": 0,
+   "sha256": "7b52bf9112fb08593a09c6456c7fcf6060b6204850d10ffdbfda3c3bf2024217"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi5",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "7b52bf9112fb08593a09c6456c7fcf6060b6204850d10ffdbfda3c3bf2024217"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi5",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "7b52bf9112fb08593a09c6456c7fcf6060b6204850d10ffdbfda3c3bf2024217"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi5",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7b52bf9112fb08593a09c6456c7fcf6060b6204850d10ffdbfda3c3bf2024217",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-hanoi-hanoi5",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7b52bf9112fb08593a09c6456c7fcf6060b6204850d10ffdbfda3c3bf2024217",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par8-4-c",
+   "method": "D",
+   "rep": 0,
+   "sha256": "1fb5f4d6c7c3d137db4678c0350a3e58b20882e65919562cd634c6072d82c784"
+  },
+  {
+   "instance": "v10e-parity-par8-4-c",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "1fb5f4d6c7c3d137db4678c0350a3e58b20882e65919562cd634c6072d82c784"
+  },
+  {
+   "instance": "v10e-parity-par8-4-c",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "1fb5f4d6c7c3d137db4678c0350a3e58b20882e65919562cd634c6072d82c784"
+  },
+  {
+   "instance": "v10e-parity-par8-4-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1fb5f4d6c7c3d137db4678c0350a3e58b20882e65919562cd634c6072d82c784",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par8-4-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1fb5f4d6c7c3d137db4678c0350a3e58b20882e65919562cd634c6072d82c784",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par8-3-c",
+   "method": "D",
+   "rep": 0,
+   "sha256": "4de639003c35ed517ea5aec834c7e4ea4c9b816ce4268b4c40e538cefc9f6a70"
+  },
+  {
+   "instance": "v10e-parity-par8-3-c",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "4de639003c35ed517ea5aec834c7e4ea4c9b816ce4268b4c40e538cefc9f6a70"
+  },
+  {
+   "instance": "v10e-parity-par8-3-c",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "4de639003c35ed517ea5aec834c7e4ea4c9b816ce4268b4c40e538cefc9f6a70"
+  },
+  {
+   "instance": "v10e-parity-par8-3-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "4de639003c35ed517ea5aec834c7e4ea4c9b816ce4268b4c40e538cefc9f6a70",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par8-3-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "4de639003c35ed517ea5aec834c7e4ea4c9b816ce4268b4c40e538cefc9f6a70",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par8-4",
+   "method": "D",
+   "rep": 0,
+   "sha256": "4dd10b60306134470d873d941ae0839097df16a57bd2ed2baf60965a4fee817a"
+  },
+  {
+   "instance": "v10e-parity-par8-4",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "4dd10b60306134470d873d941ae0839097df16a57bd2ed2baf60965a4fee817a"
+  },
+  {
+   "instance": "v10e-parity-par8-4",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "4dd10b60306134470d873d941ae0839097df16a57bd2ed2baf60965a4fee817a"
+  },
+  {
+   "instance": "v10e-parity-par8-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "4dd10b60306134470d873d941ae0839097df16a57bd2ed2baf60965a4fee817a",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par8-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "4dd10b60306134470d873d941ae0839097df16a57bd2ed2baf60965a4fee817a",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par8-3",
+   "method": "D",
+   "rep": 0,
+   "sha256": "ea664248231efaa98bfd06e75b399066ca7f3ef20dd9978b0b5976538bbb09db"
+  },
+  {
+   "instance": "v10e-parity-par8-3",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "ea664248231efaa98bfd06e75b399066ca7f3ef20dd9978b0b5976538bbb09db"
+  },
+  {
+   "instance": "v10e-parity-par8-3",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "ea664248231efaa98bfd06e75b399066ca7f3ef20dd9978b0b5976538bbb09db"
+  },
+  {
+   "instance": "v10e-parity-par8-3",
+   "method": "W",
+   "rep": 0,
+   "sha256": "ea664248231efaa98bfd06e75b399066ca7f3ef20dd9978b0b5976538bbb09db",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par8-3",
+   "method": "W",
+   "rep": 0,
+   "sha256": "ea664248231efaa98bfd06e75b399066ca7f3ef20dd9978b0b5976538bbb09db",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par16-4-c",
+   "method": "D",
+   "rep": 0,
+   "sha256": "38209eb77b6abec22f83c676c53480228c81886591d499f7ead1f614a055081a"
+  },
+  {
+   "instance": "v10e-parity-par16-4-c",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "38209eb77b6abec22f83c676c53480228c81886591d499f7ead1f614a055081a"
+  },
+  {
+   "instance": "v10e-parity-par16-4-c",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "38209eb77b6abec22f83c676c53480228c81886591d499f7ead1f614a055081a"
+  },
+  {
+   "instance": "v10e-parity-par16-4-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "38209eb77b6abec22f83c676c53480228c81886591d499f7ead1f614a055081a",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par16-4-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "38209eb77b6abec22f83c676c53480228c81886591d499f7ead1f614a055081a",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par16-5-c",
+   "method": "D",
+   "rep": 0,
+   "sha256": "7e7ae96cd79e983e44eb5f36590360afc0d2ff0bb0eb038b251d6b6748b8b0f1"
+  },
+  {
+   "instance": "v10e-parity-par16-5-c",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "7e7ae96cd79e983e44eb5f36590360afc0d2ff0bb0eb038b251d6b6748b8b0f1"
+  },
+  {
+   "instance": "v10e-parity-par16-5-c",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "7e7ae96cd79e983e44eb5f36590360afc0d2ff0bb0eb038b251d6b6748b8b0f1"
+  },
+  {
+   "instance": "v10e-parity-par16-5-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7e7ae96cd79e983e44eb5f36590360afc0d2ff0bb0eb038b251d6b6748b8b0f1",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par16-5-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7e7ae96cd79e983e44eb5f36590360afc0d2ff0bb0eb038b251d6b6748b8b0f1",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par16-4",
+   "method": "D",
+   "rep": 0,
+   "sha256": "26e002428e5c245b40a923dfa60f3787e8dd357375a1bfd904a4eeb72d611c86"
+  },
+  {
+   "instance": "v10e-parity-par16-4",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "26e002428e5c245b40a923dfa60f3787e8dd357375a1bfd904a4eeb72d611c86"
+  },
+  {
+   "instance": "v10e-parity-par16-4",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "26e002428e5c245b40a923dfa60f3787e8dd357375a1bfd904a4eeb72d611c86"
+  },
+  {
+   "instance": "v10e-parity-par16-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "26e002428e5c245b40a923dfa60f3787e8dd357375a1bfd904a4eeb72d611c86",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par16-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "26e002428e5c245b40a923dfa60f3787e8dd357375a1bfd904a4eeb72d611c86",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par16-5",
+   "method": "D",
+   "rep": 0,
+   "sha256": "cb81f90196870c32229fef5dfc9d08087b052f7b4954e7fd021d772c5990e06b"
+  },
+  {
+   "instance": "v10e-parity-par16-5",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "cb81f90196870c32229fef5dfc9d08087b052f7b4954e7fd021d772c5990e06b"
+  },
+  {
+   "instance": "v10e-parity-par16-5",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "cb81f90196870c32229fef5dfc9d08087b052f7b4954e7fd021d772c5990e06b"
+  },
+  {
+   "instance": "v10e-parity-par16-5",
+   "method": "W",
+   "rep": 0,
+   "sha256": "cb81f90196870c32229fef5dfc9d08087b052f7b4954e7fd021d772c5990e06b",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par16-5",
+   "method": "W",
+   "rep": 0,
+   "sha256": "cb81f90196870c32229fef5dfc9d08087b052f7b4954e7fd021d772c5990e06b",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par32-1-c",
+   "method": "D",
+   "rep": 0,
+   "sha256": "fd6e992dd4deb7273b9844a441fa4310e77c68cf194c62d98cf10d4e7248405c"
+  },
+  {
+   "instance": "v10e-parity-par32-1-c",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "fd6e992dd4deb7273b9844a441fa4310e77c68cf194c62d98cf10d4e7248405c"
+  },
+  {
+   "instance": "v10e-parity-par32-1-c",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "fd6e992dd4deb7273b9844a441fa4310e77c68cf194c62d98cf10d4e7248405c"
+  },
+  {
+   "instance": "v10e-parity-par32-1-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "fd6e992dd4deb7273b9844a441fa4310e77c68cf194c62d98cf10d4e7248405c",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par32-1-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "fd6e992dd4deb7273b9844a441fa4310e77c68cf194c62d98cf10d4e7248405c",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par32-1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "5c43026b1b392564cb2a2e149427184db2ea41d1f5ae31010353565ee60364c7"
+  },
+  {
+   "instance": "v10e-parity-par32-1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "5c43026b1b392564cb2a2e149427184db2ea41d1f5ae31010353565ee60364c7"
+  },
+  {
+   "instance": "v10e-parity-par32-1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "5c43026b1b392564cb2a2e149427184db2ea41d1f5ae31010353565ee60364c7"
+  },
+  {
+   "instance": "v10e-parity-par32-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5c43026b1b392564cb2a2e149427184db2ea41d1f5ae31010353565ee60364c7",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par32-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5c43026b1b392564cb2a2e149427184db2ea41d1f5ae31010353565ee60364c7",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par8-1-c",
+   "method": "D",
+   "rep": 0,
+   "sha256": "bd93c0232cfe6db1aa8a96a7e6348795c370a2f3241b963185b314565784f59d"
+  },
+  {
+   "instance": "v10e-parity-par8-1-c",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "bd93c0232cfe6db1aa8a96a7e6348795c370a2f3241b963185b314565784f59d"
+  },
+  {
+   "instance": "v10e-parity-par8-1-c",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "bd93c0232cfe6db1aa8a96a7e6348795c370a2f3241b963185b314565784f59d"
+  },
+  {
+   "instance": "v10e-parity-par8-1-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "bd93c0232cfe6db1aa8a96a7e6348795c370a2f3241b963185b314565784f59d",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par8-1-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "bd93c0232cfe6db1aa8a96a7e6348795c370a2f3241b963185b314565784f59d",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-parity-par8-2-c",
+   "method": "D",
+   "rep": 0,
+   "sha256": "a17c3f4f4b978826751ab6db59632eb06e6bbe2ce1593377e9f1e3d6e2067a96"
+  },
+  {
+   "instance": "v10e-parity-par8-2-c",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "a17c3f4f4b978826751ab6db59632eb06e6bbe2ce1593377e9f1e3d6e2067a96"
+  },
+  {
+   "instance": "v10e-parity-par8-2-c",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "a17c3f4f4b978826751ab6db59632eb06e6bbe2ce1593377e9f1e3d6e2067a96"
+  },
+  {
+   "instance": "v10e-parity-par8-2-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a17c3f4f4b978826751ab6db59632eb06e6bbe2ce1593377e9f1e3d6e2067a96",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-parity-par8-2-c",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a17c3f4f4b978826751ab6db59632eb06e6bbe2ce1593377e9f1e3d6e2067a96",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole6",
+   "method": "D",
+   "rep": 0,
+   "sha256": "1e78a65667eef7f27b024365e816bfd4de06f5e985c03957e042176c61a95e6f"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole6",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "1e78a65667eef7f27b024365e816bfd4de06f5e985c03957e042176c61a95e6f"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole6",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "1e78a65667eef7f27b024365e816bfd4de06f5e985c03957e042176c61a95e6f"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole6",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1e78a65667eef7f27b024365e816bfd4de06f5e985c03957e042176c61a95e6f",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole6",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1e78a65667eef7f27b024365e816bfd4de06f5e985c03957e042176c61a95e6f",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole7",
+   "method": "D",
+   "rep": 0,
+   "sha256": "a5d5ab1109ca5aefd43e999549bd3298213c3a7d2b3727c4d2234b88ca5ae077"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole7",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "a5d5ab1109ca5aefd43e999549bd3298213c3a7d2b3727c4d2234b88ca5ae077"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole7",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "a5d5ab1109ca5aefd43e999549bd3298213c3a7d2b3727c4d2234b88ca5ae077"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole7",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a5d5ab1109ca5aefd43e999549bd3298213c3a7d2b3727c4d2234b88ca5ae077",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole7",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a5d5ab1109ca5aefd43e999549bd3298213c3a7d2b3727c4d2234b88ca5ae077",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole8",
+   "method": "D",
+   "rep": 0,
+   "sha256": "6147d535173b806e565cf3293fb088696f72625ecdf164bd1e35934e49b8e805"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole8",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "6147d535173b806e565cf3293fb088696f72625ecdf164bd1e35934e49b8e805"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole8",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "6147d535173b806e565cf3293fb088696f72625ecdf164bd1e35934e49b8e805"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "6147d535173b806e565cf3293fb088696f72625ecdf164bd1e35934e49b8e805",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "6147d535173b806e565cf3293fb088696f72625ecdf164bd1e35934e49b8e805",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole9",
+   "method": "D",
+   "rep": 0,
+   "sha256": "20ed3841aed750cde4f0426df9f12c1552ff5ae7e4e48d371d35bb81068798f4"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole9",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "20ed3841aed750cde4f0426df9f12c1552ff5ae7e4e48d371d35bb81068798f4"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole9",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "20ed3841aed750cde4f0426df9f12c1552ff5ae7e4e48d371d35bb81068798f4"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole9",
+   "method": "W",
+   "rep": 0,
+   "sha256": "20ed3841aed750cde4f0426df9f12c1552ff5ae7e4e48d371d35bb81068798f4",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole9",
+   "method": "W",
+   "rep": 0,
+   "sha256": "20ed3841aed750cde4f0426df9f12c1552ff5ae7e4e48d371d35bb81068798f4",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole10",
+   "method": "D",
+   "rep": 0,
+   "sha256": "1517f86a4d34d6ed4e2816d7c7548c2c03ce4149d4d7b51c577b9880d47edfdf"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole10",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "1517f86a4d34d6ed4e2816d7c7548c2c03ce4149d4d7b51c577b9880d47edfdf"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole10",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "1517f86a4d34d6ed4e2816d7c7548c2c03ce4149d4d7b51c577b9880d47edfdf"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1517f86a4d34d6ed4e2816d7c7548c2c03ce4149d4d7b51c577b9880d47edfdf",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-pigeon-hole-hole10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1517f86a4d34d6ed4e2816d7c7548c2c03ce4149d4d7b51c577b9880d47edfdf",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ais-ais6",
+   "method": "D",
+   "rep": 0,
+   "sha256": "182db4263a342c67fa9df60a8a386a8d1c9a663f399439df77de888e636ca60c"
+  },
+  {
+   "instance": "v10e-ais-ais6",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "182db4263a342c67fa9df60a8a386a8d1c9a663f399439df77de888e636ca60c"
+  },
+  {
+   "instance": "v10e-ais-ais6",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "182db4263a342c67fa9df60a8a386a8d1c9a663f399439df77de888e636ca60c"
+  },
+  {
+   "instance": "v10e-ais-ais6",
+   "method": "W",
+   "rep": 0,
+   "sha256": "182db4263a342c67fa9df60a8a386a8d1c9a663f399439df77de888e636ca60c",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ais-ais6",
+   "method": "W",
+   "rep": 0,
+   "sha256": "182db4263a342c67fa9df60a8a386a8d1c9a663f399439df77de888e636ca60c",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ais-ais8",
+   "method": "D",
+   "rep": 0,
+   "sha256": "5024250e2092c78237435204bd5f5f812317c97ded5765b2173620540fb82776"
+  },
+  {
+   "instance": "v10e-ais-ais8",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "5024250e2092c78237435204bd5f5f812317c97ded5765b2173620540fb82776"
+  },
+  {
+   "instance": "v10e-ais-ais8",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "5024250e2092c78237435204bd5f5f812317c97ded5765b2173620540fb82776"
+  },
+  {
+   "instance": "v10e-ais-ais8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5024250e2092c78237435204bd5f5f812317c97ded5765b2173620540fb82776",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ais-ais8",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5024250e2092c78237435204bd5f5f812317c97ded5765b2173620540fb82776",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ais-ais10",
+   "method": "D",
+   "rep": 0,
+   "sha256": "b5ece84e2a4d1e28b0493986e56b8f573486dbf68501c401a21110131156be9f"
+  },
+  {
+   "instance": "v10e-ais-ais10",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "b5ece84e2a4d1e28b0493986e56b8f573486dbf68501c401a21110131156be9f"
+  },
+  {
+   "instance": "v10e-ais-ais10",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "b5ece84e2a4d1e28b0493986e56b8f573486dbf68501c401a21110131156be9f"
+  },
+  {
+   "instance": "v10e-ais-ais10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b5ece84e2a4d1e28b0493986e56b8f573486dbf68501c401a21110131156be9f",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ais-ais10",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b5ece84e2a4d1e28b0493986e56b8f573486dbf68501c401a21110131156be9f",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ais-ais12",
+   "method": "D",
+   "rep": 0,
+   "sha256": "1ef412c54e3a029fc8c9224e593c9b8e0b4fe9e035c798ccdff61dcf9a19cd20"
+  },
+  {
+   "instance": "v10e-ais-ais12",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "1ef412c54e3a029fc8c9224e593c9b8e0b4fe9e035c798ccdff61dcf9a19cd20"
+  },
+  {
+   "instance": "v10e-ais-ais12",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "1ef412c54e3a029fc8c9224e593c9b8e0b4fe9e035c798ccdff61dcf9a19cd20"
+  },
+  {
+   "instance": "v10e-ais-ais12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1ef412c54e3a029fc8c9224e593c9b8e0b4fe9e035c798ccdff61dcf9a19cd20",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ais-ais12",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1ef412c54e3a029fc8c9224e593c9b8e0b4fe9e035c798ccdff61dcf9a19cd20",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "1fce58756431872014728d0c091060304fcb1c108e159fe60d5db2a00e6e5fe1"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "1fce58756431872014728d0c091060304fcb1c108e159fe60d5db2a00e6e5fe1"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "1fce58756431872014728d0c091060304fcb1c108e159fe60d5db2a00e6e5fe1"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1fce58756431872014728d0c091060304fcb1c108e159fe60d5db2a00e6e5fe1",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1fce58756431872014728d0c091060304fcb1c108e159fe60d5db2a00e6e5fe1",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8b1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "5f87f4f37b87d15613f7765cb86960180a131a9cd7682de6372a097b78888d90"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8b1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "5f87f4f37b87d15613f7765cb86960180a131a9cd7682de6372a097b78888d90"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8b1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "5f87f4f37b87d15613f7765cb86960180a131a9cd7682de6372a097b78888d90"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8b1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5f87f4f37b87d15613f7765cb86960180a131a9cd7682de6372a097b78888d90",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8b1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5f87f4f37b87d15613f7765cb86960180a131a9cd7682de6372a097b78888d90",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "70ede120c8dd2503aa78a73a82e02c78300361e623ca82e6fbd2f4eebaf9b6cd"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "70ede120c8dd2503aa78a73a82e02c78300361e623ca82e6fbd2f4eebaf9b6cd"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "70ede120c8dd2503aa78a73a82e02c78300361e623ca82e6fbd2f4eebaf9b6cd"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "70ede120c8dd2503aa78a73a82e02c78300361e623ca82e6fbd2f4eebaf9b6cd",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32e2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "70ede120c8dd2503aa78a73a82e02c78300361e623ca82e6fbd2f4eebaf9b6cd",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "aee49e3df2f4e6f0ea856e0099c5d0335a40d575ad887a3f81ebc6cf0c17e2a1"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "aee49e3df2f4e6f0ea856e0099c5d0335a40d575ad887a3f81ebc6cf0c17e2a1"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "aee49e3df2f4e6f0ea856e0099c5d0335a40d575ad887a3f81ebc6cf0c17e2a1"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "aee49e3df2f4e6f0ea856e0099c5d0335a40d575ad887a3f81ebc6cf0c17e2a1",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "aee49e3df2f4e6f0ea856e0099c5d0335a40d575ad887a3f81ebc6cf0c17e2a1",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32d2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "7a8d704842595ee9e1dcde537c26e9a8dc86a572ec21da08226445f56fe98127"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32d2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "7a8d704842595ee9e1dcde537c26e9a8dc86a572ec21da08226445f56fe98127"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32d2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "7a8d704842595ee9e1dcde537c26e9a8dc86a572ec21da08226445f56fe98127"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32d2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7a8d704842595ee9e1dcde537c26e9a8dc86a572ec21da08226445f56fe98127",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32d2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7a8d704842595ee9e1dcde537c26e9a8dc86a572ec21da08226445f56fe98127",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "776f985f7781e03873aca3b995ab41b9dbfe009cb56ffb1efc86cfe31c913d39"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "776f985f7781e03873aca3b995ab41b9dbfe009cb56ffb1efc86cfe31c913d39"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "776f985f7781e03873aca3b995ab41b9dbfe009cb56ffb1efc86cfe31c913d39"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "776f985f7781e03873aca3b995ab41b9dbfe009cb56ffb1efc86cfe31c913d39",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii8d2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "776f985f7781e03873aca3b995ab41b9dbfe009cb56ffb1efc86cfe31c913d39",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16e2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "7cfa5324f7b946edba5b254913c2dd9b478eacdbf2f8db54d126a8020b738fee"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16e2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "7cfa5324f7b946edba5b254913c2dd9b478eacdbf2f8db54d126a8020b738fee"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16e2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "7cfa5324f7b946edba5b254913c2dd9b478eacdbf2f8db54d126a8020b738fee"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16e2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7cfa5324f7b946edba5b254913c2dd9b478eacdbf2f8db54d126a8020b738fee",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16e2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7cfa5324f7b946edba5b254913c2dd9b478eacdbf2f8db54d126a8020b738fee",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16d2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "31c890014501cfb5325adec8a3b8b631f7359ba599b64687b80b1e63a657cb50"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16d2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "31c890014501cfb5325adec8a3b8b631f7359ba599b64687b80b1e63a657cb50"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16d2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "31c890014501cfb5325adec8a3b8b631f7359ba599b64687b80b1e63a657cb50"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16d2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "31c890014501cfb5325adec8a3b8b631f7359ba599b64687b80b1e63a657cb50",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16d2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "31c890014501cfb5325adec8a3b8b631f7359ba599b64687b80b1e63a657cb50",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16b2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "559175b084ee38df2fa91d782a6b1b205e81338ba36a3f6e48616c0fd2ef1ed2"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16b2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "559175b084ee38df2fa91d782a6b1b205e81338ba36a3f6e48616c0fd2ef1ed2"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16b2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "559175b084ee38df2fa91d782a6b1b205e81338ba36a3f6e48616c0fd2ef1ed2"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16b2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "559175b084ee38df2fa91d782a6b1b205e81338ba36a3f6e48616c0fd2ef1ed2",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii16b2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "559175b084ee38df2fa91d782a6b1b205e81338ba36a3f6e48616c0fd2ef1ed2",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32c4",
+   "method": "D",
+   "rep": 0,
+   "sha256": "897869e98ec0b13e1b7df615a1a4e6d98bb6d8e9cf1bafe95dedd00c1bb7ca75"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32c4",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "897869e98ec0b13e1b7df615a1a4e6d98bb6d8e9cf1bafe95dedd00c1bb7ca75"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32c4",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "897869e98ec0b13e1b7df615a1a4e6d98bb6d8e9cf1bafe95dedd00c1bb7ca75"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32c4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "897869e98ec0b13e1b7df615a1a4e6d98bb6d8e9cf1bafe95dedd00c1bb7ca75",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-inductive-inference-ii32c4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "897869e98ec0b13e1b7df615a1a4e6d98bb6d8e9cf1bafe95dedd00c1bb7ca75",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa0432-003",
+   "method": "D",
+   "rep": 0,
+   "sha256": "c933f4efbdd211c825ba7c10f1da00467d94dfd3a41eaf5c89922fb5c747e714"
+  },
+  {
+   "instance": "v10e-ssa-ssa0432-003",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "c933f4efbdd211c825ba7c10f1da00467d94dfd3a41eaf5c89922fb5c747e714"
+  },
+  {
+   "instance": "v10e-ssa-ssa0432-003",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "c933f4efbdd211c825ba7c10f1da00467d94dfd3a41eaf5c89922fb5c747e714"
+  },
+  {
+   "instance": "v10e-ssa-ssa0432-003",
+   "method": "W",
+   "rep": 0,
+   "sha256": "c933f4efbdd211c825ba7c10f1da00467d94dfd3a41eaf5c89922fb5c747e714",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa0432-003",
+   "method": "W",
+   "rep": 0,
+   "sha256": "c933f4efbdd211c825ba7c10f1da00467d94dfd3a41eaf5c89922fb5c747e714",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-159",
+   "method": "D",
+   "rep": 0,
+   "sha256": "fe0083aeb590e10265fde4e09c57495af5053b43c229db2b948c43b1558c6894"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-159",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "fe0083aeb590e10265fde4e09c57495af5053b43c229db2b948c43b1558c6894"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-159",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "fe0083aeb590e10265fde4e09c57495af5053b43c229db2b948c43b1558c6894"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-159",
+   "method": "W",
+   "rep": 0,
+   "sha256": "fe0083aeb590e10265fde4e09c57495af5053b43c229db2b948c43b1558c6894",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-159",
+   "method": "W",
+   "rep": 0,
+   "sha256": "fe0083aeb590e10265fde4e09c57495af5053b43c229db2b948c43b1558c6894",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-158",
+   "method": "D",
+   "rep": 0,
+   "sha256": "acc4d3cbda327bdec39982cd6583e2d68505128645008c263fe0f50dec60a54f"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-158",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "acc4d3cbda327bdec39982cd6583e2d68505128645008c263fe0f50dec60a54f"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-158",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "acc4d3cbda327bdec39982cd6583e2d68505128645008c263fe0f50dec60a54f"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-158",
+   "method": "W",
+   "rep": 0,
+   "sha256": "acc4d3cbda327bdec39982cd6583e2d68505128645008c263fe0f50dec60a54f",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-158",
+   "method": "W",
+   "rep": 0,
+   "sha256": "acc4d3cbda327bdec39982cd6583e2d68505128645008c263fe0f50dec60a54f",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-160",
+   "method": "D",
+   "rep": 0,
+   "sha256": "a72ae4766bee44844c9cd23b79f942cfb552c52b6db80581f4d799fd5586db42"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-160",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "a72ae4766bee44844c9cd23b79f942cfb552c52b6db80581f4d799fd5586db42"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-160",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "a72ae4766bee44844c9cd23b79f942cfb552c52b6db80581f4d799fd5586db42"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-160",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a72ae4766bee44844c9cd23b79f942cfb552c52b6db80581f4d799fd5586db42",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-160",
+   "method": "W",
+   "rep": 0,
+   "sha256": "a72ae4766bee44844c9cd23b79f942cfb552c52b6db80581f4d799fd5586db42",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-038",
+   "method": "D",
+   "rep": 0,
+   "sha256": "75514801e40f6c0338fda44f7a1575033fefbf9b3b72b8654562be2c437745e1"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-038",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "75514801e40f6c0338fda44f7a1575033fefbf9b3b72b8654562be2c437745e1"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-038",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "75514801e40f6c0338fda44f7a1575033fefbf9b3b72b8654562be2c437745e1"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-038",
+   "method": "W",
+   "rep": 0,
+   "sha256": "75514801e40f6c0338fda44f7a1575033fefbf9b3b72b8654562be2c437745e1",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa7552-038",
+   "method": "W",
+   "rep": 0,
+   "sha256": "75514801e40f6c0338fda44f7a1575033fefbf9b3b72b8654562be2c437745e1",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa6288-047",
+   "method": "D",
+   "rep": 0,
+   "sha256": "bc3fe292f3c785290c35450e3d6f4e2314ba0b17b51f1a4f90689575f1570262"
+  },
+  {
+   "instance": "v10e-ssa-ssa6288-047",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "bc3fe292f3c785290c35450e3d6f4e2314ba0b17b51f1a4f90689575f1570262"
+  },
+  {
+   "instance": "v10e-ssa-ssa6288-047",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "bc3fe292f3c785290c35450e3d6f4e2314ba0b17b51f1a4f90689575f1570262"
+  },
+  {
+   "instance": "v10e-ssa-ssa6288-047",
+   "method": "W",
+   "rep": 0,
+   "sha256": "bc3fe292f3c785290c35450e3d6f4e2314ba0b17b51f1a4f90689575f1570262",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-ssa-ssa6288-047",
+   "method": "W",
+   "rep": 0,
+   "sha256": "bc3fe292f3c785290c35450e3d6f4e2314ba0b17b51f1a4f90689575f1570262",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bf-bf2670-001",
+   "method": "D",
+   "rep": 0,
+   "sha256": "ec8d0bf5171384c7ceed6e565246017764c12c8bc4f35e8270574c04863ae728"
+  },
+  {
+   "instance": "v10e-bf-bf2670-001",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "ec8d0bf5171384c7ceed6e565246017764c12c8bc4f35e8270574c04863ae728"
+  },
+  {
+   "instance": "v10e-bf-bf2670-001",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "ec8d0bf5171384c7ceed6e565246017764c12c8bc4f35e8270574c04863ae728"
+  },
+  {
+   "instance": "v10e-bf-bf2670-001",
+   "method": "W",
+   "rep": 0,
+   "sha256": "ec8d0bf5171384c7ceed6e565246017764c12c8bc4f35e8270574c04863ae728",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bf-bf2670-001",
+   "method": "W",
+   "rep": 0,
+   "sha256": "ec8d0bf5171384c7ceed6e565246017764c12c8bc4f35e8270574c04863ae728",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bf-bf0432-007",
+   "method": "D",
+   "rep": 0,
+   "sha256": "0681b15176f93584a728beb6a23105116f00ed8e86334958292fde4327978329"
+  },
+  {
+   "instance": "v10e-bf-bf0432-007",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "0681b15176f93584a728beb6a23105116f00ed8e86334958292fde4327978329"
+  },
+  {
+   "instance": "v10e-bf-bf0432-007",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "0681b15176f93584a728beb6a23105116f00ed8e86334958292fde4327978329"
+  },
+  {
+   "instance": "v10e-bf-bf0432-007",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0681b15176f93584a728beb6a23105116f00ed8e86334958292fde4327978329",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bf-bf0432-007",
+   "method": "W",
+   "rep": 0,
+   "sha256": "0681b15176f93584a728beb6a23105116f00ed8e86334958292fde4327978329",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bf-bf1355-638",
+   "method": "D",
+   "rep": 0,
+   "sha256": "9ec12ee657c69c0b79791ea4c64504fc57b968f6cac44c8229c3a36766522ca8"
+  },
+  {
+   "instance": "v10e-bf-bf1355-638",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "9ec12ee657c69c0b79791ea4c64504fc57b968f6cac44c8229c3a36766522ca8"
+  },
+  {
+   "instance": "v10e-bf-bf1355-638",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "9ec12ee657c69c0b79791ea4c64504fc57b968f6cac44c8229c3a36766522ca8"
+  },
+  {
+   "instance": "v10e-bf-bf1355-638",
+   "method": "W",
+   "rep": 0,
+   "sha256": "9ec12ee657c69c0b79791ea4c64504fc57b968f6cac44c8229c3a36766522ca8",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bf-bf1355-638",
+   "method": "W",
+   "rep": 0,
+   "sha256": "9ec12ee657c69c0b79791ea4c64504fc57b968f6cac44c8229c3a36766522ca8",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-bf-bf1355-075",
+   "method": "D",
+   "rep": 0,
+   "sha256": "b8d4b184afdde3c4b98802be773c1cf7bd0f443ac60afcf98c8992191ac74a2b"
+  },
+  {
+   "instance": "v10e-bf-bf1355-075",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "b8d4b184afdde3c4b98802be773c1cf7bd0f443ac60afcf98c8992191ac74a2b"
+  },
+  {
+   "instance": "v10e-bf-bf1355-075",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "b8d4b184afdde3c4b98802be773c1cf7bd0f443ac60afcf98c8992191ac74a2b"
+  },
+  {
+   "instance": "v10e-bf-bf1355-075",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b8d4b184afdde3c4b98802be773c1cf7bd0f443ac60afcf98c8992191ac74a2b",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-bf-bf1355-075",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b8d4b184afdde3c4b98802be773c1cf7bd0f443ac60afcf98c8992191ac74a2b",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh204",
+   "method": "D",
+   "rep": 0,
+   "sha256": "9ece7e6fe5cc6c997c48a2dc7b0e73f28dd4b7eb8a52f29103ae956562eeb255"
+  },
+  {
+   "instance": "v10e-jnh-jnh204",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "9ece7e6fe5cc6c997c48a2dc7b0e73f28dd4b7eb8a52f29103ae956562eeb255"
+  },
+  {
+   "instance": "v10e-jnh-jnh204",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "9ece7e6fe5cc6c997c48a2dc7b0e73f28dd4b7eb8a52f29103ae956562eeb255"
+  },
+  {
+   "instance": "v10e-jnh-jnh204",
+   "method": "W",
+   "rep": 0,
+   "sha256": "9ece7e6fe5cc6c997c48a2dc7b0e73f28dd4b7eb8a52f29103ae956562eeb255",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh204",
+   "method": "W",
+   "rep": 0,
+   "sha256": "9ece7e6fe5cc6c997c48a2dc7b0e73f28dd4b7eb8a52f29103ae956562eeb255",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh210",
+   "method": "D",
+   "rep": 0,
+   "sha256": "34e68cdf65b8287cd9d6696185e4c978f90d956f6d453f9f0d4a41c223780930"
+  },
+  {
+   "instance": "v10e-jnh-jnh210",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "34e68cdf65b8287cd9d6696185e4c978f90d956f6d453f9f0d4a41c223780930"
+  },
+  {
+   "instance": "v10e-jnh-jnh210",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "34e68cdf65b8287cd9d6696185e4c978f90d956f6d453f9f0d4a41c223780930"
+  },
+  {
+   "instance": "v10e-jnh-jnh210",
+   "method": "W",
+   "rep": 0,
+   "sha256": "34e68cdf65b8287cd9d6696185e4c978f90d956f6d453f9f0d4a41c223780930",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh210",
+   "method": "W",
+   "rep": 0,
+   "sha256": "34e68cdf65b8287cd9d6696185e4c978f90d956f6d453f9f0d4a41c223780930",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh216",
+   "method": "D",
+   "rep": 0,
+   "sha256": "d819f7b29abc85f483ccd37a241c7cb6b22b3f4996b6cb7b053146f4ab5f7c99"
+  },
+  {
+   "instance": "v10e-jnh-jnh216",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "d819f7b29abc85f483ccd37a241c7cb6b22b3f4996b6cb7b053146f4ab5f7c99"
+  },
+  {
+   "instance": "v10e-jnh-jnh216",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "d819f7b29abc85f483ccd37a241c7cb6b22b3f4996b6cb7b053146f4ab5f7c99"
+  },
+  {
+   "instance": "v10e-jnh-jnh216",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d819f7b29abc85f483ccd37a241c7cb6b22b3f4996b6cb7b053146f4ab5f7c99",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh216",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d819f7b29abc85f483ccd37a241c7cb6b22b3f4996b6cb7b053146f4ab5f7c99",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "63baf36b8ff1c2c5b331883be873535a11d925b744e258e48667e0e0b4caa9ef"
+  },
+  {
+   "instance": "v10e-jnh-jnh2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "63baf36b8ff1c2c5b331883be873535a11d925b744e258e48667e0e0b4caa9ef"
+  },
+  {
+   "instance": "v10e-jnh-jnh2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "63baf36b8ff1c2c5b331883be873535a11d925b744e258e48667e0e0b4caa9ef"
+  },
+  {
+   "instance": "v10e-jnh-jnh2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "63baf36b8ff1c2c5b331883be873535a11d925b744e258e48667e0e0b4caa9ef",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "63baf36b8ff1c2c5b331883be873535a11d925b744e258e48667e0e0b4caa9ef",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh9",
+   "method": "D",
+   "rep": 0,
+   "sha256": "029d1ebfeee5ad941da88902c00b276739cbdc60e3401df4c53cf0a06a506bc6"
+  },
+  {
+   "instance": "v10e-jnh-jnh9",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "029d1ebfeee5ad941da88902c00b276739cbdc60e3401df4c53cf0a06a506bc6"
+  },
+  {
+   "instance": "v10e-jnh-jnh9",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "029d1ebfeee5ad941da88902c00b276739cbdc60e3401df4c53cf0a06a506bc6"
+  },
+  {
+   "instance": "v10e-jnh-jnh9",
+   "method": "W",
+   "rep": 0,
+   "sha256": "029d1ebfeee5ad941da88902c00b276739cbdc60e3401df4c53cf0a06a506bc6",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh9",
+   "method": "W",
+   "rep": 0,
+   "sha256": "029d1ebfeee5ad941da88902c00b276739cbdc60e3401df4c53cf0a06a506bc6",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh15",
+   "method": "D",
+   "rep": 0,
+   "sha256": "7a4d0e58a6c1f2aad67460cd1e67e932b39c9f901d48c82831750b69d9d37dfd"
+  },
+  {
+   "instance": "v10e-jnh-jnh15",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "7a4d0e58a6c1f2aad67460cd1e67e932b39c9f901d48c82831750b69d9d37dfd"
+  },
+  {
+   "instance": "v10e-jnh-jnh15",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "7a4d0e58a6c1f2aad67460cd1e67e932b39c9f901d48c82831750b69d9d37dfd"
+  },
+  {
+   "instance": "v10e-jnh-jnh15",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7a4d0e58a6c1f2aad67460cd1e67e932b39c9f901d48c82831750b69d9d37dfd",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh15",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7a4d0e58a6c1f2aad67460cd1e67e932b39c9f901d48c82831750b69d9d37dfd",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh301",
+   "method": "D",
+   "rep": 0,
+   "sha256": "9cd0bacd5b499abc5e6a2e746cc7eb3818af1932b85ad61ec9e8036a356c8b0b"
+  },
+  {
+   "instance": "v10e-jnh-jnh301",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "9cd0bacd5b499abc5e6a2e746cc7eb3818af1932b85ad61ec9e8036a356c8b0b"
+  },
+  {
+   "instance": "v10e-jnh-jnh301",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "9cd0bacd5b499abc5e6a2e746cc7eb3818af1932b85ad61ec9e8036a356c8b0b"
+  },
+  {
+   "instance": "v10e-jnh-jnh301",
+   "method": "W",
+   "rep": 0,
+   "sha256": "9cd0bacd5b499abc5e6a2e746cc7eb3818af1932b85ad61ec9e8036a356c8b0b",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh301",
+   "method": "W",
+   "rep": 0,
+   "sha256": "9cd0bacd5b499abc5e6a2e746cc7eb3818af1932b85ad61ec9e8036a356c8b0b",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh307",
+   "method": "D",
+   "rep": 0,
+   "sha256": "2463ef9c97717d45965cba3bdd8af2de93627f193798975f19434cbaeb858ce8"
+  },
+  {
+   "instance": "v10e-jnh-jnh307",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "2463ef9c97717d45965cba3bdd8af2de93627f193798975f19434cbaeb858ce8"
+  },
+  {
+   "instance": "v10e-jnh-jnh307",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "2463ef9c97717d45965cba3bdd8af2de93627f193798975f19434cbaeb858ce8"
+  },
+  {
+   "instance": "v10e-jnh-jnh307",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2463ef9c97717d45965cba3bdd8af2de93627f193798975f19434cbaeb858ce8",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-jnh-jnh307",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2463ef9c97717d45965cba3bdd8af2de93627f193798975f19434cbaeb858ce8",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-aim-aim-50-1_6-yes1-1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991"
+  },
+  {
+   "instance": "v10e-aim-aim-50-1_6-yes1-1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991"
+  },
+  {
+   "instance": "v10e-aim-aim-50-1_6-yes1-1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991"
+  },
+  {
+   "instance": "v10e-aim-aim-50-1_6-yes1-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-aim-aim-50-1_6-yes1-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-aim-aim-50-2_0-yes1-2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "5dc74a1b62cda9e8dfd66d2e7d1b6715acb17c7dda27812335cfd395def47930"
+  },
+  {
+   "instance": "v10e-aim-aim-50-2_0-yes1-2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "5dc74a1b62cda9e8dfd66d2e7d1b6715acb17c7dda27812335cfd395def47930"
+  },
+  {
+   "instance": "v10e-aim-aim-50-2_0-yes1-2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "5dc74a1b62cda9e8dfd66d2e7d1b6715acb17c7dda27812335cfd395def47930"
+  },
+  {
+   "instance": "v10e-aim-aim-50-2_0-yes1-2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5dc74a1b62cda9e8dfd66d2e7d1b6715acb17c7dda27812335cfd395def47930",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-aim-aim-50-2_0-yes1-2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5dc74a1b62cda9e8dfd66d2e7d1b6715acb17c7dda27812335cfd395def47930",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-aim-aim-100-1_6-yes1-3",
+   "method": "D",
+   "rep": 0,
+   "sha256": "4db3d59bb7327f29803b3dad5f870aea3c5568df06f8871f0effe2dd0f4fcbca"
+  },
+  {
+   "instance": "v10e-aim-aim-100-1_6-yes1-3",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "4db3d59bb7327f29803b3dad5f870aea3c5568df06f8871f0effe2dd0f4fcbca"
+  },
+  {
+   "instance": "v10e-aim-aim-100-1_6-yes1-3",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "4db3d59bb7327f29803b3dad5f870aea3c5568df06f8871f0effe2dd0f4fcbca"
+  },
+  {
+   "instance": "v10e-aim-aim-100-1_6-yes1-3",
+   "method": "W",
+   "rep": 0,
+   "sha256": "4db3d59bb7327f29803b3dad5f870aea3c5568df06f8871f0effe2dd0f4fcbca",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-aim-aim-100-1_6-yes1-3",
+   "method": "W",
+   "rep": 0,
+   "sha256": "4db3d59bb7327f29803b3dad5f870aea3c5568df06f8871f0effe2dd0f4fcbca",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-aim-aim-100-2_0-no-4",
+   "method": "D",
+   "rep": 0,
+   "sha256": "aebb88d31573b9c28fff963ad348e56849b694488c948f3816456ea2a5c867a0"
+  },
+  {
+   "instance": "v10e-aim-aim-100-2_0-no-4",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "aebb88d31573b9c28fff963ad348e56849b694488c948f3816456ea2a5c867a0"
+  },
+  {
+   "instance": "v10e-aim-aim-100-2_0-no-4",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "aebb88d31573b9c28fff963ad348e56849b694488c948f3816456ea2a5c867a0"
+  },
+  {
+   "instance": "v10e-aim-aim-100-2_0-no-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "aebb88d31573b9c28fff963ad348e56849b694488c948f3816456ea2a5c867a0",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-aim-aim-100-2_0-no-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "aebb88d31573b9c28fff963ad348e56849b694488c948f3816456ea2a5c867a0",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-aim-aim-200-1_6-no-1",
+   "method": "D",
+   "rep": 0,
+   "sha256": "2d926574b7e97ade9ce0afc160773934eb144b6a2a629fbda575525851c64464"
+  },
+  {
+   "instance": "v10e-aim-aim-200-1_6-no-1",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "2d926574b7e97ade9ce0afc160773934eb144b6a2a629fbda575525851c64464"
+  },
+  {
+   "instance": "v10e-aim-aim-200-1_6-no-1",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "2d926574b7e97ade9ce0afc160773934eb144b6a2a629fbda575525851c64464"
+  },
+  {
+   "instance": "v10e-aim-aim-200-1_6-no-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2d926574b7e97ade9ce0afc160773934eb144b6a2a629fbda575525851c64464",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-aim-aim-200-1_6-no-1",
+   "method": "W",
+   "rep": 0,
+   "sha256": "2d926574b7e97ade9ce0afc160773934eb144b6a2a629fbda575525851c64464",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-aim-aim-100-3_4-yes1-2",
+   "method": "D",
+   "rep": 0,
+   "sha256": "eb62ecf6e3e5f15f997bd341f9d7c4ba65e6721885908cf30576d992ebc683ad"
+  },
+  {
+   "instance": "v10e-aim-aim-100-3_4-yes1-2",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "eb62ecf6e3e5f15f997bd341f9d7c4ba65e6721885908cf30576d992ebc683ad"
+  },
+  {
+   "instance": "v10e-aim-aim-100-3_4-yes1-2",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "eb62ecf6e3e5f15f997bd341f9d7c4ba65e6721885908cf30576d992ebc683ad"
+  },
+  {
+   "instance": "v10e-aim-aim-100-3_4-yes1-2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "eb62ecf6e3e5f15f997bd341f9d7c4ba65e6721885908cf30576d992ebc683ad",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-aim-aim-100-3_4-yes1-2",
+   "method": "W",
+   "rep": 0,
+   "sha256": "eb62ecf6e3e5f15f997bd341f9d7c4ba65e6721885908cf30576d992ebc683ad",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-aim-aim-200-2_0-yes1-3",
+   "method": "D",
+   "rep": 0,
+   "sha256": "c2588ecc330c41429462b0388d48fd20a5c355b7c74edbf69523b1fe70eb26ba"
+  },
+  {
+   "instance": "v10e-aim-aim-200-2_0-yes1-3",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "c2588ecc330c41429462b0388d48fd20a5c355b7c74edbf69523b1fe70eb26ba"
+  },
+  {
+   "instance": "v10e-aim-aim-200-2_0-yes1-3",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "c2588ecc330c41429462b0388d48fd20a5c355b7c74edbf69523b1fe70eb26ba"
+  },
+  {
+   "instance": "v10e-aim-aim-200-2_0-yes1-3",
+   "method": "W",
+   "rep": 0,
+   "sha256": "c2588ecc330c41429462b0388d48fd20a5c355b7c74edbf69523b1fe70eb26ba",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-aim-aim-200-2_0-yes1-3",
+   "method": "W",
+   "rep": 0,
+   "sha256": "c2588ecc330c41429462b0388d48fd20a5c355b7c74edbf69523b1fe70eb26ba",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-aim-aim-200-3_4-yes1-4",
+   "method": "D",
+   "rep": 0,
+   "sha256": "f16fc8087459f8edd803d802a1742487de75ba1153b53c1da49b6e924702f665"
+  },
+  {
+   "instance": "v10e-aim-aim-200-3_4-yes1-4",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "f16fc8087459f8edd803d802a1742487de75ba1153b53c1da49b6e924702f665"
+  },
+  {
+   "instance": "v10e-aim-aim-200-3_4-yes1-4",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "f16fc8087459f8edd803d802a1742487de75ba1153b53c1da49b6e924702f665"
+  },
+  {
+   "instance": "v10e-aim-aim-200-3_4-yes1-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "f16fc8087459f8edd803d802a1742487de75ba1153b53c1da49b6e924702f665",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-aim-aim-200-3_4-yes1-4",
+   "method": "W",
+   "rep": 0,
+   "sha256": "f16fc8087459f8edd803d802a1742487de75ba1153b53c1da49b6e924702f665",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois21",
+   "method": "D",
+   "rep": 0,
+   "sha256": "b8b590a747755daacffbce9cf2e02b54c92fc450de1bb9bebb93576b45ce74df"
+  },
+  {
+   "instance": "v10e-dubois-dubois21",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "b8b590a747755daacffbce9cf2e02b54c92fc450de1bb9bebb93576b45ce74df"
+  },
+  {
+   "instance": "v10e-dubois-dubois21",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "b8b590a747755daacffbce9cf2e02b54c92fc450de1bb9bebb93576b45ce74df"
+  },
+  {
+   "instance": "v10e-dubois-dubois21",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b8b590a747755daacffbce9cf2e02b54c92fc450de1bb9bebb93576b45ce74df",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois21",
+   "method": "W",
+   "rep": 0,
+   "sha256": "b8b590a747755daacffbce9cf2e02b54c92fc450de1bb9bebb93576b45ce74df",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois23",
+   "method": "D",
+   "rep": 0,
+   "sha256": "1469196d4cfb153fdf8d1cc6045c69fcc486cd5187bdad834abb3c4a32952457"
+  },
+  {
+   "instance": "v10e-dubois-dubois23",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "1469196d4cfb153fdf8d1cc6045c69fcc486cd5187bdad834abb3c4a32952457"
+  },
+  {
+   "instance": "v10e-dubois-dubois23",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "1469196d4cfb153fdf8d1cc6045c69fcc486cd5187bdad834abb3c4a32952457"
+  },
+  {
+   "instance": "v10e-dubois-dubois23",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1469196d4cfb153fdf8d1cc6045c69fcc486cd5187bdad834abb3c4a32952457",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois23",
+   "method": "W",
+   "rep": 0,
+   "sha256": "1469196d4cfb153fdf8d1cc6045c69fcc486cd5187bdad834abb3c4a32952457",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois25",
+   "method": "D",
+   "rep": 0,
+   "sha256": "06b613f1188d38974488a23359bd615de58add89690efbbb0dac6a8d7bb789ca"
+  },
+  {
+   "instance": "v10e-dubois-dubois25",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "06b613f1188d38974488a23359bd615de58add89690efbbb0dac6a8d7bb789ca"
+  },
+  {
+   "instance": "v10e-dubois-dubois25",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "06b613f1188d38974488a23359bd615de58add89690efbbb0dac6a8d7bb789ca"
+  },
+  {
+   "instance": "v10e-dubois-dubois25",
+   "method": "W",
+   "rep": 0,
+   "sha256": "06b613f1188d38974488a23359bd615de58add89690efbbb0dac6a8d7bb789ca",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois25",
+   "method": "W",
+   "rep": 0,
+   "sha256": "06b613f1188d38974488a23359bd615de58add89690efbbb0dac6a8d7bb789ca",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois27",
+   "method": "D",
+   "rep": 0,
+   "sha256": "9c432c063967ccdb3e9fe0888e72c83cd89ea3079e2093eb202ffdad7cb4520d"
+  },
+  {
+   "instance": "v10e-dubois-dubois27",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "9c432c063967ccdb3e9fe0888e72c83cd89ea3079e2093eb202ffdad7cb4520d"
+  },
+  {
+   "instance": "v10e-dubois-dubois27",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "9c432c063967ccdb3e9fe0888e72c83cd89ea3079e2093eb202ffdad7cb4520d"
+  },
+  {
+   "instance": "v10e-dubois-dubois27",
+   "method": "W",
+   "rep": 0,
+   "sha256": "9c432c063967ccdb3e9fe0888e72c83cd89ea3079e2093eb202ffdad7cb4520d",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois27",
+   "method": "W",
+   "rep": 0,
+   "sha256": "9c432c063967ccdb3e9fe0888e72c83cd89ea3079e2093eb202ffdad7cb4520d",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois29",
+   "method": "D",
+   "rep": 0,
+   "sha256": "3659ab92bdb904d8e80c58f4eec6e15e9b079f2ea6d787b3c5d36b8561c4d00b"
+  },
+  {
+   "instance": "v10e-dubois-dubois29",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "3659ab92bdb904d8e80c58f4eec6e15e9b079f2ea6d787b3c5d36b8561c4d00b"
+  },
+  {
+   "instance": "v10e-dubois-dubois29",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "3659ab92bdb904d8e80c58f4eec6e15e9b079f2ea6d787b3c5d36b8561c4d00b"
+  },
+  {
+   "instance": "v10e-dubois-dubois29",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3659ab92bdb904d8e80c58f4eec6e15e9b079f2ea6d787b3c5d36b8561c4d00b",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois29",
+   "method": "W",
+   "rep": 0,
+   "sha256": "3659ab92bdb904d8e80c58f4eec6e15e9b079f2ea6d787b3c5d36b8561c4d00b",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois50",
+   "method": "D",
+   "rep": 0,
+   "sha256": "5b32619cb8d96a0d501cae0461996aac268254022f7d8c1841f29c17de9907f9"
+  },
+  {
+   "instance": "v10e-dubois-dubois50",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "5b32619cb8d96a0d501cae0461996aac268254022f7d8c1841f29c17de9907f9"
+  },
+  {
+   "instance": "v10e-dubois-dubois50",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "5b32619cb8d96a0d501cae0461996aac268254022f7d8c1841f29c17de9907f9"
+  },
+  {
+   "instance": "v10e-dubois-dubois50",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5b32619cb8d96a0d501cae0461996aac268254022f7d8c1841f29c17de9907f9",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-dubois-dubois50",
+   "method": "W",
+   "rep": 0,
+   "sha256": "5b32619cb8d96a0d501cae0461996aac268254022f7d8c1841f29c17de9907f9",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-pret-pret60_25",
+   "method": "D",
+   "rep": 0,
+   "sha256": "4b28b3cc704e6e6b4b1051b2e88da3c2d8edb866388e3cebd582ad3636d1cb56"
+  },
+  {
+   "instance": "v10e-pret-pret60_25",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "4b28b3cc704e6e6b4b1051b2e88da3c2d8edb866388e3cebd582ad3636d1cb56"
+  },
+  {
+   "instance": "v10e-pret-pret60_25",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "4b28b3cc704e6e6b4b1051b2e88da3c2d8edb866388e3cebd582ad3636d1cb56"
+  },
+  {
+   "instance": "v10e-pret-pret60_25",
+   "method": "W",
+   "rep": 0,
+   "sha256": "4b28b3cc704e6e6b4b1051b2e88da3c2d8edb866388e3cebd582ad3636d1cb56",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-pret-pret60_25",
+   "method": "W",
+   "rep": 0,
+   "sha256": "4b28b3cc704e6e6b4b1051b2e88da3c2d8edb866388e3cebd582ad3636d1cb56",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-pret-pret150_25",
+   "method": "D",
+   "rep": 0,
+   "sha256": "d5a50e38e96ac0a2c32ce85a22a252997ec247d26d499d02c40564f67715d079"
+  },
+  {
+   "instance": "v10e-pret-pret150_25",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "d5a50e38e96ac0a2c32ce85a22a252997ec247d26d499d02c40564f67715d079"
+  },
+  {
+   "instance": "v10e-pret-pret150_25",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "d5a50e38e96ac0a2c32ce85a22a252997ec247d26d499d02c40564f67715d079"
+  },
+  {
+   "instance": "v10e-pret-pret150_25",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d5a50e38e96ac0a2c32ce85a22a252997ec247d26d499d02c40564f67715d079",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-pret-pret150_25",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d5a50e38e96ac0a2c32ce85a22a252997ec247d26d499d02c40564f67715d079",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.17",
+   "method": "D",
+   "rep": 0,
+   "sha256": "bc1b7389f7223b6108369188ff64f8360134bbec9c6fce691a8c43b414098891"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.17",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "bc1b7389f7223b6108369188ff64f8360134bbec9c6fce691a8c43b414098891"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.17",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "bc1b7389f7223b6108369188ff64f8360134bbec9c6fce691a8c43b414098891"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.17",
+   "method": "W",
+   "rep": 0,
+   "sha256": "bc1b7389f7223b6108369188ff64f8360134bbec9c6fce691a8c43b414098891",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.17",
+   "method": "W",
+   "rep": 0,
+   "sha256": "bc1b7389f7223b6108369188ff64f8360134bbec9c6fce691a8c43b414098891",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.18",
+   "method": "D",
+   "rep": 0,
+   "sha256": "8dbbcc04e5b5b0410a6b1ed13a70750a58d7091fbf222a3d642ae1fb3323b9bd"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.18",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "8dbbcc04e5b5b0410a6b1ed13a70750a58d7091fbf222a3d642ae1fb3323b9bd"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.18",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "8dbbcc04e5b5b0410a6b1ed13a70750a58d7091fbf222a3d642ae1fb3323b9bd"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.18",
+   "method": "W",
+   "rep": 0,
+   "sha256": "8dbbcc04e5b5b0410a6b1ed13a70750a58d7091fbf222a3d642ae1fb3323b9bd",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-gcp-large-g125.18",
+   "method": "W",
+   "rep": 0,
+   "sha256": "8dbbcc04e5b5b0410a6b1ed13a70750a58d7091fbf222a3d642ae1fb3323b9bd",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.15",
+   "method": "D",
+   "rep": 0,
+   "sha256": "7ff3c183e59a63610bedac7742a632d11d9050af42d8a557db105ee0ac0d8607"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.15",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "7ff3c183e59a63610bedac7742a632d11d9050af42d8a557db105ee0ac0d8607"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.15",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "7ff3c183e59a63610bedac7742a632d11d9050af42d8a557db105ee0ac0d8607"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.15",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7ff3c183e59a63610bedac7742a632d11d9050af42d8a557db105ee0ac0d8607",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.15",
+   "method": "W",
+   "rep": 0,
+   "sha256": "7ff3c183e59a63610bedac7742a632d11d9050af42d8a557db105ee0ac0d8607",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.29",
+   "method": "D",
+   "rep": 0,
+   "sha256": "d4304905f1987bfd6f5bf14863546f5411a315a88611a9124dc3536f0e238ab8"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.29",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "d4304905f1987bfd6f5bf14863546f5411a315a88611a9124dc3536f0e238ab8"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.29",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "d4304905f1987bfd6f5bf14863546f5411a315a88611a9124dc3536f0e238ab8"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.29",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d4304905f1987bfd6f5bf14863546f5411a315a88611a9124dc3536f0e238ab8",
+   "strategy": "configs/cross_scale_v10/frozen/main.json"
+  },
+  {
+   "instance": "v10e-gcp-large-g250.29",
+   "method": "W",
+   "rep": 0,
+   "sha256": "d4304905f1987bfd6f5bf14863546f5411a315a88611a9124dc3536f0e238ab8",
+   "strategy": "configs/cross_scale_v10/frozen/reference.json"
+  }
+ ],
+ "stage": "external"
+}

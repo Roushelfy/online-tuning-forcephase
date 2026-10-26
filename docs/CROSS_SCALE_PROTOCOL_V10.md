@@ -345,3 +345,15 @@
   - parity 中 par32-4-c 与 par32-4 和 GBD 中已下载的比赛 CNF 相同，按规则换成同家族的下一个文件，parity 仍为 12 题。
 
   各家族题数：Beijing 16、QG 15、BMC 13、parity 12、归纳推理 10、jnh 8、aim 8、ssa 6、dubois 6、鸽笼 5、ais 4、bf 4、DIMACS 大图着色 4、积木世界 3、汉诺塔 2、pret 2。
+
+### 开发运行中的平台中断（2026-10-26 21:00:55 UTC）
+
+- `robust_dev`（作业 752386，cpu-low）被 Slurm 抢占取消，`--no-requeue` 使它没有自动重跑。322 / 324 条记录已写出。被杀的 2 个运行（`v10-rand3-L-07` 的 D seed 1 与重排变体 D，各约 358 s）没有记录。
+- 处理：按第 10 节在新 stage `robust_dev_r2` 中用相同规格从头补跑（`configs/cross_scale_v10/plans/robust_dev_r2.json`）。被杀部分约 0.2 核时（上限估计）单列入账本。
+- **调度变更，不是方法偏离**：cpu-low 的 PriorityTier 为 1，会被更高层级抢占。从 `robust_dev_r2` 起，剩余阶段改在集群手册允许的 cpu-mid（PriorityTier 16384）上运行。节点硬件相同，计时与上限不变。
+
+### 规则冻结（2026-10-26 UTC，任何确认 / 外推 / 外部运行之前；标签 `v10-rule-freeze`）
+
+- 依据：[SELECTION.md](../reports/cross_scale_v10/SELECTION.md)。
+- 主策略 = B：静态 + D 2 s，岭回归 α = 10，θ = 0.1 s，基线 F−。同成本无内容对照 = D 2 s → F−，作为唯一的固定参照部署。开发 SBS = F−。
+- 运行计划：`plans/confirm.json`（270 × 5）、`extrap.json`（90 × 5）、`external.json`（118 × 5）、`deploy_dev.json`（270 × 2）。

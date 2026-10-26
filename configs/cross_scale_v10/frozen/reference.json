@@ -1,0 +1,17 @@
+{
+ "base": "Fm",
+ "features": [],
+ "kind": "observe",
+ "missing_action": "Fm",
+ "name": "v10_control_N_B",
+ "needs_arms": [],
+ "note": "matched content-free control of the main strategy (N_B): same probes, fallback chosen on all dev",
+ "probes": [
+  {
+   "arm": "D",
+   "tau": 2.0
+  }
+ ],
+ "reader": null,
+ "static": false
+}
