@@ -125,6 +125,28 @@ def pilot_decide():
     for r in records("pilot"):
         if r["method"] == "D" and r["instance"] in man:
             cpu[r["instance"]] = (min(r["cpu"], 3600.0), r["status"])
+    # a run still in progress counts with its current CPU as a lower bound (like a run past 3600 s); used only when
+    # the rule's outcome cannot depend on the final value (checked below)
+    prog = os.path.join(RUNS, "pilot", "progress.json")
+    running = {}
+    if os.path.exists(prog):
+        ids_by_run = {}
+        plan = json.load(open(os.path.join(CFG, "plans", "pilot.json")))
+        eff = os.path.join(RUNS, "pilot", "effective_plan.json")
+        for j in json.load(open(eff))["jobs"] if os.path.exists(eff) else plan["jobs"]:
+            ids_by_run[j["instance"]] = j
+        for j in json.load(open(prog))["jobs"]:
+            running[j["id"]] = j["cpu"]
+    lower_bound_ids = []
+    if len(cpu) < len(man) and running:
+        import sys as _s
+        _s.path.insert(0, HERE)
+        import runner as _r  # job ids are computed exactly as the runner does
+        for spec in json.load(open(os.path.join(RUNS, "pilot", "effective_plan.json")))["jobs"]:
+            _, jid = _r.job_key(spec, "pilot")
+            if spec["instance"] not in cpu and jid in running:
+                cpu[spec["instance"]] = (min(running[jid], 3600.0), "running (lower bound)")
+                lower_bound_ids.append(spec["instance"])
     v9 = v9_points()
     out, detail = {t: {} for t in TYPES}, {}
     for t in TYPES:
@@ -166,8 +188,12 @@ def pilot_decide():
             new = dict(cand[t])
         out[t] = new
         detail[t] = {"levels": lv_stats, "fit": {"intercept": a0, "slope": b, "points": pts}}
+    for i in lower_bound_ids:  # the outcome must not depend on the unfinished value
+        t, lv = man[i]["type"], man[i]["level"]
+        if lv != "X" or detail[t]["levels"]["X"]["max"] <= X_MAX_D:
+            raise SystemExit(f"{i} still running and the rule outcome could depend on it; wait")
     dump(os.path.join(CFG, "scales.json"), {"params": out, "details": detail, "bands": BANDS, "x_max_d": X_MAX_D,
-                                             "assign2_structure": "F"})
+                                             "assign2_structure": "F", "lower_bound_runs": lower_bound_ids})
     print(json.dumps(out))
 
 
@@ -197,7 +223,7 @@ def dedupe_audit():
     for mp in mans:
         if not os.path.exists(mp):
             continue
-        for r in json.load(open(mp))["instances"]:
+        for r in json.load(open(mp)).get("instances", []):
             n += mp.startswith(RES)
             for k in ("sha256", "canonical_sha256", "invariant_sha256"):
                 if not r.get(k):

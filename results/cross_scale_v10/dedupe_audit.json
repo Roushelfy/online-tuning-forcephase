@@ -1,0 +1,21 @@
+{
+ "collisions": [],
+ "manifests": [
+  "results/stratified_v8/formal_manifest.json",
+  "results/stratified_v8/mechanism_manifest.json",
+  "results/stratified_v8/pilot_r1_manifest.json",
+  "results/stratified_v8/pilot_r2_manifest.json",
+  "results/stratified_v8/smoke_b_manifest.json",
+  "results/stratified_v8/smoke_manifest.json",
+  "results/online_selection_v9/external_manifest.json",
+  "results/online_selection_v9/formal_manifest.json",
+  "results/online_selection_v9/pilot_r1_manifest.json",
+  "results/online_selection_v9/pilot_r2_manifest.json",
+  "results/online_selection_v9/pilot_r3_manifest.json",
+  "results/online_selection_v9/robust_manifest.json",
+  "results/online_selection_v9/smoke_manifest.json",
+  "results/cross_scale_v10/pilot_manifest.json",
+  "results/cross_scale_v10/formal_manifest.json"
+ ],
+ "v10_instances": 702
+}

@@ -81,7 +81,7 @@ def exposed_hashes():
             + glob.glob(os.path.join(ROOT, "results", "stratified_v8", "*manifest.json"))
             + [p for p in glob.glob(os.path.join(RES, "*manifest.json")) if not p.endswith("external_manifest.json")])
     for mp in mans:
-        for r in json.load(open(mp))["instances"]:
+        for r in json.load(open(mp)).get("instances", []):
             for k in ("canonical_sha256", "invariant_sha256"):
                 if r.get(k):
                     seen[(k, r[k])] = os.path.basename(mp) + ":" + r["id"]
