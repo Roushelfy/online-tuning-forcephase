@@ -199,7 +199,7 @@ def finalize(job, stage_dir):
         status = run_timeout_policy.classify_after_cap(True, job.cpu, job.spec, status)
     elif job.stop_reason == "cap" and job.spec.get("cap_kind") == "oracle_noncompetitive_bound":
         status = "noncompetitive_bound"
-    elif run_timeout_policy.is_timeout(job.cpu, job.spec):
+    elif run_timeout_policy.is_timeout(job.cpu, job.spec, job.exit_code):
         status = "policy_timeout"
     elif job.stop_reason in ("cap", "budget"):
         status = "censored"

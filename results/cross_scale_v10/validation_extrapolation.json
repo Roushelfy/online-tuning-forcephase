@@ -1,0 +1,7614 @@
+{
+ "all": {
+  "comparisons": {
+   "Fm_vs_D": {
+    "common_subset": {
+     "mean_x": 222.65407522471915,
+     "mean_y": 239.98694105617975,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [],
+    "lost": []
+   },
+   "Fp_vs_D": {
+    "common_subset": {
+     "mean_x": 154.76770700000006,
+     "mean_y": 239.98694105617975,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [
+     "v10-col3-X-27"
+    ],
+    "lost": []
+   },
+   "SBS_vs_D": {
+    "common_subset": {
+     "mean_x": 222.65407522471915,
+     "mean_y": 239.98694105617975,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [],
+    "lost": []
+   },
+   "W_main_vs_D": {
+    "common_subset": {
+     "mean_x": 135.17605252808988,
+     "mean_y": 239.98694105617975,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [
+     "v10-col3-X-27"
+    ],
+    "lost": []
+   },
+   "W_main_vs_Fm": {
+    "common_subset": {
+     "mean_x": 135.17605252808988,
+     "mean_y": 222.65407522471915,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [
+     "v10-col3-X-27"
+    ],
+    "lost": []
+   },
+   "W_main_vs_Fp": {
+    "ci": [
+     -0.0329480460273317,
+     0.24973546693559867
+    ],
+    "gain": 0.10705408929557314,
+    "gained": [],
+    "lost": [],
+    "max_loss_instance": "v10-assign2-X-22",
+    "max_loss_s": 463.1575079999999,
+    "share_top": {
+     "1": 0.18547184115114101,
+     "3": 0.3755800505229699,
+     "10": 0.7094747597630863
+    }
+   },
+   "W_main_vs_SBS": {
+    "common_subset": {
+     "mean_x": 135.17605252808988,
+     "mean_y": 222.65407522471915,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [
+     "v10-col3-X-27"
+    ],
+    "lost": []
+   },
+   "W_main_vs_W_ref": {
+    "common_subset": {
+     "mean_x": 135.17605252808988,
+     "mean_y": 216.3981685617977,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [
+     "v10-col3-X-27"
+    ],
+    "lost": []
+   },
+   "W_ref_vs_D": {
+    "common_subset": {
+     "mean_x": 216.3981685617977,
+     "mean_y": 239.98694105617975,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [],
+    "lost": []
+   },
+   "W_ref_vs_Fp": {
+    "common_subset": {
+     "mean_x": 216.3981685617977,
+     "mean_y": 154.76770700000006,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [],
+    "lost": [
+     "v10-col3-X-27"
+    ]
+   },
+   "W_ref_vs_SBS": {
+    "common_subset": {
+     "mean_x": 216.3981685617977,
+     "mean_y": 222.65407522471915,
+     "n": 89,
+     "note": "selection-biased secondary description"
+    },
+    "gained": [],
+    "lost": []
+   }
+  },
+  "methods": {
+   "D": {
+    "complete": false,
+    "mean": null,
+    "resource_total_capped": 24958.445252,
+    "solved": 89,
+    "solved_by_answer": {
+     "SAT": 67,
+     "UNSAT": 22
+    },
+    "statuses": {
+     "policy_timeout": 1,
+     "solved": 89
+    },
+    "time_points": {
+     "1": 12,
+     "10": 28,
+     "3600": 89,
+     "60": 50,
+     "600": 79
+    },
+    "total": null,
+    "unsolved": [
+     "v10-col3-X-27"
+    ]
+   },
+   "Fm": {
+    "complete": false,
+    "mean": null,
+    "resource_total_capped": 23416.05713500001,
+    "solved": 89,
+    "solved_by_answer": {
+     "SAT": 67,
+     "UNSAT": 22
+    },
+    "statuses": {
+     "policy_timeout": 1,
+     "solved": 89
+    },
+    "time_points": {
+     "1": 4,
+     "10": 20,
+     "3600": 89,
+     "60": 34,
+     "600": 84
+    },
+    "total": null,
+    "unsolved": [
+     "v10-col3-X-27"
+    ]
+   },
+   "Fp": {
+    "complete": true,
+    "mean": 173.09245758888892,
+    "resource_total_capped": 15578.321183000004,
+    "solved": 90,
+    "solved_by_answer": {
+     "SAT": 67,
+     "UNSAT": 23
+    },
+    "statuses": {
+     "solved": 90
+    },
+    "time_points": {
+     "1": 0,
+     "10": 13,
+     "3600": 90,
+     "60": 42,
+     "600": 83
+    },
+    "total": 15578.321183000004,
+    "unsolved": []
+   },
+   "SBS": {
+    "complete": false,
+    "mean": null,
+    "resource_total_capped": 23416.05713500001,
+    "solved": 89,
+    "solved_by_answer": {
+     "SAT": 67,
+     "UNSAT": 22
+    },
+    "statuses": {
+     "policy_timeout": 1,
+     "solved": 89
+    },
+    "time_points": {
+     "1": 4,
+     "10": 20,
+     "3600": 89,
+     "60": 34,
+     "600": 84
+    },
+    "total": null,
+    "unsolved": [
+     "v10-col3-X-27"
+    ]
+   },
+   "W_main": {
+    "complete": true,
+    "mean": 154.5622021777778,
+    "resource_total_capped": 13910.598196000003,
+    "solved": 90,
+    "solved_by_answer": {
+     "SAT": 67,
+     "UNSAT": 23
+    },
+    "statuses": {
+     "solved": 90
+    },
+    "time_points": {
+     "1": 12,
+     "10": 21,
+     "3600": 90,
+     "60": 51,
+     "600": 84
+    },
+    "total": 13910.598196000003,
+    "unsolved": []
+   },
+   "W_ref": {
+    "complete": false,
+    "mean": null,
+    "resource_total_capped": 22858.50392999999,
+    "solved": 89,
+    "solved_by_answer": {
+     "SAT": 67,
+     "UNSAT": 22
+    },
+    "statuses": {
+     "policy_timeout": 1,
+     "solved": 89
+    },
+    "time_points": {
+     "1": 12,
+     "10": 23,
+     "3600": 89,
+     "60": 36,
+     "600": 84
+    },
+    "total": null,
+    "unsolved": [
+     "v10-col3-X-27"
+    ]
+   }
+  },
+  "n": 90,
+  "wrappers": {
+   "W_main": {
+    "actions": {
+     "D": 30,
+     "D_probe": 14,
+     "Fm": 21,
+     "Fp": 25
+    },
+    "observation_cpu_mean": 1.9274950222222214,
+    "observation_cpu_q": {
+     "0.5": 2.057055,
+     "0.9": 2.335151,
+     "0.99": 2.365255
+    },
+    "paths": {
+     "probe_solved": 14,
+     "reader": 76
+    }
+   },
+   "W_ref": {
+    "actions": {
+     "D_probe": 14,
+     "Fm": 76
+    },
+    "observation_cpu_mean": 1.8802224888888885,
+    "observation_cpu_q": {
+     "0.5": 2.052172,
+     "0.9": 2.195934,
+     "0.99": 2.2309390000000002
+    },
+    "paths": {
+     "fallback": 76,
+     "probe_solved": 14
+    }
+   }
+  }
+ },
+ "by_answer_posthoc": {
+  "SAT": {
+   "comparisons": {
+    "Fm_vs_D": {
+     "ci": [
+      -1.7831307188728878,
+      -0.28323855042515156
+     ],
+     "gain": -0.8525692539214924,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-03",
+     "max_loss_s": 1059.8529169999997,
+     "share_top": {
+      "1": 0.3522713372947367,
+      "3": 0.6910387890134154,
+      "10": 0.9287263733808228
+     }
+    },
+    "Fp_vs_D": {
+     "ci": [
+      -0.9419376584840569,
+      0.031993807816886766
+     ],
+     "gain": -0.3154948971778073,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-07",
+     "max_loss_s": 387.726882,
+     "share_top": {
+      "1": 0.1914032090763231,
+      "3": 0.5409850032025585,
+      "10": 0.9538157703993819
+     }
+    },
+    "SBS_vs_D": {
+     "ci": [
+      -1.7831307188728878,
+      -0.28323855042515156
+     ],
+     "gain": -0.8525692539214924,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-03",
+     "max_loss_s": 1059.8529169999997,
+     "share_top": {
+      "1": 0.3522713372947367,
+      "3": 0.6910387890134154,
+      "10": 0.9287263733808228
+     }
+    },
+    "W_main_vs_D": {
+     "ci": [
+      -0.35920503997232855,
+      0.11307724064171898
+     ],
+     "gain": -0.09173253063872178,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-col3-X-04",
+     "max_loss_s": 380.35492400000004,
+     "share_top": {
+      "1": 0.45153931453855944,
+      "3": 0.7810573505310227,
+      "10": 0.984664828339943
+     }
+    },
+    "W_main_vs_Fm": {
+     "ci": [
+      0.12201486799081573,
+      0.6252743319894616
+     ],
+     "gain": 0.4106927293931075,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-col3-X-04",
+     "max_loss_s": 403.06814900000006,
+     "share_top": {
+      "1": 0.20172421596346585,
+      "3": 0.3963526907655224,
+      "10": 0.7193419031458819
+     }
+    },
+    "W_main_vs_Fp": {
+     "ci": [
+      -0.09745679327771928,
+      0.4225652165765036
+     ],
+     "gain": 0.17009747967790168,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-22",
+     "max_loss_s": 463.1575079999999,
+     "share_top": {
+      "1": 0.14784080975097014,
+      "3": 0.3469450693321766,
+      "10": 0.7404562321024223
+     }
+    },
+    "W_main_vs_SBS": {
+     "ci": [
+      0.12201486799081573,
+      0.6252743319894616
+     ],
+     "gain": 0.4106927293931075,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-col3-X-04",
+     "max_loss_s": 403.06814900000006,
+     "share_top": {
+      "1": 0.20172421596346585,
+      "3": 0.3963526907655224,
+      "10": 0.7193419031458819
+     }
+    },
+    "W_main_vs_W_ref": {
+     "ci": [
+      0.07348739003827531,
+      0.590687264184803
+     ],
+     "gain": 0.3653721912810415,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-col3-X-04",
+     "max_loss_s": 376.34228900000005,
+     "share_top": {
+      "1": 0.24658485438930805,
+      "3": 0.4418903766953577,
+      "10": 0.7791628346793569
+     }
+    },
+    "W_ref_vs_D": {
+     "ci": [
+      -1.5014017437103306,
+      -0.22560392043009747
+     ],
+     "gain": -0.7202721274418493,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-03",
+     "max_loss_s": 1081.4059039999997,
+     "share_top": {
+      "1": 0.32853773215192156,
+      "3": 0.6927850270671697,
+      "10": 0.9665850804770891
+     }
+    },
+    "W_ref_vs_Fp": {
+     "ci": [
+      -0.8725033261450525,
+      0.08580458310432093
+     ],
+     "gain": -0.30769958221231386,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-03",
+     "max_loss_s": 1182.014802,
+     "share_top": {
+      "1": 0.16800754008379865,
+      "3": 0.4518788246218333,
+      "10": 0.813779097760084
+     }
+    },
+    "W_ref_vs_SBS": {
+     "ci": [
+      -0.011329728297276631,
+      0.16833405231502652
+     ],
+     "gain": 0.07141278319263822,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-28",
+     "max_loss_s": 160.67563099999995,
+     "share_top": {
+      "1": 0.3051731364843152,
+      "3": 0.646009780362242,
+      "10": 0.9408593152484094
+     }
+    }
+   },
+   "methods": {
+    "D": {
+     "complete": true,
+     "mean": 76.36750044776119,
+     "resource_total_capped": 5116.62253,
+     "solved": 67,
+     "solved_by_answer": {
+      "SAT": 67
+     },
+     "statuses": {
+      "solved": 67
+     },
+     "time_points": {
+      "1": 12,
+      "10": 28,
+      "3600": 67,
+      "60": 49,
+      "600": 66
+     },
+     "total": 5116.62253,
+     "unsolved": []
+    },
+    "Fm": {
+     "complete": true,
+     "mean": 141.4760833283582,
+     "resource_total_capped": 9478.897582999998,
+     "solved": 67,
+     "solved_by_answer": {
+      "SAT": 67
+     },
+     "statuses": {
+      "solved": 67
+     },
+     "time_points": {
+      "1": 4,
+      "10": 20,
+      "3600": 67,
+      "60": 33,
+      "600": 65
+     },
+     "total": 9478.897582999998,
+     "unsolved": []
+    },
+    "Fp": {
+     "complete": true,
+     "mean": 100.46105714925376,
+     "resource_total_capped": 6730.890829000002,
+     "solved": 67,
+     "solved_by_answer": {
+      "SAT": 67
+     },
+     "statuses": {
+      "solved": 67
+     },
+     "time_points": {
+      "1": 0,
+      "10": 12,
+      "3600": 67,
+      "60": 39,
+      "600": 65
+     },
+     "total": 6730.890829000002,
+     "unsolved": []
+    },
+    "SBS": {
+     "complete": true,
+     "mean": 141.4760833283582,
+     "resource_total_capped": 9478.897582999998,
+     "solved": 67,
+     "solved_by_answer": {
+      "SAT": 67
+     },
+     "statuses": {
+      "solved": 67
+     },
+     "time_points": {
+      "1": 4,
+      "10": 20,
+      "3600": 67,
+      "60": 33,
+      "600": 65
+     },
+     "total": 9478.897582999998,
+     "unsolved": []
+    },
+    "W_main": {
+     "complete": true,
+     "mean": 83.37288452238805,
+     "resource_total_capped": 5585.983262999999,
+     "solved": 67,
+     "solved_by_answer": {
+      "SAT": 67
+     },
+     "statuses": {
+      "solved": 67
+     },
+     "time_points": {
+      "1": 12,
+      "10": 21,
+      "3600": 67,
+      "60": 48,
+      "600": 65
+     },
+     "total": 5585.983262999999,
+     "unsolved": []
+    },
+    "W_ref": {
+     "complete": true,
+     "mean": 131.37288246268653,
+     "resource_total_capped": 8801.983124999997,
+     "solved": 67,
+     "solved_by_answer": {
+      "SAT": 67
+     },
+     "statuses": {
+      "solved": 67
+     },
+     "time_points": {
+      "1": 12,
+      "10": 23,
+      "3600": 67,
+      "60": 35,
+      "600": 65
+     },
+     "total": 8801.983124999997,
+     "unsolved": []
+    }
+   },
+   "n": 67,
+   "wrappers": {
+    "W_main": {
+     "actions": {
+      "D": 30,
+      "D_probe": 14,
+      "Fm": 6,
+      "Fp": 17
+     },
+     "observation_cpu_mean": 1.8840579402985074,
+     "observation_cpu_q": {
+      "0.5": 2.0587349999999995,
+      "0.9": 2.337009,
+      "0.99": 2.365255
+     },
+     "paths": {
+      "probe_solved": 14,
+      "reader": 53
+     }
+    },
+    "W_ref": {
+     "actions": {
+      "D_probe": 14,
+      "Fm": 53
+     },
+     "observation_cpu_mean": 1.822671701492537,
+     "observation_cpu_q": {
+      "0.5": 2.053344,
+      "0.9": 2.200547,
+      "0.99": 2.2309390000000002
+     },
+     "paths": {
+      "fallback": 53,
+      "probe_solved": 14
+     }
+    }
+   }
+  },
+  "UNSAT": {
+   "comparisons": {
+    "Fm_vs_D": {
+     "common_subset": {
+      "mean_x": 469.8779596363636,
+      "mean_y": 738.2825101818181,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": []
+    },
+    "Fp_vs_D": {
+     "common_subset": {
+      "mean_x": 320.1561406363636,
+      "mean_y": 738.2825101818181,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "SBS_vs_D": {
+     "common_subset": {
+      "mean_x": 469.8779596363636,
+      "mean_y": 738.2825101818181,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": []
+    },
+    "W_main_vs_D": {
+     "common_subset": {
+      "mean_x": 292.940246,
+      "mean_y": 738.2825101818181,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "W_main_vs_Fm": {
+     "common_subset": {
+      "mean_x": 292.940246,
+      "mean_y": 469.8779596363636,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "W_main_vs_Fp": {
+     "ci": [
+      -0.05108267478345607,
+      0.20771806869963505
+     ],
+     "gain": 0.059092346600234436,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-24",
+     "max_loss_s": 88.00675899999999,
+     "share_top": {
+      "1": 0.6935847885297491,
+      "3": 0.8689416923658024,
+      "10": 1.0
+     }
+    },
+    "W_main_vs_SBS": {
+     "common_subset": {
+      "mean_x": 292.940246,
+      "mean_y": 469.8779596363636,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "W_main_vs_W_ref": {
+     "common_subset": {
+      "mean_x": 292.940246,
+      "mean_y": 475.33881259090924,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "W_ref_vs_D": {
+     "common_subset": {
+      "mean_x": 475.33881259090924,
+      "mean_y": 738.2825101818181,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": []
+    },
+    "W_ref_vs_Fp": {
+     "common_subset": {
+      "mean_x": 475.33881259090924,
+      "mean_y": 320.1561406363636,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": [
+      "v10-col3-X-27"
+     ]
+    },
+    "W_ref_vs_SBS": {
+     "common_subset": {
+      "mean_x": 475.33881259090924,
+      "mean_y": 469.8779596363636,
+      "n": 22,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": []
+    }
+   },
+   "methods": {
+    "D": {
+     "complete": false,
+     "mean": null,
+     "resource_total_capped": 19841.822721999997,
+     "solved": 22,
+     "solved_by_answer": {
+      "UNSAT": 22
+     },
+     "statuses": {
+      "policy_timeout": 1,
+      "solved": 22
+     },
+     "time_points": {
+      "1": 0,
+      "10": 0,
+      "3600": 22,
+      "60": 1,
+      "600": 13
+     },
+     "total": null,
+     "unsolved": [
+      "v10-col3-X-27"
+     ]
+    },
+    "Fm": {
+     "complete": false,
+     "mean": null,
+     "resource_total_capped": 13937.159552,
+     "solved": 22,
+     "solved_by_answer": {
+      "UNSAT": 22
+     },
+     "statuses": {
+      "policy_timeout": 1,
+      "solved": 22
+     },
+     "time_points": {
+      "1": 0,
+      "10": 0,
+      "3600": 22,
+      "60": 1,
+      "600": 19
+     },
+     "total": null,
+     "unsolved": [
+      "v10-col3-X-27"
+     ]
+    },
+    "Fp": {
+     "complete": true,
+     "mean": 384.67088495652183,
+     "resource_total_capped": 8847.430354000002,
+     "solved": 23,
+     "solved_by_answer": {
+      "UNSAT": 23
+     },
+     "statuses": {
+      "solved": 23
+     },
+     "time_points": {
+      "1": 0,
+      "10": 1,
+      "3600": 23,
+      "60": 3,
+      "600": 18
+     },
+     "total": 8847.430354000002,
+     "unsolved": []
+    },
+    "SBS": {
+     "complete": false,
+     "mean": null,
+     "resource_total_capped": 13937.159552,
+     "solved": 22,
+     "solved_by_answer": {
+      "UNSAT": 22
+     },
+     "statuses": {
+      "policy_timeout": 1,
+      "solved": 22
+     },
+     "time_points": {
+      "1": 0,
+      "10": 0,
+      "3600": 22,
+      "60": 1,
+      "600": 19
+     },
+     "total": null,
+     "unsolved": [
+      "v10-col3-X-27"
+     ]
+    },
+    "W_main": {
+     "complete": true,
+     "mean": 361.93977969565213,
+     "resource_total_capped": 8324.614932999999,
+     "solved": 23,
+     "solved_by_answer": {
+      "UNSAT": 23
+     },
+     "statuses": {
+      "solved": 23
+     },
+     "time_points": {
+      "1": 0,
+      "10": 0,
+      "3600": 23,
+      "60": 3,
+      "600": 19
+     },
+     "total": 8324.614932999999,
+     "unsolved": []
+    },
+    "W_ref": {
+     "complete": false,
+     "mean": null,
+     "resource_total_capped": 14056.520805000004,
+     "solved": 22,
+     "solved_by_answer": {
+      "UNSAT": 22
+     },
+     "statuses": {
+      "policy_timeout": 1,
+      "solved": 22
+     },
+     "time_points": {
+      "1": 0,
+      "10": 0,
+      "3600": 22,
+      "60": 1,
+      "600": 19
+     },
+     "total": null,
+     "unsolved": [
+      "v10-col3-X-27"
+     ]
+    }
+   },
+   "n": 23,
+   "wrappers": {
+    "W_main": {
+     "actions": {
+      "Fm": 15,
+      "Fp": 8
+     },
+     "observation_cpu_mean": 2.054029130434782,
+     "observation_cpu_q": {
+      "0.5": 2.05537,
+      "0.9": 2.057876,
+      "0.99": 2.059026
+     },
+     "paths": {
+      "reader": 23
+     }
+    },
+    "W_ref": {
+     "actions": {
+      "Fm": 23
+     },
+     "observation_cpu_mean": 2.047870434782609,
+     "observation_cpu_q": {
+      "0.5": 2.049253,
+      "0.9": 2.0522959999999997,
+      "0.99": 2.053541
+     },
+     "paths": {
+      "fallback": 23
+     }
+    }
+   }
+  }
+ },
+ "dev_sbs": "Fm",
+ "freeze": {
+  "code_sha256": {
+   "common.py": "3c1ef312759004673129b31928faf686e1fdd1f46ab08ef899fbb1af9348878f",
+   "devlib.py": "4cd772cf6a26695cd1212e33032b912c21e197ef195fd4374ebbeb55bae69e02",
+   "runner.py": "1d14029d1a4f246fe4bfe55209672e9170d4f7bb246fabf3578d3055f051df01",
+   "selection.py": "3414354f14e297fd49219822060401bd305f626f76712a2b3fd87f112ce6b163",
+   "wrapper.py": "665712412056851263704edbe02c5a820d21c4731fa5d71c17ab06a372e890ca"
+  },
+  "date_utc": "2026-10-26T21:12:36Z",
+  "dev_sbs": "Fm",
+  "main_config_index": 33,
+  "main_family": "B",
+  "main_rule_trace": [
+   {
+    "beats_incumbent": true,
+    "beats_matched_control": true,
+    "family": "A",
+    "incumbent_after": "A",
+    "vs": "SBS"
+   },
+   {
+    "beats_incumbent": true,
+    "family": "N_B",
+    "incumbent_after": "N_B",
+    "vs": "A"
+   },
+   {
+    "beats_incumbent": true,
+    "beats_matched_control": true,
+    "family": "B",
+    "incumbent_after": "B",
+    "vs": "N_B"
+   },
+   {
+    "beats_incumbent": false,
+    "family": "N_C",
+    "incumbent_after": "B",
+    "vs": "B"
+   },
+   {
+    "beats_incumbent": false,
+    "beats_matched_control": false,
+    "family": "C",
+    "incumbent_after": "B",
+    "vs": "B"
+   }
+  ],
+  "main_wrapper": "configs/cross_scale_v10/frozen/main.json",
+  "oof_sbs": {
+   "solved": 270,
+   "total": 5181.423700000005
+  },
+  "reference_wrapper": "configs/cross_scale_v10/frozen/reference.json",
+  "sha256": {
+   "main_wrapper": "cf4289c96fc65b7b86c672eb87e5a308c9c3c6a3aba60d277693436555a49432",
+   "reference_wrapper": "900c5cfe4f744717def28c3c10a4b035437f8a52a755c024f60383aa192af456"
+  }
+ },
+ "groups": {
+  "cell:assign2-X": {
+   "comparisons": {
+    "Fm_vs_D": {
+     "ci": [
+      -2.037291197417853,
+      -0.14701584283332436
+     ],
+     "gain": -0.8118201458255963,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-03",
+     "max_loss_s": 1059.8529169999997,
+     "share_top": {
+      "1": 0.43642394160968295,
+      "3": 0.8561181117443212,
+      "10": 1.0
+     }
+    },
+    "Fp_vs_D": {
+     "ci": [
+      -0.9114436188278283,
+      0.12497396540194194
+     ],
+     "gain": -0.21319292151080038,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-07",
+     "max_loss_s": 387.726882,
+     "share_top": {
+      "1": 0.2820468012694132,
+      "3": 0.6960957792229718,
+      "10": 1.0
+     }
+    },
+    "SBS_vs_D": {
+     "ci": [
+      -2.037291197417853,
+      -0.14701584283332436
+     ],
+     "gain": -0.8118201458255963,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-03",
+     "max_loss_s": 1059.8529169999997,
+     "share_top": {
+      "1": 0.43642394160968295,
+      "3": 0.8561181117443212,
+      "10": 1.0
+     }
+    },
+    "W_main_vs_D": {
+     "ci": [
+      -0.19645887972820253,
+      0.008965556888025028
+     ],
+     "gain": -0.06823893423935079,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-22",
+     "max_loss_s": 179.21893399999993,
+     "share_top": {
+      "1": 0.5261290784888645,
+      "3": 0.8920233578367609,
+      "10": 1.0
+     }
+    },
+    "W_main_vs_Fm": {
+     "ci": [
+      0.050026691606124274,
+      0.6553016717331261
+     ],
+     "gain": 0.4104056428003874,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-28",
+     "max_loss_s": 351.92484,
+     "share_top": {
+      "1": 0.27756172457526246,
+      "3": 0.5453600890874121,
+      "10": 0.8786847152568191
+     }
+    },
+    "W_main_vs_Fp": {
+     "ci": [
+      -0.2581323740354007,
+      0.44628163865252035
+     ],
+     "gain": 0.1194813987959451,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-22",
+     "max_loss_s": 463.1575079999999,
+     "share_top": {
+      "1": 0.21777761924301353,
+      "3": 0.49289779671118783,
+      "10": 0.8857236191137009
+     }
+    },
+    "W_main_vs_SBS": {
+     "ci": [
+      0.050026691606124274,
+      0.6553016717331261
+     ],
+     "gain": 0.4104056428003874,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-28",
+     "max_loss_s": 351.92484,
+     "share_top": {
+      "1": 0.27756172457526246,
+      "3": 0.5453600890874121,
+      "10": 0.8786847152568191
+     }
+    },
+    "W_main_vs_W_ref": {
+     "ci": [
+      0.07923659896708901,
+      0.643346661550184
+     ],
+     "gain": 0.4081698384982029,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-20",
+     "max_loss_s": 301.83242400000006,
+     "share_top": {
+      "1": 0.29860799811730665,
+      "3": 0.5351180270138471,
+      "10": 0.8850539554719804
+     }
+    },
+    "W_ref_vs_D": {
+     "ci": [
+      -1.9349940940700092,
+      -0.18027361197291736
+     ],
+     "gain": -0.8049754874416062,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-03",
+     "max_loss_s": 1081.4059039999997,
+     "share_top": {
+      "1": 0.394567227974799,
+      "3": 0.8320209247257399,
+      "10": 1.0
+     }
+    },
+    "W_ref_vs_Fp": {
+     "ci": [
+      -1.199114830596082,
+      7.703328673092091e-05
+     ],
+     "gain": -0.48778933295609206,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-03",
+     "max_loss_s": 1182.014802,
+     "share_top": {
+      "1": 0.3954932369252187,
+      "3": 0.8045929948285497,
+      "10": 0.9934378537579632
+     }
+    },
+    "W_ref_vs_SBS": {
+     "ci": [
+      -0.06648213158032834,
+      0.07031444967348655
+     ],
+     "gain": 0.0037777802613355727,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-assign2-X-28",
+     "max_loss_s": 160.67563099999995,
+     "share_top": {
+      "1": 0.4671005627126491,
+      "3": 0.7624726736864378,
+      "10": 0.9990663575639563
+     }
+    }
+   },
+   "methods": {
+    "D": {
+     "complete": true,
+     "mean": 131.2432093666667,
+     "resource_total_capped": 3937.296281000001,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 30
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 0,
+      "10": 3,
+      "3600": 30,
+      "60": 17,
+      "600": 29
+     },
+     "total": 3937.296281000001,
+     "unsolved": []
+    },
+    "Fm": {
+     "complete": true,
+     "mean": 237.78909073333332,
+     "resource_total_capped": 7133.672721999999,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 30
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 0,
+      "10": 3,
+      "3600": 30,
+      "60": 10,
+      "600": 28
+     },
+     "total": 7133.672721999999,
+     "unsolved": []
+    },
+    "Fp": {
+     "complete": true,
+     "mean": 159.22333260000002,
+     "resource_total_capped": 4776.699978000001,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 30
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 0,
+      "10": 0,
+      "3600": 30,
+      "60": 10,
+      "600": 28
+     },
+     "total": 4776.699978000001,
+     "unsolved": []
+    },
+    "SBS": {
+     "complete": true,
+     "mean": 237.78909073333332,
+     "resource_total_capped": 7133.672721999999,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 30
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 0,
+      "10": 3,
+      "3600": 30,
+      "60": 10,
+      "600": 28
+     },
+     "total": 7133.672721999999,
+     "unsolved": []
+    },
+    "W_main": {
+     "complete": true,
+     "mean": 140.1991061,
+     "resource_total_capped": 4205.973183,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 30
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 0,
+      "10": 1,
+      "3600": 30,
+      "60": 16,
+      "600": 28
+     },
+     "total": 4205.973183,
+     "unsolved": []
+    },
+    "W_ref": {
+     "complete": true,
+     "mean": 236.8907758,
+     "resource_total_capped": 7106.723274,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 30
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 0,
+      "10": 1,
+      "3600": 30,
+      "60": 9,
+      "600": 28
+     },
+     "total": 7106.723274,
+     "unsolved": []
+    }
+   },
+   "n": 30,
+   "wrappers": {
+    "W_main": {
+     "actions": {
+      "D": 30
+     },
+     "observation_cpu_mean": 2.2716530333333336,
+     "observation_cpu_q": {
+      "0.5": 2.266575,
+      "0.9": 2.354181,
+      "0.99": 2.365255
+     },
+     "paths": {
+      "reader": 30
+     }
+    },
+    "W_ref": {
+     "actions": {
+      "Fm": 30
+     },
+     "observation_cpu_mean": 2.140703366666666,
+     "observation_cpu_q": {
+      "0.5": 2.158134,
+      "0.9": 2.225063,
+      "0.99": 2.2309390000000002
+     },
+     "paths": {
+      "fallback": 30
+     }
+    }
+   }
+  },
+  "cell:col3-X": {
+   "comparisons": {
+    "Fm_vs_D": {
+     "common_subset": {
+      "mean_x": 278.5454296206896,
+      "mean_y": 255.74294303448275,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": []
+    },
+    "Fp_vs_D": {
+     "common_subset": {
+      "mean_x": 132.60704396551725,
+      "mean_y": 255.74294303448275,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "SBS_vs_D": {
+     "common_subset": {
+      "mean_x": 278.5454296206896,
+      "mean_y": 255.74294303448275,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": []
+    },
+    "W_main_vs_D": {
+     "common_subset": {
+      "mean_x": 134.80784696551723,
+      "mean_y": 255.74294303448275,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "W_main_vs_Fm": {
+     "common_subset": {
+      "mean_x": 134.80784696551723,
+      "mean_y": 278.5454296206896,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "W_main_vs_Fp": {
+     "ci": [
+      -0.03697838331031922,
+      0.0034107137536152354
+     ],
+     "gain": -0.024737602574161688,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-col3-X-27",
+     "max_loss_s": 75.9342610000001,
+     "share_top": {
+      "1": 0.3950173540749347,
+      "3": 0.9358173114723859,
+      "10": 1.0
+     }
+    },
+    "W_main_vs_SBS": {
+     "common_subset": {
+      "mean_x": 134.80784696551723,
+      "mean_y": 278.5454296206896,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "W_main_vs_W_ref": {
+     "common_subset": {
+      "mean_x": 134.80784696551723,
+      "mean_y": 285.2073466206897,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [
+      "v10-col3-X-27"
+     ],
+     "lost": []
+    },
+    "W_ref_vs_D": {
+     "common_subset": {
+      "mean_x": 285.2073466206897,
+      "mean_y": 255.74294303448275,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": []
+    },
+    "W_ref_vs_Fp": {
+     "common_subset": {
+      "mean_x": 285.2073466206897,
+      "mean_y": 132.60704396551725,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": [
+      "v10-col3-X-27"
+     ]
+    },
+    "W_ref_vs_SBS": {
+     "common_subset": {
+      "mean_x": 285.2073466206897,
+      "mean_y": 278.5454296206896,
+      "n": 29,
+      "note": "selection-biased secondary description"
+     },
+     "gained": [],
+     "lost": []
+    }
+   },
+   "methods": {
+    "D": {
+     "complete": false,
+     "mean": null,
+     "resource_total_capped": 11016.152845999999,
+     "solved": 29,
+     "solved_by_answer": {
+      "SAT": 22,
+      "UNSAT": 7
+     },
+     "statuses": {
+      "policy_timeout": 1,
+      "solved": 29
+     },
+     "time_points": {
+      "1": 3,
+      "10": 11,
+      "3600": 29,
+      "60": 18,
+      "600": 26
+     },
+     "total": null,
+     "unsolved": [
+      "v10-col3-X-27"
+     ]
+    },
+    "Fm": {
+     "complete": false,
+     "mean": null,
+     "resource_total_capped": 11677.661898999999,
+     "solved": 29,
+     "solved_by_answer": {
+      "SAT": 22,
+      "UNSAT": 7
+     },
+     "statuses": {
+      "policy_timeout": 1,
+      "solved": 29
+     },
+     "time_points": {
+      "1": 2,
+      "10": 13,
+      "3600": 29,
+      "60": 15,
+      "600": 26
+     },
+     "total": null,
+     "unsolved": [
+      "v10-col3-X-27"
+     ]
+    },
+    "Fp": {
+     "complete": true,
+     "mean": 188.3199845,
+     "resource_total_capped": 5649.599535,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 22,
+      "UNSAT": 8
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 0,
+      "10": 9,
+      "3600": 30,
+      "60": 23,
+      "600": 26
+     },
+     "total": 5649.599535,
+     "unsolved": []
+    },
+    "SBS": {
+     "complete": false,
+     "mean": null,
+     "resource_total_capped": 11677.661898999999,
+     "solved": 29,
+     "solved_by_answer": {
+      "SAT": 22,
+      "UNSAT": 7
+     },
+     "statuses": {
+      "policy_timeout": 1,
+      "solved": 29
+     },
+     "time_points": {
+      "1": 2,
+      "10": 13,
+      "3600": 29,
+      "60": 15,
+      "600": 26
+     },
+     "total": null,
+     "unsolved": [
+      "v10-col3-X-27"
+     ]
+    },
+    "W_main": {
+     "complete": true,
+     "mean": 192.9785694333333,
+     "resource_total_capped": 5789.357082999999,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 22,
+      "UNSAT": 8
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 3,
+      "10": 10,
+      "3600": 30,
+      "60": 23,
+      "600": 26
+     },
+     "total": 5789.357082999999,
+     "unsolved": []
+    },
+    "W_ref": {
+     "complete": false,
+     "mean": null,
+     "resource_total_capped": 11870.079980000002,
+     "solved": 29,
+     "solved_by_answer": {
+      "SAT": 22,
+      "UNSAT": 7
+     },
+     "statuses": {
+      "policy_timeout": 1,
+      "solved": 29
+     },
+     "time_points": {
+      "1": 3,
+      "10": 12,
+      "3600": 29,
+      "60": 15,
+      "600": 26
+     },
+     "total": null,
+     "unsolved": [
+      "v10-col3-X-27"
+     ]
+    }
+   },
+   "n": 30,
+   "wrappers": {
+    "W_main": {
+     "actions": {
+      "D_probe": 5,
+      "Fp": 25
+     },
+     "observation_cpu_mean": 1.8976020666666664,
+     "observation_cpu_q": {
+      "0.5": 2.055227,
+      "0.9": 2.0590409999999997,
+      "0.99": 2.059666
+     },
+     "paths": {
+      "probe_solved": 5,
+      "reader": 25
+     }
+    },
+    "W_ref": {
+     "actions": {
+      "D_probe": 5,
+      "Fm": 25
+     },
+     "observation_cpu_mean": 1.8927151999999998,
+     "observation_cpu_q": {
+      "0.5": 2.051675,
+      "0.9": 2.0534589999999997,
+      "0.99": 2.0543679999999997
+     },
+     "paths": {
+      "fallback": 25,
+      "probe_solved": 5
+     }
+    }
+   }
+  },
+  "cell:rand3-X": {
+   "comparisons": {
+    "Fm_vs_D": {
+     "ci": [
+      0.28174186724814254,
+      0.651026785149152
+     ],
+     "gain": 0.5397576914104002,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-11",
+     "max_loss_s": 325.140105,
+     "share_top": {
+      "1": 0.3187930808882723,
+      "3": 0.5555767446368194,
+      "10": 0.9181243942496001
+     }
+    },
+    "Fp_vs_D": {
+     "ci": [
+      0.2960944667597196,
+      0.5690276588907786
+     ],
+     "gain": 0.4850551059059006,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-05",
+     "max_loss_s": 222.07047299999996,
+     "share_top": {
+      "1": 0.24898677739418756,
+      "3": 0.5204171441679947,
+      "10": 0.9200497900957968
+     }
+    },
+    "SBS_vs_D": {
+     "ci": [
+      0.28174186724814254,
+      0.651026785149152
+     ],
+     "gain": 0.5397576914104002,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-11",
+     "max_loss_s": 325.140105,
+     "share_top": {
+      "1": 0.3187930808882723,
+      "3": 0.5555767446368194,
+      "10": 0.9181243942496001
+     }
+    },
+    "W_main_vs_D": {
+     "ci": [
+      0.4682332381164581,
+      0.6880804204523192
+     ],
+     "gain": 0.6086687209986301,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-12",
+     "max_loss_s": 88.95238499999999,
+     "share_top": {
+      "1": 0.32448898766833917,
+      "3": 0.5597045849161958,
+      "10": 0.9197600614651833
+     }
+    },
+    "W_main_vs_Fm": {
+     "ci": [
+      0.012574206266943277,
+      0.3352361352554828
+     ],
+     "gain": 0.14972771581866484,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-29",
+     "max_loss_s": 11.117379000000028,
+     "share_top": {
+      "1": 0.4274016366033957,
+      "3": 0.8409564243930234,
+      "10": 1.0
+     }
+    },
+    "W_main_vs_Fp": {
+     "ci": [
+      0.011584488666031234,
+      0.4153987887249896
+     ],
+     "gain": 0.24005212307268875,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-24",
+     "max_loss_s": 88.00675899999999,
+     "share_top": {
+      "1": 0.3801553803978667,
+      "3": 0.6288579520999937,
+      "10": 0.8954332935677857
+     }
+    },
+    "W_main_vs_SBS": {
+     "ci": [
+      0.012574206266943277,
+      0.3352361352554828
+     ],
+     "gain": 0.14972771581866484,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-29",
+     "max_loss_s": 11.117379000000028,
+     "share_top": {
+      "1": 0.4274016366033957,
+      "3": 0.8409564243930234,
+      "10": 1.0
+     }
+    },
+    "W_main_vs_W_ref": {
+     "ci": [
+      -0.021263630054848104,
+      0.002410415992769699
+     ],
+     "gain": -0.008647563736055464,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-13",
+     "max_loss_s": 21.33205499999997,
+     "share_top": {
+      "1": 0.4651963491534894,
+      "3": 0.774352666300253,
+      "10": 1.0
+     }
+    },
+    "W_ref_vs_D": {
+     "ci": [
+      0.4734952600658473,
+      0.689075589727475
+     ],
+     "gain": 0.6120237701741238,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-12",
+     "max_loss_s": 91.360037,
+     "share_top": {
+      "1": 0.3215462334284994,
+      "3": 0.5567009472816384,
+      "10": 0.9208450271671395
+     }
+    },
+    "W_ref_vs_Fp": {
+     "ci": [
+      0.022714455266824474,
+      0.41596299504302736
+     ],
+     "gain": 0.2465674788204062,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-12",
+     "max_loss_s": 88.602664,
+     "share_top": {
+      "1": 0.37425661873637883,
+      "3": 0.6219171130802881,
+      "10": 0.8907924835951677
+     }
+    },
+    "W_ref_vs_SBS": {
+     "ci": [
+      0.020533952074725748,
+      0.3391529167549382
+     ],
+     "gain": 0.1570174610525944,
+     "gained": [],
+     "lost": [],
+     "max_loss_instance": "v10-rand3-X-29",
+     "max_loss_s": 8.229933000000017,
+     "share_top": {
+      "1": 0.42122402352949434,
+      "3": 0.8288299842478046,
+      "10": 0.99470259749044
+     }
+    }
+   },
+   "methods": {
+    "D": {
+     "complete": true,
+     "mean": 333.4998708333333,
+     "resource_total_capped": 10004.996125,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 15,
+      "UNSAT": 15
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 9,
+      "10": 14,
+      "3600": 30,
+      "60": 15,
+      "600": 24
+     },
+     "total": 10004.996125,
+     "unsolved": []
+    },
+    "Fm": {
+     "complete": true,
+     "mean": 153.49075046666667,
+     "resource_total_capped": 4604.722514,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 15,
+      "UNSAT": 15
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 2,
+      "10": 4,
+      "3600": 30,
+      "60": 9,
+      "600": 30
+     },
+     "total": 4604.722514,
+     "unsolved": []
+    },
+    "Fp": {
+     "complete": true,
+     "mean": 171.73405566666665,
+     "resource_total_capped": 5152.021669999999,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 15,
+      "UNSAT": 15
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 0,
+      "10": 4,
+      "3600": 30,
+      "60": 9,
+      "600": 29
+     },
+     "total": 5152.021669999999,
+     "unsolved": []
+    },
+    "SBS": {
+     "complete": true,
+     "mean": 153.49075046666667,
+     "resource_total_capped": 4604.722514,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 15,
+      "UNSAT": 15
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 2,
+      "10": 4,
+      "3600": 30,
+      "60": 9,
+      "600": 30
+     },
+     "total": 4604.722514,
+     "unsolved": []
+    },
+    "W_main": {
+     "complete": true,
+     "mean": 130.508931,
+     "resource_total_capped": 3915.26793,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 15,
+      "UNSAT": 15
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 9,
+      "10": 10,
+      "3600": 30,
+      "60": 12,
+      "600": 30
+     },
+     "total": 3915.26793,
+     "unsolved": []
+    },
+    "W_ref": {
+     "complete": true,
+     "mean": 129.39002253333334,
+     "resource_total_capped": 3881.7006760000004,
+     "solved": 30,
+     "solved_by_answer": {
+      "SAT": 15,
+      "UNSAT": 15
+     },
+     "statuses": {
+      "solved": 30
+     },
+     "time_points": {
+      "1": 9,
+      "10": 10,
+      "3600": 30,
+      "60": 12,
+      "600": 30
+     },
+     "total": 3881.7006760000004,
+     "unsolved": []
+    }
+   },
+   "n": 30,
+   "wrappers": {
+    "W_main": {
+     "actions": {
+      "D_probe": 9,
+      "Fm": 21
+     },
+     "observation_cpu_mean": 1.6132299666666663,
+     "observation_cpu_q": {
+      "0.5": 2.049592,
+      "0.9": 2.056986,
+      "0.99": 2.057196
+     },
+     "paths": {
+      "probe_solved": 9,
+      "reader": 21
+     }
+    },
+    "W_ref": {
+     "actions": {
+      "D_probe": 9,
+      "Fm": 21
+     },
+     "observation_cpu_mean": 1.6072488999999999,
+     "observation_cpu_q": {
+      "0.5": 2.044257,
+      "0.9": 2.0522669999999996,
+      "0.99": 2.052543
+     },
+     "paths": {
+      "fallback": 21,
+      "probe_solved": 9
+     }
+    }
+   }
+  }
+ },
+ "panel": "extrapolation",
+ "per_instance": {
+  "v10-assign2-X-00": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 7.8196069999999995,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 7.920604,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 16.88418,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 7.920604,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 9.998327,
+    "path": "reader",
+    "pre_exec_cpu": 2.3326900000000004,
+    "probe_cpu": 2.156672,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 10.23171,
+    "path": "fallback",
+    "pre_exec_cpu": 2.2309390000000002,
+    "probe_cpu": 2.194348,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-01": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 49.889044999999996,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 28.771058999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 80.702685,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 28.771058999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 52.173615000000005,
+    "path": "reader",
+    "pre_exec_cpu": 2.3547740000000004,
+    "probe_cpu": 2.1757730000000004,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 28.546889,
+    "path": "fallback",
+    "pre_exec_cpu": 2.067999,
+    "probe_cpu": 2.0315689999999997,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-02": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 31.126103,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 45.171091999999994,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 55.357249,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 45.171091999999994,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 49.88583800000001,
+    "path": "reader",
+    "pre_exec_cpu": 2.297158,
+    "probe_cpu": 2.116339,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 49.567541,
+    "path": "fallback",
+    "pre_exec_cpu": 2.208338,
+    "probe_cpu": 2.169019,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-03": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 524.218831,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1584.0717479999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 423.609933,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1584.0717479999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 477.224756,
+    "path": "reader",
+    "pre_exec_cpu": 2.370319,
+    "probe_cpu": 2.186918,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 1605.6247349999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.20199,
+    "probe_cpu": 2.163354,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-04": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 46.06638,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 142.56329399999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 85.51359299999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 142.56329399999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 48.453255000000006,
+    "path": "reader",
+    "pre_exec_cpu": 2.337009,
+    "probe_cpu": 2.161479,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 152.557301,
+    "path": "fallback",
+    "pre_exec_cpu": 2.223057,
+    "probe_cpu": 2.182721,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-05": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 175.978478,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 339.908847,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 39.926045,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 339.908847,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 165.85610400000002,
+    "path": "reader",
+    "pre_exec_cpu": 2.197596,
+    "probe_cpu": 2.020135,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 330.774636,
+    "path": "fallback",
+    "pre_exec_cpu": 2.072518,
+    "probe_cpu": 2.033484,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-06": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 104.51323500000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 319.782339,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 195.859803,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 319.782339,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 113.65133399999999,
+    "path": "reader",
+    "pre_exec_cpu": 2.266575,
+    "probe_cpu": 2.090667,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 301.701846,
+    "path": "fallback",
+    "pre_exec_cpu": 2.158134,
+    "probe_cpu": 2.122209,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-07": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 63.220875,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 183.021209,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 450.94775699999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 183.021209,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 71.388054,
+    "path": "reader",
+    "pre_exec_cpu": 2.335151,
+    "probe_cpu": 2.158086,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 187.476245,
+    "path": "fallback",
+    "pre_exec_cpu": 2.196031,
+    "probe_cpu": 2.158534,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-08": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 40.337417,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 89.441527,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 77.260847,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 89.441527,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 48.944872000000004,
+    "path": "reader",
+    "pre_exec_cpu": 2.200825,
+    "probe_cpu": 2.021899,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 78.71714,
+    "path": "fallback",
+    "pre_exec_cpu": 2.200547,
+    "probe_cpu": 2.163176,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-09": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 24.91634,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 97.407384,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 209.099557,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 97.407384,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 28.697451,
+    "path": "reader",
+    "pre_exec_cpu": 2.2113250000000004,
+    "probe_cpu": 2.033329,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 99.29256699999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0603089999999997,
+    "probe_cpu": 2.023274,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-10": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 215.116641,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 348.799104,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 75.99668199999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 348.799104,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 270.218227,
+    "path": "reader",
+    "pre_exec_cpu": 2.274402,
+    "probe_cpu": 2.096121,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 280.27833200000003,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1765699999999994,
+    "probe_cpu": 2.1374389999999996,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-11": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.619768,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 72.025142,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 31.295099,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 72.025142,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 10.346012,
+    "path": "reader",
+    "pre_exec_cpu": 2.344262,
+    "probe_cpu": 2.1706499999999997,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 73.930772,
+    "path": "fallback",
+    "pre_exec_cpu": 2.070195,
+    "probe_cpu": 2.034966,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-12": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 53.83552,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 104.66518,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 95.441621,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 104.66518,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 61.531599,
+    "path": "reader",
+    "pre_exec_cpu": 2.354181,
+    "probe_cpu": 2.177591,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 112.26899499999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.074724,
+    "probe_cpu": 2.0362,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-13": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 21.120911999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 7.402757,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 42.87178599999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 7.402757,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 22.520521,
+    "path": "reader",
+    "pre_exec_cpu": 2.348644,
+    "probe_cpu": 2.165323,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 9.858177,
+    "path": "fallback",
+    "pre_exec_cpu": 2.225063,
+    "probe_cpu": 2.186101,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-14": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 46.528809,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 42.370716,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 60.761955,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 42.370716,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 54.4754,
+    "path": "reader",
+    "pre_exec_cpu": 2.2129689999999997,
+    "probe_cpu": 2.033082,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 47.741718999999996,
+    "path": "fallback",
+    "pre_exec_cpu": 2.072034,
+    "probe_cpu": 2.033108,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-15": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 47.018322,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 16.074961000000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 32.279362,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 16.074961000000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 46.552456,
+    "path": "reader",
+    "pre_exec_cpu": 2.365255,
+    "probe_cpu": 2.182835,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 16.338071,
+    "path": "fallback",
+    "pre_exec_cpu": 2.060571,
+    "probe_cpu": 2.022318,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-16": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.232525,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 28.820839,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 20.683927,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 28.820839,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 10.299882,
+    "path": "reader",
+    "pre_exec_cpu": 2.2186310000000002,
+    "probe_cpu": 2.03479,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 30.145384,
+    "path": "fallback",
+    "pre_exec_cpu": 2.075019,
+    "probe_cpu": 2.038323,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-17": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 21.952603999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.172905,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 27.70177,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.172905,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 24.765576000000003,
+    "path": "reader",
+    "pre_exec_cpu": 2.225654,
+    "probe_cpu": 2.035304,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 10.485224,
+    "path": "fallback",
+    "pre_exec_cpu": 2.07214,
+    "probe_cpu": 2.032253,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-18": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 13.082324999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 56.690585999999996,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 10.496039,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 56.690585999999996,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 14.989851,
+    "path": "reader",
+    "pre_exec_cpu": 2.206129,
+    "probe_cpu": 2.0323800000000003,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 63.652905000000004,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0726329999999997,
+    "probe_cpu": 2.035701,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-19": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 95.126489,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 645.371433,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 203.99284699999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 645.371433,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 97.617622,
+    "path": "reader",
+    "pre_exec_cpu": 2.215192,
+    "probe_cpu": 2.033668,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 496.69401799999997,
+    "path": "fallback",
+    "pre_exec_cpu": 2.068934,
+    "probe_cpu": 2.031857,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-20": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 589.356406,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 327.750443,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 680.4038479999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 327.750443,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 621.3728880000001,
+    "path": "reader",
+    "pre_exec_cpu": 2.209415,
+    "probe_cpu": 2.024299,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 319.54046400000004,
+    "path": "fallback",
+    "pre_exec_cpu": 2.2290340000000004,
+    "probe_cpu": 2.1887160000000003,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-21": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 82.143568,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 42.399468000000006,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 42.225218999999996,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 42.399468000000006,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 74.67393600000001,
+    "path": "reader",
+    "pre_exec_cpu": 2.3368079999999996,
+    "probe_cpu": 2.159018,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 42.02737,
+    "path": "fallback",
+    "pre_exec_cpu": 2.185092,
+    "probe_cpu": 2.147061,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-22": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 388.90889,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 290.385945,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 104.97031600000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 290.385945,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 568.1278239999999,
+    "path": "reader",
+    "pre_exec_cpu": 2.2019399999999996,
+    "probe_cpu": 2.022072,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 303.574668,
+    "path": "fallback",
+    "pre_exec_cpu": 2.060228,
+    "probe_cpu": 2.023,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-23": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 90.574905,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 129.192509,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 73.962765,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 129.192509,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 92.34929100000001,
+    "path": "reader",
+    "pre_exec_cpu": 2.288294,
+    "probe_cpu": 2.099139,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 129.119502,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1434179999999996,
+    "probe_cpu": 2.105032,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-24": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 75.678297,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 282.930166,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 269.555485,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 282.930166,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 76.727712,
+    "path": "reader",
+    "pre_exec_cpu": 2.3426109999999998,
+    "probe_cpu": 2.16417,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 320.36888999999996,
+    "path": "fallback",
+    "pre_exec_cpu": 2.173511,
+    "probe_cpu": 2.134617,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-25": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 24.045639,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 134.272639,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 60.396187,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 134.272639,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 25.245936,
+    "path": "reader",
+    "pre_exec_cpu": 2.2066519999999996,
+    "probe_cpu": 2.022852,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 141.52569799999998,
+    "path": "fallback",
+    "pre_exec_cpu": 2.07283,
+    "probe_cpu": 2.034525,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-26": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 20.83514,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 544.092935,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 75.10326,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 544.092935,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 23.933601000000003,
+    "path": "reader",
+    "pre_exec_cpu": 2.206824,
+    "probe_cpu": 2.030954,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 518.5972029999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.195934,
+    "probe_cpu": 2.156112,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-27": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 11.69678,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 169.18571899999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 181.283808,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 169.18571899999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 12.883294999999999,
+    "path": "reader",
+    "pre_exec_cpu": 2.205606,
+    "probe_cpu": 2.025028,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 146.97437499999998,
+    "path": "fallback",
+    "pre_exec_cpu": 2.232735,
+    "probe_cpu": 2.194087,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-28": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 954.6084079999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 580.124108,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 666.4243710000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 580.124108,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 932.048948,
+    "path": "reader",
+    "pre_exec_cpu": 2.279082,
+    "probe_cpu": 2.098106,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 740.7997389999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.160204,
+    "probe_cpu": 2.1221069999999997,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-assign2-X-29": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 100.72802200000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 464.886064,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 385.691982,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 464.886064,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "answer": "SAT",
+    "cpu": 99.019,
+    "path": "reader",
+    "pre_exec_cpu": 2.203618,
+    "probe_cpu": 2.030764,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 458.311158,
+    "path": "fallback",
+    "pre_exec_cpu": 2.18037,
+    "probe_cpu": 2.142759,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-00": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.5542969999999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.689724,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 2.881558,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.689724,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 1.591116,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 1.5438809999999998,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 1.585484,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 1.543298,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-01": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 108.168502,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 128.8062,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 107.192526,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 128.8062,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 107.767702,
+    "path": "reader",
+    "pre_exec_cpu": 2.057605,
+    "probe_cpu": 2.014598,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 130.94726400000002,
+    "path": "fallback",
+    "pre_exec_cpu": 2.052236,
+    "probe_cpu": 2.014991,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-02": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 145.001835,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 99.158722,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 6.2244660000000005,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 99.158722,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 8.31835,
+    "path": "reader",
+    "pre_exec_cpu": 2.047825,
+    "probe_cpu": 2.0048199999999996,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 102.33031700000001,
+    "path": "fallback",
+    "pre_exec_cpu": 2.051905,
+    "probe_cpu": 2.014688,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-03": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 7.314984,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 130.088388,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 57.650154,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 130.088388,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 59.868837,
+    "path": "reader",
+    "pre_exec_cpu": 2.060044,
+    "probe_cpu": 2.017406,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 131.966068,
+    "path": "fallback",
+    "pre_exec_cpu": 2.051675,
+    "probe_cpu": 2.013169,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-04": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 216.18235399999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 193.46912899999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 589.7039030000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 193.46912899999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 596.537278,
+    "path": "reader",
+    "pre_exec_cpu": 2.059666,
+    "probe_cpu": 2.015711,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 220.194989,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0543679999999997,
+    "probe_cpu": 2.01502,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-05": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 58.35792,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.732655,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 30.258643,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.732655,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 32.846942,
+    "path": "reader",
+    "pre_exec_cpu": 2.047921,
+    "probe_cpu": 2.004142,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 6.780797,
+    "path": "fallback",
+    "pre_exec_cpu": 2.054211,
+    "probe_cpu": 2.015259,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-06": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 69.13583700000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 70.505678,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 40.955767,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 70.505678,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "UNSAT",
+    "cpu": 43.506002,
+    "path": "reader",
+    "pre_exec_cpu": 2.057876,
+    "probe_cpu": 2.014798,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 72.618273,
+    "path": "fallback",
+    "pre_exec_cpu": 2.051688,
+    "probe_cpu": 2.014968,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-07": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 36.97567299999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 62.109904,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 16.653306,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 62.109904,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 18.906971,
+    "path": "reader",
+    "pre_exec_cpu": 2.055227,
+    "probe_cpu": 2.01451,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 64.739504,
+    "path": "fallback",
+    "pre_exec_cpu": 2.052419,
+    "probe_cpu": 2.013503,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-08": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 6.990448,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.412981,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 29.468795999999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.412981,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 31.850901,
+    "path": "reader",
+    "pre_exec_cpu": 2.0590409999999997,
+    "probe_cpu": 2.015568,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 6.432958999999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.047794,
+    "probe_cpu": 2.011351,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-09": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 2095.27876,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 2311.120719,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 905.242489,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 2311.120719,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "UNSAT",
+    "cpu": 934.8388799999999,
+    "path": "reader",
+    "pre_exec_cpu": 2.0587269999999998,
+    "probe_cpu": 2.015385,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 2347.8067119999996,
+    "path": "fallback",
+    "pre_exec_cpu": 2.052968,
+    "probe_cpu": 2.015006,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-10": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 6.308026,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 3.005313,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.418878999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 3.005313,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 10.515716,
+    "path": "reader",
+    "pre_exec_cpu": 2.0585009999999997,
+    "probe_cpu": 2.014464,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 5.0301,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0529019999999996,
+    "probe_cpu": 2.014789,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-11": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 12.868237,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 3.744621,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.227419,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 3.744621,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 3.270667,
+    "path": "reader",
+    "pre_exec_cpu": 2.058475,
+    "probe_cpu": 2.01518,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 5.810332,
+    "path": "fallback",
+    "pre_exec_cpu": 2.047032,
+    "probe_cpu": 2.013382,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-12": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 2.458076,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.367372,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 2.4895300000000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.367372,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 4.558538,
+    "path": "reader",
+    "pre_exec_cpu": 2.048082,
+    "probe_cpu": 2.004947,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 3.4264919999999996,
+    "path": "fallback",
+    "pre_exec_cpu": 2.048285,
+    "probe_cpu": 2.014754,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-13": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 116.827038,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 141.586547,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 76.510733,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 141.586547,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "UNSAT",
+    "cpu": 77.614205,
+    "path": "reader",
+    "pre_exec_cpu": 2.05786,
+    "probe_cpu": 2.014975,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 143.045602,
+    "path": "fallback",
+    "pre_exec_cpu": 2.045192,
+    "probe_cpu": 2.009197,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-14": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 314.678561,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 283.936218,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.429686,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 283.936218,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 3.485389,
+    "path": "reader",
+    "pre_exec_cpu": 2.0463,
+    "probe_cpu": 2.004276,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 309.831715,
+    "path": "fallback",
+    "pre_exec_cpu": 2.050625,
+    "probe_cpu": 2.012236,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-15": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 17.281444999999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 193.71814700000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 45.53134,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 193.71814700000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 46.590352,
+    "path": "reader",
+    "pre_exec_cpu": 2.053,
+    "probe_cpu": 2.014298,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 193.647201,
+    "path": "fallback",
+    "pre_exec_cpu": 2.053259,
+    "probe_cpu": 2.014786,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-16": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.649339999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.709274,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.012227,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.709274,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 3.083964,
+    "path": "reader",
+    "pre_exec_cpu": 2.056535,
+    "probe_cpu": 2.012654,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 10.680408,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0534589999999997,
+    "probe_cpu": 2.0147649999999997,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-17": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.352445,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 2.5281730000000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 11.307963,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 2.5281730000000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.386941,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.34490099999999996,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.389377,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.348758,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-18": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 29.319301,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.25539999999999996,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 30.085189,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.25539999999999996,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 31.515204,
+    "path": "reader",
+    "pre_exec_cpu": 2.042928,
+    "probe_cpu": 2.0041469999999997,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 2.3120249999999998,
+    "path": "fallback",
+    "pre_exec_cpu": 2.053344,
+    "probe_cpu": 2.014381,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-19": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.8590509999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 7.218621,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 18.021125,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 7.218621,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.913629,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.867389,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.916113,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.874022,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-20": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 11.005132999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 11.206373,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 7.96827,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 11.206373,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "UNSAT",
+    "cpu": 10.057998,
+    "path": "reader",
+    "pre_exec_cpu": 2.0568609999999996,
+    "probe_cpu": 2.0152200000000002,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 13.162979,
+    "path": "fallback",
+    "pre_exec_cpu": 2.049253,
+    "probe_cpu": 2.015279,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-21": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 19.03863,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 17.615474,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 17.96757,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 17.615474,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 19.7208,
+    "path": "reader",
+    "pre_exec_cpu": 2.054917,
+    "probe_cpu": 2.014877,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 19.613724,
+    "path": "fallback",
+    "pre_exec_cpu": 2.043225,
+    "probe_cpu": 2.004552,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-22": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 86.582133,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 72.487209,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 47.622008,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 72.487209,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "UNSAT",
+    "cpu": 49.362245,
+    "path": "reader",
+    "pre_exec_cpu": 2.0534529999999998,
+    "probe_cpu": 2.014503,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 75.806967,
+    "path": "fallback",
+    "pre_exec_cpu": 2.042054,
+    "probe_cpu": 2.005938,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-23": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 2.617091,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 5.895607,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 23.071884,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 5.895607,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 25.203242,
+    "path": "reader",
+    "pre_exec_cpu": 2.058477,
+    "probe_cpu": 2.01514,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 7.942964000000001,
+    "path": "fallback",
+    "pre_exec_cpu": 2.052172,
+    "probe_cpu": 2.015305,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-24": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1493.456456,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1559.538058,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 683.0400880000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1559.538058,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "UNSAT",
+    "cpu": 698.276459,
+    "path": "reader",
+    "pre_exec_cpu": 2.059026,
+    "probe_cpu": 2.015124,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 1618.324564,
+    "path": "fallback",
+    "pre_exec_cpu": 2.05206,
+    "probe_cpu": 2.014479,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-25": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.63272,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.77704,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 22.152389,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.77704,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 1.6794749999999998,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 1.631542,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 1.666215,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 1.623415,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-26": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.9261699999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 2.898404,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 3.0111489999999996,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 2.898404,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.975138,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.9282069999999999,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.95791,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.917261,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-27": {
+   "D": {
+    "action": null,
+    "answer": null,
+    "cpu": 3599.607498,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "Fm": {
+    "action": null,
+    "answer": null,
+    "cpu": 3599.8444400000003,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1803.99526,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": null,
+    "cpu": 3599.8444400000003,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "UNSAT",
+    "cpu": 1879.929521,
+    "path": "reader",
+    "pre_exec_cpu": 2.055045,
+    "probe_cpu": 2.013807,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": null,
+    "cpu": 3599.066928,
+    "path": "fallback",
+    "pre_exec_cpu": 2.047312,
+    "probe_cpu": 2.009486,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "v10-col3-X-28": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 2415.473033,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 2621.062082,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1020.3124270000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 2621.062082,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "UNSAT",
+    "cpu": 1045.347478,
+    "path": "reader",
+    "pre_exec_cpu": 2.059636,
+    "probe_cpu": 2.0150539999999997,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 2636.3789500000003,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0545989999999996,
+    "probe_cpu": 2.0154739999999998,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-col3-X-29": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 131.251852,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 134.173426,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 38.192791,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 134.173426,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fp",
+    "answer": "SAT",
+    "cpu": 40.837143,
+    "path": "reader",
+    "pre_exec_cpu": 2.0587349999999995,
+    "probe_cpu": 2.015456,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 136.667047,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0523200000000004,
+    "probe_cpu": 2.014835,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-00": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 509.013773,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 208.64115800000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 310.254451,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 208.64115800000002,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 213.35707599999998,
+    "path": "reader",
+    "pre_exec_cpu": 2.057196,
+    "probe_cpu": 2.015319,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 212.964202,
+    "path": "fallback",
+    "pre_exec_cpu": 2.052054,
+    "probe_cpu": 2.0152289999999997,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-01": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 158.372075,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 94.371545,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 64.66772,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 94.371545,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 94.820408,
+    "path": "reader",
+    "pre_exec_cpu": 2.0459959999999997,
+    "probe_cpu": 2.004231,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 96.780034,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0514639999999997,
+    "probe_cpu": 2.013203,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-02": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.556842,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 100.762113,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 40.995857,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 100.762113,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.597974,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.552246,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.5886440000000001,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.548698,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-03": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 240.714178,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 138.133946,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 176.889163,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 138.133946,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 143.650684,
+    "path": "reader",
+    "pre_exec_cpu": 2.048427,
+    "probe_cpu": 2.004641,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 142.34037700000002,
+    "path": "fallback",
+    "pre_exec_cpu": 2.042218,
+    "probe_cpu": 2.004922,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-04": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 144.86075599999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 86.57130699999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 87.83622600000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 86.57130699999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 90.23286999999999,
+    "path": "reader",
+    "pre_exec_cpu": 2.055311,
+    "probe_cpu": 2.013791,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 90.647771,
+    "path": "fallback",
+    "pre_exec_cpu": 2.040851,
+    "probe_cpu": 2.004445,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-05": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.699912,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.216276,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 226.77038499999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.216276,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 2.2722379999999998,
+    "path": "reader",
+    "pre_exec_cpu": 2.0496419999999995,
+    "probe_cpu": 2.014121,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 2.26037,
+    "path": "fallback",
+    "pre_exec_cpu": 2.044257,
+    "probe_cpu": 2.012346,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-06": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.560881,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 12.613622,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 79.94162299999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 12.613622,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.603402,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.557126,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.597697,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.555572,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-07": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 581.344405,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 279.63561,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 351.05464,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 279.63561,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 283.61841999999996,
+    "path": "reader",
+    "pre_exec_cpu": 2.056591,
+    "probe_cpu": 2.015371,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 278.171038,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0522669999999996,
+    "probe_cpu": 2.0149299999999997,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-08": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 285.223729,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 94.375228,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 124.463471,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 94.375228,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 96.314553,
+    "path": "reader",
+    "pre_exec_cpu": 2.051791,
+    "probe_cpu": 2.0152059999999996,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 96.605222,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0456459999999996,
+    "probe_cpu": 2.014583,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-09": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 362.702502,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 195.688393,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 158.862514,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 195.688393,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 195.586444,
+    "path": "reader",
+    "pre_exec_cpu": 2.0561979999999997,
+    "probe_cpu": 2.0145519999999997,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 198.077504,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0512509999999997,
+    "probe_cpu": 2.015125,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-10": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 19.566191,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 93.568787,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 22.729823999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 93.568787,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 96.31578800000001,
+    "path": "reader",
+    "pre_exec_cpu": 2.052003,
+    "probe_cpu": 2.015421,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 95.47023,
+    "path": "fallback",
+    "pre_exec_cpu": 2.045579,
+    "probe_cpu": 2.014513,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-11": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.566024,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 325.70612900000003,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 201.330055,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 325.70612900000003,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.599881,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.552463,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.597258,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.556465,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-12": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 5.6872229999999995,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 93.776751,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.444595999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 93.776751,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 94.639608,
+    "path": "reader",
+    "pre_exec_cpu": 2.051862,
+    "probe_cpu": 2.015014,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 97.04726000000001,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0493799999999998,
+    "probe_cpu": 2.015325,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-13": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 702.038999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 326.204427,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 277.719713,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 326.204427,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 334.26149799999996,
+    "path": "reader",
+    "pre_exec_cpu": 2.057316,
+    "probe_cpu": 2.0137509999999996,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 312.929443,
+    "path": "fallback",
+    "pre_exec_cpu": 2.04707,
+    "probe_cpu": 2.012992,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-14": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.986102,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 27.249827,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 62.539941,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 27.249827,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 29.280082,
+    "path": "reader",
+    "pre_exec_cpu": 2.053329,
+    "probe_cpu": 2.010829,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 29.276619999999998,
+    "path": "fallback",
+    "pre_exec_cpu": 2.052543,
+    "probe_cpu": 2.015095,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-15": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 233.798168,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 105.53215700000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 138.551484,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 105.53215700000001,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 107.360061,
+    "path": "reader",
+    "pre_exec_cpu": 2.049592,
+    "probe_cpu": 2.014145,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 107.92835099999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0412549999999996,
+    "probe_cpu": 2.010429,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-16": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.555958,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.427871,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 63.426567,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.427871,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.617437,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.571903,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.599347,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.559904,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-17": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.5169959999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 48.26061,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 67.133513,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 48.26061,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.566325,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.522191,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.5615939999999999,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.523662,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-18": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.512076,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.837258,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 10.736606,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.837258,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.5504439999999999,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.510309,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.539743,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.505938,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-19": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1065.1545649999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 347.383016,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 308.052664,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 347.383016,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 355.267559,
+    "path": "reader",
+    "pre_exec_cpu": 2.05537,
+    "probe_cpu": 2.014262,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 350.222148,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0509839999999997,
+    "probe_cpu": 2.01354,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-20": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 613.637449,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 260.87690000000003,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 267.19759200000004,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 260.87690000000003,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 264.392454,
+    "path": "reader",
+    "pre_exec_cpu": 2.0422119999999997,
+    "probe_cpu": 2.004553,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 259.06717499999996,
+    "path": "fallback",
+    "pre_exec_cpu": 2.037692,
+    "probe_cpu": 2.003956,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-21": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 4.278329,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 24.543315999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 5.801287,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 24.543315999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 26.502429,
+    "path": "reader",
+    "pre_exec_cpu": 2.056986,
+    "probe_cpu": 2.014565,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 26.6216,
+    "path": "fallback",
+    "pre_exec_cpu": 2.051434,
+    "probe_cpu": 2.014334,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-22": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 304.37295900000004,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 129.485234,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 159.04309999999998,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 129.485234,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 132.26395699999998,
+    "path": "reader",
+    "pre_exec_cpu": 2.050237,
+    "probe_cpu": 2.013908,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 132.243323,
+    "path": "fallback",
+    "pre_exec_cpu": 2.045817,
+    "probe_cpu": 2.0147,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-23": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.524627,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 32.501882,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 42.917298,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 32.501882,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.5763719999999999,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.5295599999999999,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.571838,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.53149,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-24": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1001.145236,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 373.895804,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 290.57553,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 373.895804,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 378.582289,
+    "path": "reader",
+    "pre_exec_cpu": 2.057055,
+    "probe_cpu": 2.015044,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 371.875584,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0522959999999997,
+    "probe_cpu": 2.015635,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-25": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.521987,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 214.979908,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 8.014598,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 214.979908,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.570508,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.527237,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.555191,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.5198079999999999,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-26": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 2608.986398,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 565.758621,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1191.585963,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 565.758621,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 541.601393,
+    "path": "reader",
+    "pre_exec_cpu": 2.048515,
+    "probe_cpu": 2.004877,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 548.9726250000001,
+    "path": "fallback",
+    "pre_exec_cpu": 2.053541,
+    "probe_cpu": 2.015586,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-27": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 6.438554,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 74.048674,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 43.759904,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 74.048674,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 75.27393099999999,
+    "path": "reader",
+    "pre_exec_cpu": 2.047182,
+    "probe_cpu": 2.004869,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "SAT",
+    "cpu": 75.49675099999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.050365,
+    "probe_cpu": 2.014402,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-28": {
+   "D": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 0.5675889999999999,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.421044,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 5.6963040000000005,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "SAT",
+    "cpu": 1.421044,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.619366,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.571714,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "answer": "SAT",
+    "cpu": 0.606703,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "probe_cpu": 0.564378,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "v10-rand3-X-29": {
+   "D": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 1143.091642,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 343.25509999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 355.029081,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "SBS": {
+    "action": null,
+    "answer": "UNSAT",
+    "cpu": 343.25509999999997,
+    "path": null,
+    "pre_exec_cpu": null,
+    "probe_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 354.372479,
+    "path": "reader",
+    "pre_exec_cpu": 2.052379,
+    "probe_cpu": 2.010015,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "answer": "UNSAT",
+    "cpu": 351.485033,
+    "path": "fallback",
+    "pre_exec_cpu": 2.041488,
+    "probe_cpu": 2.0039409999999998,
+    "solved": true,
+    "status": "solved"
+   }
+  }
+ },
+ "stage": "extrap"
+}

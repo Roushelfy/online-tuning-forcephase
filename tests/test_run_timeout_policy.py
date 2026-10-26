@@ -53,6 +53,10 @@ class RunTimeoutPolicyTests(unittest.TestCase):
         self.assertIsNone(plan["jobs"][0]["cap_cpu"])  # input untouched
         self.assertEqual(run_timeout_policy.classify_after_cap(True, 3601.0, eff["jobs"][0], "solved"), "policy_timeout")
         self.assertEqual(run_timeout_policy.classify_after_cap(True, 3599.0, eff["jobs"][0], "solved"), "solved")
+        # kernel SIGXCPU at the cap counts as a timeout even if the reported CPU is a little below cap - 0.5 s
+        self.assertTrue(run_timeout_policy.is_timeout(3599.07, eff["jobs"][0], -24))
+        self.assertFalse(run_timeout_policy.is_timeout(3599.07, eff["jobs"][0], -15))
+        self.assertFalse(run_timeout_policy.is_timeout(10.0, {"cap_kind": None, "cap_cpu": None}, -24))
 
     def test_repository_policy_is_3600_and_aggregate_unlimited(self):
         pol = run_timeout_policy.load(ROOT)

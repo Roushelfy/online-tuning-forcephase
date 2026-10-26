@@ -67,9 +67,17 @@ def wrapper_limit():
     return float(v) if v else None
 
 
-def is_timeout(job_cpu, spec):
-    """A run that ended without a verified answer at/after its policy cap (controller stop or SIGXCPU)."""
-    return spec.get("cap_kind") == "policy_timeout" and spec.get("cap_cpu") is not None and job_cpu >= spec["cap_cpu"] - 0.5
+SIGXCPU_EXIT = -24  # waitstatus_to_exitcode of a process killed by SIGXCPU (RLIMIT_CPU soft limit)
+
+
+def is_timeout(job_cpu, spec, exit_code=None):
+    """A run that ended without a verified answer at/after its policy cap: a controller stop at the cap, or the
+    kernel's SIGXCPU. RLIMIT_CPU is only ever set at the cap (fixed runs) or at the cap minus the CPU already used
+    (wrappers, rounded up to whole seconds), and the kernel's runtime can run ~1 s ahead of the rusage the controller
+    reads, so a SIGXCPU exit counts as a timeout even when the reported CPU is slightly below cap - 0.5 s."""
+    if spec.get("cap_kind") != "policy_timeout" or spec.get("cap_cpu") is None:
+        return False
+    return job_cpu >= spec["cap_cpu"] - 0.5 or exit_code == SIGXCPU_EXIT
 
 
 def classify_after_cap(answered, cpu, spec, verified_status):

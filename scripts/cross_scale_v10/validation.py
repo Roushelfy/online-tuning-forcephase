@@ -40,6 +40,8 @@ def status(r):
     if r is None:
         return {"status": "missing", "solved": False, "cpu": None}
     s = r["status"] if r["status"] != "solved" or L.ok(r) else "unverified"
+    if s == "error" and L.run_timeout_policy.is_timeout(r["cpu"], r["key"], r.get("exit_code")):
+        s = "policy_timeout"  # kernel SIGXCPU at the cap recorded as 'error' before the classifier fix (protocol 12)
     solved = s == "solved" and r["cpu"] <= CAP
     return {"status": s if solved or s != "solved" else "policy_timeout", "solved": solved, "cpu": r["cpu"],
             "answer": L.TAG.get(r.get("exit_code")) if solved else None, "path": r.get("path"),
@@ -64,7 +66,7 @@ def panel_stats(ids, cells, tab, methods, sbs, main, control):
             "unsolved": [i for i in ids if not tab[i][m]["solved"]]}
     comps = {}
     pairs = [(x, y) for x in ("Fp", "Fm", "SBS", "W_main", "W_ref") for y in ("D",)]
-    pairs += [("W_main", "SBS"), ("W_ref", "SBS"), ("W_main", "W_ref")]
+    pairs += [("W_main", "SBS"), ("W_ref", "SBS"), ("W_main", "W_ref"), ("W_main", "Fp"), ("W_main", "Fm"), ("W_ref", "Fp")]
     for x, y in pairs:
         if x not in methods or y not in methods:
             continue

@@ -17,6 +17,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, os.path.join(ROOT, "scripts", "online_selection_v9"))
 import timeout_view as TV  # noqa: E402
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+import run_timeout_policy  # noqa: E402
 
 DATA = TV.DATA
 RUNS = os.path.join(DATA, "runs", "cross_scale_v10")
@@ -36,7 +38,10 @@ def main():
     new = collections.defaultdict(list)
     for r in recs("stress_old55_fixed"):
         good = TV.ok(r)
-        new[(r["instance"], r["method"])].append((r["cpu"], good, {10: "SAT", 20: "UNSAT"}.get(r.get("exit_code"))))
+        cpu = r["cpu"]
+        if not good and run_timeout_policy.is_timeout(cpu, r["key"], r.get("exit_code")):
+            cpu = max(cpu, TV.LIMIT)  # stopped at the cap (controller or kernel SIGXCPU): a cap-level bound
+        new[(r["instance"], r["method"])].append((cpu, good, {10: "SAT", 20: "UNSAT"}.get(r.get("exit_code"))))
     w = {}
     for r in recs("stress_old55"):
         w[(r["instance"], wmap.get(r["strategy"]))] = r
@@ -53,7 +58,10 @@ def main():
                 per[h][m] = {"status": "missing", "solved": False, "cpu": None}
                 continue
             good = TV.ok(r) and r["cpu"] <= TV.LIMIT
-            per[h][m] = {"status": "solved" if good else r["status"], "solved": good, "cpu": r["cpu"] if good else None,
+            st = r["status"]
+            if not good and run_timeout_policy.is_timeout(r["cpu"], r["key"], r.get("exit_code")):
+                st = "policy_timeout"
+            per[h][m] = {"status": "solved" if good else st, "solved": good, "cpu": r["cpu"] if good else None,
                          "path": r.get("path"), "action": r.get("action"), "pre_exec_cpu": r.get("pre_exec_cpu"),
                          "actual_cpu": r["cpu"]}
     out = {"panel": "old 55 (v7)", "n": len(P), "limit": TV.LIMIT, "methods": methods, "per_instance": per, "summary": {}}

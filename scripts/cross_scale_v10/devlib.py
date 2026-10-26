@@ -18,6 +18,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 import common  # noqa: E402
+sys.path.insert(0, os.path.dirname(HERE))
+import run_timeout_policy  # noqa: E402,F401  (status classification shared with the controllers)
 
 CFG = os.path.join(ROOT, "configs", "cross_scale_v10")
 RES = os.path.join(ROOT, "results", "cross_scale_v10")

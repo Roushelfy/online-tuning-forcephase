@@ -204,7 +204,7 @@ def finalize(job, stage_dir):
     if answered:
         status = {True: "solved", False: "wrong"}.get(ver["ok"] if ver else None, "unverified")
         status = run_timeout_policy.classify_after_cap(True, job.cpu, job.spec, status)
-    elif run_timeout_policy.is_timeout(job.cpu, job.spec):
+    elif run_timeout_policy.is_timeout(job.cpu, job.spec, job.exit_code):
         status = "policy_timeout"
     elif job.stop_reason == "cap":
         status = {"oracle_noncompetitive_bound": "noncompetitive_bound",

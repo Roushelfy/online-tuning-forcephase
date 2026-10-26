@@ -368,3 +368,24 @@
   - D 的 3600 s 结果已完全确定（42 解 / 13 超时，来自 v6 / v7 的历史运行），不重跑；
   - 已超时的题不放宽上限、不重启、不换 seed；
   - CNF 由 `benchmarks/cnf/*.cnf.xz` 解压到 `$FP_DATA/cross_scale_v10/stress_cnf`（SHA-256：`results/cross_scale_v10/stress_cnf_sha256.json`）。
+
+### 偏离：内核 CPU 上限停止的运行被记为 `error`（验证运行中发现，2026-10-26 22:30 UTC）
+
+- **现象**：外推、外部与压力测试中共 12 个运行被内核 RLIMIT_CPU（SIGXCPU，退出码 −24）在单次上限处停止，控制器却记为 `error`（清单见 `results/cross_scale_v10/status_corrections.json`）。
+- **原因**：`run_timeout_policy.is_timeout` 只认“已用 CPU ≥ 上限 − 0.5 s”，而这些运行的 rusage 为 3598.5–3599.5 s：
+  - 内核的 CPU 时间在大公式上比 rusage 快约 1–1.5 s；
+  - wrapper 把剩余预算向上取整到整秒。
+
+  它们都是到达上限而未解出，与其他 `policy_timeout` 没有区别。墙钟都在 3600 s 以上。
+- **处理**：
+  - `is_timeout` 增加一条：在 policy_timeout 上限下以 SIGXCPU 退出即为超时；v7 / v8 / v9 / v10 控制器都传入退出码。测试见 `tests/test_run_timeout_policy.py`，15 项全部通过。
+  - 记录文件不修改；分析代码（validation、stress、ledger）对旧记录应用同一规则，清单由 `scripts/cross_scale_v10/status_corrections.py` 生成。
+  - 这一改动只涉及状态分类，不改变计时、上限、运行 id 或任何选择；12 个运行都没有给出答案。
+
+### 平台说明：外部阶段与外推阶段同节点
+
+`external` 与 `extrap` 两个作业被分到同一节点（cpu-207-123）。外部运行的墙钟 / CPU 中位为 1.28（其他阶段约 1.0），说明有分时。指标是 CPU 时间，所以只在报告中如实记录，不重跑。
+
+### 完成（2026-10-26 23:45 UTC）
+
+确认、外推、外部、`deploy_dev` 与可选的原 55 题压力测试全部完成。最终报告：[FINAL_REPORT.md](../reports/cross_scale_v10/FINAL_REPORT.md)。

@@ -227,7 +227,7 @@ def finalize(job, stage_dir):
         ver = fprun.verify(job.exit_code, job.cnf, so, proof, max(300.0, job.cpu), MEM_MB, job.wd)
         status = {True: "solved", False: "wrong"}.get(ver["ok"] if ver else None, "unverified")
         status = run_timeout_policy.classify_after_cap(True, job.cpu, job.spec, status)
-    elif run_timeout_policy.is_timeout(job.cpu, job.spec):  # controller stop or kernel SIGXCPU at the cap
+    elif run_timeout_policy.is_timeout(job.cpu, job.spec, job.exit_code):  # controller stop or kernel SIGXCPU at the cap
         status = "policy_timeout"
     elif job.spec["method"] == "PROBE" and job.exit_code == 0 and dec and dec.get("path") == "probe_unsolved":
         status = "probe_unsolved"

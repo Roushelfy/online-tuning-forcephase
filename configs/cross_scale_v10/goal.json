@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "goal_version": 10,
-  "status": "S0 committed (protocol, audit, stage plan); no v10 solver run yet",
+  "status": "completed 2026-10-26: reports/cross_scale_v10/FINAL_REPORT.md",
   "goal_document": "docs/AGENT_GOAL.md",
   "date": "2026-10-26",
   "research_question": "Can cheap static/default/paired three-mode probes select once among D/F+/F- and improve over development SBS across scales?",

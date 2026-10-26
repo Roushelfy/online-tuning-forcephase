@@ -6,7 +6,20 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **当前资源政策：每题每方法3600 CPU秒，项目与阶段累计核时不限。**在线方法的观察、重启与正式求解合计计时；超时不冒充完成时间。见 [RESOURCE_POLICY.md](docs/RESOURCE_POLICY.md)、[run_timeout_policy.json](configs/run_timeout_policy.json)。
 
-**当前目标：[Agent Goal v10：跨规模的低成本三选一](docs/AGENT_GOAL.md)（2026-10-26，尚未执行）。**审计v5已有配对短试跑，比较静态、默认前缀与三模式配对前缀的真实成本和增量；新270开发、270确认、90规模外推及约120外部题；以开发SBS为必要对照，保守选择、冻结后真实部署。v9目标已存档：[AGENT_GOAL_ONLINE_SELECTION_V9.md](docs/AGENT_GOAL_ONLINE_SELECTION_V9.md)。
+**Agent Goal v10（跨规模的低成本三选一）：已交付，[reports/cross_scale_v10/FINAL_REPORT.md](reports/cross_scale_v10/FINAL_REPORT.md)。**
+
+- **面板**：随机 3-SAT、图三着色、耦合分配，开发三档加一个外推档；开发 270、确认 270（H1 / H2 / H3）、外推 90，SATLIB 16 个家族 118 题；单次 3600 CPU s。
+- **观察族**：静态（A）、默认 D 前缀（B）、D / F+ / F− 三臂配对前缀（C），各配同成本无内容对照。
+- **三模式配对试跑是负结果**：C 比 B 多花 14%，N_C 比 N_B 多花 8%。
+- **冻结主策略 B**：静态 + D 2 s 预求解，未解则用岭回归在基线 F− 与偏离之间选一次。确认 270 题上：
+  - 相对开发 SBS（F−）+18.5% [+4.4, +30.9]；
+  - 相对同成本无内容对照（D 2 s → F−）+19.0% [+4.8, +31.4]。
+
+  但收益集中：一题占净收益 63%，去掉后 +8.8%。收益只来自 L 档，本质上是按 CNF 结构的类型路由（着色 → F+、随机 → F−、大分配 → D）。相对事后最好的固定模式 F+ 只有 +12.0% [−0.4, +27.0]。
+- **外推 90 题**：主策略与 F+ 都是 90 / 90，相对 F+ +10.7% [−3.3, +25.0]。
+- **外部 118 题**：D 最好（114 解），主策略 113。
+
+协议：[CROSS_SCALE_PROTOCOL_V10.md](docs/CROSS_SCALE_PROTOCOL_V10.md)；目标：[AGENT_GOAL.md](docs/AGENT_GOAL.md)。v9 目标已存档：[AGENT_GOAL_ONLINE_SELECTION_V9.md](docs/AGENT_GOAL_ONLINE_SELECTION_V9.md)。
 
 **Agent Goal v9（默认短预求解后的三选一）：已交付，[reports/online_selection_v9/FINAL_REPORT.md](reports/online_selection_v9/FINAL_REPORT.md)。**新生成 270 开发 + 270 留出（H1/H2/H3）题：随机3-SAT、图3着色、新的双边容量耦合分配，各三档规模，全部运行完成并独立验证。按预注册规则，开发集嵌套交叉验证中时间门（D先τ秒再F±）与内容门都没有胜过固定 F+，主策略为开发集 SBS＝始终 F+：留出 31.36 s 对 D 57.91 s，**+45.8% [+30.4, +54.6]**；参照“D 2 s → F+”为 +49.7% [+39.8, +55.8]，但相对 F+ 仅 +7.2% [−2.1, +20.7]（来自两道随机 SAT 大题，不可靠）。单因素消融：UNSAT 上 forcephase 的优势来自强制固定方向、跳过 saved/target 相位，而非关闭 rephase（纠正 v8 措辞）。F+ 的收益不外推：更大着色仍 +31–64%，更大分配题 −118%/−336%，更大随机题 −103%/+42%（外推 90 题整体 −44%）；SATLIB 小题上无收益。原55题：恢复运行解出此前无人解出的 c7bf3517f4（UNSAT），oracle 51/55，D 与冻结选择器 49/55（均值 null）。2026-10-25 起采用每题每方法 3600 CPU 秒单次超时（累计不限）：剩余约 85,000 s 的 13 个运行已停止（policy_timeout），控制器已接入并测试，v9 留出 270 题无一超过 3600 s、主比较不变；3600 s 视图见 [TIMEOUT_3600.md](reports/online_selection_v9/TIMEOUT_3600.md)。协议：[ONLINE_SELECTION_PROTOCOL_V9.md](docs/ONLINE_SELECTION_PROTOCOL_V9.md)；算力只计量（[COMPUTE.md](results/online_selection_v9/COMPUTE.md)）。v8 目标存档：[AGENT_GOAL_STRATIFIED_V8.md](docs/AGENT_GOAL_STRATIFIED_V8.md)。
 

@@ -1,0 +1,2448 @@
+{
+ "any_fixed_solved": 46,
+ "limit": 3600,
+ "methods": [
+  "D",
+  "Fp",
+  "Fm",
+  "W_main",
+  "W_ref"
+ ],
+ "n": 55,
+ "not_reconstructable_left": {
+  "Fm": [],
+  "Fp": []
+ },
+ "paired": {
+  "Fm_vs_D": {
+   "gained": [
+    "0a8a4c28d27228e954354ea0a6e7f16c",
+    "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+    "ac3e3bb744e258282990aa4307c08cb8",
+    "af834fd3ce15078d2ab055c996758c00"
+   ],
+   "lost": [
+    "1b8806812861df2b7e91dc316ad1ef80",
+    "9541d12f3e3d9201085c13f25145d2f7",
+    "b88d206fb35ef87bd7ec5d4a1430ae0c",
+    "c8cde50f32ca3f78a4c74a173c63449b"
+   ]
+  },
+  "Fp_vs_D": {
+   "gained": [
+    "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+    "ac3e3bb744e258282990aa4307c08cb8"
+   ],
+   "lost": [
+    "090eefb9bc472f6478e70baf2c6d2403",
+    "1afa2d7a3d817c3149da432eece66da8",
+    "1b8806812861df2b7e91dc316ad1ef80",
+    "9541d12f3e3d9201085c13f25145d2f7",
+    "98c6da979a0a22d384d465a1da17111e",
+    "c8cde50f32ca3f78a4c74a173c63449b"
+   ]
+  },
+  "W_main_vs_D": {
+   "gained": [
+    "0a8a4c28d27228e954354ea0a6e7f16c",
+    "ac3e3bb744e258282990aa4307c08cb8"
+   ],
+   "lost": [
+    "1b8806812861df2b7e91dc316ad1ef80",
+    "69e34d0f49c71a7e145d8104ebe0273f",
+    "9541d12f3e3d9201085c13f25145d2f7",
+    "98c6da979a0a22d384d465a1da17111e",
+    "b88d206fb35ef87bd7ec5d4a1430ae0c"
+   ]
+  },
+  "W_main_vs_Fm": {
+   "gained": [
+    "c8cde50f32ca3f78a4c74a173c63449b"
+   ],
+   "lost": [
+    "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+    "69e34d0f49c71a7e145d8104ebe0273f",
+    "98c6da979a0a22d384d465a1da17111e",
+    "af834fd3ce15078d2ab055c996758c00"
+   ]
+  },
+  "W_main_vs_W_ref": {
+   "gained": [
+    "c8cde50f32ca3f78a4c74a173c63449b"
+   ],
+   "lost": [
+    "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+    "af834fd3ce15078d2ab055c996758c00"
+   ]
+  },
+  "W_ref_vs_D": {
+   "gained": [
+    "0a8a4c28d27228e954354ea0a6e7f16c",
+    "0ef0d91d378eab41ba6fb9dfc9b87fc8",
+    "ac3e3bb744e258282990aa4307c08cb8",
+    "af834fd3ce15078d2ab055c996758c00"
+   ],
+   "lost": [
+    "1b8806812861df2b7e91dc316ad1ef80",
+    "69e34d0f49c71a7e145d8104ebe0273f",
+    "9541d12f3e3d9201085c13f25145d2f7",
+    "98c6da979a0a22d384d465a1da17111e",
+    "b88d206fb35ef87bd7ec5d4a1430ae0c",
+    "c8cde50f32ca3f78a4c74a173c63449b"
+   ]
+  }
+ },
+ "panel": "old 55 (v7)",
+ "per_instance": {
+  "032941f5f28c9ac53fa1c80d35f3206f": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 12.561981,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 12.073329000000001,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 12.416640000000001,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 16.813725,
+    "cpu": 16.813725,
+    "path": "missing",
+    "pre_exec_cpu": 4.213699,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 14.710808,
+    "cpu": 14.710808,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1927649999999996,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "0398e6b20de133ba8b49c74b67dad7b7": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 7.272188,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 14.565959999999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 18.075247,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 9.258039,
+    "cpu": 9.258039,
+    "path": "reader",
+    "pre_exec_cpu": 2.077762,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 16.84665,
+    "cpu": 16.84665,
+    "path": "fallback",
+    "pre_exec_cpu": 2.051398,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "048142b6048cb6c10415e08f68a2c3a3": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 6.089495,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 5.804811,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 6.0126219999999995,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 10.410343000000001,
+    "cpu": 10.410343000000001,
+    "path": "missing",
+    "pre_exec_cpu": 4.169391,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 8.376242999999999,
+    "cpu": 8.376242999999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.150397,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "07b7859003d84402cbb1ebdc37655d55": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 71.05642499999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 94.89587,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 113.35684499999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 102.52398,
+    "cpu": 102.52398,
+    "path": "reader",
+    "pre_exec_cpu": 2.0525710000000004,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 104.035309,
+    "cpu": 104.035309,
+    "path": "fallback",
+    "pre_exec_cpu": 2.049293,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "07df5e6f674201e2bf31bcaa8866ba75": {
+   "D": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.572192,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 3.874372,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.1875219999997,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.161092,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "090eefb9bc472f6478e70baf2c6d2403": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 793.681605,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 788.4668270000001,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 799.623161,
+    "cpu": 799.623161,
+    "path": "missing",
+    "pre_exec_cpu": 4.193075,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 805.908155,
+    "cpu": 805.908155,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1383340000000004,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "0a8a4c28d27228e954354ea0a6e7f16c": {
+   "D": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 43.893592,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 53.798381000000006,
+    "cpu": 53.798381000000006,
+    "path": "missing",
+    "pre_exec_cpu": 3.648052,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 51.63795399999999,
+    "cpu": 51.63795399999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.169248,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "0ef0d91d378eab41ba6fb9dfc9b87fc8": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 1431.8909270000001,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 2325.988097,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 3600.0047720000002,
+    "cpu": null,
+    "path": "reader",
+    "pre_exec_cpu": 3.2231389999999998,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 1770.505392,
+    "cpu": 1770.505392,
+    "path": "fallback",
+    "pre_exec_cpu": 2.137883,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "1427381a809c64c721838894ece6756d": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 10.93594,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 4.739733,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 75.27769599999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 8.854144999999999,
+    "cpu": 8.854144999999999,
+    "path": "missing",
+    "pre_exec_cpu": 3.574979,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 7.020796,
+    "cpu": 7.020796,
+    "path": "fallback",
+    "pre_exec_cpu": 2.073255,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "1afa2d7a3d817c3149da432eece66da8": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 17.557560000000002,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 8.976412999999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 15.472617,
+    "cpu": 15.472617,
+    "path": "missing",
+    "pre_exec_cpu": 4.114271,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 13.393156,
+    "cpu": 13.393156,
+    "path": "fallback",
+    "pre_exec_cpu": 2.093609,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "1b8806812861df2b7e91dc316ad1ef80": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 136.955899,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.5529829999996,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 4.111763,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.334633,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.089503,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "218f0eccbff400e06c9736bd759c1d3a": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 2.728862,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 1.779817,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 1.689965,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "actual_cpu": 3.190499,
+    "cpu": 3.190499,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "actual_cpu": 1.857256,
+    "cpu": 1.857256,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "25cc054738293c0d9377d7b72b78a341": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 1124.4453890000002,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 1343.015739,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 1314.622338,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 1495.1641869999999,
+    "cpu": 1495.1641869999999,
+    "path": "missing",
+    "pre_exec_cpu": 4.191974999999999,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 1501.2382790000001,
+    "cpu": 1501.2382790000001,
+    "path": "fallback",
+    "pre_exec_cpu": 2.178324,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "28e45a3e488ddac73b6116cc6f3e67e0": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 5.359719,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 5.258018,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 5.0560719999999995,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 9.811415,
+    "cpu": 9.811415,
+    "path": "missing",
+    "pre_exec_cpu": 4.2039729999999995,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 7.739357,
+    "cpu": 7.739357,
+    "path": "fallback",
+    "pre_exec_cpu": 2.184173,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "2e058841373f34cc47d8dec927fd1796": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 152.75142,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 504.23666000000003,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 59.942358,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 516.546932,
+    "cpu": 516.546932,
+    "path": "missing",
+    "pre_exec_cpu": 4.138063,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 534.848949,
+    "cpu": 534.848949,
+    "path": "fallback",
+    "pre_exec_cpu": 2.154567,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "37c88155822f1934a190dd6f4614f0ce": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 876.271871,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 715.4361409999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 684.028642,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 679.733645,
+    "cpu": 679.733645,
+    "path": "reader",
+    "pre_exec_cpu": 3.8303230000000004,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 678.9552669999999,
+    "cpu": 678.9552669999999,
+    "path": "fallback",
+    "pre_exec_cpu": 2.2238770000000003,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "3b0eeddcabf36da8642c5774ac67680c": {
+   "D": {
+    "answer": "SAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.388113,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 4.155877,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.312945,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.122289,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "488b147304549670f31653c932684e2c": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 64.99117700000001,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 65.574268,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 57.830498,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 74.18208000000001,
+    "cpu": 74.18208000000001,
+    "path": "reader",
+    "pre_exec_cpu": 2.0935469999999996,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 76.716511,
+    "cpu": 76.716511,
+    "path": "fallback",
+    "pre_exec_cpu": 2.053426,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "4af0fbe3087b6e3ad54177e16b85ed06": {
+   "D": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.2148700000002,
+    "cpu": null,
+    "path": "reader",
+    "pre_exec_cpu": 2.23828,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.130372,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.0593879999999998,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "511a2d81661a185c2115daec42270dec": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 652.962472,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 797.066346,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 980.205856,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 680.0731089999999,
+    "cpu": 680.0731089999999,
+    "path": "reader",
+    "pre_exec_cpu": 3.656036,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 891.426467,
+    "cpu": 891.426467,
+    "path": "fallback",
+    "pre_exec_cpu": 2.231922,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "54d496c14fd2461642ef6be5341b297b": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 0.973949,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 0.979279,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 0.981216,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "actual_cpu": 2.4172890000000002,
+    "cpu": 2.4172890000000002,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "actual_cpu": 1.006322,
+    "cpu": 1.006322,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "5ceb95f5960efe1f23c3014847dea118": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 634.869324,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 722.469164,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 542.41121,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 748.109145,
+    "cpu": 748.109145,
+    "path": "missing",
+    "pre_exec_cpu": 3.904936,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 645.092441,
+    "cpu": 645.092441,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1640129999999997,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "6543793076c30fc7cdfa5a3c819cedc7": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 1091.784441,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 760.4325869999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 1329.966126,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 635.2090750000001,
+    "cpu": 635.2090750000001,
+    "path": "missing",
+    "pre_exec_cpu": 4.244876,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 755.7973330000001,
+    "cpu": 755.7973330000001,
+    "path": "fallback",
+    "pre_exec_cpu": 2.208946,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "65b1e2253626af4a72b954f8186a5880": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 134.866336,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 156.102815,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 162.373449,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 187.620579,
+    "cpu": 187.620579,
+    "path": "missing",
+    "pre_exec_cpu": 4.194464,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 188.25914200000003,
+    "cpu": 188.25914200000003,
+    "path": "fallback",
+    "pre_exec_cpu": 2.172085,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "69e34d0f49c71a7e145d8104ebe0273f": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 1073.950052,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 3439.0749849999997,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 838.227261,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.162146,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 4.128648,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.118725,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.098862,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "761651d4b6454108403bdefe22720fb3": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 437.50843299999997,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 392.967593,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 216.402438,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 359.83873900000003,
+    "cpu": 359.83873900000003,
+    "path": "reader",
+    "pre_exec_cpu": 3.421388,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 372.27975299999997,
+    "cpu": 372.27975299999997,
+    "path": "fallback",
+    "pre_exec_cpu": 2.088969,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "7ff8c9781b3ada449ce489cdf444a760": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.492178,
+    "cpu": null,
+    "path": "reader",
+    "pre_exec_cpu": 2.06635,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.078131,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.057083,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "80bb5209e88def5643bf5593320b104f": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 6.356494,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 6.327564,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 6.334251,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 10.987419000000001,
+    "cpu": 10.987419000000001,
+    "path": "missing",
+    "pre_exec_cpu": 4.145443,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 9.46237,
+    "cpu": 9.46237,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1258739999999996,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "8cfc8e99d31bcaf18ff3360b08c8521c": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.313149,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 3.756912,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3599.84223,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.197866,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "8db998d5fd64f85a1847115208f73873": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 1.778584,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 1.7910979999999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 1.782267,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D_probe",
+    "actual_cpu": 3.359536,
+    "cpu": 3.359536,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "D_probe",
+    "actual_cpu": 1.819653,
+    "cpu": 1.819653,
+    "path": "probe_solved",
+    "pre_exec_cpu": null,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "9541d12f3e3d9201085c13f25145d2f7": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 1933.238647,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.437007,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 3.79541,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3599.9920930000003,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.120808,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "96a472b1fd7bf855fbe44fc2d5e745ce": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 22.612037,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 37.044996,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 94.709716,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 42.608408,
+    "cpu": 42.608408,
+    "path": "missing",
+    "pre_exec_cpu": 4.148111,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 40.746522999999996,
+    "cpu": 40.746522999999996,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1278639999999998,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "98c6da979a0a22d384d465a1da17111e": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 3158.316456,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 3065.9953530000003,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.477313,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 4.164835999999999,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.521277,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.161613,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "9c5dd2eb0a40a150c686459a118c720a": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 8.934851,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 8.920248,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 9.067252,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 13.288971,
+    "cpu": 13.288971,
+    "path": "missing",
+    "pre_exec_cpu": 4.190467999999999,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 11.288713000000001,
+    "cpu": 11.288713000000001,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1664519999999996,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "a28f59752c160af22b6d04cb89ddf802": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 2938.5233439999997,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 2679.5575830000002,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 2596.794751,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 2639.432839,
+    "cpu": 2639.432839,
+    "path": "missing",
+    "pre_exec_cpu": 4.260789,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 2638.393655,
+    "cpu": 2638.393655,
+    "path": "fallback",
+    "pre_exec_cpu": 2.212451,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "aa6e6f67719ca43aef922f2ebabc409a": {
+   "D": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 3600.4418889999997,
+    "cpu": null,
+    "path": "reader",
+    "pre_exec_cpu": 3.246697,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.317366,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.096962,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "ac3e3bb744e258282990aa4307c08cb8": {
+   "D": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 1771.716109,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 3596.592654,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 2201.895121,
+    "cpu": 2201.895121,
+    "path": "reader",
+    "pre_exec_cpu": 3.212525,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 2173.2516180000002,
+    "cpu": 2173.2516180000002,
+    "path": "fallback",
+    "pre_exec_cpu": 2.124317,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "af834fd3ce15078d2ab055c996758c00": {
+   "D": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 50.080506,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 3600.169366,
+    "cpu": null,
+    "path": "reader",
+    "pre_exec_cpu": 3.434666,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 60.399823999999995,
+    "cpu": 60.399823999999995,
+    "path": "fallback",
+    "pre_exec_cpu": 2.134163,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "b64f7d56f1b369fac6a3bcb1efd784da": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 51.755832999999996,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 345.37507700000003,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 2242.557358,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 345.308807,
+    "cpu": 345.308807,
+    "path": "missing",
+    "pre_exec_cpu": 4.144728,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 335.599563,
+    "cpu": 335.599563,
+    "path": "fallback",
+    "pre_exec_cpu": 2.103586,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "b88d206fb35ef87bd7ec5d4a1430ae0c": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 1002.156743,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 983.866867,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.516713,
+    "cpu": null,
+    "path": "reader",
+    "pre_exec_cpu": 3.070572,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3600.219037,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.071197,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "c03f7f84f6ac9e523c17e391c3895183": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 580.1699550000001,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 284.392995,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 298.749145,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 326.035108,
+    "cpu": 326.035108,
+    "path": "missing",
+    "pre_exec_cpu": 4.157958,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 324.948808,
+    "cpu": 324.948808,
+    "path": "fallback",
+    "pre_exec_cpu": 2.132327,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "c1b30b4e03c3024ad9d084e29e79aa46": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 29.769057,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 59.058803999999995,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 45.672345,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 64.884398,
+    "cpu": 64.884398,
+    "path": "reader",
+    "pre_exec_cpu": 2.04973,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 65.092492,
+    "cpu": 65.092492,
+    "path": "fallback",
+    "pre_exec_cpu": 2.042011,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "c3de1f05d136b8ec420732ca829f3217": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 126.402995,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 140.83331299999998,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 142.156742,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 170.47153500000002,
+    "cpu": 170.47153500000002,
+    "path": "missing",
+    "pre_exec_cpu": 4.169150999999999,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 168.866927,
+    "cpu": 168.866927,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1525659999999998,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "c7bf3517f47d583ae567de3db3708969": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3600.4131279999997,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 4.288648,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3599.4378779999997,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.259271,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "c8cde50f32ca3f78a4c74a173c63449b": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 631.6138100000001,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": true,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 598.531239,
+    "cpu": 598.531239,
+    "path": "reader",
+    "pre_exec_cpu": 4.119311,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3599.649165,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.10019,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "c8e64404361f2426490d39459832c66a": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 69.408575,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 14.533339999999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 8.931404,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 20.048048,
+    "cpu": 20.048048,
+    "path": "missing",
+    "pre_exec_cpu": 4.186509,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 20.066609,
+    "cpu": 20.066609,
+    "path": "fallback",
+    "pre_exec_cpu": 2.165166,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "ca6db14aaa04027d2b8af47ec910bd68": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 746.239717,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 1729.573424,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 179.667857,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 1893.702158,
+    "cpu": 1893.702158,
+    "path": "missing",
+    "pre_exec_cpu": 4.175118,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 1744.889862,
+    "cpu": 1744.889862,
+    "path": "fallback",
+    "pre_exec_cpu": 2.140307,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "d5b11b0b73eb4ecebdbf6ee8143da689": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3599.646714,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 4.249786,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3599.3776430000003,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.207118,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "d699355595398f0765c5f51c9d0ad852": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 12.47274,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 12.33389,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 12.599917999999999,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 16.712892,
+    "cpu": 16.712892,
+    "path": "missing",
+    "pre_exec_cpu": 4.151108,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 14.603063,
+    "cpu": 14.603063,
+    "path": "fallback",
+    "pre_exec_cpu": 2.120629,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "dbbcaa7797145dfddfa4fe73ce91fdec": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fm": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "Fp": {
+    "answer": null,
+    "cpu": null,
+    "new_3600_run": false,
+    "solved": false,
+    "status": "timeout"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 3598.985609,
+    "cpu": null,
+    "path": "missing",
+    "pre_exec_cpu": 3.5717719999999997,
+    "solved": false,
+    "status": "policy_timeout"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 3598.78502,
+    "cpu": null,
+    "path": "fallback",
+    "pre_exec_cpu": 2.128839,
+    "solved": false,
+    "status": "policy_timeout"
+   }
+  },
+  "e2deb375e56da2360ecd08fc1179fb7d": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 183.023188,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 207.02336,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 492.826767,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 205.755119,
+    "cpu": 205.755119,
+    "path": "reader",
+    "pre_exec_cpu": 3.458417,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 243.806803,
+    "cpu": 243.806803,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1651429999999996,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "e8abb9c83efdd96a99990f3b914ea873": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 169.535174,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 359.16738100000003,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 280.562441,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 361.21634500000005,
+    "cpu": 361.21634500000005,
+    "path": "missing",
+    "pre_exec_cpu": 4.185941,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 363.19500600000003,
+    "cpu": 363.19500600000003,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1398099999999998,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "ed410c758e5025f1bb97922574d1c2ff": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 1119.6461699999998,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 1738.053609,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 2299.0598640000003,
+    "new_3600_run": true,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "D",
+    "actual_cpu": 1166.005631,
+    "cpu": 1166.005631,
+    "path": "reader",
+    "pre_exec_cpu": 2.3221900000000004,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 1672.488597,
+    "cpu": 1672.488597,
+    "path": "fallback",
+    "pre_exec_cpu": 2.1203339999999997,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "f554b55356a5e0ed39dbf8c1030ebce0": {
+   "D": {
+    "answer": "SAT",
+    "cpu": 14.67138,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "SAT",
+    "cpu": 14.711822,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "SAT",
+    "cpu": 14.578812000000001,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 20.131181,
+    "cpu": 20.131181,
+    "path": "missing",
+    "pre_exec_cpu": 4.321538,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 17.950393,
+    "cpu": 17.950393,
+    "path": "fallback",
+    "pre_exec_cpu": 2.30146,
+    "solved": true,
+    "status": "solved"
+   }
+  },
+  "f6a085f3c728e53f57542e62df20e56b": {
+   "D": {
+    "answer": "UNSAT",
+    "cpu": 59.078986,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fm": {
+    "answer": "UNSAT",
+    "cpu": 45.339779,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "Fp": {
+    "answer": "UNSAT",
+    "cpu": 100.433569,
+    "new_3600_run": false,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_main": {
+    "action": "Fm",
+    "actual_cpu": 53.917559000000004,
+    "cpu": 53.917559000000004,
+    "path": "missing",
+    "pre_exec_cpu": 4.18553,
+    "solved": true,
+    "status": "solved"
+   },
+   "W_ref": {
+    "action": "Fm",
+    "actual_cpu": 51.898547,
+    "cpu": 51.898547,
+    "path": "fallback",
+    "pre_exec_cpu": 2.144752,
+    "solved": true,
+    "status": "solved"
+   }
+  }
+ },
+ "summary": {
+  "D": {
+   "complete_mean": null,
+   "solved": 42,
+   "statuses": {
+    "solved": 42,
+    "timeout": 13
+   },
+   "time_points": {
+    "1": 1,
+    "10": 8,
+    "3600": 42,
+    "60": 17,
+    "600": 28
+   }
+  },
+  "Fm": {
+   "complete_mean": null,
+   "solved": 42,
+   "statuses": {
+    "solved": 42,
+    "timeout": 13
+   },
+   "time_points": {
+    "1": 1,
+    "10": 9,
+    "3600": 42,
+    "60": 19,
+    "600": 29
+   }
+  },
+  "Fp": {
+   "complete_mean": null,
+   "solved": 38,
+   "statuses": {
+    "solved": 38,
+    "timeout": 17
+   },
+   "time_points": {
+    "1": 1,
+    "10": 8,
+    "3600": 38,
+    "60": 15,
+    "600": 27
+   }
+  },
+  "W_main": {
+   "actions": {
+    "D": 9,
+    "D_probe": 3,
+    "Fm": 43
+   },
+   "complete_mean": null,
+   "paths": {
+    "missing": 35,
+    "probe_solved": 3,
+    "reader": 17
+   },
+   "solved": 39,
+   "statuses": {
+    "policy_timeout": 16,
+    "solved": 39
+   },
+   "time_points": {
+    "1": 0,
+    "10": 6,
+    "3600": 39,
+    "60": 17,
+    "600": 29
+   }
+  },
+  "W_ref": {
+   "actions": {
+    "D_probe": 3,
+    "Fm": 52
+   },
+   "complete_mean": null,
+   "paths": {
+    "fallback": 52,
+    "probe_solved": 3
+   },
+   "solved": 40,
+   "statuses": {
+    "policy_timeout": 15,
+    "solved": 40
+   },
+   "time_points": {
+    "1": 0,
+    "10": 7,
+    "3600": 40,
+    "60": 17,
+    "600": 29
+   }
+  }
+ }
+}

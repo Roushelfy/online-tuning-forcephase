@@ -1,6 +1,6 @@
 # Agent Goal v10：跨规模的低成本 D / F+ / F− 三选一
 
-设定日期：2026-10-26（美东）。状态：执行中——S0（旧实验审计、协议、阶段计划）已在任何 v10 求解前提交，见 [CROSS_SCALE_PROTOCOL_V10.md](CROSS_SCALE_PROTOCOL_V10.md)、[PRIOR_AUDIT.md](../reports/cross_scale_v10/PRIOR_AUDIT.md)。分支 research/forcephase-study。
+设定日期：2026-10-26（美东）。状态：**已完成（2026-10-26 UTC）**，见 [FINAL_REPORT.md](../reports/cross_scale_v10/FINAL_REPORT.md)。S0（审计、协议）在任何 v10 求解前提交，面板与规则按协议冻结（`v10-panel-freeze`、`v10-rule-freeze`），确认 / 外推 / 外部验证与可选的原 55 题压力测试都已完成。分支 research/forcephase-study。
 
 ## 1. 核心目标与研究边界
 

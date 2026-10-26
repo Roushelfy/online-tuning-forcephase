@@ -1,0 +1,137 @@
+{
+ "note": "Records stopped by the kernel CPU limit (SIGXCPU, exit -24) at the per-run cap whose reported rusage was slightly below cap - 0.5 s (kernel runtime runs up to ~1.5 s ahead of rusage on large formulas; wrappers round the remaining budget up to whole seconds), so the controller stored 'error'. They are policy timeouts; record files are unchanged and the analysis applies the corrected rule.",
+ "corrections": [
+  {
+   "stage": "external",
+   "id": "0a0988dc1b993658200e35fcd160ccc51606ba60",
+   "instance": "v10e-gcp-large-g125.18",
+   "method": "W (configs/cross_scale_v10/frozen/main.json)",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3599.221257,
+   "wall": 4617.357398033142
+  },
+  {
+   "stage": "external",
+   "id": "233f3db1335b2d54e08079841376c808d64f8817",
+   "instance": "v10e-gcp-large-g250.29",
+   "method": "Fm",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3598.8566769999998,
+   "wall": 4619.690691709518
+  },
+  {
+   "stage": "external",
+   "id": "2c010c468f0e3c8f95b406d8ca31972707fab9c9",
+   "instance": "v10e-gcp-large-g125.17",
+   "method": "W (configs/cross_scale_v10/frozen/main.json)",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3599.381351,
+   "wall": 4614.393251657486
+  },
+  {
+   "stage": "external",
+   "id": "3946a69182162042de6d4a4f47ed0f8763f76c19",
+   "instance": "v10e-gcp-large-g250.29",
+   "method": "W (configs/cross_scale_v10/frozen/reference.json)",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3599.486625,
+   "wall": 4621.634061336517
+  },
+  {
+   "stage": "external",
+   "id": "75f5568715d3489a6fb74218cbf7d95665991c06",
+   "instance": "v10e-gcp-large-g125.18",
+   "method": "Fm",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3599.109588,
+   "wall": 4615.85822892189
+  },
+  {
+   "stage": "extrap",
+   "id": "0c137a306af7421b3f60342cd7e7eb3e03990038",
+   "instance": "v10-col3-X-27",
+   "method": "W (configs/cross_scale_v10/frozen/reference.json)",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3599.066928,
+   "wall": 3601.203639984131
+  },
+  {
+   "stage": "stress_old55",
+   "id": "072f60a1e90f95dbe0dd5f0470e8fb5ae136f408",
+   "instance": "d5b11b0b73eb4ecebdbf6ee8143da689",
+   "method": "W (configs/cross_scale_v10/frozen/reference.json)",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3599.3776430000003,
+   "wall": 3661.8081028461456
+  },
+  {
+   "stage": "stress_old55",
+   "id": "a9041350936cb161025971950ce463dba1b3e4a8",
+   "instance": "dbbcaa7797145dfddfa4fe73ce91fdec",
+   "method": "W (configs/cross_scale_v10/frozen/reference.json)",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3598.78502,
+   "wall": 3651.208575487137
+  },
+  {
+   "stage": "stress_old55",
+   "id": "abff2ae86b647d879d32ae786f48ff5c77c9b033",
+   "instance": "dbbcaa7797145dfddfa4fe73ce91fdec",
+   "method": "W (configs/cross_scale_v10/frozen/main.json)",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3598.985609,
+   "wall": 3650.3088331222534
+  },
+  {
+   "stage": "stress_old55",
+   "id": "b6f1e17f5e8fb99f7f367c1dd2a347a1712c0a0e",
+   "instance": "c7bf3517f47d583ae567de3db3708969",
+   "method": "W (configs/cross_scale_v10/frozen/reference.json)",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3599.4378779999997,
+   "wall": 3659.857954263687
+  },
+  {
+   "stage": "stress_old55_fixed",
+   "id": "5080d22660072e54b89715c19d762a1bb657158c",
+   "instance": "090eefb9bc472f6478e70baf2c6d2403",
+   "method": "Fp",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3598.471041,
+   "wall": 3633.268248319626
+  },
+  {
+   "stage": "stress_old55_fixed",
+   "id": "e240c52d7bdc563c98ab8cf55840c7ed58402620",
+   "instance": "98c6da979a0a22d384d465a1da17111e",
+   "method": "Fp",
+   "stored_status": "error",
+   "status": "policy_timeout",
+   "exit_code": -24,
+   "cpu": 3599.3659820000003,
+   "wall": 3621.640413045883
+  }
+ ]
+}
