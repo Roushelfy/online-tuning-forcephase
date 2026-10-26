@@ -1,0 +1,14 @@
+{
+ "schema_version": 1,
+ "note": "Pre-pilot candidates (protocol section 3.2), from the v9 per-parameter D cost (exposed data, default cost only): dev levels S/M/L spread from sub-second to about a minute of D CPU (geometric mean), X = one level beyond L chosen for 3600 s coverage. The pilot rule (section 3.3) may move them once; no second pilot.",
+ "params": {
+  "rand3": {"S": 220, "M": 290, "L": 340, "X": 360},
+  "col3": {"S": 350, "M": 450, "L": 550, "X": 625},
+  "assign2": {"S": 250, "M": 350, "L": 450, "X": 550}
+ },
+ "v9_reference_geometric_mean_D_cpu": {
+  "rand3": {"260": 1.34, "300": 4.75, "350": 49.1, "375": 6.6, "400": 42.2},
+  "col3": {"400": 0.32, "500": 1.89, "550": 2.89, "575": 5.04, "600": 9.35},
+  "assign2_F": {"300": 1.25, "350": 3.44, "450": 15.1, "550": 73.7, "700": 559}
+ }
+}

@@ -23,3 +23,5 @@ $CC -O2 -Wall -static -o "$OUT/cnfscramble" "$ROOT/tools/cnfscramble.c"
   done
 } > "$OUT/BUILDINFO"
 cat "$OUT/BUILDINFO"
+# goal v10 (family A static analysis): appended 2026-10-26; does not rebuild the tools above
+#   gcc -O2 -Wall -static -o build/tools/static10 tools/static10.c -lm

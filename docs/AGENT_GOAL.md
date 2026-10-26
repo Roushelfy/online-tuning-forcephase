@@ -1,6 +1,6 @@
 # Agent Goal v10：跨规模的低成本 D / F+ / F− 三选一
 
-设定日期：2026-10-26（美东）。状态：目标已设定，尚未执行新实验。分支 research/forcephase-study。
+设定日期：2026-10-26（美东）。状态：执行中——S0（旧实验审计、协议、阶段计划）已在任何 v10 求解前提交，见 [CROSS_SCALE_PROTOCOL_V10.md](CROSS_SCALE_PROTOCOL_V10.md)、[PRIOR_AUDIT.md](../reports/cross_scale_v10/PRIOR_AUDIT.md)。分支 research/forcephase-study。
 
 ## 1. 核心目标与研究边界
 

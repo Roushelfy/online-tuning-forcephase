@@ -198,3 +198,17 @@ M5 唯一主要候选的选择规则（在看到 M4-lite 结果之前固定）�
 - 报告：[TIMEOUT_3600.md](../reports/online_selection_v9/TIMEOUT_3600.md)，以及更新后的 OLD55_PROGRESS、VALIDATION（外推最终结果）与 FINAL_REPORT。
 - 3600 s 视图：原 55 题 D 42/55；v9 留出 270/270，与冻结主比较相同；外推 D 82/90。
 - extrap 作业曾在 10-24 约 18:05 被 Slurm 重新排队，被杀死部分约 15.3 核时（上限估计）只入账本。
+
+## 2026-10-26 — Agent Goal v10：跨规模的低成本三选一（S0）
+
+- 在任何 v10 求解之前提交：
+  - 旧实验审计 [PRIOR_AUDIT.md](../reports/cross_scale_v10/PRIOR_AUDIT.md)：v4–v9 的静态、默认前缀与三模式配对试跑，以及计时、状态、run_id、证明、日志；
+  - 协议 [CROSS_SCALE_PROTOCOL_V10.md](CROSS_SCALE_PROTOCOL_V10.md)；
+  - 阶段计划 `configs/cross_scale_v10/stage_plan.json`；
+  - 外部选题规则 `configs/cross_scale_v10/external_rule.json`。
+- 新代码：
+  - `tools/static10.c`：20 个静态指标，确定性，有工作量上限；
+  - `scripts/cross_scale_v10/`：common、wrapper、runner、gen、plans、slurm_run；
+  - `tests/test_cross_scale_v10.py`：静态分析、三个 probe 与重启共用一个上限；第一个 probe 的答案直接返回；MEASURE 模式中每个 probe 独立运行。
+- 冒烟测试在 3 道已曝光的 v9 题上进行（`smoke_v10`，0.01 核时），不进入分析。
+- SATLIB 候选档案下载到 `$FP_DATA/cross_scale_v10/external/`（SHA256SUMS）。

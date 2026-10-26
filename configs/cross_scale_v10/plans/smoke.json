@@ -1,0 +1,134 @@
+{
+ "stage": "smoke",
+ "jobs": [
+  {
+   "instance": "v9-rand3-M-01",
+   "sha256": "930c744f34c2769cf25405074f3f31d7f95ffb818ea6727a7dc45b7f3e11410d",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-rand3-M-01.cnf",
+   "method": "MEASURE",
+   "measure": {
+    "static": true,
+    "probes": [
+     {
+      "arm": "D",
+      "tau": 0.1
+     },
+     {
+      "arm": "D",
+      "tau": 2.0
+     },
+     {
+      "arm": "Fp",
+      "tau": 0.5
+     },
+     {
+      "arm": "Fm",
+      "tau": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "instance": "v9-rand3-M-01",
+   "sha256": "930c744f34c2769cf25405074f3f31d7f95ffb818ea6727a7dc45b7f3e11410d",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-rand3-M-01.cnf",
+   "method": "W",
+   "strategy": "configs/cross_scale_v10/smoke/obs_C.json"
+  },
+  {
+   "instance": "v9-rand3-M-01",
+   "sha256": "930c744f34c2769cf25405074f3f31d7f95ffb818ea6727a7dc45b7f3e11410d",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-rand3-M-01.cnf",
+   "method": "Fp"
+  },
+  {
+   "instance": "v9-col3-S-02",
+   "sha256": "15e57dee8dd6977579f5216d1c8f6318e4e92be73c856106865bc8e898ac7e01",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-col3-S-02.cnf",
+   "method": "MEASURE",
+   "measure": {
+    "static": true,
+    "probes": [
+     {
+      "arm": "D",
+      "tau": 0.1
+     },
+     {
+      "arm": "D",
+      "tau": 2.0
+     },
+     {
+      "arm": "Fp",
+      "tau": 0.5
+     },
+     {
+      "arm": "Fm",
+      "tau": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "instance": "v9-col3-S-02",
+   "sha256": "15e57dee8dd6977579f5216d1c8f6318e4e92be73c856106865bc8e898ac7e01",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-col3-S-02.cnf",
+   "method": "W",
+   "strategy": "configs/cross_scale_v10/smoke/obs_C.json"
+  },
+  {
+   "instance": "v9-col3-S-02",
+   "sha256": "15e57dee8dd6977579f5216d1c8f6318e4e92be73c856106865bc8e898ac7e01",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-col3-S-02.cnf",
+   "method": "Fp"
+  },
+  {
+   "instance": "v9-assign2-M-03",
+   "sha256": "e1c586185599adbf24167d83d57fb9a8ed2bcfb4aaf4cfc2478678e4825b546d",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-assign2-M-03.cnf",
+   "method": "MEASURE",
+   "measure": {
+    "static": true,
+    "probes": [
+     {
+      "arm": "D",
+      "tau": 0.1
+     },
+     {
+      "arm": "D",
+      "tau": 2.0
+     },
+     {
+      "arm": "Fp",
+      "tau": 0.5
+     },
+     {
+      "arm": "Fm",
+      "tau": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "instance": "v9-assign2-M-03",
+   "sha256": "e1c586185599adbf24167d83d57fb9a8ed2bcfb4aaf4cfc2478678e4825b546d",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-assign2-M-03.cnf",
+   "method": "W",
+   "strategy": "configs/cross_scale_v10/smoke/obs_C.json"
+  },
+  {
+   "instance": "v9-assign2-M-03",
+   "sha256": "e1c586185599adbf24167d83d57fb9a8ed2bcfb4aaf4cfc2478678e4825b546d",
+   "rep": 0,
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/online_selection_v9/cnf/v9-assign2-M-03.cnf",
+   "method": "Fp"
+  }
+ ]
+}

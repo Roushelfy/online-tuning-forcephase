@@ -1,0 +1,21 @@
+{
+ "schema_version": 1,
+ "goal": "configs/cross_scale_v10/goal.json",
+ "protocol": "docs/CROSS_SCALE_PROTOCOL_V10.md",
+ "per_run_cpu_seconds": 3600,
+ "aggregate_cpu_hours_cap": null,
+ "stages": [
+  {"id": "S0", "content": "prior audit, protocol, stage plan, wrapper/runner/static10 code and timing tests; smoke on 3 exposed v9 instances", "solver_runs": "smoke only (excluded from analysis)"},
+  {"id": "pilot", "content": "72 instances (3 types x 4 levels x 6) x D; scale decision by protocol 3.3", "runs": 72, "plan": "configs/cross_scale_v10/plans/pilot.json"},
+  {"id": "panel_freeze", "content": "formal generation (540 core + 90 extrapolation), dedupe audit, split, external 120 selection; tag v10-panel-freeze", "runs": 0},
+  {"id": "s1_dev", "content": "dev 270 x {D, Fp, Fm}", "runs": 810, "plan": "configs/cross_scale_v10/plans/s1_dev.json"},
+  {"id": "measure_dev", "content": "dev 270 x MEASURE (static + D 0.1/0.5/2/5 + Fp/Fm 0.1/0.5/2)", "runs": 270, "plan": "configs/cross_scale_v10/plans/measure_dev.json"},
+  {"id": "robust_dev", "content": "54 dev x ({D,Fp,Fm} seed 1 + {D,Fp,Fm} on renaming variant)", "runs": 324, "plan": "configs/cross_scale_v10/plans/robust_dev.json"},
+  {"id": "S2_S3_S4", "content": "baselines, observation simulation, nested CV, main rule, freeze; tag v10-rule-freeze", "runs": 0},
+  {"id": "confirm", "content": "confirmation 270 (H1/H2/H3 in one go) x {D, Fp, Fm, frozen wrappers}", "runs": "810 + 270 per wrapper", "plan": "configs/cross_scale_v10/plans/confirm.json"},
+  {"id": "extrap", "content": "scale extrapolation 90 x {D, Fp, Fm, frozen wrappers}", "runs": "270 + 90 per wrapper", "plan": "configs/cross_scale_v10/plans/extrap.json"},
+  {"id": "external", "content": "external 120 x {D, Fp, Fm, frozen wrappers}", "runs": "360 + 120 per wrapper", "plan": "configs/cross_scale_v10/plans/external.json"},
+  {"id": "deploy_dev", "content": "dev 270 x frozen wrappers (simulation vs real check only)", "runs": "270 per wrapper", "plan": "configs/cross_scale_v10/plans/deploy_dev.json"},
+  {"id": "stress_old55 (optional)", "content": "protocol section 9; non-blocking", "runs": "<= 55 + 29"}
+ ]
+}

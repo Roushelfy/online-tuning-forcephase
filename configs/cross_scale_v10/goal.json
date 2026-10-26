@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "goal_version": 10,
-  "status": "planned_not_started",
+  "status": "S0 committed (protocol, audit, stage plan); no v10 solver run yet",
   "goal_document": "docs/AGENT_GOAL.md",
   "date": "2026-10-26",
   "research_question": "Can cheap static/default/paired three-mode probes select once among D/F+/F- and improve over development SBS across scales?",
@@ -42,5 +42,7 @@
   "incomplete_mean": null,
   "par2_primary": false,
   "practical_gain_target_vs_dev_sbs": 0.05,
-  "heldout_tuning_allowed": false
+  "heldout_tuning_allowed": false,
+  "stage_plan": "configs/cross_scale_v10/stage_plan.json",
+  "protocol": "docs/CROSS_SCALE_PROTOCOL_V10.md"
 }

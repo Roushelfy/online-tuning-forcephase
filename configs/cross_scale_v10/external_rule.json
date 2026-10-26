@@ -1,0 +1,27 @@
+{
+ "schema_version": 1,
+ "source": "SATLIB https://www.cs.ubc.ca/~hoos/SATLIB/benchm.html (archives downloaded 2026-10-26, SHA-256 in the manifest)",
+ "rule": "Per family: the archive's .cnf files minus the files used by v9 (exclude), sorted by header clause count then natural name; take `quota` files at the evenly spaced size-quantile positions round((k + 0.5) n / quota - 0.5), k = 0..quota-1. A pick whose canonical or renaming-invariant hash equals an exposed instance (v8, v9, v10 core, competition CNFs matching gbd_name_patterns) or an earlier pick is replaced by the next unused file in size order; a family that runs out is reported short (no copying). Fixed before any external run; no difficulty pilot is used for selection.",
+ "core_training_families": ["random 3-SAT (rand3)", "graph 3-colouring of G(n, m) (col3)", "coupled assignment (assign2)"],
+ "families": [
+  {"archive": "bmc", "group": "industrial: bounded model checking", "quota": 13},
+  {"archive": "Bejing", "group": "planning / circuit (Beijing)", "quota": 16},
+  {"archive": "QG", "group": "crafted: quasigroup", "quota": 15, "exclude": ["qg1-07.cnf", "qg2-07.cnf", "qg3-08.cnf", "qg4-08.cnf", "qg5-09.cnf", "qg6-09.cnf", "qg7-09.cnf"]},
+  {"archive": "blocksworld", "group": "planning: blocks world", "quota": 3, "exclude": ["bw_large.a.cnf", "bw_large.b.cnf", "bw_large.c.cnf", "bw_large.d.cnf"]},
+  {"archive": "hanoi", "group": "planning: towers of hanoi", "quota": 2},
+  {"archive": "parity", "group": "crafted: parity learning", "quota": 12},
+  {"archive": "pigeon-hole", "group": "crafted: pigeon hole", "quota": 5},
+  {"archive": "ais", "group": "crafted: all-interval series", "quota": 4},
+  {"archive": "inductive-inference", "group": "inductive inference", "quota": 10},
+  {"archive": "ssa", "group": "circuit: single-stuck-at", "quota": 6},
+  {"archive": "bf", "group": "circuit: bridge fault", "quota": 4},
+  {"archive": "jnh", "group": "random: variable-length (jnh)", "quota": 8},
+  {"archive": "aim", "group": "crafted random: aim", "quota": 8},
+  {"archive": "dubois", "group": "crafted: dubois", "quota": 6},
+  {"archive": "pret", "group": "crafted: pret parity", "quota": 4},
+  {"archive": "gcp-large", "group": "near-core: k-colouring of DIMACS graphs", "quota": 4}
+ ],
+ "total_quota": 120,
+ "not_used": ["logistics (all 4 used by v9)", "f / LRAN (random 3-SAT: core family)", "uf / uuf / flat / sw (core families; partly used by v9)"],
+ "gbd_name_patterns": ["qg%", "bmc%", "par8%", "par16%", "par32%", "hole%", "hanoi%", "ii8%", "ii16%", "ii32%", "ssa%", "bf%", "jnh%", "dubois%", "pret%", "aim%", "ais%", "g125%", "g250%", "%ddr2%", "%bitadd%", "%blocks%", "anomaly%", "medium%", "huge%"]
+}
