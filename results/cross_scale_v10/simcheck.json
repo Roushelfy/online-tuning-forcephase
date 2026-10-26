@@ -1,0 +1,150 @@
+{
+ "main_wrapper": {
+  "decision_agreement": 262,
+  "mismatches": [
+   {
+    "instance": "v10-assign2-L-10",
+    "real": [
+     "reader",
+     "D"
+    ],
+    "sim": [
+     "reader",
+     "Fm"
+    ]
+   },
+   {
+    "instance": "v10-assign2-L-22",
+    "real": [
+     "reader",
+     "D"
+    ],
+    "sim": [
+     "reader",
+     "Fp"
+    ]
+   },
+   {
+    "instance": "v10-assign2-L-36",
+    "real": [
+     "reader",
+     "D"
+    ],
+    "sim": [
+     "reader",
+     "Fp"
+    ]
+   },
+   {
+    "instance": "v10-assign2-L-46",
+    "real": [
+     "reader",
+     "D"
+    ],
+    "sim": [
+     "reader",
+     "Fp"
+    ]
+   },
+   {
+    "instance": "v10-assign2-L-53",
+    "real": [
+     "reader",
+     "D"
+    ],
+    "sim": [
+     "reader",
+     "Fp"
+    ]
+   },
+   {
+    "instance": "v10-assign2-M-44",
+    "real": [
+     "reader",
+     "Fp"
+    ],
+    "sim": [
+     "reader",
+     "Fm"
+    ]
+   },
+   {
+    "instance": "v10-rand3-L-58",
+    "real": [
+     "reader",
+     "Fm"
+    ],
+    "sim": [
+     "probe_solved",
+     "D_probe"
+    ]
+   },
+   {
+    "instance": "v10-rand3-M-29",
+    "real": [
+     "probe_solved",
+     "D_probe"
+    ],
+    "sim": [
+     "reader",
+     "Fm"
+    ]
+   }
+  ],
+  "n": 270,
+  "real_minus_sim_mean": 0.5882743037037037,
+  "real_minus_sim_median": 0.007834500000000022,
+  "real_minus_sim_total": 158.83406200000005,
+  "real_over_sim_q": {
+   "0.05": 0.9096807064794249,
+   "0.5": 1.0129186234055405,
+   "0.95": 1.246529965091284
+  },
+  "real_paths": {
+   "probe_solved": 154,
+   "reader": 116
+  },
+  "real_total": 4252.3594330000005
+ },
+ "reference_wrapper": {
+  "decision_agreement": 268,
+  "mismatches": [
+   {
+    "instance": "v10-rand3-L-58",
+    "real": [
+     "fallback",
+     "Fm"
+    ],
+    "sim": [
+     "probe_solved",
+     "D_probe"
+    ]
+   },
+   {
+    "instance": "v10-rand3-M-29",
+    "real": [
+     "probe_solved",
+     "D_probe"
+    ],
+    "sim": [
+     "fallback",
+     "Fm"
+    ]
+   }
+  ],
+  "n": 270,
+  "real_minus_sim_mean": 0.5939330074074075,
+  "real_minus_sim_median": 0.006989000000000002,
+  "real_minus_sim_total": 160.36191200000005,
+  "real_over_sim_q": {
+   "0.05": 0.9092707896776291,
+   "0.5": 1.008798608223768,
+   "0.95": 1.189545414576763
+  },
+  "real_paths": {
+   "fallback": 116,
+   "probe_solved": 154
+  },
+  "real_total": 4666.815846999997
+ }
+}

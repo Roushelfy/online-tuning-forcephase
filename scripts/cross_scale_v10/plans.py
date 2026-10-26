@@ -331,13 +331,52 @@ def deploy_plans():
     print("confirm", len(conf), "extrap", len(ext), "external", len(em), "wrappers", wrappers)
 
 
+def stress_plans():
+    """Optional old-55 stress test (protocol section 9): decompress the 55 competition CNFs, then
+    plans/stress_old55.json (55 x frozen wrappers) and plans/stress_old55_fixed.json (3600 s F+ / F- runs for the
+    records that only have v6's 300 s bound in the 3600 s view)."""
+    import lzma
+    out_dir = os.path.join(DATA, "cross_scale_v10", "stress_cnf")
+    os.makedirs(out_dir, exist_ok=True)
+    ids = [l.split()[0] for l in open(os.path.join(ROOT, "configs", "stable_selection_v6", "validate_hashes.txt"))
+           if l.strip() and not l.startswith("#")]
+    sha = {}
+    for h in ids:
+        dst = os.path.join(out_dir, h + ".cnf")
+        if not os.path.exists(dst):
+            with lzma.open(os.path.join(DATA, "benchmarks", "cnf", h + ".cnf.xz"), "rb") as fi, open(dst + ".tmp", "wb") as fo:
+                while True:
+                    b = fi.read(1 << 24)
+                    if not b:
+                        break
+                    fo.write(b)
+            os.rename(dst + ".tmp", dst)
+        hh = hashlib.sha256()
+        with open(dst, "rb") as f:
+            for b in iter(lambda: f.read(1 << 24), b""):
+                hh.update(b)
+        sha[h] = hh.hexdigest()
+    fr = json.load(open(os.path.join(CFG, "frozen", "FREEZE.json")))
+    wrappers = [w for w in (fr.get("main_wrapper"), fr.get("reference_wrapper")) if w]
+    jobs = [{"instance": h, "sha256": sha[h], "rep": 0, "method": "W", "strategy": w,
+             "cnf": os.path.join(out_dir, h + ".cnf")} for h in ids for w in wrappers]
+    dump(os.path.join(CFG, "plans", "stress_old55.json"), {"stage": "stress_old55", "jobs": jobs})
+    view = json.load(open(os.path.join(ROOT, "results", "online_selection_v9", "timeout_3600_view.json")))["old55"]["methods"]
+    fixed = [{"instance": h, "sha256": sha[h], "rep": 0, "method": m, "cnf": os.path.join(out_dir, h + ".cnf")}
+             for m in ("Fp", "Fm") for h in view[m]["not_reconstructable_ids"]]
+    dump(os.path.join(CFG, "plans", "stress_old55_fixed.json"), {"stage": "stress_old55_fixed", "jobs": fixed})
+    dump(os.path.join(RES, "stress_cnf_sha256.json"), sha)
+    print(len(jobs), "wrapper jobs,", len(fixed), "fixed jobs")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["pilot-gen", "pilot-plan", "pilot-decide", "formal-gen", "formal-plans",
-                                    "robust-plan", "deploy-plans"])
+                                    "robust-plan", "deploy-plans", "stress-plans"])
     a = ap.parse_args()
     {"pilot-gen": pilot_gen, "pilot-plan": pilot_plan, "pilot-decide": pilot_decide, "formal-gen": formal_gen,
-     "formal-plans": formal_plans, "robust-plan": robust_plan, "deploy-plans": deploy_plans}[a.cmd]()
+     "formal-plans": formal_plans, "robust-plan": robust_plan, "deploy-plans": deploy_plans,
+     "stress-plans": stress_plans}[a.cmd]()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,3146 @@
+{
+ "dev": {
+  "all": {
+   "answers": {
+    "SAT": 187,
+    "UNSAT": 83
+   },
+   "clear_advantage": {
+    "Fm_vs_D": {
+     "D": 56,
+     "Fm": 57,
+     "close": 157
+    },
+    "Fp_vs_D": {
+     "D": 51,
+     "Fp": 72,
+     "close": 147
+    },
+    "Fp_vs_Fm": {
+     "Fm": 37,
+     "Fp": 55,
+     "close": 178
+    }
+   },
+   "complete_mean": {
+    "D": 26.4246196814815,
+    "Fm": 17.659170048148166,
+    "Fp": 19.320534470370376
+   },
+   "fastest": {
+    "D": 78,
+    "Fm": 68,
+    "Fp": 124
+   },
+   "n": 270,
+   "oracle_known": 270,
+   "oracle_mean": 11.829307544444445,
+   "oracle_vs_sbs": {
+    "saving_s": 1574.0628760000027,
+    "share_top": {
+     "1": 0.096767343492065,
+     "3": 0.2237484063501917,
+     "10": 0.4828843031553708
+    }
+   },
+   "resource_total": {
+    "D": 7134.647314000004,
+    "Fm": 4767.975913000005,
+    "Fp": 5216.544307000002
+   },
+   "sbs": "Fm",
+   "solved": {
+    "D": 270,
+    "Fm": 270,
+    "Fp": 270
+   },
+   "vs_D": {
+    "Fm": {
+     "faster_count": 130,
+     "gain_share_top": {
+      "1": 0.14404780697560002,
+      "3": 0.38348155479112417,
+      "10": 0.7554472817007953
+     },
+     "gained_from_timeout": [],
+     "lost_to_timeout": [],
+     "max_loss_instance": "v10-rand3-L-19",
+     "max_loss_s": 152.317883,
+     "slower_count": 140
+    },
+    "Fp": {
+     "faster_count": 169,
+     "gain_share_top": {
+      "1": 0.1220402187443157,
+      "3": 0.3269682066134258,
+      "10": 0.6792042833337502
+     },
+     "gained_from_timeout": [],
+     "lost_to_timeout": [],
+     "max_loss_instance": "v10-rand3-L-39",
+     "max_loss_s": 310.32343099999997,
+     "slower_count": 101
+    }
+   }
+  },
+  "cells": {
+   "assign2-L": {
+    "answers": {
+     "SAT": 30
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 14,
+      "Fm": 14,
+      "close": 2
+     },
+     "Fp_vs_D": {
+      "D": 11,
+      "Fp": 12,
+      "close": 7
+     },
+     "Fp_vs_Fm": {
+      "Fm": 9,
+      "Fp": 12,
+      "close": 9
+     }
+    },
+    "complete_mean": {
+     "D": 17.5106738,
+     "Fm": 19.668455999999995,
+     "Fp": 17.944693000000004
+    },
+    "fastest": {
+     "D": 11,
+     "Fm": 11,
+     "Fp": 8
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 8.236506766666668,
+    "oracle_vs_sbs": {
+     "saving_s": 342.958477,
+     "share_top": {
+      "1": 0.13276273383964202,
+      "3": 0.35433952548138936,
+      "10": 0.8429443252980156
+     }
+    },
+    "resource_total": {
+     "D": 525.320214,
+     "Fm": 590.0536799999999,
+     "Fp": 538.3407900000001
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 15,
+      "gain_share_top": {
+       "1": 0.3179012897109912,
+       "3": 0.5731114485371507,
+       "10": 0.9287253551213598
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-assign2-L-31",
+      "max_loss_s": 45.532104999999994,
+      "slower_count": 15
+     },
+     "Fp": {
+      "faster_count": 14,
+      "gain_share_top": {
+       "1": 0.27668837563187615,
+       "3": 0.5650605613373829,
+       "10": 0.9573442989403375
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-assign2-L-06",
+      "max_loss_s": 39.442454,
+      "slower_count": 16
+     }
+    }
+   },
+   "assign2-M": {
+    "answers": {
+     "SAT": 26,
+     "UNSAT": 4
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 5,
+      "Fm": 10,
+      "close": 15
+     },
+     "Fp_vs_D": {
+      "D": 1,
+      "Fp": 14,
+      "close": 15
+     },
+     "Fp_vs_Fm": {
+      "Fm": 2,
+      "Fp": 10,
+      "close": 18
+     }
+    },
+    "complete_mean": {
+     "D": 4.338430833333333,
+     "Fm": 3.9569460666666663,
+     "Fp": 2.9884355
+    },
+    "fastest": {
+     "D": 2,
+     "Fm": 11,
+     "Fp": 17
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 2.5276875999999997,
+    "oracle_vs_sbs": {
+     "saving_s": 42.877753999999996,
+     "share_top": {
+      "1": 0.2357899623193883,
+      "3": 0.5091092691095714,
+      "10": 0.8533024374364383
+     }
+    },
+    "resource_total": {
+     "D": 130.15292499999998,
+     "Fm": 118.70838199999999,
+     "Fp": 89.653065
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 21,
+      "gain_share_top": {
+       "1": 0.17542181866404985,
+       "3": 0.4640331490310088,
+       "10": 0.8805569067788479
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-assign2-M-44",
+      "max_loss_s": 7.6268069999999994,
+      "slower_count": 9
+     },
+     "Fp": {
+      "faster_count": 25,
+      "gain_share_top": {
+       "1": 0.1073002594398394,
+       "3": 0.28338462415749543,
+       "10": 0.71744710365965
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-assign2-M-40",
+      "max_loss_s": 2.9834110000000003,
+      "slower_count": 5
+     }
+    }
+   },
+   "assign2-S": {
+    "answers": {
+     "SAT": 29,
+     "UNSAT": 1
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "Fm": 1,
+      "close": 29
+     },
+     "Fp_vs_D": {
+      "Fp": 2,
+      "close": 28
+     },
+     "Fp_vs_Fm": {
+      "close": 30
+     }
+    },
+    "complete_mean": {
+     "D": 0.5659523333333332,
+     "Fm": 0.6033103999999999,
+     "Fp": 0.3963792
+    },
+    "fastest": {
+     "D": 10,
+     "Fm": 3,
+     "Fp": 17
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 0.24937129999999996,
+    "oracle_vs_sbs": {
+     "saving_s": 10.618173,
+     "share_top": {
+      "1": 0.08450257873929913,
+      "3": 0.24278319820179986,
+      "10": 0.684147075019403
+     }
+    },
+    "resource_total": {
+     "D": 16.978569999999994,
+     "Fm": 18.099311999999998,
+     "Fp": 11.891376
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 12,
+      "gain_share_top": {
+       "1": 0.31709808843279697,
+       "3": 0.6196917574556259,
+       "10": 0.9920814915590445
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-assign2-S-00",
+      "max_loss_s": 0.640703,
+      "slower_count": 18
+     },
+     "Fp": {
+      "faster_count": 19,
+      "gain_share_top": {
+       "1": 0.1604210217931031,
+       "3": 0.39361896918564493,
+       "10": 0.8787203332411696
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-assign2-S-41",
+      "max_loss_s": 0.6787910000000001,
+      "slower_count": 11
+     }
+    }
+   },
+   "col3-L": {
+    "answers": {
+     "SAT": 20,
+     "UNSAT": 10
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 6,
+      "Fm": 9,
+      "close": 15
+     },
+     "Fp_vs_D": {
+      "D": 3,
+      "Fp": 17,
+      "close": 10
+     },
+     "Fp_vs_Fm": {
+      "Fm": 4,
+      "Fp": 17,
+      "close": 9
+     }
+    },
+    "complete_mean": {
+     "D": 28.10313273333332,
+     "Fm": 27.56006773333333,
+     "Fp": 17.173082733333334
+    },
+    "fastest": {
+     "D": 5,
+     "Fm": 6,
+     "Fp": 19
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 15.088842366666665,
+    "oracle_vs_sbs": {
+     "saving_s": 374.13676100000015,
+     "share_top": {
+      "1": 0.2944915134923081,
+      "3": 0.6154021603880832,
+      "10": 0.8817309775127922
+     }
+    },
+    "resource_total": {
+     "D": 843.0939819999996,
+     "Fm": 826.8020319999999,
+     "Fp": 515.192482
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 15,
+      "gain_share_top": {
+       "1": 0.2496109855827307,
+       "3": 0.5610683178686449,
+       "10": 0.9834780106608924
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-col3-L-16",
+      "max_loss_s": 33.008205000000004,
+      "slower_count": 15
+     },
+     "Fp": {
+      "faster_count": 23,
+      "gain_share_top": {
+       "1": 0.21022165235160575,
+       "3": 0.51683268003232,
+       "10": 0.8836095841850864
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-col3-L-09",
+      "max_loss_s": 28.328432000000003,
+      "slower_count": 7
+     }
+    }
+   },
+   "col3-M": {
+    "answers": {
+     "SAT": 19,
+     "UNSAT": 11
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 3,
+      "close": 27
+     },
+     "Fp_vs_D": {
+      "D": 3,
+      "Fp": 4,
+      "close": 23
+     },
+     "Fp_vs_Fm": {
+      "Fm": 1,
+      "Fp": 5,
+      "close": 24
+     }
+    },
+    "complete_mean": {
+     "D": 2.5297183333333333,
+     "Fm": 2.7800487000000005,
+     "Fp": 2.2381774666666656
+    },
+    "fastest": {
+     "D": 8,
+     "Fm": 4,
+     "Fp": 18
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 1.9852001999999997,
+    "oracle_vs_sbs": {
+     "saving_s": 23.845455000000005,
+     "share_top": {
+      "1": 0.19986945101278206,
+      "3": 0.4369363889261076,
+      "10": 0.7809404769168798
+     }
+    },
+    "resource_total": {
+     "D": 75.89155,
+     "Fm": 83.40146100000001,
+     "Fp": 67.14532399999997
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 12,
+      "gain_share_top": {
+       "1": 0.268642374855227,
+       "3": 0.5030698928738156,
+       "10": 0.9714244824185306
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-col3-M-29",
+      "max_loss_s": 4.765978,
+      "slower_count": 18
+     },
+     "Fp": {
+      "faster_count": 20,
+      "gain_share_top": {
+       "1": 0.2535522011592106,
+       "3": 0.4834513963908124,
+       "10": 0.8772620038505424
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-col3-M-29",
+      "max_loss_s": 3.792855,
+      "slower_count": 10
+     }
+    }
+   },
+   "col3-S": {
+    "answers": {
+     "SAT": 17,
+     "UNSAT": 13
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "close": 30
+     },
+     "Fp_vs_D": {
+      "close": 30
+     },
+     "Fp_vs_Fm": {
+      "close": 30
+     }
+    },
+    "complete_mean": {
+     "D": 0.2138972666666666,
+     "Fm": 0.25011596666666674,
+     "Fp": 0.19605039999999999
+    },
+    "fastest": {
+     "D": 9,
+     "Fm": 5,
+     "Fp": 16
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 0.16717146666666666,
+    "oracle_vs_sbs": {
+     "saving_s": 2.4883350000000006,
+     "share_top": {
+      "1": 0.169103034760191,
+      "3": 0.4024651021667098,
+      "10": 0.8279455941422676
+     }
+    },
+    "resource_total": {
+     "D": 6.416917999999998,
+     "Fm": 7.503479000000002,
+     "Fp": 5.881512
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 8,
+      "gain_share_top": {
+       "1": 0.371992691238081,
+       "3": 0.7678054028275704,
+       "10": 1.0
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-col3-S-25",
+      "max_loss_s": 0.351779,
+      "slower_count": 22
+     },
+     "Fp": {
+      "faster_count": 18,
+      "gain_share_top": {
+       "1": 0.1490248646375441,
+       "3": 0.3689195785552828,
+       "10": 0.8265648350493011
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-col3-S-30",
+      "max_loss_s": 0.22034399999999993,
+      "slower_count": 12
+     }
+    }
+   },
+   "rand3-L": {
+    "answers": {
+     "SAT": 13,
+     "UNSAT": 17
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 11,
+      "Fm": 17,
+      "close": 2
+     },
+     "Fp_vs_D": {
+      "D": 13,
+      "Fp": 17
+     },
+     "Fp_vs_Fm": {
+      "Fm": 9,
+      "Fp": 5,
+      "close": 16
+     }
+    },
+    "complete_mean": {
+     "D": 178.64583913333334,
+     "Fm": 95.21442826666664,
+     "Fp": 122.19460419999996
+    },
+    "fastest": {
+     "D": 13,
+     "Fm": 10,
+     "Fp": 7
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 74.29622840000003,
+    "oracle_vs_sbs": {
+     "saving_s": 627.545996,
+     "share_top": {
+      "1": 0.24271987068817186,
+      "3": 0.5133328569592213,
+      "10": 0.9274710693875577
+     }
+    },
+    "resource_total": {
+     "D": 5359.375174,
+     "Fm": 2856.4328479999995,
+     "Fp": 3665.8381259999987
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 17,
+      "gain_share_top": {
+       "1": 0.1638985541159965,
+       "3": 0.43632786697728715,
+       "10": 0.8595529482971812
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-rand3-L-19",
+      "max_loss_s": 152.317883,
+      "slower_count": 13
+     },
+     "Fp": {
+      "faster_count": 17,
+      "gain_share_top": {
+       "1": 0.15172815488816563,
+       "3": 0.40650765138732864,
+       "10": 0.844429924517558
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-rand3-L-39",
+      "max_loss_s": 310.32343099999997,
+      "slower_count": 13
+     }
+    }
+   },
+   "rand3-M": {
+    "answers": {
+     "SAT": 22,
+     "UNSAT": 8
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 17,
+      "Fm": 6,
+      "close": 7
+     },
+     "Fp_vs_D": {
+      "D": 20,
+      "Fp": 6,
+      "close": 4
+     },
+     "Fp_vs_Fm": {
+      "Fm": 12,
+      "Fp": 6,
+      "close": 12
+     }
+    },
+    "complete_mean": {
+     "D": 5.250381766666664,
+     "Fm": 8.3340633,
+     "Fp": 10.2052741
+    },
+    "fastest": {
+     "D": 18,
+     "Fm": 6,
+     "Fp": 6
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 3.4544574000000012,
+    "oracle_vs_sbs": {
+     "saving_s": 146.38817699999998,
+     "share_top": {
+      "1": 0.17243715658813075,
+      "3": 0.40757600253468557,
+      "10": 0.789641686705341
+     }
+    },
+    "resource_total": {
+     "D": 157.51145299999993,
+     "Fm": 250.02189900000002,
+     "Fp": 306.158223
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 10,
+      "gain_share_top": {
+       "1": 0.2762762488763085,
+       "3": 0.6303278532477471,
+       "10": 1.0
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-rand3-M-25",
+      "max_loss_s": 25.242760999999998,
+      "slower_count": 20
+     },
+     "Fp": {
+      "faster_count": 10,
+      "gain_share_top": {
+       "1": 0.25202745771537766,
+       "3": 0.7169275916984384,
+       "10": 1.0
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-rand3-M-25",
+      "max_loss_s": 38.70794600000001,
+      "slower_count": 20
+     }
+    }
+   },
+   "rand3-S": {
+    "answers": {
+     "SAT": 11,
+     "UNSAT": 19
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "close": 30
+     },
+     "Fp_vs_D": {
+      "close": 30
+     },
+     "Fp_vs_Fm": {
+      "close": 30
+     }
+    },
+    "complete_mean": {
+     "D": 0.6635509333333331,
+     "Fm": 0.5650940000000001,
+     "Fp": 0.5481136333333333
+    },
+    "fastest": {
+     "D": 2,
+     "Fm": 12,
+     "Fp": 16
+    },
+    "n": 30,
+    "oracle_known": 30,
+    "oracle_mean": 0.45830240000000005,
+    "oracle_vs_sbs": {
+     "saving_s": 3.203748000000001,
+     "share_top": {
+      "1": 0.1502811706788424,
+      "3": 0.4081135594934432,
+      "10": 0.8705004263756074
+     }
+    },
+    "resource_total": {
+     "D": 19.906527999999994,
+     "Fm": 16.952820000000003,
+     "Fp": 16.443409
+    },
+    "sbs": "Fm",
+    "solved": {
+     "D": 30,
+     "Fm": 30,
+     "Fp": 30
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 20,
+      "gain_share_top": {
+       "1": 0.2020134384933193,
+       "3": 0.4186564776387115,
+       "10": 0.8331643985024746
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-rand3-S-35",
+      "max_loss_s": 0.21220300000000003,
+      "slower_count": 10
+     },
+     "Fp": {
+      "faster_count": 23,
+      "gain_share_top": {
+       "1": 0.13904986461002591,
+       "3": 0.38269078095758646,
+       "10": 0.7493311813427315
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v10-rand3-S-03",
+      "max_loss_s": 0.5336109999999998,
+      "slower_count": 7
+     }
+    }
+   }
+  },
+  "sbs_cell_losses": {}
+ },
+ "robust": {
+  "conditions": {
+   "perm1": {
+    "records_complete": 54,
+    "solved": {
+     "D": 54,
+     "Fm": 54,
+     "Fp": 54
+    },
+    "total": {
+     "D": 1500.55366,
+     "Fm": 929.2295539999998,
+     "Fp": 981.9860500000002
+    }
+   },
+   "seed0": {
+    "records_complete": 54,
+    "solved": {
+     "D": 54,
+     "Fm": 54,
+     "Fp": 54
+    },
+    "total": {
+     "D": 1508.2063699999999,
+     "Fm": 1038.6627039999996,
+     "Fp": 1159.2660009999997
+    }
+   },
+   "seed1": {
+    "records_complete": 54,
+    "solved": {
+     "D": 54,
+     "Fm": 54,
+     "Fp": 54
+    },
+    "total": {
+     "D": 1262.170669,
+     "Fm": 993.066673,
+     "Fp": 1083.6652510000001
+    }
+   }
+  },
+  "n": 54,
+  "perm1": {
+   "clear_n": 51,
+   "clear_same": 28,
+   "fastest_n": 54,
+   "fastest_same": 24,
+   "severe_Fp_loss_kept": 9,
+   "severe_Fp_loss_n": 9
+  },
+  "seed1": {
+   "clear_n": 51,
+   "clear_same": 43,
+   "fastest_n": 54,
+   "fastest_same": 49,
+   "severe_Fp_loss_kept": 9,
+   "severe_Fp_loss_n": 9
+  }
+ },
+ "v9_historical": {
+  "v9_dev": {
+   "all": {
+    "answers": {
+     "SAT": 185,
+     "UNSAT": 85
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 75,
+      "Fm": 78,
+      "close": 117
+     },
+     "Fp_vs_D": {
+      "D": 53,
+      "Fp": 93,
+      "close": 124
+     },
+     "Fp_vs_Fm": {
+      "Fm": 44,
+      "Fp": 87,
+      "close": 139
+     }
+    },
+    "complete_mean": {
+     "D": 55.51810230740743,
+     "Fm": 45.48893187037037,
+     "Fp": 33.477680533333356
+    },
+    "fastest": {
+     "D": 84,
+     "Fm": 72,
+     "Fp": 114
+    },
+    "n": 270,
+    "oracle_known": 270,
+    "oracle_mean": 26.015330685185184,
+    "oracle_vs_sbs": {
+     "saving_s": 2014.8344589999997,
+     "share_top": {
+      "1": 0.2914031742793416,
+      "3": 0.41668494265116196,
+      "10": 0.6602972681241005
+     }
+    },
+    "resource_total": {
+     "D": 14989.887623000006,
+     "Fm": 12282.011605,
+     "Fp": 9038.973744000006
+    },
+    "sbs": "Fp",
+    "solved": {
+     "D": 270,
+     "Fm": 270,
+     "Fp": 270
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 128,
+      "gain_share_top": {
+       "1": 0.1601468614913285,
+       "3": 0.37089521857042934,
+       "10": 0.7826347348493046
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v9-rand3-L-06",
+      "max_loss_s": 313.001633,
+      "slower_count": 142
+     },
+     "Fp": {
+      "faster_count": 167,
+      "gain_share_top": {
+       "1": 0.20006927714678674,
+       "3": 0.4024296383825744,
+       "10": 0.7766751607335164
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v9-rand3-L-35",
+      "max_loss_s": 587.1291569999999,
+      "slower_count": 103
+     }
+    }
+   },
+   "cells": {
+    "assign2-L": {
+     "answers": {
+      "SAT": 27,
+      "UNSAT": 3
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 18,
+       "Fm": 5,
+       "close": 7
+      },
+      "Fp_vs_D": {
+       "D": 13,
+       "Fp": 7,
+       "close": 10
+      },
+      "Fp_vs_Fm": {
+       "Fm": 10,
+       "Fp": 14,
+       "close": 6
+      }
+     },
+     "complete_mean": {
+      "D": 19.153130466666664,
+      "Fm": 29.69312013333334,
+      "Fp": 20.249929866666672
+     },
+     "fastest": {
+      "D": 18,
+      "Fm": 6,
+      "Fp": 6
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 14.255876466666669,
+     "oracle_vs_sbs": {
+      "saving_s": 179.8216020000001,
+      "share_top": {
+       "1": 0.23292044745547302,
+       "3": 0.4788861629650033,
+       "10": 0.8441161813250888
+      }
+     },
+     "resource_total": {
+      "D": 574.5939139999999,
+      "Fm": 890.7936040000002,
+      "Fp": 607.4978960000002
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 6,
+       "gain_share_top": {
+        "1": 0.7045924513158803,
+        "3": 0.9416803358648179,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-L-13",
+       "max_loss_s": 93.91841600000001,
+       "slower_count": 24
+      },
+      "Fp": {
+       "faster_count": 11,
+       "gain_share_top": {
+        "1": 0.49050017708931576,
+        "3": 0.7395346605749382,
+        "10": 0.9989959405169149
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-L-33",
+       "max_loss_s": 41.884128000000004,
+       "slower_count": 19
+      }
+     }
+    },
+    "assign2-M": {
+     "answers": {
+      "SAT": 27,
+      "UNSAT": 3
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 7,
+       "Fm": 8,
+       "close": 15
+      },
+      "Fp_vs_D": {
+       "D": 6,
+       "Fp": 13,
+       "close": 11
+      },
+      "Fp_vs_Fm": {
+       "Fm": 5,
+       "Fp": 14,
+       "close": 11
+      }
+     },
+     "complete_mean": {
+      "D": 5.866158299999999,
+      "Fm": 5.853346066666668,
+      "Fp": 4.691552699999999
+     },
+     "fastest": {
+      "D": 7,
+      "Fm": 5,
+      "Fp": 18
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 3.5778941,
+     "oracle_vs_sbs": {
+      "saving_s": 33.409758,
+      "share_top": {
+       "1": 0.28376191770081066,
+       "3": 0.5909859927749254,
+       "10": 0.9616441400144234
+      }
+     },
+     "resource_total": {
+      "D": 175.98474899999997,
+      "Fm": 175.60038200000002,
+      "Fp": 140.74658099999996
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 15,
+       "gain_share_top": {
+        "1": 0.24995620554933098,
+        "3": 0.5895642475906625,
+        "10": 0.9492128817094985
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-M-02",
+       "max_loss_s": 10.933231000000003,
+       "slower_count": 15
+      },
+      "Fp": {
+       "faster_count": 20,
+       "gain_share_top": {
+        "1": 0.24738751480952342,
+        "3": 0.49381139022046733,
+        "10": 0.8556269630474602
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-M-49",
+       "max_loss_s": 6.219252000000004,
+       "slower_count": 10
+      }
+     }
+    },
+    "assign2-S": {
+     "answers": {
+      "SAT": 28,
+      "UNSAT": 2
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 4,
+       "Fm": 8,
+       "close": 18
+      },
+      "Fp_vs_D": {
+       "D": 4,
+       "Fp": 8,
+       "close": 18
+      },
+      "Fp_vs_Fm": {
+       "Fm": 5,
+       "Fp": 4,
+       "close": 21
+      }
+     },
+     "complete_mean": {
+      "D": 1.9548242666666666,
+      "Fm": 1.7017054000000003,
+      "Fp": 1.6089189333333331
+     },
+     "fastest": {
+      "D": 5,
+      "Fm": 9,
+      "Fp": 16
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 1.0990241,
+     "oracle_vs_sbs": {
+      "saving_s": 15.296845000000001,
+      "share_top": {
+       "1": 0.23402374803431686,
+       "3": 0.496851082690581,
+       "10": 0.9270804535183562
+      }
+     },
+     "resource_total": {
+      "D": 58.644728,
+      "Fm": 51.051162000000005,
+      "Fp": 48.267568
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 18,
+       "gain_share_top": {
+        "1": 0.16423013731452404,
+        "3": 0.40074836321728674,
+        "10": 0.8394343953836441
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-S-00",
+       "max_loss_s": 4.840806,
+       "slower_count": 12
+      },
+      "Fp": {
+       "faster_count": 21,
+       "gain_share_top": {
+        "1": 0.14989695680172369,
+        "3": 0.3793266976688602,
+        "10": 0.8323258359928544
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-S-03",
+       "max_loss_s": 1.4645439999999998,
+       "slower_count": 9
+      }
+     }
+    },
+    "col3-L": {
+     "answers": {
+      "SAT": 24,
+      "UNSAT": 6
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 11,
+       "Fm": 8,
+       "close": 11
+      },
+      "Fp_vs_D": {
+       "D": 5,
+       "Fp": 14,
+       "close": 11
+      },
+      "Fp_vs_Fm": {
+       "Fm": 4,
+       "Fp": 16,
+       "close": 10
+      }
+     },
+     "complete_mean": {
+      "D": 104.85799223333333,
+      "Fm": 107.93049083333332,
+      "Fp": 47.214377166666665
+     },
+     "fastest": {
+      "D": 7,
+      "Fm": 6,
+      "Fp": 17
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 46.3551754,
+     "oracle_vs_sbs": {
+      "saving_s": 25.776053,
+      "share_top": {
+       "1": 0.20603189324602955,
+       "3": 0.588033357938859,
+       "10": 0.9697483551884378
+      }
+     },
+     "resource_total": {
+      "D": 3145.739767,
+      "Fm": 3237.9147249999996,
+      "Fp": 1416.431315
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 13,
+       "gain_share_top": {
+        "1": 0.20447203164619326,
+        "3": 0.5954410104258211,
+        "10": 0.996991964030019
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-L-19",
+       "max_loss_s": 57.28770899999972,
+       "slower_count": 17
+      },
+      "Fp": {
+       "faster_count": 20,
+       "gain_share_top": {
+        "1": 0.848465610693828,
+        "3": 0.9404580200322078,
+        "10": 0.9940853659159444
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-L-25",
+       "max_loss_s": 4.969211,
+       "slower_count": 10
+      }
+     }
+    },
+    "col3-M": {
+     "answers": {
+      "SAT": 23,
+      "UNSAT": 7
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 7,
+       "Fm": 3,
+       "close": 20
+      },
+      "Fp_vs_D": {
+       "D": 1,
+       "Fp": 6,
+       "close": 23
+      },
+      "Fp_vs_Fm": {
+       "Fm": 1,
+       "Fp": 13,
+       "close": 16
+      }
+     },
+     "complete_mean": {
+      "D": 15.258200099999998,
+      "Fm": 16.260350166666665,
+      "Fp": 10.354624899999997
+     },
+     "fastest": {
+      "D": 9,
+      "Fm": 6,
+      "Fp": 15
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 9.510455966666667,
+     "oracle_vs_sbs": {
+      "saving_s": 25.32506800000001,
+      "share_top": {
+       "1": 0.8194224789445775,
+       "3": 0.9022351292403239,
+       "10": 0.9892911245095175
+      }
+     },
+     "resource_total": {
+      "D": 457.7460029999999,
+      "Fm": 487.810505,
+      "Fp": 310.6387469999999
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 12,
+       "gain_share_top": {
+        "1": 0.6045130792390486,
+        "3": 0.8816023866491492,
+        "10": 0.9975667058691922
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-M-30",
+       "max_loss_s": 30.605869000000013,
+       "slower_count": 18
+      },
+      "Fp": {
+       "faster_count": 20,
+       "gain_share_top": {
+        "1": 0.4457418464838132,
+        "3": 0.7874278992710506,
+        "10": 0.9809320988681939
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-M-43",
+       "max_loss_s": 1.3490639999999998,
+       "slower_count": 10
+      }
+     }
+    },
+    "col3-S": {
+     "answers": {
+      "SAT": 19,
+      "UNSAT": 11
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 1,
+       "Fm": 2,
+       "close": 27
+      },
+      "Fp_vs_D": {
+       "Fp": 2,
+       "close": 28
+      },
+      "Fp_vs_Fm": {
+       "Fp": 2,
+       "close": 28
+      }
+     },
+     "complete_mean": {
+      "D": 0.5847012333333333,
+      "Fm": 0.5907954666666666,
+      "Fp": 0.3528892
+     },
+     "fastest": {
+      "D": 6,
+      "Fm": 4,
+      "Fp": 20
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 0.3197397333333333,
+     "oracle_vs_sbs": {
+      "saving_s": 0.994484,
+      "share_top": {
+       "1": 0.18045036420897673,
+       "3": 0.4996782250895942,
+       "10": 1.0
+      }
+     },
+     "resource_total": {
+      "D": 17.541037,
+      "Fm": 17.723864,
+      "Fp": 10.586676
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 10,
+       "gain_share_top": {
+        "1": 0.5642649402117585,
+        "3": 0.907054852686704,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-S-48",
+       "max_loss_s": 1.551081,
+       "slower_count": 20
+      },
+      "Fp": {
+       "faster_count": 21,
+       "gain_share_top": {
+        "1": 0.5448554993094131,
+        "3": 0.8189249811790099,
+        "10": 0.9402976909693439
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-S-48",
+       "max_loss_s": 0.17945500000000003,
+       "slower_count": 9
+      }
+     }
+    },
+    "rand3-L": {
+     "answers": {
+      "SAT": 15,
+      "UNSAT": 15
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 13,
+       "Fm": 14,
+       "close": 3
+      },
+      "Fp_vs_D": {
+       "D": 15,
+       "Fp": 15
+      },
+      "Fp_vs_Fm": {
+       "Fm": 7,
+       "Fp": 13,
+       "close": 10
+      }
+     },
+     "complete_mean": {
+      "D": 324.5722019666667,
+      "Fm": 227.16166930000003,
+      "Fp": 193.86879270000003
+     },
+     "fastest": {
+      "D": 15,
+      "Fm": 8,
+      "Fp": 7
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 142.84130336666664,
+     "oracle_vs_sbs": {
+      "saving_s": 1530.82468,
+      "share_top": {
+       "1": 0.3835378176683171,
+       "3": 0.548430654384276,
+       "10": 0.8604898060566936
+      }
+     },
+     "resource_total": {
+      "D": 9737.166059000001,
+      "Fm": 6814.850079000001,
+      "Fp": 5816.063781000001
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 15,
+       "gain_share_top": {
+        "1": 0.17996602378170823,
+        "3": 0.41679579046500387,
+        "10": 0.8794906125082405
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-L-06",
+       "max_loss_s": 313.001633,
+       "slower_count": 15
+      },
+      "Fp": {
+       "faster_count": 15,
+       "gain_share_top": {
+        "1": 0.16007443601428792,
+        "3": 0.41212983767166134,
+        "10": 0.8848980001883134
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-L-35",
+       "max_loss_s": 587.1291569999999,
+       "slower_count": 15
+      }
+     }
+    },
+    "rand3-M": {
+     "answers": {
+      "SAT": 10,
+      "UNSAT": 20
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 8,
+       "Fm": 17,
+       "close": 5
+      },
+      "Fp_vs_D": {
+       "D": 6,
+       "Fp": 18,
+       "close": 6
+      },
+      "Fp_vs_Fm": {
+       "Fm": 7,
+       "Fp": 7,
+       "close": 16
+      }
+     },
+     "complete_mean": {
+      "D": 23.5829041,
+      "Fm": 16.972073266666666,
+      "Fp": 19.784498433333336
+     },
+     "fastest": {
+      "D": 7,
+      "Fm": 16,
+      "Fp": 7
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 13.742442299999999,
+     "oracle_vs_sbs": {
+      "saving_s": 181.261684,
+      "share_top": {
+       "1": 0.3089967099720865,
+       "3": 0.6559459140851852,
+       "10": 0.9052269038833379
+      }
+     },
+     "resource_total": {
+      "D": 707.487123,
+      "Fm": 509.162198,
+      "Fp": 593.5349530000001
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 20,
+       "gain_share_top": {
+        "1": 0.2174306963803128,
+        "3": 0.40544016752488976,
+        "10": 0.7813106888798361
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-M-23",
+       "max_loss_s": 26.74913,
+       "slower_count": 10
+      },
+      "Fp": {
+       "faster_count": 23,
+       "gain_share_top": {
+        "1": 0.214611337252196,
+        "3": 0.4338333508382553,
+        "10": 0.7915989578395619
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-M-23",
+       "max_loss_s": 56.009263999999995,
+       "slower_count": 7
+      }
+     }
+    },
+    "rand3-S": {
+     "answers": {
+      "SAT": 12,
+      "UNSAT": 18
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 6,
+       "Fm": 13,
+       "close": 11
+      },
+      "Fp_vs_D": {
+       "D": 3,
+       "Fp": 10,
+       "close": 17
+      },
+      "Fp_vs_Fm": {
+       "Fm": 5,
+       "Fp": 4,
+       "close": 21
+      }
+     },
+     "complete_mean": {
+      "D": 3.8328080999999994,
+      "Fm": 3.236836200000001,
+      "Fp": 3.1735409000000003
+     },
+     "fastest": {
+      "D": 10,
+      "Fm": 12,
+      "Fp": 8
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 2.436064733333333,
+     "oracle_vs_sbs": {
+      "saving_s": 22.124285000000008,
+      "share_top": {
+       "1": 0.18986267804812673,
+       "3": 0.345655102526477,
+       "10": 0.7255756739709327
+      }
+     },
+     "resource_total": {
+      "D": 114.98424299999998,
+      "Fm": 97.10508600000003,
+      "Fp": 95.20622700000001
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 19,
+       "gain_share_top": {
+        "1": 0.16773045813575085,
+        "3": 0.406350852999431,
+        "10": 0.8564029907807055
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-S-37",
+       "max_loss_s": 6.87362,
+       "slower_count": 11
+      },
+      "Fp": {
+       "faster_count": 16,
+       "gain_share_top": {
+        "1": 0.21530168848384076,
+        "3": 0.5207214939526486,
+        "10": 0.9025910468264754
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-S-50",
+       "max_loss_s": 4.200576000000001,
+       "slower_count": 14
+      }
+     }
+    }
+   }
+  },
+  "v9_extrapolation": {
+   "all": {
+    "answers": {
+     "SAT": 74,
+     "UNSAT": 16
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 45,
+      "Fm": 23,
+      "close": 17,
+      "unknown": 5
+     },
+     "Fp_vs_D": {
+      "D": 48,
+      "Fp": 26,
+      "close": 12,
+      "unknown": 4
+     },
+     "Fp_vs_Fm": {
+      "Fm": 33,
+      "Fp": 30,
+      "close": 21,
+      "unknown": 6
+     }
+    },
+    "complete_mean": {
+     "D": null,
+     "Fm": null,
+     "Fp": null
+    },
+    "fastest": {
+     "D": 36,
+     "Fm": 19,
+     "Fp": 19,
+     "not all solved": 16
+    },
+    "n": 90,
+    "oracle_known": 86,
+    "oracle_mean": null,
+    "resource_total": {
+     "D": 47472.56160100001,
+     "Fm": 65970.61574999998,
+     "Fp": 76625.69872100001
+    },
+    "sbs": "Fp",
+    "solved": {
+     "D": 82,
+     "Fm": 82,
+     "Fp": 79
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 30,
+      "gain_share_top": {
+       "1": 0.2596190063551379,
+       "3": 0.5833104447967563,
+       "10": 0.9536516211693113
+      },
+      "gained_from_timeout": [
+       "v9x-rand3-X2-02",
+       "v9x-rand3-X2-04",
+       "v9x-rand3-X2-08"
+      ],
+      "lost_to_timeout": [
+       "v9x-assign2-X2-02",
+       "v9x-assign2-X2-04",
+       "v9x-assign2-X2-14"
+      ],
+      "max_loss_instance": "v9x-rand3-X2-10",
+      "max_loss_s": 3353.2718449999998,
+      "slower_count": 49
+     },
+     "Fp": {
+      "faster_count": 31,
+      "gain_share_top": {
+       "1": 0.33061992091577835,
+       "3": 0.549276117736138,
+       "10": 0.9095227927042525
+      },
+      "gained_from_timeout": [
+       "v9x-rand3-X2-02",
+       "v9x-rand3-X2-04",
+       "v9x-rand3-X2-07",
+       "v9x-rand3-X2-08"
+      ],
+      "lost_to_timeout": [
+       "v9x-assign2-X2-02",
+       "v9x-assign2-X2-06",
+       "v9x-assign2-X2-09",
+       "v9x-assign2-X2-10",
+       "v9x-assign2-X2-11",
+       "v9x-assign2-X2-14",
+       "v9x-rand3-X2-10"
+      ],
+      "max_loss_instance": "v9x-assign2-X2-04",
+      "max_loss_s": 2312.6306680000002,
+      "slower_count": 44
+     }
+    }
+   },
+   "cells": {
+    "assign2-X1": {
+     "answers": {
+      "SAT": 14,
+      "UNSAT": 1
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 11,
+       "Fm": 3,
+       "close": 1
+      },
+      "Fp_vs_D": {
+       "D": 9,
+       "Fp": 3,
+       "close": 3
+      },
+      "Fp_vs_Fm": {
+       "Fm": 9,
+       "Fp": 5,
+       "close": 1
+      }
+     },
+     "complete_mean": {
+      "D": 178.30243179999997,
+      "Fm": 309.0554769333333,
+      "Fp": 387.9623940666667
+     },
+     "fastest": {
+      "D": 8,
+      "Fm": 3,
+      "Fp": 4
+     },
+     "n": 15,
+     "oracle_known": 15,
+     "oracle_mean": 131.07721826666668,
+     "oracle_vs_sbs": {
+      "saving_s": 3853.2776370000006,
+      "share_top": {
+       "1": 0.3580418059556501,
+       "3": 0.7145627643233329,
+       "10": 0.9854292575596207
+      }
+     },
+     "resource_total": {
+      "D": 2674.5364769999996,
+      "Fm": 4635.832154,
+      "Fp": 5819.4359110000005
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 15,
+      "Fm": 15,
+      "Fp": 15
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 3,
+       "gain_share_top": {
+        "1": 0.8213735803784393,
+        "3": 1.0,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-assign2-X1-00",
+       "max_loss_s": 1001.5814290000002,
+       "slower_count": 12
+      },
+      "Fp": {
+       "faster_count": 6,
+       "gain_share_top": {
+        "1": 0.5535809775646634,
+        "3": 0.9670143421224062,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-assign2-X1-00",
+       "max_loss_s": 1379.6344840000002,
+       "slower_count": 9
+      }
+     }
+    },
+    "assign2-X2": {
+     "answers": {
+      "SAT": 15
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 9,
+       "Fm": 2,
+       "close": 2,
+       "unknown": 2
+      },
+      "Fp_vs_D": {
+       "D": 10,
+       "Fp": 2,
+       "close": 1,
+       "unknown": 2
+      },
+      "Fp_vs_Fm": {
+       "Fm": 6,
+       "Fp": 3,
+       "close": 2,
+       "unknown": 4
+      }
+     },
+     "complete_mean": {
+      "D": null,
+      "Fm": null,
+      "Fp": null
+     },
+     "fastest": {
+      "D": 3,
+      "Fm": 1,
+      "Fp": 2,
+      "not all solved": 9
+     },
+     "n": 15,
+     "oracle_known": 13,
+     "oracle_mean": null,
+     "resource_total": {
+      "D": 17360.735029000003,
+      "Fm": 28264.85498,
+      "Fp": 37736.253907000006
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 13,
+      "Fm": 10,
+      "Fp": 7
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 3,
+       "gain_share_top": {
+        "1": 0.731032921908108,
+        "3": 1.0,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [
+        "v9x-assign2-X2-02",
+        "v9x-assign2-X2-04",
+        "v9x-assign2-X2-14"
+       ],
+       "max_loss_instance": "v9x-assign2-X2-10",
+       "max_loss_s": 2236.12516,
+       "slower_count": 7
+      },
+      "Fp": {
+       "faster_count": 3,
+       "gain_share_top": {
+        "1": 0.4086260791052024,
+        "3": 1.0,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [
+        "v9x-assign2-X2-02",
+        "v9x-assign2-X2-06",
+        "v9x-assign2-X2-09",
+        "v9x-assign2-X2-10",
+        "v9x-assign2-X2-11",
+        "v9x-assign2-X2-14"
+       ],
+       "max_loss_instance": "v9x-assign2-X2-04",
+       "max_loss_s": 2312.6306680000002,
+       "slower_count": 4
+      }
+     }
+    },
+    "col3-X1": {
+     "answers": {
+      "SAT": 13,
+      "UNSAT": 2
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 2,
+       "Fm": 5,
+       "close": 8
+      },
+      "Fp_vs_D": {
+       "D": 4,
+       "Fp": 7,
+       "close": 4
+      },
+      "Fp_vs_Fm": {
+       "Fm": 4,
+       "Fp": 6,
+       "close": 5
+      }
+     },
+     "complete_mean": {
+      "D": 31.918379266666662,
+      "Fm": 31.008064400000006,
+      "Fp": 11.362731066666667
+     },
+     "fastest": {
+      "D": 3,
+      "Fm": 5,
+      "Fp": 7
+     },
+     "n": 15,
+     "oracle_known": 15,
+     "oracle_mean": 10.007151066666667,
+     "oracle_vs_sbs": {
+      "saving_s": 20.333699999999993,
+      "share_top": {
+       "1": 0.5432356629634549,
+       "3": 0.7889661006113006,
+       "10": 1.0
+      }
+     },
+     "resource_total": {
+      "D": 478.77568899999994,
+      "Fm": 465.12096600000007,
+      "Fp": 170.440966
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 15,
+      "Fm": 15,
+      "Fp": 15
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 10,
+       "gain_share_top": {
+        "1": 0.6790779486484638,
+        "3": 0.8953070492946454,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-col3-X1-07",
+       "max_loss_s": 128.36845599999998,
+       "slower_count": 5
+      },
+      "Fp": {
+       "faster_count": 9,
+       "gain_share_top": {
+        "1": 0.3850096401502638,
+        "3": 0.745187278008655,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-col3-X1-01",
+       "max_loss_s": 9.000599,
+       "slower_count": 6
+      }
+     }
+    },
+    "col3-X2": {
+     "answers": {
+      "SAT": 12,
+      "UNSAT": 3
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 4,
+       "Fm": 5,
+       "close": 6
+      },
+      "Fp_vs_D": {
+       "D": 5,
+       "Fp": 6,
+       "close": 4
+      },
+      "Fp_vs_Fm": {
+       "Fm": 6,
+       "Fp": 4,
+       "close": 5
+      }
+     },
+     "complete_mean": {
+      "D": 52.68327779999999,
+      "Fm": 48.62022293333333,
+      "Fp": 36.3781104
+     },
+     "fastest": {
+      "D": 4,
+      "Fm": 5,
+      "Fp": 6
+     },
+     "n": 15,
+     "oracle_known": 15,
+     "oracle_mean": 25.559938066666668,
+     "oracle_vs_sbs": {
+      "saving_s": 162.27258499999996,
+      "share_top": {
+       "1": 0.3510104987851153,
+       "3": 0.7510669963136412,
+       "10": 1.0
+      }
+     },
+     "resource_total": {
+      "D": 790.2491669999998,
+      "Fm": 729.3033439999999,
+      "Fp": 545.671656
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 15,
+      "Fm": 15,
+      "Fp": 15
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 9,
+       "gain_share_top": {
+        "1": 0.27938151803609984,
+        "3": 0.7398459687710124,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-col3-X2-01",
+       "max_loss_s": 45.921224,
+       "slower_count": 6
+      },
+      "Fp": {
+       "faster_count": 9,
+       "gain_share_top": {
+        "1": 0.8635381689876701,
+        "3": 0.9576884984931284,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-col3-X2-01",
+       "max_loss_s": 52.20101,
+       "slower_count": 6
+      }
+     }
+    },
+    "rand3-X1": {
+     "answers": {
+      "SAT": 11,
+      "UNSAT": 4
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 10,
+       "Fm": 5
+      },
+      "Fp_vs_D": {
+       "D": 11,
+       "Fp": 4
+      },
+      "Fp_vs_Fm": {
+       "Fm": 5,
+       "Fp": 5,
+       "close": 5
+      }
+     },
+     "complete_mean": {
+      "D": 303.64723719999995,
+      "Fm": 459.4078354,
+      "Fp": 615.7303605333333
+     },
+     "fastest": {
+      "D": 10,
+      "Fm": 5
+     },
+     "n": 15,
+     "oracle_known": 15,
+     "oracle_mean": 127.47866793333333,
+     "oracle_vs_sbs": {
+      "saving_s": 7323.775388999999,
+      "share_top": {
+       "1": 0.25140756374990464,
+       "3": 0.6953378134245782,
+       "10": 0.9800307184161243
+      }
+     },
+     "resource_total": {
+      "D": 4554.708557999999,
+      "Fm": 6891.117531,
+      "Fp": 9235.955408
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 15,
+      "Fm": 15,
+      "Fp": 15
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 5,
+       "gain_share_top": {
+        "1": 0.491996504034729,
+        "3": 0.8535568500817617,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-rand3-X1-02",
+       "max_loss_s": 1660.8638540000002,
+       "slower_count": 10
+      },
+      "Fp": {
+       "faster_count": 4,
+       "gain_share_top": {
+        "1": 0.5180139677692362,
+        "3": 0.8606036211044297,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-rand3-X1-08",
+       "max_loss_s": 1841.252528,
+       "slower_count": 11
+      }
+     }
+    },
+    "rand3-X2": {
+     "answers": {
+      "SAT": 9,
+      "UNSAT": 6
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 9,
+       "Fm": 3,
+       "unknown": 3
+      },
+      "Fp_vs_D": {
+       "D": 9,
+       "Fp": 4,
+       "unknown": 2
+      },
+      "Fp_vs_Fm": {
+       "Fm": 3,
+       "Fp": 7,
+       "close": 3,
+       "unknown": 2
+      }
+     },
+     "complete_mean": {
+      "D": null,
+      "Fm": null,
+      "Fp": null
+     },
+     "fastest": {
+      "D": 8,
+      "not all solved": 7
+     },
+     "n": 15,
+     "oracle_known": 13,
+     "oracle_mean": null,
+     "resource_total": {
+      "D": 21613.556681,
+      "Fm": 24984.386774999995,
+      "Fp": 23117.940873
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 9,
+      "Fm": 12,
+      "Fp": 12
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 0,
+       "gain_share_top": {
+        "1": null,
+        "3": null,
+        "10": null
+       },
+       "gained_from_timeout": [
+        "v9x-rand3-X2-02",
+        "v9x-rand3-X2-04",
+        "v9x-rand3-X2-08"
+       ],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9x-rand3-X2-10",
+       "max_loss_s": 3353.2718449999998,
+       "slower_count": 9
+      },
+      "Fp": {
+       "faster_count": 0,
+       "gain_share_top": {
+        "1": null,
+        "3": null,
+        "10": null
+       },
+       "gained_from_timeout": [
+        "v9x-rand3-X2-02",
+        "v9x-rand3-X2-04",
+        "v9x-rand3-X2-07",
+        "v9x-rand3-X2-08"
+       ],
+       "lost_to_timeout": [
+        "v9x-rand3-X2-10"
+       ],
+       "max_loss_instance": "v9x-rand3-X2-13",
+       "max_loss_s": 1080.8288169999998,
+       "slower_count": 8
+      }
+     }
+    }
+   }
+  },
+  "v9_holdout": {
+   "all": {
+    "answers": {
+     "SAT": 186,
+     "UNSAT": 84
+    },
+    "clear_advantage": {
+     "Fm_vs_D": {
+      "D": 68,
+      "Fm": 71,
+      "close": 131
+     },
+     "Fp_vs_D": {
+      "D": 52,
+      "Fp": 102,
+      "close": 116
+     },
+     "Fp_vs_Fm": {
+      "Fm": 43,
+      "Fp": 86,
+      "close": 141
+     }
+    },
+    "complete_mean": {
+     "D": 57.908235029629616,
+     "Fm": 34.53836636666669,
+     "Fp": 31.363591348148166
+    },
+    "fastest": {
+     "D": 74,
+     "Fm": 59,
+     "Fp": 137
+    },
+    "n": 270,
+    "oracle_known": 270,
+    "oracle_mean": 24.18882924814816,
+    "oracle_vs_sbs": {
+     "saving_s": 1937.1857670000004,
+     "share_top": {
+      "1": 0.2670270037143009,
+      "3": 0.5790033728861275,
+      "10": 0.7817480232395284
+     }
+    },
+    "resource_total": {
+     "D": 15635.223457999997,
+     "Fm": 9325.358919000008,
+     "Fp": 8468.169664000005
+    },
+    "sbs": "Fp",
+    "solved": {
+     "D": 270,
+     "Fm": 270,
+     "Fp": 270
+    },
+    "vs_D": {
+     "Fm": {
+      "faster_count": 132,
+      "gain_share_top": {
+       "1": 0.12025759811072508,
+       "3": 0.3110563123393814,
+       "10": 0.7401491557433455
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v9-rand3-L-20",
+      "max_loss_s": 332.327475,
+      "slower_count": 138
+     },
+     "Fp": {
+      "faster_count": 175,
+      "gain_share_top": {
+       "1": 0.10337574720838091,
+       "3": 0.2939943544839486,
+       "10": 0.6997515299738788
+      },
+      "gained_from_timeout": [],
+      "lost_to_timeout": [],
+      "max_loss_instance": "v9-rand3-L-37",
+      "max_loss_s": 517.280911,
+      "slower_count": 95
+     }
+    }
+   },
+   "cells": {
+    "assign2-L": {
+     "answers": {
+      "SAT": 29,
+      "UNSAT": 1
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 12,
+       "Fm": 9,
+       "close": 9
+      },
+      "Fp_vs_D": {
+       "D": 10,
+       "Fp": 16,
+       "close": 4
+      },
+      "Fp_vs_Fm": {
+       "Fm": 11,
+       "Fp": 16,
+       "close": 3
+      }
+     },
+     "complete_mean": {
+      "D": 36.91395939999999,
+      "Fm": 42.81005719999999,
+      "Fp": 30.866778233333335
+     },
+     "fastest": {
+      "D": 9,
+      "Fm": 7,
+      "Fp": 14
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 22.882173433333325,
+     "oracle_vs_sbs": {
+      "saving_s": 239.53814399999996,
+      "share_top": {
+       "1": 0.20422171677175563,
+       "3": 0.48398287664782114,
+       "10": 0.9063145074715115
+      }
+     },
+     "resource_total": {
+      "D": 1107.4187819999997,
+      "Fm": 1284.3017159999997,
+      "Fp": 926.0033470000001
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 12,
+       "gain_share_top": {
+        "1": 0.293606920388013,
+        "3": 0.6330551936733994,
+        "10": 0.9625654282523874
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-L-40",
+       "max_loss_s": 103.78182199999999,
+       "slower_count": 18
+      },
+      "Fp": {
+       "faster_count": 17,
+       "gain_share_top": {
+        "1": 0.3745644703650184,
+        "3": 0.6382381520889732,
+        "10": 0.9285853970916973
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-L-25",
+       "max_loss_s": 48.91889100000001,
+       "slower_count": 13
+      }
+     }
+    },
+    "assign2-M": {
+     "answers": {
+      "SAT": 28,
+      "UNSAT": 2
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 8,
+       "Fm": 10,
+       "close": 12
+      },
+      "Fp_vs_D": {
+       "D": 7,
+       "Fp": 11,
+       "close": 12
+      },
+      "Fp_vs_Fm": {
+       "Fm": 7,
+       "Fp": 10,
+       "close": 13
+      }
+     },
+     "complete_mean": {
+      "D": 3.857642166666666,
+      "Fm": 4.006941466666667,
+      "Fp": 3.4357992
+     },
+     "fastest": {
+      "D": 5,
+      "Fm": 10,
+      "Fp": 15
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 2.367056,
+     "oracle_vs_sbs": {
+      "saving_s": 32.062295999999996,
+      "share_top": {
+       "1": 0.1892588727893973,
+       "3": 0.5210398531658494,
+       "10": 0.9515261477219223
+      }
+     },
+     "resource_total": {
+      "D": 115.72926499999998,
+      "Fm": 120.20824400000002,
+      "Fp": 103.073976
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 18,
+       "gain_share_top": {
+        "1": 0.18673996512547558,
+        "3": 0.5127589885200907,
+        "10": 0.9029093687596571
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-M-07",
+       "max_loss_s": 6.2140049999999984,
+       "slower_count": 12
+      },
+      "Fp": {
+       "faster_count": 20,
+       "gain_share_top": {
+        "1": 0.26317474798223217,
+        "3": 0.4689400417912864,
+        "10": 0.8366521802834186
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-M-09",
+       "max_loss_s": 6.068074000000001,
+       "slower_count": 10
+      }
+     }
+    },
+    "assign2-S": {
+     "answers": {
+      "SAT": 26,
+      "UNSAT": 4
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 5,
+       "Fm": 1,
+       "close": 24
+      },
+      "Fp_vs_D": {
+       "D": 4,
+       "Fp": 6,
+       "close": 20
+      },
+      "Fp_vs_Fm": {
+       "Fm": 4,
+       "Fp": 8,
+       "close": 18
+      }
+     },
+     "complete_mean": {
+      "D": 1.5282554666666663,
+      "Fm": 1.612382533333333,
+      "Fp": 1.3282779
+     },
+     "fastest": {
+      "D": 6,
+      "Fm": 8,
+      "Fp": 16
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 0.9481097333333334,
+     "oracle_vs_sbs": {
+      "saving_s": 11.405044999999998,
+      "share_top": {
+       "1": 0.22175072522730074,
+       "3": 0.5502670090297759,
+       "10": 0.9611858611693334
+      }
+     },
+     "resource_total": {
+      "D": 45.84766399999999,
+      "Fm": 48.371475999999994,
+      "Fp": 39.848337
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 17,
+       "gain_share_top": {
+        "1": 0.2011228027512528,
+        "3": 0.4242532679367617,
+        "10": 0.9137019977198159
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-S-50",
+       "max_loss_s": 1.652088,
+       "slower_count": 13
+      },
+      "Fp": {
+       "faster_count": 18,
+       "gain_share_top": {
+        "1": 0.1372794360080654,
+        "3": 0.38247265802519387,
+        "10": 0.8672563395861898
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-assign2-S-36",
+       "max_loss_s": 1.8354119999999998,
+       "slower_count": 12
+      }
+     }
+    },
+    "col3-L": {
+     "answers": {
+      "SAT": 26,
+      "UNSAT": 4
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 13,
+       "Fm": 5,
+       "close": 12
+      },
+      "Fp_vs_D": {
+       "D": 3,
+       "Fp": 12,
+       "close": 15
+      },
+      "Fp_vs_Fm": {
+       "Fm": 3,
+       "Fp": 15,
+       "close": 12
+      }
+     },
+     "complete_mean": {
+      "D": 11.082650233333334,
+      "Fm": 13.023783900000002,
+      "Fp": 7.322584833333333
+     },
+     "fastest": {
+      "D": 10,
+      "Fm": 4,
+      "Fp": 16
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 6.196264633333331,
+     "oracle_vs_sbs": {
+      "saving_s": 33.789606,
+      "share_top": {
+       "1": 0.32677297273013484,
+       "3": 0.7492921639867597,
+       "10": 0.9802073750134879
+      }
+     },
+     "resource_total": {
+      "D": 332.479507,
+      "Fm": 390.713517,
+      "Fp": 219.67754499999998
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 7,
+       "gain_share_top": {
+        "1": 0.472565519301841,
+        "3": 0.8648322546827789,
+        "10": 1.0
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-L-44",
+       "max_loss_s": 27.971747,
+       "slower_count": 23
+      },
+      "Fp": {
+       "faster_count": 20,
+       "gain_share_top": {
+        "1": 0.29721202123731555,
+        "3": 0.656547565987149,
+        "10": 0.9629384906178768
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-L-59",
+       "max_loss_s": 11.04153,
+       "slower_count": 10
+      }
+     }
+    },
+    "col3-M": {
+     "answers": {
+      "SAT": 20,
+      "UNSAT": 10
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 4,
+       "Fm": 5,
+       "close": 21
+      },
+      "Fp_vs_D": {
+       "D": 3,
+       "Fp": 13,
+       "close": 14
+      },
+      "Fp_vs_Fm": {
+       "Fm": 1,
+       "Fp": 15,
+       "close": 14
+      }
+     },
+     "complete_mean": {
+      "D": 6.895586433333333,
+      "Fm": 7.562563699999999,
+      "Fp": 5.099893966666667
+     },
+     "fastest": {
+      "D": 7,
+      "Fm": 4,
+      "Fp": 19
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 4.689942166666667,
+     "oracle_vs_sbs": {
+      "saving_s": 12.298554000000001,
+      "share_top": {
+       "1": 0.4674592639102125,
+       "3": 0.8175173276468111,
+       "10": 0.9976202080342128
+      }
+     },
+     "resource_total": {
+      "D": 206.867593,
+      "Fm": 226.87691099999998,
+      "Fp": 152.99681900000002
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 14,
+       "gain_share_top": {
+        "1": 0.28516901941382716,
+        "3": 0.5495521769996533,
+        "10": 0.9678437033239199
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-M-19",
+       "max_loss_s": 10.704555000000001,
+       "slower_count": 16
+      },
+      "Fp": {
+       "faster_count": 21,
+       "gain_share_top": {
+        "1": 0.21941619808171856,
+        "3": 0.5354984517998277,
+        "10": 0.8587214543844175
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-M-19",
+       "max_loss_s": 5.749073,
+       "slower_count": 9
+      }
+     }
+    },
+    "col3-S": {
+     "answers": {
+      "SAT": 14,
+      "UNSAT": 16
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 1,
+       "close": 29
+      },
+      "Fp_vs_D": {
+       "close": 30
+      },
+      "Fp_vs_Fm": {
+       "close": 30
+      }
+     },
+     "complete_mean": {
+      "D": 1.252883033333333,
+      "Fm": 1.3240735999999997,
+      "Fp": 1.091983266666667
+     },
+     "fastest": {
+      "D": 7,
+      "Fm": 5,
+      "Fp": 18
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 1.0432595,
+     "oracle_vs_sbs": {
+      "saving_s": 1.4617129999999998,
+      "share_top": {
+       "1": 0.568439221652951,
+       "3": 0.7696230381750727,
+       "10": 0.9977375859693387
+      }
+     },
+     "resource_total": {
+      "D": 37.58649099999999,
+      "Fm": 39.722207999999995,
+      "Fp": 32.75949800000001
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 12,
+       "gain_share_top": {
+        "1": 0.22889548424903802,
+        "3": 0.4808211887793393,
+        "10": 0.9558859436774404
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-S-46",
+       "max_loss_s": 1.372883,
+       "slower_count": 18
+      },
+      "Fp": {
+       "faster_count": 22,
+       "gain_share_top": {
+        "1": 0.1464195634339632,
+        "3": 0.3316038590559342,
+        "10": 0.8144186687149132
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-col3-S-46",
+       "max_loss_s": 0.8308949999999999,
+       "slower_count": 8
+      }
+     }
+    },
+    "rand3-L": {
+     "answers": {
+      "SAT": 8,
+      "UNSAT": 22
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 8,
+       "Fm": 22
+      },
+      "Fp_vs_D": {
+       "D": 8,
+       "Fp": 22
+      },
+      "Fp_vs_Fm": {
+       "Fm": 5,
+       "Fp": 11,
+       "close": 14
+      }
+     },
+     "complete_mean": {
+      "D": 443.5869536666668,
+      "Fm": 224.62272610000002,
+      "Fp": 217.15727346666665
+     },
+     "fastest": {
+      "D": 8,
+      "Fm": 6,
+      "Fp": 16
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 169.33353213333336,
+     "oracle_vs_sbs": {
+      "saving_s": 1434.7122400000003,
+      "share_top": {
+       "1": 0.36054680275119133,
+       "3": 0.7817854073650335,
+       "10": 0.9854460250509884
+      }
+     },
+     "resource_total": {
+      "D": 13307.608610000003,
+      "Fm": 6738.681783000001,
+      "Fp": 6514.718204
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 22,
+       "gain_share_top": {
+        "1": 0.1266855434358324,
+        "3": 0.3276827292989659,
+        "10": 0.7797112156903774
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-L-20",
+       "max_loss_s": 332.327475,
+       "slower_count": 8
+      },
+      "Fp": {
+       "faster_count": 22,
+       "gain_share_top": {
+        "1": 0.1136656695794336,
+        "3": 0.32325826954005493,
+        "10": 0.7694041237098378
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-L-37",
+       "max_loss_s": 517.280911,
+       "slower_count": 8
+      }
+     }
+    },
+    "rand3-M": {
+     "answers": {
+      "SAT": 17,
+      "UNSAT": 13
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 13,
+       "Fm": 11,
+       "close": 6
+      },
+      "Fp_vs_D": {
+       "D": 13,
+       "Fp": 13,
+       "close": 4
+      },
+      "Fp_vs_Fm": {
+       "Fm": 7,
+       "Fp": 7,
+       "close": 16
+      }
+     },
+     "complete_mean": {
+      "D": 13.198093133333336,
+      "Fm": 13.494061899999998,
+      "Fp": 13.651359266666665
+     },
+     "fastest": {
+      "D": 13,
+      "Fm": 8,
+      "Fp": 9
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 8.480370600000002,
+     "oracle_vs_sbs": {
+      "saving_s": 155.12966000000003,
+      "share_top": {
+       "1": 0.35737631346578075,
+       "3": 0.5715172649769231,
+       "10": 0.8767143691283794
+      }
+     },
+     "resource_total": {
+      "D": 395.94279400000005,
+      "Fm": 404.82185699999997,
+      "Fp": 409.54077799999993
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 16,
+       "gain_share_top": {
+        "1": 0.1396259886704434,
+        "3": 0.40334121077356927,
+        "10": 0.8870332671645049
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-M-36",
+       "max_loss_s": 38.29096,
+       "slower_count": 14
+      },
+      "Fp": {
+       "faster_count": 15,
+       "gain_share_top": {
+        "1": 0.11849166364325019,
+        "3": 0.3296485018117144,
+        "10": 0.8581807395322829
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-M-36",
+       "max_loss_s": 55.439666,
+       "slower_count": 15
+      }
+     }
+    },
+    "rand3-S": {
+     "answers": {
+      "SAT": 18,
+      "UNSAT": 12
+     },
+     "clear_advantage": {
+      "Fm_vs_D": {
+       "D": 4,
+       "Fm": 8,
+       "close": 18
+      },
+      "Fp_vs_D": {
+       "D": 4,
+       "Fp": 9,
+       "close": 17
+      },
+      "Fp_vs_Fm": {
+       "Fm": 5,
+       "Fp": 4,
+       "close": 21
+      }
+     },
+     "complete_mean": {
+      "D": 2.858091733333334,
+      "Fm": 2.3887069000000003,
+      "Fp": 2.318371999999999
+     },
+     "fastest": {
+      "D": 9,
+      "Fm": 7,
+      "Fp": 14
+     },
+     "n": 30,
+     "oracle_known": 30,
+     "oracle_mean": 1.7587550333333333,
+     "oracle_vs_sbs": {
+      "saving_s": 16.788508999999998,
+      "share_top": {
+       "1": 0.1903726531045729,
+       "3": 0.4437071809057016,
+       "10": 0.8754796509922352
+      }
+     },
+     "resource_total": {
+      "D": 85.74275200000002,
+      "Fm": 71.661207,
+      "Fp": 69.55115999999998
+     },
+     "sbs": "Fp",
+     "solved": {
+      "D": 30,
+      "Fm": 30,
+      "Fp": 30
+     },
+     "vs_D": {
+      "Fm": {
+       "faster_count": 14,
+       "gain_share_top": {
+        "1": 0.18137167894996686,
+        "3": 0.48786400352384307,
+        "10": 0.9585024482539285
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-S-01",
+       "max_loss_s": 2.706901,
+       "slower_count": 16
+      },
+      "Fp": {
+       "faster_count": 20,
+       "gain_share_top": {
+        "1": 0.1725309534906846,
+        "3": 0.4352232266865001,
+        "10": 0.8789340155246691
+       },
+       "gained_from_timeout": [],
+       "lost_to_timeout": [],
+       "max_loss_instance": "v9-rand3-S-55",
+       "max_loss_s": 3.1960729999999997,
+       "slower_count": 10
+      }
+     }
+    }
+   }
+  }
+ }
+}

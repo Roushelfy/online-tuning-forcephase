@@ -357,3 +357,14 @@
 - 依据：[SELECTION.md](../reports/cross_scale_v10/SELECTION.md)。
 - 主策略 = B：静态 + D 2 s，岭回归 α = 10，θ = 0.1 s，基线 F−。同成本无内容对照 = D 2 s → F−，作为唯一的固定参照部署。开发 SBS = F−。
 - 运行计划：`plans/confirm.json`（270 × 5）、`extrap.json`（90 × 5）、`external.json`（118 × 5）、`deploy_dev.json`（270 × 2）。
+
+### 执行可选的原 55 题压力测试（第 9 节，2026-10-26，确认运行进行期间决定）
+
+- **理由**：主策略是 wrapper（B），资源政策第 5 步要求把极难比赛题放在统一截止下作压力测试，累计核时不限。这一项不参与任何选择，不阻塞主研究，结果单独报告。
+- **运行**：
+  - `stress_old55`：55 题 × {W_main, W_ref}，3600 s；
+  - `stress_old55_fixed`：3600 s 视图中只有 v6 300 s 下界的 F+ 14 题与 F− 15 题，在新 stage 中以 3600 s 补跑，保留历史记录。
+- **说明**：
+  - D 的 3600 s 结果已完全确定（42 解 / 13 超时，来自 v6 / v7 的历史运行），不重跑；
+  - 已超时的题不放宽上限、不重启、不换 seed；
+  - CNF 由 `benchmarks/cnf/*.cnf.xz` 解压到 `$FP_DATA/cross_scale_v10/stress_cnf`（SHA-256：`results/cross_scale_v10/stress_cnf_sha256.json`）。

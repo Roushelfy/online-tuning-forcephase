@@ -1,0 +1,208 @@
+{
+ "jobs": [
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/090eefb9bc472f6478e70baf2c6d2403.cnf",
+   "instance": "090eefb9bc472f6478e70baf2c6d2403",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "1bf353080e58efa22dcd70e56344bfaef13071b4f1c1ebddf94fc28bb0ed6d90"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/0a8a4c28d27228e954354ea0a6e7f16c.cnf",
+   "instance": "0a8a4c28d27228e954354ea0a6e7f16c",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "c92ccff7c071c062b6e5c451dece1cd9db426945d273153199de4a442098d061"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/1afa2d7a3d817c3149da432eece66da8.cnf",
+   "instance": "1afa2d7a3d817c3149da432eece66da8",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "adc99751116b37339df2339499bedf1e3937e78a3beb5f16d31ed4a593df2b7a"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/1b8806812861df2b7e91dc316ad1ef80.cnf",
+   "instance": "1b8806812861df2b7e91dc316ad1ef80",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "07d51856fc014ca85678020614f6eaa5c243f511b8d718386898bd904e1885ec"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/25cc054738293c0d9377d7b72b78a341.cnf",
+   "instance": "25cc054738293c0d9377d7b72b78a341",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "abce583f8b448ea1f9bf730df9c2112b0784f8034fddc018b48a67631ba38dac"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/511a2d81661a185c2115daec42270dec.cnf",
+   "instance": "511a2d81661a185c2115daec42270dec",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "f8d223201f581cf9eda8774794ffc8ca9d8db7a2a3bbd2b5a6492c80200230a0"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/6543793076c30fc7cdfa5a3c819cedc7.cnf",
+   "instance": "6543793076c30fc7cdfa5a3c819cedc7",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "087bb0f197f7c48a00f8eb3d1ca7243d13f2129f53ae4d523693ca709da493f7"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/9541d12f3e3d9201085c13f25145d2f7.cnf",
+   "instance": "9541d12f3e3d9201085c13f25145d2f7",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "90f104e041a1a4f103a1f222a82b22d6f79e095fcb8bbc58eab89331730209d4"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/98c6da979a0a22d384d465a1da17111e.cnf",
+   "instance": "98c6da979a0a22d384d465a1da17111e",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "cea26a4ab81cc12b7c5fd74b04390613db7f181553794290c885c9fc8e90666a"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/af834fd3ce15078d2ab055c996758c00.cnf",
+   "instance": "af834fd3ce15078d2ab055c996758c00",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "076f4d32bf8b0fe476c6ac614509cf7fd856ba9a19edf121af069e627a48791c"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/b64f7d56f1b369fac6a3bcb1efd784da.cnf",
+   "instance": "b64f7d56f1b369fac6a3bcb1efd784da",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "c74f78dd3bba5e471d2100285ede4d5bfc3dd9527bc5649e7403f3a015588eec"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/c8cde50f32ca3f78a4c74a173c63449b.cnf",
+   "instance": "c8cde50f32ca3f78a4c74a173c63449b",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "ee3ba1ab470d0f35b7c4fc31d841578ead7e555b8af5010edd04f033aafc8cbf"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/e2deb375e56da2360ecd08fc1179fb7d.cnf",
+   "instance": "e2deb375e56da2360ecd08fc1179fb7d",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "572188de5a5685480494f9f70b07631baca2d38d5e423f8cc9203a991f5cc128"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/ed410c758e5025f1bb97922574d1c2ff.cnf",
+   "instance": "ed410c758e5025f1bb97922574d1c2ff",
+   "method": "Fp",
+   "rep": 0,
+   "sha256": "b59229fcff7c8e108d32768fb2b9cf7f62aec6318c72eda8132f9e1b032921af"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/090eefb9bc472f6478e70baf2c6d2403.cnf",
+   "instance": "090eefb9bc472f6478e70baf2c6d2403",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "1bf353080e58efa22dcd70e56344bfaef13071b4f1c1ebddf94fc28bb0ed6d90"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/1b8806812861df2b7e91dc316ad1ef80.cnf",
+   "instance": "1b8806812861df2b7e91dc316ad1ef80",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "07d51856fc014ca85678020614f6eaa5c243f511b8d718386898bd904e1885ec"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/25cc054738293c0d9377d7b72b78a341.cnf",
+   "instance": "25cc054738293c0d9377d7b72b78a341",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "abce583f8b448ea1f9bf730df9c2112b0784f8034fddc018b48a67631ba38dac"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/2e058841373f34cc47d8dec927fd1796.cnf",
+   "instance": "2e058841373f34cc47d8dec927fd1796",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "4e195070a2566f32773662e8c31baf40e40571d690696102fd2ebc9c72d388a2"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/511a2d81661a185c2115daec42270dec.cnf",
+   "instance": "511a2d81661a185c2115daec42270dec",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "f8d223201f581cf9eda8774794ffc8ca9d8db7a2a3bbd2b5a6492c80200230a0"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/5ceb95f5960efe1f23c3014847dea118.cnf",
+   "instance": "5ceb95f5960efe1f23c3014847dea118",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "7f9db70d816a411efc7fa79a5dd0cc2394f61499e585f1e45aeb869b57250105"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/69e34d0f49c71a7e145d8104ebe0273f.cnf",
+   "instance": "69e34d0f49c71a7e145d8104ebe0273f",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "fd775bc9affc5372f5df78dcdfbea09e2a059a03ce595af341a2369c2d0d84e2"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/761651d4b6454108403bdefe22720fb3.cnf",
+   "instance": "761651d4b6454108403bdefe22720fb3",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "2ba6a6622528200ab77a6d675124c5d4ea45079a70fbfdca51e00572dc99d1bb"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/9541d12f3e3d9201085c13f25145d2f7.cnf",
+   "instance": "9541d12f3e3d9201085c13f25145d2f7",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "90f104e041a1a4f103a1f222a82b22d6f79e095fcb8bbc58eab89331730209d4"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/b64f7d56f1b369fac6a3bcb1efd784da.cnf",
+   "instance": "b64f7d56f1b369fac6a3bcb1efd784da",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "c74f78dd3bba5e471d2100285ede4d5bfc3dd9527bc5649e7403f3a015588eec"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/b88d206fb35ef87bd7ec5d4a1430ae0c.cnf",
+   "instance": "b88d206fb35ef87bd7ec5d4a1430ae0c",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "3b3566683be2057414b9b399616faa05a8fd2ad7f901264ec4b57d7d3de748a4"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/c8cde50f32ca3f78a4c74a173c63449b.cnf",
+   "instance": "c8cde50f32ca3f78a4c74a173c63449b",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "ee3ba1ab470d0f35b7c4fc31d841578ead7e555b8af5010edd04f033aafc8cbf"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/ca6db14aaa04027d2b8af47ec910bd68.cnf",
+   "instance": "ca6db14aaa04027d2b8af47ec910bd68",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "b3f492f26296b168d5f636a0e8f8f6f9c4f50144e15005a6b2a22f062ce2c5b9"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/e8abb9c83efdd96a99990f3b914ea873.cnf",
+   "instance": "e8abb9c83efdd96a99990f3b914ea873",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "2e4ef77ed5713eea479ab14c4b480c7ec87b6ed1787b6efff86dbbd6657b9b93"
+  },
+  {
+   "cnf": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/cross_scale_v10/stress_cnf/ed410c758e5025f1bb97922574d1c2ff.cnf",
+   "instance": "ed410c758e5025f1bb97922574d1c2ff",
+   "method": "Fm",
+   "rep": 0,
+   "sha256": "b59229fcff7c8e108d32768fb2b9cf7f62aec6318c72eda8132f9e1b032921af"
+  }
+ ],
+ "stage": "stress_old55_fixed"
+}

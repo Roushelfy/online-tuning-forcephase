@@ -108,8 +108,8 @@ def robust(dev):
     split = json.load(open(os.path.join(CFG, "split.json")))
     ids = [l.strip() for l in open(os.path.join(CFG, "panel_robust.txt")) if l.strip() and not l.startswith("#")]
     cond = {"seed0": {i: dev[i] for i in ids},
-            "seed1": L.fixed_table(ids, "robust_dev", split, seed=1),
-            "perm1": L.fixed_table(ids, "robust_dev", split, seed=0, variant="perm1")}
+            "seed1": L.fixed_table(ids, ("robust_dev", "robust_dev_r2"), split, seed=1),
+            "perm1": L.fixed_table(ids, ("robust_dev", "robust_dev_r2"), split, seed=0, variant="perm1")}
     out = {"n": len(ids), "conditions": {}}
     for c, rows in cond.items():
         complete = [i for i in ids if all(a in rows[i]["t"] for a in ACTS)]
@@ -146,7 +146,7 @@ def v9_historical():
     split = json.load(open(os.path.join(ROOT, "configs", "online_selection_v9", "split.json")))
     stops = {x["id"] for x in json.load(open(os.path.join(ROOT, "results", "policy_stops.json")))["stops"]}
     panels = {"v9_dev": ("s1_dev", [i for i, v in split.items() if v["split"] == "dev" and v.get("role") == "main"]),
-              "v9_holdout": ("holdout", [i for i, v in split.items() if v["split"] == "holdout" and v.get("role") == "main"])}
+              "v9_holdout": ("holdout", [i for i, v in split.items() if v["split"] in ("H1", "H2", "H3") and v.get("role") == "main"])}
     ext = [l.split()[0] for l in open(os.path.join(ROOT, "configs", "online_selection_v9", "panel_extrapolation.txt"))
            if l.strip() and not l.startswith("#")]
     panels["v9_extrapolation"] = ("extrap", ext)

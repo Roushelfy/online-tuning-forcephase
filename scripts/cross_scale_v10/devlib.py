@@ -47,7 +47,8 @@ def ok(r):
 def fixed_table(ids, stage, split=None, seed=0, variant=None):
     """{id: {t: {a: cpu}, ok: {a: bool}, status: {a: status}, answer}} from fixed runs of one stage."""
     tab = {i: {"t": {}, "ok": {}, "status": {}, "answer": None} for i in ids}
-    for r in records(stage):
+    stages = [stage] if isinstance(stage, str) else list(stage)
+    for r in (x for st in stages for x in records(st)):
         if r["instance"] not in tab or r["method"] not in ACTS or r.get("seed", 0) != seed or r.get("variant") != variant:
             continue
         row = tab[r["instance"]]
