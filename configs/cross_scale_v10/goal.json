@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "goal_version": 10,
+  "status": "planned_not_started",
+  "goal_document": "docs/AGENT_GOAL.md",
+  "date": "2026-10-26",
+  "research_question": "Can cheap static/default/paired three-mode probes select once among D/F+/F- and improve over development SBS across scales?",
+  "per_method_cpu_seconds": 3600,
+  "project_cpu_hours_cap": null,
+  "stage_cpu_hours_cap": null,
+  "panels": {
+    "pilot_max": 72,
+    "development": 270,
+    "confirmation": 270,
+    "confirmation_blocks": [
+      90,
+      90,
+      90
+    ],
+    "scale_extrapolation": 90,
+    "external_target": 120
+  },
+  "families": [
+    "static",
+    "default_probe",
+    "paired_three_mode_probe"
+  ],
+  "default_probe_seconds": [
+    0.1,
+    0.5,
+    2,
+    5
+  ],
+  "paired_probe_seconds_per_arm": [
+    0.1,
+    0.5,
+    2
+  ],
+  "final_selection": "once; restart selected action after unsuccessful probes; all costs included",
+  "prior_work_audit_required": true,
+  "primary_complete_metric": "arithmetic_mean_complete_process_tree_cpu_seconds",
+  "incomplete_mean": null,
+  "par2_primary": false,
+  "practical_gain_target_vs_dev_sbs": 0.05,
+  "heldout_tuning_allowed": false
+}

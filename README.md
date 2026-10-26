@@ -4,7 +4,9 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 本仓库是科研项目 **Online Tuning Forcephase H:1** 的完整研究记录：固定版本 CaDiCaL 上的最小研究补丁、可复现的实验流水线、全部运行记录的汇总、分阶段报告和最终中文研究报告。
 
-**用户资源政策更新（2026-10-24）：不设核时限制。**旧200核时及其阶段额度已取消；历史累计197.74核时只是账本，不是剩余配额。当前政策：[RESOURCE_POLICY.md](docs/RESOURCE_POLICY.md)、[resource_policy.json](configs/resource_policy.json)。运行器不再按累计CPU或旧budget参数停机。
+**当前资源政策：每题每方法3600 CPU秒，项目与阶段累计核时不限。**在线方法的观察、重启与正式求解合计计时；超时不冒充完成时间。见 [RESOURCE_POLICY.md](docs/RESOURCE_POLICY.md)、[run_timeout_policy.json](configs/run_timeout_policy.json)。
+
+**当前目标：[Agent Goal v10：跨规模的低成本三选一](docs/AGENT_GOAL.md)（2026-10-26，尚未执行）。**审计v5已有配对短试跑，比较静态、默认前缀与三模式配对前缀的真实成本和增量；新270开发、270确认、90规模外推及约120外部题；以开发SBS为必要对照，保守选择、冻结后真实部署。v9目标已存档：[AGENT_GOAL_ONLINE_SELECTION_V9.md](docs/AGENT_GOAL_ONLINE_SELECTION_V9.md)。
 
 **Agent Goal v9（默认短预求解后的三选一）：已交付，[reports/online_selection_v9/FINAL_REPORT.md](reports/online_selection_v9/FINAL_REPORT.md)。**新生成 270 开发 + 270 留出（H1/H2/H3）题：随机3-SAT、图3着色、新的双边容量耦合分配，各三档规模，全部运行完成并独立验证。按预注册规则，开发集嵌套交叉验证中时间门（D先τ秒再F±）与内容门都没有胜过固定 F+，主策略为开发集 SBS＝始终 F+：留出 31.36 s 对 D 57.91 s，**+45.8% [+30.4, +54.6]**；参照“D 2 s → F+”为 +49.7% [+39.8, +55.8]，但相对 F+ 仅 +7.2% [−2.1, +20.7]（来自两道随机 SAT 大题，不可靠）。单因素消融：UNSAT 上 forcephase 的优势来自强制固定方向、跳过 saved/target 相位，而非关闭 rephase（纠正 v8 措辞）。F+ 的收益不外推：更大着色仍 +31–64%，更大分配题 −118%/−336%，更大随机题 −103%/+42%（外推 90 题整体 −44%）；SATLIB 小题上无收益。原55题：恢复运行解出此前无人解出的 c7bf3517f4（UNSAT），oracle 51/55，D 与冻结选择器 49/55（均值 null）。2026-10-25 起采用每题每方法 3600 CPU 秒单次超时（累计不限）：剩余约 85,000 s 的 13 个运行已停止（policy_timeout），控制器已接入并测试，v9 留出 270 题无一超过 3600 s、主比较不变；3600 s 视图见 [TIMEOUT_3600.md](reports/online_selection_v9/TIMEOUT_3600.md)。协议：[ONLINE_SELECTION_PROTOCOL_V9.md](docs/ONLINE_SELECTION_PROTOCOL_V9.md)；算力只计量（[COMPUTE.md](results/online_selection_v9/COMPUTE.md)）。v8 目标存档：[AGENT_GOAL_STRATIFIED_V8.md](docs/AGENT_GOAL_STRATIFIED_V8.md)。
 
