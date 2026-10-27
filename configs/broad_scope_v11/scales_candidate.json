@@ -401,18 +401,18 @@
   },
   "jssp": {
    "candidates": {
-    "L": 25,
-    "M": 22,
-    "S": 18
+    "L": 30,
+    "M": 28,
+    "S": 22
    },
    "coverage": {
     "all_above_600s": false,
     "all_below_1s": false
    },
    "fit": {
-    "intercept": -9.887269915315775,
+    "intercept": -7.270996118829453,
     "log": "natural",
-    "slope": 0.5895012263969545
+    "slope": 0.3678666282119852
    },
    "points": [
     {
@@ -938,6 +938,24 @@
      "status": "solved"
     },
     {
+     "cpu": 3600.0,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 21,
+     "solved": false,
+     "status": "policy_timeout"
+    },
+    {
+     "cpu": 1585.3229709999998,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 21,
+     "solved": true,
+     "status": "solved"
+    },
+    {
      "cpu": 13.079898,
      "params": {
       "rho": 0.85
@@ -1209,9 +1227,9 @@
     }
    ],
    "secondary": {
-    "chosen": 0.85,
+    "chosen": 0.9,
     "fraction_in_1_600": {
-     "0.85": 0.3333333333333333,
+     "0.85": 0.2857142857142857,
      "0.9": 0.2857142857142857,
      "0.95": 0.0
     },

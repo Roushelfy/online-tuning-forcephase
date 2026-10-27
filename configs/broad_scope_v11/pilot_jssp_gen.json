@@ -1,0 +1,136 @@
+{
+ "instances": [
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-S-s8000",
+   "level": "S",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 22
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-S-s8001",
+   "level": "S",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 22
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-S-s8002",
+   "level": "S",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 22
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-S-s8003",
+   "level": "S",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 22
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-M-s8000",
+   "level": "M",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 28
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-M-s8001",
+   "level": "M",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 28
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-M-s8002",
+   "level": "M",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 28
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-M-s8003",
+   "level": "M",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 28
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-L-s8000",
+   "level": "L",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 30
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-L-s8001",
+   "level": "L",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 30
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-L-s8002",
+   "level": "L",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 30
+  },
+  {
+   "family": "jssp",
+   "id": "v11p-jssp-L-s8003",
+   "level": "L",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 30
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "jobs": [
+  {
+   "instance": "v11p-jssp-S-s8000",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "cd5a4cd9c811430c911f121ce59c0b2ba22d7eb1967c0708f8d91e00e2395242"
+  },
+  {
+   "instance": "v11p-jssp-S-s8001",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "2ec3b2b2ff1f81de415cbb55dda9f5c3071c0a9460ddd7f95829898156efbf65"
+  },
+  {
+   "instance": "v11p-jssp-S-s8002",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "87c45f84226721f5f1b1e6906e8b1cae30905487efc923459d15c1dd03d418e5"
+  },
+  {
+   "instance": "v11p-jssp-S-s8003",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "07b13ff216f2a5992ff53732aff1a64f69033859c71d4335dab33d600fd59127"
+  },
+  {
+   "instance": "v11p-jssp-M-s8000",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "7084b7fb3562acbcee0c9ea59a0ff9cf1e26ebbd2cdca5b6b5b24097c8442b2d"
+  },
+  {
+   "instance": "v11p-jssp-M-s8001",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "bf16239e755a00b81193793858fe65769132fff5dd31f20af5d99c401bc54f55"
+  },
+  {
+   "instance": "v11p-jssp-M-s8002",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "a74136755ad86204877174d97e1e6b73cbd5d9c5e594fcd53da65471bdcd7ec7"
+  },
+  {
+   "instance": "v11p-jssp-M-s8003",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "21c974341ff885258ef706a57a78db33d788ef29dff6b1b1efe1ea37c519c154"
+  },
+  {
+   "instance": "v11p-jssp-L-s8000",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "ed7edb0330598302ac8f3f86bd606f3c28674eade350d7301bf6ffb6191662c9"
+  },
+  {
+   "instance": "v11p-jssp-L-s8001",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "50ea64835339929ead813f5b2a2df0d1fb62cb285de1bf0917820d9607e30081"
+  },
+  {
+   "instance": "v11p-jssp-L-s8002",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "12ea56823de5b198e48ed9deb0eb248e194f4aa7c63db992f32509ab35d19696"
+  },
+  {
+   "instance": "v11p-jssp-L-s8003",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "f0fe9cf649bb5d12ab4514955231065a401f4dded50474da8237a157bccc2f6c"
+  }
+ ],
+ "stage": "pilot_jssp"
+}
