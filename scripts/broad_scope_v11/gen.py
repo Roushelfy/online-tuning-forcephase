@@ -200,12 +200,6 @@ def model_from_output(path):
     return lits
 
 
-def flip_back(row, true):
-    """Map a model of a cnfscramble variant back is not needed: the check decodes the variant's own base
-    problem only for re-encodings; flipall / perm variants are checked by checkmodel alone."""
-    return true
-
-
 def semcheck(man_paths, stages):
     rows = {}
     for mp in man_paths:
@@ -235,8 +229,8 @@ def semcheck(man_paths, stages):
                     raise SystemExit(f"{row['id']}: re-generation does not reproduce the CNF")
                 cache[key] = sem
             sem = cache[key]
-            outp = os.path.join(DATA, rec["files"]["out"]) if rec.get("files", {}).get("out") else None
-            if not outp or not os.path.exists(outp):
+            outp = os.path.join(DATA, "runs", "broad_scope_v11", st, "raw", rec["id"], "final.out.gz")
+            if not os.path.exists(outp):
                 n_skip += 1
                 continue
             true = SEM.model_set(model_from_output(outp))
