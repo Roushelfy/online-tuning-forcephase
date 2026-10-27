@@ -10,7 +10,8 @@ Families and encodings:
   vcover   vertex cover of G(n, m = round(d n / 2)) with at most K = floor(alpha n) vertices;
            enc 'seqcounter' (Sinz) [primary] or 'totalizer' (Bailleux-Boufkhad) for the bound
   jssp     job-shop decision: n jobs x n machines, random machine order, durations U{1..dmax}, makespan <= T =
-           ceil(beta LB); enc 'order' (order encoding of start times, ordering variables per machine pair)
+           max(LB, floor(rho UB)) with UB the best of three dispatch-rule schedules (deviation 3; the registered
+           T = ceil(beta LB) remains selectable with params {"beta": ...}); enc 'order' (order encoding of start times, ordering variables per machine pair)
            [primary] or 'time' (time-indexed start variables, pairwise at-most-one per machine and time)
   bwplan   blocks world with n blocks, random initial / goal states, sequential plans of at most T =
            ceil(gamma L) steps (L = blocks not well placed); explanatory frame axioms, ladder at-most-one action
@@ -89,6 +90,38 @@ def vcover(n, seed, prm, enc="seqcounter"):
 
 # ------------------------------------------------------------------ job shop
 
+def dispatch_makespan(jobs, rule):
+    """Makespan of a greedy dispatch schedule (feasible, so an upper bound on the optimum).
+    rule 'est_mwkr' / 'est_spt': schedule the next operation with the earliest possible start, ties by most work
+    remaining / shortest duration; 'gt_mwkr': Giffler-Thompson active schedule, conflicts resolved by most work
+    remaining."""
+    n_j = len(jobs)
+    nxt = [0] * n_j
+    jr = [0] * n_j
+    mr = {}
+    rem = [sum(d for _, d in j) for j in jobs]
+    left = sum(len(j) for j in jobs)
+    while left:
+        cand = []
+        for j in range(n_j):
+            if nxt[j] < len(jobs[j]):
+                m, d = jobs[j][nxt[j]]
+                cand.append((max(jr[j], mr.get(m, 0)), d, j, m))
+        if rule == "gt_mwkr":
+            c_star, _, _, m_star = min((e + d, 0, j, m) for e, d, j, m in cand)
+            conf = [c for c in cand if c[3] == m_star and c[0] < c_star]
+            e, d, j, m = max(conf, key=lambda c: (rem[c[2]], -c[2]))
+        elif rule == "est_spt":
+            e, d, j, m = min(cand, key=lambda c: (c[0], c[1], c[2]))
+        else:
+            e, d, j, m = min(cand, key=lambda c: (c[0], -rem[c[2]], c[2]))
+        jr[j] = mr[m] = e + d
+        rem[j] -= d
+        nxt[j] += 1
+        left -= 1
+    return max(jr)
+
+
 def jssp_instance(n, seed, prm):
     rng = random.Random(seed)
     dmax = prm["dmax"]
@@ -99,7 +132,11 @@ def jssp_instance(n, seed, prm):
         jobs.append([(mc, rng.randint(1, dmax)) for mc in order])
     lb = max(max(sum(d for _, d in j) for j in jobs),
              max(sum(d for j in jobs for mc, d in j if mc == m) for m in range(n)))
-    T = int(math.ceil(prm["beta"] * lb))
+    if "rho" in prm:  # deviation 3: horizon relative to a dispatch-rule upper bound (near each instance's optimum)
+        ub = min(dispatch_makespan(jobs, r) for r in ("est_mwkr", "est_spt", "gt_mwkr"))
+        T = max(lb, int(math.floor(prm["rho"] * ub)))
+    else:
+        T = int(math.ceil(prm["beta"] * lb))
     return jobs, lb, T
 
 
@@ -175,7 +212,8 @@ def jssp(n, seed, prm, enc="order"):
         decode = "time: s_o = the t with var(o, t) true"
     else:
         raise ValueError(enc)
-    cmd = ["families.py:jssp", f"n={n}", f"seed={seed}", f"dmax={prm['dmax']}", f"beta={prm['beta']}", f"enc={enc}"]
+    hz = f"rho={prm['rho']}" if "rho" in prm else f"beta={prm['beta']}"
+    cmd = ["families.py:jssp", f"n={n}", f"seed={seed}", f"dmax={prm['dmax']}", hz, f"enc={enc}"]
     sem = {"jobs": jobs, "T": T, "lb": lb, "enc": enc, "decode": decode,
            "var": [[j, k, t, v] for ((j, k), t), v in sorted(var.items())]}
     return cmd, (B.nv, B.clauses), {"n": n, "lb": lb, "T": T, "enc": enc}, sem

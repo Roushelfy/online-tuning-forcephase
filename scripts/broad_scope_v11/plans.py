@@ -30,7 +30,7 @@ FAMS = PANEL["families"]
 NEW = ("vcover", "jssp", "bwplan", "factor", "qcp")
 BRIDGE = ("rand3", "col3", "assign2")
 LEVELS = ("S", "M", "L")
-SECONDARY = {"vcover": "budget_frac", "jssp": "beta", "bwplan": "gamma", "qcp": "preassign_frac"}
+SECONDARY = {"vcover": "budget_frac", "jssp": "rho", "bwplan": "gamma", "qcp": "preassign_frac"}
 MEASURE = {"static": True, "probes": [{"arm": "D", "tau": t} for t in (0.1, 0.5, 2.0)]}
 GENERATED = set(FAMS)
 
@@ -67,9 +67,9 @@ def solved(r):
 def explore_gen(rnd, extra=None):
     ex = GEN11["explore"]
     rows = []
-    seed0 = ex["seed_start"] + (500 if rnd == 2 else 0)
+    seed0 = ex["seed_start"] + {1: 0, 2: 500, 3: 700}[rnd]
     for fam in NEW:
-        sizes = (extra or {}).get(fam) if rnd == 2 else ex[fam]
+        sizes = (extra or {}).get(fam) if rnd > 1 else ex[fam]
         if not sizes:
             continue
         if fam == "factor":
@@ -85,7 +85,7 @@ def explore_gen(rnd, extra=None):
                     s = seed0 + k
                     rows.append({"id": f"v11x-{fam}-{n}-{key}{val}-s{s}", "family": fam, "size": n, "seed": s,
                                  "params": {key: val}, "role": "explore"})
-    dump(os.path.join(CFG, f"explore_gen{'_r2' if rnd == 2 else ''}.json"), {"instances": rows})
+    dump(os.path.join(CFG, "explore_gen" + ("" if rnd == 1 else f"_r{rnd}") + ".json"), {"instances": rows})
     print(len(rows), "exploration instances")
 
 
@@ -109,10 +109,10 @@ def pick_sizes(fam, a, b, targets):
 
 def explore_decide():
     targets = PANEL["targets_median_D_cpu"]
-    mans = [p for p in (os.path.join(RES, "explore_manifest.json"), os.path.join(RES, "explore_r2_manifest.json"))
+    mans = [p for p in (os.path.join(RES, f"explore{s}_manifest.json") for s in ("", "_r2", "_r3"))
             if os.path.exists(p)]
     rows = {r["id"]: r for m in mans for r in load(m)["instances"]}
-    recs = [r for st in ("explore", "explore_r2") for r in records(st)]
+    recs = [r for st in ("explore", "explore_r2", "explore_r3") for r in records(st)]
     out = {"targets": targets, "families": {}, "rule": "protocol 3.4"}
     for fam in NEW:
         pts = []

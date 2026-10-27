@@ -68,3 +68,20 @@ if __name__ == "__main__":  # the generator venv has no pytest
 def test_families_tiny():
     for f in sorted(TINY):
         print(f, check_family(f))
+
+
+def test_jssp_dispatch_upper_bound():
+    """Every dispatch-rule makespan is achievable (brute force finds a schedule within it)."""
+    import families as FAM
+    for n in (2, 3):
+        for seed in range(10):
+            jobs, lb, _ = FAM.jssp_instance(n, seed, {"dmax": 5, "rho": 1.0})
+            for rule in ("est_mwkr", "est_spt", "gt_mwkr"):
+                ub = FAM.dispatch_makespan(jobs, rule)
+                assert ub >= lb
+                assert SEM.brute("jssp", {"jobs": jobs, "T": ub})
+
+
+if __name__ == "__main__":
+    test_jssp_dispatch_upper_bound()
+    print("jssp dispatch ok")
