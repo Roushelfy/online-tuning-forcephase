@@ -1,0 +1,9 @@
+{
+ "action": "D",
+ "config": {
+  "fixed": "D"
+ },
+ "family": "SBS",
+ "kind": "fixed",
+ "name": "main"
+}

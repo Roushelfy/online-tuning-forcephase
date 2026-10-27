@@ -1,0 +1,71 @@
+{
+ "base": "D",
+ "config": {
+  "probes": [],
+  "st": [
+   1,
+   0.25
+  ],
+  "static": true
+ },
+ "family": "ST",
+ "features": [
+  "st_log_vars",
+  "st_log_clauses",
+  "st_cv_ratio",
+  "st_mean_len",
+  "st_bin_frac",
+  "st_long_frac",
+  "st_pos_frac",
+  "st_horn_frac",
+  "st_antihorn_frac",
+  "st_allneg_frac",
+  "st_allpos_frac",
+  "st_deg_log_mean",
+  "st_deg_cv",
+  "st_pol_imbalance",
+  "st_pure_frac",
+  "st_jw_pos",
+  "st_lowdeg_frac",
+  "st_bin_var_frac",
+  "st_vig_deg_log",
+  "st_vig_clust"
+ ],
+ "impute": {
+  "st_allneg_frac": 0.13582899999999998,
+  "st_allpos_frac": 0.003149505,
+  "st_antihorn_frac": 0.533316,
+  "st_bin_frac": 0.5096324999999999,
+  "st_bin_var_frac": 1.0,
+  "st_cv_ratio": 3.777435,
+  "st_deg_cv": 0.663574,
+  "st_deg_log_mean": 0.9386435,
+  "st_horn_frac": 0.831063,
+  "st_jw_pos": 0.431863,
+  "st_log_clauses": 5.10533,
+  "st_log_vars": 4.530195,
+  "st_long_frac": 0.0,
+  "st_lowdeg_frac": 0.0004557995,
+  "st_mean_len": 2.4903649999999997,
+  "st_pol_imbalance": 0.2204215,
+  "st_pos_frac": 0.442096,
+  "st_pure_frac": 0.0,
+  "st_vig_clust": 0.2665905,
+  "st_vig_deg_log": 1.1513815
+ },
+ "kind": "observe",
+ "missing_action": "D",
+ "name": "structural",
+ "needs_arms": [],
+ "probes": [],
+ "reader": {
+  "depth": 1,
+  "method": "tree",
+  "theta_fraction": 0.25,
+  "tree": {
+   "leaf": "D",
+   "n": 528
+  }
+ },
+ "static": true
+}

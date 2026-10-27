@@ -1,0 +1,1000 @@
+{
+ "checked": 124,
+ "ok": 124,
+ "failed": 0,
+ "skipped": 237,
+ "rows": [
+  {
+   "stage": "encoding",
+   "run": "0ae3ab8a56d5a93bdb5ef3ec897d538a4c7ddccf",
+   "instance": "v11-qcp-S-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "0b0ab4f84b93568d6e975442145032f609db70fc",
+   "instance": "v11-jssp-L-s1000-enctime",
+   "family": "jssp",
+   "enc": "time",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "1c6444c88b24c7848dfa8882bbc3d73cb6284e1b",
+   "instance": "v11-jssp-M-s1001-enctime",
+   "family": "jssp",
+   "enc": "time",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "25a502f0a82c8e65c18c6c6b7f90ce9036364849",
+   "instance": "v11-qcp-S-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "2b4a0f54b728dd1a6c19071a5d7073d3feeabe37",
+   "instance": "v11-qcp-L-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "2d0a88b96d81e87d8d996357514edd464c5a12ff",
+   "instance": "v11-col3-S-s1001-enclog",
+   "family": "col3",
+   "enc": "log",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "35a4af5c7b4c4f133038c6f272ed94925a1691dc",
+   "instance": "v11-vcover-S-s1001-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "4f384daac8bf093fabf46be6d1bf3e031986942a",
+   "instance": "v11-col3-S-s1000-enclog",
+   "family": "col3",
+   "enc": "log",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "52db3131533de6c37d7ff9d73adf68c2414820de",
+   "instance": "v11-vcover-M-s1000-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "540d7ebadd819ede34ee15ce4061215beb77a096",
+   "instance": "v11-vcover-S-s1001-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "5561bb2981ca4ee440b79be5124aa7b9ef7609a8",
+   "instance": "v11-vcover-M-s1001-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "56882ba24a7c8ec2e36cc988b28772330327776b",
+   "instance": "v11-qcp-S-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "5a7c448ed416981b32f83a604edbb3a3f085d274",
+   "instance": "v11-qcp-L-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "6b0ff483b7219e6be62e0b6e6dc263728346332f",
+   "instance": "v11-vcover-M-s1001-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "6e013266984a61b9e092b2380b38f3d9db461696",
+   "instance": "v11-qcp-S-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "6e94715b0f3d9102d492fcf85ac2c8378beaee01",
+   "instance": "v11-vcover-M-s1000-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "734cb354333c819cea3ac5c7f1aeb001557d2fb2",
+   "instance": "v11-qcp-M-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "7352a0178151e8f59bd57d3c8d94b7d940913ab2",
+   "instance": "v11-vcover-L-s1000-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "74054aabafa7b4c87030158eda047b9ade5f6576",
+   "instance": "v11-vcover-L-s1001-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "8229873b684465ef203af64facb275f6b61aeb5a",
+   "instance": "v11-jssp-M-s1000-enctime",
+   "family": "jssp",
+   "enc": "time",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "866c0ca9384d8d96f39f53931729764cab313aa3",
+   "instance": "v11-qcp-M-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "8c43e325109982988c944f12e3aec263f8628f41",
+   "instance": "v11-jssp-S-s1001-enctime",
+   "family": "jssp",
+   "enc": "time",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "8dabbd6e028f71d926799c6cd64b3e1be359cc03",
+   "instance": "v11-jssp-S-s1001-enctime",
+   "family": "jssp",
+   "enc": "time",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "95903590ed3a515eb8c6d54e60ca317174933c76",
+   "instance": "v11-vcover-S-s1001-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "981b357b367f3700a1ddad1e2510362a4b1c7af6",
+   "instance": "v11-qcp-L-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "a43033378d617365c220254bba91bd888e3b8088",
+   "instance": "v11-qcp-L-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "a586d0e86583d23df7f1964c79e56991ed9d30cf",
+   "instance": "v11-vcover-L-s1001-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "aa1d7306e5b8145823df894060b1aacf3494f92a",
+   "instance": "v11-qcp-S-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "b064ec3bd346094c832762aacd047eff6a368808",
+   "instance": "v11-qcp-L-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "b1aea7f16615866e6e586c82774dc2612f1c8697",
+   "instance": "v11-jssp-S-s1001-enctime",
+   "family": "jssp",
+   "enc": "time",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "c39f704ba59c06966a7252b840141a3f5add9730",
+   "instance": "v11-col3-S-s1000-enclog",
+   "family": "col3",
+   "enc": "log",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "c3f637c24e741615b9267d643860f54af6148c4d",
+   "instance": "v11-col3-S-s1001-enclog",
+   "family": "col3",
+   "enc": "log",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "c4585b271ea64c766d00263c2d05ee8704fba8f4",
+   "instance": "v11-col3-L-s1000-enclog",
+   "family": "col3",
+   "enc": "log",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "c52eead82147aab121d69eae83edb95d05e24cc5",
+   "instance": "v11-qcp-M-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "cb56c64aa970561ca31417dc83066b7d8fda5a10",
+   "instance": "v11-qcp-S-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "cb7d17a7522e97212c26f1cb4832c0f5f9419570",
+   "instance": "v11-vcover-L-s1000-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "dd7bae3073bc6bdd819b73dded60c1e0ba6c421c",
+   "instance": "v11-qcp-M-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "e29afb6e26ed210aaf32bf9e584778f912c2e24c",
+   "instance": "v11-jssp-S-s1000-enctime",
+   "family": "jssp",
+   "enc": "time",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "e2e19f612f4bf6cea9144290cb11e9dd8f83dcdb",
+   "instance": "v11-qcp-L-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "ea6efd20634cefa874c03cc5ff6a4598a27b18ab",
+   "instance": "v11-jssp-L-s1001-enctime",
+   "family": "jssp",
+   "enc": "time",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "f309a28d5e7b09fe0f29c309c81563354d972d31",
+   "instance": "v11-col3-S-s1001-enclog",
+   "family": "col3",
+   "enc": "log",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "f4eba39dab6fb3ec3b690bf3ecc0aae41def9bd9",
+   "instance": "v11-vcover-M-s1000-enctotalizer",
+   "family": "vcover",
+   "enc": "totalizer",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "fd95aa2445e3ab935f446ce71ae102eb96ec2ec2",
+   "instance": "v11-col3-S-s1000-enclog",
+   "family": "col3",
+   "enc": "log",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "fe747b6eb168717ccd1610a8c67346afdc700a3c",
+   "instance": "v11-qcp-M-s1000-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "encoding",
+   "run": "fe9e228bade74ca7a72e27d19dfabcc748b5d15e",
+   "instance": "v11-qcp-M-s1001-encextended",
+   "family": "qcp",
+   "enc": "extended",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "034f4c6a0f05f68114f3c23476d6007a224ace56",
+   "instance": "v11-factor-L-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "04d688ccf0a2bd7c89d1b7842004c60bd6781e63",
+   "instance": "v11-bwplan-M-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "078ae6fcd0cb10d0dbf2dc5de712572736c2c0eb",
+   "instance": "v11-jssp-S-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "07fb8c07dd565be5b4cc21ab8a1e198f62d7016d",
+   "instance": "v11-jssp-S-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "0a1c4b69735d994ccfdbe6c53b014a15623c1673",
+   "instance": "v11-factor-M-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "0eb19c4e308a1d0b5a95e894c549b2476a38ebb0",
+   "instance": "v11-bwplan-S-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "123e52b3f3d34e952b5c4bb32e49aa274a1595c5",
+   "instance": "v11-bwplan-L-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "128f14e383df06c03bc121f0ce6cfb72bd05f544",
+   "instance": "v11-bwplan-L-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "15170321fb424ed747b3bc5830cc7024fe2cd869",
+   "instance": "v11-col3-S-s1000",
+   "family": "col3",
+   "enc": "direct",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "1b93622717395fe5ffe50e12a2fe557b74120e0c",
+   "instance": "v11-factor-L-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "2259f0b8ff9ba54f4889009a254a9fedbf5a55e5",
+   "instance": "v11-factor-M-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "228d64d5e7b9197f4b1a714ea0a0e8f1d1b21922",
+   "instance": "v11-factor-L-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "22fa9766754abd1c0de8d6e741c384804abc306b",
+   "instance": "v11-jssp-L-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "23261661dfd579278d51273790624131bf12d257",
+   "instance": "v11-jssp-M-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "24877fcd55706567ef282897c63a60436247d964",
+   "instance": "v11-factor-S-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "271b48227a93320c1f9db421b93ea7c8d7effc1e",
+   "instance": "v11-qcp-M-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "2ccdf47b64c79f53314c732d0353fe0fb06f8b0d",
+   "instance": "v11-factor-M-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "2fabe01554f8da36c3ce1a3ea274c8716a72bc41",
+   "instance": "v11-jssp-L-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "309422abe39c9ea19fe1374345460902d846e956",
+   "instance": "v11-qcp-S-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "3ee4c83d7e5c3c689c4cc327d237fe51b6dd37a9",
+   "instance": "v11-bwplan-L-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "40762c3cbae57d05819f47ffb6f148e92393ac2e",
+   "instance": "v11-bwplan-M-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "4a895608f3f4be9fcbe612b8b08bca6637b44ef2",
+   "instance": "v11-col3-S-s1000",
+   "family": "col3",
+   "enc": "direct",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "4aa91b1252dc63a9af27d102ab46bd5d2ed89308",
+   "instance": "v11-factor-M-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "4bf91a01ed95659b7f03ea9add228c1a4fabc372",
+   "instance": "v11-jssp-S-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "4c15a5af9e9314e275e3a47ba3b6b5158626b285",
+   "instance": "v11-qcp-L-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "4c48da8c8c647eb2c0db495912ab2a357a188050",
+   "instance": "v11-qcp-S-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "524f88c05442115a8a06fc55e3088689323ad4a9",
+   "instance": "v11-jssp-M-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "5cb8a4633d10fe11ca1bdec0c69fd8b8d293de96",
+   "instance": "v11-jssp-L-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "5df899db7b95596592185c2904acd89e8e2a9ab3",
+   "instance": "v11-vcover-M-s1000",
+   "family": "vcover",
+   "enc": "seqcounter",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "5e4fb1fecc12cea885ddae81e9268a246efb5ae5",
+   "instance": "v11-factor-S-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "6182825026bcc8705650a9f736c9ff22e6a40032",
+   "instance": "v11-bwplan-M-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "632ef07ccfd3bfdd752819579c461ec69843caf3",
+   "instance": "v11-bwplan-S-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "66a9e0dcb36ab33b763b2f051459568e6388d8b7",
+   "instance": "v11-qcp-S-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "670c010f0271a8ad4cad25da767b59f80d49843d",
+   "instance": "v11-bwplan-S-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "6af3447d32d5c9dd27ac18b58207828b323a8d84",
+   "instance": "v11-col3-S-s1000",
+   "family": "col3",
+   "enc": "direct",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "6b6b699089d9fba1d9a6bee6731a396e91da2a60",
+   "instance": "v11-bwplan-L-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "7685336a568ca307daeaf8d7b1bdce17128be9a1",
+   "instance": "v11-jssp-S-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "784dd855df935f977a2ce39caa2ad18446c4b2c0",
+   "instance": "v11-vcover-M-s1000",
+   "family": "vcover",
+   "enc": "seqcounter",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "7c2145cffe8ea9491519eceefcd29d8263678a76",
+   "instance": "v11-qcp-S-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "7eae0f519ad5289d144d7ed27be14973666af0d9",
+   "instance": "v11-bwplan-S-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "8250153a5a0cdd4e5b44f36e152d8c4735eb77f0",
+   "instance": "v11-jssp-S-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "827e5d68f7c8bcab756fa29d820362d4ea8365f2",
+   "instance": "v11-vcover-L-s1000",
+   "family": "vcover",
+   "enc": "seqcounter",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "87caf8f40016a5773c0c2ec8f1cfe3615b950b8d",
+   "instance": "v11-jssp-L-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "8866ffb1360d657db02c77ffe8b8e3ca571bb5a8",
+   "instance": "v11-bwplan-S-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "97cee32969217516f55c1085504ee5bb346eca26",
+   "instance": "v11-col3-L-s1000",
+   "family": "col3",
+   "enc": "direct",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "9d6e7ec1a7de7d09901b4a59ca19f7edd836eded",
+   "instance": "v11-col3-S-s1000",
+   "family": "col3",
+   "enc": "direct",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "9da78ffec28ec184eba7b57697ff4a0646df379e",
+   "instance": "v11-factor-L-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "a2f15168c91590c56ec47a13a9fb6ccc30218a9a",
+   "instance": "v11-bwplan-M-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "a6e31afe0abb0f9a1d7edd40462b7072335ace72",
+   "instance": "v11-vcover-M-s1000",
+   "family": "vcover",
+   "enc": "seqcounter",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "a93cb7647af6b953ddf4486701f8ab088875257b",
+   "instance": "v11-bwplan-L-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "aaa03ead188fdac4dcc1a89c555b4a25e80a9974",
+   "instance": "v11-factor-S-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "ab5bd2adb915695a211d43bd0c5efd4d4f6cc373",
+   "instance": "v11-factor-M-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "ac888abfa48e257fd75da09dd9befb5515a26a03",
+   "instance": "v11-qcp-L-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "acb77368f28debcc7f12c7ac1c23724516168e86",
+   "instance": "v11-bwplan-S-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "ad7ef521d905d5866bf3600a574affd7a0c708f8",
+   "instance": "v11-qcp-M-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "af941fa02689e925bcf2e6422ba80bef4a034bd4",
+   "instance": "v11-bwplan-M-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "afc9202c0d2ed6db11eecc5b115217e368a1b31c",
+   "instance": "v11-col3-S-s1000",
+   "family": "col3",
+   "enc": "direct",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "b23710c0f20644162c212261ef0da6102736a30a",
+   "instance": "v11-jssp-M-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "b4eb0e15ed1858fde4d1b9ca5ddc20b931bbeed0",
+   "instance": "v11-bwplan-L-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "b6faa31d65ce11bfbeaca1509e77c94e73c0fde0",
+   "instance": "v11-qcp-M-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "b6fbf9ea194c764be8ce4ddac5125a89770ffde0",
+   "instance": "v11-bwplan-M-s1000",
+   "family": "bwplan",
+   "enc": "seq",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "b7010922fa1f95617ed81137c670c3092ad7265e",
+   "instance": "v11-factor-M-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "b82ab1065daccd6e972348da291c13886b3bde3b",
+   "instance": "v11-qcp-L-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "c8b05d810a02adbf2a45f65e10499851ba40352e",
+   "instance": "v11-col3-S-s1000",
+   "family": "col3",
+   "enc": "direct",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "cb4115090e7d504d2c9cf8dd776a7afb4f62d1bd",
+   "instance": "v11-factor-S-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "cd365b98513668cc16acd21beb97af8355e7244b",
+   "instance": "v11-vcover-M-s1000",
+   "family": "vcover",
+   "enc": "seqcounter",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "d23b52cb44ab2c8f103efe8d56786b7fc78f6624",
+   "instance": "v11-factor-S-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "d44c2c596b40329bac9877b76ba3789e9470a9fc",
+   "instance": "v11-factor-L-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "da08d7f7c4cb63583d5ada89f75b717534d2b568",
+   "instance": "v11-factor-S-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "df7b32b5a38bc0207d978f609490e8b8eb4a5c40",
+   "instance": "v11-qcp-L-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "e703100b910fb1c938cac8cb975d18e4be44b5b1",
+   "instance": "v11-jssp-L-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "e810fcb3331c8333d1b49cee20da8007f516122c",
+   "instance": "v11-vcover-L-s1000",
+   "family": "vcover",
+   "enc": "seqcounter",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "e8d051131d057eb7925cb5d81c19f4242722493e",
+   "instance": "v11-qcp-M-s1000",
+   "family": "qcp",
+   "enc": "minimal",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "e93c7e1b0946a0672cbad4ce141ff6f487a074e6",
+   "instance": "v11-jssp-S-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "ec5cbd4957ce5b450408bc375858fb8d1e3d6788",
+   "instance": "v11-jssp-L-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "ed6f3f600dba97d308f067eeac2fc5eef45e1f3b",
+   "instance": "v11-factor-L-s1000",
+   "family": "factor",
+   "enc": "array",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "f12ba3b10bf7cc301447c8353f92d15f4e50ccb4",
+   "instance": "v11-jssp-M-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "f41b8363c658e876be9bb5f0619adeed0eb5fd21",
+   "instance": "v11-jssp-M-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  },
+  {
+   "stage": "seeds",
+   "run": "f6ebdd7ffefa04c7049621372ca153fd40933914",
+   "instance": "v11-jssp-M-s1000",
+   "family": "jssp",
+   "enc": "order",
+   "ok": true
+  }
+ ]
+}

@@ -1,0 +1,1925 @@
+{
+ "jobs": [
+  {
+   "instance": "v11-rand3-S-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "5bb81740eeb24929e18b8e9cd347847c41a83b8af8ac48e50a9bdc99791badd7",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ba02060ab5518bb840179088a458d55ba2aa5241dbcc93e9bcaccc3b9f05c6c6",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "0d1229954fd71936d3c39a0a0f3966a10934e5aa4998f80b3b57b0aec76497e9",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "684a09b036a8eca9c2c1a753ae684b74183454eff2ad55a279a6e2867b0e881d",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "6aa6daf3c3f9d05cf9c4201de22004e71f96203bfd9b93acd99802ba25cc308c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "b36fd763aa9d069f53a9354a2b3dd5d41a318fc6dad9c1dcccde4ed68e02d04f",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "71a0267f22670cc2c345a0f9d81074a31d22e27ce4206fc63204b23e7e271808",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f8f1c1e11541e63e40965753d6f1279c490189e088bdde26591f7951a5247cd8",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e772de8afd2d33d2ebd70132ad5a2c11955ca1f2c98dd59ba8c4018088973c1f",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-S-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "0d7664f999fd18ba2e1ff09ffb1112f9b67ac3388fed8743928a78f22ea25009",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "977061315c08f7a3930beb87342fdb560c6291835ff532deacdd8abda013ebb6",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "37cbbfcca3b60450e4ffb770024c0ca02cc91aa8676a0421197c42430626973c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "17d6dadbbe674e21f2d21e16c555ac5190884594917feb4ff5272e297d045237",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "182519023132e653fa21218e7e4b988510d1d9148fd4050b413feda02aab5c34",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e702285719547f8bbf72173f3a1fe7130aef35a4dabd2a2018886c19252e975c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "7f4e265e710ee887f16b7a579a1177248e075c4f7b72ff1d85c65be011ead706",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e4f27f4812391a335caea241c1404b4996c0aeff624d117800fecdca37c935f0",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "0e0c6bbd1c8dd3383ec2ba0211226ac9436a71310bf9de3071c0b15c0dca8793",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "508e204b0b21d88d5b16d12ee3c9379c2ab8bdd1f429240917a85d5db6955fb6",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-M-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "abe6148c61ad70a14619c8828437774b80e28ca59fb76509516fe7f6bb9db5f1",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "50d44230f2e9755dc64025715cd9470e5e80c51422e2a27a2fbf4e0d3bd5ba1e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c66dc47310ada5981db7f5b2360d23c0cf69bde989d6f69d2575b803906516df",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "97e519fe9df069bb02071997f1f103d93eb3113b6cbe35298204f8440172945c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "73f6305cb8d92919fbde8ba9bf9052e4d7046bb324c22fb89ff87fb7dd82bdf9",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "5e97b5f9ff6821706e1aa016d068eba9cbf5553c2c6746a2c50f17e4324d0107",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "6cabbc8edf084843cf3ad19bf956531f2480425f85959e16976e119e9133853c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "7611dc687ad1417d175517fab0b0f2ed53011e49157bba72859d82e1dfd2dcb5",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "01c45cbaed7fae26577937bfe3b24a3a41e3cd939cbd3ba3f2b9b9dd1dc524f9",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "00228244cc14eca0f81d73578da8469523f6053e0022d18a0125dd5b68f778cc",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-rand3-L-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "953b195de4cb5e972ec1d54460b8d8a91c1de6c4b36568b3d86ccdd528f409f2",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "104296b33ae90256d24c0d2f5719a0b2eda2dbca323bf36dbc057ca12903f274",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "6b6b49158eb8dab5a9ceb662b78a5cdb84ac99beacbf03c5b80d571688bc6d9f",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "046cf65cafe0008edbc108d67f9b83d68730d5ea00bae6c23c612f9505c7c0ca",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "45139f489a1ad7b52c00c82ffedb497b7d41e43d3a262ac7d32a5a3385a8dd83",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f0ec4065b2d12164a5a035a9487b337a410cdf3e27301cfefa7b14fad8a53ff6",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f3dc12c3900cbf4cdee4f653b6e04bff0899edf96bdd0458708312ec3447cbf5",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "97cc0f1f382662c02e9ab61a58b6701b87d921749d120e772044518e4fddaa23",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c3bbed72f26c2375943d733ff0500442d68c20e228272c0dbbaf200dfdac9d69",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "7e52f050ab2103c61faedaa64ed1fd9434aaa50e34dbaaee4393491d2bdafab3",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-S-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "26c2ed3ae1308483752ac1f353b0b70784ac9a5ff8e33a950147204e0a372754",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "5550f4030f79972b0ca27467bc342c3f1a903e60943606a9f61e08215a6dff81",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a8cc5e48db910fffb6a1ccc445ecea0c247721eb193c2bfea0356651581359aa",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "022f2b17e314bfd45363c07d188c5834a271ba35594bd62fdb7e7c0adbaeae4e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "75f2f2ea77301ce2e04ee96b8706e215aa98351174972420da9cbb32a116ae17",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a0523e05703a43cf08d9085221ed8fdcf6a3d1cc77980bb6226f2079e6c77dce",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "0e9cae90642be46a96978eadd9bcfb86984d0c184c37b8e8b9fbb3cff273a31c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "5bd4aab49250ae9d248b4292a5c28699da840d55e79918c3beed29b0273db0d8",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "8d5cf4ff17c5335b6f43d566ab329edea3b465d33b730aa611c786a2c448065c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "bd683278e278d0a27c2f4999db13f9f94567ca192ef92f4383cf7bb15b8154b8",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-M-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a0467b57242bd426e012d2212ea9915a41b238de8fb47f65426661c6e6501e46",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a49936e3cdb859f5af229c464fa4367e0a2db360d33b03174c579225804d45de",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f2f346eaff4e83a1fe7662be82a208177888181f7ed89c3d3b9e7988dda8adaf",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "63cc8b0527cb06c3118feb062afb493a8df4cadaa1d236a282fb85aef7fb5fb7",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ad8914babc73d086ba339ca8cf85a4140e5c68cf1c078319485109299f36f336",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "1c2979864f2196fd0c79c25888a159109fa143281634a62e552373f0ae56be55",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "12558cd566bb5e641583ecc6d6d71715bede5610d787d1f82d7157b3d0887416",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "4e69778ee6bc6808317b6147d09dd66a45925b2f9be6ae1094a4aa402b458287",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "bbde0aecb4cf2f9f632529e2f870119671ebeeeb0945a684da679ecc03030e96",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a026cd624b3a6a9dfb1834a9ac978046cd750b19170b4dcb84fa28a1dd477c0e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-col3-L-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "46ba6183dad03edbc148ed34e6bfce6febf70323a4c9da6904411022169652cc",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "23e163a3db3044788553b8cd772637b297c55238c97e5b6e5f4a25556c3e0560",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "3d2beb393a868624c5668d9240db3aa7b8922d50f3d1d423602a40809d03872b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "697391913b0bb5e4b0b9b125502a13b63a3e355a02217420e05a4ddbb7136720",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d97d77d6f990179f9be27ef92d22ba4b87e298b96b8298c2de5210087b8fe552",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "8118460ec938ec0d22f273988e0db76ee9a5a0e58a8529ac61127dfb68ec0100",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "11473efa9e09e6d38886b84f83ab6d92819f024753c19c8c7f22128b5107696a",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "8cddc228cfadbb54c1e52ffec4f35b1fe8d5adea6c0f4870e6d7f0f90948b4ba",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "90b32c66a1f7921af535153c1adeda6dc3e83c9dfa5304d063c40ef94820bdd6",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "5d9b48cd175c065fba2aa6bcef4db75bac71daf341d75d366566880b50482e43",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-S-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c98fac4ba779693b10e413c3266ea666b4d6c2449843da6a8f85b0a7101bae85",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "0e4bf92eca247248bd13f3798dd1d1e4f121172e79bff35799ff2128390d2d84",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "4279ba90c9419ff0fc0aa125a8e7dec299ea1dda68c8839ca75a0236c0c4b5e4",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ff9e263c298263004d7b5e043c40b0812da4d1496422126351e4aecdbf8fb803",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "2ed64f0860a0fbc548c6c58c406d11e056967662e852ec8740ca7e32f8a30546",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a5e5e19f89d213aa69fdc9e9e29d95583f0bfebc47ee7b3a13f51ee884243c88",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "44f5a101a85f143e96ecd3061128dd780bf3503f82471c4986df440990e53431",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "026d445d8d7c90d74f10f06e71042cf5e80b884df9c8369e524a895c535321d2",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a9beee8b0da0ffd7ebc3b2ff80294e4a4830b0647765624d897ed29bf333c20b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "8e2e3f34898c4c23e107bb1650f84311995148032cfc7801739e935dec35785b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-M-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c4b608c0db3feb856a6092a8a3f4f3509c28e14367dc740d3e0f65898a55b10f",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "835e7cd8676e9ebe17276ad370e3d6de042d9cf716078c57a1b19acd6ac28746",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "74643adcfe7fa67e0e8ac283fc81f434119d974e3a1b950d901a986750b23d24",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ac7dd94f94a8637acb43eebb5826de29a890479dd74104e0bd45129c6de1acf9",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "88af901ae5d04832b8ef70080b94bcf7f8647fac7084d1ae970ec8304b6d4fd1",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d387c02a53f6b8479106a7ff1637356afa2c63a66cf5ed3112233757db633b5e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e60c9036dcdc4360c64d83717606898c6270562c598e1b3f25b798348c8e7085",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "122035ca66a88a6e105662deea7b3325f735c41e0a44aa22dd6d39702a6384aa",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ac366c9131eb889841d543179f8b6ec823ea28ca7189b7243439b86dfbd06204",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "3f9a682bb5162f833c81fadd79c65de93deb75593903bb6764df8f6e8774be4d",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-assign2-L-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "9e4041cc5d0627049b9b79f59ddbce9501e93ad19ce8e85d4a26ab796809bba4",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "dbf86284774720dc2668d6706847a5d46e274d73472de7bec23d82afd5095246",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "9a3c4d3a0c1a75ffa85c25c4ead1b0b2119f1d8111d678c8d4fe407047ee52ea",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "4ade5886bbe9831792ff3672fd3315d7657deb5c8c66bc00bca4f8f09a0734a4",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "2f83bf0df44477ddd2ae9d8cf1459e82881c73ff0b0e511ab67c829bb6cd8d06",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "6ac98b9101d130e4f66001be15bf18b52358e23cfcb420ea6e0040a8c1a196af",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d2cc02ae4495337e4df134c73e70175194b956324c0ff9c652903a2285bf27f0",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "96c0572e1e417757ed63e92654be538e3532073b42ba777df14c41897ff6506e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "233caf44546c8b9014ac9a91ec576e825619518ff144dcb933aff471a354e2bc",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a28f1f8a98af6669b8d72b034f19e9969f8b3741363a3aca2153b216baf69430",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-S-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c3b90eaaaa99c9965f9fbe5fa0387311d4c6fbe195f2400a736864791000a1b4",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ca5a8880eb59dd0d1e70762fa92b2979cc95d1df00cd38d19f32c41d942e2b77",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a11362549f086508e1a0fa56180d53ee1078297c0d31b48d7c67021c4d8662d9",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e82a10395309989ae750e49b2d5e6b75f6cd3f9cb76b00249cd4971a93125f67",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e7f3a584b9b8080a5bdc96336cbc9c31238c952e607c736a8d852e50483ab051",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ab82331ba601e9a845d3464a9a2fa0505557348e91a9d139e5cae406ace6d554",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c44ec9f787cf0923ca1d57f5caa51c86629ec087d64962bdde253afc58dbda26",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "fdd74988aa088e11007c38ea65bbf67f18c7d4883a6a8a91190745a9f5426f5f",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d570fdac99abf9fceecff1e4d3fddf683347c003901705da942b562c90f3e026",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "3053326ed2ca901c46ff9d036f1fb9bc7e55e7ef8a51016c3923fd94808a2796",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-M-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d9e2b2562bc74496f1b157e5b5241dcb8dea209d9de8670fdb56b74354308efd",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "83a0943546da749643e8ff7f33d10ccbba7ab66b9d5e42a10a6a108ad13d58f8",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f372e6d1b9c58f78e15ce809c103a32ca1e4ea8d5d30b49060609f0f53b745ed",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "42fd0d6a6cd3ee1f979258525ea95a29bf405c1adafd0db9afe5f2f2d0b256f1",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f0781be74eff948b5e9f4b3956064d014660fdbbb788c1559bf4f578d34b5d0a",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "7d57547d1a92db224f40863a402bb3f259c75acad94ece7747eb7e9c323f3faf",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c9644dde62fd1bc4ef8b1ea33380e96f1fee2f9f716dcc46b7c9d18a59d2926c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "7fa3d388b184b5d8d67f8beb32aa9f46007e5bb1e834572a722918347442c447",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "48af7dfa2c2b5f8998488c7b3a0e61f71e65f3d6e9b5b7fea47b2067cdfa0f79",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "6047ce076350e7971f38459be2dd076631464ccd5d37b11c0504c6e48e02b043",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-vcover-L-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "4ef66786dfe8d539f5bcaffdec076ad12933c2e3d2d5672ebeb85d8d79804a2b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "478553e36c75fec6d6de62cc242c529737a7c8b83c4fbe1f3b2eaf8fa980744e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "36ecfaaa907ccd71419aeb5f438e5b296bc63abd91e15534b4493d43fd4e6784",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f2a6845250416943de3ef8353752585a6d1467f11bffb5106bc8b00fe9011f2e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "00482006c633c21ac5501f3af8fe0ab255078d1e9627d2506acba3398e236a5e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c298209187520e8a8281042440d32712ed4a692b11712eb9441ae45bb28cf1d0",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "21bf64257c916bc6d79bbc94fc2bd94b2507267b29656efeff36786e5dfdb5f8",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "4caef63a31f6f92242d7b3f6e2fae89634755e8167eb1372030bef214d0d6c74",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "9995348d57b8810beca1b5d5fdca55a4ed750f0ff618e605a4ae36f7b42156ab",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c49211377848e21159092e86350d28be036f12ce88df0feeeb1e519ea65fc15b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-S-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "7745ed2f5a7b4c5f4014648c4727c2edb5c6adc34fd9ec0e85192cb092a4631e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "9f9b56178c9c4461a40a3cb850082a720615cc7b6ab2c6932e3d18c015994787",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "7175283a65113e210a4db7a72202fa6b55d761cbdff806e38eb9cd48ced1b7cd",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "33dc363a842bbe5bb2028f34506b7f9621e1755ce3a65fd86d6f368dfd3487d2",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "3237aa99f3c1e36207f282956f9959107243898f54186e32bf2f9b8b1cbf7f7c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d255ec3fddd263295a069802d04210090cb59661fa508ac4fede1773f54e3efe",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "01924f759f09b6e14bb3011e536b6654f47b019f04fcb0f900bcb8da548ab817",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "409630b17da857bf5f553eeeceb0c21ed2f054c39531150845c67a6a72b23c76",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "60a6198bbebaad34d139171ecd4eaa8d78c2d32f329f92da687f52ff6f0dbf7c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "10d72212363d1513bbf9612d944952dcdb97002256f917ce81c576906b933223",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-M-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c7d07a3d5aacd80c202cce83afcc76456c9b25e910881e056d351913376f3009",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "3717a185e02ba92fe119152e6290c8743b4d18366e0620b03ce95ccdfe8f0be8",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "efd3d8d529eede9813381b5bf6bedc19dc4d441b5191f515a8c56eece5c5a751",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "90c2bb19da64da68bfc41a5af8910d778f32f775d75aa4d953f884e71f92117a",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "26b8a3656adf5c0b39b4e8da3235eaf14fcd9f894f875af615bceeefcc931381",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "54d914aeabe323913e1dac3fe0cab25daa944c8c81714f0952d746325a6be4ed",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d61432a0b17d9c5a44e9739da34314653cbddef557654c95d62f7a8b0fed2fea",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a2b12e00b9585cfb6cb690cb291ad2a13e28108a5fd98cb60e5f11687cebef22",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "936aee9ad8cd12bfd14c832b5fd58c9cf516ef8ef41cf4e577bf37e6bae7985e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "702c5c2f15d0764afc37ac8fdf0437843107009f6502484562dd1bfdc4a7878c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-jssp-L-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "18703e0f9d80cd8efb7e70556b1d55382b0f3b5d549cf9f42ec8467ec3d85d24",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "143f322ecc35075ec62851270cec4be1f2dfd5735ec220727490d25caa23ed8b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "5332fdb99746498da9161efa0d9941c7a2b2cb90402a44979c267a1c2ab80fa9",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e9ac8bfb70727b4083139df7bcb88135b5fbbd1ef0cfd4969cdb43eb6c4b70b7",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "14ed537587564338c7829054895419329d5880bc414252bc1103b49578bc4cf0",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "cd100fdb7509dac6017d2f346c0bbf56315320fc3ce9f3003c73eee13cf3335a",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "48d4b121b462dd3917d9bb33e0c10d6d1f0414948b451a1f02aae0fba2ca2648",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "23609bbb46c96ff274ee7d0c0e3d91ef97ecb41224fd94103aeb3c124b4d9f5d",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f0674383e9c72aea8db8d73289586e06c9e23e3d4b58500024690c8bbdced268",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d8341b71bc542396a81df65661cb64180f92c78008649e557269d6435bdfc510",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-S-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "df165876bbd4ca662ec128d2b490e67bb03a936157a394aed535ad5ca8ed94cc",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "5001e0f2df4e84ce15b1b5b0ead76b814a99ab17f5a9e704898f277521142170",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "2b7b3e96749226aa96144ee26e5a451aa5ab40035e13550a0af49d6dc9de48be",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "2325d3bc3821759f29d3e0d0bfc01255bcf8fad3c2cb41f1ffe8d278ac91b0e3",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "1451196ac5157fda45feed030d9760ab647a4b95e30a592097c17c5d130f7179",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "729901698ea416c408d31f92a2fd6f08f40d24a55324edddaf057ec75d0b479e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "61891e99aea57ab654275ec2bf7d30610e421396fb682fa22335eb17cd5bce5b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "935cb3a34f222ee952b8ff2af4d682a4df4ed223f36a50d6759773b7bea69975",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "0c1ce098bb6ba34c2d1bd044acb17cd6c3ac2ccc271addc0385308f29cac242e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d61748782481467012d59e27c24808d21610347c4c8bb1bfaaa4f02c1cc1ddd2",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-M-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e967ebb0ca9e09ddbfd99f12ca70a527ec4bc3137ff47aaaf971ec69ead79364",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "939fa2da68756d9fa9d435abed5d02a948a8f3286b5517fc91b8eed7da9bd97d",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a70ccd75d1415e956bf98116665e52c9f06e06d3e1fec6db8c24fe9d06d3d82a",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "075dc959a000c49f89b22d9b584601671398c76f75aeadc9f750f4c509e7cc2b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "dd770f72cd24e3a8ee6596e46794d6ced5fda51a0a1bbb71235aea41a9f1dd2a",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "2f306fba1dbe20ccb4404c8da74cc35c0740b3602b9619ca40f861808872264b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "4a55d8ceea9c26eca9d67c2d78e50cd6f17299fdcb3b898a69a78474b06f3848",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e83f7f7dcdd06602f4bb5cd320c8d7623964cbdef418bde4e50594448805a414",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "291adff26ba07463f5f76d8509cfc9d7340c8ab3f08ab666ee243ea83434e53b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "dac11f19fd79a2ed7c731bc08a3b686cf4869dbe34a00700a87adf73a7b397fc",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-bwplan-L-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "b5faf326a5828a35834c1f6ac12689723c9bef29c989c3c76e52c821b306b991",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "3811c4fd09434e289ffe99e7d85950dff2de4b63489e32d2100f7e4b12fda084",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "bb5536078782fe10cebf7ee60deae70aaba8e1b29810e54726b15d72630b5bd6",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e11ed31f9b8b598cdddb26102044be524d722a6e4aeb3829bb20b81a56e17957",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "d9f01815d436b47895d5cedcb0f936282857e0cb154e3b4968f2d4824e19ffbf",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f6df994e42d1df5ee9df2d62443f275f462b6c5a7d327104dd8888b91e60ae94",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "05eedf8db82ca7dc1e6abf1e1f1f3823b5552b1a5a6e7e10acc5ed9097c04f80",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e4fe84099dec20a389e851c248ecc93a2156056a84bd5f758d579df6cc2027c5",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c16a8373607bb0181667ed29d04de8ae3d476ec434d8a1f44cfca36a97eb8fcf",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "376b6452837ad2d7caee18e60f453db11245d001bfd3d2962d7b7b7eb7730dd5",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-S-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "bc48948051f4a8b692c4da565ba8f3ccfc586d8515f2d49042ab8856ca675ef9",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "40dab5f41531e735c799c6d491bc9d2df4175a18e3a1e6a8a3c1ffbb8dd930e3",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "cd406247e18f292b034abf5f50becbed2b66223359bb4755a3bcc1c6b6a69361",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c6592b4b443fb42f9dcda9d9153bc7673f6cc8e0ac63aaabfb55994de2399db6",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "90fdebfe681b28161b0d3324c7d55859d766bd58786b1948c6fe64ec579b0b68",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "f10ef5145941e56eb495ce9703e40fea9b76abd2db33e591f814540dfec6f50b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "dceba33bc4d554c81a605170b92bca222fd25081e449399dd8cd7c4c3586b5fb",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "b68a8c5cb4f0a18e6f2fb6a7fdc6166c67eccde406b2d75848f37ff5df16f0d7",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "e6227e1aeca132bbe8eddc677543ce6d9526d8a7b65bf635cce73a266b11bb38",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "6e7ecd6ecfcb2715ff34ea99b81d6a9aee26b3cf1b50d7ecd1a9d52645b87127",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-M-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "762f0876cb471e62482065f1bac775f657b609cc3dcadf803687f000c0de0770",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "eda49f444504ed6ed26cff528d09336f533aa1d8d9274b68c9c3e87f85745df8",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a1d031cb5648102abab4a0c696f189b6eed5e4a8ba3b3a5904dfaaeb00acf1c0",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "02c97e73569a7ee4f5a4cb8295f38828266e60a88e4067973121c8be73272d5d",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "fd27691f0536247321b7cd61665ba9d4d561ea1ca4c08a8ee768afdb542b456c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "bdb8271e61772284e0df677479d33cbf874300c3eedca888228c135745de8ad3",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "47d01e59659d614c8801748084fa3428541d615f3ba3b5a52c58dc5a57301d24",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "7bcfd7fd5624704fe0e968f3f91760af12d54c522b8ffa564220591864b860ae",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "26e18e495890a5c691769abc1fc5b3a288e9ce529249a6f55f7f903e5a241c86",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "8741afdf6cf942ab6b490a8d369bb8b52226d92e08480655253d9c44df68b3f7",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-factor-L-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "0cd624618e00853b554be6230a7301f29497f4f80af8d769f9c83b1f525875ef",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "2ab0d1ead8d3a230a144735508e77c5672a8807ba3d530756b1607777be3bb64",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "57a7f33189007d766f06aaaf631630886dfec7dee459f1980ce2d99c3e19af72",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "2c01e39ba858290df0cc566ac1bac88de78ebcca648b6ddde94d26d95451c61a",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "1d0d69fd1f86f13811c581fdfbbe0098bba2324013ac2e1f3b50ec8d9bdde8cf",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "dad755cd82484214438245dff43cff9684ac65add0c4dbbd7e9bcf881a0ec0b0",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ca1d2c9d18994f3136f8e2b30db0f511da87ca0e6b1de04743af797a051dc05d",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "cffcbf86d67a6436cf644bc888e34e0cc5161663de2f4eef74bedfd048cebe64",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "8d305a1610a5d6e6e23a06ad790f198c7e2b5d0f88fae0e41f578f9bbbac0024",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "a3367ab060270cebce3ab2fe7d1ae5cef4cfd66f192cbc74269d16d48a70778a",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-S-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "6a68f0d65af1ebc8f58826abe56dcd8b2c73afb089a3369ee40b9ad89dc2237c",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "cb5fab54d043cbc870590df519539c064830e77b93f25ad9c9fc551e622e3d89",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "32df4387c33e1b7ad0dc9653c79dc67527d9f5c63a452f1749abc7bd52c3107d",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "25470f01ee3581c3b6206721c375ba52f152840301ecd1c0cbd6d7357df95ae5",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "aefc765a0d7f2af2d4f4aeb07473c9dda323378d290ffee517faa78807787f6b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "bf3775269589589abc684d8054afc2164a2efcb2975ab09e501a29ae6ac2ed7e",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "ab37fc821f3dee0cd0f742ecfd1f74d9101f0458cfa673926dda2f1abd645c62",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "b8332f2c356601cb88cc3596e68ddfb5fd2f9c55863d92c33b78353af732edf7",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "aa3aace0163399134951e34ac20f13db6036dcf8b2416ef601087a32d273d36b",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "100e291efa44dcd2199ddc7621730b67492415b7ceae8e2fa1c525894be42231",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-M-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "219a4f76667b05c3a6d4a83787b9783ba7c98fdfe2b5fe6c862640ee0b73accb",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2000",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "02649a8626488af854806928df52ce8ac07c43a3498234e997a45f604b58aafa",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2001",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "c3aef4d8a9aab326e7a3a46c5f2c54473a23e0e18ae5f5a450ba97faef3162cd",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2002",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "0d64957c12ff145d6e770ffaa2a3a36511194d0790814317bdcaa5f3e14bcf38",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2003",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "bc8798e0cadf78688de6f54b256af7d2f59648fdd8830f6da8f209df95a08c12",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2004",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "747d142066b966ffe33e187c3e7e90e27e4e24c4adf37e4abd115e8899baf969",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2005",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "43f8310b8b4d423e1771de77672afad48f1ba3c697a6c9a05b5d24a2a3bb3131",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2006",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "542abf7985067ad837710285af3ce0a0b78491c7d817eb10f1ada2d4fd477816",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2007",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "8bf19ed9e3345af9a21bee1bc62709b067a1b2b6e5f05627b913bc974ea516bc",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2008",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "715c1cc54825d04faf37c372aeba308db142f5c9018cc15f0009a193588defdb",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  },
+  {
+   "instance": "v11-qcp-L-s2009",
+   "keep_model": true,
+   "method": "W",
+   "rep": 0,
+   "sha256": "8b0b30c3fad0b7c67ab6694a94d4e74a08acb40cb9e1e9fea88e73edb63d8f0f",
+   "strategy": "configs/broad_scope_v11/frozen/structural.json"
+  }
+ ],
+ "stage": "deploy_dev"
+}

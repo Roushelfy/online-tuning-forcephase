@@ -65,20 +65,20 @@
   },
   {
    "id": "confirm",
-   "content": "confirmation 240 (H1-H3 in one go) x {D, Fp, Fm, main, S*, NC if main = PR, V10}",
-   "runs": "720 + 240 per wrapper",
+   "content": "confirmation 240 (H1-H3 in one go) x {D, Fp, Fm, W structural (frozen ST), W v10 (original v10 wrapper)}; main = fixed D (its record is the D record), no NC (main is not PR)",
+   "runs": 1200,
    "plan": "configs/broad_scope_v11/plans/confirm.json"
   },
   {
    "id": "public",
-   "content": "public 120 x {D, Fp, Fm, frozen wrappers, V10}",
-   "runs": "360 + 120 per wrapper",
+   "content": "public 120 x {D, Fp, Fm, W structural, W v10}",
+   "runs": 600,
    "plan": "configs/broad_scope_v11/plans/public.json"
   },
   {
    "id": "deploy_dev",
-   "content": "development 240 x {main, S*} (simulation vs real check only)",
-   "runs": "240 per wrapper",
+   "content": "development 240 x W structural (simulation vs real check only; main is fixed D)",
+   "runs": 240,
    "plan": "configs/broad_scope_v11/plans/deploy_dev.json"
   }
  ]

@@ -1,0 +1,35 @@
+{
+ "deploy": {
+  "fixed": [
+   "D",
+   "Fp",
+   "Fm"
+  ],
+  "v10": {
+   "strategy": "configs/cross_scale_v10/frozen/main.json",
+   "wrapper": "scripts/cross_scale_v10/wrapper.py"
+  },
+  "wrappers": [
+   "main",
+   "structural"
+  ]
+ },
+ "dev_sbs": "D",
+ "files": {
+  "main": {
+   "family": "SBS",
+   "path": "configs/broad_scope_v11/frozen/main.json",
+   "sha256": "0b914d7b28786564e76947b3779703260797e4579c4a4a01e43389a2fe697efc"
+  },
+  "structural": {
+   "family": "ST",
+   "path": "configs/broad_scope_v11/frozen/structural.json",
+   "sha256": "6878ab5e06e10c436bb3666f4f6520020cd3848662df1dd1206853bd4c90b5c3"
+  }
+ },
+ "main_family": "SBS",
+ "protocol_sha256": "250ed9947e9d358670cd5d4588b06498ba4dca0ba30db89a7b127a2300034289",
+ "selection_sha256": "2b82e702dbbd87b69e5d7a5a9f87930f51fd4dd79cddb8f462880ac89ee4c9e8",
+ "structural_control": "ST",
+ "utc": "2026-10-27T22:46:35Z"
+}
