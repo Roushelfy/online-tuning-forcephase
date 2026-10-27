@@ -1,0 +1,803 @@
+{
+ "base": [
+  "v11-rand3-S-s1000",
+  "v11-rand3-S-s1001",
+  "v11-rand3-M-s1000",
+  "v11-rand3-M-s1001",
+  "v11-rand3-L-s1000",
+  "v11-rand3-L-s1001",
+  "v11-col3-S-s1000",
+  "v11-col3-S-s1001",
+  "v11-col3-M-s1000",
+  "v11-col3-M-s1001",
+  "v11-col3-L-s1000",
+  "v11-col3-L-s1001",
+  "v11-assign2-S-s1000",
+  "v11-assign2-S-s1001",
+  "v11-assign2-M-s1000",
+  "v11-assign2-M-s1001",
+  "v11-assign2-L-s1000",
+  "v11-assign2-L-s1001",
+  "v11-vcover-S-s1000",
+  "v11-vcover-S-s1001",
+  "v11-vcover-M-s1000",
+  "v11-vcover-M-s1001",
+  "v11-vcover-L-s1000",
+  "v11-vcover-L-s1001",
+  "v11-jssp-S-s1000",
+  "v11-jssp-S-s1001",
+  "v11-jssp-M-s1000",
+  "v11-jssp-M-s1001",
+  "v11-jssp-L-s1000",
+  "v11-jssp-L-s1001",
+  "v11-bwplan-S-s1000",
+  "v11-bwplan-S-s1001",
+  "v11-bwplan-M-s1000",
+  "v11-bwplan-M-s1001",
+  "v11-bwplan-L-s1000",
+  "v11-bwplan-L-s1001",
+  "v11-factor-S-s1000",
+  "v11-factor-S-s1001",
+  "v11-factor-M-s1000",
+  "v11-factor-M-s1001",
+  "v11-factor-L-s1000",
+  "v11-factor-L-s1001",
+  "v11-qcp-S-s1000",
+  "v11-qcp-S-s1001",
+  "v11-qcp-M-s1000",
+  "v11-qcp-M-s1001",
+  "v11-qcp-L-s1000",
+  "v11-qcp-L-s1001"
+ ],
+ "base_manifests": [
+  "results/broad_scope_v11/formal_manifest.json"
+ ],
+ "seed_repeat_base": [
+  "v11-rand3-S-s1000",
+  "v11-rand3-M-s1000",
+  "v11-rand3-L-s1000",
+  "v11-col3-S-s1000",
+  "v11-col3-M-s1000",
+  "v11-col3-L-s1000",
+  "v11-assign2-S-s1000",
+  "v11-assign2-M-s1000",
+  "v11-assign2-L-s1000",
+  "v11-vcover-S-s1000",
+  "v11-vcover-M-s1000",
+  "v11-vcover-L-s1000",
+  "v11-jssp-S-s1000",
+  "v11-jssp-M-s1000",
+  "v11-jssp-L-s1000",
+  "v11-bwplan-S-s1000",
+  "v11-bwplan-M-s1000",
+  "v11-bwplan-L-s1000",
+  "v11-factor-S-s1000",
+  "v11-factor-M-s1000",
+  "v11-factor-L-s1000",
+  "v11-qcp-S-s1000",
+  "v11-qcp-M-s1000",
+  "v11-qcp-L-s1000"
+ ],
+ "variants": [
+  {
+   "base": "v11-rand3-S-s1000",
+   "id": "v11-rand3-S-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-rand3-S-s1000",
+   "id": "v11-rand3-S-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-rand3-S-s1001",
+   "id": "v11-rand3-S-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-rand3-S-s1001",
+   "id": "v11-rand3-S-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-rand3-M-s1000",
+   "id": "v11-rand3-M-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-rand3-M-s1000",
+   "id": "v11-rand3-M-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-rand3-M-s1001",
+   "id": "v11-rand3-M-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-rand3-M-s1001",
+   "id": "v11-rand3-M-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-rand3-L-s1000",
+   "id": "v11-rand3-L-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-rand3-L-s1000",
+   "id": "v11-rand3-L-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-rand3-L-s1001",
+   "id": "v11-rand3-L-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-rand3-L-s1001",
+   "id": "v11-rand3-L-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-col3-S-s1000",
+   "id": "v11-col3-S-s1000-enclog",
+   "op": "enc:log",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-S-s1000",
+   "id": "v11-col3-S-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-S-s1000",
+   "id": "v11-col3-S-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-col3-S-s1001",
+   "id": "v11-col3-S-s1001-enclog",
+   "op": "enc:log",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-S-s1001",
+   "id": "v11-col3-S-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-S-s1001",
+   "id": "v11-col3-S-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-col3-M-s1000",
+   "id": "v11-col3-M-s1000-enclog",
+   "op": "enc:log",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-M-s1000",
+   "id": "v11-col3-M-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-M-s1000",
+   "id": "v11-col3-M-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-col3-M-s1001",
+   "id": "v11-col3-M-s1001-enclog",
+   "op": "enc:log",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-M-s1001",
+   "id": "v11-col3-M-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-M-s1001",
+   "id": "v11-col3-M-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-col3-L-s1000",
+   "id": "v11-col3-L-s1000-enclog",
+   "op": "enc:log",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-L-s1000",
+   "id": "v11-col3-L-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-L-s1000",
+   "id": "v11-col3-L-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-col3-L-s1001",
+   "id": "v11-col3-L-s1001-enclog",
+   "op": "enc:log",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-L-s1001",
+   "id": "v11-col3-L-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-col3-L-s1001",
+   "id": "v11-col3-L-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-assign2-S-s1000",
+   "id": "v11-assign2-S-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-assign2-S-s1000",
+   "id": "v11-assign2-S-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-assign2-S-s1001",
+   "id": "v11-assign2-S-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-assign2-S-s1001",
+   "id": "v11-assign2-S-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-assign2-M-s1000",
+   "id": "v11-assign2-M-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-assign2-M-s1000",
+   "id": "v11-assign2-M-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-assign2-M-s1001",
+   "id": "v11-assign2-M-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-assign2-M-s1001",
+   "id": "v11-assign2-M-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-assign2-L-s1000",
+   "id": "v11-assign2-L-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-assign2-L-s1000",
+   "id": "v11-assign2-L-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-assign2-L-s1001",
+   "id": "v11-assign2-L-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-assign2-L-s1001",
+   "id": "v11-assign2-L-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-vcover-S-s1000",
+   "id": "v11-vcover-S-s1000-enctotalizer",
+   "op": "enc:totalizer",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-S-s1000",
+   "id": "v11-vcover-S-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-S-s1000",
+   "id": "v11-vcover-S-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-vcover-S-s1001",
+   "id": "v11-vcover-S-s1001-enctotalizer",
+   "op": "enc:totalizer",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-S-s1001",
+   "id": "v11-vcover-S-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-S-s1001",
+   "id": "v11-vcover-S-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-vcover-M-s1000",
+   "id": "v11-vcover-M-s1000-enctotalizer",
+   "op": "enc:totalizer",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-M-s1000",
+   "id": "v11-vcover-M-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-M-s1000",
+   "id": "v11-vcover-M-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-vcover-M-s1001",
+   "id": "v11-vcover-M-s1001-enctotalizer",
+   "op": "enc:totalizer",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-M-s1001",
+   "id": "v11-vcover-M-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-M-s1001",
+   "id": "v11-vcover-M-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-vcover-L-s1000",
+   "id": "v11-vcover-L-s1000-enctotalizer",
+   "op": "enc:totalizer",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-L-s1000",
+   "id": "v11-vcover-L-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-L-s1000",
+   "id": "v11-vcover-L-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-vcover-L-s1001",
+   "id": "v11-vcover-L-s1001-enctotalizer",
+   "op": "enc:totalizer",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-L-s1001",
+   "id": "v11-vcover-L-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-vcover-L-s1001",
+   "id": "v11-vcover-L-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-jssp-S-s1000",
+   "id": "v11-jssp-S-s1000-enctime",
+   "op": "enc:time",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-S-s1000",
+   "id": "v11-jssp-S-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-S-s1000",
+   "id": "v11-jssp-S-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-jssp-S-s1001",
+   "id": "v11-jssp-S-s1001-enctime",
+   "op": "enc:time",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-S-s1001",
+   "id": "v11-jssp-S-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-S-s1001",
+   "id": "v11-jssp-S-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-jssp-M-s1000",
+   "id": "v11-jssp-M-s1000-enctime",
+   "op": "enc:time",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-M-s1000",
+   "id": "v11-jssp-M-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-M-s1000",
+   "id": "v11-jssp-M-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-jssp-M-s1001",
+   "id": "v11-jssp-M-s1001-enctime",
+   "op": "enc:time",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-M-s1001",
+   "id": "v11-jssp-M-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-M-s1001",
+   "id": "v11-jssp-M-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-jssp-L-s1000",
+   "id": "v11-jssp-L-s1000-enctime",
+   "op": "enc:time",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-L-s1000",
+   "id": "v11-jssp-L-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-L-s1000",
+   "id": "v11-jssp-L-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-jssp-L-s1001",
+   "id": "v11-jssp-L-s1001-enctime",
+   "op": "enc:time",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-L-s1001",
+   "id": "v11-jssp-L-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-jssp-L-s1001",
+   "id": "v11-jssp-L-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-bwplan-S-s1000",
+   "id": "v11-bwplan-S-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-bwplan-S-s1000",
+   "id": "v11-bwplan-S-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-bwplan-S-s1001",
+   "id": "v11-bwplan-S-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-bwplan-S-s1001",
+   "id": "v11-bwplan-S-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-bwplan-M-s1000",
+   "id": "v11-bwplan-M-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-bwplan-M-s1000",
+   "id": "v11-bwplan-M-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-bwplan-M-s1001",
+   "id": "v11-bwplan-M-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-bwplan-M-s1001",
+   "id": "v11-bwplan-M-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-bwplan-L-s1000",
+   "id": "v11-bwplan-L-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-bwplan-L-s1000",
+   "id": "v11-bwplan-L-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-bwplan-L-s1001",
+   "id": "v11-bwplan-L-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-bwplan-L-s1001",
+   "id": "v11-bwplan-L-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-factor-S-s1000",
+   "id": "v11-factor-S-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-factor-S-s1000",
+   "id": "v11-factor-S-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-factor-S-s1001",
+   "id": "v11-factor-S-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-factor-S-s1001",
+   "id": "v11-factor-S-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-factor-M-s1000",
+   "id": "v11-factor-M-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-factor-M-s1000",
+   "id": "v11-factor-M-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-factor-M-s1001",
+   "id": "v11-factor-M-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-factor-M-s1001",
+   "id": "v11-factor-M-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-factor-L-s1000",
+   "id": "v11-factor-L-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-factor-L-s1000",
+   "id": "v11-factor-L-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-factor-L-s1001",
+   "id": "v11-factor-L-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-factor-L-s1001",
+   "id": "v11-factor-L-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-qcp-S-s1000",
+   "id": "v11-qcp-S-s1000-encextended",
+   "op": "enc:extended",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-S-s1000",
+   "id": "v11-qcp-S-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-S-s1000",
+   "id": "v11-qcp-S-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-qcp-S-s1001",
+   "id": "v11-qcp-S-s1001-encextended",
+   "op": "enc:extended",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-S-s1001",
+   "id": "v11-qcp-S-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-S-s1001",
+   "id": "v11-qcp-S-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-qcp-M-s1000",
+   "id": "v11-qcp-M-s1000-encextended",
+   "op": "enc:extended",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-M-s1000",
+   "id": "v11-qcp-M-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-M-s1000",
+   "id": "v11-qcp-M-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-qcp-M-s1001",
+   "id": "v11-qcp-M-s1001-encextended",
+   "op": "enc:extended",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-M-s1001",
+   "id": "v11-qcp-M-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-M-s1001",
+   "id": "v11-qcp-M-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-qcp-L-s1000",
+   "id": "v11-qcp-L-s1000-encextended",
+   "op": "enc:extended",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-L-s1000",
+   "id": "v11-qcp-L-s1000-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-L-s1000",
+   "id": "v11-qcp-L-s1000-perm1",
+   "op": "perm",
+   "seed": 1
+  },
+  {
+   "base": "v11-qcp-L-s1001",
+   "id": "v11-qcp-L-s1001-encextended",
+   "op": "enc:extended",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-L-s1001",
+   "id": "v11-qcp-L-s1001-flipall",
+   "op": "flipall",
+   "seed": 0
+  },
+  {
+   "base": "v11-qcp-L-s1001",
+   "id": "v11-qcp-L-s1001-perm1",
+   "op": "perm",
+   "seed": 1
+  }
+ ]
+}

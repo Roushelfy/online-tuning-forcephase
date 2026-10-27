@@ -1,0 +1,557 @@
+{
+ "families": {
+  "assign2": {
+   "levels": {
+    "L": {
+     "candidate": 600,
+     "cpu": [
+      46.67303,
+      83.955556,
+      120.136074,
+      144.967722
+     ],
+     "median": 102.045815,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 600,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "M": {
+     "candidate": 500,
+     "cpu": [
+      19.903523,
+      36.576218,
+      40.356866,
+      70.645356
+     ],
+     "median": 38.466542,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 500,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "S": {
+     "candidate": 350,
+     "cpu": [
+      0.840201,
+      3.042475,
+      6.572170999999999,
+      6.73865
+     ],
+     "median": 4.807322999999999,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 350,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    }
+   },
+   "params": null
+  },
+  "bwplan": {
+   "levels": {
+    "L": {
+     "candidate": 24,
+     "cpu": [
+      130.96422700000002,
+      153.200242,
+      164.531955,
+      165.114432
+     ],
+     "median": 158.86609850000002,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 24,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "M": {
+     "candidate": 20,
+     "cpu": [
+      17.902334,
+      29.320245999999997,
+      30.883051,
+      49.588378000000006
+     ],
+     "median": 30.101648499999996,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 20,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "S": {
+     "candidate": 16,
+     "cpu": [
+      1.890556,
+      5.303053,
+      5.347561000000001,
+      5.901622000000001
+     ],
+     "median": 5.3253070000000005,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 16,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    }
+   },
+   "params": {
+    "gamma": 1.25
+   }
+  },
+  "col3": {
+   "levels": {
+    "L": {
+     "candidate": 800,
+     "cpu": [
+      14.31317,
+      19.304305000000003,
+      27.48902,
+      155.726675
+     ],
+     "median": 23.3966625,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 800,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "M": {
+     "candidate": 650,
+     "cpu": [
+      3.09717,
+      12.734096,
+      16.890061,
+      3600.0
+     ],
+     "median": 14.812078499999998,
+     "n": 4,
+     "reached_search": 3,
+     "rule": "kept (in band)",
+     "size": 650,
+     "solved": 3,
+     "statuses": [
+      "policy_timeout",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "S": {
+     "candidate": 525,
+     "cpu": [
+      0.189753,
+      1.225961,
+      4.220477,
+      44.563151000000005
+     ],
+     "median": 2.723219,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 525,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    }
+   },
+   "params": null
+  },
+  "factor": {
+   "levels": {
+    "L": {
+     "candidate": 26,
+     "cpu": [
+      317.391482,
+      337.216853,
+      362.75413,
+      368.066027
+     ],
+     "median": 349.98549149999997,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 26,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "M": {
+     "candidate": 24,
+     "cpu": [
+      3.140661,
+      87.434546,
+      126.886392,
+      140.838842
+     ],
+     "median": 107.160469,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 24,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "S": {
+     "candidate": 18,
+     "cpu": [
+      0.777415,
+      0.9314979999999999,
+      1.764974,
+      3.1116960000000002
+     ],
+     "median": 1.348236,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 18,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    }
+   },
+   "params": null
+  },
+  "jssp": {
+   "levels": {
+    "L": {
+     "candidate": 30,
+     "cpu": [
+      13.681662000000001,
+      22.85855,
+      24.893941,
+      42.808838
+     ],
+     "median": 23.876245500000003,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 30,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "M": {
+     "candidate": 28,
+     "cpu": [
+      4.1421969999999995,
+      18.539672,
+      26.590176,
+      32.760335999999995
+     ],
+     "median": 22.564923999999998,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 28,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "S": {
+     "candidate": 22,
+     "cpu": [
+      0.40841199999999994,
+      0.44815099999999997,
+      0.5445869999999999,
+      5.834732
+     ],
+     "median": 0.49636899999999995,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 22,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    }
+   },
+   "params": {
+    "rho": 0.9
+   }
+  },
+  "qcp": {
+   "levels": {
+    "L": {
+     "candidate": 50,
+     "cpu": [
+      29.3136,
+      74.282779,
+      89.71694600000001,
+      97.57633899999999
+     ],
+     "median": 81.9998625,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 50,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "M": {
+     "candidate": 45,
+     "cpu": [
+      6.395783,
+      13.345685,
+      25.942726,
+      68.219645
+     ],
+     "median": 19.644205499999998,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 45,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "S": {
+     "candidate": 33,
+     "cpu": [
+      0.9072269999999999,
+      1.725071,
+      2.66017,
+      2.802449
+     ],
+     "median": 2.1926205,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 33,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    }
+   },
+   "params": {
+    "preassign_frac": 0.42
+   }
+  },
+  "rand3": {
+   "levels": {
+    "L": {
+     "candidate": 430,
+     "cpu": [
+      0.558316,
+      0.565489,
+      3600.0,
+      3600.0
+     ],
+     "median": 1800.2827445,
+     "n": 4,
+     "reached_search": 2,
+     "rule": "moved one grid step (down) from 430",
+     "size": 420,
+     "solved": 2,
+     "statuses": [
+      "policy_timeout",
+      "policy_timeout",
+      "solved",
+      "solved"
+     ]
+    },
+    "M": {
+     "candidate": 360,
+     "cpu": [
+      0.513431,
+      234.29854799999998,
+      281.371426,
+      1611.289625
+     ],
+     "median": 257.83498699999996,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "moved one grid step (down) from 360",
+     "size": 350,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "S": {
+     "candidate": 260,
+     "cpu": [
+      0.08032299999999999,
+      0.339159,
+      0.356302,
+      1.155435
+     ],
+     "median": 0.3477305,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 260,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    }
+   },
+   "params": null
+  },
+  "vcover": {
+   "levels": {
+    "L": {
+     "candidate": 340,
+     "cpu": [
+      2.33366,
+      2.4239599999999997,
+      6.101627,
+      12.998177
+     ],
+     "median": 4.2627935,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "moved one grid step (up) from 340",
+     "size": 360,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "M": {
+     "candidate": 240,
+     "cpu": [
+      1.4293289999999998,
+      1.4343059999999999,
+      2.30106,
+      9.244909000000002
+     ],
+     "median": 1.867683,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "moved one grid step (up) from 240",
+     "size": 260,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    },
+    "S": {
+     "candidate": 140,
+     "cpu": [
+      0.592617,
+      0.6073609999999999,
+      0.828037,
+      2.51791
+     ],
+     "median": 0.717699,
+     "n": 4,
+     "reached_search": 4,
+     "rule": "kept (in band)",
+     "size": 140,
+     "solved": 4,
+     "statuses": [
+      "solved",
+      "solved",
+      "solved",
+      "solved"
+     ]
+    }
+   },
+   "params": {
+    "budget_frac": 0.54
+   }
+  }
+ },
+ "rule": "protocol 3.5"
+}

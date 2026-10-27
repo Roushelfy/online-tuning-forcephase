@@ -1,0 +1,48 @@
+{
+ "collisions": [],
+ "earlier_manifests_hashes": 5081,
+ "examples": [
+  [
+   "v11-factor-S-s1001",
+   "v11-factor-S-s1002"
+  ],
+  [
+   "v11-factor-S-s1002",
+   "v11-factor-S-s1003"
+  ],
+  [
+   "v11-factor-S-s1003",
+   "v11-factor-S-s1005"
+  ],
+  [
+   "v11-factor-S-s1005",
+   "v11-factor-S-s1006"
+  ],
+  [
+   "v11-factor-S-s1007",
+   "v11-factor-S-s1008"
+  ],
+  [
+   "v11-factor-S-s1006",
+   "v11-factor-S-s1009"
+  ],
+  [
+   "v11-factor-S-s1004",
+   "v11-factor-S-s1010"
+  ],
+  [
+   "v11-factor-S-s1008",
+   "v11-factor-S-s1011"
+  ],
+  [
+   "v11-factor-M-s1000",
+   "v11-factor-M-s1002"
+  ],
+  [
+   "v11-factor-M-s1002",
+   "v11-factor-M-s1003"
+  ]
+ ],
+ "invariant_collisions_distinct_problems": 177,
+ "v11_instances": 768
+}

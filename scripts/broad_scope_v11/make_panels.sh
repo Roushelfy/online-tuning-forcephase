@@ -16,6 +16,8 @@ python3 scripts/broad_scope_v11/plans.py plan --manifest $R/formal_manifest.json
 python3 scripts/broad_scope_v11/plans.py plan --manifest $R/formal_manifest.json --roles discovery,development --stage measure_pool --measure
 python3 scripts/broad_scope_v11/plans.py plan --manifest $R/variants_manifest.json --stage encoding --methods D,Fp,Fm
 python3 scripts/broad_scope_v11/plans.py plan --manifest $R/formal_manifest.json --ids-from configs/broad_scope_v11/variants_gen.json --stage seeds --methods D,Fp,Fm --seeds 1,2
-python3 scripts/broad_scope_v11/public.py select --pilot-stage public_pilot
-python3 scripts/broad_scope_v11/public.py fetch --which formal
-python3 scripts/broad_scope_v11/public.py hashaudit --which formal
+if [ -z "${SKIP_PUBLIC:-}" ]; then  # the public steps ran separately on 2026-10-27 (commit 3b3dc28)
+  python3 scripts/broad_scope_v11/public.py select --pilot-stage public_pilot
+  python3 scripts/broad_scope_v11/public.py fetch --which formal
+  python3 scripts/broad_scope_v11/public.py hashaudit --which formal
+fi
