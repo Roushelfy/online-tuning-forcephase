@@ -1,0 +1,2376 @@
+{
+ "rule_sha256": "943c75434a715d1bd59d27289101189a9e53bab99d34068b6c0d0b74bbeeb0ce",
+ "pilot_stage": "public_pilot",
+ "report": {
+  "comp2022": {
+   "filled_deviation6": 0,
+   "pilot_outcomes": [
+    "timeout",
+    "timeout",
+    "mid",
+    "timeout"
+   ],
+   "adjustment": "lower half by bytes (pilot mostly timeouts)",
+   "family_cap": 3,
+   "pool_after_adjustment": 147,
+   "picked": 12,
+   "short_by": 0
+  },
+  "comp2023": {
+   "filled_deviation6": 0,
+   "pilot_outcomes": [
+    "mid",
+    "mid",
+    "timeout",
+    "timeout"
+   ],
+   "adjustment": null,
+   "family_cap": 3,
+   "pool_after_adjustment": 185,
+   "picked": 12,
+   "short_by": 0
+  },
+  "comp2024": {
+   "filled_deviation6": 4,
+   "pilot_outcomes": [
+    "fast",
+    "fast",
+    "fast",
+    "mid"
+   ],
+   "adjustment": "upper half by bytes (pilot mostly < 1 s)",
+   "family_cap": 3,
+   "pool_after_adjustment": 557,
+   "picked": 12,
+   "short_by": 0
+  },
+  "comp2025": {
+   "filled_deviation6": 0,
+   "pilot_outcomes": [
+    "mid",
+    "fast",
+    "mid",
+    "mid"
+   ],
+   "adjustment": null,
+   "family_cap": 3,
+   "pool_after_adjustment": 124,
+   "picked": 12,
+   "short_by": 0
+  },
+  "comp2026": {
+   "filled_deviation6": 2,
+   "pilot_outcomes": [
+    "timeout",
+    "timeout",
+    "timeout",
+    "timeout"
+   ],
+   "adjustment": "lower half by bytes (pilot mostly timeouts)",
+   "family_cap": 3,
+   "pool_after_adjustment": 333,
+   "picked": 12,
+   "short_by": 0
+  },
+  "planning2020": {
+   "filled_deviation6": 0,
+   "pilot_outcomes": [
+    "timeout",
+    "mid",
+    "mid",
+    "mid"
+   ],
+   "adjustment": null,
+   "family_cap": 12,
+   "pool_after_adjustment": 59,
+   "picked": 12,
+   "short_by": 0
+  },
+  "crypto2021": {
+   "filled_deviation6": 0,
+   "pilot_outcomes": [
+    "mid",
+    "timeout",
+    "mid",
+    "mid"
+   ],
+   "adjustment": null,
+   "family_cap": 12,
+   "pool_after_adjustment": 179,
+   "picked": 12,
+   "short_by": 0
+  },
+  "agile": {
+   "filled_deviation6": 0,
+   "pilot_outcomes": [
+    "mid",
+    "mid",
+    "mid",
+    "mid"
+   ],
+   "adjustment": null,
+   "family_cap": 12,
+   "pool_after_adjustment": 2109,
+   "picked": 12,
+   "short_by": 0
+  },
+  "application0916": {
+   "filled_deviation6": 0,
+   "pilot_outcomes": [
+    "mid",
+    "mid",
+    "mid",
+    "fast"
+   ],
+   "adjustment": null,
+   "family_cap": 3,
+   "pool_after_adjustment": 1106,
+   "picked": 12,
+   "short_by": 0
+  },
+  "industrial0207": {
+   "filled_deviation6": 0,
+   "pilot_outcomes": [
+    "fast",
+    "fast",
+    "mid",
+    "mid"
+   ],
+   "adjustment": null,
+   "family_cap": 3,
+   "pool_after_adjustment": 617,
+   "picked": 12,
+   "short_by": 0
+  }
+ },
+ "instances": [
+  {
+   "hash": "54d44f1ca332382c50ac1d1ddac5fe42",
+   "family": "scheduling",
+   "isohash": "89a353d1fa5f026b607fa9a384d49120",
+   "bytes": 63905,
+   "clauses": 5122,
+   "variables": 1118,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "07f9d946e0606476199470bfd2b838cbdf85ed576037aa1d45d6e056be94bac9",
+   "related_v11_family": "jssp",
+   "source": "comp2022",
+   "size_tercile": 0,
+   "id": "v11p-comp2022-54d44f1ca332382c50ac1d1ddac5fe42",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "2990d6fbf4b17b80b69c479b92dc969a",
+   "family": "algorithm-equivalence-checking",
+   "isohash": "f4849f86f7add80372f704820aec4b65",
+   "bytes": 141660,
+   "clauses": 8942,
+   "variables": 2408,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "0dfc8c88b4aa34f307078836e15ea7989301e0d0efd525c51181a67ec8cbb1e5",
+   "related_v11_family": null,
+   "source": "comp2022",
+   "size_tercile": 0,
+   "id": "v11p-comp2022-2990d6fbf4b17b80b69c479b92dc969a",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "5147f6d99a48a5a8b7b8fb044dc97e2a",
+   "family": "circuit-equialence-checking",
+   "isohash": "8643cc3d87ea4a889d4208df7e853f9e",
+   "bytes": 633,
+   "clauses": 56,
+   "variables": 19,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "1d25e0eff42d1e837214f0bd1135dbb068ffedac1e31d72a69f80965cc231759",
+   "related_v11_family": null,
+   "source": "comp2022",
+   "size_tercile": 0,
+   "id": "v11p-comp2022-5147f6d99a48a5a8b7b8fb044dc97e2a",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "c80efd1e57e6dc7156ff6b081ad6a32d",
+   "family": "scheduling",
+   "isohash": "37f6effa903340a5bb02809371420efd",
+   "bytes": 66692,
+   "clauses": 5293,
+   "variables": 1243,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "26699ed0f504e3d6e5e8aa9c9d0c013544d3c62bc9060b2e18f6f090775aca58",
+   "related_v11_family": "jssp",
+   "source": "comp2022",
+   "size_tercile": 0,
+   "id": "v11p-comp2022-c80efd1e57e6dc7156ff6b081ad6a32d",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "f8a58c5589cddd9092bda642ee45bf8e",
+   "family": "circuit-equivalence-checking",
+   "isohash": "beb683070eb905fa423eab4c696252e0",
+   "bytes": 265581,
+   "clauses": 15406,
+   "variables": 3622,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "0db694cbc780ee413fcade068d9990cafcdb5f26ef49c046dd24307f46d1b25e",
+   "related_v11_family": null,
+   "source": "comp2022",
+   "size_tercile": 1,
+   "id": "v11p-comp2022-f8a58c5589cddd9092bda642ee45bf8e",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "3159a02d096424aab6295c76360633a9",
+   "family": "set-covering",
+   "isohash": "73185eea6d8944457f1dd16f1dd32c48",
+   "bytes": 376560,
+   "clauses": 15393,
+   "variables": 500,
+   "gbd_result": "unsat",
+   "tracks": [
+    "main_2022",
+    "submissions_2022"
+   ],
+   "key": "13f4514d1c7a598ae862b26f3fee15519aa31c59c31fbccdbb5f752dbbf5ee40",
+   "related_v11_family": "vcover",
+   "source": "comp2022",
+   "size_tercile": 1,
+   "id": "v11p-comp2022-3159a02d096424aab6295c76360633a9",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "95ee4af256f84b50aae14f8f620850a5",
+   "family": "scheduling",
+   "isohash": "7830ff2e828668f96445aba8e92924fc",
+   "bytes": 198234,
+   "clauses": 14500,
+   "variables": 4057,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "1c562e135a92f7422a5b9c74adfbd31f9f37432f50bfe3ab55a818b4c01afe7b",
+   "related_v11_family": "jssp",
+   "source": "comp2022",
+   "size_tercile": 1,
+   "id": "v11p-comp2022-95ee4af256f84b50aae14f8f620850a5",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "af9b133144dcf0c9ed1a2e37faf72219",
+   "family": "circuit-equivalence-checking",
+   "isohash": "ef64b88a8957b3481834bc2ec823d359",
+   "bytes": 300440,
+   "clauses": 17357,
+   "variables": 4074,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "23c47d3293c6a57aa40b2feb7770c499a6c625baf22013f1e0978fe2b0d89359",
+   "related_v11_family": null,
+   "source": "comp2022",
+   "size_tercile": 1,
+   "id": "v11p-comp2022-af9b133144dcf0c9ed1a2e37faf72219",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "811146972de89909cc754e5fcfa851a7",
+   "family": "coloring",
+   "isohash": "e20aa213d5582e04946c73d2129e6f69",
+   "bytes": 992378,
+   "clauses": 55898,
+   "variables": 2449,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "2d1e5c2155fa7d19bd407efb526121ff272269f375692006874025d6883ed2bf",
+   "related_v11_family": "col3",
+   "source": "comp2022",
+   "size_tercile": 2,
+   "id": "v11p-comp2022-811146972de89909cc754e5fcfa851a7",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "e011c703e4a2ff46069ec2af2997b580",
+   "family": "circuit-equialence-checking",
+   "isohash": "80df37601c17525e8d7709f7e7518fad",
+   "bytes": 1001756,
+   "clauses": 55031,
+   "variables": 12628,
+   "gbd_result": "unsat",
+   "tracks": [
+    "main_2022",
+    "submissions_2022"
+   ],
+   "key": "4ca5bf7ea21dc138b2be1e185d112f84991870dfa6665f01321c3f7560a3e035",
+   "related_v11_family": null,
+   "source": "comp2022",
+   "size_tercile": 2,
+   "id": "v11p-comp2022-e011c703e4a2ff46069ec2af2997b580",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "6901858f1edbe3b1d327902dab720326",
+   "family": "independent-set-reconfiguration",
+   "isohash": "a861725d8853d32bcb8a944269468ab6",
+   "bytes": 1904353,
+   "clauses": 98168,
+   "variables": 25460,
+   "gbd_result": "unsat",
+   "tracks": [
+    "main_2022",
+    "submissions_2022"
+   ],
+   "key": "7df54492bd017fcea62f0a46fb614020fa4ed7cc5d8fbf6d777f95d782f5c890",
+   "related_v11_family": null,
+   "source": "comp2022",
+   "size_tercile": 2,
+   "id": "v11p-comp2022-6901858f1edbe3b1d327902dab720326",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "5573681b2f40d5d8b30267ac59987e40",
+   "family": "multiplier-circuits",
+   "isohash": "e672c092cfa04e8d4eec4658b0849b11",
+   "bytes": 1116985,
+   "clauses": 59879,
+   "variables": 15050,
+   "gbd_result": "sat",
+   "tracks": [
+    "main_2022",
+    "submissions_2022"
+   ],
+   "key": "8eb4f6245109205543322158f7c153f2f816fc38dfdb33ab44b616bf8e1dd857",
+   "related_v11_family": "factor",
+   "source": "comp2022",
+   "size_tercile": 2,
+   "id": "v11p-comp2022-5573681b2f40d5d8b30267ac59987e40",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "f828cf8d7e59a8f1f16375f58e33a9b0",
+   "family": "argumentation",
+   "isohash": "875d0a0c862f174cb60152e41fd44425",
+   "bytes": 245891,
+   "clauses": 20401,
+   "variables": 800,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "06fe4af033f67811441412443b7f69360857ada9c4686a6124595ec11ab5ee0d",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 0,
+   "id": "v11p-comp2023-f828cf8d7e59a8f1f16375f58e33a9b0",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "bdfee78154d94ce8f7225950e9d30ae9",
+   "family": "argumentation",
+   "isohash": "163ed30d18142549d926ae9244f28656",
+   "bytes": 282371,
+   "clauses": 22623,
+   "variables": 1328,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "0b4db7fe9a719f2038f13acb1627627cdeff16b00fd3a5f3b1a96370aa692d64",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 0,
+   "id": "v11p-comp2023-bdfee78154d94ce8f7225950e9d30ae9",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "ef0712f558986be079b9bab249af88ba",
+   "family": "argumentation",
+   "isohash": "6826fdeb60bf39d7d8b1c78b819d6047",
+   "bytes": 241711,
+   "clauses": 20001,
+   "variables": 800,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "0f05aa62eea5f372122cc7252221d8aacdb6cc7740ef92f80ebf0827ea85fafa",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 0,
+   "id": "v11p-comp2023-ef0712f558986be079b9bab249af88ba",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "386d94a504ed110355d2d4c35aca66bd",
+   "family": "coloring-clique",
+   "isohash": "02a5762fca5d0394c09b82be405845f9",
+   "bytes": 136743,
+   "clauses": 9328,
+   "variables": 360,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "2db637de6c52d4d5b874e333f8b77e12a0509ad1629139537034e64ee5ae5d15",
+   "related_v11_family": "col3",
+   "source": "comp2023",
+   "size_tercile": 0,
+   "id": "v11p-comp2023-386d94a504ed110355d2d4c35aca66bd",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "84491ba01fca2e9175200b682db72be5",
+   "family": "interval-matching",
+   "isohash": "2242d2e526cce486295e524c716c8072",
+   "bytes": 756317,
+   "clauses": 61128,
+   "variables": 2646,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "068ff2b69bb42d3012cde05a6fa7a3bdad7dd59d26814d61a9bda8ff10f6bfa9",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 1,
+   "id": "v11p-comp2023-84491ba01fca2e9175200b682db72be5",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "c5f1e675b11d6fa2be547122be060388",
+   "family": "reg-n",
+   "isohash": "a5f832fb43c14693d0d650aa5dc63c98",
+   "bytes": 538668,
+   "clauses": 29536,
+   "variables": 896,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "0c0289c2b7141437e22c80c200ea255b27b513e645cff315a050dda9efb6c9d0",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 1,
+   "id": "v11p-comp2023-c5f1e675b11d6fa2be547122be060388",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "5b83b08a561c39fe0ad5e9f3747cd009",
+   "family": "social-golfer",
+   "isohash": "1e92802c497ba2bea407b87b368a6b9d",
+   "bytes": 2476288,
+   "clauses": 124280,
+   "variables": 20040,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "1963556e4510c7f255b70c809d09b3d4f0ea42d24282c1e585af76950f34b196",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 1,
+   "id": "v11p-comp2023-5b83b08a561c39fe0ad5e9f3747cd009",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "f134fbf571af869f6b13a3cc232e5977",
+   "family": "grs-fp-comm",
+   "isohash": "d2fcd0d94a2e59daf2da78747d73f8c6",
+   "bytes": 2040676,
+   "clauses": 110026,
+   "variables": 37772,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "2062d4fa8c9cdc6eaf9fcddfb391d4ac1f0e1f9ef9fb92e609ea683038b3d9b9",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 1,
+   "id": "v11p-comp2023-f134fbf571af869f6b13a3cc232e5977",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "8fd7d8e09e5dd33da9b49d749362cad7",
+   "family": "reg-n",
+   "isohash": "84bd718b6d9e2d33d0106a8df52e6c80",
+   "bytes": 4412789,
+   "clauses": 206016,
+   "variables": 2048,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "0a26000eda75eed956f4ef717ade06424d8d44c527fec66ceb3ba650df79dd65",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 2,
+   "id": "v11p-comp2023-8fd7d8e09e5dd33da9b49d749362cad7",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "5f957e36218f3795373b5f3b06197785",
+   "family": "grs-fp-comm",
+   "isohash": "593c00edfe7ca478e259d133ff40020c",
+   "bytes": 25525187,
+   "clauses": 1184062,
+   "variables": 402420,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "0c67d09c3f4c597c4bca29b638bd6a744e109cc19636239d31e4f67fd1df0454",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 2,
+   "id": "v11p-comp2023-5f957e36218f3795373b5f3b06197785",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "bea5670cd1a577881d61b6f1017afce8",
+   "family": "brent-equations",
+   "isohash": "63b5b2e348f9b95f39554239578536d1",
+   "bytes": 7823535,
+   "clauses": 345303,
+   "variables": 77733,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "0f08713ee1e7d25afb22e6770599061d427a943d671ea0be07d250f2dffa3cb6",
+   "related_v11_family": null,
+   "source": "comp2023",
+   "size_tercile": 2,
+   "id": "v11p-comp2023-bea5670cd1a577881d61b6f1017afce8",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "2be1600a7969ee18f90c7302642421f6",
+   "family": "school-timetabling",
+   "isohash": "ed0a1d11a281ba727b513c31003937fb",
+   "bytes": 16399986,
+   "clauses": 804866,
+   "variables": 247552,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "1097d50ec979832c99372fe75f41044f8e18dd6f0212ce529fe63c4689a531b5",
+   "related_v11_family": "jssp",
+   "source": "comp2023",
+   "size_tercile": 2,
+   "id": "v11p-comp2023-2be1600a7969ee18f90c7302642421f6",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "8d334d875ec517cb5ece4bdbf2b027dc",
+   "family": "hamiltonian",
+   "isohash": "82cb5c6b09a58622e9ec2bb1f2ffa69e",
+   "bytes": 49842,
+   "clauses": 4045,
+   "variables": 450,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "00aefb085f7cc3c8ab37af2633dcf6c1d5c1b3173cfd930856026d77c0c28fca",
+   "related_v11_family": null,
+   "source": "comp2024",
+   "size_tercile": 0,
+   "id": "v11p-comp2024-8d334d875ec517cb5ece4bdbf2b027dc",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "69310470dc66c7ee4710ec435bff8a82",
+   "family": "hamiltonian",
+   "isohash": "844ed6e9a95e57c7d85444640c621bf6",
+   "bytes": 38369,
+   "clauses": 3155,
+   "variables": 350,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "00efe6772a8e5c8a86c1a36777e0f90eced6eda7d56295dd2680fac2bbec809c",
+   "related_v11_family": null,
+   "source": "comp2024",
+   "size_tercile": 0,
+   "id": "v11p-comp2024-69310470dc66c7ee4710ec435bff8a82",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "0c87395d10c51e0ed588ecb13f16108b",
+   "family": "hamiltonian",
+   "isohash": "a150edee318d870f201fd9e91a590b4f",
+   "bytes": 44104,
+   "clauses": 3601,
+   "variables": 400,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "04abe090393ea5af52231b749f082ac1e353a915f14ff9a4ced9e1e606b41739",
+   "related_v11_family": null,
+   "source": "comp2024",
+   "size_tercile": 0,
+   "id": "v11p-comp2024-0c87395d10c51e0ed588ecb13f16108b",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "15f1c0cbf6a99eb7619a0705a42a7cee",
+   "family": "tseitin-formulas",
+   "isohash": "26ac201a41da998a1f0dad2e31fe49ab",
+   "bytes": 38374,
+   "clauses": 2048,
+   "variables": 544,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "f2a85b0ef6c91842d0bd21e41c260e1ee5e2d456a4b843ef4cd291f10999fb36",
+   "related_v11_family": null,
+   "source": "comp2024",
+   "size_tercile": 0,
+   "id": "v11p-comp2024-15f1c0cbf6a99eb7619a0705a42a7cee",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "35529475005f5de6b85559184d90ebed",
+   "family": "miter",
+   "isohash": "bda6a8e422ea85a087ed6ee04007971c",
+   "bytes": 214702,
+   "clauses": 14964,
+   "variables": 5003,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "01a26a1a7c9adbafe2b83edaa5c12ac43d834529297b67f3e058984964f633b3",
+   "related_v11_family": "factor",
+   "source": "comp2024",
+   "size_tercile": 2,
+   "id": "v11p-comp2024-35529475005f5de6b85559184d90ebed",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "9aa75e3cf1beee54793e5a584680ea45",
+   "family": "miter",
+   "isohash": "ac75e1301009e96c1d63b208499a0f99",
+   "bytes": 116633,
+   "clauses": 8492,
+   "variables": 2845,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "0460d58d0c7f97ea494f419f6af57a71458e604ac54478e34c20a820cfcd2190",
+   "related_v11_family": "factor",
+   "source": "comp2024",
+   "size_tercile": 2,
+   "id": "v11p-comp2024-9aa75e3cf1beee54793e5a584680ea45",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "7bee3de0e2fd1716ba3930dcd1fc7aed",
+   "family": "reg-n",
+   "isohash": "0a034bf39d9e3c2e88025f64899b0739",
+   "bytes": 4394655,
+   "clauses": 206016,
+   "variables": 2048,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "05be4fd04c08f21c528d39c8f58b72dbb98efe594ac36043d77dcc889e32ab8b",
+   "related_v11_family": null,
+   "source": "comp2024",
+   "size_tercile": 2,
+   "id": "v11p-comp2024-7bee3de0e2fd1716ba3930dcd1fc7aed",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "0ffe9b7e95f9f57b2fe8ccbe426fea67",
+   "family": "random-circuits",
+   "isohash": "c794b212dae7689d40ddd94e8c63cca1",
+   "bytes": 9420195,
+   "clauses": 216064,
+   "variables": 3648,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "15fd6ebca22c1215afa856eb82fe1b367b7aff7ac2d6a30f716ec8a7bc276cad",
+   "related_v11_family": "rand3",
+   "source": "comp2024",
+   "size_tercile": 2,
+   "id": "v11p-comp2024-0ffe9b7e95f9f57b2fe8ccbe426fea67",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "0b50cc55999f95e8246a8de2952fc052",
+   "family": "quantum-kochen-specker",
+   "isohash": "6420c6337a8379f3547485f6b2d62708",
+   "bytes": 48196284,
+   "clauses": 107610,
+   "variables": 2720,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "1646c7cb7f871d482749cbb7a06c8e4b6c9eaa2c10360636390372f3cf90e49a",
+   "related_v11_family": null,
+   "source": "comp2024",
+   "size_tercile": 2,
+   "fill_cap": 3,
+   "id": "v11p-comp2024-0b50cc55999f95e8246a8de2952fc052",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "34ec0ac977ff84125ae64eff1beead1d",
+   "family": "independent-set",
+   "isohash": "6e0a366d49ea7a355ebfec88db47ec70",
+   "bytes": 34474572,
+   "clauses": 2135878,
+   "variables": 46447,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "1701e086741b163108442f253d1306999f2c62fde7003c7f775f3f210b8b9d21",
+   "related_v11_family": null,
+   "source": "comp2024",
+   "size_tercile": 2,
+   "fill_cap": 3,
+   "id": "v11p-comp2024-34ec0ac977ff84125ae64eff1beead1d",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "a84301697348c112e2ced898906868d9",
+   "family": "scheduling",
+   "isohash": "3f76ece33bae1add60c8be953d7b15ca",
+   "bytes": 188536,
+   "clauses": 11437,
+   "variables": 2825,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "1d76e9e2e8f6c0734a28585838918858ebb38c7a9dc3c217db90ca6c9a91c267",
+   "related_v11_family": "jssp",
+   "source": "comp2024",
+   "size_tercile": 2,
+   "fill_cap": 3,
+   "id": "v11p-comp2024-a84301697348c112e2ced898906868d9",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "b73732437929683a8456180464a5ef46",
+   "family": "miter",
+   "isohash": "7b2e51037f2a6576a13280af36f46a6d",
+   "bytes": 86471,
+   "clauses": 6372,
+   "variables": 2137,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "1e24190e3bdf1520d7324b4b64b4241b4671171cee97f9c1c5f436229701ebea",
+   "related_v11_family": "factor",
+   "source": "comp2024",
+   "size_tercile": 2,
+   "fill_cap": 3,
+   "id": "v11p-comp2024-b73732437929683a8456180464a5ef46",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "e95e284c3a0e7ba69f480af696b2d174",
+   "family": "argumentation",
+   "isohash": "5d722ad21eb971ca8009489f2cabd2b2",
+   "bytes": 1308437,
+   "clauses": 77418,
+   "variables": 4056,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "1a26f472d35b67d9067eb4978a33f252509662deb1acbeeedc1b2d26306facb6",
+   "related_v11_family": null,
+   "source": "comp2025",
+   "size_tercile": 0,
+   "id": "v11p-comp2025-e95e284c3a0e7ba69f480af696b2d174",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "e3920fc15989f1d914b4210a7864eecf",
+   "family": "argumentation",
+   "isohash": "bba0820a652cd35dc8e85b67fa05d144",
+   "bytes": 2126843,
+   "clauses": 124685,
+   "variables": 4200,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "1abd5b59155a6f87133a484f278f68de46fbb621b510b96793d154163f184c0a",
+   "related_v11_family": null,
+   "source": "comp2025",
+   "size_tercile": 0,
+   "id": "v11p-comp2025-e3920fc15989f1d914b4210a7864eecf",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "5f72c14007f6e5230f18788490c164de",
+   "family": "clique-coloring",
+   "isohash": "11aac90b0a26ea6310117f8e2222dee5",
+   "bytes": 430888,
+   "clauses": 28334,
+   "variables": 725,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "23a530048ce786f54d1d51bcc4449412bf038ec1642fe8e97d57c18332c75454",
+   "related_v11_family": "col3",
+   "source": "comp2025",
+   "size_tercile": 0,
+   "id": "v11p-comp2025-5f72c14007f6e5230f18788490c164de",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "4b19bd5d69f09e79b785ee5a9c1d669d",
+   "family": "multiplier-equivalence-checking",
+   "isohash": "5c3f587e9ee6ea1aa93a9920091435bd",
+   "bytes": 142469,
+   "clauses": 9500,
+   "variables": 2890,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "2aa891109207ae84f012889628dba444a5f5da63afa25a34155d61154b8b864e",
+   "related_v11_family": "factor",
+   "source": "comp2025",
+   "size_tercile": 0,
+   "id": "v11p-comp2025-4b19bd5d69f09e79b785ee5a9c1d669d",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "53156b2b0324029e55d9a4a2f3b48df0",
+   "family": "multiplier-verification",
+   "isohash": "9eab6ddd4ff22344d71173cc20e0b544",
+   "bytes": 3183922,
+   "clauses": 173138,
+   "variables": 28897,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "089a180e67e242cffc8710140bc828aa6db24a9ff10aabf6a4a0f8941a19f00c",
+   "related_v11_family": "factor",
+   "source": "comp2025",
+   "size_tercile": 1,
+   "id": "v11p-comp2025-53156b2b0324029e55d9a4a2f3b48df0",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "6fb9ae0e4946ee5a92a809329d55eabe",
+   "family": "belpyramid-puzzle",
+   "isohash": "ca058a9e59b5000ffbac283169e8b868",
+   "bytes": 17814778,
+   "clauses": 700799,
+   "variables": 72165,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "11907ad8be818bbb438bb6c3cc83c9556044e7833f683a99c01c447990d3ee1c",
+   "related_v11_family": null,
+   "source": "comp2025",
+   "size_tercile": 1,
+   "id": "v11p-comp2025-6fb9ae0e4946ee5a92a809329d55eabe",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "2f1fa717c4661c68fa0089fec5d5a1ba",
+   "family": "hardware-model-checking",
+   "isohash": "ba2bcf5dfd29f7a7643f0d8bd4cf9581",
+   "bytes": 4336015,
+   "clauses": 238646,
+   "variables": 73124,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "25e6a5595d89c85104dfb84fb9040cd116751e11c7640a0a72c2aae6630d7466",
+   "related_v11_family": null,
+   "source": "comp2025",
+   "size_tercile": 1,
+   "id": "v11p-comp2025-2f1fa717c4661c68fa0089fec5d5a1ba",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "d2f577954a6d4b77f812569077b8037a",
+   "family": "multiplier-verification",
+   "isohash": "7bb4ea7957a43c38bf4c488d3cfc6392",
+   "bytes": 15480310,
+   "clauses": 791300,
+   "variables": 131916,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "320d22b7342878674d19ff2ff71acc5475f8b481f34f1e3563ae05adc29e9699",
+   "related_v11_family": "factor",
+   "source": "comp2025",
+   "size_tercile": 1,
+   "id": "v11p-comp2025-d2f577954a6d4b77f812569077b8037a",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "db80d86436831366420c2fd1bcc64abc",
+   "family": "multiplier-verification",
+   "isohash": "fee8f1f791c5ffe1858eb296ea733026",
+   "bytes": 40861938,
+   "clauses": 1951250,
+   "variables": 325297,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "082c01d280484029ad2f670855392a737e5c190a004ec2777586f80b6c7e2e10",
+   "related_v11_family": "factor",
+   "source": "comp2025",
+   "size_tercile": 2,
+   "id": "v11p-comp2025-db80d86436831366420c2fd1bcc64abc",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "4e65771305ea93e44a5a79b0861f3e9e",
+   "family": "equivalence-checking",
+   "isohash": "02dfe65345f0cdd4d011c9a16a3f448a",
+   "bytes": 31151676,
+   "clauses": 1555891,
+   "variables": 489402,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "0f9a93bb2e0768c827426ac93440afb8155e30fca4135d8ed631b19a5546a54f",
+   "related_v11_family": null,
+   "source": "comp2025",
+   "size_tercile": 2,
+   "id": "v11p-comp2025-4e65771305ea93e44a5a79b0861f3e9e",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "7a97a5de0da8ec95a431ca33a7f05bc5",
+   "family": "hardware-model-checking",
+   "isohash": "f81cad778465445bad4d208fea218bb2",
+   "bytes": 27034280,
+   "clauses": 1274292,
+   "variables": 505814,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "12d8d00b400362eb618f6b49c48989d0938a34b74fe1c9894924e9c4678d68c8",
+   "related_v11_family": null,
+   "source": "comp2025",
+   "size_tercile": 2,
+   "id": "v11p-comp2025-7a97a5de0da8ec95a431ca33a7f05bc5",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "1c3e1ff0754c99c295634ccbd2ea9eab",
+   "family": "equivalence-checking",
+   "isohash": "00cbd05cbd398cf59c862186722c82dd",
+   "bytes": 31042320,
+   "clauses": 1549782,
+   "variables": 488093,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "1a1fa9ddb482ce77c790caa57ac15b940da0a0d16d6efbc42f1f8dee7c18c6f9",
+   "related_v11_family": null,
+   "source": "comp2025",
+   "size_tercile": 2,
+   "id": "v11p-comp2025-1c3e1ff0754c99c295634ccbd2ea9eab",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "76a7d978c0c21417205a89a70c4a0bae",
+   "family": "xor-shifting",
+   "isohash": "b7dd6588ac42096fa6cb8c137f0accbe",
+   "bytes": 119366,
+   "clauses": 7492,
+   "variables": 2023,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "02c0f19816e504ce417e402c3af15d7d3151fa228555567e83002a6ecdb72e6a",
+   "related_v11_family": null,
+   "source": "comp2026",
+   "size_tercile": 0,
+   "id": "v11p-comp2026-76a7d978c0c21417205a89a70c4a0bae",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "90f60bf38b1b64f762ad81460a264023",
+   "family": "xor-shifting",
+   "isohash": "7282da0ec95c19b5fdd8ffd306391a9c",
+   "bytes": 113765,
+   "clauses": 7120,
+   "variables": 1930,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "07382a36ec8c8051851f4baa2c9dbb4a763e748b33043f928138da8920945a34",
+   "related_v11_family": null,
+   "source": "comp2026",
+   "size_tercile": 0,
+   "id": "v11p-comp2026-90f60bf38b1b64f762ad81460a264023",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "0c55212ae62dd6d1577d3d102b25cb42",
+   "family": "xor-shifting",
+   "isohash": "b4e267ae343117109930df0870971365",
+   "bytes": 120154,
+   "clauses": 7492,
+   "variables": 2023,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "0acd56dac53c1d3382647ac3b291ace3ff7b4c2ead875d6164a8e568a670b949",
+   "related_v11_family": null,
+   "source": "comp2026",
+   "size_tercile": 0,
+   "id": "v11p-comp2026-0c55212ae62dd6d1577d3d102b25cb42",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "a87a6cac88dc4b7e8b2d87c5f0ba1e45",
+   "family": "graph-coloring",
+   "isohash": "d7ca85c2fe44418e96e18c3e966160fc",
+   "bytes": 8488,
+   "clauses": 640,
+   "variables": 150,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "0ce06a380b18db1edb0b18d391969c15a87743bcba8b79033b1b242330ca0d6c",
+   "related_v11_family": "col3",
+   "source": "comp2026",
+   "size_tercile": 0,
+   "id": "v11p-comp2026-a87a6cac88dc4b7e8b2d87c5f0ba1e45",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "7c1a8add0486eccf71d8abca596bfb3b",
+   "family": "count",
+   "isohash": "5cf71f08d862c90eaf123060d1c0642f",
+   "bytes": 128634,
+   "clauses": 10991,
+   "variables": 406,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "19c357e3d7228b145ff2e39a93e310a7843a7e0cabc0a4638a53bc482e6f6ff9",
+   "related_v11_family": null,
+   "source": "comp2026",
+   "size_tercile": 1,
+   "id": "v11p-comp2026-7c1a8add0486eccf71d8abca596bfb3b",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "e9ffa6149bc51fe8b321c8d89380ee2d",
+   "family": "multiplier-circuit-miters",
+   "isohash": "5c6edab777c54c66b6649fc2a1a008db",
+   "bytes": 128087,
+   "clauses": 8574,
+   "variables": 2620,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "4c6e9865b264cbdd1ce1fa1cad75a5c2ceb2f6ccd4481e7b47df8359d3fedfe2",
+   "related_v11_family": "factor",
+   "source": "comp2026",
+   "size_tercile": 1,
+   "id": "v11p-comp2026-e9ffa6149bc51fe8b321c8d89380ee2d",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "2108db8bebd693516e915bb8eb4e984c",
+   "family": "van-der-waerden",
+   "isohash": "a78f305af355906c8b4d75d1a8f3f918",
+   "bytes": 132436,
+   "clauses": 5222,
+   "variables": 292,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "64008f7ba344822a67c2f6f928e3e14235ffca2f9cd2665e6ad3146e861a6211",
+   "related_v11_family": null,
+   "source": "comp2026",
+   "size_tercile": 1,
+   "id": "v11p-comp2026-2108db8bebd693516e915bb8eb4e984c",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "cf91b15d017233e85e9211e46f2192b2",
+   "family": "van-der-waerden",
+   "isohash": "c3a107d065e89288f649cdf93d0aad8e",
+   "bytes": 128669,
+   "clauses": 5082,
+   "variables": 288,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "f80f069c519d7d0bc58ce0562faecdb14e01c2cc94fba709b69a37f02ecf85e1",
+   "related_v11_family": null,
+   "source": "comp2026",
+   "size_tercile": 1,
+   "id": "v11p-comp2026-cf91b15d017233e85e9211e46f2192b2",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "3891bc83001427163323378541a07310",
+   "family": "multiplier-circuit-miters",
+   "isohash": "53df4e1ec9023cc89961bf7cad12f7a9",
+   "bytes": 138662,
+   "clauses": 9388,
+   "variables": 2893,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "7e9d8563870efdbe21cbc94b37fe1c18d399b9529d337fd03bb43a4f6a6ed16b",
+   "related_v11_family": "factor",
+   "source": "comp2026",
+   "size_tercile": 2,
+   "id": "v11p-comp2026-3891bc83001427163323378541a07310",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "05bb70b8ddfd1fb36c6085d6427992a1",
+   "family": "multiplier-circuit-miters",
+   "isohash": "52c5c412bf84347a416e219659e7ad10",
+   "bytes": 139097,
+   "clauses": 9408,
+   "variables": 2900,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "f2bd1ed1d2e723ac2894af8135f47920d2a3cc5403711b2cc46aefb0dfd91f67",
+   "related_v11_family": "factor",
+   "source": "comp2026",
+   "size_tercile": 2,
+   "id": "v11p-comp2026-05bb70b8ddfd1fb36c6085d6427992a1",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "4f1aa66ee5e35a8761e2baf0e2d0dbfc",
+   "family": "sudoku-php",
+   "isohash": "866eafd78a589d501b78661ab120abdb",
+   "bytes": 7742,
+   "clauses": 775,
+   "variables": 90,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "0d22f1675d5e8d5f49d3c25e3bb1e9739f275536abf37477f83b36031b57a549",
+   "related_v11_family": null,
+   "source": "comp2026",
+   "size_tercile": 0,
+   "fill_cap": 3,
+   "id": "v11p-comp2026-4f1aa66ee5e35a8761e2baf0e2d0dbfc",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "146b139d4e6bae6dcdb566867b360684",
+   "family": "graph-coloring",
+   "isohash": "dd244f4528c2d56cae13229b6a2c38aa",
+   "bytes": 56659,
+   "clauses": 4127,
+   "variables": 1260,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "0ff0cd0ef1ab3d5abea33dd951e462143b2c7497d360be705c2771434242e9dd",
+   "related_v11_family": "col3",
+   "source": "comp2026",
+   "size_tercile": 0,
+   "fill_cap": 3,
+   "id": "v11p-comp2026-146b139d4e6bae6dcdb566867b360684",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "4a02d1c16b2de591ae2aa95c79a62cb8",
+   "family": "planning",
+   "isohash": "b4433af89cde388a48f2d296636b2ffb",
+   "bytes": 15688129,
+   "clauses": 981816,
+   "variables": 67936,
+   "gbd_result": "unknown",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "0f85c478dd2ccded3b6475bfc27b35e2ebd598de3bcda3f157ee9108e2bac3ca",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 0,
+   "id": "v11p-planning2020-4a02d1c16b2de591ae2aa95c79a62cb8",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "64cabd8c7a48d2eb9067a58cf274b8b7",
+   "family": "planning",
+   "isohash": "4897bbc696038b38c3ca3ec56ae7bf65",
+   "bytes": 8425954,
+   "clauses": 534369,
+   "variables": 40107,
+   "gbd_result": "unknown",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "148b7d9f24d56aea06ed7a12c744a6058694818ef214d3d807fa4981fc4021fd",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 0,
+   "id": "v11p-planning2020-64cabd8c7a48d2eb9067a58cf274b8b7",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "52b577b25b98dd1fb05a1577c9d53263",
+   "family": "planning",
+   "isohash": "554963ebbcf644afdfb80d7f7d6f6f4c",
+   "bytes": 7377698,
+   "clauses": 470253,
+   "variables": 35301,
+   "gbd_result": "sat",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "1b0d43da241140a9d013edbe348b6a316d9e8777d843082be4aa6ca40fb1650c",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 0,
+   "id": "v11p-planning2020-52b577b25b98dd1fb05a1577c9d53263",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "0eb004fe3f9fc958322e595f4c9445b5",
+   "family": "planning",
+   "isohash": "e88fec501893ec54ac55fb219e2cfa75",
+   "bytes": 18294587,
+   "clauses": 1142496,
+   "variables": 78404,
+   "gbd_result": "sat",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "20bf4a858b048bd54bf6848b74c9914fc1356c78274195f5d1f235face553e19",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 0,
+   "id": "v11p-planning2020-0eb004fe3f9fc958322e595f4c9445b5",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "895c0921e27c84f171f2cd6a71a2ca82",
+   "family": "planning",
+   "isohash": "930564f5824e09914a6bbfe8b6e6683d",
+   "bytes": 30503409,
+   "clauses": 1841728,
+   "variables": 125932,
+   "gbd_result": "unknown",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "11b74f6ebe4492cc8f26832c40b189ca8448339032c0cf9b027826093e9811ac",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 1,
+   "id": "v11p-planning2020-895c0921e27c84f171f2cd6a71a2ca82",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "08abc7d4b5c60faee452d15d89e62d53",
+   "family": "planning",
+   "isohash": "71b177461001d7678b64f8ebab4f8ba2",
+   "bytes": 21584371,
+   "clauses": 1424794,
+   "variables": 18398,
+   "gbd_result": "unsat",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "2519b0ebec977ca56604b05970ec2ba0f42f604698139c4dcaf500b73b7ef8ba",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 1,
+   "id": "v11p-planning2020-08abc7d4b5c60faee452d15d89e62d53",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "e523b622d3aa0fde3337c7c4a16af0a8",
+   "family": "planning",
+   "isohash": "1b0c63227d068b97ffab74f681191f42",
+   "bytes": 29912660,
+   "clauses": 1921206,
+   "variables": 37248,
+   "gbd_result": "unsat",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "32286211962b6df810e590b7dc49b0ed933deb0b4c37fa03b3fd8275943e8b4c",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 1,
+   "id": "v11p-planning2020-e523b622d3aa0fde3337c7c4a16af0a8",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "a2f602abd1e1bcddb1f167bd4985cee4",
+   "family": "planning",
+   "isohash": "920e783f11b0aede813e59b65ebc31bc",
+   "bytes": 26179886,
+   "clauses": 1605079,
+   "variables": 110563,
+   "gbd_result": "unknown",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "5548b357c70fec7d0ac88ec2cb5ed7dcb816d461bb21a77e00986433cf18ae24",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 1,
+   "id": "v11p-planning2020-a2f602abd1e1bcddb1f167bd4985cee4",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "1b0e2176736b9acdc377f80352ca7b80",
+   "family": "planning",
+   "isohash": "3610575cddd49b4768d65b746132187a",
+   "bytes": 85645089,
+   "clauses": 4857538,
+   "variables": 306857,
+   "gbd_result": "unknown",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "06d7e62c663bc563501c13a2c214523c365b115cf911c0782b36c3a2b62b07f9",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 2,
+   "id": "v11p-planning2020-1b0e2176736b9acdc377f80352ca7b80",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "f907fe910f42a070786d4367b1e691bd",
+   "family": "planning",
+   "isohash": "df74e683fe3104c6b5c92229999bd970",
+   "bytes": 93984403,
+   "clauses": 5303917,
+   "variables": 339821,
+   "gbd_result": "unknown",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "3c3166cc8f8b0e272db84a9b37719d5f6a1f94e0c07e85ddc17b8807e13d51bb",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 2,
+   "id": "v11p-planning2020-f907fe910f42a070786d4367b1e691bd",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "54a5279bb40c096abe7f9a85d5ccc010",
+   "family": "planning",
+   "isohash": "735e654b27467b1b39d29fae8a5a1320",
+   "bytes": 39903712,
+   "clauses": 2540762,
+   "variables": 48740,
+   "gbd_result": "sat",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "3f188cd8f35e72e4dd7c7d04d5ce5580774aa47bd4094652a2c3b5a20d9e6269",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 2,
+   "id": "v11p-planning2020-54a5279bb40c096abe7f9a85d5ccc010",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "74d1657f47ff3d2c48b7506ac60c5d07",
+   "family": "planning",
+   "isohash": "8415d09718278307f26bc55692228e4d",
+   "bytes": 50426365,
+   "clauses": 2920517,
+   "variables": 200605,
+   "gbd_result": "unknown",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "5c187ffd40937b81d0b7e0e665d537960159cebe55575eafa3bbcdff99851a82",
+   "related_v11_family": "bwplan",
+   "source": "planning2020",
+   "size_tercile": 2,
+   "id": "v11p-planning2020-74d1657f47ff3d2c48b7506ac60c5d07",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "8b141f5fc849ce238d1c1781919243f3",
+   "family": "cryptography",
+   "isohash": "6dae801924cbb76a833b696e93ed7cf2",
+   "bytes": 447232,
+   "clauses": 17584,
+   "variables": 1545,
+   "gbd_result": "sat",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "1071c2f4ec16f5b7200d8e2ce60a32c0b61306d4c119608112751e059fc0937d",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 0,
+   "id": "v11p-crypto2021-8b141f5fc849ce238d1c1781919243f3",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "2565143ce97b21d25c01ef4827e4283f",
+   "family": "cryptography",
+   "isohash": "a35da120564e3b9041108ef4bff9ef37",
+   "bytes": 447188,
+   "clauses": 17584,
+   "variables": 1545,
+   "gbd_result": "sat",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "1168f90ceafee4549b490bdf8bd3b8d9ade71aa42dce504b2a6df6078f1321c3",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 0,
+   "id": "v11p-crypto2021-2565143ce97b21d25c01ef4827e4283f",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "13002f51482d0b78e9f98fae1672d99a",
+   "family": "cryptography",
+   "isohash": "733d33db5fae8e963b0fb53c7d3d2109",
+   "bytes": 99985,
+   "clauses": 5176,
+   "variables": 1000,
+   "gbd_result": "unknown",
+   "tracks": [
+    "anni_2022",
+    "application_2011",
+    "application_2016",
+    "crypto_2021"
+   ],
+   "key": "12bd434ed4e36d606691b6ad5d203cb9cd84cd2610ba661682fdc64f70436da3",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 0,
+   "id": "v11p-crypto2021-13002f51482d0b78e9f98fae1672d99a",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "e49c74a1a8fe62b06ec7ea9873f30749",
+   "family": "cryptography",
+   "isohash": "306bbdae6900a842cb04e67c5071300d",
+   "bytes": 368349,
+   "clauses": 22683,
+   "variables": 6433,
+   "gbd_result": "sat",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "15e8ecda78097921f2047d1ff44df111e122093c53528c32da4ab0490af659e8",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 0,
+   "id": "v11p-crypto2021-e49c74a1a8fe62b06ec7ea9873f30749",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "f57f9b3e3eb5fb8fea5ebde6f8ae8820",
+   "family": "cryptography",
+   "isohash": "39b34e2c420e7dca14d31c02aff58e1b",
+   "bytes": 2081833,
+   "clauses": 146909,
+   "variables": 961,
+   "gbd_result": "sat",
+   "tracks": [
+    "application_2012",
+    "crypto_2021",
+    "industrial_2005",
+    "industrial_2007",
+    "main_2010"
+   ],
+   "key": "0889ef76bf4c2dd34ab6143080cc1c3f8e926d44c5eae177aceaa712bc0e63c9",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 1,
+   "id": "v11p-crypto2021-f57f9b3e3eb5fb8fea5ebde6f8ae8820",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "05650550f21d60a3989cae43fb5ebd93",
+   "family": "cryptography",
+   "isohash": "4d1f1aa702b578570dfed05afa42f82e",
+   "bytes": 5426421,
+   "clauses": 313805,
+   "variables": 95814,
+   "gbd_result": "sat",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "0f6ebe19a9bfe032385d100e39a5113364b87a42b63d2160d2b37696d68312fd",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 1,
+   "id": "v11p-crypto2021-05650550f21d60a3989cae43fb5ebd93",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "c2ec2c450b99d8cfc95c0a3fd6e9e1b8",
+   "family": "cryptography",
+   "isohash": "0b0c84d29997f5b43f876ca5e34a8fcb",
+   "bytes": 3737362,
+   "clauses": 121197,
+   "variables": 7089,
+   "gbd_result": "sat",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "11d3148b82870ed9cadd328def51ce724a1dd92fca5c1dfbabfafecb22e28644",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 1,
+   "id": "v11p-crypto2021-c2ec2c450b99d8cfc95c0a3fd6e9e1b8",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "532e06b2da2d8faae6d6a52d60451936",
+   "family": "cryptography",
+   "isohash": "bc5ce7f634eaa47abb6673d854d52394",
+   "bytes": 4195038,
+   "clauses": 210221,
+   "variables": 50073,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2012",
+    "crypto_2021",
+    "main_2008"
+   ],
+   "key": "1235f5ac9a86f0daf9fa4f706202a274d4e4a05f8c2bbeada7bbe1b3b13e8cee",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 1,
+   "id": "v11p-crypto2021-532e06b2da2d8faae6d6a52d60451936",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "a63717cf71e4582f172eadb0582bf250",
+   "family": "cryptography",
+   "isohash": "90d6305396efb6143331d6c5ce2d32a0",
+   "bytes": 18404599,
+   "clauses": 478985,
+   "variables": 13409,
+   "gbd_result": "sat",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "080d89f83d741b89bf4f43bcc2033d3288d1f5ea6b7d13c708fc522339db4d4c",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 2,
+   "id": "v11p-crypto2021-a63717cf71e4582f172eadb0582bf250",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "fbd5ec01130c1799011f6c7cab30fc85",
+   "family": "cryptography",
+   "isohash": "6b8ef0095c9e48d0a40dcf3eca22750f",
+   "bytes": 18404573,
+   "clauses": 478985,
+   "variables": 13409,
+   "gbd_result": "sat",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "13ef3acf564249edae060dc6c226b2eaf6945e73a5d1610d76d77ffca01b29a3",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 2,
+   "id": "v11p-crypto2021-fbd5ec01130c1799011f6c7cab30fc85",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "0d2bcd9d503431148295cd116b446609",
+   "family": "cryptography",
+   "isohash": "18aba155528b6524693b9e06ed125276",
+   "bytes": 8256728,
+   "clauses": 440311,
+   "variables": 130182,
+   "gbd_result": "unknown",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "151584e78e4810e660d4044c4eccb6c2018f9eb79943c76273cbe6768d8850e5",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 2,
+   "id": "v11p-crypto2021-0d2bcd9d503431148295cd116b446609",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "2dcc525ccb3eb88be9dcd4fbed1bab6c",
+   "family": "cryptography",
+   "isohash": "3b69f86a22d96204a0dc783bdd0c067e",
+   "bytes": 14384632,
+   "clauses": 648806,
+   "variables": 134781,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "crypto_2021",
+    "main_2018"
+   ],
+   "key": "17203af81048e037267247d12a5d8a26882a7880cc2e3551e04965c568ceed98",
+   "related_v11_family": null,
+   "source": "crypto2021",
+   "size_tercile": 2,
+   "id": "v11p-crypto2021-2dcc525ccb3eb88be9dcd4fbed1bab6c",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "141694cf6b4633c9cf31e0b955aef79a",
+   "family": "agile",
+   "isohash": "14e3a172a163bfed165ed478a8094161",
+   "bytes": 226650,
+   "clauses": 14824,
+   "variables": 4313,
+   "gbd_result": "unsat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "008e2d09d4d6f0610db8a79b6df8599ad4c0faa3b7b9fa962af2926ca2bb161d",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 0,
+   "id": "v11p-agile-141694cf6b4633c9cf31e0b955aef79a",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "bdaa638f13cd90d6cd09a0f1d18985e0",
+   "family": "agile",
+   "isohash": "fbeaeb0cd6b02a610e3c5752527ee1b4",
+   "bytes": 1307741,
+   "clauses": 73301,
+   "variables": 20515,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "00e461e237bc2e3379b1d685a4ed3a57a4215573403755fb864f49affdac482b",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 0,
+   "id": "v11p-agile-bdaa638f13cd90d6cd09a0f1d18985e0",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "633600c82651e6c228a129fdbb290e4f",
+   "family": "agile",
+   "isohash": "d40d6fa13d8813c0b1c1d4001aa24916",
+   "bytes": 282727,
+   "clauses": 18228,
+   "variables": 5271,
+   "gbd_result": "unsat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "0127fa218cd5af9ecb19a83698efeb9d0494cfcdbbdf3e44d76258ea64a814f4",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 0,
+   "id": "v11p-agile-633600c82651e6c228a129fdbb290e4f",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "eb9430c2746d5365f4669dedfb4bb10c",
+   "family": "agile",
+   "isohash": "6626ab792628d9c7bc2350b99814e255",
+   "bytes": 1132243,
+   "clauses": 65542,
+   "variables": 18580,
+   "gbd_result": "unsat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "016a865ee56682c0905e593aded91a60ceffcc83b1b6e3ecf89b3410de1591e6",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 0,
+   "id": "v11p-agile-eb9430c2746d5365f4669dedfb4bb10c",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "c335192c00d7b3e07e421a980705a5eb",
+   "family": "agile",
+   "isohash": "959f89f180b4b08f66899c19ae171d83",
+   "bytes": 1580682,
+   "clauses": 87665,
+   "variables": 25148,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "009ca8e9a77051f44190be2c92b162ad296b7ffed9f1f463c9c47782b4a24d03",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 1,
+   "id": "v11p-agile-c335192c00d7b3e07e421a980705a5eb",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "a992b736d1c37b06c7c4313930ea94ef",
+   "family": "agile",
+   "isohash": "33f9a09ad296e65e59c3f9e0aa5efa55",
+   "bytes": 1807569,
+   "clauses": 99596,
+   "variables": 28489,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "0144d39d2e30c508e6695b46742b480dffe0c5da38166cd7bb95900486c7f9af",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 1,
+   "id": "v11p-agile-a992b736d1c37b06c7c4313930ea94ef",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "c5b8b9c1fa023362482bcc2e337e1b04",
+   "family": "agile",
+   "isohash": "a8dea73936a6e208cde2c1d022fdfacc",
+   "bytes": 2051093,
+   "clauses": 112395,
+   "variables": 32084,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016"
+   ],
+   "key": "015b30de93f087e06c738ba62ab45c8550a8543f33a1b9711bc14b042f7138e9",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 1,
+   "id": "v11p-agile-c5b8b9c1fa023362482bcc2e337e1b04",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "ee533e73d75691395c4b0603de60d8bc",
+   "family": "agile",
+   "isohash": "4634b55c30bbf0aa536066d50f4cd451",
+   "bytes": 1807660,
+   "clauses": 99597,
+   "variables": 28489,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "017f61ae1fb1c1fbc7ce70b3c7ad45ce7fe4f69fdaeadf729c97a7315d853500",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 1,
+   "id": "v11p-agile-ee533e73d75691395c4b0603de60d8bc",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "56fa66292278e0b059cf836a181bdf22",
+   "family": "agile",
+   "isohash": "96e1f366830be6c18c9fb993e75f4fe0",
+   "bytes": 2563998,
+   "clauses": 138808,
+   "variables": 38913,
+   "gbd_result": "unsat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "00fd31315bfb47b2ced001fb75e90194c758aefb55767b16cb0ae3f6ad5e1fba",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 2,
+   "id": "v11p-agile-56fa66292278e0b059cf836a181bdf22",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "abd6766dda4ccd7bd4fa39611010b306",
+   "family": "agile",
+   "isohash": "04fc3b10be15ad5e342ee41f4cf71e40",
+   "bytes": 78598383,
+   "clauses": 3566418,
+   "variables": 989055,
+   "gbd_result": "unknown",
+   "tracks": [
+    "agile_2017"
+   ],
+   "key": "00ffdab9bc8e5acebf3a36242bca4d8f4ecf11e04552bdf3463cebf707dc168e",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 2,
+   "id": "v11p-agile-abd6766dda4ccd7bd4fa39611010b306",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "2c0cd13b24cdced5eaba3f9627e6f586",
+   "family": "agile",
+   "isohash": "c7aedf106982a319f30b6f3d1cc08ccb",
+   "bytes": 9742347,
+   "clauses": 486515,
+   "variables": 136955,
+   "gbd_result": "unsat",
+   "tracks": [
+    "agile_2017"
+   ],
+   "key": "01e16feb36c6a6a7a854ab725b7b1920af7271bf4b648040127220867a8149ec",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 2,
+   "id": "v11p-agile-2c0cd13b24cdced5eaba3f9627e6f586",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "d41fdbda7482b012459eb7ee65d536b0",
+   "family": "agile",
+   "isohash": "fead22ab9798ab082ae07ea4bf768631",
+   "bytes": 7703879,
+   "clauses": 399676,
+   "variables": 113798,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2017"
+   ],
+   "key": "0230d9091edf93bb5ef46735f0f279a1a6992c45437389f6ba3e28f4995f2809",
+   "related_v11_family": null,
+   "source": "agile",
+   "size_tercile": 2,
+   "id": "v11p-agile-d41fdbda7482b012459eb7ee65d536b0",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "9a631616dac5230ba5e74d5fdeccc021",
+   "family": "cryptography",
+   "isohash": "77f234ffc815bfb846e2e98414bbf0e7",
+   "bytes": 42453,
+   "clauses": 2664,
+   "variables": 708,
+   "gbd_result": "sat",
+   "tracks": [
+    "application_2011",
+    "application_2012",
+    "application_2013",
+    "application_2014",
+    "main_2015",
+    "parallel_2015",
+    "portfolio_2012"
+   ],
+   "key": "0132bf8721f58409e2f1573581951a4162d96825b67b725bde39ff751b24ffc8",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 0,
+   "id": "v11p-application0916-9a631616dac5230ba5e74d5fdeccc021",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "6d6b5efe28f4fc13c982cd8404245950",
+   "family": "argumentation",
+   "isohash": "6a688bddff7a0d5016290f7d11c4f8b5",
+   "bytes": 2752365,
+   "clauses": 47705,
+   "variables": 800,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2014"
+   ],
+   "key": "01fb3752bcf939a94fe79c31dbea44f4ec6c4c566d9fffe1650dea278d3f3166",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 0,
+   "id": "v11p-application0916-6d6b5efe28f4fc13c982cd8404245950",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "f62f5ce0ab2763b4ca2da5de8c0a552c",
+   "family": "random-modularity",
+   "isohash": "7a8949cc8cf82061c1b16a488c994a9a",
+   "bytes": 154396,
+   "clauses": 9086,
+   "variables": 2200,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "application_2016"
+   ],
+   "key": "02fe9592c2ab3ce3034a093c1160be0deb955cbd9be6697b1f7bb2565747a559",
+   "related_v11_family": "rand3",
+   "source": "application0916",
+   "size_tercile": 0,
+   "id": "v11p-application0916-f62f5ce0ab2763b4ca2da5de8c0a552c",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "47e6da5bf3bccc600aa4b29e9e65bfaf",
+   "family": "bioinformatics",
+   "isohash": "0c4b394991b2f350d6b0e318acad3609",
+   "bytes": 2520339,
+   "clauses": 136449,
+   "variables": 27735,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2009",
+    "application_2012",
+    "portfolio_2012"
+   ],
+   "key": "047b56428adc2a44a8ec33534ac7e1ca9341d87288d41469928c73f59ffebbbe",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 0,
+   "id": "v11p-application0916-47e6da5bf3bccc600aa4b29e9e65bfaf",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "dcfdf31943b65080a2e4b8ec46a89c7d",
+   "family": "hardware-verification",
+   "isohash": "6b159c8125297ef38e77fb92fef7ff1c",
+   "bytes": 8930626,
+   "clauses": 502392,
+   "variables": 120644,
+   "gbd_result": "unknown",
+   "tracks": [
+    "anni_2022",
+    "application_2012",
+    "main_2020",
+    "portfolio_2012"
+   ],
+   "key": "014e36bccd38be30d814bf435b12f2194d3fbe849b4246fea891ebdbe80bb140",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 1,
+   "id": "v11p-application0916-dcfdf31943b65080a2e4b8ec46a89c7d",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "b78a6ca34fcaac8e12d168c3ca40afd7",
+   "family": "hardware-verification",
+   "isohash": "ff2c99e84710fb8ca29560c7ac3b2d58",
+   "bytes": 4258362,
+   "clauses": 247992,
+   "variables": 59794,
+   "gbd_result": "unknown",
+   "tracks": [
+    "application_2012"
+   ],
+   "key": "01526cb0beb2330203c2e1e8e011a12a1b75bedd908aa875e011aa2434d8d871",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 1,
+   "id": "v11p-application0916-b78a6ca34fcaac8e12d168c3ca40afd7",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "cec96be7ec1ff12260f3e3f630f7b843",
+   "family": "hardware-verification",
+   "isohash": "b66c5be033cee49d58bce9c47d15a9e0",
+   "bytes": 3472191,
+   "clauses": 194561,
+   "variables": 43850,
+   "gbd_result": "unknown",
+   "tracks": [
+    "application_2012"
+   ],
+   "key": "01ac05c99e765f50d8a814f07e22d90fc602ca3b4a145df5bf74b9cd809e7f21",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 1,
+   "id": "v11p-application0916-cec96be7ec1ff12260f3e3f630f7b843",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "f7d34470d887c8fd66afeb28ba2911d3",
+   "family": "miter",
+   "isohash": "9b9328d187b5527b5b559671b46e423e",
+   "bytes": 4069507,
+   "clauses": 241364,
+   "variables": 82007,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "application_2011",
+    "application_2012"
+   ],
+   "key": "01fe1261f91157c402c746fbd7b2d52c9014ea3b249cf1e6060c42ee10b9f9ce",
+   "related_v11_family": "factor",
+   "source": "application0916",
+   "size_tercile": 1,
+   "id": "v11p-application0916-f7d34470d887c8fd66afeb28ba2911d3",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "dc9ca6718358e922e95385a2e1112d59",
+   "family": "planning",
+   "isohash": "af1b168e4127560d90488548a203af8f",
+   "bytes": 26792217,
+   "clauses": 1596309,
+   "variables": 174800,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "application_2016"
+   ],
+   "key": "0181f38e4dea338606f571538c272f5fb5f3ac44d4103eb0533e81454ed0da8f",
+   "related_v11_family": "bwplan",
+   "source": "application0916",
+   "size_tercile": 2,
+   "id": "v11p-application0916-dc9ca6718358e922e95385a2e1112d59",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "595710a1ccc21614ed557f0feae92f73",
+   "family": "diagnosis",
+   "isohash": "2df0c07586bf39493ec1bbf499e76b78",
+   "bytes": 15516361,
+   "clauses": 832285,
+   "variables": 163388,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2009",
+    "application_2012",
+    "portfolio_2012"
+   ],
+   "key": "01bf907f1fa6e0dd30b6c7af68e9a38d638958774cc32d4e07f4f118cf587dfb",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 2,
+   "id": "v11p-application0916-595710a1ccc21614ed557f0feae92f73",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "a858db4fd8a081befea6246788912941",
+   "family": "diagnosis",
+   "isohash": "4e563c8adfa7b025c83dafd3ccef8a5a",
+   "bytes": 17405010,
+   "clauses": 943377,
+   "variables": 218990,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2011",
+    "application_2012"
+   ],
+   "key": "0501dc980d9b56b34dc9760619f34a6cc4c6dfaf8bc7bfead4ecee5fc70a809e",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 2,
+   "id": "v11p-application0916-a858db4fd8a081befea6246788912941",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "df83394c29df48df7b325f30b7e4744d",
+   "family": "diagnosis",
+   "isohash": "e56944dcc3510bc67db4c1691d18286a",
+   "bytes": 26952162,
+   "clauses": 1387934,
+   "variables": 259234,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2009",
+    "application_2011",
+    "application_2013",
+    "application_2014",
+    "main_2017"
+   ],
+   "key": "05d6021876f73b495865b51ecfc1b78f9c435eb710ebf29828a7db3a940dbb6c",
+   "related_v11_family": null,
+   "source": "application0916",
+   "size_tercile": 2,
+   "id": "v11p-application0916-df83394c29df48df7b325f30b7e4744d",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "fa6253a4cb5f8192fa03b87bac4a6d4a",
+   "family": "miter",
+   "isohash": "517c180be910a0b254048c35991f927b",
+   "bytes": 80853,
+   "clauses": 5921,
+   "variables": 2000,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2002",
+    "mus_2011"
+   ],
+   "key": "01ea4f9e07fc029d49c3efb43f69bb4fb782810bb3546b482532308003f53549",
+   "related_v11_family": "factor",
+   "source": "industrial0207",
+   "size_tercile": 0,
+   "id": "v11p-industrial0207-fa6253a4cb5f8192fa03b87bac4a6d4a",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "8d5c629fd178c8bbcff81d4f69428342",
+   "family": "hardware-verification",
+   "isohash": "65628d0f43428bb3526537b906504e02",
+   "bytes": 13355,
+   "clauses": 1002,
+   "variables": 316,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2002"
+   ],
+   "key": "02951d832c0ca1d19589f5c29fa7c15324db95581fd0d5419b72f3b1a29d6777",
+   "related_v11_family": null,
+   "source": "industrial0207",
+   "size_tercile": 0,
+   "id": "v11p-industrial0207-8d5c629fd178c8bbcff81d4f69428342",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "0a5afa615f6f27d7ec4d43d3c655a8af",
+   "family": "hardware-verification",
+   "isohash": "237ed920e0f3233b22e759b6b59088ec",
+   "bytes": 89787,
+   "clauses": 5856,
+   "variables": 1786,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2002"
+   ],
+   "key": "058be59842f22a20413d860a4f2cf08304ca4b7960ed084f476e2a1d85a123e9",
+   "related_v11_family": null,
+   "source": "industrial0207",
+   "size_tercile": 0,
+   "id": "v11p-industrial0207-0a5afa615f6f27d7ec4d43d3c655a8af",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "c209eb796aff7b3f3ddc6ee7a14fea79",
+   "family": "miter",
+   "isohash": "438827109c1cbad5ac5b50559c1dff85",
+   "bytes": 134152,
+   "clauses": 9521,
+   "variables": 3200,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2002"
+   ],
+   "key": "05e196ad0938218c9dd01a43b4f897bfac7eec47abeeb8cd8ca0382b21114f26",
+   "related_v11_family": "factor",
+   "source": "industrial0207",
+   "size_tercile": 0,
+   "id": "v11p-industrial0207-c209eb796aff7b3f3ddc6ee7a14fea79",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "aaa4e104359ceecde39da1a9389de87e",
+   "family": "misc-satex",
+   "isohash": "93fb16a90e6f7245f9000ab3c0866baf",
+   "bytes": 230308,
+   "clauses": 14812,
+   "variables": 2424,
+   "gbd_result": "unknown",
+   "tracks": [
+    "industrial_2004"
+   ],
+   "key": "0349e107ddce4cecfa408d53abe734c8bcabb1f0dd53be398fd55dd3d93dcea9",
+   "related_v11_family": null,
+   "source": "industrial0207",
+   "size_tercile": 1,
+   "id": "v11p-industrial0207-aaa4e104359ceecde39da1a9389de87e",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "6f8f8770f57cb1078836de8972d96283",
+   "family": "planning",
+   "isohash": "48ca1ff7a9a5a69b5427da1320d44d4a",
+   "bytes": 374373,
+   "clauses": 25949,
+   "variables": 981,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2005"
+   ],
+   "key": "03c9a1847aeb458579d1d5b4a2c0f97ada197e7fa8c3a3641a9a05d9887a7072",
+   "related_v11_family": "bwplan",
+   "source": "industrial0207",
+   "size_tercile": 1,
+   "id": "v11p-industrial0207-6f8f8770f57cb1078836de8972d96283",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "e51b15054804917caf392e5253ae1622",
+   "family": "termination-analysis",
+   "isohash": "39eaef8beddb7775606243047948055d",
+   "bytes": 905139,
+   "clauses": 54263,
+   "variables": 15589,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2007"
+   ],
+   "key": "06c52dec2ac234207dd30ff82d13bf8f977d46edaa7e8e9b94899d863ff03a45",
+   "related_v11_family": null,
+   "source": "industrial0207",
+   "size_tercile": 1,
+   "id": "v11p-industrial0207-e51b15054804917caf392e5253ae1622",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "6e789d6b080067f2ecf0b167b77fb80d",
+   "family": "miter",
+   "isohash": "bfea73afd40e52c6760747384e61eef3",
+   "bytes": 312167,
+   "clauses": 21481,
+   "variables": 7200,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2002"
+   ],
+   "key": "071c57b14b0cfe2f9f6a3436bf81459d13365e005b9d2e4b367c5910823bbd0e",
+   "related_v11_family": "factor",
+   "source": "industrial0207",
+   "size_tercile": 1,
+   "id": "v11p-industrial0207-6e789d6b080067f2ecf0b167b77fb80d",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "1b3dc499f2d33d5b2caefdf0f7f5b092",
+   "family": "coloring",
+   "isohash": "2363f1555d32edd92cc131cc31cc1fa1",
+   "bytes": 8942527,
+   "clauses": 469472,
+   "variables": 117426,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2004"
+   ],
+   "key": "02f6156d0d587aea75284f0cb692954b5ae035c8c5b1d1b8506f6c8b32407395",
+   "related_v11_family": "col3",
+   "source": "industrial0207",
+   "size_tercile": 2,
+   "id": "v11p-industrial0207-1b3dc499f2d33d5b2caefdf0f7f5b092",
+   "unseen_in_v11_training": false
+  },
+  {
+   "hash": "26154b6c152d6e98d6bcd7a860d9b0fa",
+   "family": "hardware-verification",
+   "isohash": "417cecacc9cb717cec13dc398b2ebe18",
+   "bytes": 7681500,
+   "clauses": 425316,
+   "variables": 120367,
+   "gbd_result": "sat",
+   "tracks": [
+    "industrial_2004"
+   ],
+   "key": "03d3d5ad2c3ca1005a27d88c0260b32e3b25d4f6f7fbd7ddb1d3cf66d3835d53",
+   "related_v11_family": null,
+   "source": "industrial0207",
+   "size_tercile": 2,
+   "id": "v11p-industrial0207-26154b6c152d6e98d6bcd7a860d9b0fa",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "32a6ada84634400021d4512724517386",
+   "family": "hardware-bmc",
+   "isohash": "416657ed376afff7f95137f276f8db90",
+   "bytes": 15591240,
+   "clauses": 773077,
+   "variables": 261352,
+   "gbd_result": "unknown",
+   "tracks": [
+    "anni_2022",
+    "industrial_2004"
+   ],
+   "key": "05e260042f450f9419dfe04cef66c1f8f0cd6b78e2afc874fac568d0f04eb626",
+   "related_v11_family": null,
+   "source": "industrial0207",
+   "size_tercile": 2,
+   "id": "v11p-industrial0207-32a6ada84634400021d4512724517386",
+   "unseen_in_v11_training": true
+  },
+  {
+   "hash": "b418ff1175e0b727ac09053fdec0f7a2",
+   "family": "software-verification",
+   "isohash": "f3d42eda042cc4caddd603426b5908bc",
+   "bytes": 9967275,
+   "clauses": 509032,
+   "variables": 179181,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2007"
+   ],
+   "key": "05eae50183a603dbf72a75f8f34d077eed92a728269d87436487ae54ef8c4062",
+   "related_v11_family": null,
+   "source": "industrial0207",
+   "size_tercile": 2,
+   "id": "v11p-industrial0207-b418ff1175e0b727ac09053fdec0f7a2",
+   "unseen_in_v11_training": true
+  }
+ ]
+}

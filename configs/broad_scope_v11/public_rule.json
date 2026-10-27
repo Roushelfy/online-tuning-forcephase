@@ -109,5 +109,6 @@
    "latin"
   ]
  },
- "related_rule": "A public instance whose GBD family name contains one of these words is 'related' to that v11 generated family (reported as seen-source / related family, not as an unseen family). All other families are unseen in v11 discovery and training (v11 trains on generated families only); their prior exposure in v1-v10 (other instances of the same GBD family run in earlier rounds) is reported separately."
+ "related_rule": "A public instance whose GBD family name contains one of these words is 'related' to that v11 generated family (reported as seen-source / related family, not as an unseen family). All other families are unseen in v11 discovery and training (v11 trains on generated families only); their prior exposure in v1-v10 (other instances of the same GBD family run in earlier rounds) is reported separately.",
+ "shortfall_fill_deviation6": "If a source is short after the tercile rule, the remaining quota is taken from the same source's (adjusted) pool in fixed hash order regardless of tercile, respecting the family cap; if still short, the source's family cap is raised by one at a time until the quota is met or the pool is exhausted (protocol section 12, item 6). No outcome information is used."
 }

@@ -192,8 +192,26 @@ def select(pilot_stage):
                 iso_seen.add(r["isohash"])
                 got.append(dict(r, source=name, size_tercile=t))
                 k += 1
+        fill = []
+        if len(got) < RULE["quota_per_source"]:  # deviation 6: fill within the same source
+            taken_h = {r["hash"] for r in got}
+            rest = sorted((r for r in rows if r["hash"] not in taken_h), key=lambda r: r["key"])
+            cap2 = cap
+            while len(got) < RULE["quota_per_source"] and cap2 <= RULE["quota_per_source"]:
+                for r in rest:
+                    if len(got) >= RULE["quota_per_source"]:
+                        break
+                    if r["hash"] in taken_h or fam_n[r["family"]] >= cap2 or r["isohash"] in iso_seen:
+                        continue
+                    fam_n[r["family"]] += 1
+                    iso_seen.add(r["isohash"])
+                    taken_h.add(r["hash"])
+                    t = 0 if r in terc[0] else (1 if r in terc[1] else 2)
+                    got.append(dict(r, source=name, size_tercile=t, fill_cap=cap2))
+                    fill.append(r["hash"])
+                cap2 += 1
         picks += got
-        report[name] = {"pilot_outcomes": po, "adjustment": adj, "family_cap": cap, "pool_after_adjustment": n, "picked": len(got),
+        report[name] = {"filled_deviation6": len(fill), "pilot_outcomes": po, "adjustment": adj, "family_cap": cap, "pool_after_adjustment": n, "picked": len(got),
                         "short_by": RULE["quota_per_source"] - len(got)}
     for r in picks:
         r["id"] = "v11p-" + r["source"] + "-" + r["hash"]
