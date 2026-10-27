@@ -1,0 +1,1076 @@
+{
+ "instances": [
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-80-budget_frac0.54-s9000",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 80
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-80-budget_frac0.54-s9001",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 80
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-120-budget_frac0.54-s9000",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 120
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-120-budget_frac0.54-s9001",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 120
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-180-budget_frac0.54-s9000",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 180
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-180-budget_frac0.54-s9001",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 180
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-260-budget_frac0.54-s9000",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 260
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-260-budget_frac0.54-s9001",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 260
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-80-budget_frac0.56-s9000",
+   "params": {
+    "budget_frac": 0.56
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 80
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-80-budget_frac0.56-s9001",
+   "params": {
+    "budget_frac": 0.56
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 80
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-120-budget_frac0.56-s9000",
+   "params": {
+    "budget_frac": 0.56
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 120
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-120-budget_frac0.56-s9001",
+   "params": {
+    "budget_frac": 0.56
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 120
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-180-budget_frac0.56-s9000",
+   "params": {
+    "budget_frac": 0.56
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 180
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-180-budget_frac0.56-s9001",
+   "params": {
+    "budget_frac": 0.56
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 180
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-260-budget_frac0.56-s9000",
+   "params": {
+    "budget_frac": 0.56
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 260
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-260-budget_frac0.56-s9001",
+   "params": {
+    "budget_frac": 0.56
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 260
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-80-budget_frac0.58-s9000",
+   "params": {
+    "budget_frac": 0.58
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 80
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-80-budget_frac0.58-s9001",
+   "params": {
+    "budget_frac": 0.58
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 80
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-120-budget_frac0.58-s9000",
+   "params": {
+    "budget_frac": 0.58
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 120
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-120-budget_frac0.58-s9001",
+   "params": {
+    "budget_frac": 0.58
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 120
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-180-budget_frac0.58-s9000",
+   "params": {
+    "budget_frac": 0.58
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 180
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-180-budget_frac0.58-s9001",
+   "params": {
+    "budget_frac": 0.58
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 180
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-260-budget_frac0.58-s9000",
+   "params": {
+    "budget_frac": 0.58
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 260
+  },
+  {
+   "family": "vcover",
+   "id": "v11x-vcover-260-budget_frac0.58-s9001",
+   "params": {
+    "budget_frac": 0.58
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 260
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-6-beta1.0-s9000",
+   "params": {
+    "beta": 1.0
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 6
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-6-beta1.0-s9001",
+   "params": {
+    "beta": 1.0
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 6
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-8-beta1.0-s9000",
+   "params": {
+    "beta": 1.0
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 8
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-8-beta1.0-s9001",
+   "params": {
+    "beta": 1.0
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 8
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-10-beta1.0-s9000",
+   "params": {
+    "beta": 1.0
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 10
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-10-beta1.0-s9001",
+   "params": {
+    "beta": 1.0
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 10
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-12-beta1.0-s9000",
+   "params": {
+    "beta": 1.0
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 12
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-12-beta1.0-s9001",
+   "params": {
+    "beta": 1.0
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 12
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-6-beta1.1-s9000",
+   "params": {
+    "beta": 1.1
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 6
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-6-beta1.1-s9001",
+   "params": {
+    "beta": 1.1
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 6
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-8-beta1.1-s9000",
+   "params": {
+    "beta": 1.1
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 8
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-8-beta1.1-s9001",
+   "params": {
+    "beta": 1.1
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 8
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-10-beta1.1-s9000",
+   "params": {
+    "beta": 1.1
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 10
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-10-beta1.1-s9001",
+   "params": {
+    "beta": 1.1
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 10
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-12-beta1.1-s9000",
+   "params": {
+    "beta": 1.1
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 12
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-12-beta1.1-s9001",
+   "params": {
+    "beta": 1.1
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 12
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-6-beta1.2-s9000",
+   "params": {
+    "beta": 1.2
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 6
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-6-beta1.2-s9001",
+   "params": {
+    "beta": 1.2
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 6
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-8-beta1.2-s9000",
+   "params": {
+    "beta": 1.2
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 8
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-8-beta1.2-s9001",
+   "params": {
+    "beta": 1.2
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 8
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-10-beta1.2-s9000",
+   "params": {
+    "beta": 1.2
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 10
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-10-beta1.2-s9001",
+   "params": {
+    "beta": 1.2
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 10
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-12-beta1.2-s9000",
+   "params": {
+    "beta": 1.2
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 12
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-12-beta1.2-s9001",
+   "params": {
+    "beta": 1.2
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 12
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-10-gamma1.0-s9000",
+   "params": {
+    "gamma": 1.0
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 10
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-10-gamma1.0-s9001",
+   "params": {
+    "gamma": 1.0
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 10
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-14-gamma1.0-s9000",
+   "params": {
+    "gamma": 1.0
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 14
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-14-gamma1.0-s9001",
+   "params": {
+    "gamma": 1.0
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 14
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-18-gamma1.0-s9000",
+   "params": {
+    "gamma": 1.0
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 18
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-18-gamma1.0-s9001",
+   "params": {
+    "gamma": 1.0
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 18
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-22-gamma1.0-s9000",
+   "params": {
+    "gamma": 1.0
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 22
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-22-gamma1.0-s9001",
+   "params": {
+    "gamma": 1.0
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 22
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-10-gamma1.25-s9000",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 10
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-10-gamma1.25-s9001",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 10
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-14-gamma1.25-s9000",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 14
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-14-gamma1.25-s9001",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 14
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-18-gamma1.25-s9000",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 18
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-18-gamma1.25-s9001",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 18
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-22-gamma1.25-s9000",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 22
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-22-gamma1.25-s9001",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 22
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-10-gamma1.5-s9000",
+   "params": {
+    "gamma": 1.5
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 10
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-10-gamma1.5-s9001",
+   "params": {
+    "gamma": 1.5
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 10
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-14-gamma1.5-s9000",
+   "params": {
+    "gamma": 1.5
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 14
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-14-gamma1.5-s9001",
+   "params": {
+    "gamma": 1.5
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 14
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-18-gamma1.5-s9000",
+   "params": {
+    "gamma": 1.5
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 18
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-18-gamma1.5-s9001",
+   "params": {
+    "gamma": 1.5
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 18
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-22-gamma1.5-s9000",
+   "params": {
+    "gamma": 1.5
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 22
+  },
+  {
+   "family": "bwplan",
+   "id": "v11x-bwplan-22-gamma1.5-s9001",
+   "params": {
+    "gamma": 1.5
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 22
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-14-s9000",
+   "role": "explore",
+   "seed": 9000,
+   "size": 14
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-14-s9001",
+   "role": "explore",
+   "seed": 9001,
+   "size": 14
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-14-s9002",
+   "role": "explore",
+   "seed": 9002,
+   "size": 14
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-14-s9003",
+   "role": "explore",
+   "seed": 9003,
+   "size": 14
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-18-s9000",
+   "role": "explore",
+   "seed": 9000,
+   "size": 18
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-18-s9001",
+   "role": "explore",
+   "seed": 9001,
+   "size": 18
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-18-s9002",
+   "role": "explore",
+   "seed": 9002,
+   "size": 18
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-18-s9003",
+   "role": "explore",
+   "seed": 9003,
+   "size": 18
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-22-s9000",
+   "role": "explore",
+   "seed": 9000,
+   "size": 22
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-22-s9001",
+   "role": "explore",
+   "seed": 9001,
+   "size": 22
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-22-s9002",
+   "role": "explore",
+   "seed": 9002,
+   "size": 22
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-22-s9003",
+   "role": "explore",
+   "seed": 9003,
+   "size": 22
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-26-s9000",
+   "role": "explore",
+   "seed": 9000,
+   "size": 26
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-26-s9001",
+   "role": "explore",
+   "seed": 9001,
+   "size": 26
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-26-s9002",
+   "role": "explore",
+   "seed": 9002,
+   "size": 26
+  },
+  {
+   "family": "factor",
+   "id": "v11x-factor-26-s9003",
+   "role": "explore",
+   "seed": 9003,
+   "size": 26
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-20-preassign_frac0.38-s9000",
+   "params": {
+    "preassign_frac": 0.38
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 20
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-20-preassign_frac0.38-s9001",
+   "params": {
+    "preassign_frac": 0.38
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 20
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-26-preassign_frac0.38-s9000",
+   "params": {
+    "preassign_frac": 0.38
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 26
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-26-preassign_frac0.38-s9001",
+   "params": {
+    "preassign_frac": 0.38
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 26
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-32-preassign_frac0.38-s9000",
+   "params": {
+    "preassign_frac": 0.38
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 32
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-32-preassign_frac0.38-s9001",
+   "params": {
+    "preassign_frac": 0.38
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 32
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-38-preassign_frac0.38-s9000",
+   "params": {
+    "preassign_frac": 0.38
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 38
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-38-preassign_frac0.38-s9001",
+   "params": {
+    "preassign_frac": 0.38
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 38
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-20-preassign_frac0.42-s9000",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 20
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-20-preassign_frac0.42-s9001",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 20
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-26-preassign_frac0.42-s9000",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 26
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-26-preassign_frac0.42-s9001",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 26
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-32-preassign_frac0.42-s9000",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 32
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-32-preassign_frac0.42-s9001",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 32
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-38-preassign_frac0.42-s9000",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 38
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-38-preassign_frac0.42-s9001",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 38
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-20-preassign_frac0.46-s9000",
+   "params": {
+    "preassign_frac": 0.46
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 20
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-20-preassign_frac0.46-s9001",
+   "params": {
+    "preassign_frac": 0.46
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 20
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-26-preassign_frac0.46-s9000",
+   "params": {
+    "preassign_frac": 0.46
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 26
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-26-preassign_frac0.46-s9001",
+   "params": {
+    "preassign_frac": 0.46
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 26
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-32-preassign_frac0.46-s9000",
+   "params": {
+    "preassign_frac": 0.46
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 32
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-32-preassign_frac0.46-s9001",
+   "params": {
+    "preassign_frac": 0.46
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 32
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-38-preassign_frac0.46-s9000",
+   "params": {
+    "preassign_frac": 0.46
+   },
+   "role": "explore",
+   "seed": 9000,
+   "size": 38
+  },
+  {
+   "family": "qcp",
+   "id": "v11x-qcp-38-preassign_frac0.46-s9001",
+   "params": {
+    "preassign_frac": 0.46
+   },
+   "role": "explore",
+   "seed": 9001,
+   "size": 38
+  }
+ ]
+}

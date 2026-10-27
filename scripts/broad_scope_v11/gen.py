@@ -121,19 +121,28 @@ def versions():
 
 
 def dedupe(rows):
-    seen = {}
+    """Equal SHA-256 or clause-set hash -> duplicate (error). Equal renaming-invariant hash is only a necessary
+    condition for isomorphism: if both rows carry a problem description and the descriptions differ (e.g. two
+    factoring circuits for different N with the same output-bit pattern counts), the pair is recorded as an
+    invariant collision of distinct problems; otherwise it is a duplicate (error)."""
+    seen, coll = {}, []
     for r in rows:
         for k in ("sha256", "canonical_sha256", "invariant_sha256"):
             if r[k] in seen.setdefault(k, {}):
-                raise SystemExit(f"duplicate {k}: {r['id']} and {seen[k][r[k]]}")
-            seen[k][r[k]] = r["id"]
+                o = seen[k][r[k]]
+                if k == "invariant_sha256" and r.get("semantic") and o.get("semantic") and r["semantic"] != o["semantic"]:
+                    coll.append([o["id"], r["id"]])
+                    continue
+                raise SystemExit(f"duplicate {k}: {r['id']} and {o['id']}")
+            seen[k][r[k]] = r
+    return coll
 
 
 def generate(plan_path, man_path):
     plan = json.load(open(plan_path))
     rows = [make(i) for i in plan["instances"]]
-    dedupe(rows)
-    out = {"generator_versions": versions(), "generators_v9": {k: G.GEN[k] for k in ("rand3", "col3", "assign2")},
+    coll = dedupe(rows)
+    out = {"generator_versions": versions(), "invariant_collisions_distinct_problems": coll, "generators_v9": {k: G.GEN[k] for k in ("rand3", "col3", "assign2")},
            "generators_v11": GEN11, "plan": os.path.relpath(os.path.abspath(plan_path), ROOT), "instances": rows,
            "gen_cpu_total": sum(r["gen_cpu"] for r in rows)}
     os.makedirs(os.path.dirname(os.path.abspath(man_path)), exist_ok=True)
