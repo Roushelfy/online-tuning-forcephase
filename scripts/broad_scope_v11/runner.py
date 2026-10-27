@@ -18,7 +18,8 @@ Job spec: {instance, sha256, method, rep, seed (solver seed, default 0), [cnf], 
 Answers are verified at once (checkmodel / lrat-trim); proofs under /var/tmp, deleted afterwards.
 Platform guard (not a CPU limit): if the proof disk has < V11_DISK_MIN_GB free, the running job with the
 largest proof is stopped -> status 'censored', stop_reason 'platform_disk'.
-Records: $FP_DATA/runs/broad_scope_v11/<stage>/<id>.json (existing records are skipped). Raw outputs are kept
+Records: $FP_DATA/runs/broad_scope_v11/<stage>/<id>.json (existing records are skipped; with V11_MULTI several
+runners share a stage through atomic claim files and write run<slurm job>.progress.json). Raw outputs are kept
 gzipped; model lines ('v ...') only for jobs with keep_model (generated instances; semantic check).
 """
 
@@ -282,6 +283,23 @@ def finalize(job, stage_dir):
     return rec
 
 
+def claim(stage_dir, job):
+    """Several runners may share one stage (V11_MULTI): a job runs only if it has no record and this runner
+    creates its claim file atomically (O_EXCL). Claims of jobs that end without a record (platform loss) stay and
+    are cleared by hand before a re-run."""
+    if os.path.exists(os.path.join(stage_dir, job.id + ".json")):
+        return False
+    d = os.path.join(stage_dir, "claims")
+    os.makedirs(d, exist_ok=True)
+    try:
+        fd = os.open(os.path.join(d, job.id), os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o640)
+    except FileExistsError:
+        return False
+    os.write(fd, f"{socket.gethostname()} {os.environ.get('SLURM_JOB_ID')} {time.time()}\n".encode())
+    os.close(fd)
+    return True
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--plan", required=True)
@@ -332,6 +350,8 @@ def main():
         spent = prior + sum(j.cpu for j in jobs if j.started)
         while queue and free:
             j = queue.pop(0)
+            if not claim(stage_dir, j):  # done or claimed by another runner of the same stage
+                continue
             j.launch(free.pop(0))
             running.append(j)
         if time.time() - last_hb > 60 or not (running or queue):
@@ -342,7 +362,8 @@ def main():
                 print(f"[runner] platform guard: {free_gb:.0f} GB free; stopping {victim.spec['instance']} "
                       f"{victim.spec['method']}", flush=True)
                 victim.term("platform_disk")
-            replace_json(os.path.join(stage_dir, "progress.json"),
+            prog = f"run{os.environ.get('SLURM_JOB_ID')}.progress.json" if os.environ.get("V11_MULTI") else "progress.json"
+            replace_json(os.path.join(stage_dir, prog),
                          {"utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "host": socket.gethostname(),
                           "slurm_job": os.environ.get("SLURM_JOB_ID"), "spent_cpu_hours": spent / 3600,
                           "resource_policy_id": policy["policy_id"], "finished": finished, "running": len(running),

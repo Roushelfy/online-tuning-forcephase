@@ -23,7 +23,7 @@ source /mnt/data/shared/config/env.sh
 export GENESIS_IMAGE_VER="${GENESIS_IMAGE_VER:-1_26}"
 echo "v11 $V11_STAGE on $(hostname) at $(date -u)"; df -h /mnt/data | tail -1
 gs-srun --ntasks=1 --cpus-per-task="${SLURM_CPUS_PER_TASK:-$SLURM_CPUS_ON_NODE}" bash -c "
-  set -e; cd '$V11_ROOT'; export FP_DATA='$FP_DATA'
+  set -e; cd '$V11_ROOT'; export FP_DATA='$FP_DATA' V11_MULTI='${V11_MULTI:-}'
   if [ -n '$V11_GENARGS' ]; then
     /mnt/data/zhaofeng/venvs/online-tuning-forcephase-v8gen/bin/python scripts/broad_scope_v11/gen.py $V11_GENARGS
   fi

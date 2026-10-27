@@ -39,12 +39,14 @@ def main():
             if s == "error" and run_timeout_policy.is_timeout(r["cpu"], r["key"], r.get("exit_code")):
                 s = "policy_timeout*"  # SIGXCPU at the cap stored as 'error'
             st[s] += 1
-        prog = os.path.join(d, "progress.json")
-        pj = json.load(open(prog)) if os.path.exists(prog) else {}
-        live = sum(j["cpu"] for j in pj.get("jobs", [])) if pj.get("running") else 0.0
-        job = str(pj.get("slurm_job") or "")
-        alive = bool(job) and bool(subprocess.run(["squeue", "-h", "-j", job], capture_output=True, text=True).stdout.strip())
-        rows.append((os.path.basename(d), n, cpu, chk, dict(st), live if alive else 0.0, 0.0 if alive else live))
+        live = lost = 0.0
+        for prog in glob.glob(os.path.join(d, "*progress.json")):
+            pj = json.load(open(prog))
+            run = sum(j["cpu"] for j in pj.get("jobs", [])) if pj.get("running") else 0.0
+            job = str(pj.get("slurm_job") or "")
+            alive = bool(job) and bool(subprocess.run(["squeue", "-h", "-j", job], capture_output=True, text=True).stdout.strip())
+            live, lost = live + (run if alive else 0.0), lost + (0.0 if alive else run)
+        rows.append((os.path.basename(d), n, cpu, chk, dict(st), live, lost))
     gen = 0.0
     for m in ("explore_manifest.json", "explore_r2_manifest.json", "explore_r3_manifest.json", "explore_r4_manifest.json",
               "pilot_manifest.json", "formal_manifest.json", "variants_manifest.json"):
