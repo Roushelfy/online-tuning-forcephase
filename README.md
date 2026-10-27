@@ -6,6 +6,8 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **当前资源政策：每题每方法3600 CPU秒，项目与阶段累计核时不限。**在线方法的观察、重启与正式求解合计计时；超时不冒充完成时间。见 [RESOURCE_POLICY.md](docs/RESOURCE_POLICY.md)、[run_timeout_policy.json](configs/run_timeout_policy.json)。
 
+**当前目标：[Agent Goal v11：扩大题目范围与结构识别](docs/AGENT_GOAL.md)**（2026-10-27，目标已设定，尚未开始）。至少八类问题，新增基数/伪布尔、调度、规划、电路及组合结构；先做广泛D/F+/F−基线，再比较简单CNF结构路由与在线模型。增加编码/变号控制、新独立确认及未见公开家族验证。单次3600 CPU秒、累计核时不限。v10目标存档：[AGENT_GOAL_CROSS_SCALE_V10.md](docs/AGENT_GOAL_CROSS_SCALE_V10.md)。
+
 **Agent Goal v10（跨规模的低成本三选一）：已交付，[reports/cross_scale_v10/FINAL_REPORT.md](reports/cross_scale_v10/FINAL_REPORT.md)。**
 
 - **面板**：随机 3-SAT、图三着色、耦合分配，开发三档加一个外推档；开发 270、确认 270（H1 / H2 / H3）、外推 90，SATLIB 16 个家族 118 题；单次 3600 CPU s。
@@ -19,7 +21,7 @@ Research question: **Can cheap formula analysis or a short search probe select o
 - **外推 90 题**：主策略与 F+ 都是 90 / 90，相对 F+ +10.7% [−3.3, +25.0]。
 - **外部 118 题**：D 最好（114 解），主策略 113。
 
-协议：[CROSS_SCALE_PROTOCOL_V10.md](docs/CROSS_SCALE_PROTOCOL_V10.md)；目标：[AGENT_GOAL.md](docs/AGENT_GOAL.md)。v9 目标已存档：[AGENT_GOAL_ONLINE_SELECTION_V9.md](docs/AGENT_GOAL_ONLINE_SELECTION_V9.md)。
+协议：[CROSS_SCALE_PROTOCOL_V10.md](docs/CROSS_SCALE_PROTOCOL_V10.md)；历史目标：[AGENT_GOAL_CROSS_SCALE_V10.md](docs/AGENT_GOAL_CROSS_SCALE_V10.md)。v9 目标已存档：[AGENT_GOAL_ONLINE_SELECTION_V9.md](docs/AGENT_GOAL_ONLINE_SELECTION_V9.md)。
 
 **Agent Goal v9（默认短预求解后的三选一）：已交付，[reports/online_selection_v9/FINAL_REPORT.md](reports/online_selection_v9/FINAL_REPORT.md)。**新生成 270 开发 + 270 留出（H1/H2/H3）题：随机3-SAT、图3着色、新的双边容量耦合分配，各三档规模，全部运行完成并独立验证。按预注册规则，开发集嵌套交叉验证中时间门（D先τ秒再F±）与内容门都没有胜过固定 F+，主策略为开发集 SBS＝始终 F+：留出 31.36 s 对 D 57.91 s，**+45.8% [+30.4, +54.6]**；参照“D 2 s → F+”为 +49.7% [+39.8, +55.8]，但相对 F+ 仅 +7.2% [−2.1, +20.7]（来自两道随机 SAT 大题，不可靠）。单因素消融：UNSAT 上 forcephase 的优势来自强制固定方向、跳过 saved/target 相位，而非关闭 rephase（纠正 v8 措辞）。F+ 的收益不外推：更大着色仍 +31–64%，更大分配题 −118%/−336%，更大随机题 −103%/+42%（外推 90 题整体 −44%）；SATLIB 小题上无收益。原55题：恢复运行解出此前无人解出的 c7bf3517f4（UNSAT），oracle 51/55，D 与冻结选择器 49/55（均值 null）。2026-10-25 起采用每题每方法 3600 CPU 秒单次超时（累计不限）：剩余约 85,000 s 的 13 个运行已停止（policy_timeout），控制器已接入并测试，v9 留出 270 题无一超过 3600 s、主比较不变；3600 s 视图见 [TIMEOUT_3600.md](reports/online_selection_v9/TIMEOUT_3600.md)。协议：[ONLINE_SELECTION_PROTOCOL_V9.md](docs/ONLINE_SELECTION_PROTOCOL_V9.md)；算力只计量（[COMPUTE.md](results/online_selection_v9/COMPUTE.md)）。v8 目标存档：[AGENT_GOAL_STRATIFIED_V8.md](docs/AGENT_GOAL_STRATIFIED_V8.md)。
 

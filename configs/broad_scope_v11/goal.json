@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "goal_version": 11,
+  "status": "planned_not_started",
+  "date": "2026-10-27",
+  "goal_document": "docs/AGENT_GOAL.md",
+  "resource_policy": "configs/run_timeout_policy.json",
+  "per_method_cpu_seconds": 3600,
+  "project_cpu_hours_cap": null,
+  "stage_cpu_hours_cap": null,
+  "semantic_families_minimum": 8,
+  "new_families_minimum": 5,
+  "panels": {
+    "pilot": 96,
+    "discovery": 288,
+    "development": 240,
+    "confirmation": 240,
+    "confirmation_blocks": [
+      80,
+      80,
+      80
+    ],
+    "public_external_minimum": 120,
+    "competition_target": 60,
+    "unseen_public_families_minimum": 4
+  },
+  "encoding_diagnostic_base_instances": 48,
+  "alternative_encoding_families_minimum": 3,
+  "priority": "broad three-mode baselines before model development",
+  "required_comparator": "CNF-derived simple structural routing",
+  "incomplete_means": null,
+  "par2_primary": false,
+  "heldout_tuning": false
+}
