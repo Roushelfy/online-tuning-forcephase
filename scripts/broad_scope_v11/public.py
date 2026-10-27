@@ -251,9 +251,41 @@ def fetch(which):
     print(len(out), "files")
 
 
+def hashaudit(which):
+    """Renaming-invariant / clause-set hashes of the downloaded public files compared with every generated and
+    SATLIB instance of v8-v11 (protocol 5)."""
+    sys.path.insert(0, os.path.join(ROOT, "scripts", "online_selection_v9"))
+    import generate as G
+    seen = {}
+    for mp in sorted(glob.glob(os.path.join(ROOT, "results", "*", "*manifest.json"))):
+        if os.path.basename(mp).startswith("public_"):
+            continue
+        try:
+            rows = json.load(open(mp)).get("instances", [])
+        except (ValueError, AttributeError):
+            continue
+        for r in rows if isinstance(rows, list) else []:
+            for k in ("canonical_sha256", "invariant_sha256"):
+                if isinstance(r, dict) and r.get(k):
+                    seen[(k, r[k])] = os.path.relpath(mp, ROOT) + ":" + str(r.get("id"))
+    man_p = os.path.join(RES, f"public_{which}_manifest.json")
+    man = json.load(open(man_p))
+    hits = []
+    for r in man["instances"]:
+        nv, cl = G.parse_dimacs(open(os.path.join(DATA, r["path"]), encoding="latin-1").read())
+        r["canonical_sha256"], r["invariant_sha256"] = G.canonical_hash(cl), G.invariant_hash(nv, cl)
+        r["vars"], r["clauses_parsed"] = nv, len(cl)
+        for k in ("canonical_sha256", "invariant_sha256"):
+            if (k, r[k]) in seen:
+                hits.append({"id": r["id"], "key": k, "earlier": seen[(k, r[k])]})
+    man["hash_audit"] = {"compared_hashes": len(seen), "collisions": hits}
+    json.dump(man, open(man_p, "w"), indent=1)
+    print(len(man["instances"]), "files;", len(hits), "collisions with generated / SATLIB instances")
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["audit", "pilot", "select", "fetch"])
+    ap.add_argument("cmd", choices=["audit", "pilot", "select", "fetch", "hashaudit"])
     ap.add_argument("--pilot-stage")
     ap.add_argument("--which", default="formal")
     a = ap.parse_args()
@@ -263,6 +295,8 @@ def main():
         pilot()
     elif a.cmd == "select":
         select(a.pilot_stage)
+    elif a.cmd == "hashaudit":
+        hashaudit(a.which)
     else:
         fetch(a.which)
 

@@ -279,6 +279,40 @@ def variants_gen():
     print(len(base), "base,", len(var), "variants,", len(seeds), "seed-repeat base")
 
 
+def dedupe_audit():
+    """Hash collisions of the v11 formal + variant instances with every earlier generated / SATLIB manifest
+    (v8, v9, v10) and among themselves (protocol 3.6). Invariant-hash collisions between distinct v11 problems are
+    listed separately (protocol section 12, item 1)."""
+    old = {}
+    for mp in sorted(glob.glob(os.path.join(ROOT, "results", "*", "*manifest.json"))):
+        if "broad_scope_v11" in mp:
+            continue
+        try:
+            rows = load(mp).get("instances", [])
+        except (ValueError, AttributeError):
+            continue
+        for r in rows if isinstance(rows, list) else []:
+            for k in ("sha256", "canonical_sha256", "invariant_sha256"):
+                if isinstance(r, dict) and r.get(k):
+                    old[(k, r[k])] = os.path.relpath(mp, ROOT) + ":" + str(r.get("id"))
+    new = load(os.path.join(RES, "formal_manifest.json"))["instances"]
+    hits, seen, inv = [], {}, []
+    for r in new:
+        for k in ("sha256", "canonical_sha256", "invariant_sha256"):
+            if (k, r[k]) in old:
+                hits.append({"id": r["id"], "key": k, "earlier": old[(k, r[k])]})
+            if (k, r[k]) in seen:
+                if k == "invariant_sha256" and r.get("semantic") and seen[(k, r[k])].get("semantic") != r["semantic"]:
+                    inv.append([seen[(k, r[k])]["id"], r["id"]])
+                else:
+                    hits.append({"id": r["id"], "key": k, "earlier": "v11:" + seen[(k, r[k])]["id"]})
+            seen[(k, r[k])] = r
+    out = {"earlier_manifests_hashes": len(old), "v11_instances": len(new), "collisions": hits,
+           "invariant_collisions_distinct_problems": len(inv), "examples": inv[:10]}
+    dump(os.path.join(RES, "dedupe_audit.json"), out)
+    print("dedupe:", len(hits), "collisions;", len(inv), "invariant collisions of distinct problems")
+
+
 # ------------------------------------------------------------------ generic run plan
 
 def plan(manifests, stage, methods, measure, seeds, ids_from, roles, wrapper_strats):
@@ -344,6 +378,8 @@ def main():
         formal_gen()
     elif a.cmd == "variants-gen":
         variants_gen()
+    elif a.cmd == "dedupe-audit":
+        dedupe_audit()
     elif a.cmd == "plan":
         strats = []
         for s in a.strategy:
