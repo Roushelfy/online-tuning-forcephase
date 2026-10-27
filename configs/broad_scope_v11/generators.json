@@ -50,13 +50,13 @@
  "jssp": {
   "params": {
    "dmax": 9,
-   "beta": 1.1
+   "beta": 1.45
   },
   "grid": {
    "beta": [
-    1.0,
-    1.1,
-    1.2
+    1.3,
+    1.45,
+    1.6
    ]
   },
   "size_grid": [
@@ -72,7 +72,15 @@
    14,
    15,
    16
-  ]
+  ],
+  "grid_registered_s0": {
+   "beta": [
+    1.0,
+    1.1,
+    1.2
+   ]
+  },
+  "grid_note": "deviation 2 (protocol section 12): every registered beta gave propagation-trivial UNSAT instances in the exploration (all 48 runs <= 0.1 s, 47 UNSAT); the grid was replaced by {1.3, 1.45, 1.6} before the pilot, on D cost / search coverage only"
  },
  "bwplan": {
   "params": {
