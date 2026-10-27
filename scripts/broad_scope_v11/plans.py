@@ -109,10 +109,10 @@ def pick_sizes(fam, a, b, targets):
 
 def explore_decide():
     targets = PANEL["targets_median_D_cpu"]
-    mans = [p for p in (os.path.join(RES, f"explore{s}_manifest.json") for s in ("", "_r2", "_r3"))
+    mans = [p for p in (os.path.join(RES, f"explore{s}_manifest.json") for s in ("", "_r2", "_r3", "_r4"))
             if os.path.exists(p)]
     rows = {r["id"]: r for m in mans for r in load(m)["instances"]}
-    recs = [r for st in ("explore", "explore_r2", "explore_r3") for r in records(st)]
+    recs = [r for st in ("explore", "explore_r2", "explore_r3", "explore_r4") for r in records(st)]
     out = {"targets": targets, "families": {}, "rule": "protocol 3.4"}
     for fam in NEW:
         pts = []

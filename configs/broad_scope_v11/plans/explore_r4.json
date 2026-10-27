@@ -1,0 +1,131 @@
+{
+ "jobs": [
+  {
+   "instance": "v11x-jssp-18-rho0.85-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "6a36cead2d64d8e1d653ce24a0caffe8f810b8ac0efeaf80b0a5d133164d107f"
+  },
+  {
+   "instance": "v11x-jssp-18-rho0.85-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "f8317c9eec397e868ceb0bf2ec2a2b957c0f882edbd3528547cd2a2291cdee89"
+  },
+  {
+   "instance": "v11x-jssp-21-rho0.85-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "b73a7c494e7dcbaeb38c940d1ac7e115fbb2f0d1249bfe23b1b3097f95f7c3c8"
+  },
+  {
+   "instance": "v11x-jssp-21-rho0.85-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "52d6ce9776bb8732e3a2fa019904572ba889e7930e96d6271b80d70c503fa6bd"
+  },
+  {
+   "instance": "v11x-jssp-24-rho0.85-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "33bd341f82b760d2674437aa9a60d60c0f24ca08e84e04e37fa942d47e94c3e3"
+  },
+  {
+   "instance": "v11x-jssp-24-rho0.85-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "a06c05edddf0cf6efacf7f11dbd001d48d26e53e5cac973bf313617fa7e0caad"
+  },
+  {
+   "instance": "v11x-jssp-18-rho0.9-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "bb28649998fdac4dc6184721ff46398564853ffb2ccd4c2835b29e82d1564d98"
+  },
+  {
+   "instance": "v11x-jssp-18-rho0.9-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "da216cd5f892c89de4e1bb9dffb0d6b191a08bdda7622c7aa2a43b0d2e8167ef"
+  },
+  {
+   "instance": "v11x-jssp-21-rho0.9-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "9dc2604bc06355f592c58d7f0cbd8752bc8644096590ea83d4519dafde4a7709"
+  },
+  {
+   "instance": "v11x-jssp-21-rho0.9-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "2b28eab1aa956579c3f2cfb7456a5df9907e8b9d29e34e79104248321bf15dec"
+  },
+  {
+   "instance": "v11x-jssp-24-rho0.9-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "250b7005639c4205e154bc8b866899ba36d936773f88fb49f9a71a116bfadfe9"
+  },
+  {
+   "instance": "v11x-jssp-24-rho0.9-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "b6d5511bd612c31bfa17eb8fe45a55f97f4c36c5f10d90ed98427d6a11f91762"
+  },
+  {
+   "instance": "v11x-jssp-18-rho0.95-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "6ca2bc3e0445ae50c42a6984eb2cb5284f5b19a2b94a1f26c567f1051c8a2a71"
+  },
+  {
+   "instance": "v11x-jssp-18-rho0.95-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "e3945233b47fafc8db192acd7b00c1c91b62e5cb292236da3b3c5ff661868799"
+  },
+  {
+   "instance": "v11x-jssp-21-rho0.95-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "6d1bc10b991bef84b64741bf1225bac391e65b8534a68ecf2c6caf999c3886a5"
+  },
+  {
+   "instance": "v11x-jssp-21-rho0.95-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "e497e13b0c677d8f157930483959471b7d63a522330f6868cf00591e952e84e4"
+  },
+  {
+   "instance": "v11x-jssp-24-rho0.95-s9800",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "2253495a0ce6bcde83a9e7489ba7b9788bbb3c808fa1c3b6214a2dbfb0e7e413"
+  },
+  {
+   "instance": "v11x-jssp-24-rho0.95-s9801",
+   "keep_model": true,
+   "method": "D",
+   "rep": 0,
+   "sha256": "10bcb7aaa39567be7094f4e5ab03e97f484eccebcb752a04629418f385c7fcab"
+  }
+ ],
+ "stage": "explore_r4"
+}

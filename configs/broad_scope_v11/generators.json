@@ -71,7 +71,21 @@
    13,
    14,
    15,
-   16
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30
   ],
   "grid_registered_s0": {
    "beta": [
@@ -87,7 +101,8 @@
     1.45,
     1.6
    ]
-  }
+  },
+  "size_grid_note": "deviation 4: registered 5-16 extended to 5-30 (jssp round-3 points all < 1 s except one at n = 15)"
  },
  "bwplan": {
   "params": {
@@ -222,6 +237,11 @@
    10,
    12,
    15
+  ],
+  "jssp_round4": [
+   18,
+   21,
+   24
   ]
  },
  "bridge_grids": "configs/online_selection_v9/generators.json (rand3, col3, assign2 grids)"

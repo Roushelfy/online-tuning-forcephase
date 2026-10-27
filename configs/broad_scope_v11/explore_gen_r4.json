@@ -1,0 +1,184 @@
+{
+ "instances": [
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-18-rho0.85-s9800",
+   "params": {
+    "rho": 0.85
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 18
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-18-rho0.85-s9801",
+   "params": {
+    "rho": 0.85
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 18
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-21-rho0.85-s9800",
+   "params": {
+    "rho": 0.85
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 21
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-21-rho0.85-s9801",
+   "params": {
+    "rho": 0.85
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 21
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-24-rho0.85-s9800",
+   "params": {
+    "rho": 0.85
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 24
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-24-rho0.85-s9801",
+   "params": {
+    "rho": 0.85
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 24
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-18-rho0.9-s9800",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 18
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-18-rho0.9-s9801",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 18
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-21-rho0.9-s9800",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 21
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-21-rho0.9-s9801",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 21
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-24-rho0.9-s9800",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 24
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-24-rho0.9-s9801",
+   "params": {
+    "rho": 0.9
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 24
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-18-rho0.95-s9800",
+   "params": {
+    "rho": 0.95
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 18
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-18-rho0.95-s9801",
+   "params": {
+    "rho": 0.95
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 18
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-21-rho0.95-s9800",
+   "params": {
+    "rho": 0.95
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 21
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-21-rho0.95-s9801",
+   "params": {
+    "rho": 0.95
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 21
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-24-rho0.95-s9800",
+   "params": {
+    "rho": 0.95
+   },
+   "role": "explore",
+   "seed": 9800,
+   "size": 24
+  },
+  {
+   "family": "jssp",
+   "id": "v11x-jssp-24-rho0.95-s9801",
+   "params": {
+    "rho": 0.95
+   },
+   "role": "explore",
+   "seed": 9801,
+   "size": 24
+  }
+ ]
+}
