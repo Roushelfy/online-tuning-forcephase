@@ -161,10 +161,12 @@ def chosen_params(fam, sc):
     return {d["secondary"]["param"]: d["secondary"]["chosen"]} if d.get("secondary") else None
 
 
-def pilot_gen():
+def pilot_gen(only=None, skip=None, out="pilot_gen.json"):
     sc = load(os.path.join(CFG, "scales_candidate.json"))
     rows = []
     for fam in FAMS:
+        if (only and fam not in only) or (skip and fam in skip):
+            continue
         for lv in LEVELS:
             size = sc["families"][fam]["candidates"][lv]
             for k in range(PANEL["pilot"]["per_cell"]):
@@ -174,14 +176,15 @@ def pilot_gen():
                 if p:
                     r["params"] = p
                 rows.append(r)
-    dump(os.path.join(CFG, "pilot_gen.json"), {"instances": rows})
+    dump(os.path.join(CFG, out), {"instances": rows})
     print(len(rows), "pilot instances")
 
 
 def pilot_decide():
     sc = load(os.path.join(CFG, "scales_candidate.json"))
-    rows = {r["id"]: r for r in load(os.path.join(RES, "pilot_manifest.json"))["instances"]}
-    recs = records("pilot")
+    rows = {r["id"]: r for m in ("pilot_manifest.json", "pilot_jssp_manifest.json") if os.path.exists(os.path.join(RES, m))
+            for r in load(os.path.join(RES, m))["instances"]}
+    recs = records("pilot") + records("pilot_jssp")
     bands = PANEL["pilot_bands"]
     out = {"rule": "protocol 3.5", "families": {}}
     for fam in FAMS:
@@ -325,13 +328,16 @@ def main():
     ap.add_argument("--ids-from")
     ap.add_argument("--roles")
     ap.add_argument("--strategy", action="append", default=[], help="path[:wrapper]")
+    ap.add_argument("--only")
+    ap.add_argument("--skip")
+    ap.add_argument("--out")
     a = ap.parse_args()
     if a.cmd == "explore-gen":
         explore_gen(a.round, json.loads(a.extra) if a.extra else None)
     elif a.cmd == "explore-decide":
         explore_decide()
     elif a.cmd == "pilot-gen":
-        pilot_gen()
+        pilot_gen(a.only.split(",") if a.only else None, a.skip.split(",") if a.skip else None, a.out or "pilot_gen.json")
     elif a.cmd == "pilot-decide":
         pilot_decide()
     elif a.cmd == "formal-gen":

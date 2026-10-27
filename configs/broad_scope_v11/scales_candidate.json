@@ -1,0 +1,1727 @@
+{
+ "families": {
+  "assign2": {
+   "candidates": {
+    "L": 600,
+    "M": 500,
+    "S": 350
+   },
+   "fit": {
+    "intercept": -4.229207230804026,
+    "log": "natural",
+    "slope": 0.014980094172558666,
+    "source": "configs/cross_scale_v10/scales.json (geometric-mean fit of v9/v10 D runs)"
+   }
+  },
+  "bwplan": {
+   "candidates": {
+    "L": 24,
+    "M": 20,
+    "S": 16
+   },
+   "coverage": {
+    "all_above_600s": false,
+    "all_below_1s": false
+   },
+   "fit": {
+    "intercept": -6.76745291293777,
+    "log": "natural",
+    "slope": 0.496255526003226
+   },
+   "points": [
+    {
+     "cpu": 0.042647,
+     "params": {
+      "gamma": 1.0
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.080024,
+     "params": {
+      "gamma": 1.0
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.583919,
+     "params": {
+      "gamma": 1.0
+     },
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.621181,
+     "params": {
+      "gamma": 1.0
+     },
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 10.186416999999999,
+     "params": {
+      "gamma": 1.0
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 12.536133000000001,
+     "params": {
+      "gamma": 1.0
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 62.844618999999994,
+     "params": {
+      "gamma": 1.0
+     },
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 125.596235,
+     "params": {
+      "gamma": 1.0
+     },
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.054495,
+     "params": {
+      "gamma": 1.25
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.117904,
+     "params": {
+      "gamma": 1.25
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.181873,
+     "params": {
+      "gamma": 1.25
+     },
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.9918420000000001,
+     "params": {
+      "gamma": 1.25
+     },
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 15.327509000000001,
+     "params": {
+      "gamma": 1.25
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 18.940239,
+     "params": {
+      "gamma": 1.25
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 34.060547,
+     "params": {
+      "gamma": 1.25
+     },
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 29.459234000000002,
+     "params": {
+      "gamma": 1.25
+     },
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.06762499999999999,
+     "params": {
+      "gamma": 1.5
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.11992599999999999,
+     "params": {
+      "gamma": 1.5
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.006248,
+     "params": {
+      "gamma": 1.5
+     },
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 2.684536,
+     "params": {
+      "gamma": 1.5
+     },
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 18.224125,
+     "params": {
+      "gamma": 1.5
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 11.858643,
+     "params": {
+      "gamma": 1.5
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 32.733792,
+     "params": {
+      "gamma": 1.5
+     },
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 33.109373,
+     "params": {
+      "gamma": 1.5
+     },
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    }
+   ],
+   "secondary": {
+    "chosen": 1.25,
+    "fraction_in_1_600": {
+     "1.0": 0.625,
+     "1.25": 0.75,
+     "1.5": 0.75
+    },
+    "param": "gamma"
+   }
+  },
+  "col3": {
+   "candidates": {
+    "L": 800,
+    "M": 650,
+    "S": 525
+   },
+   "fit": {
+    "intercept": -7.051586596794159,
+    "log": "natural",
+    "slope": 0.014910737770483034,
+    "source": "configs/cross_scale_v10/scales.json (geometric-mean fit of v9/v10 D runs)"
+   }
+  },
+  "factor": {
+   "candidates": {
+    "L": 26,
+    "M": 24,
+    "S": 18
+   },
+   "coverage": {
+    "all_above_600s": false,
+    "all_below_1s": false
+   },
+   "fit": {
+    "intercept": -9.86267001792078,
+    "log": "natural",
+    "slope": 0.5557296032786947
+   },
+   "points": [
+    {
+     "cpu": 0.12429199999999999,
+     "params": {},
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.253022,
+     "params": {},
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.037254999999999996,
+     "params": {},
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.053179,
+     "params": {},
+     "size": 14,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 2.487873,
+     "params": {},
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.122044,
+     "params": {},
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.92532,
+     "params": {},
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.921719,
+     "params": {},
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 4.6331549999999995,
+     "params": {},
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 24.020651,
+     "params": {},
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 12.71091,
+     "params": {},
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 8.470126,
+     "params": {},
+     "size": 22,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 5.764601,
+     "params": {},
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 811.58921,
+     "params": {},
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 357.32513,
+     "params": {},
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 29.083945,
+     "params": {},
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    }
+   ]
+  },
+  "jssp": {
+   "candidates": {
+    "L": 25,
+    "M": 22,
+    "S": 18
+   },
+   "coverage": {
+    "all_above_600s": false,
+    "all_below_1s": false
+   },
+   "fit": {
+    "intercept": -9.887269915315775,
+    "log": "natural",
+    "slope": 0.5895012263969545
+   },
+   "points": [
+    {
+     "cpu": 0.003778,
+     "params": {
+      "beta": 1.0
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.003964,
+     "params": {
+      "beta": 1.0
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.005837,
+     "params": {
+      "beta": 1.0
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.0044009999999999995,
+     "params": {
+      "beta": 1.0
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.006005,
+     "params": {
+      "beta": 1.0
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.0072499999999999995,
+     "params": {
+      "beta": 1.0
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.007298999999999999,
+     "params": {
+      "beta": 1.0
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.013295,
+     "params": {
+      "beta": 1.0
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.00404,
+     "params": {
+      "beta": 1.1
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.004038,
+     "params": {
+      "beta": 1.1
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.008775999999999999,
+     "params": {
+      "beta": 1.1
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.0050929999999999994,
+     "params": {
+      "beta": 1.1
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.012219,
+     "params": {
+      "beta": 1.1
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.009323,
+     "params": {
+      "beta": 1.1
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.015621999999999999,
+     "params": {
+      "beta": 1.1
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.025416,
+     "params": {
+      "beta": 1.1
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.005275,
+     "params": {
+      "beta": 1.2
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.004850999999999999,
+     "params": {
+      "beta": 1.2
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.010547999999999998,
+     "params": {
+      "beta": 1.2
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.007801,
+     "params": {
+      "beta": 1.2
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.019851,
+     "params": {
+      "beta": 1.2
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.019461,
+     "params": {
+      "beta": 1.2
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.09655999999999999,
+     "params": {
+      "beta": 1.2
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.13344999999999999,
+     "params": {
+      "beta": 1.2
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.006682,
+     "params": {
+      "beta": 1.3
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.005084,
+     "params": {
+      "beta": 1.3
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.009208999999999998,
+     "params": {
+      "beta": 1.3
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.009092,
+     "params": {
+      "beta": 1.3
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.027731,
+     "params": {
+      "beta": 1.3
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.014716,
+     "params": {
+      "beta": 1.3
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.033465999999999996,
+     "params": {
+      "beta": 1.3
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.049250999999999996,
+     "params": {
+      "beta": 1.3
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.005444999999999999,
+     "params": {
+      "beta": 1.45
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.006017,
+     "params": {
+      "beta": 1.45
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.009037,
+     "params": {
+      "beta": 1.45
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.008944,
+     "params": {
+      "beta": 1.45
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.019373,
+     "params": {
+      "beta": 1.45
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.017189999999999997,
+     "params": {
+      "beta": 1.45
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.033807000000000004,
+     "params": {
+      "beta": 1.45
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.031121,
+     "params": {
+      "beta": 1.45
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.006464999999999999,
+     "params": {
+      "beta": 1.6
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.006293999999999999,
+     "params": {
+      "beta": 1.6
+     },
+     "size": 6,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.010378,
+     "params": {
+      "beta": 1.6
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.011316,
+     "params": {
+      "beta": 1.6
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.018084,
+     "params": {
+      "beta": 1.6
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.019152,
+     "params": {
+      "beta": 1.6
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.033729,
+     "params": {
+      "beta": 1.6
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.037809999999999996,
+     "params": {
+      "beta": 1.6
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.009072,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.009689,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.0073869999999999995,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.015246,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.09848,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.024835999999999997,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.2103869999999999,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 15,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.21701299999999998,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 15,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.7740539999999996,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.720224,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 13.079898,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 24,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 462.182634,
+     "params": {
+      "rho": 0.85
+     },
+     "size": 24,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.009481999999999999,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.010724,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.018347999999999996,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.013819,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.035334,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.031848,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.055485,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 15,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.075471,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 15,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.155472,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.15694899999999998,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.625316,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 21,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.354397,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 21,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.633595,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 24,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.645928,
+     "params": {
+      "rho": 0.95
+     },
+     "size": 24,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.010082,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.009527,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 8,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.020479999999999998,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.01116,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 10,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.06329499999999999,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.124347,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 12,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.129236,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 15,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.255671,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 15,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 2.558546,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.5090399999999999,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 18,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.8993599999999997,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 21,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 4.160378,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 21,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.629054,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 24,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 2.630351,
+     "params": {
+      "rho": 0.9
+     },
+     "size": 24,
+     "solved": true,
+     "status": "solved"
+    }
+   ],
+   "secondary": {
+    "chosen": 0.85,
+    "fraction_in_1_600": {
+     "0.85": 0.3333333333333333,
+     "0.9": 0.2857142857142857,
+     "0.95": 0.0
+    },
+    "param": "rho"
+   }
+  },
+  "qcp": {
+   "candidates": {
+    "L": 50,
+    "M": 45,
+    "S": 33
+   },
+   "coverage": {
+    "all_above_600s": false,
+    "all_below_1s": false
+   },
+   "fit": {
+    "intercept": -6.100574430244455,
+    "log": "natural",
+    "slope": 0.2038637776952523
+   },
+   "points": [
+    {
+     "cpu": 0.262086,
+     "params": {
+      "preassign_frac": 0.38
+     },
+     "size": 20,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.12374199999999999,
+     "params": {
+      "preassign_frac": 0.38
+     },
+     "size": 20,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.562562,
+     "params": {
+      "preassign_frac": 0.38
+     },
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.295683,
+     "params": {
+      "preassign_frac": 0.38
+     },
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.67106,
+     "params": {
+      "preassign_frac": 0.38
+     },
+     "size": 32,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.143097,
+     "params": {
+      "preassign_frac": 0.38
+     },
+     "size": 32,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.629752,
+     "params": {
+      "preassign_frac": 0.38
+     },
+     "size": 38,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 2.190785,
+     "params": {
+      "preassign_frac": 0.38
+     },
+     "size": 38,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.115675,
+     "params": {
+      "preassign_frac": 0.42
+     },
+     "size": 20,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.18180200000000002,
+     "params": {
+      "preassign_frac": 0.42
+     },
+     "size": 20,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.32870299999999997,
+     "params": {
+      "preassign_frac": 0.42
+     },
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.512568,
+     "params": {
+      "preassign_frac": 0.42
+     },
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.7983959999999999,
+     "params": {
+      "preassign_frac": 0.42
+     },
+     "size": 32,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.068492,
+     "params": {
+      "preassign_frac": 0.42
+     },
+     "size": 32,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.2474369999999997,
+     "params": {
+      "preassign_frac": 0.42
+     },
+     "size": 38,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 10.009371999999999,
+     "params": {
+      "preassign_frac": 0.42
+     },
+     "size": 38,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.101853,
+     "params": {
+      "preassign_frac": 0.46
+     },
+     "size": 20,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.08962300000000001,
+     "params": {
+      "preassign_frac": 0.46
+     },
+     "size": 20,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.11541499999999999,
+     "params": {
+      "preassign_frac": 0.46
+     },
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.274407,
+     "params": {
+      "preassign_frac": 0.46
+     },
+     "size": 26,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.522424,
+     "params": {
+      "preassign_frac": 0.46
+     },
+     "size": 32,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.615539,
+     "params": {
+      "preassign_frac": 0.46
+     },
+     "size": 32,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 4.370512,
+     "params": {
+      "preassign_frac": 0.46
+     },
+     "size": 38,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 6.2070870000000005,
+     "params": {
+      "preassign_frac": 0.46
+     },
+     "size": 38,
+     "solved": true,
+     "status": "solved"
+    }
+   ],
+   "secondary": {
+    "chosen": 0.42,
+    "fraction_in_1_600": {
+     "0.38": 0.375,
+     "0.42": 0.5,
+     "0.46": 0.375
+    },
+    "param": "preassign_frac"
+   }
+  },
+  "rand3": {
+   "candidates": {
+    "L": 430,
+    "M": 360,
+    "S": 260
+   },
+   "fit": {
+    "intercept": -5.77986039858369,
+    "log": "natural",
+    "slope": 0.024607661510464823,
+    "source": "configs/cross_scale_v10/scales.json (geometric-mean fit of v9/v10 D runs)"
+   }
+  },
+  "vcover": {
+   "candidates": {
+    "L": 340,
+    "M": 240,
+    "S": 140
+   },
+   "coverage": {
+    "all_above_600s": false,
+    "all_below_1s": false
+   },
+   "fit": {
+    "intercept": -2.41938657167229,
+    "log": "natural",
+    "slope": 0.021756784738111337
+   },
+   "points": [
+    {
+     "cpu": 0.051973,
+     "params": {
+      "budget_frac": 0.54
+     },
+     "size": 80,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.09024099999999999,
+     "params": {
+      "budget_frac": 0.54
+     },
+     "size": 80,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.724261,
+     "params": {
+      "budget_frac": 0.54
+     },
+     "size": 120,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 420.456624,
+     "params": {
+      "budget_frac": 0.54
+     },
+     "size": 120,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 13.426283,
+     "params": {
+      "budget_frac": 0.54
+     },
+     "size": 180,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.071483,
+     "params": {
+      "budget_frac": 0.54
+     },
+     "size": 180,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.3000839999999998,
+     "params": {
+      "budget_frac": 0.54
+     },
+     "size": 260,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 182.814067,
+     "params": {
+      "budget_frac": 0.54
+     },
+     "size": 260,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.065783,
+     "params": {
+      "budget_frac": 0.56
+     },
+     "size": 80,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.058621,
+     "params": {
+      "budget_frac": 0.56
+     },
+     "size": 80,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.008875999999999998,
+     "params": {
+      "budget_frac": 0.56
+     },
+     "size": 120,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.321837,
+     "params": {
+      "budget_frac": 0.56
+     },
+     "size": 120,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.15401600000000001,
+     "params": {
+      "budget_frac": 0.56
+     },
+     "size": 180,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.7207589999999999,
+     "params": {
+      "budget_frac": 0.56
+     },
+     "size": 180,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 1.127876,
+     "params": {
+      "budget_frac": 0.56
+     },
+     "size": 260,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 3.575653,
+     "params": {
+      "budget_frac": 0.56
+     },
+     "size": 260,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.07928299999999999,
+     "params": {
+      "budget_frac": 0.58
+     },
+     "size": 80,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.029861,
+     "params": {
+      "budget_frac": 0.58
+     },
+     "size": 80,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.006794999999999999,
+     "params": {
+      "budget_frac": 0.58
+     },
+     "size": 120,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.008634,
+     "params": {
+      "budget_frac": 0.58
+     },
+     "size": 120,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.011101,
+     "params": {
+      "budget_frac": 0.58
+     },
+     "size": 180,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.12336,
+     "params": {
+      "budget_frac": 0.58
+     },
+     "size": 180,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.8476999999999999,
+     "params": {
+      "budget_frac": 0.58
+     },
+     "size": 260,
+     "solved": true,
+     "status": "solved"
+    },
+    {
+     "cpu": 0.024928,
+     "params": {
+      "budget_frac": 0.58
+     },
+     "size": 260,
+     "solved": true,
+     "status": "solved"
+    }
+   ],
+   "secondary": {
+    "chosen": 0.54,
+    "fraction_in_1_600": {
+     "0.54": 0.625,
+     "0.56": 0.25,
+     "0.58": 0.0
+    },
+    "param": "budget_frac"
+   }
+  }
+ },
+ "rule": "protocol 3.4",
+ "targets": {
+  "L": 120.0,
+  "M": 20.0,
+  "S": 2.0
+ }
+}

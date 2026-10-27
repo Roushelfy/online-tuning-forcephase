@@ -1,0 +1,784 @@
+{
+ "instances": [
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-S-s8000",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 260
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-S-s8001",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 260
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-S-s8002",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 260
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-S-s8003",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 260
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-M-s8000",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 360
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-M-s8001",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 360
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-M-s8002",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 360
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-M-s8003",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 360
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-L-s8000",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 430
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-L-s8001",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 430
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-L-s8002",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 430
+  },
+  {
+   "family": "rand3",
+   "id": "v11p-rand3-L-s8003",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 430
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-S-s8000",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 525
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-S-s8001",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 525
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-S-s8002",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 525
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-S-s8003",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 525
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-M-s8000",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 650
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-M-s8001",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 650
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-M-s8002",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 650
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-M-s8003",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 650
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-L-s8000",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 800
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-L-s8001",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 800
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-L-s8002",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 800
+  },
+  {
+   "family": "col3",
+   "id": "v11p-col3-L-s8003",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 800
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-S-s8000",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 350
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-S-s8001",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 350
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-S-s8002",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 350
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-S-s8003",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 350
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-M-s8000",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 500
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-M-s8001",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 500
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-M-s8002",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 500
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-M-s8003",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 500
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-L-s8000",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 600
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-L-s8001",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 600
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-L-s8002",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 600
+  },
+  {
+   "family": "assign2",
+   "id": "v11p-assign2-L-s8003",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 600
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-S-s8000",
+   "level": "S",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 140
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-S-s8001",
+   "level": "S",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 140
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-S-s8002",
+   "level": "S",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 140
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-S-s8003",
+   "level": "S",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 140
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-M-s8000",
+   "level": "M",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 240
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-M-s8001",
+   "level": "M",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 240
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-M-s8002",
+   "level": "M",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 240
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-M-s8003",
+   "level": "M",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 240
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-L-s8000",
+   "level": "L",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 340
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-L-s8001",
+   "level": "L",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 340
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-L-s8002",
+   "level": "L",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 340
+  },
+  {
+   "family": "vcover",
+   "id": "v11p-vcover-L-s8003",
+   "level": "L",
+   "params": {
+    "budget_frac": 0.54
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 340
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-S-s8000",
+   "level": "S",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 16
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-S-s8001",
+   "level": "S",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 16
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-S-s8002",
+   "level": "S",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 16
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-S-s8003",
+   "level": "S",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 16
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-M-s8000",
+   "level": "M",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 20
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-M-s8001",
+   "level": "M",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 20
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-M-s8002",
+   "level": "M",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 20
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-M-s8003",
+   "level": "M",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 20
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-L-s8000",
+   "level": "L",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 24
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-L-s8001",
+   "level": "L",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 24
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-L-s8002",
+   "level": "L",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 24
+  },
+  {
+   "family": "bwplan",
+   "id": "v11p-bwplan-L-s8003",
+   "level": "L",
+   "params": {
+    "gamma": 1.25
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 24
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-S-s8000",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 18
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-S-s8001",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 18
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-S-s8002",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 18
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-S-s8003",
+   "level": "S",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 18
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-M-s8000",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 24
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-M-s8001",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 24
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-M-s8002",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 24
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-M-s8003",
+   "level": "M",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 24
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-L-s8000",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8000,
+   "size": 26
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-L-s8001",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8001,
+   "size": 26
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-L-s8002",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8002,
+   "size": 26
+  },
+  {
+   "family": "factor",
+   "id": "v11p-factor-L-s8003",
+   "level": "L",
+   "role": "pilot",
+   "seed": 8003,
+   "size": 26
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-S-s8000",
+   "level": "S",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 33
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-S-s8001",
+   "level": "S",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 33
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-S-s8002",
+   "level": "S",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 33
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-S-s8003",
+   "level": "S",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 33
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-M-s8000",
+   "level": "M",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 45
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-M-s8001",
+   "level": "M",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 45
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-M-s8002",
+   "level": "M",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 45
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-M-s8003",
+   "level": "M",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 45
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-L-s8000",
+   "level": "L",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8000,
+   "size": 50
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-L-s8001",
+   "level": "L",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8001,
+   "size": 50
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-L-s8002",
+   "level": "L",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8002,
+   "size": 50
+  },
+  {
+   "family": "qcp",
+   "id": "v11p-qcp-L-s8003",
+   "level": "L",
+   "params": {
+    "preassign_frac": 0.42
+   },
+   "role": "pilot",
+   "seed": 8003,
+   "size": 50
+  }
+ ]
+}
