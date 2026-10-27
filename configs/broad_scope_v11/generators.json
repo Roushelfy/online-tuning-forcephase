@@ -1,0 +1,207 @@
+{
+ "schema_version": 1,
+ "note": "Secondary parameters of the v11 families (scripts/broad_scope_v11/families.py). Values here are the pre-exploration defaults; the exploration stage (protocol section 4.1) may replace each by one value of its registered grid, chosen from D cost / search coverage only, before the pilot.",
+ "assign2": {
+  "structure": "F"
+ },
+ "vcover": {
+  "params": {
+   "avg_degree": 4.0,
+   "budget_frac": 0.56
+  },
+  "grid": {
+   "budget_frac": [
+    0.54,
+    0.56,
+    0.58
+   ]
+  },
+  "size_grid": [
+   60,
+   80,
+   100,
+   120,
+   140,
+   160,
+   180,
+   200,
+   220,
+   240,
+   260,
+   280,
+   300,
+   320,
+   340,
+   360,
+   380,
+   400,
+   420,
+   440,
+   460,
+   480,
+   500,
+   520,
+   540,
+   560,
+   580,
+   600
+  ]
+ },
+ "jssp": {
+  "params": {
+   "dmax": 9,
+   "beta": 1.1
+  },
+  "grid": {
+   "beta": [
+    1.0,
+    1.1,
+    1.2
+   ]
+  },
+  "size_grid": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ]
+ },
+ "bwplan": {
+  "params": {
+   "gamma": 1.25
+  },
+  "grid": {
+   "gamma": [
+    1.0,
+    1.25,
+    1.5
+   ]
+  },
+  "size_grid": [
+   8,
+   10,
+   12,
+   14,
+   16,
+   18,
+   20,
+   22,
+   24,
+   26,
+   28,
+   30
+  ]
+ },
+ "factor": {
+  "params": {},
+  "size_grid": [
+   12,
+   14,
+   16,
+   18,
+   20,
+   22,
+   24,
+   26,
+   28,
+   30,
+   32,
+   34,
+   36
+  ]
+ },
+ "qcp": {
+  "params": {
+   "preassign_frac": 0.42
+  },
+  "grid": {
+   "preassign_frac": [
+    0.38,
+    0.42,
+    0.46
+   ]
+  },
+  "size_grid": [
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50
+  ]
+ },
+ "explore": {
+  "vcover": [
+   80,
+   120,
+   180,
+   260
+  ],
+  "jssp": [
+   6,
+   8,
+   10,
+   12
+  ],
+  "bwplan": [
+   10,
+   14,
+   18,
+   22
+  ],
+  "factor": [
+   14,
+   18,
+   22,
+   26
+  ],
+  "qcp": [
+   20,
+   26,
+   32,
+   38
+  ],
+  "seeds_per_value": 2,
+  "factor_seeds": 4,
+  "seed_start": 9000
+ },
+ "bridge_grids": "configs/online_selection_v9/generators.json (rand3, col3, assign2 grids)"
+}

@@ -1,0 +1,97 @@
+{
+ "schema_version": 1,
+ "families": [
+  "rand3",
+  "col3",
+  "assign2",
+  "vcover",
+  "jssp",
+  "bwplan",
+  "factor",
+  "qcp"
+ ],
+ "levels": [
+  "S",
+  "M",
+  "L"
+ ],
+ "targets_median_D_cpu": {
+  "S": 2.0,
+  "M": 20.0,
+  "L": 120.0
+ },
+ "pilot_bands": {
+  "S": [
+   0.3,
+   15.0
+  ],
+  "M": [
+   3.0,
+   150.0
+  ],
+  "L": [
+   20.0,
+   900.0
+  ]
+ },
+ "pilot": {
+  "per_cell": 4,
+  "seed_start": 8000
+ },
+ "panels": {
+  "discovery": {
+   "per_cell": 12,
+   "seed_start": 1000
+  },
+  "development": {
+   "per_cell": 10,
+   "seed_start": 2000
+  },
+  "confirmation": {
+   "per_cell": 10,
+   "seed_start": 3000
+  }
+ },
+ "confirmation_blocks": {
+  "H1": {
+   "S": 4,
+   "M": 3,
+   "L": 3
+  },
+  "H2": {
+   "S": 3,
+   "M": 4,
+   "L": 3
+  },
+  "H3": {
+   "S": 3,
+   "M": 3,
+   "L": 4
+  },
+  "rule": "per family and level, seeds in increasing order fill H1, then H2, then H3 with these counts"
+ },
+ "id_format": "v11-<family>-<level>-s<seed>",
+ "group": "base problem id; encoding/flip/perm variants and solver-seed repeats follow their base",
+ "dedupe": "sha256, canonical (clause-set) and renaming-invariant hashes against all v8-v11 generated instances and the v9/v10 SATLIB externals; a duplicate is replaced by the next seed (reported)",
+ "encoding_diagnostic": {
+  "base": "discovery, per family and level the first 2 seeds (48)",
+  "variants": {
+   "enc": [
+    "col3",
+    "vcover",
+    "jssp",
+    "qcp"
+   ],
+   "flipall": "all 48",
+   "perm": "all 48, cnfscramble seed 1"
+  },
+  "solver_seeds": {
+   "base": "discovery, per family and level the first seed (24)",
+   "seeds": [
+    1,
+    2
+   ]
+  }
+ },
+ "training_pool": "discovery + development (528), grouped by base problem"
+}

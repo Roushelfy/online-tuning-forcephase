@@ -1,0 +1,244 @@
+{
+ "rule_sha256": "713a7ff4f831b92f8e46370be04a25047ba1957019caa77fc72e4608b7022d74",
+ "exposure": {
+  "local_downloads": 1594,
+  "listed": 1711,
+  "union": 1711,
+  "isohashes": 1568
+ },
+ "pools": {
+  "comp2022": {
+   "stats": {
+    "candidates": 659,
+    "too_large_or_no_size": 80,
+    "exposed_hash": 234,
+    "exposed_isohash": 46,
+    "pool": 299
+   },
+   "families": {
+    "sudoku": 21,
+    "scheduling": 152,
+    "circuit-equialence-checking": 12,
+    "relativized-pigeon-hole": 8,
+    "sat-x": 2,
+    "hardware-model-checking": 17,
+    "coloring": 17,
+    "multiplier-circuits": 8,
+    "independent-set-reconfiguration": 6,
+    "set-covering": 12,
+    "algorithm-equivalence-checking": 11,
+    "tseitin-formulas": 6,
+    "circuit-equivalence-checking": 11,
+    "minimum-disagreement-parity": 10,
+    "maxsat-optimum": 3,
+    "ordering-principle-xor": 3
+   }
+  },
+  "comp2023": {
+   "stats": {
+    "candidates": 636,
+    "exposed_hash": 341,
+    "exposed_isohash": 64,
+    "too_large_or_no_size": 42,
+    "pool": 189
+   },
+   "families": {
+    "argumentation": 91,
+    "social-golfer": 6,
+    "subsumptiontest": 14,
+    "reg-n": 12,
+    "coloring-clique": 5,
+    "risc-instruction-removal-golcrest": 5,
+    "grs-fp-comm": 39,
+    "trigonometric-functions": 2,
+    "xor_op": 2,
+    "school-timetabling": 1,
+    "interval-matching": 3,
+    "relativized-pigeon-hole": 2,
+    "tseitin-formulas": 3,
+    "pigeon-hole": 2,
+    "or_randxor": 1,
+    "brent-equations": 1
+   }
+  },
+  "comp2024": {
+   "stats": {
+    "candidates": 1369,
+    "exposed_hash": 200,
+    "too_large_or_no_size": 25,
+    "exposed_isohash": 26,
+    "pool": 1118
+   },
+   "families": {
+    "hamiltonian": 1054,
+    "independent-set": 11,
+    "miter": 14,
+    "quantum-kochen-specker": 1,
+    "or_randxor": 3,
+    "random-circuits": 4,
+    "scheduling": 5,
+    "tseitin-formulas": 5,
+    "reg-n": 12,
+    "coloring": 3,
+    "clique-formulas": 2,
+    "binary-pigeon-hole": 4
+   }
+  },
+  "comp2025": {
+   "stats": {
+    "candidates": 350,
+    "exposed_hash": 175,
+    "too_large_or_no_size": 45,
+    "exposed_isohash": 2,
+    "pool": 128
+   },
+   "families": {
+    "multiplier-verification": 18,
+    "scheduling": 8,
+    "clique-coloring": 7,
+    "argumentation": 7,
+    "school-timetabling": 8,
+    "oddball-weighing": 10,
+    "multiplier-equivalence-checking": 7,
+    "p-center": 7,
+    "equivalence-checking": 15,
+    "belpyramid-puzzle": 24,
+    "hardware-model-checking": 7,
+    "unknown-cases": 7,
+    "mechanical-master-key": 3
+   }
+  },
+  "comp2026": {
+   "stats": {
+    "candidates": 1116,
+    "exposed_isohash": 122,
+    "exposed_hash": 235,
+    "too_large_or_no_size": 88,
+    "pool": 671
+   },
+   "families": {
+    "xor-shifting": 491,
+    "linear-equations": 8,
+    "cyclic-anti-bandwidth": 20,
+    "van-der-waerden": 8,
+    "graph-coloring": 35,
+    "exam-scheduling": 8,
+    "hard-cep": 19,
+    "multiplier-circuit-miters": 8,
+    "syndrome-decoding": 14,
+    "sudoku-php": 14,
+    "argumentation": 9,
+    "ecc-equivalence-checking": 10,
+    "school-timetabling": 8,
+    "boxfolding": 1,
+    "allowable-seqence": 2,
+    "stable-semantics": 8,
+    "count": 4,
+    "chnl": 4
+   }
+  },
+  "planning2020": {
+   "stats": {
+    "candidates": 194,
+    "too_large_or_no_size": 131,
+    "pool": 63
+   },
+   "families": {
+    "planning": 63
+   }
+  },
+  "crypto2021": {
+   "stats": {
+    "candidates": 187,
+    "exposed_isohash": 4,
+    "pool": 183
+   },
+   "families": {
+    "cryptography": 183
+   }
+  },
+  "agile": {
+   "stats": {
+    "candidates": 2596,
+    "too_large_or_no_size": 483,
+    "pool": 2113
+   },
+   "families": {
+    "agile": 2113
+   }
+  },
+  "application0916": {
+   "stats": {
+    "candidates": 1274,
+    "too_large_or_no_size": 102,
+    "in_earlier_source": 37,
+    "exposed_isohash": 25,
+    "pool": 1110
+   },
+   "families": {
+    "miter": 108,
+    "sorting-networks": 15,
+    "scheduling": 82,
+    "cryptography": 176,
+    "hardware-verification": 189,
+    "bitvector": 97,
+    "2d-strip-packing": 16,
+    "planning": 96,
+    "diagnosis": 81,
+    "termination-analysis": 44,
+    "misc-satex": 5,
+    "software-bmc": 6,
+    "bioinformatics": 52,
+    "argumentation": 16,
+    "software-verification": 25,
+    "random-modularity": 29,
+    "hardware-bmc": 11,
+    "cryptography-cbmc": 3,
+    "circuit-minimization": 4,
+    "unknown": 2,
+    "random": 2,
+    "hardware-model-checking": 12,
+    "xor-chain": 1,
+    "railway-safety": 2,
+    "dining-philosophers": 6,
+    "coloring-mycielski-graph": 1,
+    "fpga-routing": 14,
+    "finite-state-machines": 4,
+    "coloring": 3,
+    "minimal-disagreement-parity": 2,
+    "bounded-model-checking": 2,
+    "prime-factoring": 1,
+    "alloy-vpn-models": 2,
+    "product-configuration": 1
+   }
+  },
+  "industrial0207": {
+   "stats": {
+    "candidates": 936,
+    "in_earlier_source": 191,
+    "too_large_or_no_size": 60,
+    "exposed_isohash": 64,
+    "pool": 621
+   },
+   "families": {
+    "fpga-routing": 75,
+    "diagnosis": 22,
+    "coloring-mycielski-graph": 5,
+    "miter": 102,
+    "hardware-verification": 89,
+    "unknown": 16,
+    "planning": 176,
+    "coloring": 13,
+    "hardware-bmc": 28,
+    "cryptography": 25,
+    "dining-philosophers": 26,
+    "circuit-minimization": 12,
+    "software-verification": 16,
+    "misc-satex": 9,
+    "alloy-vpn-models": 4,
+    "termination-analysis": 2,
+    "philips": 1
+   }
+  }
+ }
+}

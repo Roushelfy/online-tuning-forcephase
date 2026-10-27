@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "goal_version": 11,
-  "status": "planned_not_started",
+  "status": "in_progress (S0 committed 2026-10-27)",
   "date": "2026-10-27",
   "goal_document": "docs/AGENT_GOAL.md",
   "resource_policy": "configs/run_timeout_policy.json",

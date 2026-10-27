@@ -1,0 +1,113 @@
+{
+ "schema_version": 1,
+ "metadata": "GBD snapshot $FP_DATA/benchmarks/gbd/meta.db + base.db (downloaded 2026-10-18; tracks, family, isohash, bytes); files from https://benchmark-database.de/file/<hash> (the official GBD file server; main_2026 track listing re-checked online 2026-10-27)",
+ "download_url": "https://benchmark-database.de/file/{hash}",
+ "order_salt": "v11-public|",
+ "max_bytes": 100000000,
+ "pilot_per_source": 4,
+ "quota_per_source": 12,
+ "family_cap_per_source": 3,
+ "adjust_if_at_least": 3,
+ "sources": [
+  {
+   "name": "comp2022",
+   "kind": "competition",
+   "tracks": "^(main|submissions)_2022$",
+   "first_year": 2022
+  },
+  {
+   "name": "comp2023",
+   "kind": "competition",
+   "tracks": "^(main|submissions)_2023$",
+   "first_year": 2023
+  },
+  {
+   "name": "comp2024",
+   "kind": "competition",
+   "tracks": "^(main|submissions)_2024$",
+   "first_year": 2024
+  },
+  {
+   "name": "comp2025",
+   "kind": "competition",
+   "tracks": "^(main|submissions)_2025$",
+   "first_year": 2025
+  },
+  {
+   "name": "comp2026",
+   "kind": "competition",
+   "tracks": "^(main|submissions)_2026$",
+   "first_year": 2026
+  },
+  {
+   "name": "planning2020",
+   "kind": "application",
+   "tracks": "^planning_2020$",
+   "exclude_tracks": "^(main|submissions)_20(2[2-6])$"
+  },
+  {
+   "name": "crypto2021",
+   "kind": "application",
+   "tracks": "^crypto_2021$",
+   "exclude_tracks": "^(main|submissions)_20(2[2-6])$"
+  },
+  {
+   "name": "agile",
+   "kind": "application (software verification, many small instances)",
+   "tracks": "^agile_201[67]$",
+   "exclude_tracks": "^(main|submissions)_20(2[2-6])$"
+  },
+  {
+   "name": "application0916",
+   "kind": "older competition application tracks",
+   "tracks": "^application_20(09|1[1-6])$",
+   "exclude_tracks": "^(main|submissions)_20(2[2-6])$"
+  },
+  {
+   "name": "industrial0207",
+   "kind": "older competition industrial tracks",
+   "tracks": "^industrial_200[2-7]$",
+   "exclude_tracks": "^(main|submissions)_20(2[2-6])$"
+  }
+ ],
+ "rule": "Pool per source: GBD hashes in the source's tracks (competition years: in main_Y or submissions_Y and first appearing in any dated GBD track in year Y), minus every hash run in v1-v10 and every hash sharing a GBD isohash with one, minus hashes already in an earlier source, minus files over max_bytes (decompressed) or without size metadata. Pilot: the first pilot_per_source rows in fixed hash order (sha256(order_salt + hash)), run with D only, never part of the formal set. Pilot adjustment (once, per source, before selection): >= adjust_if_at_least of the pilot instances over the 3600 s cap -> the source pool is restricted to its lower half by bytes; >= adjust_if_at_least of them solved under 1 s -> upper half; otherwise unchanged. Formal: the (adjusted) pool minus pilot rows is cut into size terciles by bytes; from each tercile take quota/3 rows in fixed hash order, skipping a row whose GBD family already has max(family_cap_per_source, ceil(quota / families in the source pool)) picks in this source or whose isohash was already picked in any source. Shortfalls are reported, never filled from other sources. After download every file's renaming-invariant hash is compared with the v8-v11 generated and v9/v10 SATLIB instances.",
+ "related_families": {
+  "rand3": [
+   "random"
+  ],
+  "col3": [
+   "coloring",
+   "colouring"
+  ],
+  "assign2": [
+   "assignment"
+  ],
+  "vcover": [
+   "cover",
+   "cardinality",
+   "pseudo-boolean"
+  ],
+  "jssp": [
+   "schedul",
+   "timetabl",
+   "job-shop",
+   "jobshop"
+  ],
+  "bwplan": [
+   "planning"
+  ],
+  "factor": [
+   "factor",
+   "multiplier",
+   "multiplication",
+   "bitvector",
+   "miter",
+   "arithmetic"
+  ],
+  "qcp": [
+   "quasigroup",
+   "latin"
+  ]
+ },
+ "related_rule": "A public instance whose GBD family name contains one of these words is 'related' to that v11 generated family (reported as seen-source / related family, not as an unseen family). All other families are unseen in v11 discovery and training (v11 trains on generated families only); their prior exposure in v1-v10 (other instances of the same GBD family run in earlier rounds) is reported separately."
+}

@@ -1,0 +1,85 @@
+{
+ "schema_version": 1,
+ "goal": "configs/broad_scope_v11/goal.json",
+ "protocol": "docs/BROAD_SCOPE_PROTOCOL_V11.md",
+ "per_run_cpu_seconds": 3600,
+ "aggregate_cpu_hours_cap": null,
+ "partition": "cpu-mid (--no-requeue)",
+ "stages": [
+  {
+   "id": "S0",
+   "content": "source audit, protocol, rules (generators.json, panel_rule.json, public_rule.json), generator tests (MiniSat 2.2 vs enumeration; no CaDiCaL)",
+   "solver_runs": 0
+  },
+  {
+   "id": "explore",
+   "content": "S1a: secondary parameters and size candidates of the 5 new families, D only (protocol 3.4); at most one extension round",
+   "runs": "~112 (+ extension)",
+   "plan": "configs/broad_scope_v11/plans/explore.json"
+  },
+  {
+   "id": "pilot",
+   "content": "S1b: 96 = 8 families x 3 levels x 4, D only; level decision by protocol 3.5",
+   "runs": 96,
+   "plan": "configs/broad_scope_v11/plans/pilot.json"
+  },
+  {
+   "id": "public_pilot",
+   "content": "40 public instances (4 per source), D only; per-source size adjustment (protocol 5)",
+   "runs": 40,
+   "plan": "configs/broad_scope_v11/plans/public_pilot.json"
+  },
+  {
+   "id": "panel_freeze",
+   "content": "generate discovery 288 + development 240 + confirmation 240, dedupe, variants; public 120 selection + download + hash audit; tag v11-panel-freeze",
+   "runs": 0
+  },
+  {
+   "id": "disc_dev",
+   "content": "528 x {D, Fp, Fm}",
+   "runs": 1584,
+   "plan": "configs/broad_scope_v11/plans/disc_dev.json"
+  },
+  {
+   "id": "measure_pool",
+   "content": "528 x MEASURE (static + D 0.1 / 0.5 / 2)",
+   "runs": 528,
+   "plan": "configs/broad_scope_v11/plans/measure_pool.json"
+  },
+  {
+   "id": "encoding",
+   "content": "120 variants (24 alternative encodings, 48 flipall, 48 perm) x {D, Fp, Fm}",
+   "runs": 360,
+   "plan": "configs/broad_scope_v11/plans/encoding.json"
+  },
+  {
+   "id": "seeds",
+   "content": "24 base x seeds {1, 2} x {D, Fp, Fm}",
+   "runs": 144,
+   "plan": "configs/broad_scope_v11/plans/seeds.json"
+  },
+  {
+   "id": "S3_S4",
+   "content": "BASELINES, ENCODING, STRUCTURE_MAP; nested grouped CV, main rule, freeze; tag v11-rule-freeze",
+   "runs": 0
+  },
+  {
+   "id": "confirm",
+   "content": "confirmation 240 (H1-H3 in one go) x {D, Fp, Fm, main, S*, NC if main = PR, V10}",
+   "runs": "720 + 240 per wrapper",
+   "plan": "configs/broad_scope_v11/plans/confirm.json"
+  },
+  {
+   "id": "public",
+   "content": "public 120 x {D, Fp, Fm, frozen wrappers, V10}",
+   "runs": "360 + 120 per wrapper",
+   "plan": "configs/broad_scope_v11/plans/public.json"
+  },
+  {
+   "id": "deploy_dev",
+   "content": "development 240 x {main, S*} (simulation vs real check only)",
+   "runs": "240 per wrapper",
+   "plan": "configs/broad_scope_v11/plans/deploy_dev.json"
+  }
+ ]
+}
