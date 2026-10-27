@@ -1,0 +1,635 @@
+{
+ "rule": "first pilot_per_source rows of each source pool in fixed hash order",
+ "instances": [
+  {
+   "hash": "6b0dfcfa8cf0c0564f17ec0a5434b5b9",
+   "family": "scheduling",
+   "isohash": "0426e0a539c90cbb046a1ee78edd8402",
+   "bytes": 4164769,
+   "clauses": 251243,
+   "variables": 64750,
+   "gbd_result": "sat",
+   "tracks": [
+    "main_2022",
+    "submissions_2022"
+   ],
+   "key": "009f37d9468d687906511e16c5630de6ca32dd91be3f7c5ea82896ed14215942",
+   "related_v11_family": "jssp",
+   "source": "comp2022"
+  },
+  {
+   "hash": "df230ceeb400ef0c150c5b50cbdd1bc9",
+   "family": "scheduling",
+   "isohash": "52d4158eb3fdc53ac94a32e194283ea3",
+   "bytes": 5058459,
+   "clauses": 304127,
+   "variables": 72474,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "00ce7a3cc056d12702e29668fb5f3be66b540de3b8cd7b7e352f161ad4cd1a24",
+   "related_v11_family": "jssp",
+   "source": "comp2022"
+  },
+  {
+   "hash": "10e36d23c804da9d7a65706b18cd5b09",
+   "family": "set-covering",
+   "isohash": "950946da0f15e8325c30a1cb86dfe1dc",
+   "bytes": 381977,
+   "clauses": 15465,
+   "variables": 500,
+   "gbd_result": "unsat",
+   "tracks": [
+    "submissions_2022"
+   ],
+   "key": "02aeaa261fa220bfbd1882d939bf40a92ec5dee382b611351733d8b81104cc86",
+   "related_v11_family": "vcover",
+   "source": "comp2022"
+  },
+  {
+   "hash": "8c0af30cc2a89e3fee97852633bed956",
+   "family": "circuit-equialence-checking",
+   "isohash": "ac83852a5dc6e1e164e0642f814f4e87",
+   "bytes": 1749246,
+   "clauses": 88316,
+   "variables": 20089,
+   "gbd_result": "unknown",
+   "tracks": [
+    "main_2022",
+    "submissions_2022"
+   ],
+   "key": "031963208d2bd7a3cdc8c5bbce5bb8361b313583bc8090a0a2ad9e22e1a9cf7d",
+   "related_v11_family": null,
+   "source": "comp2022"
+  },
+  {
+   "hash": "303e29688b2039cfee3244eef2bea838",
+   "family": "grs-fp-comm",
+   "isohash": "98d03cef778d84584d3955f0f1af3c5f",
+   "bytes": 36347279,
+   "clauses": 1667336,
+   "variables": 568398,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "012d2c010ac900b405440a21eca790bfabfcb3e546485c7b789173a85a21bba5",
+   "related_v11_family": null,
+   "source": "comp2023"
+  },
+  {
+   "hash": "6ba8fcc723dca91addfb9cc5f190a95b",
+   "family": "grs-fp-comm",
+   "isohash": "4bedb9545f0d074c80c6670e9dfd2a91",
+   "bytes": 22345209,
+   "clauses": 1041566,
+   "variables": 354740,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "03705ca4c948a0b0f98b9cb30a8ec788d1904a850cf867a7130b8ff9f969af55",
+   "related_v11_family": null,
+   "source": "comp2023"
+  },
+  {
+   "hash": "8e028e63015dc3e6c1f91b4dfc8d7bfa",
+   "family": "argumentation",
+   "isohash": "241fa982b63aa357b7e5512feb4ad6bc",
+   "bytes": 478807,
+   "clauses": 39265,
+   "variables": 1002,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "0408a19c62dd6c9b0821703434553ab90315718e079ba577710f65589929ed94",
+   "related_v11_family": null,
+   "source": "comp2023"
+  },
+  {
+   "hash": "5c48ad5bfb25910c611a5cb252ecf581",
+   "family": "argumentation",
+   "isohash": "022687b3408f65be58bc04a9ed26f804",
+   "bytes": 187036,
+   "clauses": 15601,
+   "variables": 800,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2023"
+   ],
+   "key": "0420731e602df94171d5003ab4286e7164e1cf1d9d0ae51b4be0df19a470eb47",
+   "related_v11_family": null,
+   "source": "comp2023"
+  },
+  {
+   "hash": "6690481bacc0cbfc2578fe3612dfa981",
+   "family": "hamiltonian",
+   "isohash": "0e8ac532d78d824fc7339f262116037c",
+   "bytes": 32553,
+   "clauses": 2703,
+   "variables": 300,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "00042ae25fe1a00546e69b13c20c730eaae7debc4b355a4b789b2909569e52ce",
+   "related_v11_family": null,
+   "source": "comp2024"
+  },
+  {
+   "hash": "d009734039fe98738f2bd649d603f940",
+   "family": "hamiltonian",
+   "isohash": "ec79c45305393535bc1e32ad75528c99",
+   "bytes": 26668,
+   "clauses": 2249,
+   "variables": 250,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "0010a96324f16f65f29b1a73957fe0dd2d2e26fbdd2fde4bca20a447a0a74e94",
+   "related_v11_family": null,
+   "source": "comp2024"
+  },
+  {
+   "hash": "309d210ed4c145653e454151dd09150e",
+   "family": "hamiltonian",
+   "isohash": "82d5bd412a9ff266651402f4db1e9e6e",
+   "bytes": 15098,
+   "clauses": 1348,
+   "variables": 150,
+   "gbd_result": "sat",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "0068aebf244c4fa8b9428b5ce2c96d06c8359b5795865b0a6d67aa3923794290",
+   "related_v11_family": null,
+   "source": "comp2024"
+  },
+  {
+   "hash": "684a2c6434638c3fdb282e61d0a17dc3",
+   "family": "hamiltonian",
+   "isohash": "b39430c2ef7e13450038f5b757258440",
+   "bytes": 67271,
+   "clauses": 5394,
+   "variables": 600,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2024"
+   ],
+   "key": "0071f2c7bff7f9dd3d6c5cc6b4c7da8cbc57a5f9568be0399e9097f60f68d5d6",
+   "related_v11_family": null,
+   "source": "comp2024"
+  },
+  {
+   "hash": "6ecbb870f047949c9e1fc8e11e0560d3",
+   "family": "belpyramid-puzzle",
+   "isohash": "104da99d8106ebf9a9b7ccd8ec8b9ede",
+   "bytes": 17611198,
+   "clauses": 952029,
+   "variables": 337330,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "02a1e135d5c537a34f5652a290194d84129b1d900fca8fcaac45964e35b30c29",
+   "related_v11_family": null,
+   "source": "comp2025"
+  },
+  {
+   "hash": "55524785f3f1ef3700c64a02ba7da458",
+   "family": "belpyramid-puzzle",
+   "isohash": "59f951e291d4cdc7ed322c0b11a8a160",
+   "bytes": 838972,
+   "clauses": 54351,
+   "variables": 21095,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "03e526aaa4e2dd0ee3bcada7c6a1814850da52e9347c0de4a2474eb2d550d5a6",
+   "related_v11_family": null,
+   "source": "comp2025"
+  },
+  {
+   "hash": "c9a0cd269f38e5b71d4e1d83dc9af53c",
+   "family": "oddball-weighing",
+   "isohash": "e0f9249c402cf00c54dd73c8cd9c5005",
+   "bytes": 4792866,
+   "clauses": 224112,
+   "variables": 10368,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "04957b320d727ea070618b61d1236fa8db3fe2a947f50c642dffb6ac6e372ad0",
+   "related_v11_family": null,
+   "source": "comp2025"
+  },
+  {
+   "hash": "9c499a4d1fd042320ccc64a4413ae492",
+   "family": "mechanical-master-key",
+   "isohash": "0e686e7cf5fe1e28cf78457886daaccb",
+   "bytes": 128783,
+   "clauses": 9302,
+   "variables": 5016,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2025"
+   ],
+   "key": "077e94a429c74cc1c3e7f3e097a1ca7208d941f92390d88b22a858bd99d179fb",
+   "related_v11_family": null,
+   "source": "comp2025"
+  },
+  {
+   "hash": "b6ca757362457c0f62b33f4ff2d58edb",
+   "family": "xor-shifting",
+   "isohash": "25fb31cd996f486f82d420396feb58a5",
+   "bytes": 135885,
+   "clauses": 8496,
+   "variables": 2337,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "001507a63f53db27fcdb8f78712aa99b7a1a09435a4a403c3cb38274ed3c0fd3",
+   "related_v11_family": null,
+   "source": "comp2026"
+  },
+  {
+   "hash": "6e7bd57a09222a6d7b5ee9c00c13e467",
+   "family": "xor-shifting",
+   "isohash": "156d2d8ab2ec5a675d3edabcd2102e94",
+   "bytes": 143581,
+   "clauses": 8868,
+   "variables": 2430,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "004c100f6de6964913d00d03c34d6b8325b102ac9bfb1a724ded884c2bb31f81",
+   "related_v11_family": null,
+   "source": "comp2026"
+  },
+  {
+   "hash": "3f7eecca64ce0d57f9172525f56c85be",
+   "family": "cyclic-anti-bandwidth",
+   "isohash": "8fdbd9b0afd1fa805eeed49fe8518193",
+   "bytes": 92328901,
+   "clauses": 5041317,
+   "variables": 628340,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "00b79ca7059010aefe3c7d05ff89417137fc400597bf0b3b263e8be0410429be",
+   "related_v11_family": null,
+   "source": "comp2026"
+  },
+  {
+   "hash": "73e0500df937fd655035d1763417fba7",
+   "family": "xor-shifting",
+   "isohash": "1db80e4817acb8e3b384ff5db0b8b6d2",
+   "bytes": 136938,
+   "clauses": 8626,
+   "variables": 2401,
+   "gbd_result": "unknown",
+   "tracks": [
+    "submissions_2026"
+   ],
+   "key": "01133a63a240560b60d27e19a60c501019d6cd84484712f0486846d910a2e212",
+   "related_v11_family": null,
+   "source": "comp2026"
+  },
+  {
+   "hash": "0cbcada24ef542516f9d29ce9e9b330a",
+   "family": "planning",
+   "isohash": "b72fa7745c0e45783169f9ed928dbccd",
+   "bytes": 16742627,
+   "clauses": 1046300,
+   "variables": 72784,
+   "gbd_result": "unknown",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "010fbd135d2894d31b214e4a6f7dd39e73e7b4cfae127d5e780eeaf2f3ffc829",
+   "related_v11_family": "bwplan",
+   "source": "planning2020"
+  },
+  {
+   "hash": "cdbd9c75d4d3ae3c23788463abaee53a",
+   "family": "planning",
+   "isohash": "4f3960060c5355252e9af01e73493a58",
+   "bytes": 21584371,
+   "clauses": 1424794,
+   "variables": 18398,
+   "gbd_result": "unsat",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "03fb22ab22c3fe4ccbfaee26a1bd6dc5e1ff6aee7065ca86656ea5cec45cc994",
+   "related_v11_family": "bwplan",
+   "source": "planning2020"
+  },
+  {
+   "hash": "4d29214a6c9e374ea2dc96cc73c51dad",
+   "family": "planning",
+   "isohash": "b9332ae3040ad402006787d47013a1be",
+   "bytes": 12392822,
+   "clauses": 779810,
+   "variables": 54262,
+   "gbd_result": "unsat",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "055b4e2b0789ca6ad4bc94fe43a623b478275732f7f613265d93578afc113b78",
+   "related_v11_family": "bwplan",
+   "source": "planning2020"
+  },
+  {
+   "hash": "d49b6d5afb5e3683dc5f444746314693",
+   "family": "planning",
+   "isohash": "fdebaabeb8887ebcd193843979702b28",
+   "bytes": 4931744,
+   "clauses": 320649,
+   "variables": 24087,
+   "gbd_result": "unsat",
+   "tracks": [
+    "planning_2020"
+   ],
+   "key": "0690a7046785f66914de10919dab5903325b7c46c46c0e9394bcaf9415409f39",
+   "related_v11_family": "bwplan",
+   "source": "planning2020"
+  },
+  {
+   "hash": "49b23fbd7e11d5cd53a5c6813b4c0624",
+   "family": "cryptography",
+   "isohash": "cc91e864e78df1b984d765e079ac380b",
+   "bytes": 5462666,
+   "clauses": 273520,
+   "variables": 65604,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2012",
+    "crypto_2021",
+    "industrial_2007",
+    "main_2006",
+    "main_2008",
+    "main_2017"
+   ],
+   "key": "021199dc5616a505ec28ff5ebf400702c14595cb53bcc519472e16d7c0a35a04",
+   "related_v11_family": null,
+   "source": "crypto2021"
+  },
+  {
+   "hash": "d88baaa735c644728b0d0cb3f015708b",
+   "family": "cryptography",
+   "isohash": "bffc32d3f6585746e57eabdc388a3254",
+   "bytes": 1564512,
+   "clauses": 96161,
+   "variables": 31951,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2009",
+    "application_2011",
+    "application_2016",
+    "crypto_2021"
+   ],
+   "key": "052b5088ff8a408cd26a9e4885cf8c5c37110dcff35d822f8d21651eb17ad091",
+   "related_v11_family": null,
+   "source": "crypto2021"
+  },
+  {
+   "hash": "9ee9f18f9057c696a5a6f74e9970ff2e",
+   "family": "cryptography",
+   "isohash": "85b09e739b2cbe173ef1a93d1fa28105",
+   "bytes": 11284583,
+   "clauses": 612154,
+   "variables": 186642,
+   "gbd_result": "sat",
+   "tracks": [
+    "crypto_2021"
+   ],
+   "key": "07496adc09fd0ba6cf861ac92be13712760bd572f7a8f743e2d7f616d54ea8ba",
+   "related_v11_family": null,
+   "source": "crypto2021"
+  },
+  {
+   "hash": "a457b9542414214b9daa00381d3155f5",
+   "family": "cryptography",
+   "isohash": "937202b84880260e23c72d356466453a",
+   "bytes": 295888,
+   "clauses": 15458,
+   "variables": 3426,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "crypto_2021",
+    "main_2019"
+   ],
+   "key": "079b35db03b814c5cc2275d84cd64d582cd509b53db91e3f24857b4929787c2c",
+   "related_v11_family": null,
+   "source": "crypto2021"
+  },
+  {
+   "hash": "709fbb8aa7b3398d4586e5facb1a5a24",
+   "family": "agile",
+   "isohash": "e86102e089497df46c6f5672261e0897",
+   "bytes": 1395733,
+   "clauses": 77500,
+   "variables": 21680,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "002c09c24235a0ecbcb5f6d525011b73ff4497389ff402d42422c86cdf006bf3",
+   "related_v11_family": null,
+   "source": "agile"
+  },
+  {
+   "hash": "aace5fd78944950deb97c839483ae5f7",
+   "family": "agile",
+   "isohash": "55311414a3dfb5a375ab002feb7e051d",
+   "bytes": 2051624,
+   "clauses": 112431,
+   "variables": 32084,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "003632aa76710c8da9ac80784d522ce49d2da96ddde1eb24d8f511e353757e87",
+   "related_v11_family": null,
+   "source": "agile"
+  },
+  {
+   "hash": "8f86b6a9fe48de12704daa84913ccde7",
+   "family": "agile",
+   "isohash": "9e8835e03f6f39accd948791c37d8dc7",
+   "bytes": 1579898,
+   "clauses": 87624,
+   "variables": 25148,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "00389909c95b38e854dcff7ed469af9597085e2fc8d72fc965ea608e76ddffd9",
+   "related_v11_family": null,
+   "source": "agile"
+  },
+  {
+   "hash": "bbae7ba9640c10b079e8be242f4cc091",
+   "family": "agile",
+   "isohash": "361cd42fc8874d97ad70bfeb94d0e9ee",
+   "bytes": 1810873,
+   "clauses": 99717,
+   "variables": 28489,
+   "gbd_result": "sat",
+   "tracks": [
+    "agile_2016",
+    "agile_2017"
+   ],
+   "key": "005904b75a3f41135dc1fa2aab93dad3c6e7144666d57a458d49d1db25533fe1",
+   "related_v11_family": null,
+   "source": "agile"
+  },
+  {
+   "hash": "74b6a718a7c26b0189dc1377d2d5eb50",
+   "family": "termination-analysis",
+   "isohash": "be1691da1c7d73fa7813e71a119b6d0d",
+   "bytes": 3878243,
+   "clauses": 209228,
+   "variables": 61164,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2009",
+    "application_2012"
+   ],
+   "key": "00188972719348c61e1e2e6723149dbe20ce6692fc0c6b03e281c004f5780221",
+   "related_v11_family": null,
+   "source": "application0916"
+  },
+  {
+   "hash": "728d8551228f43ee4b1d76a516144e88",
+   "family": "cryptography",
+   "isohash": "8e5acc2dd03388d61295fcdf9e13f414",
+   "bytes": 1214674,
+   "clauses": 86424,
+   "variables": 676,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "application_2009",
+    "application_2012",
+    "industrial_2005",
+    "industrial_2007"
+   ],
+   "key": "0090d769a4d422fb0dc8faa9887921295cae7372b484006957a4a897870e3496",
+   "related_v11_family": null,
+   "source": "application0916"
+  },
+  {
+   "hash": "066d6a47dfd9648d913ba8dbce722d75",
+   "family": "cryptography",
+   "isohash": "55bf2c43b8472dd1cc6f12eacc970fbe",
+   "bytes": 1715464,
+   "clauses": 97456,
+   "variables": 29254,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "application_2011"
+   ],
+   "key": "0097627086d923f521fbd43a6e0742f811871b4398f8f10aa0afc890fbbe8ef7",
+   "related_v11_family": null,
+   "source": "application0916"
+  },
+  {
+   "hash": "4a208e84509d3715094eed49ff3b5ec3",
+   "family": "random-modularity",
+   "isohash": "686e3831d006b2b03469c1a7d76d07a7",
+   "bytes": 154256,
+   "clauses": 9086,
+   "variables": 2200,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "application_2016"
+   ],
+   "key": "01024ee102fd94e552044408dbe0fa856be20f8c69e621942d9bed63b027d7e8",
+   "related_v11_family": "rand3",
+   "source": "application0916"
+  },
+  {
+   "hash": "d24e98d3e8f9ce352e81ffc56962eeba",
+   "family": "planning",
+   "isohash": "88fb9e6068da8056d1fb6d104cee3858",
+   "bytes": 4902,
+   "clauses": 493,
+   "variables": 128,
+   "gbd_result": "sat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2005"
+   ],
+   "key": "0075327c46afff5037ea8cc884ef61bb96e3d10776160de5c62b9ba62e1db22a",
+   "related_v11_family": "bwplan",
+   "source": "industrial0207"
+  },
+  {
+   "hash": "f166f9dd36c9fef7dcd936ff9025a960",
+   "family": "miter",
+   "isohash": "2a219196e1838c40fdb8198ec55c182a",
+   "bytes": 80929,
+   "clauses": 5921,
+   "variables": 2000,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2002",
+    "mus_2011"
+   ],
+   "key": "008b6b344cdbd8352a5046c6cf31e3b4722ce187ff80ff83f8a129309e2b12b8",
+   "related_v11_family": "factor",
+   "source": "industrial0207"
+  },
+  {
+   "hash": "c9d6302819097bf27da84e20a43736e1",
+   "family": "planning",
+   "isohash": "4e4ba56100bd28ea736871e697c0a067",
+   "bytes": 549598,
+   "clauses": 40461,
+   "variables": 4430,
+   "gbd_result": "unknown",
+   "tracks": [
+    "industrial_2004"
+   ],
+   "key": "0091a1d18e065c86ae6e6168a685e4f7abca7397dee42091db5f1740a787ad7f",
+   "related_v11_family": "bwplan",
+   "source": "industrial0207"
+  },
+  {
+   "hash": "6941e3ef1553cc912c75e0d2ebca789d",
+   "family": "unknown",
+   "isohash": "8d4e9d7f5add9f0472254e9a89945eef",
+   "bytes": 14379172,
+   "clauses": 426860,
+   "variables": 4671,
+   "gbd_result": "unsat",
+   "tracks": [
+    "anni_2022",
+    "industrial_2004"
+   ],
+   "key": "00dcee9fde01671d1bbb60b60a5bdff57a65987caa992ad5594333a80c4840cd",
+   "related_v11_family": null,
+   "source": "industrial0207"
+  }
+ ]
+}

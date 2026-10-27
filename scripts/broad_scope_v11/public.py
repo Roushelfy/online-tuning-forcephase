@@ -244,9 +244,10 @@ def fetch(which):
         with open(cnf, "rb") as f:
             for b in iter(lambda: f.read(1 << 22), b""):
                 hs.update(b)
-        out.append({"hash": h, "sha256": hs.hexdigest(), "sha256_xz": hashlib.sha256(open(xz, "rb").read()).hexdigest(),
+        out.append({**r, "id": r.get("id") or "v11pp-" + r["source"] + "-" + h, "role": "public_" + which,
+                    "sha256": hs.hexdigest(), "sha256_xz": hashlib.sha256(open(xz, "rb").read()).hexdigest(),
                     "bytes": os.path.getsize(cnf), "path": os.path.relpath(cnf, DATA)})
-    json.dump({"which": which, "files": out}, open(os.path.join(RES, f"public_files_{which}.json"), "w"), indent=1)
+    json.dump({"which": which, "instances": out}, open(os.path.join(RES, f"public_{which}_manifest.json"), "w"), indent=1)
     print(len(out), "files")
 
 
