@@ -1,0 +1,2414 @@
+{
+ "n": 240,
+ "action_agree": 240,
+ "solved_agree": 240,
+ "cpu_ratio_real_over_sim": {
+  "median": 0.9655157954884166,
+  "q10": 0.8814741420504709,
+  "q90": 1.0414499121164889
+ },
+ "total_sim": 55250.805001000015,
+ "total_real": 54061.468289000026,
+ "per_instance": {
+  "v11-assign2-L-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 60.632186999999995,
+   "real_cpu": 59.203573
+  },
+  "v11-assign2-L-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 88.967113,
+   "real_cpu": 91.431058
+  },
+  "v11-assign2-L-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 27.065935,
+   "real_cpu": 22.274987
+  },
+  "v11-assign2-L-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 615.128575,
+   "real_cpu": 454.81336799999997
+  },
+  "v11-assign2-L-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 59.220657,
+   "real_cpu": 52.228093
+  },
+  "v11-assign2-L-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1080.772132,
+   "real_cpu": 880.790037
+  },
+  "v11-assign2-L-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 47.878877,
+   "real_cpu": 47.052055
+  },
+  "v11-assign2-L-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 262.68660100000005,
+   "real_cpu": 202.400071
+  },
+  "v11-assign2-L-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 145.915827,
+   "real_cpu": 147.42656399999998
+  },
+  "v11-assign2-L-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 144.948465,
+   "real_cpu": 199.18478399999998
+  },
+  "v11-assign2-M-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 179.973354,
+   "real_cpu": 192.98399999999998
+  },
+  "v11-assign2-M-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.907295,
+   "real_cpu": 3.062039
+  },
+  "v11-assign2-M-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 124.57425900000001,
+   "real_cpu": 142.094681
+  },
+  "v11-assign2-M-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.505651,
+   "real_cpu": 4.174326
+  },
+  "v11-assign2-M-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 318.448486,
+   "real_cpu": 290.356732
+  },
+  "v11-assign2-M-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 18.852523,
+   "real_cpu": 18.018311
+  },
+  "v11-assign2-M-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 100.432411,
+   "real_cpu": 119.232914
+  },
+  "v11-assign2-M-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 121.244747,
+   "real_cpu": 138.477655
+  },
+  "v11-assign2-M-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 14.716085999999999,
+   "real_cpu": 12.404228
+  },
+  "v11-assign2-M-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 32.944145,
+   "real_cpu": 29.663504
+  },
+  "v11-assign2-S-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 11.917330999999999,
+   "real_cpu": 10.762821
+  },
+  "v11-assign2-S-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.576051,
+   "real_cpu": 3.252263
+  },
+  "v11-assign2-S-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.715416,
+   "real_cpu": 3.636855
+  },
+  "v11-assign2-S-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.0979779999999995,
+   "real_cpu": 3.570563
+  },
+  "v11-assign2-S-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.1525659999999998,
+   "real_cpu": 3.111779
+  },
+  "v11-assign2-S-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.9142439999999996,
+   "real_cpu": 2.8632539999999995
+  },
+  "v11-assign2-S-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.905422,
+   "real_cpu": 3.583212
+  },
+  "v11-assign2-S-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 7.908321000000001,
+   "real_cpu": 7.20874
+  },
+  "v11-assign2-S-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.573412,
+   "real_cpu": 2.058115
+  },
+  "v11-assign2-S-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 13.195775,
+   "real_cpu": 13.542961
+  },
+  "v11-bwplan-L-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 542.934854,
+   "real_cpu": 433.013731
+  },
+  "v11-bwplan-L-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 312.84290100000004,
+   "real_cpu": 312.266053
+  },
+  "v11-bwplan-L-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 385.904167,
+   "real_cpu": 375.785304
+  },
+  "v11-bwplan-L-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 230.423027,
+   "real_cpu": 241.406888
+  },
+  "v11-bwplan-L-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 222.403636,
+   "real_cpu": 195.950942
+  },
+  "v11-bwplan-L-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 75.401841,
+   "real_cpu": 69.665374
+  },
+  "v11-bwplan-L-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 346.13984,
+   "real_cpu": 302.234269
+  },
+  "v11-bwplan-L-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 56.831607999999996,
+   "real_cpu": 51.315258
+  },
+  "v11-bwplan-L-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 30.508387,
+   "real_cpu": 28.011631
+  },
+  "v11-bwplan-L-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 245.886659,
+   "real_cpu": 211.419639
+  },
+  "v11-bwplan-M-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 25.766301000000002,
+   "real_cpu": 21.852520000000002
+  },
+  "v11-bwplan-M-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 50.61034,
+   "real_cpu": 50.812926000000004
+  },
+  "v11-bwplan-M-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 64.955603,
+   "real_cpu": 62.587693
+  },
+  "v11-bwplan-M-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 24.415106,
+   "real_cpu": 26.227969
+  },
+  "v11-bwplan-M-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 56.825195,
+   "real_cpu": 61.488307
+  },
+  "v11-bwplan-M-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 15.267928,
+   "real_cpu": 14.837985
+  },
+  "v11-bwplan-M-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 37.565214000000005,
+   "real_cpu": 36.049704999999996
+  },
+  "v11-bwplan-M-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 17.80465,
+   "real_cpu": 17.095933
+  },
+  "v11-bwplan-M-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 48.864751,
+   "real_cpu": 47.592269
+  },
+  "v11-bwplan-M-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 52.067153000000005,
+   "real_cpu": 56.1198
+  },
+  "v11-bwplan-S-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.5439609999999995,
+   "real_cpu": 3.968427
+  },
+  "v11-bwplan-S-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 9.407255000000001,
+   "real_cpu": 10.322643000000001
+  },
+  "v11-bwplan-S-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 14.345909,
+   "real_cpu": 13.801596
+  },
+  "v11-bwplan-S-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 9.028381,
+   "real_cpu": 9.2299
+  },
+  "v11-bwplan-S-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 13.473272999999999,
+   "real_cpu": 15.224181
+  },
+  "v11-bwplan-S-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.08233,
+   "real_cpu": 3.625641
+  },
+  "v11-bwplan-S-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 6.459154000000001,
+   "real_cpu": 6.308562
+  },
+  "v11-bwplan-S-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.32157,
+   "real_cpu": 2.8282719999999997
+  },
+  "v11-bwplan-S-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 9.527224,
+   "real_cpu": 9.399063
+  },
+  "v11-bwplan-S-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 11.099653,
+   "real_cpu": 9.939088
+  },
+  "v11-col3-L-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3600.0,
+   "real_cpu": 3600.297747
+  },
+  "v11-col3-L-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 330.824033,
+   "real_cpu": 339.05080699999996
+  },
+  "v11-col3-L-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 38.98322300000001,
+   "real_cpu": 38.046661
+  },
+  "v11-col3-L-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 773.989835,
+   "real_cpu": 748.877146
+  },
+  "v11-col3-L-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 51.719147,
+   "real_cpu": 52.066189
+  },
+  "v11-col3-L-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3599.9670699999997,
+   "real_cpu": 3600.121426
+  },
+  "v11-col3-L-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3600.0,
+   "real_cpu": 3600.198206
+  },
+  "v11-col3-L-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.747165,
+   "real_cpu": 1.6522249999999998
+  },
+  "v11-col3-L-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 548.824513,
+   "real_cpu": 534.283699
+  },
+  "v11-col3-L-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 15.833225,
+   "real_cpu": 15.349069
+  },
+  "v11-col3-M-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 413.85929,
+   "real_cpu": 427.070101
+  },
+  "v11-col3-M-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 86.478116,
+   "real_cpu": 83.44956099999999
+  },
+  "v11-col3-M-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 54.248668,
+   "real_cpu": 56.527925
+  },
+  "v11-col3-M-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 10.071755999999999,
+   "real_cpu": 9.541819
+  },
+  "v11-col3-M-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 75.326255,
+   "real_cpu": 66.398146
+  },
+  "v11-col3-M-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 933.642379,
+   "real_cpu": 808.224321
+  },
+  "v11-col3-M-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 131.833195,
+   "real_cpu": 126.115352
+  },
+  "v11-col3-M-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.835682,
+   "real_cpu": 0.7676949999999999
+  },
+  "v11-col3-M-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 44.458957,
+   "real_cpu": 43.33735
+  },
+  "v11-col3-M-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.8690739999999999,
+   "real_cpu": 0.849974
+  },
+  "v11-col3-S-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 36.748124,
+   "real_cpu": 38.109396999999994
+  },
+  "v11-col3-S-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.20812,
+   "real_cpu": 1.1390539999999998
+  },
+  "v11-col3-S-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.288511,
+   "real_cpu": 2.17798
+  },
+  "v11-col3-S-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 9.735752000000002,
+   "real_cpu": 9.368308
+  },
+  "v11-col3-S-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.7883419999999999,
+   "real_cpu": 0.718854
+  },
+  "v11-col3-S-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 82.90953499999999,
+   "real_cpu": 86.206787
+  },
+  "v11-col3-S-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.306905,
+   "real_cpu": 0.294745
+  },
+  "v11-col3-S-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 5.444015,
+   "real_cpu": 5.34416
+  },
+  "v11-col3-S-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.06701,
+   "real_cpu": 3.808115
+  },
+  "v11-col3-S-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.496307,
+   "real_cpu": 0.470077
+  },
+  "v11-factor-L-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 460.041703,
+   "real_cpu": 427.937162
+  },
+  "v11-factor-L-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 505.88392999999996,
+   "real_cpu": 471.798538
+  },
+  "v11-factor-L-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 349.904927,
+   "real_cpu": 345.073815
+  },
+  "v11-factor-L-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 173.692887,
+   "real_cpu": 179.680949
+  },
+  "v11-factor-L-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 46.397246,
+   "real_cpu": 44.811737
+  },
+  "v11-factor-L-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 922.7120630000001,
+   "real_cpu": 800.303408
+  },
+  "v11-factor-L-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 391.640915,
+   "real_cpu": 370.642822
+  },
+  "v11-factor-L-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 133.861704,
+   "real_cpu": 127.862998
+  },
+  "v11-factor-L-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 123.499021,
+   "real_cpu": 124.742303
+  },
+  "v11-factor-L-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 185.447121,
+   "real_cpu": 194.943184
+  },
+  "v11-factor-M-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 289.949931,
+   "real_cpu": 279.241131
+  },
+  "v11-factor-M-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 20.023831,
+   "real_cpu": 19.199917
+  },
+  "v11-factor-M-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 60.83346099999999,
+   "real_cpu": 60.469014
+  },
+  "v11-factor-M-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 156.28418399999998,
+   "real_cpu": 152.072519
+  },
+  "v11-factor-M-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 67.255225,
+   "real_cpu": 69.746547
+  },
+  "v11-factor-M-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 8.554662999999998,
+   "real_cpu": 8.195749
+  },
+  "v11-factor-M-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 154.869477,
+   "real_cpu": 154.497283
+  },
+  "v11-factor-M-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 223.34472399999999,
+   "real_cpu": 225.133545
+  },
+  "v11-factor-M-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 19.966259,
+   "real_cpu": 20.124629000000002
+  },
+  "v11-factor-M-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 219.23667199999997,
+   "real_cpu": 225.508444
+  },
+  "v11-factor-S-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.383166,
+   "real_cpu": 0.391933
+  },
+  "v11-factor-S-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.98737,
+   "real_cpu": 4.04586
+  },
+  "v11-factor-S-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.93642,
+   "real_cpu": 0.9534860000000001
+  },
+  "v11-factor-S-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.466741,
+   "real_cpu": 0.428658
+  },
+  "v11-factor-S-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.876578,
+   "real_cpu": 1.8986189999999998
+  },
+  "v11-factor-S-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.5172250000000003,
+   "real_cpu": 3.577476
+  },
+  "v11-factor-S-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.950645,
+   "real_cpu": 1.950712
+  },
+  "v11-factor-S-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.986531,
+   "real_cpu": 3.083842
+  },
+  "v11-factor-S-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.586183,
+   "real_cpu": 0.572366
+  },
+  "v11-factor-S-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.6637230000000005,
+   "real_cpu": 2.6949430000000003
+  },
+  "v11-jssp-L-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 25.739171,
+   "real_cpu": 22.105691
+  },
+  "v11-jssp-L-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.230915,
+   "real_cpu": 2.297618
+  },
+  "v11-jssp-L-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 23.292633000000002,
+   "real_cpu": 23.585179
+  },
+  "v11-jssp-L-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 29.75913,
+   "real_cpu": 29.453578
+  },
+  "v11-jssp-L-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 7.019333,
+   "real_cpu": 7.80147
+  },
+  "v11-jssp-L-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.978929,
+   "real_cpu": 3.1377479999999998
+  },
+  "v11-jssp-L-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 11.305856,
+   "real_cpu": 11.287268000000001
+  },
+  "v11-jssp-L-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 5.198320000000001,
+   "real_cpu": 4.938673
+  },
+  "v11-jssp-L-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 29.196413,
+   "real_cpu": 28.709989
+  },
+  "v11-jssp-L-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 42.768707,
+   "real_cpu": 43.763512000000006
+  },
+  "v11-jssp-M-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 24.527236000000002,
+   "real_cpu": 24.519811
+  },
+  "v11-jssp-M-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 21.330738,
+   "real_cpu": 20.64679
+  },
+  "v11-jssp-M-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 43.616357,
+   "real_cpu": 41.595223000000004
+  },
+  "v11-jssp-M-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 19.543182,
+   "real_cpu": 18.276804
+  },
+  "v11-jssp-M-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 16.34574,
+   "real_cpu": 17.379137
+  },
+  "v11-jssp-M-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 18.92237,
+   "real_cpu": 17.126030999999998
+  },
+  "v11-jssp-M-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 25.133458,
+   "real_cpu": 24.880829
+  },
+  "v11-jssp-M-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 20.867997,
+   "real_cpu": 22.415592999999998
+  },
+  "v11-jssp-M-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 6.254484,
+   "real_cpu": 6.462090999999999
+  },
+  "v11-jssp-M-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 13.532737,
+   "real_cpu": 13.992548
+  },
+  "v11-jssp-S-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.690968,
+   "real_cpu": 0.719042
+  },
+  "v11-jssp-S-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 6.781382,
+   "real_cpu": 5.924244
+  },
+  "v11-jssp-S-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.963738,
+   "real_cpu": 2.92496
+  },
+  "v11-jssp-S-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.772469,
+   "real_cpu": 0.783372
+  },
+  "v11-jssp-S-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.031752,
+   "real_cpu": 0.983831
+  },
+  "v11-jssp-S-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 8.417195000000001,
+   "real_cpu": 7.781535
+  },
+  "v11-jssp-S-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 8.003006,
+   "real_cpu": 7.352849
+  },
+  "v11-jssp-S-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 6.652823,
+   "real_cpu": 5.5243660000000006
+  },
+  "v11-jssp-S-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.6233589999999998,
+   "real_cpu": 2.732097
+  },
+  "v11-jssp-S-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 5.64827,
+   "real_cpu": 5.5127500000000005
+  },
+  "v11-qcp-L-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 202.53185,
+   "real_cpu": 164.54441899999998
+  },
+  "v11-qcp-L-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 40.877551999999994,
+   "real_cpu": 42.194784
+  },
+  "v11-qcp-L-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 157.353677,
+   "real_cpu": 151.213775
+  },
+  "v11-qcp-L-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 27.136716,
+   "real_cpu": 29.382129000000003
+  },
+  "v11-qcp-L-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 20.661275,
+   "real_cpu": 18.296774
+  },
+  "v11-qcp-L-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 89.419238,
+   "real_cpu": 84.775552
+  },
+  "v11-qcp-L-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 80.34992799999999,
+   "real_cpu": 69.202466
+  },
+  "v11-qcp-L-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 67.917638,
+   "real_cpu": 60.942602
+  },
+  "v11-qcp-L-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 22.7097,
+   "real_cpu": 22.590369
+  },
+  "v11-qcp-L-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 63.783196999999994,
+   "real_cpu": 62.042412
+  },
+  "v11-qcp-M-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 25.078034000000002,
+   "real_cpu": 24.879792
+  },
+  "v11-qcp-M-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 33.580554,
+   "real_cpu": 34.766255
+  },
+  "v11-qcp-M-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 81.365566,
+   "real_cpu": 80.169952
+  },
+  "v11-qcp-M-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 23.690630000000002,
+   "real_cpu": 24.398214
+  },
+  "v11-qcp-M-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 68.502368,
+   "real_cpu": 70.001578
+  },
+  "v11-qcp-M-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 48.094008,
+   "real_cpu": 42.753679
+  },
+  "v11-qcp-M-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 12.034492,
+   "real_cpu": 12.536593
+  },
+  "v11-qcp-M-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 72.57955600000001,
+   "real_cpu": 73.929685
+  },
+  "v11-qcp-M-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 27.175777999999998,
+   "real_cpu": 26.143134
+  },
+  "v11-qcp-M-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 38.011613,
+   "real_cpu": 38.507481
+  },
+  "v11-qcp-S-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.5776189999999999,
+   "real_cpu": 1.49975
+  },
+  "v11-qcp-S-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.9995599999999999,
+   "real_cpu": 0.959382
+  },
+  "v11-qcp-S-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.651987,
+   "real_cpu": 4.510331
+  },
+  "v11-qcp-S-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.086066,
+   "real_cpu": 2.9814000000000003
+  },
+  "v11-qcp-S-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.6949129999999997,
+   "real_cpu": 3.6224269999999996
+  },
+  "v11-qcp-S-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.673797,
+   "real_cpu": 2.545718
+  },
+  "v11-qcp-S-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.5230139999999999,
+   "real_cpu": 1.48969
+  },
+  "v11-qcp-S-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.6403469999999998,
+   "real_cpu": 3.5005379999999997
+  },
+  "v11-qcp-S-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.0236539999999996,
+   "real_cpu": 2.8764749999999997
+  },
+  "v11-qcp-S-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.9435199999999999,
+   "real_cpu": 0.907316
+  },
+  "v11-rand3-L-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3600.0,
+   "real_cpu": 3600.283598
+  },
+  "v11-rand3-L-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.61868,
+   "real_cpu": 0.585961
+  },
+  "v11-rand3-L-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 6.956508,
+   "real_cpu": 6.7665180000000005
+  },
+  "v11-rand3-L-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.3907879999999997,
+   "real_cpu": 2.234338
+  },
+  "v11-rand3-L-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.635707,
+   "real_cpu": 0.605412
+  },
+  "v11-rand3-L-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3599.889199,
+   "real_cpu": 3600.398241
+  },
+  "v11-rand3-L-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.614695,
+   "real_cpu": 0.586572
+  },
+  "v11-rand3-L-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.415207,
+   "real_cpu": 2.26532
+  },
+  "v11-rand3-L-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3600.0,
+   "real_cpu": 3600.49041
+  },
+  "v11-rand3-L-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3600.0,
+   "real_cpu": 3600.329911
+  },
+  "v11-rand3-M-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 625.594554,
+   "real_cpu": 576.7888720000001
+  },
+  "v11-rand3-M-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.43319,
+   "real_cpu": 4.250630999999999
+  },
+  "v11-rand3-M-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.5902439999999999,
+   "real_cpu": 0.562913
+  },
+  "v11-rand3-M-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.6086779999999999,
+   "real_cpu": 0.547818
+  },
+  "v11-rand3-M-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.36107,
+   "real_cpu": 4.1785239999999995
+  },
+  "v11-rand3-M-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.257083,
+   "real_cpu": 2.079967
+  },
+  "v11-rand3-M-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 847.0599249999999,
+   "real_cpu": 806.3961730000001
+  },
+  "v11-rand3-M-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 830.2774539999999,
+   "real_cpu": 788.8978470000001
+  },
+  "v11-rand3-M-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.089016,
+   "real_cpu": 2.030694
+  },
+  "v11-rand3-M-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.5952659999999999,
+   "real_cpu": 0.565974
+  },
+  "v11-rand3-S-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.51754,
+   "real_cpu": 0.479052
+  },
+  "v11-rand3-S-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.7393700000000001,
+   "real_cpu": 0.684746
+  },
+  "v11-rand3-S-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.083292,
+   "real_cpu": 0.073028
+  },
+  "v11-rand3-S-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 8.010491,
+   "real_cpu": 7.551931
+  },
+  "v11-rand3-S-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.534694,
+   "real_cpu": 0.48784099999999997
+  },
+  "v11-rand3-S-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.487141,
+   "real_cpu": 0.45360799999999996
+  },
+  "v11-rand3-S-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.5347919999999999,
+   "real_cpu": 0.506205
+  },
+  "v11-rand3-S-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.8230529999999998,
+   "real_cpu": 1.734523
+  },
+  "v11-rand3-S-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.2288560000000004,
+   "real_cpu": 2.104357
+  },
+  "v11-rand3-S-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.5292169999999999,
+   "real_cpu": 0.512584
+  },
+  "v11-vcover-L-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 9.022342,
+   "real_cpu": 8.787123
+  },
+  "v11-vcover-L-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.753068,
+   "real_cpu": 3.343531
+  },
+  "v11-vcover-L-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.263521,
+   "real_cpu": 3.046883
+  },
+  "v11-vcover-L-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.0039829999999994,
+   "real_cpu": 2.8035509999999997
+  },
+  "v11-vcover-L-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.664713,
+   "real_cpu": 1.540192
+  },
+  "v11-vcover-L-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.607135,
+   "real_cpu": 2.735646
+  },
+  "v11-vcover-L-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 10.737865,
+   "real_cpu": 10.33128
+  },
+  "v11-vcover-L-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 492.619584,
+   "real_cpu": 464.28914499999996
+  },
+  "v11-vcover-L-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 4.256897,
+   "real_cpu": 4.034325
+  },
+  "v11-vcover-L-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.2147740000000002,
+   "real_cpu": 2.2047139999999996
+  },
+  "v11-vcover-M-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.432008,
+   "real_cpu": 1.355316
+  },
+  "v11-vcover-M-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.3367719999999998,
+   "real_cpu": 1.295666
+  },
+  "v11-vcover-M-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.111223,
+   "real_cpu": 2.172682
+  },
+  "v11-vcover-M-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.7803920000000002,
+   "real_cpu": 1.6791189999999998
+  },
+  "v11-vcover-M-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.7958720000000001,
+   "real_cpu": 1.8256399999999997
+  },
+  "v11-vcover-M-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.0148189999999997,
+   "real_cpu": 2.876433
+  },
+  "v11-vcover-M-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.523453,
+   "real_cpu": 3.573211
+  },
+  "v11-vcover-M-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3600.0,
+   "real_cpu": 3600.3453210000002
+  },
+  "v11-vcover-M-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.2606670000000002,
+   "real_cpu": 1.335546
+  },
+  "v11-vcover-M-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 3.039449,
+   "real_cpu": 3.100101
+  },
+  "v11-vcover-S-s2000": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 2.626419,
+   "real_cpu": 2.616736
+  },
+  "v11-vcover-S-s2001": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 24.389894,
+   "real_cpu": 23.541225
+  },
+  "v11-vcover-S-s2002": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 1.0569559999999998,
+   "real_cpu": 0.996678
+  },
+  "v11-vcover-S-s2003": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 6.42827,
+   "real_cpu": 6.261627
+  },
+  "v11-vcover-S-s2004": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3600.0,
+   "real_cpu": 3600.316297
+  },
+  "v11-vcover-S-s2005": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.709309,
+   "real_cpu": 0.7017859999999999
+  },
+  "v11-vcover-S-s2006": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 25.710386,
+   "real_cpu": 25.247674
+  },
+  "v11-vcover-S-s2007": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": false,
+   "real_solved": false,
+   "sim_cpu": 3600.0,
+   "real_cpu": 3600.3805389999998
+  },
+  "v11-vcover-S-s2008": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.29066600000000004,
+   "real_cpu": 0.289556
+  },
+  "v11-vcover-S-s2009": {
+   "sim_action": "D",
+   "real_action": "D",
+   "sim_path": "reader",
+   "real_path": "reader",
+   "sim_solved": true,
+   "real_solved": true,
+   "sim_cpu": 0.7238959999999999,
+   "real_cpu": 0.6979749999999999
+  }
+ }
+}

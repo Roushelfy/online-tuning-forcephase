@@ -126,10 +126,10 @@ def panel_stats(ids, cells, tab, methods, pairs):
         if not w.startswith("W_"):
             continue
         st = [tab[i][w] for i in ids]
-        obs = sorted((s["pre_exec_cpu"] if s["pre_exec_cpu"] is not None else (s["cpu"] or 0.0)) for s in st)
+        obs = sorted((s.get("pre_exec_cpu") if s.get("pre_exec_cpu") is not None else (s["cpu"] or 0.0)) for s in st)
         out.setdefault("wrappers", {})[w] = {
-            "paths": dict(collections.Counter(s["path"] for s in st)),
-            "actions": dict(collections.Counter(s["action"] for s in st)),
+            "paths": dict(collections.Counter(s.get("path") for s in st)),
+            "actions": dict(collections.Counter(s.get("action") for s in st)),
             "observation_cpu_mean": sum(obs) / len(obs) if obs else None,
             "observation_cpu_q": {q: obs[int(q * (len(obs) - 1))] for q in (0.5, 0.9, 0.99)} if obs else None}
     severe = {}
@@ -183,7 +183,7 @@ def main():
         cells = {i: (man[i].get("block", "-"), man[i]["family"], man[i]["level"]) for i in ids}
         stages = ["confirm"] if a.panel == "confirm" else ["disc_dev", "deploy_dev"]
     recs = load(stages, set(ids), wrappers)
-    wl = sorted(set(wrappers.values()))
+    wl = sorted({m for (_, m) in recs if m.startswith("W_")})  # wrappers deployed on this panel
     methods = ["D", "Fp", "Fm", "SBS"] + (["W_main"] if fixed_main else []) + wl
     tab = {}
     for i in ids:
