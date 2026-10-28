@@ -222,3 +222,24 @@ M5 唯一主要候选的选择规则（在看到 M4-lite 结果之前固定）�
 - **原 55 题压力测试**：D 42，主策略 39，F± 的 3600 s 视图补齐（F+ 38、F− 42）。
 - **平台与修正**：`robust_dev` 被抢占，补跑后改用 cpu-mid；12 个被 SIGXCPU 在上限处停止的运行原记为 error，修正分类规则并列清单。
 - **算力**：v10 合计 136.7 核时（只记账）。报告：[FINAL_REPORT.md](../reports/cross_scale_v10/FINAL_REPORT.md)。
+
+## 2026-10-27/28 — Agent Goal v11：扩大题目范围，识别可迁移的结构与 flag 偏好
+
+- **S0（任何 v11 求解之前提交）**：
+  - 来源审计 [SOURCE_AUDIT.md](../reports/broad_scope_v11/SOURCE_AUDIT.md)；
+  - 协议 [BROAD_SCOPE_PROTOCOL_V11.md](BROAD_SCOPE_PROTOCOL_V11.md)；
+  - 规则 `configs/broad_scope_v11/{generators,panel_rule,public_rule,stage_plan}.json`；
+  - 五个新生成家族（vcover、jssp、bwplan、factor、qcp），以及 col3 的 log 编码。生成器用 MiniSat 在极小实例上与穷举对照检验。
+- **探索、pilot 与面板冻结**：
+  - 探索只跑 D；jssp 的视界与规模先后修正三次（偏离 2–4）；
+  - 生成题 pilot 96 题；公开 pilot 40 题，并按预登记规则对 3 个来源做了大小调整；
+  - 公开 120 题中 60 题来自比赛年份，不足额按偏离 6 在同一来源内补足；
+  - 面板冻结为 `v11-panel-freeze`。
+- **训练池**（528 × 3 模式，外加编码 / 变号 / 重排 / seed 诊断 504 次）：
+  - D 505、F− 452、F+ 394，oracle 空间 13%；
+  - 只有 bwplan 偏 F−；qcp minimal 编码下 F+ 全部超时；
+  - disc_dev 中途改为三节点并行，取消的 92 个运行重跑，记 54.2 核时（偏离 7）。
+- **方法比较**：嵌套 CV 中 ST −0.2%、TR −0.7%、PR −1.6%（相对 NC −1.5%）、V10 少解 44 题。主策略冻结为固定 D，S* = ST（单叶 D），冻结为 `v11-rule-freeze`。
+- **确认 240**：D 228、F− 204、F+ 180、W_struct 228、W_v10 203。选择收益为 0；bwplan → F− 独立重现（+24.1% [13.9, 32.6]）。
+- **公开 120**：D 82、F− 78、F+ 75、W_struct 83（多出的 1 题是接近上限时的计时噪声）、W_v10 78；未见家族 77 题中 D 解 56。
+- **算力**：v11 合计 958.4 核时（只记账）。报告：[FINAL_REPORT.md](../reports/broad_scope_v11/FINAL_REPORT.md)。

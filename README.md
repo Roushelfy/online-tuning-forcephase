@@ -6,7 +6,7 @@ Research question: **Can cheap formula analysis or a short search probe select o
 
 **当前资源政策：每题每方法3600 CPU秒，项目与阶段累计核时不限。**在线方法的观察、重启与正式求解合计计时；超时不冒充完成时间。见 [RESOURCE_POLICY.md](docs/RESOURCE_POLICY.md)、[run_timeout_policy.json](configs/run_timeout_policy.json)。
 
-**当前目标：[Agent Goal v11：扩大题目范围与结构识别](docs/AGENT_GOAL.md)**（2026-10-27，目标已设定，尚未开始）。至少八类问题，新增基数/伪布尔、调度、规划、电路及组合结构；先做广泛D/F+/F−基线，再比较简单CNF结构路由与在线模型。增加编码/变号控制、新独立确认及未见公开家族验证。单次3600 CPU秒、累计核时不限。v10目标存档：[AGENT_GOAL_CROSS_SCALE_V10.md](docs/AGENT_GOAL_CROSS_SCALE_V10.md)。
+**Agent Goal v11（扩大题目范围与结构识别）：已交付，[reports/broad_scope_v11/FINAL_REPORT.md](reports/broad_scope_v11/FINAL_REPORT.md)（2026-10-28）。** 8 个生成家族（768 题）加 120 道公开题，固定 D 是最可靠的单一模式（确认集 D 228/240、F− 204、F+ 180；公开集 D 82/120）。只有积木规划 → F− 有可复现的家族偏好（确认集 +24.1% [13.9, 32.6]）。静态树、类型路由与 D 前缀读出器在嵌套 CV 中都没有超过 D，主策略按规则冻结为固定 D。编码可以单独决定偏好（拉丁方 minimal 编码下 F+ 全部超时，extended 编码下恢复正常）。累计 958 核时。
 
 **Agent Goal v10（跨规模的低成本三选一）：已交付，[reports/cross_scale_v10/FINAL_REPORT.md](reports/cross_scale_v10/FINAL_REPORT.md)。**
 

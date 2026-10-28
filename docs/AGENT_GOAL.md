@@ -1,6 +1,6 @@
 # Agent Goal v11：扩大题目范围，识别可迁移的结构与flag偏好
 
-设定日期：2026-10-27（美东）。状态：目标已设定，新实验尚未执行。分支 research/forcephase-study。
+设定日期：2026-10-27（美东）。状态：**已完成（2026-10-28）**，报告见 [reports/broad_scope_v11/FINAL_REPORT.md](../reports/broad_scope_v11/FINAL_REPORT.md)，协议见 [BROAD_SCOPE_PROTOCOL_V11.md](BROAD_SCOPE_PROTOCOL_V11.md)。分支 research/forcephase-study。
 
 ## 1. 目标与已有证据
 

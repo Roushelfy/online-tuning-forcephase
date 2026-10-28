@@ -141,29 +141,40 @@ def fig4(s):
 
 
 def fig5(vc):
-    groups = ["all"] + [g for g in sorted(vc["groups"]) if g.startswith(("block:", "family:"))]
-    refs = [("W_main", "SBS"), ("W_struct", "SBS"), ("W_main", "W_struct"), ("W_main", "W_nc")]
-    fig, ax = plt.subplots(figsize=(13, 4))
-    for k, (x, y) in enumerate(refs):
+    """Confirmation 240: (a) solved per family and method; (b) CPU change vs D (= dev SBS = main) per family where
+    both sides are complete, 95% CI (paired stratified bootstrap)."""
+    fams = [f for f in FAMS if "family:" + f in vc["groups"]]
+    ms = ["D", "Fp", "Fm", "W_struct", "W_v10"]
+    fig, ax = plt.subplots(1, 2, figsize=(14, 4))
+    for k, m in enumerate(ms):
+        ys = [vc["groups"]["family:" + f]["methods"][m]["solved"] for f in fams]
+        ax[0].bar(np.arange(len(fams)) + (k - 2) * 0.16, ys, 0.16, color=COL.get(m), label=LAB.get(m, m))
+    ax[0].set_xticks(range(len(fams)))
+    ax[0].set_xticklabels(fams, fontsize=8)
+    ax[0].set_ylabel("solved / 30 (cap 3600 s)")
+    tot = {m: vc["all"]["methods"][m]["solved"] for m in ms}
+    ax[0].set_title("Confirmation 240: solved per family (" + ", ".join(f"{LAB.get(m, m)} {tot[m]}" for m in ms) + ")",
+                    fontsize=8)
+    ax[0].legend(fontsize=7, ncol=3)
+    for k, (m, key) in enumerate((("Fp", "Fp_vs_D"), ("Fm", "Fm_vs_D"), ("W_struct", "W_struct_vs_SBS"), ("W_v10", "W_v10_vs_SBS"))):
         xs, ys, lo, hi = [], [], [], []
-        for gi, g in enumerate(groups):
-            st = vc["all"] if g == "all" else vc["groups"][g]
-            c = st["comparisons"].get(f"{x}_vs_{y}")
+        for j, f in enumerate(fams):
+            c = vc["groups"]["family:" + f]["comparisons"].get(key)
             if not c or "gain" not in c:
                 continue
-            xs.append(gi + (k - 1.5) * 0.18)
-            ys.append(100 * c["gain"])
-            lo.append(100 * (c["gain"] - c["ci"][0]))
-            hi.append(100 * (c["ci"][1] - c["gain"]))
-        if xs:
-            ax.errorbar(xs, ys, yerr=[lo, hi], fmt="o", capsize=2, ms=4, label=f"{LAB.get(x, x)} vs {LAB.get(y, y)}")
-    ax.axhline(0, color="k", lw=0.8)
-    ax.axhline(5, color="k", lw=0.6, ls=":")
-    ax.set_xticks(range(len(groups)))
-    ax.set_xticklabels([g.split(":")[-1] for g in groups], rotation=45, fontsize=8)
-    ax.set_ylabel("CPU reduction (%) with 95% CI")
-    ax.set_title("Confirmation 240 (complete groups only)")
-    ax.legend(fontsize=7)
+            g = max(c["gain"], -2.0)
+            xs.append(j + (k - 1.5) * 0.18)
+            ys.append(100 * g)
+            lo.append(100 * max(0.0, g - max(c["ci"][0], -2.0)))
+            hi.append(100 * max(0.0, max(c["ci"][1], -2.0) - g))
+        ax[1].errorbar(xs, ys, yerr=[lo, hi], fmt="o", capsize=2, ms=4, color=COL.get(m), label=LAB.get(m, m) + " vs D")
+    ax[1].axhline(0, color="k", lw=0.8)
+    ax[1].set_ylim(-200, 60)
+    ax[1].set_xticks(range(len(fams)))
+    ax[1].set_xticklabels(fams, fontsize=8)
+    ax[1].set_ylabel("CPU reduction vs D (%), clipped at -200")
+    ax[1].set_title("Complete families only (col3, rand3, vcover have timeouts: see solved counts)", fontsize=8)
+    ax[1].legend(fontsize=7)
     fig.tight_layout()
     fig.savefig(os.path.join(REP, "fig5_confirm_gains.png"), dpi=130)
 

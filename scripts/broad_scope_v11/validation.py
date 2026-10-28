@@ -105,9 +105,9 @@ def panel_stats(ids, cells, tab, methods, pairs):
             c.update(gain=pt, ci=[lo, hi], max_loss_s=-min(d), max_loss_instance=ids[worst],
                      share_top={k: (sum(pos[:k]) / sum(pos) if pos else None) for k in (1, 3, 10)},
                      net_gain_s=sum(ys) - sum(xs))
-            if pos:
-                top = max(range(len(ids)), key=lambda k: ys[k] - xs[k])
-                rest = [k for k in range(len(ids)) if k != top]
+            top = max(range(len(ids)), key=lambda k: ys[k] - xs[k])
+            rest = [k for k in range(len(ids)) if k != top]
+            if pos and rest and sum(ys[k] for k in rest) > 0:
                 c["without_top_instance"] = {"instance": ids[top],
                                              "gain": 1 - sum(xs[k] for k in rest) / sum(ys[k] for k in rest)}
         else:
@@ -209,8 +209,10 @@ def main():
             r = meta[i]
             groups["source:" + r["source"]].append(i)
             groups["kind:" + ("competition" if r["source"].startswith("comp") else "other")].append(i)
-            groups["family_relation:" + ("unseen" if r["unseen_in_v11_training"] else "related:" + r["related_v11_family"])].append(i)
+            if not r["unseen_in_v11_training"]:
+                groups["related_to:" + r["related_v11_family"]].append(i)
             groups["family_relation:" + ("unseen" if r["unseen_in_v11_training"] else "related")].append(i)
+            groups["gbd_family:" + str(r["family"])].append(i)
             groups["D_bin:" + d_bin(tab, i)].append(i)
         else:
             r = meta[i]
@@ -225,6 +227,9 @@ def main():
     for i in ids:
         an = next((tab[i][m]["answer"] for m in methods if tab[i][m]["answer"]), "unknown")
         ans[an].append(i)
+    if fixed_main:  # the fixed main strategy is the D record, not a wrapper
+        for st in [res["all"]] + list(res.get("groups", {}).values()):
+            st.get("wrappers", {}).pop("W_main", None)
     res["by_answer_posthoc"] = {k: panel_stats(v, cells, tab, methods, pairs) for k, v in sorted(ans.items())}
     res["per_instance"] = tab
     out = os.path.join(L.RES, f"validation_{a.panel}.json")

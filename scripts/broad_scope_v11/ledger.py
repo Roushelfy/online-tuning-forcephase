@@ -65,7 +65,8 @@ def main():
         tot, tot_chk, tot_live, tot_lost = tot + cpu, tot_chk + chk, tot_live + live, tot_lost + lost
     lines += [f"| **合计** | | **{tot / 3600:.3f}** | **{tot_chk / 3600:.4f}** | | {tot_live / 3600:.3f} | {tot_lost / 3600:.3f} |", "",
               "- `policy_timeout*`：被内核 CPU 上限（SIGXCPU）在 3600 s 处停止、记为 `error` 的运行（v11 runner 已按 v10 修正直接记为 `policy_timeout`，此行只作保险）。",
-              "- 平台中断损失：作业被 Slurm 中断时正在运行、没有写出记录的部分，按最后一次心跳计。",
+              "- 平台中断损失：作业被 Slurm 中断时正在运行、没有写出记录的部分，按最后一次心跳计。本轮唯一一次是 `disc_dev` 改为三节点并行时主动取消的单节点作业 757707（协议第 12 节第 7 条），92 个在跑的运行（54.2 核时）由新 runner 从头重跑。",
+              "- 不在表内的少量开销：语义检查、生成器测试、复现脚本与分析脚本（各为几分钟级 CPU）。",
               f"- 实例生成 CPU：{gen / 3600:.4f} 核时（试采样与正式清单）。",
               f"- v11 合计（求解 + 检查 + 生成 + 平台中断损失）：**{(tot + tot_chk + gen + tot_lost) / 3600:.3f} 核时**。"]
     os.makedirs(RES, exist_ok=True)
