@@ -1,0 +1,51 @@
+{
+  "schema": "forcephase.anniversary2022_baseline.spec.v1",
+  "study": "anniversary2022_cadical_baseline_20261105",
+  "status": "FROZEN",
+  "frozen_utc": "2026-11-08",
+  "goal": "D/Fplus/Fminus T600 seed0 baseline on all 4719 inputs retained by the user-approved official-results filter (14157 runs)",
+  "expected_inputs": 4719,
+  "manifest_sha256": "722bb437a25e18ab1f41fa86945daf01400e25b8863b0274a9a49a5fdbb59c87",
+  "cohort_filter_receipt_path": "configs/anniversary2022_baseline/manifest.official-solvable.v1.receipt.json",
+  "cohort_filter_receipt_sha256": "33f8fd431281d42a6e1a29cba1bd28684fa3603301385ca198deb86bfd74acd4",
+  "actions": {
+    "D": ["--phase=1", "--forcephase=0"],
+    "Fplus": ["--phase=1", "--forcephase=1"],
+    "Fminus": ["--phase=0", "--forcephase=1"]
+  },
+  "seeds": [0],
+  "solver_commit": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+  "solver_path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/bin/cadical",
+  "solver_sha256": "250220f9c8b6806f4144a0bded6093f888ba5617a530dbb37b6dfde4787c5e6d",
+  "checker_path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/bin/lrat-trim",
+  "checker_sha256": "4094f88dedb5343b9b48c782a345e712224ef21baac1ef68387809615c5f9b07",
+  "cutoff_s": 600,
+  "wall_watchdog_s": 1800,
+  "termination_grace_s": 5,
+  "checker_cpu_s": 1800,
+  "checker_wall_s": 2400,
+  "workers": 8,
+  "memory_bytes": 34359738368,
+  "memory_reserve_bytes": 8589934592,
+  "proof_limit_bytes": 34359738368,
+  "disk_reserve_bytes": 68719476736,
+  "proof_dir": "/var/tmp/anni2022-cluster-v1",
+  "download_workers": 1,
+  "download_wall_s": 3600,
+  "prefetch_parents": 12,
+  "evict_completed_inputs": true,
+  "max_physical_cpu_hours": 1500,
+  "cluster": {
+    "partition": "cpu-mid (AMD EPYC 9454, 2x48 cores, SMT2, 1.5 TB RAM per node)",
+    "shards": 24,
+    "per_shard_slurm": "1 task, 20 logical CPUs (10 whole cores), 200G memory, --no-requeue",
+    "cpu_tokens": "first 8 CPUs of the sorted affinity = one hardware thread on each of 8 distinct physical cores",
+    "container": "gs-srun image genesis 1_26, Python 3.10 standard library, prlimit, taskset",
+    "proof_storage": "node-local NVMe under proof_dir; deleted after a valid outcome, as in the original runner"
+  },
+  "budget_note": "max_physical_cpu_hours is a per-shard admission ceiling set above the shard's worst case (about 590 runs x (600 + 1800 + 1) s = 393 CPU-h); it never binds. Solver worst case for the cohort is 2359.5 CPU-h; the expected total is far lower because solved runs stop early.",
+  "binaries": {
+    "cadical": "build/upstream of the main research branch: CaDiCaL 3.0.1 at c60730422e758ef1cebe7aeddf2dda31c996bf04, unpatched, configure -static, g++ 13.4.0 -O3 -DNDEBUG",
+    "lrat_trim": "third_party/lrat-trim at b30f400f4ee5c32b77ee566a7c006081b521534f, gcc 13.4.0"
+  }
+}

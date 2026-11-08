@@ -9,7 +9,7 @@ import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from .common import ACTIONS, cpu_total, fingerprint, process_state, read, sha, source_identity, utc, validate_spec, write
+from .common import ACTIONS, cpu_total, fingerprint, process_state, read, sha, shard_rows, source_identity, utc, validate_spec, write
 from .stage_inputs import stage
 from .run_one import run_one
 
@@ -24,11 +24,13 @@ def connect(root):
 def progress(db, root, spec, started, prior_cpu, cpu0, prior_wall=0.):
     counts = dict(db.execute("SELECT state,count(*) FROM jobs GROUP BY state").fetchall())
     inputs = dict(db.execute("SELECT state,count(*) FROM inputs GROUP BY state").fetchall())
-    completed = counts.get("COMPLETE", 0); expected = spec["expected_inputs"] * 3
+    # A shard's denominator is its own inputs; the full-cohort status comes only from merging all shards.
+    owned = db.execute("SELECT count(*) FROM inputs").fetchone()[0] if "shard" in spec else spec["expected_inputs"]
+    completed = counts.get("COMPLETE", 0); expected = owned * 3
     errors = counts.get("INVALID", 0) + counts.get("BLOCKED", 0)
     status = "COMPLETE_VALID_MATRIX" if completed == expected else "COMPLETE_WITH_UNRESOLVED_ERRORS" if completed + errors == expected else "PARTIAL"
     wall = time.monotonic() - started
-    snapshot = {"status": status, "scope": spec["status"], "expected_runs": expected,
+    snapshot = {"status": status, "scope": spec["status"], "expected_runs": expected, "shard": spec.get("shard"),
                 "jobs": counts, "inputs": inputs, "completed_valid": completed,
                 "session_wall_s": wall, "measured_cpu_s": prior_cpu + cpu_total() - cpu0,
                 "total_execution_wall_s": prior_wall + wall,
@@ -39,7 +41,7 @@ def progress(db, root, spec, started, prior_cpu, cpu0, prior_wall=0.):
     return snapshot
 
 
-def execute(root, spec_path=None, manifest_path=None):
+def execute(root, spec_path=None, manifest_path=None, shard=None):
     root = Path(root).resolve(); root.mkdir(parents=True, exist_ok=True)
     lock = (root / ".owner.lock").open("a+")
     try: fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
@@ -47,7 +49,14 @@ def execute(root, spec_path=None, manifest_path=None):
     frozen = root / "metadata"
     if spec_path is None:
         spec_path, manifest_path = frozen / "spec.json", frozen / "manifest.csv"
-    spec = read(spec_path); rows = validate_spec(spec, manifest_path)
+    spec = read(spec_path)
+    if shard is not None:
+        # The shard and its node-local proof directory become part of this root's frozen spec.
+        spec = {**spec, "shard": {"index": shard[0], "count": shard[1]}}
+        if "proof_dir" in spec:
+            spec["proof_dir"] = str(Path(spec["proof_dir"]) / f"shard-{shard[0]:03d}-of-{shard[1]:03d}")
+    rows = shard_rows(validate_spec(spec, manifest_path), spec)
+    if "proof_dir" in spec: Path(spec["proof_dir"]).mkdir(parents=True, exist_ok=True)
     identity = {"solver_sha256": spec["solver_sha256"], "checker_sha256": spec["checker_sha256"],
                 "solver_commit": spec["solver_commit"], "source": source_identity(),
                 "cutoff_s": spec["cutoff_s"], "clock": "solver_process_cpu", "verification": "timed_binary_lrat",
@@ -164,7 +173,9 @@ def execute(root, spec_path=None, manifest_path=None):
                     buffered += 1
                 while budget_ok and len(pending_runs) < len(cpus):
                     disk_needed = spec["disk_reserve_bytes"] + (len(pending_runs)+1)*spec["proof_limit_bytes"]
-                    if shutil.disk_usage(root).free < disk_needed:
+                    # With a node-local proof_dir the proof reserve is checked there; the shared root keeps its reserve.
+                    proof_fs = spec.get("proof_dir", root)
+                    if shutil.disk_usage(proof_fs).free < disk_needed or shutil.disk_usage(root).free < spec["disk_reserve_bytes"]:
                         stop_reason = "PROOF_DISK_ADMISSION"; break
                     job = db.execute("SELECT jobs.*,inputs.receipt FROM jobs JOIN inputs USING(k) WHERE jobs.state='QUEUED' AND inputs.state='READY' ORDER BY inputs.ord,jobs.action LIMIT 1").fetchone()
                     if job is None: break
@@ -181,7 +192,8 @@ def execute(root, spec_path=None, manifest_path=None):
                 time.sleep(0.05)
     finally:
         session = {"physical_cpu_s": cpu_total()-cpu0, "wall_s": time.monotonic()-started,
-                   "session_id": session_id, "finished_utc": utc(), "billing": "parent process plus all reaped children; not added again to nested run costs"}
+                   "session_id": session_id, "finished_utc": utc(), "host": os.uname().nodename, "cpus": cpus,
+                   "billing": "parent process plus all reaped children; not added again to nested run costs"}
         write(sessions / (session_id+".json"), session)
     snap = progress(db, root, spec, started, prior_cpu, cpu0, prior_wall)
     snap["admission_note"] = stop_reason; write(root / "progress.json", snap)
@@ -192,10 +204,13 @@ def execute(root, spec_path=None, manifest_path=None):
 
 def main():
     p = argparse.ArgumentParser(); p.add_argument("command", choices=["start", "resume", "status"])
-    p.add_argument("--root", required=True); p.add_argument("--spec"); p.add_argument("--manifest"); a = p.parse_args()
+    p.add_argument("--root", required=True); p.add_argument("--spec"); p.add_argument("--manifest")
+    p.add_argument("--shard", help="INDEX/COUNT, start only: own manifest positions i with i %% COUNT == INDEX"); a = p.parse_args()
     if a.command == "status": print(json.dumps(read(Path(a.root)/"progress.json"), indent=2)); return
     if a.command == "start" and (not a.spec or not a.manifest): p.error("start requires --spec and --manifest")
-    raise SystemExit(execute(a.root, a.spec if a.command == "start" else None, a.manifest if a.command == "start" else None))
+    if a.shard and a.command != "start": p.error("--shard is fixed at start; resume reads it from the frozen spec")
+    shard = tuple(int(x) for x in a.shard.split("/")) if a.shard else None
+    raise SystemExit(execute(a.root, a.spec if a.command == "start" else None, a.manifest if a.command == "start" else None, shard))
 
 
 if __name__ == "__main__": main()

@@ -4,7 +4,7 @@ import lzma
 import tempfile
 import unittest
 from pathlib import Path
-from .common import check_model, parse_stats, validate_spec, write
+from .common import ACTIONS, check_model, parse_stats, sha, shard_rows, validate_spec, write
 from .export_results import export
 from .stage_inputs import stage
 from .filter_manifest import exclude, score_status
@@ -70,6 +70,30 @@ class ScientificContracts(unittest.TestCase):
             write(Path(d)/"progress.json",{"status":"PARTIAL"})
             with self.assertRaisesRegex(ValueError,"incomplete or invalid"):
                 export(d,Path(d)/"result.tar.gz",True)
+
+    def test_shards_partition_the_cohort(self):
+        rows = [{"instance_key": str(i)} for i in range(10)]
+        parts = [shard_rows(rows, {"shard": {"index": i, "count": 3}}) for i in range(3)]
+        keys = [r["instance_key"] for part in parts for r in part]
+        self.assertEqual(sorted(keys), sorted(r["instance_key"] for r in rows))
+        self.assertEqual(len(keys), len(set(keys)))
+        self.assertEqual(shard_rows(rows, {}), rows)
+
+    def test_invalid_shard_or_relative_proof_dir_rejected(self):
+        with tempfile.TemporaryDirectory() as d:
+            manifest = Path(d)/"m.csv"
+            manifest.write_text("instance_key,url,role\na,file:///a,qualification\nb,file:///b,qualification\n")
+            spec = {"status": "QUALIFICATION", "expected_inputs": 2, "manifest_sha256": sha(manifest), "actions": ACTIONS,
+                    "seeds": [0], "cutoff_s": 2, "wall_watchdog_s": 10, "max_physical_cpu_hours": 0.05,
+                    "memory_bytes": 1 << 29, "proof_limit_bytes": 1 << 27, "checker_cpu_s": 20, "checker_wall_s": 30,
+                    "workers": 2}
+            self.assertEqual(len(validate_spec(spec, manifest, tools=False)), 2)
+            self.assertEqual(len(validate_spec({**spec, "shard": {"index": 1, "count": 2}, "proof_dir": "/tmp/p"}, manifest, tools=False)), 2)
+            for bad in [{"index": 2, "count": 2}, {"index": -1, "count": 2}, {"index": 0, "count": 3}, {"index": 0}]:
+                with self.assertRaisesRegex(ValueError, "invalid shard"):
+                    validate_spec({**spec, "shard": bad}, manifest, tools=False)
+            with self.assertRaisesRegex(ValueError, "absolute"):
+                validate_spec({**spec, "proof_dir": "relative/dir"}, manifest, tools=False)
 
 
 if __name__=="__main__":unittest.main()

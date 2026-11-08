@@ -64,7 +64,9 @@ def run_one(spec, staged, action, seed, root, affinity, measurement_identity):
     if sha(staged["path"]) != staged["input_sha256"]:
         raise ValueError("staged input changed before execution")
     T = spec["cutoff_s"]
-    proof, log = directory / "solver.lrat", directory / "solver.log"
+    # Cluster runs write the proof to node-local disk (spec proof_dir); it is deleted after a valid outcome as before.
+    proof = Path(spec["proof_dir"]) / (run_id + ".lrat") if spec.get("proof_dir") else directory / "solver.lrat"
+    log = directory / "solver.log"
     command = [spec["solver_path"], *ACTIONS[action], f"--seed={seed}", "--stats", "--lrat", "--binary=true",
                "-t", str(math.ceil(spec["wall_watchdog_s"])), staged["path"], str(proof)]
     physical_id = str(uuid.uuid4()); started = utc(); thread0 = time.thread_time()

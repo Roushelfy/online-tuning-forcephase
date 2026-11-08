@@ -106,11 +106,26 @@ def validate_spec(spec, manifest, tools=True):
             raise ValueError("missing or invalid resource limit: " + key)
     if spec["wall_watchdog_s"] < spec["cutoff_s"] or not 1 <= spec["workers"] <= 8:
         raise ValueError("invalid deadline/workers")
+    if "shard" in spec:
+        shard = spec["shard"]
+        if set(shard) != {"index", "count"} or not all(isinstance(shard[k], int) for k in shard) or \
+                not 0 <= shard["index"] < shard["count"] <= len(rows):
+            raise ValueError("invalid shard")
+    if "proof_dir" in spec and not (isinstance(spec["proof_dir"], str) and os.path.isabs(spec["proof_dir"])):
+        raise ValueError("proof_dir must be an absolute path")
     if tools:
         for name in ["solver", "checker"]:
             if sha(spec[name + "_path"]) != spec[name + "_sha256"]:
                 raise ValueError("changed " + name)
     return rows
+
+
+def shard_rows(rows, spec):
+    """Cluster sharding (2026-11-08): the whole frozen cohort is validated first; a shard owns the manifest
+    positions i with i % count == index. Shards are disjoint and their union is the full cohort."""
+    if "shard" not in spec:
+        return rows
+    return [r for i, r in enumerate(rows) if i % spec["shard"]["count"] == spec["shard"]["index"]]
 
 
 def parse_stats(text):
