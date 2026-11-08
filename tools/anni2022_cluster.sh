@@ -10,7 +10,7 @@
 # Environment: ANNI_RUN (run directory), ANNI_COUNT (shards, default 24), ANNI_TIME (Slurm walltime, scheduling only).
 set -euo pipefail
 SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-RUN="${ANNI_RUN:-/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/cluster_v1}"
+RUN="${ANNI_RUN:-/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/cluster_v2}"
 COUNT="${ANNI_COUNT:-24}"
 SPEC="configs/anniversary2022_baseline/spec.cluster-v1.json"
 MANIFEST="configs/anniversary2022_baseline/manifest.official-solvable.v1.csv"

@@ -131,7 +131,9 @@ def shard_rows(rows, spec):
 def parse_stats(text):
     values = {}
     for key in ["conflicts", "decisions", "propagations", "restarts", "rephased"]:
-        matches = re.findall(r"^c\s+" + key + r":\s+([0-9]+)(?:\s|$)", text, re.M)
+        # Top-level statistics only ("c conflicts:"). CaDiCaL 3.0.1 also prints indented sub-statistics such as
+        # "c   conflicts: 0 ... per warmup" after the main entry; matching those recorded 0 conflicts (fixed 2026-11-08).
+        matches = re.findall(r"^c " + key + r":\s+([0-9]+)(?:\s|$)", text, re.M)
         values[key] = int(matches[-1]) if matches else None
     return values
 

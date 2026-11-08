@@ -71,6 +71,18 @@ class ScientificContracts(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,"incomplete or invalid"):
                 export(d,Path(d)/"result.tar.gz",True)
 
+    def test_indented_sub_statistics_are_not_top_level_counts(self):
+        # Shape of the CaDiCaL 3.0.1 statistics block seen on the cluster (warmup sub-entry after the main one).
+        text = ("c chronological:            222697         2.03 %  of conflicts\n"
+                "c conflicts:              10967737     18286.93    per second\n"
+                "c   backtracked:          11183701       101.97 %  of conflicts\n"
+                "c decisions:              10994830     18332.10    per second\n"
+                "c restarts:                   1076     10193.06    interval\n"
+                "c   conflicts:                   0         0.00    per warmup\n"
+                "c   decisions:                   0         0.00    per warmup\n")
+        s = parse_stats(text)
+        self.assertEqual((s["conflicts"], s["decisions"], s["restarts"]), (10967737, 10994830, 1076))
+
     def test_shards_partition_the_cohort(self):
         rows = [{"instance_key": str(i)} for i in range(10)]
         parts = [shard_rows(rows, {"shard": {"index": i, "count": 3}}) for i in range(3)]

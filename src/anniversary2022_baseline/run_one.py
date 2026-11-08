@@ -12,8 +12,12 @@ from .common import ACTIONS, check_model, fingerprint, parse_stats, process_stat
 
 
 def limited_process(command, log, cpu_limit, wall_limit, memory, file_limit, affinity, active_path, grace=5):
+    # RLIMIT_CPU is only a backstop behind the /proc-based SIGTERM at cpu_limit. The kernel checks it on the raw
+    # tick-sampled CPU clock, which can run ahead of the /proc and rusage values (on the cluster, SIGXCPU at a soft
+    # limit of cutoff+2 s arrived when /proc showed 599.8 s), so the backstop needs a margin (changed 2026-11-08).
+    backstop = math.ceil(cpu_limit * 1.02) + 5
     actual = ["prlimit", f"--as={memory}", f"--fsize={file_limit}",
-              f"--cpu={math.ceil(cpu_limit)+2}:{math.ceil(cpu_limit)+4}", "--",
+              f"--cpu={backstop}:{backstop+5}", "--",
               "taskset", "-c", str(affinity), *map(str, command)]
     begin = time.monotonic(); reason = None; stop_at = None; hard_kill = False
     with Path(log).open("xb") as f:
