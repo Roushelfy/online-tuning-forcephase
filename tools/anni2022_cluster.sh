@@ -22,7 +22,7 @@ shard_root() { printf '%s/shard-%03d' "$RUN" "$1"; }
 case "$CMD" in
   status)
     for d in "$RUN"/shard-*; do
-      [ -f "$d/progress.json" ] && python3 -c "import json,sys;p=json.load(open(sys.argv[1]));print(sys.argv[1].rsplit('/',1)[-1],p['status'],p['completed_valid'],'/',p['expected_runs'],p['jobs'],p.get('admission_note'),p['updated_utc'])" "$d/progress.json"
+      [ -f "$d/progress.json" ] && python3 -c "import json,sys;p=json.load(open(sys.argv[1]));print(sys.argv[1].split('/')[-2],p['status'],p['completed_valid'],'/',p['expected_runs'],p['jobs'],p.get('admission_note'),p['updated_utc'])" "$d/progress.json"
     done; exit 0;;
   collect)
     OUT="${1:?snapshot directory}"
