@@ -4,17 +4,18 @@
 #
 #   tools/anni2022_cluster.sh start  [INDEX ...]   # first launch (default: every shard 0..COUNT-1)
 #   tools/anni2022_cluster.sh resume [INDEX ...]   # re-attach to existing shard roots (frozen spec read from the root)
+#   tools/anni2022_cluster.sh recover [INDEX ...]  # resume --recover-incomplete: requeue attempts interrupted by a lost job
 #   tools/anni2022_cluster.sh status               # per-shard progress.json summary
 #   tools/anni2022_cluster.sh collect SNAPSHOT_DIR # merged snapshot over all shard roots (run in a container)
 #
 # Environment: ANNI_RUN (run directory), ANNI_COUNT (shards, default 24), ANNI_TIME (Slurm walltime, scheduling only).
 set -euo pipefail
 SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-RUN="${ANNI_RUN:-/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/cluster_v2}"
+RUN="${ANNI_RUN:-/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/cluster_v3}"
 COUNT="${ANNI_COUNT:-24}"
 SPEC="configs/anniversary2022_baseline/spec.cluster-v1.json"
 MANIFEST="configs/anniversary2022_baseline/manifest.official-solvable.v1.csv"
-CMD="${1:?start|resume|status|collect}"; shift || true
+CMD="${1:?start|resume|recover|status|collect}"; shift || true
 mkdir -p "$RUN/logs"
 
 shard_root() { printf '%s/shard-%03d' "$RUN" "$1"; }
@@ -28,7 +29,7 @@ case "$CMD" in
     OUT="${1:?snapshot directory}"
     roots=(); for i in $(seq 0 $((COUNT-1))); do roots+=("$(shard_root "$i")"); done
     cd "$SRC" && python3 -m src.anniversary2022_baseline.collect_results --root "${roots[@]}" --snapshot "$OUT"; exit 0;;
-  start|resume) ;;
+  start|resume|recover) ;;
   *) echo "unknown command $CMD" >&2; exit 1;;
 esac
 
@@ -39,6 +40,8 @@ for i in "${IDX[@]}"; do
   if [ "$CMD" = start ]; then
     [ -e "$R/metadata/spec.json" ] && { echo "shard $i already started; use resume" >&2; exit 1; }
     ARGS="start --root '$R' --spec '$SPEC' --manifest '$MANIFEST' --shard $i/$COUNT"
+  elif [ "$CMD" = recover ]; then
+    ARGS="resume --root '$R' --recover-incomplete"
   else
     ARGS="resume --root '$R'"
   fi

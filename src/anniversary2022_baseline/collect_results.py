@@ -14,11 +14,11 @@ def collect(root, out):
 
 def collect_roots(roots, out):
     """One snapshot from one run root, or from all shard roots of a cluster run (2026-11-08). Shards must share the
-    frozen spec (apart from shard and node-local proof_dir) and measurement identity, and partition the cohort."""
+    frozen spec (apart from shard and the node-local proof_dir and cache_dir) and measurement identity, and partition the cohort."""
     roots, out = [Path(r).resolve() for r in roots], Path(out)
     if out.exists(): raise ValueError("snapshot is immutable; choose a new output")
     specs = [read(r/"metadata/spec.json") for r in roots]; identities = [read(r/"metadata/identity.json") for r in roots]
-    common = lambda s: {k: v for k, v in s.items() if k not in ("shard", "proof_dir")}
+    common = lambda s: {k: v for k, v in s.items() if k not in ("shard", "proof_dir", "cache_dir")}
     if any(common(s) != common(specs[0]) or i != identities[0] for s, i in zip(specs, identities)):
         raise ValueError("shards differ in frozen spec or measurement identity")
     spec, identity = specs[0], identities[0]

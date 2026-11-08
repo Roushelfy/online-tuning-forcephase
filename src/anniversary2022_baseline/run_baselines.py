@@ -41,7 +41,7 @@ def progress(db, root, spec, started, prior_cpu, cpu0, prior_wall=0.):
     return snapshot
 
 
-def execute(root, spec_path=None, manifest_path=None, shard=None):
+def execute(root, spec_path=None, manifest_path=None, shard=None, recover=False):
     root = Path(root).resolve(); root.mkdir(parents=True, exist_ok=True)
     lock = (root / ".owner.lock").open("a+")
     try: fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
@@ -51,12 +51,15 @@ def execute(root, spec_path=None, manifest_path=None, shard=None):
         spec_path, manifest_path = frozen / "spec.json", frozen / "manifest.csv"
     spec = read(spec_path)
     if shard is not None:
-        # The shard and its node-local proof directory become part of this root's frozen spec.
+        # The shard and its node-local proof/cache directories become part of this root's frozen spec.
         spec = {**spec, "shard": {"index": shard[0], "count": shard[1]}}
-        if "proof_dir" in spec:
-            spec["proof_dir"] = str(Path(spec["proof_dir"]) / f"shard-{shard[0]:03d}-of-{shard[1]:03d}")
+        for local in ("proof_dir", "cache_dir"):
+            if local in spec:
+                spec[local] = str(Path(spec[local]) / f"shard-{shard[0]:03d}-of-{shard[1]:03d}")
     rows = shard_rows(validate_spec(spec, manifest_path), spec)
-    if "proof_dir" in spec: Path(spec["proof_dir"]).mkdir(parents=True, exist_ok=True)
+    for local in ("proof_dir", "cache_dir"):
+        if local in spec: Path(spec[local]).mkdir(parents=True, exist_ok=True)
+    cache_dir = Path(spec["cache_dir"]) if spec.get("cache_dir") else root / "cache"
     identity = {"solver_sha256": spec["solver_sha256"], "checker_sha256": spec["checker_sha256"],
                 "solver_commit": spec["solver_commit"], "source": source_identity(),
                 "cutoff_s": spec["cutoff_s"], "clock": "solver_process_cpu", "verification": "timed_binary_lrat",
@@ -91,8 +94,34 @@ def execute(root, spec_path=None, manifest_path=None, shard=None):
         state = "COMPLETE" if r["valid_measurement"] else "INVALID"
         db.execute("UPDATE jobs SET state=?,result=?,error=NULL WHERE k=? AND action=? AND seed=?",
                    (state, str(path), r["instance_key"], r["action"], r["seed"]))
+    if recover:
+        # Explicit versioned recovery (resume --recover-incomplete, 2026-11-08): an attempt interrupted with its owner
+        # (job cancelled, node lost) is moved, never overwritten, to aborted_attempts/<run_id>.<stamp> and its logical
+        # task is queued again; inputs whose staging failed are queued again. Every change is recorded.
+        stamp = time.strftime("%Y%m%dT%H%M%SZ", time.gmtime()); jobs_back = []; inputs_back = []
+        for job in db.execute("""SELECT jobs.k,jobs.action,jobs.seed,jobs.state,jobs.error,inputs.receipt FROM jobs JOIN inputs USING(k)
+                WHERE jobs.state='RUNNING' OR (jobs.state='BLOCKED' AND (jobs.error LIKE '%incomplete attempt%' OR jobs.error LIKE '%unfinished attempt%'))""").fetchall():
+            moved = None
+            if job["receipt"]:
+                key = {"identity": identity, "input_sha256": json.loads(job["receipt"])["input_sha256"], "action": job["action"], "seed": job["seed"]}
+                attempt = root / "runs" / fingerprint(key)
+                if attempt.exists() and not (attempt / "result.json").exists():
+                    moved = root / "aborted_attempts" / f"{attempt.name}.{stamp}"
+                    moved.parent.mkdir(exist_ok=True); attempt.rename(moved)
+            db.execute("UPDATE jobs SET state='QUEUED',error=NULL WHERE k=? AND action=? AND seed=?", (job["k"], job["action"], job["seed"]))
+            jobs_back.append({"instance_key": job["k"], "action": job["action"], "seed": job["seed"], "previous_state": job["state"],
+                              "previous_error": job["error"], "moved_attempt": str(moved) if moved else None})
+        for inp in db.execute("SELECT k,error FROM inputs WHERE state='BLOCKED'").fetchall():
+            db.execute("UPDATE inputs SET state='QUEUED',error=NULL,receipt=NULL WHERE k=?", (inp["k"],))
+            db.execute("UPDATE jobs SET state='QUEUED',error=NULL WHERE k=? AND state='BLOCKED' AND result IS NULL", (inp["k"],))
+            inputs_back.append({"instance_key": inp["k"], "previous_error": inp["error"]})
+        write(root / "recoveries" / f"{stamp}.json", {"utc": utc(), "jobs_requeued": jobs_back, "inputs_requeued": inputs_back})
     db.execute("UPDATE jobs SET state='BLOCKED',error='incomplete attempt requires versioned recovery' WHERE state='RUNNING'")
     db.execute("UPDATE inputs SET state='QUEUED' WHERE state='STAGING'")
+    # Node-local caches do not survive a job: an input with queued work is re-staged (same SHA enforced) if its file is gone.
+    for inp in db.execute("SELECT k,receipt FROM inputs WHERE state IN ('READY','DONE') AND EXISTS (SELECT 1 FROM jobs WHERE jobs.k=inputs.k AND jobs.state='QUEUED')").fetchall():
+        present = inp["receipt"] and Path(json.loads(inp["receipt"])["path"]).exists()
+        db.execute("UPDATE inputs SET state=? WHERE k=?", ("READY" if present else "QUEUED", inp["k"]))
     db.commit()
     cpus = sorted(os.sched_getaffinity(0))[:spec["workers"]]
     memory_available = int(next(x.split()[1] for x in Path("/proc/meminfo").read_text().splitlines() if x.startswith("MemAvailable:"))) * 1024
@@ -153,7 +182,7 @@ def execute(root, spec_path=None, manifest_path=None, shard=None):
                     db.execute("UPDATE inputs SET state='DONE' WHERE k=?", (item["k"],))
                     if spec.get("evict_completed_inputs", False):
                         staged = json.loads(item["receipt"]); cached = Path(staged["path"])
-                        if cached.resolve() != (root/"cache"/(item["k"]+".cnf")).resolve():
+                        if cached.resolve() != (cache_dir/(item["k"]+".cnf")).resolve():
                             raise ValueError("refuse to evict an input outside this owned cache")
                         # Failed units retain inputs and proofs for diagnosis.
                         all_valid = db.execute("SELECT count(*) FROM jobs WHERE k=? AND state!='COMPLETE'", (item["k"],)).fetchone()[0] == 0
@@ -173,10 +202,12 @@ def execute(root, spec_path=None, manifest_path=None, shard=None):
                     buffered += 1
                 while budget_ok and len(pending_runs) < len(cpus):
                     disk_needed = spec["disk_reserve_bytes"] + (len(pending_runs)+1)*spec["proof_limit_bytes"]
-                    # With a node-local proof_dir the proof reserve is checked there; the shared root keeps its reserve.
-                    proof_fs = spec.get("proof_dir", root)
-                    if shutil.disk_usage(proof_fs).free < disk_needed or shutil.disk_usage(root).free < spec["disk_reserve_bytes"]:
+                    # With a node-local proof_dir the proof reserve is checked there. A low shared run root only pauses
+                    # admission (the owner stays alive and retries), since its free space can recover.
+                    if shutil.disk_usage(spec.get("proof_dir", root)).free < disk_needed:
                         stop_reason = "PROOF_DISK_ADMISSION"; break
+                    if shutil.disk_usage(root).free < spec.get("root_reserve_bytes", spec["disk_reserve_bytes"]):
+                        stop_reason = "ROOT_DISK_WAIT"; break
                     job = db.execute("SELECT jobs.*,inputs.receipt FROM jobs JOIN inputs USING(k) WHERE jobs.state='QUEUED' AND inputs.state='READY' ORDER BY inputs.ord,jobs.action LIMIT 1").fetchone()
                     if job is None: break
                     db.execute("UPDATE jobs SET state='RUNNING' WHERE k=? AND action=? AND seed=?", (job["k"],job["action"],job["seed"])); db.commit()
@@ -205,12 +236,16 @@ def execute(root, spec_path=None, manifest_path=None, shard=None):
 def main():
     p = argparse.ArgumentParser(); p.add_argument("command", choices=["start", "resume", "status"])
     p.add_argument("--root", required=True); p.add_argument("--spec"); p.add_argument("--manifest")
-    p.add_argument("--shard", help="INDEX/COUNT, start only: own manifest positions i with i %% COUNT == INDEX"); a = p.parse_args()
+    p.add_argument("--shard", help="INDEX/COUNT, start only: own manifest positions i with i %% COUNT == INDEX")
+    p.add_argument("--recover-incomplete", action="store_true", help="resume only: move interrupted attempts aside and requeue them, requeue blocked inputs")
+    a = p.parse_args()
     if a.command == "status": print(json.dumps(read(Path(a.root)/"progress.json"), indent=2)); return
     if a.command == "start" and (not a.spec or not a.manifest): p.error("start requires --spec and --manifest")
     if a.shard and a.command != "start": p.error("--shard is fixed at start; resume reads it from the frozen spec")
+    if a.recover_incomplete and a.command != "resume": p.error("--recover-incomplete applies to resume")
     shard = tuple(int(x) for x in a.shard.split("/")) if a.shard else None
-    raise SystemExit(execute(a.root, a.spec if a.command == "start" else None, a.manifest if a.command == "start" else None, shard))
+    raise SystemExit(execute(a.root, a.spec if a.command == "start" else None, a.manifest if a.command == "start" else None, shard,
+                             a.recover_incomplete))
 
 
 if __name__ == "__main__": main()

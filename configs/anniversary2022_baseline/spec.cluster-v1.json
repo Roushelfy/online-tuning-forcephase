@@ -30,6 +30,8 @@
   "proof_limit_bytes": 34359738368,
   "disk_reserve_bytes": 68719476736,
   "proof_dir": "/var/tmp/anni2022-cluster-v1",
+  "cache_dir": "/var/tmp/anni2022-cluster-cache",
+  "root_reserve_bytes": 21474836480,
   "download_workers": 1,
   "download_wall_s": 3600,
   "prefetch_parents": 12,
@@ -41,7 +43,9 @@
     "per_shard_slurm": "1 task, 20 logical CPUs (10 whole cores), 200G memory, --no-requeue",
     "cpu_tokens": "first 8 CPUs of the sorted affinity = one hardware thread on each of 8 distinct physical cores",
     "container": "gs-srun image genesis 1_26, Python 3.10 standard library, prlimit, taskset",
-    "proof_storage": "node-local NVMe under proof_dir; deleted after a valid outcome, as in the original runner"
+    "proof_storage": "node-local NVMe under proof_dir; deleted after a valid outcome, as in the original runner",
+    "input_cache": "node-local NVMe under cache_dir; receipts in the shared run root; evicted after three valid runs; re-staged (same SHA) after a move to another node",
+    "shared_root_low_space": "below root_reserve_bytes the owner pauses admission and retries instead of exiting"
   },
   "budget_note": "max_physical_cpu_hours is a per-shard admission ceiling set above the shard's worst case (about 590 runs x (600 + 1800 + 1) s = 393 CPU-h); it never binds. Solver worst case for the cohort is 2359.5 CPU-h; the expected total is far lower because solved runs stop early.",
   "binaries": {

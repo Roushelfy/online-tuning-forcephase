@@ -106,6 +106,8 @@ class ScientificContracts(unittest.TestCase):
                     validate_spec({**spec, "shard": bad}, manifest, tools=False)
             with self.assertRaisesRegex(ValueError, "absolute"):
                 validate_spec({**spec, "proof_dir": "relative/dir"}, manifest, tools=False)
+            with self.assertRaisesRegex(ValueError, "cache_dir must be an absolute"):
+                validate_spec({**spec, "cache_dir": "relative/cache"}, manifest, tools=False)
 
 
 if __name__=="__main__":unittest.main()

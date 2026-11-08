@@ -12,7 +12,8 @@ from .common import load_manifest, read, sha, write
 
 def stage(row, root, spec, cpu_tokens=None):
     root = Path(root); key = row["instance_key"]
-    dst = root / "cache" / (key + ".cnf")
+    # Cluster runs keep the CNF cache on node-local disk (spec cache_dir); receipts stay in the run root.
+    dst = (Path(spec["cache_dir"]) if spec.get("cache_dir") else root / "cache") / (key + ".cnf")
     receipt = root / "input_receipts" / (key + ".json")
     if receipt.exists() and dst.exists():
         r = read(receipt)
@@ -29,7 +30,7 @@ def stage(row, root, spec, cpu_tokens=None):
                 raise TimeoutError("input staging wall limit reached")
             block = src.read(1 << 20)
             if not block: break
-            if shutil.disk_usage(root).free - len(block) < reserve:
+            if shutil.disk_usage(dst.parent).free - len(block) < reserve:
                 raise RuntimeError("disk reserve blocks input staging")
             target.write(block)
     try:

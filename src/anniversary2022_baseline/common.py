@@ -111,8 +111,11 @@ def validate_spec(spec, manifest, tools=True):
         if set(shard) != {"index", "count"} or not all(isinstance(shard[k], int) for k in shard) or \
                 not 0 <= shard["index"] < shard["count"] <= len(rows):
             raise ValueError("invalid shard")
-    if "proof_dir" in spec and not (isinstance(spec["proof_dir"], str) and os.path.isabs(spec["proof_dir"])):
-        raise ValueError("proof_dir must be an absolute path")
+    for local in ("proof_dir", "cache_dir"):
+        if local in spec and not (isinstance(spec[local], str) and os.path.isabs(spec[local])):
+            raise ValueError(local + " must be an absolute path")
+    if "root_reserve_bytes" in spec and not (isinstance(spec["root_reserve_bytes"], int) and spec["root_reserve_bytes"] > 0):
+        raise ValueError("invalid root_reserve_bytes")
     if tools:
         for name in ["solver", "checker"]:
             if sha(spec[name + "_path"]) != spec[name + "_sha256"]:
