@@ -1,0 +1,106 @@
+{
+  "full_cohort": 4719,
+  "complete_parents": 4719,
+  "status": "COMPLETE_VALID_MATRIX",
+  "recorded_runs": 14157,
+  "valid_runs": 14157,
+  "cutoff_s": 600,
+  "actions": {
+    "D": {
+      "solved": 3385,
+      "sat": 1714,
+      "unsat": 1671,
+      "timeouts": 1334,
+      "unknown": 0,
+      "mean_par2_s": 392.5426536473829,
+      "solved_cpu_s_total": 251608.7825620001,
+      "solved_within": {
+        "1": 1098,
+        "10": 1696,
+        "60": 2378,
+        "300": 3086,
+        "600": 3385
+      },
+      "unique_solves": 281
+    },
+    "Fplus": {
+      "solved": 3076,
+      "sat": 1432,
+      "unsat": 1644,
+      "timeouts": 1643,
+      "unknown": 0,
+      "mean_par2_s": 468.2365155488451,
+      "solved_cpu_s_total": 238008.11687499966,
+      "solved_within": {
+        "1": 1042,
+        "10": 1601,
+        "60": 2148,
+        "300": 2796,
+        "600": 3076
+      },
+      "unique_solves": 50
+    },
+    "Fminus": {
+      "solved": 3055,
+      "sat": 1421,
+      "unsat": 1634,
+      "timeouts": 1664,
+      "unknown": 0,
+      "mean_par2_s": 471.97605173278237,
+      "solved_cpu_s_total": 230454.98812699964,
+      "solved_within": {
+        "1": 1051,
+        "10": 1589,
+        "60": 2172,
+        "300": 2764,
+        "600": 3055
+      },
+      "unique_solves": 70
+    }
+  },
+  "vbs_time": {
+    "solved": 3547,
+    "sat": 1789,
+    "unsat": 1758,
+    "mean_par2_s": 349.94073167895743,
+    "solved_within": {
+      "1": 1172,
+      "10": 1827,
+      "60": 2565,
+      "300": 3269,
+      "600": 3547
+    }
+  },
+  "all_three_solved": 2823,
+  "none_solved": 1172,
+  "best_single_by_solved": "D",
+  "fastest_counts": {
+    "D": 1141,
+    "Fplus": 698,
+    "Fminus": 692,
+    "ties": 1016
+  },
+  "pairs": {
+    "D_vs_Fplus": {
+      "both_solved": 2984,
+      "only_D": 401,
+      "only_Fplus": 92,
+      "D_2x_faster": 474,
+      "Fplus_2x_faster": 195
+    },
+    "D_vs_Fminus": {
+      "both_solved": 2943,
+      "only_D": 442,
+      "only_Fminus": 112,
+      "D_2x_faster": 471,
+      "Fminus_2x_faster": 172
+    },
+    "Fplus_vs_Fminus": {
+      "both_solved": 2865,
+      "only_Fplus": 211,
+      "only_Fminus": 190,
+      "Fplus_2x_faster": 306,
+      "Fminus_2x_faster": 328
+    }
+  }
+}

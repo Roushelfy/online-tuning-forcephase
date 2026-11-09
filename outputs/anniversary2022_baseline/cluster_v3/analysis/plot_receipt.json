@@ -1,0 +1,18 @@
+{
+  "files": {
+    "baseline.html": "769a0434c73963d70710abf1a3582be1ddde275d2c42a876c4bd780c0a36c128",
+    "cumulative_conflicts.pdf": "5331a2426997d3c71fa5dfa75ade53ec1a15022899467bccd31b1f3c18d5e94b",
+    "cumulative_conflicts.png": "3bd5cd030a4acd52e1040e4a2b6ca356431a6a87f7f889a02448b392c1908cdc",
+    "cumulative_cpu_s.pdf": "02d25ed7aac56bef35e5faac094151a832390a1fc4582f32321e0d6c3cde79fb",
+    "cumulative_cpu_s.png": "9ff4e7a8f936a758fe53259fe9fa382b38f933940d2e7f14998a42ea536d5618",
+    "scatter_conflicts.pdf": "b3ebe25a8feb4e1d0e025210c6d1009a7230d347f63ab99c40518f1528c88b42",
+    "scatter_conflicts.png": "f8aa9fb3c1b52378206d3675b34d9664d6c8915abdc2312a88400ef0e598222c",
+    "scatter_cpu_s.pdf": "313f5421aefd8ecaaf6efdfb759f7827987d333fbd7bb526f59db45ef164d65f",
+    "scatter_cpu_s.png": "3a3f018b8c63ef581902c8c51b95ee652da44fc099444face86a69c4491ed231"
+  },
+  "matplotlib": "3.9.2",
+  "plotter_sha256": "a00c277e7d82939e33eb4a285fb111a566f54d0d63d577fe4ac1c989f8de3b3b",
+  "scatter_scope": "both solved only; raw values and true 1x/2x/10x lines on symlog axes; other statuses retained in matrix.csv",
+  "scope": "FROZEN",
+  "source_summary_sha256": "ee18d6435c8faaceed49841548870b2ceb8edc6f88f596b2222f09f7d4b23544"
+}

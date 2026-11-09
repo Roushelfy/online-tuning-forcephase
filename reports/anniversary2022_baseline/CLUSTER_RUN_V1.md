@@ -78,4 +78,8 @@ tools/anni2022_cluster.sh collect SNAPSHOT # 在容器内合并全部 shard
 
 ## 正式运行（cluster_v3）
 
-从新的运行目录重新启动全部 14157 次运行。
+- 2026-11-08 23:26 至 2026-11-09 06:08 UTC，从新的运行目录重新启动全部 14157 次运行。
+- 24 个 shard 都以 `COMPLETE_VALID_MATRIX` 结束，期间没有中断，也没有用到恢复。
+- 合并后 4719 / 4719 题、14157 / 14157 次运行有效。
+- 结果见 [BASELINE_RESULTS_20261109.md](BASELINE_RESULTS_20261109.md)，各 shard 记录见 [shards.json](../../outputs/anniversary2022_baseline/cluster_v3/shards.json)。
+- 合并前的 qualification（`outputs/anniversary2022_baseline/qualification_cluster_v3/`）与恢复检查（`outputs/anniversary2022_baseline/recovery_check_v1/`）都是 PASS。

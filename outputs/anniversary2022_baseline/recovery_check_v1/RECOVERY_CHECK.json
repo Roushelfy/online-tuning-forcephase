@@ -1,0 +1,75 @@
+{
+  "killed_attempts": 2,
+  "merged": {
+    "complete_parents": 2,
+    "conflicts": [
+      [
+        "timeout",
+        "D",
+        "446380"
+      ],
+      [
+        "timeout",
+        "Fminus",
+        "397511"
+      ],
+      [
+        "timeout",
+        "Fplus",
+        "810251"
+      ],
+      [
+        "unsat",
+        "D",
+        "32"
+      ],
+      [
+        "unsat",
+        "Fminus",
+        "24"
+      ],
+      [
+        "unsat",
+        "Fplus",
+        "34"
+      ]
+    ],
+    "solved": {
+      "D": 1,
+      "Fminus": 1,
+      "Fplus": 1
+    },
+    "status": "COMPLETE_VALID_MATRIX",
+    "statuses": [
+      [
+        "timeout",
+        "CPU_TIMEOUT"
+      ],
+      [
+        "unsat",
+        "UNSAT"
+      ]
+    ]
+  },
+  "node_local_left": [],
+  "plain_resume": {
+    "exit": 2,
+    "jobs": {
+      "BLOCKED": 2,
+      "COMPLETE": 1
+    },
+    "status": "COMPLETE_WITH_UNRESOLVED_ERRORS"
+  },
+  "recovery": {
+    "aborted_attempt_dirs": 2,
+    "exit": 0,
+    "jobs": {
+      "COMPLETE": 3
+    },
+    "moved": 2,
+    "requeued": 2,
+    "status": "COMPLETE_VALID_MATRIX"
+  },
+  "single_shard_merge_refused": true,
+  "status": "PASS"
+}
