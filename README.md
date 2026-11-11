@@ -1,5 +1,7 @@
 # Online Tuning of Forcephase
 
+Latest presentation: [Anniversary 2022 force-phase results (2026-11-11)](presentations/forcephase-20261111/README.md).
+
 Research question: **Can cheap formula analysis or a short search probe select once among CaDiCaL’s default, forced-positive, and forced-negative configurations, and improve total solving cost?**
 
 本仓库是科研项目 **Online Tuning Forcephase H:1** 的完整研究记录：固定版本 CaDiCaL 上的最小研究补丁、可复现的实验流水线、全部运行记录的汇总、分阶段报告和最终中文研究报告。

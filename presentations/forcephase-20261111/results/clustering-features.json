@@ -1,0 +1,114 @@
+{
+  "original_eight_cluster_run": [
+    [
+      "Size",
+      "Variables; clauses / variables",
+      [
+        "log_variables",
+        "log_clauses_per_variable"
+      ]
+    ],
+    [
+      "Clause lengths",
+      "Mean; unit, binary, ternary and \u22655-literal fractions",
+      [
+        "log_mean_clause_length",
+        "unit_fraction",
+        "binary_fraction",
+        "ternary_fraction",
+        "long_fraction"
+      ]
+    ],
+    [
+      "Signs",
+      "All-positive; all-negative; dual-Horn minus Horn",
+      [
+        "positive_only_fraction",
+        "negative_only_fraction",
+        "inverse_horn_minus_horn"
+      ]
+    ],
+    [
+      "Connectivity",
+      "Variable-degree CV; components / variables",
+      [
+        "log_variable_degree_cv",
+        "log_components_per_variable"
+      ]
+    ]
+  ],
+  "expanded_feature_sets": {
+    "size": [
+      "log_variables",
+      "log_clauses_per_variable"
+    ],
+    "width": [
+      "sqrt_empty_fraction",
+      "sqrt_cls1_fraction",
+      "sqrt_cls2_fraction",
+      "sqrt_cls3_fraction",
+      "sqrt_cls4_fraction",
+      "sqrt_cls5_fraction",
+      "sqrt_cls6_fraction",
+      "sqrt_cls7_fraction",
+      "sqrt_cls8_fraction",
+      "sqrt_cls9_fraction",
+      "sqrt_cls10plus_fraction"
+    ],
+    "sign": [
+      "positive_only_fraction",
+      "negative_only_fraction",
+      "inverse_horn_minus_horn",
+      "balancecls_mean",
+      "balancecls_variance",
+      "balancevars_mean",
+      "balancevars_variance"
+    ],
+    "graph": [
+      "log_variable_degree_cv",
+      "log_components_per_variable",
+      "vcg_vdegree_entropy",
+      "vcg_cdegree_entropy",
+      "log_vg_degree_mean",
+      "log_cg_degree_mean",
+      "vg_degree_entropy",
+      "cg_degree_entropy"
+    ],
+    "combined": [
+      "log_variables",
+      "log_clauses_per_variable",
+      "sqrt_empty_fraction",
+      "sqrt_cls1_fraction",
+      "sqrt_cls2_fraction",
+      "sqrt_cls3_fraction",
+      "sqrt_cls4_fraction",
+      "sqrt_cls5_fraction",
+      "sqrt_cls6_fraction",
+      "sqrt_cls7_fraction",
+      "sqrt_cls8_fraction",
+      "sqrt_cls9_fraction",
+      "sqrt_cls10plus_fraction",
+      "positive_only_fraction",
+      "negative_only_fraction",
+      "inverse_horn_minus_horn",
+      "balancecls_mean",
+      "balancecls_variance",
+      "balancevars_mean",
+      "balancevars_variance",
+      "log_variable_degree_cv",
+      "log_components_per_variable",
+      "vcg_vdegree_entropy",
+      "vcg_cdegree_entropy",
+      "log_vg_degree_mean",
+      "log_cg_degree_mean",
+      "vg_degree_entropy",
+      "cg_degree_entropy"
+    ]
+  },
+  "expanded_cluster_counts": [
+    12,
+    24,
+    48
+  ],
+  "definition": "Cluster count and feature dimension are separate parameters."
+}

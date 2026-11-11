@@ -1,0 +1,8 @@
+{
+  "name": "forcephase-slides-20261111",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
