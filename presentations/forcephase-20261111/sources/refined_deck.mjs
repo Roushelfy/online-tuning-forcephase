@@ -1,8 +1,9 @@
 import {author,legend,cumulative,C} from './native_deck.mjs';
+import {pairedTime,pairedConflicts} from './paired_slides.mjs';
 
 function page(p,n,title,question,source,d){
- const a=author(p,n,title,question,source,{suppressDivider:true});
- a.s.speakerNotes.text=d.notes[String(n)];return a;
+ const a=author(p,n>=3?n+1:n,title,question,source,{suppressDivider:true});
+ a.s.speakerNotes.text=d.notes[String(n)]?.replaceAll('附录11','附录12').replaceAll('附录10','附录11').replaceAll('附录9','附录10');return a;
 }
 function down(a,name,x,y1,y2,why){
  a.line(name,x,y1,x,y2,C.muted,2,why);
@@ -33,6 +34,7 @@ export async function refined({presentation:p,input:{data:d}}){
  finish(a,out);
  }
  {
+ out.push(pairedTime(p,3,d.pairwise));
  const a=page(p,3,'Clustering by formula structure','What features were clustered, and what phase did the clusters favor?','structural_clusters.py:FEATURE_GROUPS,load; structural_clusters_20261110/summary.json; structural_views_20261110/summary.json',d);
  a.tx('Example label','Example formula',60,149,590,33,24,C.muted,false,'marking the CNF as a counting illustration, not a measured benchmark');
  a.tx('Example formula','(x ∨ y) ∧ (¬x ∨ y ∨ z)',60,197,650,54,34,C.ink,true,'a concrete formula from which every displayed example value can be counted');
@@ -145,5 +147,6 @@ export async function refined({presentation:p,input:{data:d}}){
  'These are the twelve actual inputs to the original clustering. They cover size, clause lengths, clause signs and connectivity. We show their natural meanings here. The implementation applies the specified logarithmic transforms and fits clipping and standardization within training folds. Group weights prevent a category with more dimensions from dominating simply because it has more features.');
  finish(a,out);
  }
+ out.push(pairedConflicts(p,13,d.pairwise));
  return out;
 }

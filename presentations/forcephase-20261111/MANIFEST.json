@@ -1,23 +1,24 @@
 {
   "snapshot": "2026-11-11",
-  "slides": 11,
-  "main_slides": 8,
-  "appendix_slides": 3,
+  "revision": "paired-comparisons-v5",
+  "slides": 13,
+  "main_slides": 9,
+  "appendix_slides": 4,
   "files": [
     {
       "path": "README.md",
-      "bytes": 4108,
-      "sha256": "26138940c2696318c74382f66fe76463893fe77fbc9d84edbaed6555967b3f5f"
+      "bytes": 5800,
+      "sha256": "1e6c8d473c5f02c27f638f7dc0a2c58953558165555ce6e54a6720e18e3d8d59"
     },
     {
       "path": "design-review.html",
-      "bytes": 3489526,
-      "sha256": "8d967642779c0aa7c68164c09a37deb906a13b9328c6e08b51114d85f74d866e"
+      "bytes": 2051945,
+      "sha256": "20f56f4dd0acd94b55a2bfca161c2c6a18686d83b5af40fe4023bf3808925a70"
     },
     {
       "path": "forcephase-results.pptx",
-      "bytes": 98955,
-      "sha256": "9f5243fcae01c62dbec3ab8b030527baf49487b6be7c1494f41405ba1a433e0c"
+      "bytes": 1091974,
+      "sha256": "659bcefc8d60f6873733acaa6e525fcf54667c9dcf30046a750131233a9ba676"
     },
     {
       "path": "previews/slide-01.png",
@@ -31,48 +32,58 @@
     },
     {
       "path": "previews/slide-03.png",
-      "bytes": 92428,
-      "sha256": "d6afa8efb88a7e33eef5b2b827b576992aeea75e164ee7fd92ca4220f966a953"
+      "bytes": 196442,
+      "sha256": "b1f747ebb527a7fad534ef93880dab597c835e9ca01695217b346b2df6f9a477"
     },
     {
       "path": "previews/slide-04.png",
-      "bytes": 66930,
-      "sha256": "a74bc0def48e92b4d11b4f69eaacb695ae6b64e5bc7b22050d1f11405be6b580"
+      "bytes": 92315,
+      "sha256": "4556d24716f5106fb3c0df1da60e282fc17caa5e3e9b65b7866b749537691fbe"
     },
     {
       "path": "previews/slide-05.png",
-      "bytes": 76945,
-      "sha256": "cbc975d3df579eb7b70aa7bf7054e331e25500b54525a889a4f7d171ef58c1b1"
+      "bytes": 67020,
+      "sha256": "b1d4b464f842d64d59fa0f793ac373b710857b1601864451472efbfbb538b8ea"
     },
     {
       "path": "previews/slide-06.png",
-      "bytes": 72790,
-      "sha256": "4be94802e1e368b56a827cafabdd21c4948fc2f5e8a4745a01e84497b6f23eb3"
+      "bytes": 76995,
+      "sha256": "769217b5f39f1dfcdc7c4baa6c61442e41b7d36e171afde674168680fa11908d"
     },
     {
       "path": "previews/slide-07.png",
-      "bytes": 87946,
-      "sha256": "99dd15eef122d719406f79d8d6adb7a49fea0f0c3e190cc5bf5374f83534b96e"
+      "bytes": 72597,
+      "sha256": "44612f02dee5e74a752ccb9156ab0d3f0025c664aabb6bb745cd23890faf2a14"
     },
     {
       "path": "previews/slide-08.png",
-      "bytes": 81602,
-      "sha256": "2099283336932385df752d3a9a059eb8a8d5b03dc8f44444b11b1fa323035889"
+      "bytes": 87945,
+      "sha256": "5ba56c6247d5d6efef0ecf41b3faa9788d5bd9790d8675dc8363acf13cca40cf"
     },
     {
       "path": "previews/slide-09.png",
-      "bytes": 125802,
-      "sha256": "adf45434c675a7caf9e4561dd164bb42d1a4d6873cb5ec612bc2a9560451f3a9"
+      "bytes": 81631,
+      "sha256": "372c09f803005fdbb4280040ca241227464c46c2f3cfcdb580b7b294608f632c"
     },
     {
       "path": "previews/slide-10.png",
-      "bytes": 101952,
-      "sha256": "ae36bd9fbdb82e14e4be792cc8e9a427f52c481fb5d19ac82b0af308659d7801"
+      "bytes": 125854,
+      "sha256": "26b8d1efa729ef088ce209c063f12f3e4afa684f5197326ed28a941d0d53466c"
     },
     {
       "path": "previews/slide-11.png",
-      "bytes": 105616,
-      "sha256": "992d35d711ee7145bf26010a42c7783c0d102bb37cd95a9a0255cb02dcb5f7d1"
+      "bytes": 101735,
+      "sha256": "1ff470024feb4c7eb6243f6092c4bd5877be7bc5d415693b3457b9d3cac6c382"
+    },
+    {
+      "path": "previews/slide-12.png",
+      "bytes": 105813,
+      "sha256": "c2ea273329659ef25350de862d7ebb205529c7dab6a3d9fb3d1b0c8f2731082b"
+    },
+    {
+      "path": "previews/slide-13.png",
+      "bytes": 166463,
+      "sha256": "f6a21bd00b6571071d0b6dd2d6e625412c1aef4c695066a4f4bc0aa52d84ff83"
     },
     {
       "path": "results/clustering-features.json",
@@ -85,14 +96,24 @@
       "sha256": "b3e2821fe075b0a59c83077b93ef308830d0f97da9cd2902f31f2478414258f0"
     },
     {
+      "path": "results/paired-comparisons.json",
+      "bytes": 1344341,
+      "sha256": "ae52832070aae62173575b01126e47500191dac678a2fd26349a40bee76e00c8"
+    },
+    {
+      "path": "results/paired-instance-examples.csv",
+      "bytes": 537,
+      "sha256": "096427711c838648b649bd0efd910040dcc0788464436996db7ec1c91cc8e3a7"
+    },
+    {
       "path": "sources/build.mjs",
       "bytes": 1014,
       "sha256": "0f4a8a476cdfd37c301a3d568dc37a75b5f05d2bb3934301045e9ee7139f1351"
     },
     {
       "path": "sources/deck-data.json",
-      "bytes": 100833,
-      "sha256": "36f32b44b112a19877e41af7efa9a0cdeb52fc30241a9d39808fdf6425c430fb"
+      "bytes": 1445185,
+      "sha256": "71ba65dfd908087b22467ec0f8ed7e80defb09fc665735a8a44029feab86f3b4"
     },
     {
       "path": "sources/native_deck.mjs",
@@ -105,9 +126,14 @@
       "sha256": "01b9ee30dd6d709ecb1f6676c318c948dec8fa9a695a64ad526422db1410e8f8"
     },
     {
+      "path": "sources/paired_slides.mjs",
+      "bytes": 10081,
+      "sha256": "7d8533845528e1ad069d035ac8344529bf7185c38f06bb2e5d11d1d6a95b4c3e"
+    },
+    {
       "path": "sources/refined_deck.mjs",
-      "bytes": 16568,
-      "sha256": "ea556580aa88ad964e1abebeb12b2f05257904067da1c575ccccf933688809b1"
+      "bytes": 16827,
+      "sha256": "063020c6ceb8132d0e2eea6ecdf6346411e49cb1389dfcfdc49bc753c8a7939c"
     }
   ]
 }

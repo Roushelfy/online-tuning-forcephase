@@ -1,6 +1,6 @@
 # Force-phase results, November 11, 2026
 
-- [Editable PowerPoint](forcephase-results.pptx): 8 main slides and 3 appendix slides, with Chinese presentation logic and English speaker notes.
+- [Editable PowerPoint](forcephase-results.pptx): 9 main slides and 4 appendix slides, with Chinese presentation logic and English speaker notes.
 - [Design review](design-review.html): download and open locally for before/after previews and every information-element decision.
 - [Frozen scientific results](results/evidence.json) and [clustering feature definitions](results/clustering-features.json).
 - [Editable deck source](sources/): requires an environment providing `@oai/artifact-tool`; run `node sources/build.mjs`. No solver execution or refitting is required to rebuild the slides.
@@ -28,13 +28,15 @@ Readable-rule screens give about **0.1717%** (two-condition template), **0.4931%
 
 1. CPU-time cumulative baseline
 2. Conflicts cumulative baseline
-3. Actual clustering-feature example and original 8-cluster outcome
-4. Supervised prediction and switch-to-F gate
-5. Measured gain versus free VBS
-6. Structural transfer limits
-7. Astra model inspection and readable-rule proposal
-8. Rule-compression results
-9–11. Population/costs, expanded clustering, original 12-feature definitions
+3. Paired CPU-time comparisons: D vs F+ and D vs F−, including timeouts and four measured wins/losses
+4. Actual clustering-feature example and original 8-cluster outcome
+5. Supervised prediction and switch-to-F gate
+6. Measured gain versus free VBS
+7. Structural transfer limits
+8. Astra model inspection and readable-rule proposal
+9. Rule-compression results
+10–12. Population/costs, expanded clustering, original 12-feature definitions
+13. Paired conflicts comparisons on the same four examples
 
 The clustering example `(x ∨ y) ∧ (¬x ∨ y ∨ z)` has mean clause length 2.5, binary fraction 50%, and all-positive-clause fraction 50%. It is an illustration, not a benchmark preference measurement.
 
@@ -42,8 +44,23 @@ The clustering example `(x ∨ y) ∧ (¬x ∨ y ∨ z)` has mean clause length 
 
 ![Time baseline](previews/slide-01.png)
 ![Conflicts baseline](previews/slide-02.png)
-![Concrete clustering features](previews/slide-03.png)
-![Expanded clusters and feature dimensions](previews/slide-10.png)
+![Paired time comparisons](previews/slide-03.png)
+![Concrete clustering features](previews/slide-04.png)
+![Expanded clusters and feature dimensions](previews/slide-11.png)
+![Paired conflicts](previews/slide-13.png)
+
+## Paired measurements added from the meeting requirements
+
+The time scatters compare the same instance under D and a forced phase. D is on the horizontal axis; the forced phase is on the vertical axis. Below the diagonal means the forced phase is faster. A separate categorical TO rail represents failure to solve within 600 CPU seconds; it is not a measured solve time. Double-timeout cases remain in the counts rather than receiving fabricated numeric coordinates.
+
+| Pair | Both solved | Only D | Only forced | Neither |
+| --- | ---: | ---: | ---: | ---: |
+| D / F+ | 2,984 | 401 | 92 | 1,242 |
+| D / F− | 2,943 | 442 | 112 | 1,222 |
+
+[Four highlighted instance IDs and exact measurements](results/paired-instance-examples.csv) link the plotted cases to the supplied matrix. They are descriptive extremes among both-solved pairs: maximum D/F time ratio with D time above 5 seconds for gains, and maximum F/D ratio with F time above 5 seconds for losses. They are not average speedups or independent discoveries. Full [paired evidence](results/paired-comparisons.json) is included.
+
+The conflicts scatters retain only pairs where both runs completed within the existing CPU budget. The same four examples are highlighted; zeros are retained using log(1 + count) spacing. Timeout partial-conflict counts are not treated as total conflicts to completion. No new runs or fits were required. Original policy scores remain unchanged.
 
 ## Provenance and editing
 
