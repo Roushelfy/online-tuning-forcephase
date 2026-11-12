@@ -1,8 +1,10 @@
 import {author,legend,cumulative,C} from './native_deck.mjs';
 import {pairedTime,pairedConflicts} from './paired_slides.mjs';
+import {inputs42,catalog42} from './features42.mjs';
 
 function page(p,n,title,question,source,d){
- const a=author(p,n>=3?n+1:n,title,question,source,{suppressDivider:true});
+ const numbers={1:1,2:2,3:4,4:6,5:7,6:8,7:9,8:10,9:11,10:12,11:13};
+ const a=author(p,numbers[n],title,question,source,{suppressDivider:true});
  a.s.speakerNotes.text=d.notes[String(n)]?.replaceAll('附录11','附录12').replaceAll('附录10','附录11').replaceAll('附录9','附录10');return a;
 }
 function down(a,name,x,y1,y2,why){
@@ -58,49 +60,54 @@ export async function refined({presentation:p,input:{data:d}}){
  finish(a,out);
  }
  {
- const a=page(p,4,'Predict savings before switching phase','What does supervised learning predict, and when does it choose a forced phase?','research-state.yaml:R12_linear42_positive_evidence_clarification; materialize_linear42_candidate.py',d);
+ out.push(inputs42(p,5));
+ const a=page(p,4,'Use cost-weighted trees to select a phase','How do the statistics become a conservative phase choice?','score_static_cost_classifier.py; R54_summary.json; original classifier OOF and inner cutoffs',d);
+ a.tx('Training target','Training emphasizes larger PAR2 cost differences between phases.',60,132,1160,38,26,C.muted,false,'what cost weighting means before showing the prediction pipeline');
  a.box('Formula input',60,248,280,152,'the formula and static measurements available before solving');
  a.tx('Formula label','Formula\n42 static features',82,281,242,91,29,C.ink,true,'the predictor input and dimensionality');
  a.arrow('Feature to prediction',353,324,420,324,'mapping static features to predicted savings');
  a.box('Prediction model',435,225,373,198,'the tree ensemble, distinct from the SAT solver');
- a.tx('Model identity','ExtraTrees ensemble',457,249,333,42,29,C.purple,true,'the actual model supporting the reported gain');
- a.tx('Prediction meaning','F+ saving vs D\nF− saving vs D',457,316,333,79,29,C.ink,false,'the two regression targets and their common baseline');
+ a.tx('Model identity','ExtraTrees classifiers',457,249,333,42,29,C.purple,true,'the actual model supporting the reported gain');
+ a.tx('Prediction meaning','F+ vs D score\nF− vs D score',457,316,333,79,29,C.ink,false,'the two cost-trained preference scores relative to D, not predicted seconds');
  a.arrow('Prediction to selection',821,324,909,324,'using the predicted advantage for phase selection');
- a.tx('Selection condition','Saving > threshold?\nPick best F+ / F−\nOtherwise: D',930,263,289,150,28,C.ink,true,'the complete switch-or-default rule');
- a.footer('The switching threshold is selected on validation data.');
+ a.tx('Selection condition','Score > threshold?\nPick best F+ / F−\nOtherwise: D',930,263,289,150,28,C.ink,true,'the complete switch-or-default rule');
+ a.tx('Ensemble aggregation','Average scores from 3 models',435,448,375,67,25,C.purple,true,'the mean3 aggregation used by the current classifier, not a single decision tree');
+ a.footer('Scores express phase preference. The switching threshold is chosen on inner validation data.');
+ a.notes('当前最好是42维成本加权分类树集成，不是R12回归器。每个训练动作权重为(max各动作PAR2−该动作PAR2)/1200。每个ExtraTrees分类模型给三个动作分数，F分数减D分数得到两个偏好分数；平均三个训练seed模型的差分分数。若最大的F偏好超过内层验证阈值，选择它，否则D。这些分数不是预计节省的秒数，也不是校准过的赢家概率。每模型256树、深度≤12；三模型mean3。', 'The current candidate uses cost-weighted ExtraTrees classifiers. Training gives more weight to actions that avoid high PAR2 costs. Each model produces a preference score for F-plus and F-minus relative to D. We average the scores from three trained models. If the stronger forced-phase score exceeds a threshold chosen on inner validation, we use that phase; otherwise we use D. These are preference scores, not a prediction of seconds saved or calibrated winning probabilities.');
  finish(a,out);
  }
  {
- const a=page(p,5,'Supervised selection saves 2.10% on development folds','How much of the VBS cost gap does the selector capture?','research-state.yaml:R12_linear42_positive_evidence_clarification; linear42_bounded_prefetch_cost',d);
+ const a=page(p,5,'The 42-feature ensemble reduces PAR2 by 2.35%','How much of the VBS cost gap does the selector capture?','R54_summary.json:scores.mean3; paired cost replay of original classifier OOF predictions',d);
  a.tx('Common cost baseline','PAR2 cost reduction relative to D',60,133,1160,36,26,C.muted,false,'the shared denominator and direction of the two bars');
  const left=284,right=1110,map=v=>left+(right-left)*v/12;
- for(const [label,value,y,color] of [['Supervised selector',d.supervised.gain_pct,286,C.purple],['Free VBS',10.8528134644,414,C.ink]]){
-  a.tx('Saving label '+label,label,60,y-13,204,75,28,C.ink,label.startsWith('Supervised'),'which scored strategy is being compared');
+ for(const [label,value,y,color] of [['42-feature ensemble',d.r54.scores.mean3.gain_pct,286,C.purple],['Free VBS',10.8528134644,414,C.ink]]){
+  a.tx('Saving label '+label,label,60,y-13,204,75,28,C.ink,label==='42-feature ensemble','which scored strategy is being compared');
   a.line('Saving bar '+label,left,y+10,map(value),y+10,color,22,'the PAR2 reduction '+value.toFixed(6)+' percent relative to fixed D');
   a.tx('Saving value '+label,value.toFixed(2)+'%',map(value)+15,y-15,147,49,34,color,true,'the direct measured saving for this strategy');
  }
  a.line('Common saving axis',left,488,right,488,C.line,1.4,'the common percentage scale for policy and free oracle');
  [0,5,10].forEach(v=>a.tx('Saving tick '+v,v+'%',map(v)-30,506,70,32,23,C.muted,false,'the percentage scale value '+v,'center'));
- a.tx('Additional verified solves','+34 solved instances',60,581,640,43,30,C.purple,true,'the solve-count improvement, distinct from the PAR2 percentage');
- a.tx('Incomplete acquisition scope','Full feature costs pending',724,583,496,43,27,C.muted,true,'the unresolved cost condition that qualifies the headline');
- a.footer('Five development folds; equivalent instances stay together. Recorded query costs included.');
+ a.tx('Additional verified solves','+38 solved instances',60,581,640,43,30,C.purple,true,'the solve-count improvement, distinct from the PAR2 percentage');
+ a.tx('Cost scope','Measured costs included',724,583,496,43,27,C.muted,true,'the inclusion of measured input extraction and prediction costs in the reported gain');
+ a.footer('Mixed five-fold development replay using recorded runs and costs; independent confirmation pending.');
+ a.notes('R54主mean3成本分类器完整费后相对D改善2.3499866537517358%，平均PAR2从392.54265364738285降至383.31795367638654。解出3423，比D3385多38；救66、丢28。既有特征提取逻辑费用2027.491558886秒、查询83.279956秒，25次采集失败按已支付开销后D回退。费用跨主机组合回放，不是同机端到端solver部署。混合5折911/962/927/1009/910，等价实例组不跨训练评价；本系列反复开发，mean3依据已曝光的2.4%历史选中，非盲选。名义等价组95%区间[1.3988798%,3.2886044%]未校正模型选择。免费VBS10.85%仍取同4719题、相同600秒预算；它没有采集或选择费用。', 'On the same 4,719 formulas, the cost-weighted forty-two-feature ensemble reduces PAR2 by 2.35 percent relative to always using D, including the measured feature extraction and prediction costs. It solves 3,423 instances, thirty-eight more than D. Free perfect selection offers a 10.85 percent ceiling. This is a mixed five-fold development replay using previously recorded runtimes and costs. The model was selected after earlier development results, so we still need independent confirmation and actual end-to-end deployment.');
  finish(a,out);
  }
  {
- const a=page(p,6,'The gain shrinks on held-out structural groups','Does the gain persist when structural groups are absent from training?','research-state.yaml:R12_linear42_positive_evidence_clarification',d);
+ const a=page(p,6,'Appendix: earlier regression transfer check','Does the gain persist when structural groups are absent from training?','research-state.yaml:R12_linear42_positive_evidence_clarification',d);
  a.tx('Common metric','PAR2 saving vs D. Each structural holdout excludes a group from training.',60,134,1160,66,25,C.muted,false,'the common metric and what the holdout changes');
  const rows=[['Mixed folds',2.0976772347],['Coarse structural holdout',.3708522818],['Fine structural holdout',-.2608130689]];
  rows.forEach(([label,v],i)=>{const y=267+i*119;
   a.tx('Split '+i,label,60,y,810,55,31,C.ink,i===0,'the train/evaluation partition for this result');
   a.tx('Split saving '+i,(v>=0?'+':'')+v.toFixed(2)+'%',935,y-4,280,62,45,v<0?C.orange:C.purple,true,'the R12 result under '+label.toLowerCase(),'right');
  });
- a.footer('Same candidate and development population.');
+ a.footer('Earlier regressor, with query costs only. These are not transfer results for the new 2.35% classifier.');
  finish(a,out);
  }
  {
- const a=page(p,7,'Can a few rules retain the ensemble’s gain?','How does model inspection produce a testable, readable rule?','research-state.yaml:astra_linear42_interpretation,R26_astra_rule; score_astra_small_fplus.py',d);
+ const a=page(p,7,'Appendix: interpreting the earlier regression ensemble','How does model inspection produce a testable, readable rule?','research-state.yaml:astra_linear42_interpretation,R26_astra_rule; score_astra_small_fplus.py',d);
  const xs=[60,484,918];
- const labels=['Saved ensemble','Astra inspection','Candidate rules'];
+ const labels=['Earlier regressor','Astra inspection','Candidate rules'];
  const detail=['Features, thresholds\nand leaf predictions','Propose short\nfeature conditions','Evaluate on\nheld-out folds'];
  xs.forEach((x,i)=>{a.box('Interpretation object '+i,x,221,300,151,'the '+labels[i].toLowerCase()+' object in model interpretation');a.tx('Interpretation label '+i,labels[i],x+20,243,260,39,28,i===1?C.purple:C.ink,true,'the named input, reader or output');a.tx('Interpretation detail '+i,detail[i],x+20,301,260,64,24,C.ink,false,'the operation or information at this stage');});
  a.arrow('Model inspection flow',373,296,470,296,'passing the saved model to interpretation');a.arrow('Rule proposal flow',797,296,904,296,'passing readable conditions to evaluation');
@@ -110,20 +117,21 @@ export async function refined({presentation:p,input:{data:d}}){
  finish(a,out);
  }
  {
- const a=page(p,8,'Simple rules retain less than 0.5% saving','Do the readable candidates preserve the original ensemble advantage?','research-state.yaml:R12,R26,R31,R32',d);
+ const a=page(p,8,'Appendix: earlier small-rule compression results','Do the readable candidates preserve the original ensemble advantage?','research-state.yaml:R12,R26,R31,R32',d);
  a.tx('Common cost baseline','PAR2 cost reduction relative to D',60,134,1160,38,26,C.muted,false,'the common percentage definition across displayed policies');
- const rows=[['Original ensemble',2.0976772347,C.purple],['Two-condition rule',.1716960116,C.blue],['Tree (≤16 leaves)',.4931167660,C.blue],['Directional rules (≤32 leaves)',.4400539588,C.blue]];
+ const rows=[['Earlier regression ensemble',2.0976772347,C.purple],['Two-condition rule',.1716960116,C.blue],['Tree (≤16 leaves)',.4931167660,C.blue],['Directional rules (≤32 leaves)',.4400539588,C.blue]];
  rows.forEach(([label,v,col],i)=>{const y=248+i*91;a.tx('Compression label '+i,label,60,y,820,47,31,C.ink,i===0,'the model or rule associated with the score');a.tx('Compression saving '+i,v.toFixed(2)+'%',935,y-6,280,63,46,col,true,'the measured saving for '+label.toLowerCase(),'right');});
- a.footer('Simple-rule scores assume free features and queries; the ensemble score includes query costs.');
+ a.footer('Earlier regressor: query costs only. Simple rules assume free inputs; no current-classifier compression result yet.');
  finish(a,out);
  }
  {
- const a=page(p,9,'Appendix: population and cost accounting','What data, cutoffs and incomplete costs underlie the comparison?','START_HERE_ZH.md; raw_data_20261110/statistics.json; research-state.yaml',d);
- const rows=[['Original Anniversary 2022 entries','5,355'],['Official all-track-unsolved exclusions','636'],['Retained development instances','4,719'],['Configuration records','14,157 / 14,157'],['CPU cutoff per run','600 s'],['All three phases time out','1,172 instances'],['Inputs with measured extraction costs','1,024 / 4,719']];
- rows.forEach(([label,v],i)=>{const y=145+i*49;a.tx('Population field '+i,label,60,y,850,39,25,C.ink,false,'the evaluation condition '+label);a.tx('Population value '+i,v,909,y,307,39,26,C.blue,true,'the exact value of '+label.toLowerCase(),'right');});
- a.tx('Cost equation','PAR2 = solved CPU seconds, otherwise 1,200 seconds',60,524,1160,42,27,C.ink,true,'the common timeout penalty');
- a.tx('Saving equation','Saving (%) = 100 × (D PAR2 − policy PAR2) / D PAR2',60,590,1160,44,27,C.ink,true,'the exact denominator used for reported improvements');
- a.footer('CaDiCaL 3.0.1, seed 0. 3,695 unpriced inputs remain; 45 measured acquisition failures fall back to paid D.');
+ const a=page(p,9,'Appendix: population and cost accounting','What population and cost scope underlie the current result?','R54_summary.json; baseline statistics.json',d);
+ const rows=[['Original Anniversary 2022 entries','5,355'],['Official all-track-unsolved exclusions','636'],['Retained development instances','4,719'],['Configuration records','14,157 / 14,157'],['CPU cutoff per run','600 s'],['All three phases time out','1,172 instances'],['Acquisition costs accounted for','4,719 / 4,719'],['Paid acquisition failures → D','25 instances']];
+ rows.forEach(([label,v],i)=>{const y=145+i*44;a.tx('Population field '+i,label,60,y,850,36,24,C.ink,false,'the evaluation condition '+label);a.tx('Population value '+i,v,909,y,307,36,25,C.blue,true,'the exact value of '+label.toLowerCase(),'right');});
+ a.tx('Cost equation','PAR2 = solved CPU seconds, otherwise 1,200 seconds',60,531,1160,42,27,C.ink,true,'the common timeout penalty');
+ a.tx('Saving equation','Saving (%) = 100 × (D PAR2 − policy PAR2) / D PAR2',60,590,1160,44,27,C.ink,true,'the exact denominator for reported improvements');
+ a.footer('Replay combines measured extraction and query costs with recorded runtimes; same-host end-to-end deployment is not yet confirmed.');
+ a.notes('人口和600 CPU秒运行矩阵不变。R54将每题采集和查询实测开销与原动作结果组合，4719题全计；25次采集失败按paid D处理。逻辑native费用总2027.491558886秒，query83.279956秒。费用是旧实测的跨host组合而非新跑完整三配置。R54自身只做回放，无新增拟合、提取、求解。', 'The baseline population and six-hundred-second cutoff are unchanged. R54 accounts for recorded extraction and query costs for all 4,719 inputs, with twenty-five paid acquisition failures falling back to D. These costs are composed with the existing runtime matrix. We have not yet confirmed a new same-host end-to-end solver deployment.');
  finish(a,out);
  }
  {
@@ -147,6 +155,7 @@ export async function refined({presentation:p,input:{data:d}}){
  'These are the twelve actual inputs to the original clustering. They cover size, clause lengths, clause signs and connectivity. We show their natural meanings here. The implementation applies the specified logarithmic transforms and fits clipping and standardization within training folds. Group weights prevent a category with more dimensions from dominating simply because it has more features.');
  finish(a,out);
  }
- out.push(pairedConflicts(p,13,d.pairwise));
+ out.push(pairedConflicts(p,14,d.pairwise));
+ out.push(catalog42(p,15,d.feature42_catalog));
  return out;
 }

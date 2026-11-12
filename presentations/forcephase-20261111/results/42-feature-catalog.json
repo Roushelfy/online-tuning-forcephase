@@ -1,0 +1,184 @@
+{
+  "dimension": 42,
+  "group_counts": {
+    "size": 2,
+    "widths": 11,
+    "types": 4,
+    "clause_balance": 5,
+    "variable_balance": 5,
+    "variable_occurrences": 5,
+    "horn_participation": 5,
+    "dual_horn_participation": 5
+  },
+  "inputs": [
+    {
+      "coordinate_1based": 1,
+      "name": "log1p_variables_maxID"
+    },
+    {
+      "coordinate_1based": 2,
+      "name": "log1p_clauses"
+    },
+    {
+      "coordinate_1based": 3,
+      "name": "empty_fraction"
+    },
+    {
+      "coordinate_1based": 4,
+      "name": "clause_length_1_fraction"
+    },
+    {
+      "coordinate_1based": 5,
+      "name": "clause_length_2_fraction"
+    },
+    {
+      "coordinate_1based": 6,
+      "name": "clause_length_3_fraction"
+    },
+    {
+      "coordinate_1based": 7,
+      "name": "clause_length_4_fraction"
+    },
+    {
+      "coordinate_1based": 8,
+      "name": "clause_length_5_fraction"
+    },
+    {
+      "coordinate_1based": 9,
+      "name": "clause_length_6_fraction"
+    },
+    {
+      "coordinate_1based": 10,
+      "name": "clause_length_7_fraction"
+    },
+    {
+      "coordinate_1based": 11,
+      "name": "clause_length_8_fraction"
+    },
+    {
+      "coordinate_1based": 12,
+      "name": "clause_length_9_fraction"
+    },
+    {
+      "coordinate_1based": 13,
+      "name": "clause_length_10plus_fraction"
+    },
+    {
+      "coordinate_1based": 14,
+      "name": "positive_fraction"
+    },
+    {
+      "coordinate_1based": 15,
+      "name": "negative_fraction"
+    },
+    {
+      "coordinate_1based": 16,
+      "name": "horn_fraction"
+    },
+    {
+      "coordinate_1based": 17,
+      "name": "invhorn_fraction"
+    },
+    {
+      "coordinate_1based": 18,
+      "name": "balancecls_mean"
+    },
+    {
+      "coordinate_1based": 19,
+      "name": "balancecls_variance"
+    },
+    {
+      "coordinate_1based": 20,
+      "name": "balancecls_min"
+    },
+    {
+      "coordinate_1based": 21,
+      "name": "balancecls_max"
+    },
+    {
+      "coordinate_1based": 22,
+      "name": "balancecls_entropy"
+    },
+    {
+      "coordinate_1based": 23,
+      "name": "balancevars_mean"
+    },
+    {
+      "coordinate_1based": 24,
+      "name": "balancevars_variance"
+    },
+    {
+      "coordinate_1based": 25,
+      "name": "balancevars_min"
+    },
+    {
+      "coordinate_1based": 26,
+      "name": "balancevars_max"
+    },
+    {
+      "coordinate_1based": 27,
+      "name": "balancevars_entropy"
+    },
+    {
+      "coordinate_1based": 28,
+      "name": "vcg_vdegree_log1p_mean"
+    },
+    {
+      "coordinate_1based": 29,
+      "name": "vcg_vdegree_log1p_CV2"
+    },
+    {
+      "coordinate_1based": 30,
+      "name": "vcg_vdegree_min_over_mean"
+    },
+    {
+      "coordinate_1based": 31,
+      "name": "vcg_vdegree_log1p_max_over_mean"
+    },
+    {
+      "coordinate_1based": 32,
+      "name": "vcg_vdegree_entropy"
+    },
+    {
+      "coordinate_1based": 33,
+      "name": "hornvars_log1p_mean"
+    },
+    {
+      "coordinate_1based": 34,
+      "name": "hornvars_log1p_CV2"
+    },
+    {
+      "coordinate_1based": 35,
+      "name": "hornvars_min_over_mean"
+    },
+    {
+      "coordinate_1based": 36,
+      "name": "hornvars_log1p_max_over_mean"
+    },
+    {
+      "coordinate_1based": 37,
+      "name": "hornvars_entropy"
+    },
+    {
+      "coordinate_1based": 38,
+      "name": "invhornvars_log1p_mean"
+    },
+    {
+      "coordinate_1based": 39,
+      "name": "invhornvars_log1p_CV2"
+    },
+    {
+      "coordinate_1based": 40,
+      "name": "invhornvars_min_over_mean"
+    },
+    {
+      "coordinate_1based": 41,
+      "name": "invhornvars_log1p_max_over_mean"
+    },
+    {
+      "coordinate_1based": 42,
+      "name": "invhornvars_entropy"
+    }
+  ],
+  "provenance": "Frozen linear42_only_vector.py and interpretable_soft_rules.py:NAMES; supplied pinned GBD extractor."
+}

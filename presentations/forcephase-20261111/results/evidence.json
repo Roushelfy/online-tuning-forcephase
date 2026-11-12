@@ -26623,6 +26623,51 @@
     }
   ],
   "supervised": {
+    "primary": "R54 cost-weighted ExtraTrees classifiers, mean of 3 model scores",
+    "feature_dimension": 42,
+    "actions": {
+      "D": 3598,
+      "Fminus": 553,
+      "Fplus": 568
+    },
+    "block_interval_95_pct": [
+      1.398879764541188,
+      3.2886044174753892
+    ],
+    "exact_eight_block_95_pct": [
+      1.669526971876568,
+      3.2570322577913218
+    ],
+    "gain_pct": 2.3499866537517358,
+    "lost_solves": 28,
+    "native_logical_CPU_s": 2027.4915588860006,
+    "newly_solved": 66,
+    "old_free_acquisition_gain_pct": 2.4020609830762734,
+    "query_logical_CPU_s": 83.27995600000173,
+    "reference_mean_PAR2": 392.54265364738285,
+    "reference_solved": 3385,
+    "scope": "Repeated2022 same-mixture development, not independent confirmation or same-host solver deployment",
+    "selected_mean_PAR2": 383.31795367638654,
+    "solved": 3423,
+    "selection_history": "Mean3 chosen using its already exposed R13B 2.402061% result, not blind selection. This run measures composition with complete native fees, not a new predictor or independent confirmation. No selection/tuning after replay.",
+    "deployment_status": "CNF extraction and old classifier OOF query fees composed across hosts; actual new classifier serving/solver run not performed"
+  },
+  "readable": {
+    "R26": 0.1716960116,
+    "R31": 0.493116766,
+    "R32": 0.4400539588,
+    "R31_coarse": -1.123541549,
+    "R31_fine": -0.9936918461,
+    "R32_additive": -0.103609896,
+    "source": "research-state.yaml:astra_linear42_interpretation,R26,R31,R32"
+  },
+  "provenance": {
+    "attachment": "FORCEPHASE_POST_EVAL_04.zip",
+    "attachment_sha256": "9a1361a7df62876dd756a50a3a956d1fd14bafe11e0532e6c8870c321633d1c6",
+    "baseline_rows_sha256": "aed7734560a4b231ef52d5f669b502c68ff096700ee2e24f90baf0bb96ac2c03",
+    "model_scores": "Supplied START_HERE_ZH.md and research-state.yaml snapshot; no new solver calls or refits."
+  },
+  "historical_supervised_regression_query_only": {
     "gain_pct": 2.0976772347,
     "mean_PAR2_s": 384.3083757654,
     "solved": 3419,
@@ -26640,20 +26685,5 @@
     "cost_measured": 1024,
     "cost_unknown": 3695,
     "paid_D_failures": 45
-  },
-  "readable": {
-    "R26": 0.1716960116,
-    "R31": 0.493116766,
-    "R32": 0.4400539588,
-    "R31_coarse": -1.123541549,
-    "R31_fine": -0.9936918461,
-    "R32_additive": -0.103609896,
-    "source": "research-state.yaml:astra_linear42_interpretation,R26,R31,R32"
-  },
-  "provenance": {
-    "attachment": "FORCEPHASE_POST_EVAL_04.zip",
-    "attachment_sha256": "9a1361a7df62876dd756a50a3a956d1fd14bafe11e0532e6c8870c321633d1c6",
-    "baseline_rows_sha256": "aed7734560a4b231ef52d5f669b502c68ff096700ee2e24f90baf0bb96ac2c03",
-    "model_scores": "Supplied START_HERE_ZH.md and research-state.yaml snapshot; no new solver calls or refits."
   }
 }
