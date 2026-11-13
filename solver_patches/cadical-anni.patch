@@ -1,0 +1,138 @@
+diff -ruN pristine/src/analyze.cpp src/src/analyze.cpp
+--- a/src/analyze.cpp	2026-07-19 15:40:55.000000000 +0000
++++ b/src/analyze.cpp	2026-11-13 01:55:28.307441078 +0000
+@@ -1341,6 +1341,9 @@
+ 
+   int new_level = determine_actual_backtrack_level (jump);
+   UPDATE_AVERAGE (averages.current.level, new_level);
++  anni_sum_conflict_level += level, anni_sum_backtrack_level += new_level, anni_sum_jump += jump, anni_samples++;
++  if (opts.anniprobe && !(stats.conflicts & 31) && process_time () >= anni_next_report)
++    anni_report ("tick");
+   backtrack (new_level);
+ 
+   // It should hold that (!level <=> size == 1)
+diff -ruN pristine/src/external.cpp src/src/external.cpp
+--- a/src/external.cpp	2026-07-19 15:40:55.000000000 +0000
++++ b/src/external.cpp	2026-11-13 01:55:28.425941274 +0000
+@@ -180,6 +180,12 @@
+              (int) abs (elit));
+   reset_extended ();
+ 
++  if (elit && internal->opts.flargest) {
++    const size_t v = (size_t) abs (elit);
++    if (anni_pos.size () <= v) anni_pos.resize (v + 1, 0), anni_neg.resize (v + 1, 0);
++    (elit > 0 ? anni_pos : anni_neg)[v]++;
++  }
++
+   bool forgettable = false;
+ 
+   if (internal->opts.check &&
+@@ -617,6 +623,18 @@
+ int External::solve (bool preprocess_only) {
+   reset_extended ();
+   update_molten_literals ();
++  if (internal->opts.flargest && !anni_flargest_applied) {
++    anni_flargest_applied = true;
++    int64_t pos = 0, neg = 0, ties = 0;
++    for (size_t v = 1; v < anni_pos.size (); v++) {
++      if (!anni_pos[v] && !anni_neg[v]) continue;
++      const int elit = anni_pos[v] >= anni_neg[v] ? (int) v : -(int) v;
++      if (anni_pos[v] == anni_neg[v]) ties++; else if (elit > 0) pos++; else neg++;
++      phase (elit);
++    }
++    printf ("c anni flargest positive=%" PRId64 " negative=%" PRId64 " ties_positive=%" PRId64 "\n", pos, neg, ties);
++    fflush (stdout);
++  }
+   int res = internal->solve (preprocess_only);
+   check_solve_result (res);
+   reset_limits ();
+diff -ruN pristine/src/external.hpp src/src/external.hpp
+--- a/src/external.hpp	2026-07-19 15:40:55.000000000 +0000
++++ b/src/external.hpp	2026-11-13 01:55:28.378116053 +0000
+@@ -151,6 +151,9 @@
+   // future.  Only needed to check and debug old style freeze semantics.
+   //
+   vector<bool> moltentab;
++  // anni patch: original literal sign counts for 'flargest'
++  vector<int64_t> anni_pos, anni_neg;
++  bool anni_flargest_applied = false;
+ 
+   //----------------------------------------------------------------------//
+ 
+diff -ruN pristine/src/internal.hpp src/src/internal.hpp
+--- a/src/internal.hpp	2026-07-19 15:40:55.000000000 +0000
++++ b/src/internal.hpp	2026-11-13 01:55:28.293385458 +0000
+@@ -186,6 +186,10 @@
+   bool force_saved_phase;      // force saved phase in decision
+   bool searching_lucky_phases; // during 'lucky_phases'
+   bool stable;                 // true during stabilization phase
++  // anni patch: telemetry only, never read by the search
++  double anni_next_report = 0;
++  int64_t anni_sum_conflict_level = 0, anni_sum_backtrack_level = 0, anni_sum_jump = 0, anni_samples = 0;
++  void anni_report (const char *tag);
+   bool reported;               // reported in this solving call
+   bool external_prop;         // true if an external propagator is connected
+   bool did_external_prop;     // true if ext. propagation happened
+diff -ruN pristine/src/options.hpp src/src/options.hpp
+--- a/src/options.hpp	2026-07-19 15:40:55.000000000 +0000
++++ b/src/options.hpp	2026-11-13 01:55:28.281272894 +0000
+@@ -21,6 +21,7 @@
+ \
+ /*      NAME         DEFAULT, LO, HI,O,P,R, USAGE */ \
+ \
++OPTION( anniprobe,         0,  0,1e6,0,0,1, "anni telemetry line interval in ms (0=off)") \
+ OPTION( arena,             1,  0,  1,0,0,1, "allocate clauses in arena") \
+ OPTION( arenacompact,      1,  0,  1,0,0,1, "keep clauses compact") \
+ OPTION( arenasort,         1,  0,  1,0,0,1, "sort clauses in arena") \
+@@ -130,6 +131,7 @@
+ OPTION( fastelimclslim,  1e2,  2,2e9,2,0,1, "fast BVE resolvent size limit") \
+ OPTION( fastelimocclim,  100,  1,2e9,2,0,1, "fast BVE occurence limit during preprocessing") \
+ OPTION( fastelimrounds,    4,  1,512,1,0,1, "number of fastelim rounds") \
++OPTION( flargest,          0,  0,  1,0,0,1, "force each variable to its majority literal sign (ties positive)") \
+ OPTION( flush,             0,  0,  1,0,1,1, "flush redundant clauses") \
+ OPTION( flushfactor,       3,  1,1e3,0,0,1, "interval increase") \
+ OPTION( flushint,        1e5,  1,2e9,0,0,1, "initial limit") \
+diff -ruN pristine/src/report.cpp src/src/report.cpp
+--- a/src/report.cpp	2026-07-19 15:40:55.000000000 +0000
++++ b/src/report.cpp	2026-11-13 01:55:28.334909987 +0000
+@@ -2,6 +2,29 @@
+ 
+ namespace CaDiCaL {
+ 
++// anni patch: one machine-readable telemetry line; prints to stdout like other 'c' lines.
++void Internal::anni_report (const char *tag) {
++  const double t = process_time ();
++  if (opts.anniprobe) anni_next_report = t + opts.anniprobe / 1000.0;
++  printf ("c anni %s t=%.4f conflicts=%" PRId64 " decisions=%" PRId64 " propagations=%" PRId64
++          " restarts=%" PRId64 " reductions=%" PRId64 " rephased=%" PRId64 " chrono=%" PRId64
++          " stable=%d stabphases=%" PRId64 " fixed=%" PRId64 " learned_lits=%" PRId64
++          " learned_cls=%" PRId64 " irredundant=%" PRId64 " redundant=%" PRId64 " active=%d"
++          " level_ema=%.4f jump_ema=%.4f trail_fast=%.4f trail_slow=%.4f glue_fast=%.4f"
++          " glue_slow=%.4f size_ema=%.4f decision_rate_ema=%.4f sum_conflict_level=%" PRId64
++          " sum_backtrack_level=%" PRId64 " sum_jump=%" PRId64 " samples=%" PRId64 "\n",
++          tag, t, stats.conflicts, stats.decisions, stats.propagations.search, stats.restarts,
++          stats.reductions, stats.rephased.total, stats.chrono, (int) stable, stats.stabphases,
++          stats.all.fixed, stats.learned.literals, stats.learned.clauses, stats.current.irredundant,
++          stats.current.redundant, active (), (double) averages.current.level,
++          (double) averages.current.jump, (double) averages.current.trail.fast,
++          (double) averages.current.trail.slow, (double) averages.current.glue.fast,
++          (double) averages.current.glue.slow, (double) averages.current.size,
++          (double) averages.current.decisions, anni_sum_conflict_level, anni_sum_backtrack_level,
++          anni_sum_jump, anni_samples);
++  fflush (stdout);
++}
++
+ #ifndef QUIET
+ 
+ /*------------------------------------------------------------------------*/
+diff -ruN pristine/src/stats.cpp src/src/stats.cpp
+--- a/src/stats.cpp	2026-07-19 15:40:55.000000000 +0000
++++ b/src/stats.cpp	2026-11-13 01:55:28.362374365 +0000
+@@ -27,6 +27,7 @@
+ /*------------------------------------------------------------------------*/
+ 
+ void Stats::print (Internal *internal) {
++  if (internal->opts.anniprobe) internal->anni_report ("final");
+ 
+ #ifdef QUIET
+   (void) internal;
