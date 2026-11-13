@@ -40,7 +40,9 @@ def one(k, a, cpu, local):
         attempts.append({"binary": name, "exit": code, "cpu_s": c, "wall_s": w, "stderr": err.strip()[:200]})
         if code == 0:
             rec["raw42"] = json.loads(out)["features"]; break
-        if code != -24: break                      # retry only after the CPU-limit signal, as in Mu's policy
+        # Retry only after the 8 s CPU limit ended the attempt, as in Mu's policy. With soft = hard = 8 s, macOS
+        # delivers SIGXCPU (-24) but Linux delivers SIGKILL (-9) at the hard limit, so both count when CPU >= 7.9 s.
+        if not (code in (-24, -9) and c >= 7.9): break
     rec["native_attempts"] = attempts
     rec["native_ok"] = "raw42" in rec
     rec["native_cpu_s"] = sum(x["cpu_s"] for x in attempts)

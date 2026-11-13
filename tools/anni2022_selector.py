@@ -122,9 +122,9 @@ def calibrate(g, costs, fee):
     return best_cut
 
 
-def cross_validate(x, valid, costs, folds, inner, n_folds=None, time_queries=True):
+def cross_validate(x, valid, costs, folds, inner, n_folds=None, time_queries=True, return_scores=False):
     """Out-of-fold mean3 actions, per-instance query CPU (3 inferences + aggregation) and per-fold margins."""
-    n = len(costs); action = np.zeros(n, dtype=int); query = np.zeros(n); cuts = []
+    n = len(costs); action = np.zeros(n, dtype=int); query = np.zeros(n); cuts = []; held_scores = np.zeros((n, 2))
     n_folds = n_folds or int(folds.max()) + 1
     for fold in range(n_folds):
         held = folds == fold
@@ -144,10 +144,10 @@ def cross_validate(x, valid, costs, folds, inner, n_folds=None, time_queries=Tru
         for i in range(len(ids)):
             t = time.process_time(); hp[:, i].mean(axis=0); hp[:, i].min(axis=0); agg[i] = time.process_time() - t
         cut = calibrate(vp.mean(axis=0), costs[val], np.zeros(val.sum()))
-        action[ids] = choose(hp.mean(axis=0), cut)
+        action[ids] = choose(hp.mean(axis=0), cut); held_scores[ids] = hp.mean(axis=0)
         if cut is not None: query[ids] = hf.sum(axis=0) + agg
         cuts.append(cut)
-    return action, query, cuts
+    return (action, query, cuts, held_scores) if return_scores else (action, query, cuts)
 
 
 def summarize(name, keys, costs, action, fee, d_ref=None):
