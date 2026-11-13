@@ -1,0 +1,94 @@
+{
+ "population": {
+  "R": 162,
+  "G": 321,
+  "C": 4236
+ },
+ "strata": {
+  "R": {
+   "n": 162,
+   "seed1": {
+    "complete": 162,
+    "fastest_mode_same": 142,
+    "fastest_mode_comparable": 157,
+    "D_still_timeout": 126,
+    "a_forced_mode_still_solves": 156,
+    "rescue_reproduced (D timeout and F solves)": 121,
+    "same_forced_mode_solves": 156,
+    "D_conflicts_identical_to_baseline": 0,
+    "D_time_ratio_median_both_solved": NaN
+   },
+   "perm1": {
+    "complete": 162,
+    "fastest_mode_same": 76,
+    "fastest_mode_comparable": 110,
+    "D_still_timeout": 121,
+    "a_forced_mode_still_solves": 103,
+    "rescue_reproduced (D timeout and F solves)": 69,
+    "same_forced_mode_solves": 100,
+    "D_conflicts_identical_to_baseline": 0,
+    "D_time_ratio_median_both_solved": NaN
+   }
+  },
+  "G": {
+   "n": 150,
+   "seed1": {
+    "complete": 150,
+    "fastest_mode_same": 138,
+    "fastest_mode_comparable": 150,
+    "baseline_F_2x_faster": 150,
+    "still_F_faster_than_D": 138,
+    "still_F_2x_faster": 108,
+    "D_conflicts_identical_to_baseline": 9,
+    "D_time_ratio_median_both_solved": 0.8326779240308312
+   },
+   "perm1": {
+    "complete": 150,
+    "fastest_mode_same": 66,
+    "fastest_mode_comparable": 144,
+    "baseline_F_2x_faster": 150,
+    "still_F_faster_than_D": 97,
+    "still_F_2x_faster": 63,
+    "D_conflicts_identical_to_baseline": 0,
+    "D_time_ratio_median_both_solved": 0.6860911716621698
+   }
+  },
+  "C": {
+   "n": 150,
+   "seed1": {
+    "complete": 150,
+    "fastest_mode_same": 77,
+    "fastest_mode_comparable": 106,
+    "baseline_F_2x_faster": 0,
+    "still_F_faster_than_D": 0,
+    "still_F_2x_faster": 0,
+    "D_conflicts_identical_to_baseline": 39,
+    "D_time_ratio_median_both_solved": 0.9220451375356311
+   },
+   "perm1": {
+    "complete": 150,
+    "fastest_mode_same": 56,
+    "fastest_mode_comparable": 101,
+    "baseline_F_2x_faster": 0,
+    "still_F_faster_than_D": 0,
+    "still_F_2x_faster": 0,
+    "D_conflicts_identical_to_baseline": 6,
+    "D_time_ratio_median_both_solved": 1.0734375914577186
+   }
+  }
+ },
+ "weighted_seed1": {
+  "instances": 462,
+  "VBS_gain_on_baseline_runs_pct": 10.393304096339541,
+  "VBS_gain_on_perturbed_runs_pct": 11.532704102850301,
+  "baseline_best_mode_applied_to_perturbed_runs_pct": 9.890811225343176,
+  "always_D_baseline_vs_perturbed_cost_ratio": 0.9997843981498531
+ },
+ "weighted_perm1": {
+  "instances": 462,
+  "VBS_gain_on_baseline_runs_pct": 10.393304096339541,
+  "VBS_gain_on_perturbed_runs_pct": 6.839433113273451,
+  "baseline_best_mode_applied_to_perturbed_runs_pct": 0.5944358299465032,
+  "always_D_baseline_vs_perturbed_cost_ratio": 1.0326871052477875
+ }
+}

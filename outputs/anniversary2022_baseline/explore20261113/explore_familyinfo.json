@@ -1,0 +1,98 @@
+{
+ "results": [
+  {
+   "policy": "family one-hot only [iso folds, free]",
+   "solved": 3398,
+   "gain_vs_D_pct": 0.7098154635616833,
+   "mean_PAR2": 389.75632519071837,
+   "total_CPU_h": 290.73891627083333,
+   "rescued_vs_D": 16,
+   "lost_vs_D": 3,
+   "actions": {
+    "D": 4441,
+    "F+": 30,
+    "F-": 248
+   },
+   "cuts": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "policy": "42 statistics only [iso folds, free]",
+   "solved": 3423,
+   "gain_vs_D_pct": 2.4227005661207452,
+   "mean_PAR2": 383.0325205552023,
+   "total_CPU_h": 286.09179569444444,
+   "rescued_vs_D": 67,
+   "lost_vs_D": 29,
+   "actions": {
+    "D": 3549,
+    "F+": 604,
+    "F-": 566
+   },
+   "cuts": [
+    0.018687720872147782,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "policy": "42 statistics + family one-hot [iso folds, free]",
+   "solved": 3419,
+   "gain_vs_D_pct": 2.018278734151293,
+   "mean_PAR2": 384.6200487463446,
+   "total_CPU_h": 287.50611389833335,
+   "rescued_vs_D": 52,
+   "lost_vs_D": 18,
+   "actions": {
+    "D": 3947,
+    "F+": 352,
+    "F-": 420
+   },
+   "cuts": [
+    0.0,
+    0.0,
+    0.0,
+    0.031862088868246534,
+    0.0
+   ]
+  }
+ ],
+ "family_bounds": {
+  "3 modes": {
+   "per_instance_VBS_pct": 10.85281346436668,
+   "family_best_in_sample_pct": 3.647702253092627,
+   "family_best_leave_one_out_pct": 1.9788120021922282,
+   "leave_one_out_solved": 3424
+  },
+  "4 modes": {
+   "per_instance_VBS_pct": 12.71954134665271,
+   "family_best_in_sample_pct": 4.0529758662751725,
+   "family_best_leave_one_out_pct": 1.9823421021148584,
+   "leave_one_out_solved": 3426
+  }
+ },
+ "paired_vs_3mode": {
+  "explore_4_modes_42_inputs_iso_folds": {
+   "point_vs_3mode_pct": 0.47714753999620324,
+   "q2.5": -0.3468746373803044,
+   "q97.5": 1.4725990351159317
+  },
+  "explore_4_modes_42_inputs_+_majority-sign_shares_iso_folds": {
+   "point_vs_3mode_pct": 0.3291335968803097,
+   "q2.5": -0.6896282208609984,
+   "q97.5": 1.4584403093121998
+  },
+  "explore_safe_iso_folds": {
+   "point_vs_3mode_pct": 0.051569163240531686,
+   "q2.5": -0.00012038235324719438,
+   "q97.5": 0.15340811881881827
+  }
+ }
+}

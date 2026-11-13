@@ -1,0 +1,1857 @@
+{
+ "instances": [
+  {
+   "instance_key": "004b0f451f7d96f6a572e9e76360f51a",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "02404a08ea36dd43362bbddc578c839d",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "035c200bbf0a783e4ec9656cfa9b2f68",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "0534387f90398a24495d4b7b05f9b342",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "08530caa5c9232f2ffc5163cf79b38e7",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "085792654d945c1de700245916f2c7f6",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "08b6f45c900d30fb65462a65df69e214",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "0949ba00fc83c074bb2db981a543756f",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "0a5ae0d5af40b6d41f8be446811aa796",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "0b4421f6aac81e2dbc87c5b5ddae6511",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "0ccbe90c246f198ecab671c9e5e8cf52",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "115fa7f61704bc12b2373aa471bc434f",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "128a20596924fe6ceb5a61144dcf4253",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "1446548d272c0b28fb40225c50d743a5",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "166e1e5a9f63fcf94ddae8533fa2a090",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "16b5ccee102406efd1924d8f1c7a1cc6",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "16c27d738cb45b766b8823ca4f428cf0",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "172ecb98a80b859e62612ff192a53729",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "17d01710d82e86967d43abc639f6476b",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "1b059d3ebcb30574b7ec5c7ec7d7ea5b",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "1b72d2cd3e978b7ad976b6f1d2174dd4",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "1bd9d36816a8b56557a2fe470a8cbf1c",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "1d6457d39153524c91ddada7eaee8ce7",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "1da295e464b0f17a9f39961d13b25773",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "1f3b251666b7b9aa4bfad28d5ecfecc2",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "213c4eabd02f12ff075c751edb6dbff9",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "25fb7464ca6edd09189582fedaf5dba6",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "26e9e6f76821074fec971ba27aae0bea",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "2709fc2279d361c2b19e36522c239965",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "2d46630f3a5cf0db88d418ac49bc91c3",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "2da2d8242d31196d7a3d282e9cae4706",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "3292846129f7c1d50375e3e6cf8c7d4a",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "32e77b54836af7f04f33aa8a7ebbe4ca",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "33a45c71f3a77d3ac0096eaabedaf31f",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "34038db20edb478e85b3bc6fce2e5c86",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "36ba44cf208034e2c8e84a1971b9bfd4",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "380602278a69c8356d72ee604d62a426",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "3936bd75d426c2b19d249054d8f039a8",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "3bb0e77612dfa8e3c0ca5c658a8c5cf3",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "3c1252e11adea78ca57afd0f9ed8f8fe",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "3c15c8fb5153b9d758a9eb16c66adc5d",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "3cb2d7a04f72b9d8cedfcd011170687a",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "3e9f461bbe4e9839d499fe1575df6ad9",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "41afe4f9d2db445600aa14ee1dc2a929",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "4346c9ff02b3615fee0d04fb0f335160",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "4584de77fc93960884298f76df7a3299",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "468c32ec8eb910bd06121e790331f36a",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "482295be38dc1d63a16f3cf649ef7ef6",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "4a00f482957850eed1b7ac2ec53d43ea",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "4bed9fdbef6375a8c390006131d4e29c",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "4dc92cc97ebbe9230020a89efbbdcfb1",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "4fc1fbcdab296aec357e4bc4509577a2",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "5077bbe914a63da146d2f88652938e56",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "51925dbfcd5534b312265098fd439b12",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "545566b1c8caf35f517b55ebdec5a117",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "556deccbd6591671e3aa80fde2d8f01c",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "56438fbbe8c1ec5d950209885cdd2b99",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "5690b9b0380aa9508699e56cae5918b5",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "5acb0010b114a60999489cec31f0a667",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "5bc585c5aaba7f9f8faae4cfd1e6b5e8",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "5fea03f266f60a417e85af49a5d769e5",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "6077d4e5f755124ddc84068d6ccb630f",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "609ab29d02c73af38b7cb1c6e0de0142",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "613be3fce8fa3e517d10e292f0a2542d",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "6392cea0e1c5c95773c79cd143e2a934",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "63c6886839a82442cdfbb3167d464baf",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "655681362024c10869610709e1a22246",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "656822ff35dc3ffae052fa512260dd44",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "65daba7b1614fdbdf75b34d68953de64",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "67133027ab55906e3b757148ca7011dd",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "68cd50e5bfe00ca94867aa0dcf44055c",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "6cf6cd0a2880a940056886672270cd8b",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "6d094ef8ff8403c1338136bdc474b1c9",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "6d7c0deeffe06978367a90a10f608d59",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "6f82682182394eb554a47a55f6c4453e",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "75429ff7acb5acb597abe01aa745c2a6",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "772df42aad13b37340a40bffd859f0a5",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "790152d13323c14a7a1f0759ae3b5c28",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "79e68d206d8dea970436393a3b1b0de4",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "7aaddb977571c2e8e61f35a24942703f",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "7af73f846548141cc97b8a149a20bfbf",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "7bdc3b411293bb3f7de0484cf88c82f4",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "7e5396d6b00b82c2fc0ea1d7c6505afd",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "833c0c0cd07db3a7423dc73f0d2378d2",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "8667fcc1ea372b7cbcbbb09e79eed0d3",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "86b50dbc0e6d25e78792b1ec7d8910a1",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "8924fd8ff845dfbe1e0970f3476328d7",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "8ab56bb3b674e4afae5a61b2bf3a747a",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "8d8821e8e49f2f85ce7bca24ee7f84bf",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "8f5bca645bd8738eb74c2e1dc284774a",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "902ed2103c7c768e49f7b5e1455d506f",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "92dcc93fa35f4029f1b50dcf0aade90d",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "96e38559d1e0f6d330dd3a976c7b1ab6",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "976649ddfe27c60bacb508ecd3499f39",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "97c3f9247b9e1077d479372dc7d1eef0",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "9862d27fe2528635f363e0f7645b2c53",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "98aa097618257b904b2b10c5314e1f02",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "9a85720c365680d985924c786fabad81",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "9aaadc9d5e63938b3711ea6689579055",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "9b3ca1389f989ebf68bffd2cd649395b",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "9dd246543ae101f829b5cfc226473675",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "9ebe01fac83633665d51bcf623a9f1eb",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "9ee21377e11b3f384760fcc90ab27d8c",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "a0bd1bde8e9878deb48c442790160c50",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "a457b9542414214b9daa00381d3155f5",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "a51f9333b2b9addb62ccaec01eced129",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "a88dcbc4b23784eaeb4afdde82d4da67",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "a8c50e130aa5eb28d4b66b205a9d718a",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "a8f45f8be6e2f94b57c98217f43f77d1",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "a91f564f1c6ff502464c4c38bb78f0a1",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "a9e7e0505d1d92a7a2a07ac14b59b196",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "aa39c6d885d283a085d033ab7b89f8c8",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "ae172b720ce980b1ec5337bfd7d5a8ff",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "ae17bcd042e6140aa72a2cd9f4c42b9c",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "af6db1b9c5e0a3f02e8986878dda4761",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "afc7b108e6dabc137cf109ef3e7bda16",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "b06104a3bff8d2f7294da267e28bc1af",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "b15a8aff421c1d617b0438265d906f95",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "b2059a77acce5836fcaa1e26cd1bb1dc",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "b33252a0ae12bbdb10449932540776dd",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "b37dd84a1ca56a24876590bd60c5cf57",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "b5ad69530f80d1c9a323491ad4efc169",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "b8322792935eab432e7696e2ca298ff3",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "ba97293d0bed8132f29432ec9c8722c6",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "bacb55fe2aa11f3355c3b162f0867928",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "bb238c2031e18c06643d42269d123c4a",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "bb4ed0cf3cf535f7c11a99ee6cbc4f91",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "bc895df6a129123e196ab5912ea44d02",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "bcb2104a3558d87ac3b2107c10d54648",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "bd1fc6fc2a92be3511a46e245961778e",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "bfcd19c7273231a512e23d30571b8bc2",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "c261941bfec8b89d75fee1a66a839169",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "c320454b0750a2f351ce1257db0b51db",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "c5ae0ec49de0959cd14431ce851c14f8",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "c76f3c6c2e2eae85fc5f3d499f3db88d",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "cd45de8e357af61f4dfc5d0f48ff2b91",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "cdd89d1b9259dcf26d4a53ba94041e93",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "cf1a5622deb1bb224e619af9485bb01e",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "d02fc21fe69a1251c4af39291ace1bdb",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "d072079bdcc592adf80b315bd05c6f27",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "d0ad28cbd887af86de17c2680ea91f27",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "d5453d6d31f33a310ce34ee4bcfcbe50",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "d55033d9dc6c92861ae6b099870322d3",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "d7b38c8ead74ae705aa60b8771debda1",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "dcdfb7b6a5e319f915449dcb2464304d",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "ddc7bef18e9a81b227a8e8d903d49455",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "df03334f1c8f744c7f08414d8c955a36",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "df4b57722dd6ef74aec3e3779eefdf14",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "df8884c93686aa1f0fe4ba12b5a98bde",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "e13f5108a244c98d2e3cdf99cd863dc8",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "e1c096c67980be89391e9a0ea5dadd88",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "e85b6cb3e2751d5c80559433ba1adf06",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "ea27a2989279b30af0940b790dae4f94",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "ee4fb1a1a04befd91146ee6c8f06541c",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "eec974743c00c860c8bcf649227deb96",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "ef4207e8736517fd3abc555d3f98bae8",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "f0cb91c919d0ce36728d99b3660ae1ae",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "f0e964156d4d5ce17ecc9fa95b89c3d4",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "f2fdf6d0a00880ef0816fe1607f98b1f",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "f746dae2050dd4aa48bcd53e8bd897b4",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "f93204ed5a1742df93ed31486010a556",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "fec4ba2cf2416933dcf7b8153be97344",
+   "stratum": "R"
+  },
+  {
+   "instance_key": "000a41cdca43be89ed62ea3abf2d0b64",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "00a62eb89afbf27e1addf8f5c437da9b",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "021686368317a35103f1f671f783d958",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "0216f9d35f2b695b904fffb312e3e611",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "02223564bd2f5c20768e63cf28c785e3",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "02627689047d06fbb642eef14768d751",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "04935c7718d4ada8516e0d99c46df41b",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "04d2cca932a87b98ebfc7bbd0fe6ed5d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "0876c518e5653369e20fb1ee0bb8db40",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "0a4b9ce30540d2103d65e44994d206a5",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "0a819f7ad46f70de5a184784da303f5e",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "0e5a211e7c3d52b6cbede3fef45f4f3a",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "10a553afab3c4406968b1f6b3abfcfcd",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "144889e68fb25ec33f1d81cab4c26581",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "16b0810ba492f30a39fbd46ece608cf2",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "1890f49a43a94b97828528b68c32b78e",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "18d4124324b56e434118f9ef72198d84",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "195c4ca639cc5b1f16aa319d94bd6989",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "19a72fc66cf0e46348b0f17aa5550225",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "1a3400dc32a3859afb20566a4ded9606",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "1de013d98cc407c5bbb1c08d05e03ab6",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "1e0d58c7e52319b3b17e343ec7ca6de5",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "1eabc0df9be862042637dbb555212a21",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "23b15b56a6dc5c41c2e47a349765107d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "2534e0c4691a8807de2342ef98636ce6",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "2609d5f1772bd52e16159b51a986b74d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "276fe9730ff09cafd8c59f44c9c61b4d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "278b9675cbaff7baeeb3e519746eec8d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "291709c47f0a249944f717e6ef951109",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "29e101b66dfddb440e974b9feec5b1aa",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "2c15682632ec230f52e04e6b8738ba1f",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "2d1e4189b9de74ed1af4721483d3a574",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "2dcc525ccb3eb88be9dcd4fbed1bab6c",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "2e587b60ddaab9f66380b045119e5086",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "2f410eb822183388f75d966463293f60",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "3198bf396bbf9fbf335513f05293275e",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "34da7281df2d13343b40517a88789c73",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "3728fe50d8038c639c2d9c84e04fe2b1",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "37d51818a1e24d2659c8a94a72da386b",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "38bccb6b86edd3134c26f4fe3c2b04c2",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "3978bc0db0a3f8a16de8e667761a3d01",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "3a91b8d3c14cd5415b5e2d1f5be13890",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "3afd64a14c16c4ccb336e4e7a3e05011",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "3c4fad450b700fcf3da7f6246915ddbe",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "410539f411ecf4606d8f23cae5ac32b9",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "4132196a3dad222c96f2bc021255d21b",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "430ea7b80a96824380cd1d1e649cc5ea",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "43e9826f4a546e9da84b6bd8adaa6827",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "47f41d044822c0f60d0aec1e5624b154",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "4a6268945652964c9b86b7c15425c0fe",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "4c9b7b964c5b2b540ee5e09b3a5f3c8e",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "4cc8e55799ecda9e666a4c767fb290d8",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "4e3ad59a4716ec934b8f4e249b36a882",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "4e8a1b2d6fda300bba2969565620684c",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "4ef0f670f650cf5c27067ca5df50b7ab",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "50468d740d0d9cd69c43e4122014d60e",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "5084904780e4249959a9368ec8e8d930",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "519ec7e2da48149991957836b84dda06",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "5584cc467c09d0cab489238275c2b92e",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "55b646fe9b86176247883328e8df283b",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "56e562b48dddc21239bbb134eecba448",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "587ac25d93492c61eebb72cb258ba173",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "5aaba0d1cedc84a0100dca0235968591",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "5aea835073f0900d0015ae8f9eed9063",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "5cf0eee780d34bf1fd2cb3bc97146e2d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "5e2d07ffde107945ffb862f9ad6e4fb7",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "5ea9d54e4eb8eeab1ff058471b9c83ca",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "6215163bc9223383b76bd16222c98f66",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "67158b829ad61fbc3ae12f9fafe2de3c",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "67aa1a256f92020dccdf66b235de3986",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "67df7bd97e841395a4c75281423986cf",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "6e808c491e0b4d6472313d74d408df7f",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "6eb1a684231ecfd5ba0617abfaa2c632",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "6fbed10d0ff5bea497d26c08ad2f8009",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "70903c09156674cc1b0c35794cfe3d06",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "70ef2b6bdc4101a0e35cf3d165571fe3",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "7162f7f1e18ff7e3010af4ca4396bd4e",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "73063c6257a4ffc29f5bea7028403a64",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "75ae63ed27c22c2385867ad8074fd037",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "7927727cdd6b4346d77112510631721f",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "7b630958ad92e1562c7450e946b8852b",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "7df8389c5b329a2e118a50a94c254e7d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "7e3617b2007c1a6d15095840cf96ddd5",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "7ef489e2f958158fbc5cda361702f684",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "7efdf72de31fa82aeceb7acbc29a59bf",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "80323cb8c560a7d8260b3f43529d6499",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "8157c6aa84b505772a17e0ccd77b152d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "81bced94e5f672f0bb0bab7dd298d11c",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "85071adde6e3118aef323066387a4aac",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "872eecaa7109fe1e31a510c903e9f877",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "87daaee8aedd931f03bc3577ce787070",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "8915616ada833b0678dc057796f68486",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "8a71b6a5e2d32f3ff3b08e91045e7875",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "8b1bd6edad9760fa71dd2b5a8623785f",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "8b6635639b3d4c02c28f28410f286d85",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "8dd15d5a2356cabe1e5a3bb3aad975ed",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "909f704d5f4127c1197a086705468624",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "92b98ab8055b143e0283a215a70cf001",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "931621d9964e9d0cd1c4001822015c92",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "940a69d9f16d6c8d7a535662386e9b5d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "98d60cd584d39a76022509a769839111",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "9c3d41761f7044b5a48618886b3e987a",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "a06e32f14a4e0bca8b96826c2377b22b",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "a175c8b4a50f6be6e9e3b245b37357f0",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "ad24373a191182190dd0775ee9250a17",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "af59a2bd928813e816d015c753f45541",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "b08e53ad86da0b50b55290108a241241",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "b1c4bf432b8110eca82739bff3337730",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "b2d89917d97f65150eef03cf1db3c03d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "b33dda793a0aa40b0d29ec629d7a541b",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "b51583e32432c5778c7e3e996c3bfeba",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "b5431f41e3264c64508c30da215c69c6",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "b9a688ab96cb1847b4ab2288ad6354fb",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "b9c0ee5447cb3ff17167d5a00df522bd",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "be63e79965dd148473cdaec0bf91afdc",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "be788c19b500d6c18a395558504ca78d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c12d5e3213fbe4071aa8a64618c67445",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c31f64e36934747378efbea57f27b8ef",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c37b4ce8f68fe990fa25d5bb51f478c4",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c5dbdd112be5e90c3033dfb361816b3d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c75da2a1b1be73fff24d160d3c0ac22c",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c790cce39a626db94903b2789c570d7e",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c88e69b47ae3e630c80930530203b7f3",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c98cb332cef9805eb77f592e7470fc56",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "c9fca1038e970e422584da97def83aca",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "ca9db6688158d856299562b4f9ca5777",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "cb4238b7a86307dd3e0be2ef213500ad",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "cd670fb043fba9266428987dcbec71fa",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "ce9490fdb1c52b1810e74852c0125717",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "cfc5b08fa24149afb9a67426dbe871e9",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "d2ec1de194269f98dff6608ff097d031",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "d3bf5d39746a7742674e50876649138f",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "d4e5e0a5b7a6d2bd19afbea61ffb85b8",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "d8755fbffec770ee33cb4169b91b77d9",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "d8e9d33780aa854af40e47c5bb86b2f6",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "d9c3391cbc4e2d6f4ad5cd6a59b1fb3a",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "e025c23875a6e7239a074436b0ad89ce",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "e0bf26a7527cd162c7d3016d4b2ab9fb",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "e0ebbebd8c2372191ce9425292f241c5",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "e185ebbd92c23ab460a3d29046eccf1d",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "e318e2ac78b473091c3c2197afd7fc98",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "e4ac15cf2373fe0a3601065225178916",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "ea495d82a8bbe73de090922eabff72d1",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "ead9f0f95528875bbdbe323625cdf8b9",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "f19d3fa8a8dce0813be18f3d5fddccb3",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "f3f0e4bf0cc83188b2cb3ab08d797ec8",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "fb6fba447186d72d6206cbeaddf04809",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "fc453c55996cbb8cab984f137fcee0e5",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "fee70cede2b5b55bfbdb6e48fbe7ce4f",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "ffdeeea964ae356a1c661cedcbb69af2",
+   "stratum": "G"
+  },
+  {
+   "instance_key": "017bba0f995e6d9921253e5a59521435",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "02c3f1d24074cba45a64d0b4b5aa0238",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "02f2343e32f9070f149708d77556b4aa",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "0379936c75c225f1a9a113762b019da6",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "08300e286c3380f7e7291ca6a534c97b",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "088ffd086f2d5e55553d5e79aa30aaf5",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "09991a55c8e3c8ec7966a0105a76d6e1",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "0a7555a2a68abdd45b80a8db1a919a6a",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "0b4a57d8dab789e2476be5b1ac680eeb",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "0b9f8c85eaff9eed98a0c5cd3189afb7",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "118415e2696075a8a1c5720c1838f1a7",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "11ba9953b9ae8475f05de36bfd6ec21f",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "1226ff1c8dc34360b183aa2fe75b0ef7",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "132c5c5610be000f972bd4d56fd5b812",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "1335cf5a529c51c86733b20450a41ac1",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "144ff2831056bafda1124d98fceec5c7",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "14c33d4be35ed33f2c67498f8334993f",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "166a6b3d34c99e539a4f1e431d2181eb",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "1f693da03f63d7fe318e511fe32fd09d",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "1f81f7e009f501014cb23a8c2d41836f",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "208ce3add563b1e398668ec07a73950d",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "20d8c1d58d1043a6737db9457666a0fc",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "2322f9b6d3bbe605ef2afbe0536b9307",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "24b93d0bf941e4b050c9109e4cb7faf4",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "28c6dfee40643e055ca2a3db6ddcea68",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "29a09ec3c23fdb89ec56032d329e3606",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "2a49abea0cff4d213d1ef89466189207",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "2a9ca86ac3ac3b4e25901be45d04676b",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "2c216cf84cc3a61aaa6d7e6afaeaf5af",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "2e6665e09a074c42b68cb142a635344d",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "312f3a5066497d26a734834aa1c8c4eb",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "3162e4e702f5d98d046005cb87afdbfc",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "31e2730529841cc122e113b9555c9425",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "31edaafd9d145d9346d2bddf8fcb8832",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "3a33c33b7a7fc942d36d3ebf4de61162",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "3a81b9d45f7bdbe5fec702d1f1aa5c12",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "3aef3d8d02941ba7ddb18adc128259ae",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "3bc46f604aee131a858e6518bac5ae9d",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "412da6378d3c3d4bbeb24f05fcd56aca",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "42a8e6f6bd74402cc376ae6ac2a31ff4",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "4483f9654fdf809f93ded32e47cea3d3",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "4801c06fbc3a4d6fbaf347b80b3b961a",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "481f4db8cc0d7912edf6fa545046068b",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "4928fcd2037af940ef3bbeb9fad2754d",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "4b65652b89a4cf69d9aaeba0aff08ffe",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "4d4754ccdbffff8d31d262d12927e522",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "4e259da0d4963296b68e170bbbad025f",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "543e67dd5abc272c37775b1b742a1d9a",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "54ff7ae09469921a47c6971a12e5b805",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "55d346b6ebbb04f8ab99bbb3727b682e",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "56be52d2a0580e3fb53f19429228e035",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "581e33d814abfe5f7f14200190a07225",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "5ba04fc4110839423710b280f7d8096c",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "5c06d8549811167b025b9e47d905e8f9",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "5cd4201889cc2a8764ee86def29d8ffa",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "5ea0f107a1905a8e0446af0c92d6a160",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "5f7a2d97e713941c8f62b2e8d5ff5f0c",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "6056d23661518b3a7519de585f9b6da1",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "66ab346df72c5effa292342037bc3909",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "67e67c9e3d2ea24706790cd4be889aa8",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "68a85c900f8a97472d8ba196a380cc5b",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "6cf8b432f3cb27c30815f4a562986085",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "6db155290e3a34927bf7e9615c8387b2",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "6e1b970d637fca70d08b251766edade3",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "6ff98b815c0ff57d92086702e7dd2829",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "707f23c84c45b87e05296869034e6dfd",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7157b954177f0acb22dc454c5f6e7f54",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "71d83c2dbc7e4939889b57121e401210",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7217bd62528cf71d639224eecca2da86",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "728a7865fadb047278e71f96c403a0cf",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "736af224b548adce3bcb424c612f2423",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "737b724b2ad8eb756ab626d391f196a4",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "76951f9f14004331d8c6f80e1c56bfd9",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "77d8d18a001b2f7ae4208299ddcf1422",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7816bac482d94316c17bacc4299ebfcc",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "78c0f04b60deeeac80f9d4a3b73d84b0",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "791415d8a85d0bfc67dd2d3d4edcac7c",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7a1d8648ad96bdd3384548f707889567",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7b5895f110a6aa5a5ac5d5a6eb3fd322",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7d2463381d7384215f0a5b30ef199c37",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7da4538367b281aa55b64b5361d91c1a",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7dc41deafbd45bdc8e4c054e9e609d8a",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "7f3b49026cf0ec9d2d76b0d9b2c61f8e",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "8090db94bbed462700cc12ad7254eabc",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "830129ccece6a0981e8a8783368ccbc2",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "83e46af71fc28dd5eb40651630c2a6b5",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "8665394d0c9d190007f0b61af3efdd70",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "89fee6024fc817baf4016ff66f382a92",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "8ae40807797b2b547a8fca9fc789273c",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "8c0304bf2f5cc0dc26837627dcdf50ca",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "8ef915fff70e4a4bbc9e4b2f75ff0ad9",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "914dcb27e7302ebf75429f0519117ac8",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "9203e3759c90c9e9f9410a0ed17f030c",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "9259dd7212c77534851e7bdde2e17e88",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "95d25f28300e1cf7de7261cc46117e42",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "96581fdd5f4b9d781f15c66cfb0d1c9f",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "9934cfcba792b2967401a5edfc555ae7",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "9979fa03c0b34069ace43042431306a0",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "99c81a6610dc0eea885621da1f8d5b29",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "9a9827b82f6ff4fd887f0ada83dd2eab",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "9d1dcde4b42f234483eaea05985cbf57",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "9d58803352a8d9d7e9400412e0c6b8d3",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "9ebe1a6a61c4d28544d7ccd45953610b",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "a20513522dc3ed9620fdadbf8cbc491c",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "aa296db0e5a58249734a370ef5eee0cd",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "aadbcf6e3d4a9e26b57151d6f9f9aad4",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "ab3376e4d0c150343f0d696fa00c46e7",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "abc2d706e3cb72aa9f0edc8b67cd11f6",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "b1770a04ee8e33b42f589e31da819ad5",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "b1afc91964282fabcd9829102d9eb3c2",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "b2a3d5cef8030d90cfe77271eaf77a11",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "b488a726f41c3263fe70633de1c7d12e",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "bc6247d3bbeda28c1c71568297c6ea6a",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "bd4d39eb6cabefc607dffddc10e0def4",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "c11048ce0934980ee0ee8a3584010b96",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "c6b68cef6a06f0931380e3b812108f84",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "c7bdc373559430372ddd5155267e3cdb",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "c8ec0b61cadcb715e0cd54e1412d3f08",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "cb521a59d61fa5e4e821f393282a1b79",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "cd361d33986dccd7f2d86016d6c35241",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "ce331cf3c5f764ff9eeb2454a7cc1a78",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "ce49f590c98885f7ac95567f2b1e7dd5",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "d02fae1e84cfbe799c792ba237f08f66",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "d515fc7cfddd658a0fd3416d811b49f5",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "d72b0684dd662ca6475f6caee6a1b450",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "d95c2aa334c098b0a41e0f96ab15cd1d",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "da1c4b80744ff527a61cafd64d069897",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "da9299d4b3facbfb1925a1d686c7c925",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "dac5fa253faa91036ce8758ab9c051c5",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "dc81cd1ae0f4e8ad19469f6f264a3807",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "dd926bb427ade42f65444c65bc7e80dc",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "eb6409226241256e20ff2f7655f93825",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "ee79c76b65e89e7e02367d1c3df2cb43",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "eebdda8f75d54e914a17570802df71d6",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "ef4a50f8f7286c6fdc3d21ead50e4235",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "ef7c4d1f09b699b8ab468c939e8fdb78",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f001110ef99563f14d7ee8c4a9a6ace4",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f0753a43fd48018b408d64ea68a4a924",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f1b952d8c17500928f9b8ce531fb627b",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f20400a0336eb218fb1e5da35224b737",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f3dfa624c79a45a047d6ff8d48501454",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f3f5df91d728313107efb2258dcb514b",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f74d1433b485290563f1731b944e7471",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f7f8d3055265e1e601740254de264e34",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f81e90c16a3fe4ca6ddbafb0eadd4dea",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "f9b8494562801565042e7c1cb164d94f",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "fa11a4d8757504b11e3085d9c04c1c2e",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "fd972d87a0e61efaba7890da38a12f8c",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "feaad2162591a5823799ec70a8635185",
+   "stratum": "C"
+  },
+  {
+   "instance_key": "ffdfce174618b76c8cd0e4bd45b55130",
+   "stratum": "C"
+  }
+ ],
+ "population": {
+  "R": 162,
+  "G": 321,
+  "C": 4236
+ }
+}

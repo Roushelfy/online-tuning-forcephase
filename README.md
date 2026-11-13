@@ -1,5 +1,7 @@
 # Online Tuning of Forcephase
 
+**2026-11-13 探索：** [EXPLORATION_20261113.md](reports/anniversary2022_baseline/EXPLORATION_20261113.md)：四模式选择器、对未见家族的安全回退、家族层面上限、运行中段 level，以及单题偏好在 seed / 重新编排 / 只打乱顺序下的可复现性。
+
 **2026-11-16 周更新：** 本周实验汇报见 [WEEK_20261116_REPORT.md](reports/anniversary2022_baseline/WEEK_20261116_REPORT.md)，包括 162 题 benchmark 清单、统一基线、试跑与 level 检验、F-largest、unit/unique 消融、按家族评估、运行中切换和端到端核对。
 
 **2026-11-09 更新：** 4719 题 T600 三配置基线已完成（14157 次运行全部有效）：解出 D 3385、F+ 3076、F− 3055，VBS 3547。见 [基线结果](reports/anniversary2022_baseline/BASELINE_RESULTS_20261109.md)。

@@ -1,0 +1,135 @@
+{
+ "VBS4_gain_pct": 12.71954134665271,
+ "results": [
+  {
+   "policy": "3 modes, 42 inputs [iso folds]",
+   "solved": 3424,
+   "gain_vs_D_pct": 2.3163581593333658,
+   "mean_PAR2": 383.449959860758,
+   "total_CPU_h": 286.80565571747695,
+   "rescued_vs_D": 66,
+   "lost_vs_D": 27,
+   "actions": {
+    "D": 3613,
+    "F+": 558,
+    "F-": 548
+   },
+   "cuts": [
+    0.0,
+    0.0,
+    0.0376529660473416,
+    0.03466972190394782,
+    0.0
+   ]
+  },
+  {
+   "policy": "4 modes, 42 inputs [iso folds]",
+   "solved": 3432,
+   "gain_vs_D_pct": 2.7935056993295566,
+   "mean_PAR2": 381.57695224544375,
+   "total_CPU_h": 285.6837882350692,
+   "rescued_vs_D": 73,
+   "lost_vs_D": 26,
+   "actions": {
+    "D": 3638,
+    "F+": 385,
+    "F-": 428,
+    "F-largest": 268
+   },
+   "cuts": [
+    0.0,
+    0.0,
+    0.0,
+    0.1400693338939127,
+    0.0
+   ]
+  },
+  {
+   "policy": "4 modes, 42 inputs + majority-sign shares [iso folds]",
+   "solved": 3428,
+   "gain_vs_D_pct": 2.6454917562136755,
+   "mean_PAR2": 382.1579701055189,
+   "total_CPU_h": 285.7787391466511,
+   "rescued_vs_D": 75,
+   "lost_vs_D": 32,
+   "actions": {
+    "D": 3437,
+    "F+": 481,
+    "F-": 483,
+    "F-largest": 318
+   },
+   "cuts": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "policy": "3 modes, 42 inputs [whole-family folds]",
+   "solved": 3378,
+   "gain_vs_D_pct": -0.3039230544925292,
+   "mean_PAR2": 393.73568127053403,
+   "total_CPU_h": 292.62185553212504,
+   "rescued_vs_D": 7,
+   "lost_vs_D": 14,
+   "actions": {
+    "D": 4526,
+    "F+": 142,
+    "F-": 51
+   },
+   "cuts": [
+    null,
+    null,
+    null,
+    0.01713510477904174,
+    0.0
+   ]
+  },
+  {
+   "policy": "4 modes, 42 inputs [whole-family folds]",
+   "solved": 3385,
+   "gain_vs_D_pct": -0.03001837118567483,
+   "mean_PAR2": 392.66048855821685,
+   "total_CPU_h": 292.3791237517292,
+   "rescued_vs_D": 1,
+   "lost_vs_D": 1,
+   "actions": {
+    "D": 4662,
+    "F+": 22,
+    "F-": 33,
+    "F-largest": 2
+   },
+   "cuts": [
+    null,
+    0.07110620878494889,
+    null,
+    null,
+    0.0
+   ]
+  },
+  {
+   "policy": "4 modes, 42 inputs + majority-sign shares [whole-family folds]",
+   "solved": 3385,
+   "gain_vs_D_pct": -0.0869967975020349,
+   "mean_PAR2": 392.8841531848856,
+   "total_CPU_h": 292.67231079985413,
+   "rescued_vs_D": 1,
+   "lost_vs_D": 1,
+   "actions": {
+    "D": 4651,
+    "F+": 23,
+    "F-": 42,
+    "F-largest": 3
+   },
+   "cuts": [
+    null,
+    0.050859323475864915,
+    null,
+    null,
+    0.0
+   ]
+  }
+ ]
+}

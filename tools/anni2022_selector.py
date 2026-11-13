@@ -92,16 +92,17 @@ def fit(x, costs, seed):
     return model
 
 
-def scores(model, x):
-    if model is None: return np.zeros((len(x), 2))
-    p = np.zeros((len(x), 3)); p[:, model.classes_] = model.predict_proba(x)
+def scores(model, x, k=3):
+    """Class-probability of each non-D action minus that of D (k actions, D = action 0)."""
+    if model is None: return np.zeros((len(x), k - 1))
+    p = np.zeros((len(x), k)); p[:, model.classes_] = model.predict_proba(x)
     return p[:, 1:] - p[:, :1]
 
 
-def measured(model, x):
-    scores(model, x[:1]); val = np.empty((len(x), 2)); fee = np.empty(len(x))
+def measured(model, x, k=3):
+    scores(model, x[:1], k); val = np.empty((len(x), k - 1)); fee = np.empty(len(x))
     for i in range(len(x)):
-        t = time.process_time(); val[i] = scores(model, x[i:i + 1])[0]; fee[i] = time.process_time() - t
+        t = time.process_time(); val[i] = scores(model, x[i:i + 1], k)[0]; fee[i] = time.process_time() - t
     return val, fee
 
 
@@ -124,7 +125,7 @@ def calibrate(g, costs, fee):
 
 def cross_validate(x, valid, costs, folds, inner, n_folds=None, time_queries=True, return_scores=False):
     """Out-of-fold mean3 actions, per-instance query CPU (3 inferences + aggregation) and per-fold margins."""
-    n = len(costs); action = np.zeros(n, dtype=int); query = np.zeros(n); cuts = []; held_scores = np.zeros((n, 2))
+    n, k = costs.shape; action = np.zeros(n, dtype=int); query = np.zeros(n); cuts = []; held_scores = np.zeros((n, k - 1))
     n_folds = n_folds or int(folds.max()) + 1
     for fold in range(n_folds):
         held = folds == fold
@@ -133,11 +134,11 @@ def cross_validate(x, valid, costs, folds, inner, n_folds=None, time_queries=Tru
         vp, hp, hf = [], [], []
         for seed in SEEDS:
             model = fit(x[train], costs[train], seed + fold)
-            vp.append(scores(model, x[val]))
+            vp.append(scores(model, x[val], k))
             if time_queries:
-                p, f = measured(model, x[ids])
+                p, f = measured(model, x[ids], k)
             else:
-                p, f = scores(model, x[ids]), np.zeros(len(ids))
+                p, f = scores(model, x[ids], k), np.zeros(len(ids))
             hp.append(p); hf.append(f)
         vp, hp, hf = map(np.asarray, (vp, hp, hf))
         agg = np.zeros(len(ids))

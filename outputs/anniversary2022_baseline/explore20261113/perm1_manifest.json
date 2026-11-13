@@ -1,0 +1,2774 @@
+{
+ "004b0f451f7d96f6a572e9e76360f51a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/004b0f451f7d96f6a572e9e76360f51a.perm1.cnf",
+  "sha256": "7ce90520938d2b9ac05ee74f08a094beaaf65efdd6481266ca21db77c4eca464",
+  "mode": "perm",
+  "seed": 1
+ },
+ "02404a08ea36dd43362bbddc578c839d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/02404a08ea36dd43362bbddc578c839d.perm1.cnf",
+  "sha256": "0b9d5e81d903546ba4a61d305290fb58f221eb3cfc733460e7c0b17cf4f6886e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "035c200bbf0a783e4ec9656cfa9b2f68": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/035c200bbf0a783e4ec9656cfa9b2f68.perm1.cnf",
+  "sha256": "da35041e83dc41216744da2192d20bd855e0db1f9a5e4189f53e55beb27bc95a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0534387f90398a24495d4b7b05f9b342": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0534387f90398a24495d4b7b05f9b342.perm1.cnf",
+  "sha256": "d8bb0b20d0f88b01b73cb911913d367085847011c66dc99edb420dc7c7384fee",
+  "mode": "perm",
+  "seed": 1
+ },
+ "08530caa5c9232f2ffc5163cf79b38e7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/08530caa5c9232f2ffc5163cf79b38e7.perm1.cnf",
+  "sha256": "0d1359705284d1c0030560181825aba1e1eb6dfd297ad8ea3bace11ec3047646",
+  "mode": "perm",
+  "seed": 1
+ },
+ "085792654d945c1de700245916f2c7f6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/085792654d945c1de700245916f2c7f6.perm1.cnf",
+  "sha256": "3c75e49b9d95450b5de1e64dbe4a8a33dc6c11279ddc9af48a60b3c4771237bc",
+  "mode": "perm",
+  "seed": 1
+ },
+ "08b6f45c900d30fb65462a65df69e214": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/08b6f45c900d30fb65462a65df69e214.perm1.cnf",
+  "sha256": "e61cd894beffd88f69f07dea9010271d4e2505cbf072356692c06b483973dd34",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0949ba00fc83c074bb2db981a543756f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0949ba00fc83c074bb2db981a543756f.perm1.cnf",
+  "sha256": "e28b10e4dd4aaa45e85580e5046c0e8feaeb9def4790d5bcd2442a639417a928",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0a5ae0d5af40b6d41f8be446811aa796": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0a5ae0d5af40b6d41f8be446811aa796.perm1.cnf",
+  "sha256": "6e8276b3082245b747c686f4f8cfe68539c5983ebc3e9131c74c111d7bf987cb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0b4421f6aac81e2dbc87c5b5ddae6511": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0b4421f6aac81e2dbc87c5b5ddae6511.perm1.cnf",
+  "sha256": "77d58b384b9f75e45d70296b2b0b199dfcb3d0429103fb393763771a505c53c5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0ccbe90c246f198ecab671c9e5e8cf52": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0ccbe90c246f198ecab671c9e5e8cf52.perm1.cnf",
+  "sha256": "9e59f76e84247814da120112ba71b0d8954b196dbc18ed7fdec3afeaf58b9d43",
+  "mode": "perm",
+  "seed": 1
+ },
+ "115fa7f61704bc12b2373aa471bc434f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/115fa7f61704bc12b2373aa471bc434f.perm1.cnf",
+  "sha256": "3224d614e0b43fd6889902acecfce3c969d728518eb16c4188ff9e34aad3d539",
+  "mode": "perm",
+  "seed": 1
+ },
+ "128a20596924fe6ceb5a61144dcf4253": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/128a20596924fe6ceb5a61144dcf4253.perm1.cnf",
+  "sha256": "1f8a584fbad38daedea385c4e36d6c8387399a4758650b270c7990059f3dcbe7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1446548d272c0b28fb40225c50d743a5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1446548d272c0b28fb40225c50d743a5.perm1.cnf",
+  "sha256": "2ca343e8e2749d3e680282f627927d5a9a3448788e88d673dd198910e5a5e1b0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "166e1e5a9f63fcf94ddae8533fa2a090": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/166e1e5a9f63fcf94ddae8533fa2a090.perm1.cnf",
+  "sha256": "5e4e06ccff18f50ba877dc09036a7c36cbdbe6be43eb7d03f25a454e533727dc",
+  "mode": "perm",
+  "seed": 1
+ },
+ "16b5ccee102406efd1924d8f1c7a1cc6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/16b5ccee102406efd1924d8f1c7a1cc6.perm1.cnf",
+  "sha256": "1eb57b00fb9f954734a3347e0a63437996cdf6cb769a221f784b6f1977aa71aa",
+  "mode": "perm",
+  "seed": 1
+ },
+ "16c27d738cb45b766b8823ca4f428cf0": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/16c27d738cb45b766b8823ca4f428cf0.perm1.cnf",
+  "sha256": "4fe1bc8aa48560db568640f66aefb505767c4b974555715671d5dc3c231dd911",
+  "mode": "perm",
+  "seed": 1
+ },
+ "172ecb98a80b859e62612ff192a53729": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/172ecb98a80b859e62612ff192a53729.perm1.cnf",
+  "sha256": "ad0fa8add9e3a42cf8c6e85dd31df950186696df32374d04ae81298ae758fc20",
+  "mode": "perm",
+  "seed": 1
+ },
+ "17d01710d82e86967d43abc639f6476b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/17d01710d82e86967d43abc639f6476b.perm1.cnf",
+  "sha256": "36bcd879a943cd85cd18b94254ecdd14a750e86629dfbf227d1dba3e3c357b68",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1b059d3ebcb30574b7ec5c7ec7d7ea5b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1b059d3ebcb30574b7ec5c7ec7d7ea5b.perm1.cnf",
+  "sha256": "e2ae16181171c97c07e296fde2a75dd44722ec81c0657266d93786f7c489e177",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1b72d2cd3e978b7ad976b6f1d2174dd4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1b72d2cd3e978b7ad976b6f1d2174dd4.perm1.cnf",
+  "sha256": "4ef30e33e9469365c016e73a86df3b4f2c48ade5261597f27bae1180bd37baaa",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1bd9d36816a8b56557a2fe470a8cbf1c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1bd9d36816a8b56557a2fe470a8cbf1c.perm1.cnf",
+  "sha256": "cfb5db55e693340b5d7d7d1eb28cc37cf62fe7c83b8fb14c08b4db878c51c8d3",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1d6457d39153524c91ddada7eaee8ce7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1d6457d39153524c91ddada7eaee8ce7.perm1.cnf",
+  "sha256": "97a18d99a72957f2077832c60ad3c1d0038da1889666c9b55d60e317c6958d21",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1da295e464b0f17a9f39961d13b25773": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1da295e464b0f17a9f39961d13b25773.perm1.cnf",
+  "sha256": "bd692a8dda7e11290261275f28d5de575f285d6cfd917dfebb3d6e54f513783e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1f3b251666b7b9aa4bfad28d5ecfecc2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1f3b251666b7b9aa4bfad28d5ecfecc2.perm1.cnf",
+  "sha256": "5d1d69972e15329c8c9490372eee74e86e16be521ed4f4c7a5c48e74c752225b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "213c4eabd02f12ff075c751edb6dbff9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/213c4eabd02f12ff075c751edb6dbff9.perm1.cnf",
+  "sha256": "f1b98b20f53b846e025ffb2d52f726cc1963468620d97d71db1fad7ee73c9cc5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "25fb7464ca6edd09189582fedaf5dba6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/25fb7464ca6edd09189582fedaf5dba6.perm1.cnf",
+  "sha256": "10e83f5426a5cd0ae838eaf8c5277b2469f7122d44812cf1a382cf3e8f29e8d3",
+  "mode": "perm",
+  "seed": 1
+ },
+ "26e9e6f76821074fec971ba27aae0bea": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/26e9e6f76821074fec971ba27aae0bea.perm1.cnf",
+  "sha256": "43cd97693360f9daeb359af97da918d29a480729455c0faf01ac54346e024bd1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2709fc2279d361c2b19e36522c239965": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2709fc2279d361c2b19e36522c239965.perm1.cnf",
+  "sha256": "3ee01b74fa273eb6bdd781f96de17cac973dc82d055c64a0adbe71c3f40738c6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2d46630f3a5cf0db88d418ac49bc91c3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2d46630f3a5cf0db88d418ac49bc91c3.perm1.cnf",
+  "sha256": "c9261528185bbdd4c5858e038630c59a14b0a474ae0f8263676e454a120c598f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2da2d8242d31196d7a3d282e9cae4706": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2da2d8242d31196d7a3d282e9cae4706.perm1.cnf",
+  "sha256": "d2c2018f9263b1cc9008b502ae0a4885bcff7a4cea6d6281093ce7931687c995",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3292846129f7c1d50375e3e6cf8c7d4a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3292846129f7c1d50375e3e6cf8c7d4a.perm1.cnf",
+  "sha256": "a51fbbc23bba35968d697356af5eb402dbe8d628aa6aa5ecd0e2d3af7b52cefd",
+  "mode": "perm",
+  "seed": 1
+ },
+ "32e77b54836af7f04f33aa8a7ebbe4ca": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/32e77b54836af7f04f33aa8a7ebbe4ca.perm1.cnf",
+  "sha256": "35cadbf240c4bff1ce6669c62b46be46493a6f87c2b5060a8b1f10eaafc0dd82",
+  "mode": "perm",
+  "seed": 1
+ },
+ "33a45c71f3a77d3ac0096eaabedaf31f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/33a45c71f3a77d3ac0096eaabedaf31f.perm1.cnf",
+  "sha256": "8010a862e6a150102cd1e29982cf5f1ce764c24d5c8c4e1daf2e5047573ef8cb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "34038db20edb478e85b3bc6fce2e5c86": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/34038db20edb478e85b3bc6fce2e5c86.perm1.cnf",
+  "sha256": "de1ab7ccb1afe46bb55ec8d3cddedf6b491842e4b8bf8b6cb2052a36a074ac28",
+  "mode": "perm",
+  "seed": 1
+ },
+ "36ba44cf208034e2c8e84a1971b9bfd4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/36ba44cf208034e2c8e84a1971b9bfd4.perm1.cnf",
+  "sha256": "26f3596430fb41a090c02d2a18ed7f0099213d308bfa277625cd5485d9dfe09d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "380602278a69c8356d72ee604d62a426": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/380602278a69c8356d72ee604d62a426.perm1.cnf",
+  "sha256": "2eb3647298d834f5511d81dae98ffedf53762821d41f6a331a2642ff8b241c0e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3936bd75d426c2b19d249054d8f039a8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3936bd75d426c2b19d249054d8f039a8.perm1.cnf",
+  "sha256": "60842d6f6cebc98ee52046f767841425b9b46e7437f2d47eb99808ac547022d9",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3bb0e77612dfa8e3c0ca5c658a8c5cf3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3bb0e77612dfa8e3c0ca5c658a8c5cf3.perm1.cnf",
+  "sha256": "53c343b7740eb01542d5d39f5f60cf3400a39573d8b282042362e1ed5ba0eb62",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3c1252e11adea78ca57afd0f9ed8f8fe": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3c1252e11adea78ca57afd0f9ed8f8fe.perm1.cnf",
+  "sha256": "4e6e1bd8ce3763b32e1caf2c397e2509248eb2efb85f96599eccf7c6bb82166e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3c15c8fb5153b9d758a9eb16c66adc5d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3c15c8fb5153b9d758a9eb16c66adc5d.perm1.cnf",
+  "sha256": "9c50ce4772ad042eb8d1d29f343d22de20c5c810ae234e764869cf91742a35a0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3cb2d7a04f72b9d8cedfcd011170687a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3cb2d7a04f72b9d8cedfcd011170687a.perm1.cnf",
+  "sha256": "a139624bbc1a5020d53c51a5bf28bf607ae8f10868ca0bf17b7fe5cd632dddb4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3e9f461bbe4e9839d499fe1575df6ad9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3e9f461bbe4e9839d499fe1575df6ad9.perm1.cnf",
+  "sha256": "c247969b64880867b36f6b33bc52023f071e543cab24210c35579e7dd6d46836",
+  "mode": "perm",
+  "seed": 1
+ },
+ "41afe4f9d2db445600aa14ee1dc2a929": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/41afe4f9d2db445600aa14ee1dc2a929.perm1.cnf",
+  "sha256": "3fc3b135574a0eda5d3ef84271dfd814d2af44033c91958f2de7a3b2baf3fdfa",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4346c9ff02b3615fee0d04fb0f335160": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4346c9ff02b3615fee0d04fb0f335160.perm1.cnf",
+  "sha256": "0447a106c8213091107a9958cbcf36a2a344adbae7300312a976b608091c2d7f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4584de77fc93960884298f76df7a3299": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4584de77fc93960884298f76df7a3299.perm1.cnf",
+  "sha256": "191c792cad1aa8ee5eee3c98ce692e8afa4b88d136b3b77178c313314e8df006",
+  "mode": "perm",
+  "seed": 1
+ },
+ "468c32ec8eb910bd06121e790331f36a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/468c32ec8eb910bd06121e790331f36a.perm1.cnf",
+  "sha256": "e201bb4485a423776e6af1859a6b1dd8f004ae5be06684ebffe906617d5cbcc0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "482295be38dc1d63a16f3cf649ef7ef6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/482295be38dc1d63a16f3cf649ef7ef6.perm1.cnf",
+  "sha256": "d3d5938ae4483f6845aec6bd07f89428bd02c7e327d40b5a106fbf4ebc94faba",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4a00f482957850eed1b7ac2ec53d43ea": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4a00f482957850eed1b7ac2ec53d43ea.perm1.cnf",
+  "sha256": "b39418a41260b28ceb5be042cb918ae0e64e1345f77ea4e4d2cc390b61492a74",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4bed9fdbef6375a8c390006131d4e29c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4bed9fdbef6375a8c390006131d4e29c.perm1.cnf",
+  "sha256": "82e15316a128da7eac32fdc453d4f7099e765c2603a3060bf66d1edc49336050",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4dc92cc97ebbe9230020a89efbbdcfb1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4dc92cc97ebbe9230020a89efbbdcfb1.perm1.cnf",
+  "sha256": "4e4f8c2fab8a329d2ed017e6e14ff46825ed21015e2bc8facd886f5c1c205dac",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4fc1fbcdab296aec357e4bc4509577a2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4fc1fbcdab296aec357e4bc4509577a2.perm1.cnf",
+  "sha256": "496aa258ba4370c772ca431756c7a5d2931e0e32495027ca2b58f5a96979cd51",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5077bbe914a63da146d2f88652938e56": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5077bbe914a63da146d2f88652938e56.perm1.cnf",
+  "sha256": "6d7ba2df1b5dc5b50605ac3b64e4bd8283e38e2941736dcc60156eb800a66b36",
+  "mode": "perm",
+  "seed": 1
+ },
+ "51925dbfcd5534b312265098fd439b12": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/51925dbfcd5534b312265098fd439b12.perm1.cnf",
+  "sha256": "e1693858a69dad4d3e99a6d362fe452ff5f0698b44c8d2ed0467b8d2d2b791b0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "545566b1c8caf35f517b55ebdec5a117": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/545566b1c8caf35f517b55ebdec5a117.perm1.cnf",
+  "sha256": "c84f2ea1c79efd4f1346f64c2165bf77941c6acd053389d3919fd6002186a2c3",
+  "mode": "perm",
+  "seed": 1
+ },
+ "556deccbd6591671e3aa80fde2d8f01c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/556deccbd6591671e3aa80fde2d8f01c.perm1.cnf",
+  "sha256": "c271694f5cbb800fe665536b860da83040f2ee75c275facb33da45ccd8d84de7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "56438fbbe8c1ec5d950209885cdd2b99": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/56438fbbe8c1ec5d950209885cdd2b99.perm1.cnf",
+  "sha256": "b0f0972a1114c167c47263c3211a1d6f94ca28b8c38a315e838b9ace82da4d66",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5690b9b0380aa9508699e56cae5918b5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5690b9b0380aa9508699e56cae5918b5.perm1.cnf",
+  "sha256": "152f09b2dd338dbf412d45daa7bc147b316927e1b3e402e83789186be42fdc48",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5acb0010b114a60999489cec31f0a667": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5acb0010b114a60999489cec31f0a667.perm1.cnf",
+  "sha256": "baef68bd7fcbc8472c3bfab09598047d957aaa670b98847f099038b47d6980f4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5bc585c5aaba7f9f8faae4cfd1e6b5e8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5bc585c5aaba7f9f8faae4cfd1e6b5e8.perm1.cnf",
+  "sha256": "7f4e6fcea162fc14a69be9e5d57db59382913e2bee8947eabe98f0e331106031",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5fea03f266f60a417e85af49a5d769e5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5fea03f266f60a417e85af49a5d769e5.perm1.cnf",
+  "sha256": "e5d5a0ea7f22a652f452b50996540e8ad4f3f7fdcfd60137c1dac67ea485484e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6077d4e5f755124ddc84068d6ccb630f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6077d4e5f755124ddc84068d6ccb630f.perm1.cnf",
+  "sha256": "f196ab6c2fc6f524e34bef587e606091f8f5f1187bd97a6d10e07ae684546cca",
+  "mode": "perm",
+  "seed": 1
+ },
+ "609ab29d02c73af38b7cb1c6e0de0142": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/609ab29d02c73af38b7cb1c6e0de0142.perm1.cnf",
+  "sha256": "f2f1f23ac866dd4d0bf4ebd44f91515c79185035d3b67fb00661b98498047dd9",
+  "mode": "perm",
+  "seed": 1
+ },
+ "613be3fce8fa3e517d10e292f0a2542d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/613be3fce8fa3e517d10e292f0a2542d.perm1.cnf",
+  "sha256": "c66594414ecc609cb1fe177587313b93cc5d3ab08bb8e832d4f27f3fc8834d7d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6392cea0e1c5c95773c79cd143e2a934": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6392cea0e1c5c95773c79cd143e2a934.perm1.cnf",
+  "sha256": "f258fb3450960ba4562bf820c9e46e97ac129aee9815f502f2cd2f951c4d4256",
+  "mode": "perm",
+  "seed": 1
+ },
+ "63c6886839a82442cdfbb3167d464baf": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/63c6886839a82442cdfbb3167d464baf.perm1.cnf",
+  "sha256": "fc8b71ba3268d36d6d0a92ed512c18518e8b864ebd664e040ca8bd200d41b3a2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "655681362024c10869610709e1a22246": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/655681362024c10869610709e1a22246.perm1.cnf",
+  "sha256": "02ca36626292d1d12b58c35611fdadee719edef4059acd2e7146cf59bc2201d0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "656822ff35dc3ffae052fa512260dd44": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/656822ff35dc3ffae052fa512260dd44.perm1.cnf",
+  "sha256": "b77a3cd802b8bf7d1b6ce74d2dc182974c488ad5f25b7768cff08577a5bb6d08",
+  "mode": "perm",
+  "seed": 1
+ },
+ "65daba7b1614fdbdf75b34d68953de64": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/65daba7b1614fdbdf75b34d68953de64.perm1.cnf",
+  "sha256": "f14c163fdac06ce18e8313090a883f12fe2992d158ce732f2c8c4264a88031e9",
+  "mode": "perm",
+  "seed": 1
+ },
+ "67133027ab55906e3b757148ca7011dd": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/67133027ab55906e3b757148ca7011dd.perm1.cnf",
+  "sha256": "aede32125791337ce1a4bee042c14fc7c63bc4895f50e207aff6e3a351a05c50",
+  "mode": "perm",
+  "seed": 1
+ },
+ "68cd50e5bfe00ca94867aa0dcf44055c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/68cd50e5bfe00ca94867aa0dcf44055c.perm1.cnf",
+  "sha256": "9de3f11d4f6faa5a49d2249aa9e9fc6c0282596f75f1da46d610c05158adc2d7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6cf6cd0a2880a940056886672270cd8b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6cf6cd0a2880a940056886672270cd8b.perm1.cnf",
+  "sha256": "a4cdf02437d0e1eef1407c3d0302066969963c6fd45112366a6038a22bdfb714",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6d094ef8ff8403c1338136bdc474b1c9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6d094ef8ff8403c1338136bdc474b1c9.perm1.cnf",
+  "sha256": "931287495d5ce904ee9c55af8898c4c8975b5ceb4c6b709a9a330401342f6667",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6d7c0deeffe06978367a90a10f608d59": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6d7c0deeffe06978367a90a10f608d59.perm1.cnf",
+  "sha256": "4f07eec9f54458358444960940e95e935ff6c7bdd5e228c15c98bba689befa88",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6f82682182394eb554a47a55f6c4453e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6f82682182394eb554a47a55f6c4453e.perm1.cnf",
+  "sha256": "b179283adf5e5de09c446c65388304d4e27bf877027a331d8168332976daf60c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "75429ff7acb5acb597abe01aa745c2a6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/75429ff7acb5acb597abe01aa745c2a6.perm1.cnf",
+  "sha256": "bfc56f9665fb580d828e017f932c613cd523537241b6d1934a6c6fd20cab7491",
+  "mode": "perm",
+  "seed": 1
+ },
+ "772df42aad13b37340a40bffd859f0a5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/772df42aad13b37340a40bffd859f0a5.perm1.cnf",
+  "sha256": "4becf7b63a704141fb8eb524f3ece4c340e74f7475548b6dd4635b7e8072f466",
+  "mode": "perm",
+  "seed": 1
+ },
+ "790152d13323c14a7a1f0759ae3b5c28": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/790152d13323c14a7a1f0759ae3b5c28.perm1.cnf",
+  "sha256": "89e9ac80f54758ca7cf55c254f1ab911caddc6b110e6161ff4c659c528f9d0ed",
+  "mode": "perm",
+  "seed": 1
+ },
+ "79e68d206d8dea970436393a3b1b0de4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/79e68d206d8dea970436393a3b1b0de4.perm1.cnf",
+  "sha256": "2a28208fbe3dedd52005719d86c8902b0925126943e7e9f9dd79c6535eb532bb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7aaddb977571c2e8e61f35a24942703f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7aaddb977571c2e8e61f35a24942703f.perm1.cnf",
+  "sha256": "5a9e8c874574d22681cfdceb81601a4a1e2f8abb49dd1805ed0e4849e70cbe77",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7af73f846548141cc97b8a149a20bfbf": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7af73f846548141cc97b8a149a20bfbf.perm1.cnf",
+  "sha256": "9484961cc650d981398798519e217aa6b3a75658bc7126d10f8a0cf7efac9be7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7bdc3b411293bb3f7de0484cf88c82f4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7bdc3b411293bb3f7de0484cf88c82f4.perm1.cnf",
+  "sha256": "b4044e5de9a8d0f728c7acbb53885f740b9b73ee092b82c54d01310cde37c63a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7e5396d6b00b82c2fc0ea1d7c6505afd": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7e5396d6b00b82c2fc0ea1d7c6505afd.perm1.cnf",
+  "sha256": "cd7db20d9fedb880d78a03e109882fb38eb6b4cc3b2c5c189d124fa7a0def4e6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "833c0c0cd07db3a7423dc73f0d2378d2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/833c0c0cd07db3a7423dc73f0d2378d2.perm1.cnf",
+  "sha256": "917fe23db128eca7a6107d39f088b1ab9d566e9a671aa5a2ff9e25811023c326",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8667fcc1ea372b7cbcbbb09e79eed0d3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8667fcc1ea372b7cbcbbb09e79eed0d3.perm1.cnf",
+  "sha256": "28c75f55fb8239a8534a003c8b97bb129abfb96feaa3c49622091e5218856bdf",
+  "mode": "perm",
+  "seed": 1
+ },
+ "86b50dbc0e6d25e78792b1ec7d8910a1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/86b50dbc0e6d25e78792b1ec7d8910a1.perm1.cnf",
+  "sha256": "99867c759e1f91ce6ac566a652a69ef01523f39eef66dc8f06e693dfc3c85491",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8924fd8ff845dfbe1e0970f3476328d7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8924fd8ff845dfbe1e0970f3476328d7.perm1.cnf",
+  "sha256": "1a60f97230beb736f5f7fc6fb871a767217f05289b3f67a11a47c3ae6132c61c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8ab56bb3b674e4afae5a61b2bf3a747a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8ab56bb3b674e4afae5a61b2bf3a747a.perm1.cnf",
+  "sha256": "35dbc5f09df5d15a0cb4df6ed8f9ece0aa9379a49f8ae64b9ec0b336195fd957",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8d8821e8e49f2f85ce7bca24ee7f84bf": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8d8821e8e49f2f85ce7bca24ee7f84bf.perm1.cnf",
+  "sha256": "a7dfe665585d31399ddd96aff55f64a0e542c39996ba20cb2ab0ff3ac9988030",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8f5bca645bd8738eb74c2e1dc284774a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8f5bca645bd8738eb74c2e1dc284774a.perm1.cnf",
+  "sha256": "a55c88d7945e850c0374b036326c59d3ccad2dd2e0c72d49662d2175601f9321",
+  "mode": "perm",
+  "seed": 1
+ },
+ "902ed2103c7c768e49f7b5e1455d506f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/902ed2103c7c768e49f7b5e1455d506f.perm1.cnf",
+  "sha256": "e7f1e5a13ea8158cd0b870e4c57982726af017aed3d58e5a058903875aa99628",
+  "mode": "perm",
+  "seed": 1
+ },
+ "92dcc93fa35f4029f1b50dcf0aade90d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/92dcc93fa35f4029f1b50dcf0aade90d.perm1.cnf",
+  "sha256": "06bb8c3a1f40b4a2f9d1565e43c295c361b8f0f108837bf306de6c052d7f8ef1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "96e38559d1e0f6d330dd3a976c7b1ab6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/96e38559d1e0f6d330dd3a976c7b1ab6.perm1.cnf",
+  "sha256": "38b3d02a8966d5c1244eecdc739c1238c70c79d0659f3abd54a645cd9e3ae5ff",
+  "mode": "perm",
+  "seed": 1
+ },
+ "976649ddfe27c60bacb508ecd3499f39": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/976649ddfe27c60bacb508ecd3499f39.perm1.cnf",
+  "sha256": "f553191e167835560d3191e86f3ae60f86311973db4ce97a7cd2506f56a64ec8",
+  "mode": "perm",
+  "seed": 1
+ },
+ "97c3f9247b9e1077d479372dc7d1eef0": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/97c3f9247b9e1077d479372dc7d1eef0.perm1.cnf",
+  "sha256": "c062d8c044a577a9542f8987ae56d3d2e52e9f689075453c29104a46a6c59340",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9862d27fe2528635f363e0f7645b2c53": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9862d27fe2528635f363e0f7645b2c53.perm1.cnf",
+  "sha256": "132c882b969dd8f2eee4d1b5051cd2fce52042216f9b608048697b4613ce3d3a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "98aa097618257b904b2b10c5314e1f02": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/98aa097618257b904b2b10c5314e1f02.perm1.cnf",
+  "sha256": "324c0911fe40d96991940f64c02fe3f2beb65bb36da33eccc120976cfad2698f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9a85720c365680d985924c786fabad81": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9a85720c365680d985924c786fabad81.perm1.cnf",
+  "sha256": "6e44e433bff56a7f39ea729a26b3cdcc2dfac30cf9a7eae40315a99ab18d7ead",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9aaadc9d5e63938b3711ea6689579055": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9aaadc9d5e63938b3711ea6689579055.perm1.cnf",
+  "sha256": "2b75593852dc6b75a5c1b525e086ec91288913cb3ae870547dbe5994c558138e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9b3ca1389f989ebf68bffd2cd649395b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9b3ca1389f989ebf68bffd2cd649395b.perm1.cnf",
+  "sha256": "8786fddc2c1ec09f157a4d7168c940c5cf932200d12f08ca7ae5e5faa62b80b1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9dd246543ae101f829b5cfc226473675": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9dd246543ae101f829b5cfc226473675.perm1.cnf",
+  "sha256": "5b1b5c9d36036095abadee8c99e369d019d6da50d48887960ae73941e60ef95f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9ebe01fac83633665d51bcf623a9f1eb": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9ebe01fac83633665d51bcf623a9f1eb.perm1.cnf",
+  "sha256": "9b3d3f5fd5bb7a6c86cc9406865c40ed1f2ab2d1fc7136e2b81b1d3ba6bc91d1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9ee21377e11b3f384760fcc90ab27d8c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9ee21377e11b3f384760fcc90ab27d8c.perm1.cnf",
+  "sha256": "0997ec25f0edf79c27c079355c9f3fd8368eb6b5d5c4e2dd1a2688b0306417cd",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a0bd1bde8e9878deb48c442790160c50": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a0bd1bde8e9878deb48c442790160c50.perm1.cnf",
+  "sha256": "2e555832391f564d60b686b0d75997e3795f5a29ed9f0baa12cd4030af94440b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a457b9542414214b9daa00381d3155f5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a457b9542414214b9daa00381d3155f5.perm1.cnf",
+  "sha256": "4ac8d8f56c4dee6290b46357976b98854153caf6699aba4f90a57e20945e3331",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a51f9333b2b9addb62ccaec01eced129": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a51f9333b2b9addb62ccaec01eced129.perm1.cnf",
+  "sha256": "0e304e56bbc03edcd69b0cf0a297e0084531da1696753e644f0718e11499ee22",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a88dcbc4b23784eaeb4afdde82d4da67": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a88dcbc4b23784eaeb4afdde82d4da67.perm1.cnf",
+  "sha256": "41ad11bdb411f514e7853188ed48867db3364c691e44eb492da6740bb04cca7d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a8c50e130aa5eb28d4b66b205a9d718a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a8c50e130aa5eb28d4b66b205a9d718a.perm1.cnf",
+  "sha256": "4bdba68307bd56e4d1c78514b775c3017cd403ecefc004f005da02f1b19a284d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a8f45f8be6e2f94b57c98217f43f77d1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a8f45f8be6e2f94b57c98217f43f77d1.perm1.cnf",
+  "sha256": "95047f027c667b1f1f806d284c47925928936d20862fc6b113449e8a6b5ee07b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a91f564f1c6ff502464c4c38bb78f0a1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a91f564f1c6ff502464c4c38bb78f0a1.perm1.cnf",
+  "sha256": "e4a4f1972c53d4476c609a1805d81964e715bfc39ed5846d584ae31df24fb062",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a9e7e0505d1d92a7a2a07ac14b59b196": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a9e7e0505d1d92a7a2a07ac14b59b196.perm1.cnf",
+  "sha256": "8a5ac2b168fd43db6af534a580494c09ad5882d04cf092d12c511c22c604cedf",
+  "mode": "perm",
+  "seed": 1
+ },
+ "aa39c6d885d283a085d033ab7b89f8c8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/aa39c6d885d283a085d033ab7b89f8c8.perm1.cnf",
+  "sha256": "8658c8952e933509e385da9c53e609250e0b5f289a25c9df4e0a45f1933ac390",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ae172b720ce980b1ec5337bfd7d5a8ff": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ae172b720ce980b1ec5337bfd7d5a8ff.perm1.cnf",
+  "sha256": "7a04e324ec4a612bccd2df5f531f9688b8f135dce25d426b0352aeb1c8c04551",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ae17bcd042e6140aa72a2cd9f4c42b9c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ae17bcd042e6140aa72a2cd9f4c42b9c.perm1.cnf",
+  "sha256": "8d7367ec5069abbae39456e1b08b7ae91b5d54698416e49f9f8c7d72b01e88a6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "af6db1b9c5e0a3f02e8986878dda4761": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/af6db1b9c5e0a3f02e8986878dda4761.perm1.cnf",
+  "sha256": "d3d889fe6de91d87823507c323105e09de5eecdb558dfe8dc99e522cc95c7ec6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "afc7b108e6dabc137cf109ef3e7bda16": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/afc7b108e6dabc137cf109ef3e7bda16.perm1.cnf",
+  "sha256": "2af9dc1d2ef6e1dc8c2365cac06092d18b312ed26259cea0ccd65655790e82ae",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b06104a3bff8d2f7294da267e28bc1af": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b06104a3bff8d2f7294da267e28bc1af.perm1.cnf",
+  "sha256": "74d05ef41c39690f8a33738d1f5968aa3e9f7fd67b8b1e335b39f6449f451240",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b15a8aff421c1d617b0438265d906f95": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b15a8aff421c1d617b0438265d906f95.perm1.cnf",
+  "sha256": "31bc4fc8b220f6061321834b2217010e354d279ee5e745adb046849e4811360e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b2059a77acce5836fcaa1e26cd1bb1dc": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b2059a77acce5836fcaa1e26cd1bb1dc.perm1.cnf",
+  "sha256": "f974da273132e84c425d90fc7fa0bbb1c237d7463f57528c489c3e70ec5cf7ce",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b33252a0ae12bbdb10449932540776dd": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b33252a0ae12bbdb10449932540776dd.perm1.cnf",
+  "sha256": "1892b473433cb57058927987257f914ac89545c5eb5bc2df0b37625fbc0e8e95",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b37dd84a1ca56a24876590bd60c5cf57": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b37dd84a1ca56a24876590bd60c5cf57.perm1.cnf",
+  "sha256": "7dca9bbf2f46b1f8dde7b1d807a95ad48a1789a2b8ab35f3836b6e4f9dfb0dba",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b5ad69530f80d1c9a323491ad4efc169": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b5ad69530f80d1c9a323491ad4efc169.perm1.cnf",
+  "sha256": "d615e5c63e0a7dc5c35b272e466ad25a7903bbc85deb8ebb21e270c9007caa9a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b8322792935eab432e7696e2ca298ff3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b8322792935eab432e7696e2ca298ff3.perm1.cnf",
+  "sha256": "e596211533a4d151199e00f1592e6d6b8020dd3e4e9f703b417363f293959590",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ba97293d0bed8132f29432ec9c8722c6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ba97293d0bed8132f29432ec9c8722c6.perm1.cnf",
+  "sha256": "18e7ea6c1a4f5e33e48a011f00abea7d1b56b0240225e304bdce7bae2fac8331",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bacb55fe2aa11f3355c3b162f0867928": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bacb55fe2aa11f3355c3b162f0867928.perm1.cnf",
+  "sha256": "0f02d4da708f437e2f52f2b174c356e1b0529ee91d828ea22c55b536a36c722e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bb238c2031e18c06643d42269d123c4a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bb238c2031e18c06643d42269d123c4a.perm1.cnf",
+  "sha256": "5d3d36ccdd7b225e08db0cd5c928b2b0e9a76392a5903bb5696845d92d725d0a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bb4ed0cf3cf535f7c11a99ee6cbc4f91": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bb4ed0cf3cf535f7c11a99ee6cbc4f91.perm1.cnf",
+  "sha256": "aa6462a0280f3867244958473a5de04f1dc878830cc4dafa3501326ee9eaf4b3",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bc895df6a129123e196ab5912ea44d02": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bc895df6a129123e196ab5912ea44d02.perm1.cnf",
+  "sha256": "0332fd6a04b399457b05fe07b2a07beefca9318e4438ce82e1bc28b9982b3b1c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bcb2104a3558d87ac3b2107c10d54648": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bcb2104a3558d87ac3b2107c10d54648.perm1.cnf",
+  "sha256": "e8beaf9b0219aa37cb58981e639aede6a0a467bc0a6e460e8c35047380e7358a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bd1fc6fc2a92be3511a46e245961778e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bd1fc6fc2a92be3511a46e245961778e.perm1.cnf",
+  "sha256": "edb04e43800fcc7b6a79a0f5b040a8596384edd2cd6940576b2c1fe314e571a4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bfcd19c7273231a512e23d30571b8bc2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bfcd19c7273231a512e23d30571b8bc2.perm1.cnf",
+  "sha256": "90751fd8ff01b89e3fa0951adee2b1bf74c7110657b3aab9f0e2f1c85e0d8510",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c261941bfec8b89d75fee1a66a839169": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c261941bfec8b89d75fee1a66a839169.perm1.cnf",
+  "sha256": "cb16b12fb12e238a1433a8c39acb95e6cec9ccc7510c171bed15f2945c1df7dc",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c320454b0750a2f351ce1257db0b51db": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c320454b0750a2f351ce1257db0b51db.perm1.cnf",
+  "sha256": "cc553842c14a27f4a413a0f6d321b47d3e6ff6999687dee03f465bf6287a7275",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c5ae0ec49de0959cd14431ce851c14f8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c5ae0ec49de0959cd14431ce851c14f8.perm1.cnf",
+  "sha256": "5a571143a0df3e0b12643b07db585dcabef0143c3e9d36dbc6595fde5206a55f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c76f3c6c2e2eae85fc5f3d499f3db88d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c76f3c6c2e2eae85fc5f3d499f3db88d.perm1.cnf",
+  "sha256": "500fc10bbae4c46d17b00f6dcfb36fa996b41771cbb10df023d79992d2402111",
+  "mode": "perm",
+  "seed": 1
+ },
+ "cd45de8e357af61f4dfc5d0f48ff2b91": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/cd45de8e357af61f4dfc5d0f48ff2b91.perm1.cnf",
+  "sha256": "a432b803a44642efacaca91173074f426eae2f7dd21d10af53103b5c10a8d632",
+  "mode": "perm",
+  "seed": 1
+ },
+ "cdd89d1b9259dcf26d4a53ba94041e93": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/cdd89d1b9259dcf26d4a53ba94041e93.perm1.cnf",
+  "sha256": "fc34198260243b3f9d2408b1deff72eb5ce06c6b8b82f6f98f86ec7ecae46e7d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "cf1a5622deb1bb224e619af9485bb01e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/cf1a5622deb1bb224e619af9485bb01e.perm1.cnf",
+  "sha256": "3a9875b2134dd05c286e4cb70e5b53b33045bfc9713c88d868982bc1c35af161",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d02fc21fe69a1251c4af39291ace1bdb": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d02fc21fe69a1251c4af39291ace1bdb.perm1.cnf",
+  "sha256": "fad4c292ba71b856bf331e4536df54028245dd7d5808778a6aed069c493ebe6c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d072079bdcc592adf80b315bd05c6f27": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d072079bdcc592adf80b315bd05c6f27.perm1.cnf",
+  "sha256": "0b753a99cab2f746db1829e3e296c103f269a8c9ce35e3e3ee9d4956db1f910d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d0ad28cbd887af86de17c2680ea91f27": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d0ad28cbd887af86de17c2680ea91f27.perm1.cnf",
+  "sha256": "ab9e7505ca150b99a62dbffb142bd408ce9f36ce744219c5175dc5b30dc41af6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d5453d6d31f33a310ce34ee4bcfcbe50": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d5453d6d31f33a310ce34ee4bcfcbe50.perm1.cnf",
+  "sha256": "f8eeba38a9d23a2ae6a7ac6ebedffecdb52529ff398d86fd226d76190ab07da5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d55033d9dc6c92861ae6b099870322d3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d55033d9dc6c92861ae6b099870322d3.perm1.cnf",
+  "sha256": "fd630a6f78309b4b646044418ea45f6359cfb4731382c8912c98d8a6bb4731f9",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d7b38c8ead74ae705aa60b8771debda1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d7b38c8ead74ae705aa60b8771debda1.perm1.cnf",
+  "sha256": "da33b9465d9126b1291a6e51bb11851eb2a205c03c7a81c2c9ebce55b6c78d6e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "dcdfb7b6a5e319f915449dcb2464304d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/dcdfb7b6a5e319f915449dcb2464304d.perm1.cnf",
+  "sha256": "80ba140f7a11d94be6a1f30f31215636cab1c5eb9ff6c1b10ece6c0ceec8737a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ddc7bef18e9a81b227a8e8d903d49455": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ddc7bef18e9a81b227a8e8d903d49455.perm1.cnf",
+  "sha256": "0b58d698edaf249a00dceb16ea1bc411579ac636eef10415059ae29406d0a905",
+  "mode": "perm",
+  "seed": 1
+ },
+ "df03334f1c8f744c7f08414d8c955a36": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/df03334f1c8f744c7f08414d8c955a36.perm1.cnf",
+  "sha256": "8cfead808263c4bc281adcfe642ffbfe30dc123f1180d84a72e240bab300c6f4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "df4b57722dd6ef74aec3e3779eefdf14": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/df4b57722dd6ef74aec3e3779eefdf14.perm1.cnf",
+  "sha256": "d85a93051b4f1d15ee19689d7de4b26cd8df179de9ff3566f0c8c97993a3eea2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "df8884c93686aa1f0fe4ba12b5a98bde": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/df8884c93686aa1f0fe4ba12b5a98bde.perm1.cnf",
+  "sha256": "09fcd4f5e6981295c6aeee0e50a725e54c932337e8a8b23c0de561e1d05df935",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e13f5108a244c98d2e3cdf99cd863dc8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e13f5108a244c98d2e3cdf99cd863dc8.perm1.cnf",
+  "sha256": "0e01aae94a8b3f83c9be15bfa5f1710dbc421de8cef0bcf93062a6442d3b819a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e1c096c67980be89391e9a0ea5dadd88": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e1c096c67980be89391e9a0ea5dadd88.perm1.cnf",
+  "sha256": "0ea2ea74fed5dab5976bd7aafd24e5cf43997643dd49da5b7ae53d28f242459c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e85b6cb3e2751d5c80559433ba1adf06": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e85b6cb3e2751d5c80559433ba1adf06.perm1.cnf",
+  "sha256": "97ae33c5f3295b20cea4c98baad679216bdc6465ddcc3ef2e6ade45f87b8b278",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ea27a2989279b30af0940b790dae4f94": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ea27a2989279b30af0940b790dae4f94.perm1.cnf",
+  "sha256": "6215d58eca92df264844f123340651e95a4342aecfaeeb0132cae2a6da950765",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ee4fb1a1a04befd91146ee6c8f06541c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ee4fb1a1a04befd91146ee6c8f06541c.perm1.cnf",
+  "sha256": "e71abf7386a499c06fe695b97e525c0df8e98561a35a432e8ce74a7a18d396f5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "eec974743c00c860c8bcf649227deb96": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/eec974743c00c860c8bcf649227deb96.perm1.cnf",
+  "sha256": "559b36f5039d31440054c1619ed4d514e95d03e2d023c5a513359c32199d00df",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ef4207e8736517fd3abc555d3f98bae8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ef4207e8736517fd3abc555d3f98bae8.perm1.cnf",
+  "sha256": "f07b7c3a419b84655646513fd4c5994232922b28a8b7a3f9c984a7f4c30b679f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f0cb91c919d0ce36728d99b3660ae1ae": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f0cb91c919d0ce36728d99b3660ae1ae.perm1.cnf",
+  "sha256": "f25cdce718bebcce6ac8f2d4c06cdc3a7b739004ed479ee8177a393156d6b494",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f0e964156d4d5ce17ecc9fa95b89c3d4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f0e964156d4d5ce17ecc9fa95b89c3d4.perm1.cnf",
+  "sha256": "06fb8acf42dcd5f8e05fca51efa2118f643db3f9dd3a28b2801e2e436a10bb68",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f2fdf6d0a00880ef0816fe1607f98b1f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f2fdf6d0a00880ef0816fe1607f98b1f.perm1.cnf",
+  "sha256": "3e0da79ec20b701921fdd6ea6e032647e36e3c2e08f5f5bba8142025725f361f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f746dae2050dd4aa48bcd53e8bd897b4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f746dae2050dd4aa48bcd53e8bd897b4.perm1.cnf",
+  "sha256": "1707c8cfc61ccee940ec45f3742b2f0badd2f03e319bec2a85657794a1a82c25",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f93204ed5a1742df93ed31486010a556": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f93204ed5a1742df93ed31486010a556.perm1.cnf",
+  "sha256": "6613d0bf7121d91163612e5e55bae4708526a00c2dfa24b73050e7bda9f53680",
+  "mode": "perm",
+  "seed": 1
+ },
+ "fec4ba2cf2416933dcf7b8153be97344": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/fec4ba2cf2416933dcf7b8153be97344.perm1.cnf",
+  "sha256": "7b1d4788fcb4dec93824a6a2bda51c321f48ad2075aa9ecef0d7b57a5632c2fe",
+  "mode": "perm",
+  "seed": 1
+ },
+ "000a41cdca43be89ed62ea3abf2d0b64": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/000a41cdca43be89ed62ea3abf2d0b64.perm1.cnf",
+  "sha256": "560d712972406c9a4c1ac460d6948d5f83b4feabecef00b3e9474b97f8786218",
+  "mode": "perm",
+  "seed": 1
+ },
+ "00a62eb89afbf27e1addf8f5c437da9b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/00a62eb89afbf27e1addf8f5c437da9b.perm1.cnf",
+  "sha256": "8651350945b4bc9260c700b9f8f3fb1acddd7aefa308087caecaa6ca800fd430",
+  "mode": "perm",
+  "seed": 1
+ },
+ "021686368317a35103f1f671f783d958": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/021686368317a35103f1f671f783d958.perm1.cnf",
+  "sha256": "9f1bcc339d4afbedb063756922c161cf002d24a51c1406c95caf04e654367c2c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0216f9d35f2b695b904fffb312e3e611": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0216f9d35f2b695b904fffb312e3e611.perm1.cnf",
+  "sha256": "cabcdc9a3eec49aac3e56a32a0da72711fe40d88dfe7fa9373015e917d1f442e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "02223564bd2f5c20768e63cf28c785e3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/02223564bd2f5c20768e63cf28c785e3.perm1.cnf",
+  "sha256": "f9a6c1e6858a9d50cc35430bf8a906ce9c845b0404353d2d89e8ae9eada6e7c7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "02627689047d06fbb642eef14768d751": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/02627689047d06fbb642eef14768d751.perm1.cnf",
+  "sha256": "9553d46f7f75cbe2e437291633991d4b394855ff33476f95b853464637cd7337",
+  "mode": "perm",
+  "seed": 1
+ },
+ "04935c7718d4ada8516e0d99c46df41b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/04935c7718d4ada8516e0d99c46df41b.perm1.cnf",
+  "sha256": "9f277b3e961314c58739e1a0c814afa93ca3a78668fd10f63a58441cb92d0be2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "04d2cca932a87b98ebfc7bbd0fe6ed5d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/04d2cca932a87b98ebfc7bbd0fe6ed5d.perm1.cnf",
+  "sha256": "82a169b46b34efec319a1903d39eb527c02dddf3f4b0c22f6801207dacaeb09a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0876c518e5653369e20fb1ee0bb8db40": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0876c518e5653369e20fb1ee0bb8db40.perm1.cnf",
+  "sha256": "06da289af654b8a363cdefb635a04239a479336558ecbd8c81f6431632cd98b1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0a4b9ce30540d2103d65e44994d206a5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0a4b9ce30540d2103d65e44994d206a5.perm1.cnf",
+  "sha256": "30820206afb526eb4b9d0a69a5425af1eb2756e62af22b3117a9a6daf27d4f9a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0a819f7ad46f70de5a184784da303f5e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0a819f7ad46f70de5a184784da303f5e.perm1.cnf",
+  "sha256": "b2c148962617cccc15cf9b2d9e95c7888bd84c74a67366d4cef8acdbaa3ad759",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0e5a211e7c3d52b6cbede3fef45f4f3a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0e5a211e7c3d52b6cbede3fef45f4f3a.perm1.cnf",
+  "sha256": "15a3a1724039a876b55a04b3f66b49496681ea3e0723a56afc22af37c6032649",
+  "mode": "perm",
+  "seed": 1
+ },
+ "10a553afab3c4406968b1f6b3abfcfcd": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/10a553afab3c4406968b1f6b3abfcfcd.perm1.cnf",
+  "sha256": "c78c47240528c5f25bdfb32980b44b77c98f73a49666547e401f7e94198fec11",
+  "mode": "perm",
+  "seed": 1
+ },
+ "144889e68fb25ec33f1d81cab4c26581": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/144889e68fb25ec33f1d81cab4c26581.perm1.cnf",
+  "sha256": "b206d5b5ce41f85bd06b150ca4dac81a66559a22681734a176a2a103967f1182",
+  "mode": "perm",
+  "seed": 1
+ },
+ "16b0810ba492f30a39fbd46ece608cf2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/16b0810ba492f30a39fbd46ece608cf2.perm1.cnf",
+  "sha256": "dae3072e0ff453e61f32c35d1951b4abcf0d7a34b80a936a0215aa9160f3d267",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1890f49a43a94b97828528b68c32b78e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1890f49a43a94b97828528b68c32b78e.perm1.cnf",
+  "sha256": "7630d0b59dccf20c029c2e332bdc0d5edf9a34564ca57a190d7cae722b9812e1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "18d4124324b56e434118f9ef72198d84": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/18d4124324b56e434118f9ef72198d84.perm1.cnf",
+  "sha256": "951ca3cd642380c76101a79fe86e8d8a3f09bbe83bc745a15c7e41e9be659507",
+  "mode": "perm",
+  "seed": 1
+ },
+ "195c4ca639cc5b1f16aa319d94bd6989": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/195c4ca639cc5b1f16aa319d94bd6989.perm1.cnf",
+  "sha256": "84e90cc609b7814f519c4f65ac3ff0f330ce68c017531e7fab034bc52a9fcbeb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "19a72fc66cf0e46348b0f17aa5550225": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/19a72fc66cf0e46348b0f17aa5550225.perm1.cnf",
+  "sha256": "2aea160f0bf125ec018f2894721340711237518847aecd846d9a8b5f12cd571e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1a3400dc32a3859afb20566a4ded9606": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1a3400dc32a3859afb20566a4ded9606.perm1.cnf",
+  "sha256": "5ba69f5757628b551a1e12f367f64da95c8716e0ce9031efa41de38701c7a9bb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1de013d98cc407c5bbb1c08d05e03ab6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1de013d98cc407c5bbb1c08d05e03ab6.perm1.cnf",
+  "sha256": "3625d1748cdac703265f8e02125971649dcef9fa98741d484cb1d720cf2c9da6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1e0d58c7e52319b3b17e343ec7ca6de5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1e0d58c7e52319b3b17e343ec7ca6de5.perm1.cnf",
+  "sha256": "6203ac1904a5cdc4c9bddf04091d1411a7e429dfd4acd281712549d8551fe292",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1eabc0df9be862042637dbb555212a21": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1eabc0df9be862042637dbb555212a21.perm1.cnf",
+  "sha256": "55978c89d4891b38083777d0dfee198196cbd81cdcdab6f3873fd28ca8d2617d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "23b15b56a6dc5c41c2e47a349765107d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/23b15b56a6dc5c41c2e47a349765107d.perm1.cnf",
+  "sha256": "cf724171ae95889ccd3d231495842bd7574add8017fa9dcf019f8d438d2c2d31",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2534e0c4691a8807de2342ef98636ce6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2534e0c4691a8807de2342ef98636ce6.perm1.cnf",
+  "sha256": "861d5d1fb39e1c8c49de0b0a1c8ef11b4d9d072ff44af07c40b327dc3fb2d27b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2609d5f1772bd52e16159b51a986b74d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2609d5f1772bd52e16159b51a986b74d.perm1.cnf",
+  "sha256": "ff9f5b0d50d5b98fe5bf9a50a3d8ede122967b49dd6d363b508ff28242d36508",
+  "mode": "perm",
+  "seed": 1
+ },
+ "276fe9730ff09cafd8c59f44c9c61b4d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/276fe9730ff09cafd8c59f44c9c61b4d.perm1.cnf",
+  "sha256": "c2cc3ee167f7549f3097676cbd29c820680d3998fedaaa040202fe91b2a36a76",
+  "mode": "perm",
+  "seed": 1
+ },
+ "278b9675cbaff7baeeb3e519746eec8d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/278b9675cbaff7baeeb3e519746eec8d.perm1.cnf",
+  "sha256": "e18b0037ff86424d1ab1aee8fb3132c04b4d7081bd53abc56c7fa2e164fa9f49",
+  "mode": "perm",
+  "seed": 1
+ },
+ "291709c47f0a249944f717e6ef951109": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/291709c47f0a249944f717e6ef951109.perm1.cnf",
+  "sha256": "9605554cb0085e5d3f2ed3a4d014e0000041081e0993902dc9a4ae04ab420e57",
+  "mode": "perm",
+  "seed": 1
+ },
+ "29e101b66dfddb440e974b9feec5b1aa": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/29e101b66dfddb440e974b9feec5b1aa.perm1.cnf",
+  "sha256": "63bba332dcee234a146b1c8e572109b286326e27fc5e324098248b0139e9b388",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2c15682632ec230f52e04e6b8738ba1f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2c15682632ec230f52e04e6b8738ba1f.perm1.cnf",
+  "sha256": "f06c006a4f511616504d6cc53e15782ae39f1462afbf10d71d8b89d32c74428a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2d1e4189b9de74ed1af4721483d3a574": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2d1e4189b9de74ed1af4721483d3a574.perm1.cnf",
+  "sha256": "fc99320dbb301096ea641c95df5330b0603e301986582eb1b35db74405b3b2ca",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2dcc525ccb3eb88be9dcd4fbed1bab6c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2dcc525ccb3eb88be9dcd4fbed1bab6c.perm1.cnf",
+  "sha256": "15f25de8d0b3c5d584b5393c3eb293e0497bbbe06009b2d972d67ee683cd364e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2e587b60ddaab9f66380b045119e5086": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2e587b60ddaab9f66380b045119e5086.perm1.cnf",
+  "sha256": "79a627608d1e645e83665d6fdc0d16387ec0cc2858a09d20d1120f5146daa063",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2f410eb822183388f75d966463293f60": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2f410eb822183388f75d966463293f60.perm1.cnf",
+  "sha256": "a1d5091b6b87d6a71d24e944086eb14c175ea160a08b88dcd83250cc858c625b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3198bf396bbf9fbf335513f05293275e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3198bf396bbf9fbf335513f05293275e.perm1.cnf",
+  "sha256": "8ed888460f9711a1533388e06f455cc78e5fff4d938620e1adc6a95265ab0a14",
+  "mode": "perm",
+  "seed": 1
+ },
+ "34da7281df2d13343b40517a88789c73": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/34da7281df2d13343b40517a88789c73.perm1.cnf",
+  "sha256": "1e5a075e291233f7c6f22e73d77945c03e2f8da78c23f2ba8fae976b41c82be4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3728fe50d8038c639c2d9c84e04fe2b1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3728fe50d8038c639c2d9c84e04fe2b1.perm1.cnf",
+  "sha256": "6cfcbf8d3925e4824167784c721d116c7335655fecff032d14e9f44c690a6219",
+  "mode": "perm",
+  "seed": 1
+ },
+ "37d51818a1e24d2659c8a94a72da386b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/37d51818a1e24d2659c8a94a72da386b.perm1.cnf",
+  "sha256": "70699278c679f98eb9a0007cc60ffd01878bff494cf0e5b6e86531b6b8ae9d5c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "38bccb6b86edd3134c26f4fe3c2b04c2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/38bccb6b86edd3134c26f4fe3c2b04c2.perm1.cnf",
+  "sha256": "a835827f523c6d70da463d0e6b709a1be23962c2169c8b41b038bdf45fccfd7a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3978bc0db0a3f8a16de8e667761a3d01": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3978bc0db0a3f8a16de8e667761a3d01.perm1.cnf",
+  "sha256": "eda9282010dcf7a74ca81ecdc827e9a617727879ba3ed2c87251c7ca24584f69",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3a91b8d3c14cd5415b5e2d1f5be13890": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3a91b8d3c14cd5415b5e2d1f5be13890.perm1.cnf",
+  "sha256": "e26d1f5cced74236edb3229c3d6fbcf92e453b63dab2a23d63db81ad74dcc8c8",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3afd64a14c16c4ccb336e4e7a3e05011": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3afd64a14c16c4ccb336e4e7a3e05011.perm1.cnf",
+  "sha256": "e16733b27103bcaefdd963df29421bdd653ebce822ffe78207f6119616fd85fe",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3c4fad450b700fcf3da7f6246915ddbe": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3c4fad450b700fcf3da7f6246915ddbe.perm1.cnf",
+  "sha256": "a6b8f80cca2bc6ae732c25df3ab97f7632c743e8a3920cfae63f180f5af24359",
+  "mode": "perm",
+  "seed": 1
+ },
+ "410539f411ecf4606d8f23cae5ac32b9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/410539f411ecf4606d8f23cae5ac32b9.perm1.cnf",
+  "sha256": "36c2a62d4c08632e095f150ad92a286599189eca4276338fdba570fa57a658b1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4132196a3dad222c96f2bc021255d21b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4132196a3dad222c96f2bc021255d21b.perm1.cnf",
+  "sha256": "f9561a0e11e804b14e60782b3f251a4864739e3aae80c5ca14934ad96493a492",
+  "mode": "perm",
+  "seed": 1
+ },
+ "430ea7b80a96824380cd1d1e649cc5ea": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/430ea7b80a96824380cd1d1e649cc5ea.perm1.cnf",
+  "sha256": "dadc1ed06253a73a285e74e22176195d29b38aa2a76bc24cbc11210a7d76ab09",
+  "mode": "perm",
+  "seed": 1
+ },
+ "43e9826f4a546e9da84b6bd8adaa6827": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/43e9826f4a546e9da84b6bd8adaa6827.perm1.cnf",
+  "sha256": "9361561d062b437725ddd7ac6d39576f76ebfaaf740b72739e365a9daf80a393",
+  "mode": "perm",
+  "seed": 1
+ },
+ "47f41d044822c0f60d0aec1e5624b154": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/47f41d044822c0f60d0aec1e5624b154.perm1.cnf",
+  "sha256": "ca330bc44dc37233ea00641f9c29d631787404631cae218940ef1a2589722b7d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4a6268945652964c9b86b7c15425c0fe": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4a6268945652964c9b86b7c15425c0fe.perm1.cnf",
+  "sha256": "1cc7bb50791e037025b0b1b312d48e34f081b1c6ed7f7c257aab4a976890d3ef",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4c9b7b964c5b2b540ee5e09b3a5f3c8e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4c9b7b964c5b2b540ee5e09b3a5f3c8e.perm1.cnf",
+  "sha256": "12c9669a2072cf421a15c2e28a16d77b95b465abb1155584269fdc6d40a0cd7e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4cc8e55799ecda9e666a4c767fb290d8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4cc8e55799ecda9e666a4c767fb290d8.perm1.cnf",
+  "sha256": "73efb8bfea8e02d74f6be8cabcc92ee96ddf304e50a9cac10cb982547bddd9c2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4e3ad59a4716ec934b8f4e249b36a882": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4e3ad59a4716ec934b8f4e249b36a882.perm1.cnf",
+  "sha256": "c663df176c2fcf024eb2fc44b4c3d26431dcc0019b1d7b4aac282a8d3d5a12b7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4e8a1b2d6fda300bba2969565620684c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4e8a1b2d6fda300bba2969565620684c.perm1.cnf",
+  "sha256": "2125919c470dd32901d7b6646845f65cb0fff3bd3cf4cf9192a47c37e3d8d017",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4ef0f670f650cf5c27067ca5df50b7ab": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4ef0f670f650cf5c27067ca5df50b7ab.perm1.cnf",
+  "sha256": "c1c59629ce95d01911f9dd9c23f6c49b39225f9c0c97715de9923bae75652689",
+  "mode": "perm",
+  "seed": 1
+ },
+ "50468d740d0d9cd69c43e4122014d60e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/50468d740d0d9cd69c43e4122014d60e.perm1.cnf",
+  "sha256": "032ff28e511e206f5223acf1b5df97b95e5f5a64b0c3a7f6fa8a587f8d3ee9a3",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5084904780e4249959a9368ec8e8d930": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5084904780e4249959a9368ec8e8d930.perm1.cnf",
+  "sha256": "fd9f08e8d1eaf8f65c2d9b043892ceacb8f83fd65d7d68e3043db0cf678b4aa4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "519ec7e2da48149991957836b84dda06": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/519ec7e2da48149991957836b84dda06.perm1.cnf",
+  "sha256": "7a4943fafa43ec53b117f1822c4022a5a97e16ab642320406be0ca1db46de847",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5584cc467c09d0cab489238275c2b92e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5584cc467c09d0cab489238275c2b92e.perm1.cnf",
+  "sha256": "844ec8fdd5008548d38ebe6c33037c6f87224b9d4d6b2a5fe3f8bb4a10b91c8d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "55b646fe9b86176247883328e8df283b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/55b646fe9b86176247883328e8df283b.perm1.cnf",
+  "sha256": "8a9baedaad0944f209271f65d7c531fa4d75b80b77a10c1e4f34f05f07f9e8a3",
+  "mode": "perm",
+  "seed": 1
+ },
+ "56e562b48dddc21239bbb134eecba448": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/56e562b48dddc21239bbb134eecba448.perm1.cnf",
+  "sha256": "a96394a73309be2514126eda4421ff50307114191d3a54511011859c75a80038",
+  "mode": "perm",
+  "seed": 1
+ },
+ "587ac25d93492c61eebb72cb258ba173": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/587ac25d93492c61eebb72cb258ba173.perm1.cnf",
+  "sha256": "d5c6d045ec2a0b860dc6c01efa2d1b714d7a14a92ff18911f0e828f62b191db7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5aaba0d1cedc84a0100dca0235968591": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5aaba0d1cedc84a0100dca0235968591.perm1.cnf",
+  "sha256": "f0537a84fc2a4f74e255ed89101e5c1fef292dd338c2a4ca2d9a59c7a1732111",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5aea835073f0900d0015ae8f9eed9063": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5aea835073f0900d0015ae8f9eed9063.perm1.cnf",
+  "sha256": "f0c63afeca8ebf584bfc8c8cf271842e8e9756f377b4305a437855c1fd480217",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5cf0eee780d34bf1fd2cb3bc97146e2d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5cf0eee780d34bf1fd2cb3bc97146e2d.perm1.cnf",
+  "sha256": "f2ac73b900b0f6d2a5c902be20e5a17d7f7ad6542ca9424e11713678dacb5ea9",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5e2d07ffde107945ffb862f9ad6e4fb7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5e2d07ffde107945ffb862f9ad6e4fb7.perm1.cnf",
+  "sha256": "d6e53aaf83abee96e1903fc23e78303da2149cff6e6e5e9397a3392b1c3dfd6b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5ea9d54e4eb8eeab1ff058471b9c83ca": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5ea9d54e4eb8eeab1ff058471b9c83ca.perm1.cnf",
+  "sha256": "5087c930c4890ab4529393577c97d4d3cbaadbcc37f50fdfde817a9e9fac621b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6215163bc9223383b76bd16222c98f66": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6215163bc9223383b76bd16222c98f66.perm1.cnf",
+  "sha256": "b09c3b589851974ae0e5f9dba94f8e20eb2124d8cbfd296f4049b5971b288b33",
+  "mode": "perm",
+  "seed": 1
+ },
+ "67158b829ad61fbc3ae12f9fafe2de3c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/67158b829ad61fbc3ae12f9fafe2de3c.perm1.cnf",
+  "sha256": "5599e6a2e865a432cac8a50d83a7f978df958434ae0d8a07da82883483ef0758",
+  "mode": "perm",
+  "seed": 1
+ },
+ "67aa1a256f92020dccdf66b235de3986": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/67aa1a256f92020dccdf66b235de3986.perm1.cnf",
+  "sha256": "dc00623b04d28d36f3f811701b7b3e40dc5788b3307e5d1b3ec06b648ed103db",
+  "mode": "perm",
+  "seed": 1
+ },
+ "67df7bd97e841395a4c75281423986cf": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/67df7bd97e841395a4c75281423986cf.perm1.cnf",
+  "sha256": "92e694ce95e90fb49d383ba1f2f1efbe990c0a099ac55ce2815363d360e73fc9",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6e808c491e0b4d6472313d74d408df7f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6e808c491e0b4d6472313d74d408df7f.perm1.cnf",
+  "sha256": "b6b23a309b14c9f3c5b71d77cf645024b81da49df3e40dccadc859b52ae4e794",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6eb1a684231ecfd5ba0617abfaa2c632": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6eb1a684231ecfd5ba0617abfaa2c632.perm1.cnf",
+  "sha256": "7d5cb1f6143b60642bd4b64b392e6a991272c432c2424253d2b944aa13088206",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6fbed10d0ff5bea497d26c08ad2f8009": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6fbed10d0ff5bea497d26c08ad2f8009.perm1.cnf",
+  "sha256": "935e7b504959678fbec48398e75bb30577e498266a78b921c39ff4d88f7f6ce6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "70903c09156674cc1b0c35794cfe3d06": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/70903c09156674cc1b0c35794cfe3d06.perm1.cnf",
+  "sha256": "a1d17c83b210eba737094c591a509559ae5bd96d8015487da84002bfa96504de",
+  "mode": "perm",
+  "seed": 1
+ },
+ "70ef2b6bdc4101a0e35cf3d165571fe3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/70ef2b6bdc4101a0e35cf3d165571fe3.perm1.cnf",
+  "sha256": "bb1bf5c5bea4127234e7d47abe748fdcee2045ccf1ace9a8b3b111c1f206a3d2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7162f7f1e18ff7e3010af4ca4396bd4e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7162f7f1e18ff7e3010af4ca4396bd4e.perm1.cnf",
+  "sha256": "0247ef576b39192996ef0237ba43d41e80f3f27a2eb7f4eadf7f5b10c74b1579",
+  "mode": "perm",
+  "seed": 1
+ },
+ "73063c6257a4ffc29f5bea7028403a64": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/73063c6257a4ffc29f5bea7028403a64.perm1.cnf",
+  "sha256": "8b56e4a751ba1a61a42e0b43b909fed891301cfe42962de7e78562344f184929",
+  "mode": "perm",
+  "seed": 1
+ },
+ "75ae63ed27c22c2385867ad8074fd037": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/75ae63ed27c22c2385867ad8074fd037.perm1.cnf",
+  "sha256": "c5a7f5ef8fbb1df11f4d97567e367506fb62efc21bf0833ad1f65627de0155a7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7927727cdd6b4346d77112510631721f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7927727cdd6b4346d77112510631721f.perm1.cnf",
+  "sha256": "031dd7cd7c89c0145f0536ace7beb842dda4dd7381e3545d4dda628f011c7de1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7b630958ad92e1562c7450e946b8852b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7b630958ad92e1562c7450e946b8852b.perm1.cnf",
+  "sha256": "e8f7bdc800f1345892ea91a7b65fd98f9ebe84ede0406f1738eefd433cb2c727",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7df8389c5b329a2e118a50a94c254e7d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7df8389c5b329a2e118a50a94c254e7d.perm1.cnf",
+  "sha256": "3a2035551a4fa31a1bcaed7d191162d275b4c742940731d0180b1f5dc08b1d0c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7e3617b2007c1a6d15095840cf96ddd5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7e3617b2007c1a6d15095840cf96ddd5.perm1.cnf",
+  "sha256": "92066b7cb73e31734e6f8139feb00cbd406dadea984cdbfe19fc8acd9197dd0b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7ef489e2f958158fbc5cda361702f684": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7ef489e2f958158fbc5cda361702f684.perm1.cnf",
+  "sha256": "1e368bfd26dc514150ad6768198a99a54b3daec247950dc63e8592f7c145692c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7efdf72de31fa82aeceb7acbc29a59bf": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7efdf72de31fa82aeceb7acbc29a59bf.perm1.cnf",
+  "sha256": "71a732b72514f44df9b438ee140d5c11ed9dd26d2fe66ad159f49beaeb3479fd",
+  "mode": "perm",
+  "seed": 1
+ },
+ "80323cb8c560a7d8260b3f43529d6499": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/80323cb8c560a7d8260b3f43529d6499.perm1.cnf",
+  "sha256": "6a2e5dcf1aaab1c6471795e7a6b62a15967328d4e7c870696bc1dd962bfadf57",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8157c6aa84b505772a17e0ccd77b152d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8157c6aa84b505772a17e0ccd77b152d.perm1.cnf",
+  "sha256": "ce008abe2d5de249bf18e342e3909c9f2ce219e49affb6946946bd3802954eec",
+  "mode": "perm",
+  "seed": 1
+ },
+ "81bced94e5f672f0bb0bab7dd298d11c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/81bced94e5f672f0bb0bab7dd298d11c.perm1.cnf",
+  "sha256": "bea929815b6b9dda0a7e5ad67ad64ee0c7a0bb759192cf35ba305b5161ef5811",
+  "mode": "perm",
+  "seed": 1
+ },
+ "85071adde6e3118aef323066387a4aac": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/85071adde6e3118aef323066387a4aac.perm1.cnf",
+  "sha256": "3571b752c86373f38ae0e1489eab732bf5aba50802ca505689ebc3eecf93d7cb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "872eecaa7109fe1e31a510c903e9f877": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/872eecaa7109fe1e31a510c903e9f877.perm1.cnf",
+  "sha256": "dab58c38297c7a44e3fd7ed9c8f2d1c0282a0bfb820ecea81b3c04a879b5e1dc",
+  "mode": "perm",
+  "seed": 1
+ },
+ "87daaee8aedd931f03bc3577ce787070": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/87daaee8aedd931f03bc3577ce787070.perm1.cnf",
+  "sha256": "ff333d1cb84c2f4a9d7ba7396f6eab283572e7f60746396f0c7169748375e7eb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8915616ada833b0678dc057796f68486": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8915616ada833b0678dc057796f68486.perm1.cnf",
+  "sha256": "b492277f37e8fef7f5cb6daae855d8d51072d35173653837cf63ce36cfb7d86b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8a71b6a5e2d32f3ff3b08e91045e7875": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8a71b6a5e2d32f3ff3b08e91045e7875.perm1.cnf",
+  "sha256": "43683ec0f60cd8ce2812d99069a372ef1c9c7f562c02511b1471adfe57d6df21",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8b1bd6edad9760fa71dd2b5a8623785f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8b1bd6edad9760fa71dd2b5a8623785f.perm1.cnf",
+  "sha256": "5be2f558a68b52ec87f5a550f019d2b24bec09d52ad438f66b1e249d77c5e445",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8b6635639b3d4c02c28f28410f286d85": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8b6635639b3d4c02c28f28410f286d85.perm1.cnf",
+  "sha256": "ece7d63e3afaa3eb50358d8251fb60dfea77efd2288825f33d5a03d9f8f7aa01",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8dd15d5a2356cabe1e5a3bb3aad975ed": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8dd15d5a2356cabe1e5a3bb3aad975ed.perm1.cnf",
+  "sha256": "042b18f9afed57bbff9e8e6fcfe64d73a50de6ddf28322ff4a914119ec30ac1d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "909f704d5f4127c1197a086705468624": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/909f704d5f4127c1197a086705468624.perm1.cnf",
+  "sha256": "861f46a7f10c46521e898ce32ae28aae55fec79b03bf9696a5d72fce2295f74d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "92b98ab8055b143e0283a215a70cf001": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/92b98ab8055b143e0283a215a70cf001.perm1.cnf",
+  "sha256": "9ca8d606c839e8533b9fd5eca267b63f0c38e5fca0f46f173b2bb36e11b1938a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "931621d9964e9d0cd1c4001822015c92": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/931621d9964e9d0cd1c4001822015c92.perm1.cnf",
+  "sha256": "5435d169b9b9b4dfa010bf112fd2147bad28ffaa08d930240f6d8e44b166629e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "940a69d9f16d6c8d7a535662386e9b5d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/940a69d9f16d6c8d7a535662386e9b5d.perm1.cnf",
+  "sha256": "252fa5a2d1474395118f470e5e08e1565d82f7cf1cc0b4e155ba48cb938dc7e1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "98d60cd584d39a76022509a769839111": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/98d60cd584d39a76022509a769839111.perm1.cnf",
+  "sha256": "d744fb3390f75c8c29968d9c7eb75831a1997e179e83d2327c369c0ac5e69658",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9c3d41761f7044b5a48618886b3e987a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9c3d41761f7044b5a48618886b3e987a.perm1.cnf",
+  "sha256": "1ba4225bae9e7572117f3a186bb76a939a6510a2dfe763aa788738a08bc05d14",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a06e32f14a4e0bca8b96826c2377b22b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a06e32f14a4e0bca8b96826c2377b22b.perm1.cnf",
+  "sha256": "e523fad0fd7f9581d525f87fa77fada402c81d5e02e39b7a857273ee84e7096c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a175c8b4a50f6be6e9e3b245b37357f0": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a175c8b4a50f6be6e9e3b245b37357f0.perm1.cnf",
+  "sha256": "b8ca967dfca33cc488088eecd771ddadc11b41e9965127e10e7246bc3d15218b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ad24373a191182190dd0775ee9250a17": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ad24373a191182190dd0775ee9250a17.perm1.cnf",
+  "sha256": "d781a23db1615673f0ba39bc149c57fcfec3d504aaa57453017e5a87024c0b49",
+  "mode": "perm",
+  "seed": 1
+ },
+ "af59a2bd928813e816d015c753f45541": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/af59a2bd928813e816d015c753f45541.perm1.cnf",
+  "sha256": "ac18c9cadc1a1d842725a4c7a66be5044615ed1ddfb0806d8242dd72eb7a0a12",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b08e53ad86da0b50b55290108a241241": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b08e53ad86da0b50b55290108a241241.perm1.cnf",
+  "sha256": "806232c4c0b387b8b2e8cca019298e02056501ed3f80184e7ecea7ab58acf67a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b1c4bf432b8110eca82739bff3337730": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b1c4bf432b8110eca82739bff3337730.perm1.cnf",
+  "sha256": "00f8338835249e23c7fe468ff205c6dea144a845a44fce20558a1dee3be80b4b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b2d89917d97f65150eef03cf1db3c03d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b2d89917d97f65150eef03cf1db3c03d.perm1.cnf",
+  "sha256": "9c23fb74bec1fc80caed140664db38d39dab97fcaba01bdecbdf799e45d4ad63",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b33dda793a0aa40b0d29ec629d7a541b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b33dda793a0aa40b0d29ec629d7a541b.perm1.cnf",
+  "sha256": "f8b5960599492753f299b4326fdc3966ea5664c8c4f47f2decc8cfd7547ee807",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b51583e32432c5778c7e3e996c3bfeba": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b51583e32432c5778c7e3e996c3bfeba.perm1.cnf",
+  "sha256": "acd7dad1ff71e88d892d946857dcd2077094671c59f3ca7a0bbdd4e6a586fd35",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b5431f41e3264c64508c30da215c69c6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b5431f41e3264c64508c30da215c69c6.perm1.cnf",
+  "sha256": "caaf75d56a2ef736b8548ac7a879232135abd6618adc4771584d78c24e2ee2c2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b9a688ab96cb1847b4ab2288ad6354fb": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b9a688ab96cb1847b4ab2288ad6354fb.perm1.cnf",
+  "sha256": "98dc2f2b3040912419ee797ef2b7d51692d8efaf5a683dd9dae1be36cfb45ac2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b9c0ee5447cb3ff17167d5a00df522bd": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b9c0ee5447cb3ff17167d5a00df522bd.perm1.cnf",
+  "sha256": "48e19293bb73edf2d65bad0e3f2a53e3389561aa8b38f8bdd6d4732166e85a25",
+  "mode": "perm",
+  "seed": 1
+ },
+ "be63e79965dd148473cdaec0bf91afdc": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/be63e79965dd148473cdaec0bf91afdc.perm1.cnf",
+  "sha256": "bcac6807f0e7189b56685b2eea397df9c43a8568434da783241697cc98f09b20",
+  "mode": "perm",
+  "seed": 1
+ },
+ "be788c19b500d6c18a395558504ca78d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/be788c19b500d6c18a395558504ca78d.perm1.cnf",
+  "sha256": "c9800d253fde4c61136ef11d697e001308fcb1c87e233ea0aa12b5187f5ad8e5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c12d5e3213fbe4071aa8a64618c67445": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c12d5e3213fbe4071aa8a64618c67445.perm1.cnf",
+  "sha256": "69cfeab7b99c86edf99bd68f278e19184e49858a9dffd172a544d2fe03a66c15",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c31f64e36934747378efbea57f27b8ef": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c31f64e36934747378efbea57f27b8ef.perm1.cnf",
+  "sha256": "c3f56263a2fba3878171ed545a77a9d5c0aec3e147ebca6084f77122dc61590e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c37b4ce8f68fe990fa25d5bb51f478c4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c37b4ce8f68fe990fa25d5bb51f478c4.perm1.cnf",
+  "sha256": "3383b3c4612f98408afed70b89d3f4787d1625af08a0c3a17501a24ce7bbb41e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c5dbdd112be5e90c3033dfb361816b3d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c5dbdd112be5e90c3033dfb361816b3d.perm1.cnf",
+  "sha256": "1e85c15d54b7624083fce8c1b72593e8ce7d4956b262bb3de9e9587a8ca7c75b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c75da2a1b1be73fff24d160d3c0ac22c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c75da2a1b1be73fff24d160d3c0ac22c.perm1.cnf",
+  "sha256": "c83a10760eede647534e7fcfc21db69ffe5bd162ef6eea3f201beee65432f870",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c790cce39a626db94903b2789c570d7e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c790cce39a626db94903b2789c570d7e.perm1.cnf",
+  "sha256": "92a241f2c8e4bfa9ec3bef9d9063ee0abcd07e48048732de776bf635ec2061bf",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c88e69b47ae3e630c80930530203b7f3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c88e69b47ae3e630c80930530203b7f3.perm1.cnf",
+  "sha256": "ef2a34b5300104789e5040d80d49b7958b05afb12807c17e731b97e0dfbcac67",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c98cb332cef9805eb77f592e7470fc56": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c98cb332cef9805eb77f592e7470fc56.perm1.cnf",
+  "sha256": "b60d275cd788c23bc09378c1e65c651147064b99b17f613f3d13f9f9fe522e21",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c9fca1038e970e422584da97def83aca": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c9fca1038e970e422584da97def83aca.perm1.cnf",
+  "sha256": "89632af84d7ff8d8ccd587907d5a96861492a6af13ec5dd040524470876a4e98",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ca9db6688158d856299562b4f9ca5777": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ca9db6688158d856299562b4f9ca5777.perm1.cnf",
+  "sha256": "541bb34c3fdd83207aed41d733325b6ac8dd2f97ae77e156ee80fb9d57678944",
+  "mode": "perm",
+  "seed": 1
+ },
+ "cb4238b7a86307dd3e0be2ef213500ad": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/cb4238b7a86307dd3e0be2ef213500ad.perm1.cnf",
+  "sha256": "ed5ae8d18e99921b5fa33687516cc662289fabd1a696603614820e60c77aaad4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "cd670fb043fba9266428987dcbec71fa": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/cd670fb043fba9266428987dcbec71fa.perm1.cnf",
+  "sha256": "7ae624138a072d4c9332e6913b777b0722f739fe8875423a7396054ed9c4b669",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ce9490fdb1c52b1810e74852c0125717": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ce9490fdb1c52b1810e74852c0125717.perm1.cnf",
+  "sha256": "310efe8449a3cfc0e8b1a8d945352bd7870bf82187b97cdb1acde7002a1eb2b5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "cfc5b08fa24149afb9a67426dbe871e9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/cfc5b08fa24149afb9a67426dbe871e9.perm1.cnf",
+  "sha256": "cd8438c5aee52602f4f5b776f1584e60fb8a7e5f3bd7cbaab84594ff9b502147",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d2ec1de194269f98dff6608ff097d031": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d2ec1de194269f98dff6608ff097d031.perm1.cnf",
+  "sha256": "3bdd613dc48a98f07134a954ced8f33be4db8dd7ef886b67a19464dd547a6f34",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d3bf5d39746a7742674e50876649138f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d3bf5d39746a7742674e50876649138f.perm1.cnf",
+  "sha256": "e7375f0faa3929f2d873a9c5c4592dca4d7c8f62c988a20dd1be098c115730d0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d4e5e0a5b7a6d2bd19afbea61ffb85b8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d4e5e0a5b7a6d2bd19afbea61ffb85b8.perm1.cnf",
+  "sha256": "c7a5c08e1237c8c0f5fb245d1bbdbb6f77482e3f23983e5e555d61f0e74ed757",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d8755fbffec770ee33cb4169b91b77d9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d8755fbffec770ee33cb4169b91b77d9.perm1.cnf",
+  "sha256": "84045e9110eeddc40faa1bc9e226c072dd5408caedae1685768c1ec10e090cda",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d8e9d33780aa854af40e47c5bb86b2f6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d8e9d33780aa854af40e47c5bb86b2f6.perm1.cnf",
+  "sha256": "f9e16523f9c7a7fcf803ba4eef92c82758b4a16cc1040dd510248d99338e9ea6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d9c3391cbc4e2d6f4ad5cd6a59b1fb3a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d9c3391cbc4e2d6f4ad5cd6a59b1fb3a.perm1.cnf",
+  "sha256": "aa67499a652596968178350e8aeafb67ef2065572e763e36e4f753ddee63305d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e025c23875a6e7239a074436b0ad89ce": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e025c23875a6e7239a074436b0ad89ce.perm1.cnf",
+  "sha256": "13a1d532033ae3d0602e29601cfe6081fc2be9c896bd19aa938c391cf774fa98",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e0bf26a7527cd162c7d3016d4b2ab9fb": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e0bf26a7527cd162c7d3016d4b2ab9fb.perm1.cnf",
+  "sha256": "0f422e0c78e0a74d708ba34b7432201e690f0699362356c17a9f1fee6fa98565",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e0ebbebd8c2372191ce9425292f241c5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e0ebbebd8c2372191ce9425292f241c5.perm1.cnf",
+  "sha256": "406d994f5bb7ad258f5b3e0f5aee3de3f0df42e84bb518656165838a8a8adb51",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e185ebbd92c23ab460a3d29046eccf1d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e185ebbd92c23ab460a3d29046eccf1d.perm1.cnf",
+  "sha256": "b33c4cef8355455f5712c78e4aa2c20f90f9c61ce88c07f9d2373a31b8cd6905",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e318e2ac78b473091c3c2197afd7fc98": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e318e2ac78b473091c3c2197afd7fc98.perm1.cnf",
+  "sha256": "fcc539c12139b5d4cbe9ee8bba6f6684dab3a935dc775f872fa32a2361fad9eb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "e4ac15cf2373fe0a3601065225178916": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/e4ac15cf2373fe0a3601065225178916.perm1.cnf",
+  "sha256": "9a42c2986df6a6fa4fc50134185eba613d299006d0a6c50bcf868cf6fdcba766",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ea495d82a8bbe73de090922eabff72d1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ea495d82a8bbe73de090922eabff72d1.perm1.cnf",
+  "sha256": "f0383bbf7d3a491a2389169d7470fa28465f3ea0394474efe973c8c007067423",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ead9f0f95528875bbdbe323625cdf8b9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ead9f0f95528875bbdbe323625cdf8b9.perm1.cnf",
+  "sha256": "6f837bf54526ca0e961634f082aa03a2d7b7d9efbe8bbe6908681b2db22f8ff1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f19d3fa8a8dce0813be18f3d5fddccb3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f19d3fa8a8dce0813be18f3d5fddccb3.perm1.cnf",
+  "sha256": "a724ab94a160a34fdbbfdd0cd4e7d1b23b03a9427bfdbffc7fb585e6bf60c398",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f3f0e4bf0cc83188b2cb3ab08d797ec8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f3f0e4bf0cc83188b2cb3ab08d797ec8.perm1.cnf",
+  "sha256": "a2616e8469c4bec12d50198cea4a424e066ff1bf9f0aedd67f064b52576e1fd4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "fb6fba447186d72d6206cbeaddf04809": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/fb6fba447186d72d6206cbeaddf04809.perm1.cnf",
+  "sha256": "7681334271df1707c08c2f7ca0f07f5dafc6ac03e092b80b41e36cb07ced9a8e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "fc453c55996cbb8cab984f137fcee0e5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/fc453c55996cbb8cab984f137fcee0e5.perm1.cnf",
+  "sha256": "2fcd45e993fe438db872cb1421ae06a71579c5dca98a4d399b75e9d632d285f1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "fee70cede2b5b55bfbdb6e48fbe7ce4f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/fee70cede2b5b55bfbdb6e48fbe7ce4f.perm1.cnf",
+  "sha256": "ceb8a3d57c4243087c71a63160d2994d6b100d60cfda09c2830273974990b08b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ffdeeea964ae356a1c661cedcbb69af2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ffdeeea964ae356a1c661cedcbb69af2.perm1.cnf",
+  "sha256": "7c7bbfc8a95d1a62893e99131ff2a77b852148953df7ee7af6faeb4b3a06083d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "017bba0f995e6d9921253e5a59521435": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/017bba0f995e6d9921253e5a59521435.perm1.cnf",
+  "sha256": "9bb6efdd6c326977310a542efd461b3a6281b6eca5b965cee1216181f2f2db7f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "02c3f1d24074cba45a64d0b4b5aa0238": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/02c3f1d24074cba45a64d0b4b5aa0238.perm1.cnf",
+  "sha256": "4aa4264ff9493c9c17cc88a55a53472916a0caa72e38a1b4255f1220ddcc389e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "02f2343e32f9070f149708d77556b4aa": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/02f2343e32f9070f149708d77556b4aa.perm1.cnf",
+  "sha256": "c2014e3d37c180982294fd3bbc61a34cf9836b5dc637d5a17a61de7713950475",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0379936c75c225f1a9a113762b019da6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0379936c75c225f1a9a113762b019da6.perm1.cnf",
+  "sha256": "661e48754f5b5fc5895f7dc5b2fef5bf79d514cfe814a9abcc8d304752f77cc8",
+  "mode": "perm",
+  "seed": 1
+ },
+ "08300e286c3380f7e7291ca6a534c97b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/08300e286c3380f7e7291ca6a534c97b.perm1.cnf",
+  "sha256": "471a955d1eec8f248c6c3ed96f3677dbbd5a3383beb422bcfd31778540f45df6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "088ffd086f2d5e55553d5e79aa30aaf5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/088ffd086f2d5e55553d5e79aa30aaf5.perm1.cnf",
+  "sha256": "6d403ae557a9acb4a60f2b17f9ff18298fa9464e06decf558e34235ca44e5347",
+  "mode": "perm",
+  "seed": 1
+ },
+ "09991a55c8e3c8ec7966a0105a76d6e1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/09991a55c8e3c8ec7966a0105a76d6e1.perm1.cnf",
+  "sha256": "db539514fa2cf36ec4a6c1b75dc41f900acb18551ff65c95a7799e44a8cd4a97",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0a7555a2a68abdd45b80a8db1a919a6a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0a7555a2a68abdd45b80a8db1a919a6a.perm1.cnf",
+  "sha256": "52ae07332e411f8030c41a1777aaa58af7f8eab53d5670882c82d61e658d7f49",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0b4a57d8dab789e2476be5b1ac680eeb": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0b4a57d8dab789e2476be5b1ac680eeb.perm1.cnf",
+  "sha256": "072d8395c997fcd43408897be1c585dddfcecd06aff337510f93437a289cb348",
+  "mode": "perm",
+  "seed": 1
+ },
+ "0b9f8c85eaff9eed98a0c5cd3189afb7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/0b9f8c85eaff9eed98a0c5cd3189afb7.perm1.cnf",
+  "sha256": "61f8768c4dd5c750fa23f66569c6a9309e66365031e008a8b3690defc3c0f411",
+  "mode": "perm",
+  "seed": 1
+ },
+ "118415e2696075a8a1c5720c1838f1a7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/118415e2696075a8a1c5720c1838f1a7.perm1.cnf",
+  "sha256": "5b650ab35d21bae661a03b382456b679465d8b2d80afc0b33754caae47fd6eed",
+  "mode": "perm",
+  "seed": 1
+ },
+ "11ba9953b9ae8475f05de36bfd6ec21f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/11ba9953b9ae8475f05de36bfd6ec21f.perm1.cnf",
+  "sha256": "0921bd1fdd874667d2a4f2f5e11cc94c66d86ffbe8978bb59170cda1e75760f8",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1226ff1c8dc34360b183aa2fe75b0ef7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1226ff1c8dc34360b183aa2fe75b0ef7.perm1.cnf",
+  "sha256": "cd8f0838a15bd678a83ee6a62a7b16d7e262e0bb1a96b84897304568ef028fab",
+  "mode": "perm",
+  "seed": 1
+ },
+ "132c5c5610be000f972bd4d56fd5b812": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/132c5c5610be000f972bd4d56fd5b812.perm1.cnf",
+  "sha256": "a291cedca5a0c98aa5af5c021222aa7dc3cd3566cf95c0f0334945d1de90dc4f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1335cf5a529c51c86733b20450a41ac1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1335cf5a529c51c86733b20450a41ac1.perm1.cnf",
+  "sha256": "ebe6c28c17c45611a7e63de676cbb787aa5f6bb19893a0918bc19485b49b51f4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "144ff2831056bafda1124d98fceec5c7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/144ff2831056bafda1124d98fceec5c7.perm1.cnf",
+  "sha256": "0c8172d727b38c933491b8536922ab50c36bec64e2d8c87d53e75cbff28c5dc4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "14c33d4be35ed33f2c67498f8334993f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/14c33d4be35ed33f2c67498f8334993f.perm1.cnf",
+  "sha256": "3e04e1f864bbbb9b9a0f519d1e9b6f2fbff83d6da76c2a308831248c217c799d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "166a6b3d34c99e539a4f1e431d2181eb": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/166a6b3d34c99e539a4f1e431d2181eb.perm1.cnf",
+  "sha256": "c6c60dfba684f90b55b77bf2b4cb8110dffd4fb7be6fb88f238438617962e70c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1f693da03f63d7fe318e511fe32fd09d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1f693da03f63d7fe318e511fe32fd09d.perm1.cnf",
+  "sha256": "9a9850b9cb3e90e6f094d679a337f10277c053e1b485e5127c46a51e07947032",
+  "mode": "perm",
+  "seed": 1
+ },
+ "1f81f7e009f501014cb23a8c2d41836f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/1f81f7e009f501014cb23a8c2d41836f.perm1.cnf",
+  "sha256": "4b6dcd1332651087c2d40a1225750d9535dc0eaaa7eea7d01177865e17d8fcd7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "208ce3add563b1e398668ec07a73950d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/208ce3add563b1e398668ec07a73950d.perm1.cnf",
+  "sha256": "279d5dfb1f715d2edb41beed75b65b0a81acc0ddfc85c98c14fb73a9a726977d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "20d8c1d58d1043a6737db9457666a0fc": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/20d8c1d58d1043a6737db9457666a0fc.perm1.cnf",
+  "sha256": "df26b6b14c2acba81cf5e89886acc6a2776c3bf14da1508aa5df6b18f1a01499",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2322f9b6d3bbe605ef2afbe0536b9307": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2322f9b6d3bbe605ef2afbe0536b9307.perm1.cnf",
+  "sha256": "3b0e20bd7fcd5f2d9b9b2ebed6e48259c0ab4e50bacadf88a61d7cd0d25d61c2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "24b93d0bf941e4b050c9109e4cb7faf4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/24b93d0bf941e4b050c9109e4cb7faf4.perm1.cnf",
+  "sha256": "e99d24c9be622c7f20c1790db7d7d522bbbdd3c4a13c0e0e8accf57a65b06d66",
+  "mode": "perm",
+  "seed": 1
+ },
+ "28c6dfee40643e055ca2a3db6ddcea68": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/28c6dfee40643e055ca2a3db6ddcea68.perm1.cnf",
+  "sha256": "1d4866ceca4235f464a34df011fc40af494154873d80c4d886a1257d1d0fe2c1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "29a09ec3c23fdb89ec56032d329e3606": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/29a09ec3c23fdb89ec56032d329e3606.perm1.cnf",
+  "sha256": "8c4be2de7835e342e0da87571b692b02a723ccb499982e127b25c3bd19567fc0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2a49abea0cff4d213d1ef89466189207": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2a49abea0cff4d213d1ef89466189207.perm1.cnf",
+  "sha256": "21b288576c697012834dda1665bb08502abf09d1db77170e2fc9d1b763bb1aec",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2a9ca86ac3ac3b4e25901be45d04676b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2a9ca86ac3ac3b4e25901be45d04676b.perm1.cnf",
+  "sha256": "064d19c89077d12e408ed804e1dc0605a7290fdf0ad73e9f0c182a67409917d8",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2c216cf84cc3a61aaa6d7e6afaeaf5af": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2c216cf84cc3a61aaa6d7e6afaeaf5af.perm1.cnf",
+  "sha256": "b5b0c357ff92ef285d33b42bd6032bd08c7bc951b042147c5556a1f5c7a408cb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "2e6665e09a074c42b68cb142a635344d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/2e6665e09a074c42b68cb142a635344d.perm1.cnf",
+  "sha256": "f9e96d293abc5d5104e4324892550e66284d18dc283a8ce10939370700fa92b4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "312f3a5066497d26a734834aa1c8c4eb": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/312f3a5066497d26a734834aa1c8c4eb.perm1.cnf",
+  "sha256": "1e8849db9af6c84e8853b28b53bda7575c7dccebf96b73ea79c0620e99f6becc",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3162e4e702f5d98d046005cb87afdbfc": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3162e4e702f5d98d046005cb87afdbfc.perm1.cnf",
+  "sha256": "b77dfc771964541cb73778475b94dc50c0829ae82b2b9fa14f7104ea7fddc37f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "31e2730529841cc122e113b9555c9425": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/31e2730529841cc122e113b9555c9425.perm1.cnf",
+  "sha256": "e6249dbacdc41f130ea28b7fae92ed2c9885b85845e71681db6d8cb52fb41189",
+  "mode": "perm",
+  "seed": 1
+ },
+ "31edaafd9d145d9346d2bddf8fcb8832": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/31edaafd9d145d9346d2bddf8fcb8832.perm1.cnf",
+  "sha256": "731dd2962c675745470018efab0e4574bfeb937452d1f72dc313fb9701c70132",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3a33c33b7a7fc942d36d3ebf4de61162": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3a33c33b7a7fc942d36d3ebf4de61162.perm1.cnf",
+  "sha256": "ab9cecde0ff994f289aef1c3319a925515694b54764eeacf48dd9a498e7008ad",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3a81b9d45f7bdbe5fec702d1f1aa5c12": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3a81b9d45f7bdbe5fec702d1f1aa5c12.perm1.cnf",
+  "sha256": "0ee42190538a52f4eb703527edfa66870be706a1ae11ba657010f7d67df5eabe",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3aef3d8d02941ba7ddb18adc128259ae": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3aef3d8d02941ba7ddb18adc128259ae.perm1.cnf",
+  "sha256": "06824b35f5f0c45f037c871eb4f8e8a7c77b5d949879d20d8c1c5de909f3b6d9",
+  "mode": "perm",
+  "seed": 1
+ },
+ "3bc46f604aee131a858e6518bac5ae9d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/3bc46f604aee131a858e6518bac5ae9d.perm1.cnf",
+  "sha256": "f71b49cd5ad2707965e4db11bac52415768d38abe47a6b1c810a207b602c47d0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "412da6378d3c3d4bbeb24f05fcd56aca": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/412da6378d3c3d4bbeb24f05fcd56aca.perm1.cnf",
+  "sha256": "66ae6600a1fcc3fd33f51a3e36c369abee8e73ca41ef7dcb889d3f323437b483",
+  "mode": "perm",
+  "seed": 1
+ },
+ "42a8e6f6bd74402cc376ae6ac2a31ff4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/42a8e6f6bd74402cc376ae6ac2a31ff4.perm1.cnf",
+  "sha256": "c9241c7263de5e31444d83a89b9077416dacfd83e117e9761ece5d274c7f5981",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4483f9654fdf809f93ded32e47cea3d3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4483f9654fdf809f93ded32e47cea3d3.perm1.cnf",
+  "sha256": "acc9086c00bb5b831f0466e7e123870c0f80bcf4e75f9d4f19947679afa7a0cd",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4801c06fbc3a4d6fbaf347b80b3b961a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4801c06fbc3a4d6fbaf347b80b3b961a.perm1.cnf",
+  "sha256": "6082aac0246cdbe62655ab04fc06320d55f50b6645ed81d5cc38b6c4678fac43",
+  "mode": "perm",
+  "seed": 1
+ },
+ "481f4db8cc0d7912edf6fa545046068b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/481f4db8cc0d7912edf6fa545046068b.perm1.cnf",
+  "sha256": "456b12293d7b6331a178dbe2222fee8718bc1907bca7100915a6a8443199d72d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4928fcd2037af940ef3bbeb9fad2754d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4928fcd2037af940ef3bbeb9fad2754d.perm1.cnf",
+  "sha256": "ebe2e8b15484796935d201c0dd07085031b929f7d5e9da93a557dae9bdf5382d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4b65652b89a4cf69d9aaeba0aff08ffe": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4b65652b89a4cf69d9aaeba0aff08ffe.perm1.cnf",
+  "sha256": "29c25609342ea1b8386cd82b1d040b75a6178c151193423e9eef56a1fc4e2f09",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4d4754ccdbffff8d31d262d12927e522": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4d4754ccdbffff8d31d262d12927e522.perm1.cnf",
+  "sha256": "2ad6955e5202bccbeb0cba5732a5c432ed8bd89e2ab4991216c80467c70f159f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "4e259da0d4963296b68e170bbbad025f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/4e259da0d4963296b68e170bbbad025f.perm1.cnf",
+  "sha256": "58bb5cade99e7e3f7c7da108be68c98081596ade6771a751ae260fd4f8e66bc2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "543e67dd5abc272c37775b1b742a1d9a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/543e67dd5abc272c37775b1b742a1d9a.perm1.cnf",
+  "sha256": "bbc14fc412eac70931667f3e776a2c8f659973695104e439ae283a94917193a5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "54ff7ae09469921a47c6971a12e5b805": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/54ff7ae09469921a47c6971a12e5b805.perm1.cnf",
+  "sha256": "8027e5e0ca40f7f593608aca1ab8621a1f7a3906d9768e024fde53800798716d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "55d346b6ebbb04f8ab99bbb3727b682e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/55d346b6ebbb04f8ab99bbb3727b682e.perm1.cnf",
+  "sha256": "049e0ce8e921087556076f4501f452ea85e656a73e88ff8bc83fabfd651bd309",
+  "mode": "perm",
+  "seed": 1
+ },
+ "56be52d2a0580e3fb53f19429228e035": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/56be52d2a0580e3fb53f19429228e035.perm1.cnf",
+  "sha256": "f0a11b3350005230a053774ed67921dbe72f164b0fea38d01adf1c3ed9dbfe29",
+  "mode": "perm",
+  "seed": 1
+ },
+ "581e33d814abfe5f7f14200190a07225": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/581e33d814abfe5f7f14200190a07225.perm1.cnf",
+  "sha256": "f9894f2a827c33c24f36ad7a6c9b31048c7801e6814b5aadc641867a4ba746bb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5ba04fc4110839423710b280f7d8096c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5ba04fc4110839423710b280f7d8096c.perm1.cnf",
+  "sha256": "52345f51c835e27bd67c2f76c6b021411654b4f09e443c2011fabe10600d4654",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5c06d8549811167b025b9e47d905e8f9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5c06d8549811167b025b9e47d905e8f9.perm1.cnf",
+  "sha256": "009d905eb6649b8f85d602509747429824fb74b27cacfc8bfba27dd4475b7e48",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5cd4201889cc2a8764ee86def29d8ffa": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5cd4201889cc2a8764ee86def29d8ffa.perm1.cnf",
+  "sha256": "a9a2bb831c657b661a1e300b384d9db84428bde1949287d04543d9f4c15b026d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5ea0f107a1905a8e0446af0c92d6a160": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5ea0f107a1905a8e0446af0c92d6a160.perm1.cnf",
+  "sha256": "59ac0f6e59d9704c1a3e4d7aeb22ae7edb4865ce2842510e15cb1e1f7188a75a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "5f7a2d97e713941c8f62b2e8d5ff5f0c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/5f7a2d97e713941c8f62b2e8d5ff5f0c.perm1.cnf",
+  "sha256": "05d1d6ad257918f26999596a9c9a8403fc0efe3a90d8aa8e834466615e594824",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6056d23661518b3a7519de585f9b6da1": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6056d23661518b3a7519de585f9b6da1.perm1.cnf",
+  "sha256": "d4dbc4d874766435b78803ab421f151482b2e751b580fc01953808b709223cdd",
+  "mode": "perm",
+  "seed": 1
+ },
+ "66ab346df72c5effa292342037bc3909": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/66ab346df72c5effa292342037bc3909.perm1.cnf",
+  "sha256": "72360eea5ae5e11e71eba811db99793ac4fcce0553186a242387d99b55a79ad5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "67e67c9e3d2ea24706790cd4be889aa8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/67e67c9e3d2ea24706790cd4be889aa8.perm1.cnf",
+  "sha256": "3ed1e8fd5dba835eb17ea431e42451b1a16118e974f86ff4db90c63c0cd677c5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "68a85c900f8a97472d8ba196a380cc5b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/68a85c900f8a97472d8ba196a380cc5b.perm1.cnf",
+  "sha256": "c06ed19fbdfe399c3b32683ab180b6568c1a9a966ad187abe0e22d90fab98f93",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6cf8b432f3cb27c30815f4a562986085": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6cf8b432f3cb27c30815f4a562986085.perm1.cnf",
+  "sha256": "94c0fc9ed75bcf13e2576c56c7deb0e46edc9b48091069f471a63058a283c082",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6db155290e3a34927bf7e9615c8387b2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6db155290e3a34927bf7e9615c8387b2.perm1.cnf",
+  "sha256": "49de4b0561b998821e2333070e9d8da7437631aa10452dcf016aa69b45e35059",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6e1b970d637fca70d08b251766edade3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6e1b970d637fca70d08b251766edade3.perm1.cnf",
+  "sha256": "4b16a4d28788a54a3555dd78f858960df9a2a51e6c2551216dc028deec13d5f4",
+  "mode": "perm",
+  "seed": 1
+ },
+ "6ff98b815c0ff57d92086702e7dd2829": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/6ff98b815c0ff57d92086702e7dd2829.perm1.cnf",
+  "sha256": "586ad4d7c2972128b4727b086d538fabd7a83f8a22755034bc802699eba2c7d2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "707f23c84c45b87e05296869034e6dfd": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/707f23c84c45b87e05296869034e6dfd.perm1.cnf",
+  "sha256": "87bea296daee735ee60f0c8f6c25e6929dec4e773d039c2d09f00fcccf8206c7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7157b954177f0acb22dc454c5f6e7f54": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7157b954177f0acb22dc454c5f6e7f54.perm1.cnf",
+  "sha256": "ffffbf7348aea2e8d272a4fed651d270f608b63341ec6ae359ac3704399fbd3f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "71d83c2dbc7e4939889b57121e401210": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/71d83c2dbc7e4939889b57121e401210.perm1.cnf",
+  "sha256": "08b4b59ffeb15508f9e19c4a923fedd5c96a3ff37772cca6ec6f2ee683699b5b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7217bd62528cf71d639224eecca2da86": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7217bd62528cf71d639224eecca2da86.perm1.cnf",
+  "sha256": "119aaa8bd8818540027614d8c54728f1873bdb9f6d596cf284dfdc9db8ce8d77",
+  "mode": "perm",
+  "seed": 1
+ },
+ "728a7865fadb047278e71f96c403a0cf": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/728a7865fadb047278e71f96c403a0cf.perm1.cnf",
+  "sha256": "d94a32ec241f0c46c128677ead5c47ee4a6c9364e527e36b9e8b369b1169870a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "736af224b548adce3bcb424c612f2423": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/736af224b548adce3bcb424c612f2423.perm1.cnf",
+  "sha256": "1f62161180e254ace04eb52efac6ccda0fcabb7bcf79b916cdc4a1736c1d8b69",
+  "mode": "perm",
+  "seed": 1
+ },
+ "737b724b2ad8eb756ab626d391f196a4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/737b724b2ad8eb756ab626d391f196a4.perm1.cnf",
+  "sha256": "27a89b12f34f20d239b21dc385ad36296d4c805663562ef7bf717d6df00a9ebc",
+  "mode": "perm",
+  "seed": 1
+ },
+ "76951f9f14004331d8c6f80e1c56bfd9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/76951f9f14004331d8c6f80e1c56bfd9.perm1.cnf",
+  "sha256": "3c8e3f4e91316d57f01368a3d2cf002de1bc271c5297af412d5bc384d40d7caa",
+  "mode": "perm",
+  "seed": 1
+ },
+ "77d8d18a001b2f7ae4208299ddcf1422": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/77d8d18a001b2f7ae4208299ddcf1422.perm1.cnf",
+  "sha256": "9d68bf5a5f5c320509ff2bfe6d9fc20e0248d1ff8b2864139574f114fcc88a20",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7816bac482d94316c17bacc4299ebfcc": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7816bac482d94316c17bacc4299ebfcc.perm1.cnf",
+  "sha256": "2b16f3847114b71a5004e2a3ccd41df7f7222dccbdf77d2499d619e0ac23f453",
+  "mode": "perm",
+  "seed": 1
+ },
+ "78c0f04b60deeeac80f9d4a3b73d84b0": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/78c0f04b60deeeac80f9d4a3b73d84b0.perm1.cnf",
+  "sha256": "7ae86a8b0585927348a75a47f787e8c750f8d97c5cdfaabbf4decf764ac0c3ae",
+  "mode": "perm",
+  "seed": 1
+ },
+ "791415d8a85d0bfc67dd2d3d4edcac7c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/791415d8a85d0bfc67dd2d3d4edcac7c.perm1.cnf",
+  "sha256": "f3790168d22ac8b0e175436e76e715def7db88d402888b05ba5a181950b1eb3c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7a1d8648ad96bdd3384548f707889567": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7a1d8648ad96bdd3384548f707889567.perm1.cnf",
+  "sha256": "ff8a5d2b707f50bb62f9a4b5651a76d6fa23abb156ea7e32a3c2f5c0d6a82751",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7b5895f110a6aa5a5ac5d5a6eb3fd322": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7b5895f110a6aa5a5ac5d5a6eb3fd322.perm1.cnf",
+  "sha256": "e97c6c11830862ee998991ff3180c71e4320fd4e59f530e1bfdad315ecb0213b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7d2463381d7384215f0a5b30ef199c37": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7d2463381d7384215f0a5b30ef199c37.perm1.cnf",
+  "sha256": "6c228429c4420900cea2265bb3b1f7d159b52b9c2a497ed72c38c24175c99c4f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7da4538367b281aa55b64b5361d91c1a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7da4538367b281aa55b64b5361d91c1a.perm1.cnf",
+  "sha256": "649d60ba2267a3447d7e6c587e5aa333b633b8e20a45f5d119da000d88c1cc11",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7dc41deafbd45bdc8e4c054e9e609d8a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7dc41deafbd45bdc8e4c054e9e609d8a.perm1.cnf",
+  "sha256": "39d375c286df02585a7ddc55459894fa36f0ad1c86c1dd40c41868b04a6052dc",
+  "mode": "perm",
+  "seed": 1
+ },
+ "7f3b49026cf0ec9d2d76b0d9b2c61f8e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/7f3b49026cf0ec9d2d76b0d9b2c61f8e.perm1.cnf",
+  "sha256": "375f1aa01a0a80da17cc1b88a60d5bf9c0ef6c58d51e55c72918cc885bd3d81d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8090db94bbed462700cc12ad7254eabc": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8090db94bbed462700cc12ad7254eabc.perm1.cnf",
+  "sha256": "0567def2c941c47c48445b6e0e85c81d23febfb7e2f76628362946ae9fd55cac",
+  "mode": "perm",
+  "seed": 1
+ },
+ "830129ccece6a0981e8a8783368ccbc2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/830129ccece6a0981e8a8783368ccbc2.perm1.cnf",
+  "sha256": "9f57cf03e0beea25fc16ccff576248d1fac3d3419d0ee562f5b40f1c778882b1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "83e46af71fc28dd5eb40651630c2a6b5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/83e46af71fc28dd5eb40651630c2a6b5.perm1.cnf",
+  "sha256": "fd319f27959c973698803d7909349fbb133269bd4486d300b99beb24819089c9",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8665394d0c9d190007f0b61af3efdd70": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8665394d0c9d190007f0b61af3efdd70.perm1.cnf",
+  "sha256": "8e479232c6e9590c2d460d984e804dd7b2a3254b3d847281e972e0d7a2be1b63",
+  "mode": "perm",
+  "seed": 1
+ },
+ "89fee6024fc817baf4016ff66f382a92": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/89fee6024fc817baf4016ff66f382a92.perm1.cnf",
+  "sha256": "74fa2fc31e979503c12137c8068dcd03cd89f9fcdc09d02fd05e44ca78377bca",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8ae40807797b2b547a8fca9fc789273c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8ae40807797b2b547a8fca9fc789273c.perm1.cnf",
+  "sha256": "4b3af80853e3765869d607d1cf6a8e62bad1dd23e2f0b4460999927ac7fcab1e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8c0304bf2f5cc0dc26837627dcdf50ca": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8c0304bf2f5cc0dc26837627dcdf50ca.perm1.cnf",
+  "sha256": "2b181c3a9b5edfcbf609e233e46a39f3fa4828b93d2f64735f7e3920560853e0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "8ef915fff70e4a4bbc9e4b2f75ff0ad9": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/8ef915fff70e4a4bbc9e4b2f75ff0ad9.perm1.cnf",
+  "sha256": "32d2561bc61c96ffe915a80fd752f6c4335b751b56faadb33803e03e312c6a58",
+  "mode": "perm",
+  "seed": 1
+ },
+ "914dcb27e7302ebf75429f0519117ac8": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/914dcb27e7302ebf75429f0519117ac8.perm1.cnf",
+  "sha256": "c1fcf4d36ed005eae1a2ce6a142b3cb3114fb8c62dfded3d1cc63a083bc0e907",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9203e3759c90c9e9f9410a0ed17f030c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9203e3759c90c9e9f9410a0ed17f030c.perm1.cnf",
+  "sha256": "b3ce48807013b7eba138387f7c646476c9dc74c6042cd999a8d71cb0ecb75b18",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9259dd7212c77534851e7bdde2e17e88": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9259dd7212c77534851e7bdde2e17e88.perm1.cnf",
+  "sha256": "2e234739636c7930718a57657a2a1b36193dec98b5c6eb1ecf761e200c58da83",
+  "mode": "perm",
+  "seed": 1
+ },
+ "95d25f28300e1cf7de7261cc46117e42": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/95d25f28300e1cf7de7261cc46117e42.perm1.cnf",
+  "sha256": "6b8ab08b78e422032f6281bbafbef58a934f36ae9f20f8885b9d15a90460708e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "96581fdd5f4b9d781f15c66cfb0d1c9f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/96581fdd5f4b9d781f15c66cfb0d1c9f.perm1.cnf",
+  "sha256": "e0b85e278bf671c9f32ce3e14211f649c7a3d2ae5d92a675d6cf8b132d1e01fe",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9934cfcba792b2967401a5edfc555ae7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9934cfcba792b2967401a5edfc555ae7.perm1.cnf",
+  "sha256": "59d91207df468686ab7f8cbffb8c3a2d836d3bbfaf6ee2d16d2332296b0718e3",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9979fa03c0b34069ace43042431306a0": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9979fa03c0b34069ace43042431306a0.perm1.cnf",
+  "sha256": "683fb86053eed90cd71ba2cecfc207fbcca02a84edee123dd3b2b302ad523cc2",
+  "mode": "perm",
+  "seed": 1
+ },
+ "99c81a6610dc0eea885621da1f8d5b29": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/99c81a6610dc0eea885621da1f8d5b29.perm1.cnf",
+  "sha256": "2c8f8b53287e8ddf6a49bd219e6b3e3815939c4822b527ba2c8169e97f948908",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9a9827b82f6ff4fd887f0ada83dd2eab": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9a9827b82f6ff4fd887f0ada83dd2eab.perm1.cnf",
+  "sha256": "07dfedf3fe26114b856768dd55ad445681d2c11153dad2b025c4fe11c9d63cff",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9d1dcde4b42f234483eaea05985cbf57": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9d1dcde4b42f234483eaea05985cbf57.perm1.cnf",
+  "sha256": "8cce1ebe6b397e8bedc0e2c5442e4123a0f9f93fc18a2e9a46a69cada8fea8e1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9d58803352a8d9d7e9400412e0c6b8d3": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9d58803352a8d9d7e9400412e0c6b8d3.perm1.cnf",
+  "sha256": "4cdc2735beed19c1edbde82de52d84b65c4ce2f8a23e55a6f1b7af3667e47ed0",
+  "mode": "perm",
+  "seed": 1
+ },
+ "9ebe1a6a61c4d28544d7ccd45953610b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/9ebe1a6a61c4d28544d7ccd45953610b.perm1.cnf",
+  "sha256": "563de96eba140c37c86f3f5a9a144f29840ff60e2b9449d4866c4889e3f3c4a1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "a20513522dc3ed9620fdadbf8cbc491c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/a20513522dc3ed9620fdadbf8cbc491c.perm1.cnf",
+  "sha256": "454fc2de4d80c22c6ddfb350d142c47658b575a55d28551164aa22147f99242f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "aa296db0e5a58249734a370ef5eee0cd": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/aa296db0e5a58249734a370ef5eee0cd.perm1.cnf",
+  "sha256": "44c7e07f93fb7dcf242d7f35e6b784fb2831bd247f69a535759d74fb5f252ff7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "aadbcf6e3d4a9e26b57151d6f9f9aad4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/aadbcf6e3d4a9e26b57151d6f9f9aad4.perm1.cnf",
+  "sha256": "e43b11609fdeb81f2b01f926d2afd9079fb597325dbeb14b0b9cb86684935894",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ab3376e4d0c150343f0d696fa00c46e7": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ab3376e4d0c150343f0d696fa00c46e7.perm1.cnf",
+  "sha256": "eead5dcdf6fa2323c824868953b472ba2fd47359e37ad06c805dafd6c822e286",
+  "mode": "perm",
+  "seed": 1
+ },
+ "abc2d706e3cb72aa9f0edc8b67cd11f6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/abc2d706e3cb72aa9f0edc8b67cd11f6.perm1.cnf",
+  "sha256": "367d1f370ab3d02a6b8264917199500d5c4984b4e764b74898d0d36c8a44a299",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b1770a04ee8e33b42f589e31da819ad5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b1770a04ee8e33b42f589e31da819ad5.perm1.cnf",
+  "sha256": "ecfbfda4d19e5e4d142016cd6b72f9966a3cb7db4e92a4d6f82a5235b4d2dafb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b1afc91964282fabcd9829102d9eb3c2": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b1afc91964282fabcd9829102d9eb3c2.perm1.cnf",
+  "sha256": "37d5d38781de1336c3827adf58e87a8c5483fb109841a675de11274a9af2148b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b2a3d5cef8030d90cfe77271eaf77a11": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b2a3d5cef8030d90cfe77271eaf77a11.perm1.cnf",
+  "sha256": "3004548aed11ab4d3673835fe33fa951f0329a4cb4638cdb2cc6c0134517380b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "b488a726f41c3263fe70633de1c7d12e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/b488a726f41c3263fe70633de1c7d12e.perm1.cnf",
+  "sha256": "f33a76f96b6af73970de71b17245a73eccc5f5cc016c56301c72d8f66f3ab25d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bc6247d3bbeda28c1c71568297c6ea6a": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bc6247d3bbeda28c1c71568297c6ea6a.perm1.cnf",
+  "sha256": "5031cfeee3c01681e2138b204d424bb7c57ea800e170a23f5de4e697b3e469b5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "bd4d39eb6cabefc607dffddc10e0def4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/bd4d39eb6cabefc607dffddc10e0def4.perm1.cnf",
+  "sha256": "98c2ebf699690d83c68301748e3b35fb81cc6d29d75902d61052edcf90709fd8",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c11048ce0934980ee0ee8a3584010b96": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c11048ce0934980ee0ee8a3584010b96.perm1.cnf",
+  "sha256": "5584b06214d255e00d238afa255236cfcff6648a8d13b98626bb1ba87574ef0a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c6b68cef6a06f0931380e3b812108f84": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c6b68cef6a06f0931380e3b812108f84.perm1.cnf",
+  "sha256": "da2a191583e2a0c949b8091e02b8dc8f775fd195cab11fa679bd6dfd74eb1fc6",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c7bdc373559430372ddd5155267e3cdb": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c7bdc373559430372ddd5155267e3cdb.perm1.cnf",
+  "sha256": "46bfa7cb549a697b2b809c692346372cbe7f31951591ee6d2603a652040c365e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "c8ec0b61cadcb715e0cd54e1412d3f08": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/c8ec0b61cadcb715e0cd54e1412d3f08.perm1.cnf",
+  "sha256": "4f6a4720f658db8cbf8f7a84f204413a1b00c2a958c013055c621e1afd31faf8",
+  "mode": "perm",
+  "seed": 1
+ },
+ "cb521a59d61fa5e4e821f393282a1b79": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/cb521a59d61fa5e4e821f393282a1b79.perm1.cnf",
+  "sha256": "bb4265723ae7ba849e06aab6463dea560ac03405073fa12f96fd65d5726c1626",
+  "mode": "perm",
+  "seed": 1
+ },
+ "cd361d33986dccd7f2d86016d6c35241": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/cd361d33986dccd7f2d86016d6c35241.perm1.cnf",
+  "sha256": "b4b667c52add52e5ca2f1412861345bef798466223a08e170ced749d436b154a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ce331cf3c5f764ff9eeb2454a7cc1a78": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ce331cf3c5f764ff9eeb2454a7cc1a78.perm1.cnf",
+  "sha256": "5498a9c406a78f07c024c809811dafda7f764a8f7984a5da588da0518d5d8a77",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ce49f590c98885f7ac95567f2b1e7dd5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ce49f590c98885f7ac95567f2b1e7dd5.perm1.cnf",
+  "sha256": "73f10bde649681e54d8ba6930e8eec76038eb965dace7fad08c66b889614ed0e",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d02fae1e84cfbe799c792ba237f08f66": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d02fae1e84cfbe799c792ba237f08f66.perm1.cnf",
+  "sha256": "bc34225b39da6a2f4d6bc7739aea533c4f224751a63ec5881aa6ea949c3d0861",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d515fc7cfddd658a0fd3416d811b49f5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d515fc7cfddd658a0fd3416d811b49f5.perm1.cnf",
+  "sha256": "9189b37f1c4ea34e27c15a144bb3df4da5b310ef9a78fdfd97e9bded665853da",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d72b0684dd662ca6475f6caee6a1b450": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d72b0684dd662ca6475f6caee6a1b450.perm1.cnf",
+  "sha256": "46a269fbe4b91c94e16b6ab1a59c9368da030e560222b21b9dbaf9c76e1f2d86",
+  "mode": "perm",
+  "seed": 1
+ },
+ "d95c2aa334c098b0a41e0f96ab15cd1d": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/d95c2aa334c098b0a41e0f96ab15cd1d.perm1.cnf",
+  "sha256": "33a2e744e06902c51725a172881b611f4efe5424419e9bd9d387b14029d42f1c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "da1c4b80744ff527a61cafd64d069897": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/da1c4b80744ff527a61cafd64d069897.perm1.cnf",
+  "sha256": "2456ead70e4e19b81a26c8db510328f1686534edd8b7707c5efa50276dd79242",
+  "mode": "perm",
+  "seed": 1
+ },
+ "da9299d4b3facbfb1925a1d686c7c925": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/da9299d4b3facbfb1925a1d686c7c925.perm1.cnf",
+  "sha256": "a45138d31db3982ec4726abfa16d6e7ae05932a2fb00891f9157177e4c1c07f1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "dac5fa253faa91036ce8758ab9c051c5": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/dac5fa253faa91036ce8758ab9c051c5.perm1.cnf",
+  "sha256": "a7d6aa37070ee9e02b32e5558639b20735e2d81f0e1b264822596dbc5f8baf3a",
+  "mode": "perm",
+  "seed": 1
+ },
+ "dc81cd1ae0f4e8ad19469f6f264a3807": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/dc81cd1ae0f4e8ad19469f6f264a3807.perm1.cnf",
+  "sha256": "ed7d4a1b9fc39a41cda5d05578c7c162f9e1d48878955ef9a3c44ca9b28abddb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "dd926bb427ade42f65444c65bc7e80dc": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/dd926bb427ade42f65444c65bc7e80dc.perm1.cnf",
+  "sha256": "28b857d5f3acd3bafbfcac1686821a9e2cba80b52d72995e8056ca105ddcb61b",
+  "mode": "perm",
+  "seed": 1
+ },
+ "eb6409226241256e20ff2f7655f93825": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/eb6409226241256e20ff2f7655f93825.perm1.cnf",
+  "sha256": "0a2b1697fc2b7022115af2b25de7ea55b0d1e4b170f208234e7d737a8d78260d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ee79c76b65e89e7e02367d1c3df2cb43": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ee79c76b65e89e7e02367d1c3df2cb43.perm1.cnf",
+  "sha256": "ae01ec9ab91bb22a133f705b8bf38a17c1bfbb03c852d8e3e14b40e6081048aa",
+  "mode": "perm",
+  "seed": 1
+ },
+ "eebdda8f75d54e914a17570802df71d6": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/eebdda8f75d54e914a17570802df71d6.perm1.cnf",
+  "sha256": "4998ddc5404d4fd1bbea09174bf9ca2c46622b817ff8e5b011b640bce2f6e99f",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ef4a50f8f7286c6fdc3d21ead50e4235": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ef4a50f8f7286c6fdc3d21ead50e4235.perm1.cnf",
+  "sha256": "63a975be07a6cbedcccd857e2cf3baa8f2e4fcbd7debcef41b1364ce53b3eea1",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ef7c4d1f09b699b8ab468c939e8fdb78": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ef7c4d1f09b699b8ab468c939e8fdb78.perm1.cnf",
+  "sha256": "f5b92deb82cc697bc497711b0a2576344a51b6eb155d81290d88413d4dc85d69",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f001110ef99563f14d7ee8c4a9a6ace4": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f001110ef99563f14d7ee8c4a9a6ace4.perm1.cnf",
+  "sha256": "ad2a83050bdcc289b2a3c6214513bc7e23ffacbdd0db2e88622323a7d11cb41c",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f0753a43fd48018b408d64ea68a4a924": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f0753a43fd48018b408d64ea68a4a924.perm1.cnf",
+  "sha256": "c82b270d6cd1f196d958e4a3f2b6e7610550960fff05e9dcf5fe6cf2477152ed",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f1b952d8c17500928f9b8ce531fb627b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f1b952d8c17500928f9b8ce531fb627b.perm1.cnf",
+  "sha256": "81805186e4fb5187dfa4aaecbca11105ce8c9c54079ea6d0cfeb51b9b0582cdb",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f20400a0336eb218fb1e5da35224b737": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f20400a0336eb218fb1e5da35224b737.perm1.cnf",
+  "sha256": "6e8c5a153201d26a9fbe171350631e6bb7d877cd1f63896e23aa11bec3b1b099",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f3dfa624c79a45a047d6ff8d48501454": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f3dfa624c79a45a047d6ff8d48501454.perm1.cnf",
+  "sha256": "0870e0efbc8f98308936e67de99e6f79e3f35960d8a8bcc590400f7120f81e93",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f3f5df91d728313107efb2258dcb514b": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f3f5df91d728313107efb2258dcb514b.perm1.cnf",
+  "sha256": "0976b12172a6f88706bbb4d4b018bb71123c21a6064c1ee3ac3b183c7183ec81",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f74d1433b485290563f1731b944e7471": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f74d1433b485290563f1731b944e7471.perm1.cnf",
+  "sha256": "3fca11db3a77e3a619911b62c136c299631c2183e6abc8ec69e5d6bf7d69272d",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f7f8d3055265e1e601740254de264e34": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f7f8d3055265e1e601740254de264e34.perm1.cnf",
+  "sha256": "2ea5c156b893495d161a2c69785168d8d0a3eeaadb598a02a7f219ca6d3e6311",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f81e90c16a3fe4ca6ddbafb0eadd4dea": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f81e90c16a3fe4ca6ddbafb0eadd4dea.perm1.cnf",
+  "sha256": "579f7da2947b6fc2bd30038f3a13efdf6c1176314df0cbc228830e094a98df53",
+  "mode": "perm",
+  "seed": 1
+ },
+ "f9b8494562801565042e7c1cb164d94f": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/f9b8494562801565042e7c1cb164d94f.perm1.cnf",
+  "sha256": "2d89dbafb64a1a860e25fb379441bb28474785694fa3824d6a7fd448ea7f31f7",
+  "mode": "perm",
+  "seed": 1
+ },
+ "fa11a4d8757504b11e3085d9c04c1c2e": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/fa11a4d8757504b11e3085d9c04c1c2e.perm1.cnf",
+  "sha256": "5425183219d8c53ba717b2e478424efbf582379f12510deb44db9151195086fd",
+  "mode": "perm",
+  "seed": 1
+ },
+ "fd972d87a0e61efaba7890da38a12f8c": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/fd972d87a0e61efaba7890da38a12f8c.perm1.cnf",
+  "sha256": "9d1b9947e22ea69cf4980ced7789781af73b55df8cd03dee6f0d18daf761aec5",
+  "mode": "perm",
+  "seed": 1
+ },
+ "feaad2162591a5823799ec70a8635185": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/feaad2162591a5823799ec70a8635185.perm1.cnf",
+  "sha256": "a5e81d0cb04ecde423dfbe1981644760d23c6c8541a6440fbc659069e5c38f82",
+  "mode": "perm",
+  "seed": 1
+ },
+ "ffdfce174618b76c8cd0e4bd45b55130": {
+  "path": "/mnt/data/zhaofeng/projects/workspace/online-tuning-forcephase/anni2022_baseline/explore/cnf_perm1/ffdfce174618b76c8cd0e4bd45b55130.perm1.cnf",
+  "sha256": "a070f0c71bff0ec6053631ed4a87ef643b0e8e78ad2f063c9ba0de9bb6050371",
+  "mode": "perm",
+  "seed": 1
+ }
+}

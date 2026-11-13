@@ -55,7 +55,7 @@ class Inputs:
         self.cnf_dir, self.receipts, self.local = Path(cnf_dir), receipts, Path(local)
         self.local.mkdir(parents=True, exist_ok=True); self.lock = threading.Lock(); self.events = {}; self.left = {}
 
-    def get(self, k):
+    def get(self, k, src=None, expected=None):
         with self.lock:
             ev = self.events.get(k)
             if ev is None:
@@ -66,9 +66,11 @@ class Inputs:
         if mine:
             try:
                 tmp = dst.with_suffix(".part")
-                with lzma.open(self.cnf_dir / f"{k}.cnf.xz") as src, tmp.open("wb") as out:
-                    shutil.copyfileobj(src, out, 1 << 20)
-                if sha(tmp) != self.receipts[k]:
+                path = Path(src) if src else self.cnf_dir / f"{k}.cnf.xz"
+                opener = lzma.open if path.suffix == ".xz" else open
+                with opener(path, "rb") as fin, tmp.open("wb") as out:
+                    shutil.copyfileobj(fin, out, 1 << 20)
+                if sha(tmp) != (expected or self.receipts[k]):
                     raise ValueError("decompressed CNF differs from the baseline input SHA")
                 tmp.replace(dst)
             finally:
@@ -95,7 +97,7 @@ def run_task(t, cnf, root, cpu, proofs):
     assert sha(t["binary"]) == t["binary_sha256"], "solver binary changed"
     proof = proofs / f"{t['task']}.lrat"; proof.unlink(missing_ok=True)
     T = t["cutoff_s"]; log = work / "solver.log"
-    cmd = [t["binary"], *t["args"], "--seed=0", "--stats", "--lrat", "--binary=true", "-t", "1800", str(cnf), str(proof)]
+    cmd = [t["binary"], *t["args"], f"--seed={t.get('seed', 0)}", "--stats", "--lrat", "--binary=true", "-t", "1800", str(cnf), str(proof)]
     started = utc()
     m = limited_process(cmd, log, T, max(1800, 3 * T), MEMORY, FSIZE, cpu, work / "active.json", 5)
     text = log.read_text(errors="replace")
@@ -122,6 +124,7 @@ def run_task(t, cnf, root, cpu, proofs):
     with log.open("rb") as src, gzip.open(root / "results" / f"{t['task']}.log.gz", "wb") as out:
         shutil.copyfileobj(src, out)
     result = {**{k: t[k] for k in ("task", "instance_key", "config", "args", "cutoff_s", "binary_sha256")},
+              "seed": t.get("seed", 0), "input_id": t.get("input_id", t["instance_key"]),
               "status": status, "answer": answer, "verification": verification, "solved": solved,
               "exit_code": m["exit_code"], "stop_reason": m["stop_reason"], "hard_kill": m["hard_kill"],
               "cpu_s": m["cpu_s"], "cpu_user_s": m["cpu_user_s"], "cpu_system_s": m["cpu_system_s"], "wall_s": m["wall_s"],
@@ -151,8 +154,9 @@ def main():
     local = Path(a.local) / f"shard-{idx:03d}-of-{cnt:03d}"
     inputs = Inputs(a.cnf_dir, receipts, local / "cnf"); proofs = local / "proofs"; proofs.mkdir(parents=True, exist_ok=True)
     todo = [t for t in mine if not (root / "results" / f"{t['task']}.json").exists()]
-    todo.sort(key=lambda t: (t["instance_key"], t["config"]))  # consecutive tasks share one staged CNF
-    for t in todo: inputs.left[t["instance_key"]] = inputs.left.get(t["instance_key"], 0) + 1
+    todo.sort(key=lambda t: (t.get("input_id", t["instance_key"]), t["config"]))  # consecutive tasks share one staged CNF
+    iid = lambda t: t.get("input_id", t["instance_key"])  # e.g. a scrambled copy of the instance
+    for t in todo: inputs.left[iid(t)] = inputs.left.get(iid(t), 0) + 1
     cpus = sorted(os.sched_getaffinity(0))[:a.workers]; tokens = queue.Queue()
     for c in cpus: tokens.put(c)
     print(f"shard {idx}/{cnt} host {socket.gethostname()} cpus {cpus} tasks {len(mine)} todo {len(todo)}", flush=True)
@@ -162,13 +166,13 @@ def main():
         cpu = tokens.get(); prev = os.sched_getaffinity(0)
         try:
             os.sched_setaffinity(0, {cpu})
-            cnf = inputs.get(t["instance_key"])
+            cnf = inputs.get(iid(t), t.get("cnf_path"), t.get("cnf_sha256"))
             r = run_task(t, cnf, root, cpu, proofs); key = r["status"]
         except Exception as e:
             key = "EXCEPTION"; (root / "errors").mkdir(exist_ok=True)
             (root / "errors" / f"{t['task']}.txt").write_text(f"{utc()} {e!r}\n")
         finally:
-            os.sched_setaffinity(0, prev); tokens.put(cpu); inputs.done(t["instance_key"])
+            os.sched_setaffinity(0, prev); tokens.put(cpu); inputs.done(iid(t))
         with lock:
             counts[key] = counts.get(key, 0) + 1
             if sum(counts.values()) % 100 == 0: print(utc(), counts, flush=True)

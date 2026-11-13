@@ -1,0 +1,60 @@
+{
+ "results": [
+  {
+   "policy": "static + novelty gate [iso folds]",
+   "solved": 3425,
+   "gain_vs_D_pct": 2.367927322573885,
+   "mean_PAR2": 383.24752889890993,
+   "total_CPU_h": 286.70696913165443,
+   "rescued_vs_D": 66,
+   "lost_vs_D": 26,
+   "actions": {
+    "D": 3623,
+    "F+": 550,
+    "F-": 546
+   },
+   "cuts": [
+    0.0,
+    0.0,
+    0.0376529660473416,
+    0.03466972190394782,
+    0.0
+   ],
+   "taus": [
+    "3.222",
+    "2.235",
+    "4.784",
+    "inf",
+    "7.325"
+   ]
+  },
+  {
+   "policy": "static + novelty gate [whole-family folds]",
+   "solved": 3378,
+   "gain_vs_D_pct": -0.3039103150582988,
+   "mean_PAR2": 393.73563126282085,
+   "total_CPU_h": 292.62178998034767,
+   "rescued_vs_D": 7,
+   "lost_vs_D": 14,
+   "actions": {
+    "D": 4526,
+    "F+": 142,
+    "F-": 51
+   },
+   "cuts": [
+    null,
+    null,
+    null,
+    0.01713510477904174,
+    0.0
+   ],
+   "taus": [
+    "2.271",
+    "2.003",
+    "2.25",
+    "6.811",
+    "inf"
+   ]
+  }
+ ]
+}
