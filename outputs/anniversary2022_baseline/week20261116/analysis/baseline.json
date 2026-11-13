@@ -1,0 +1,110 @@
+{
+ "parents": 4719,
+ "policies": [
+  {
+   "policy": "D",
+   "solved": 3385,
+   "mean_PAR2": 392.54265364738285,
+   "gain_vs_D_pct": 0.0,
+   "total_CPU_h": 292.22466182277776,
+   "rescued_vs_D": 0,
+   "lost_vs_D": 0
+  },
+  {
+   "policy": "Fplus",
+   "solved": 3076,
+   "mean_PAR2": 468.23651554884503,
+   "gain_vs_D_pct": -19.282964844237597,
+   "total_CPU_h": 339.94669913194446,
+   "rescued_vs_D": 92,
+   "lost_vs_D": 401
+  },
+  {
+   "policy": "Fminus",
+   "solved": 3055,
+   "mean_PAR2": 471.9760517327823,
+   "gain_vs_D_pct": -20.23560939106344,
+   "total_CPU_h": 341.34860781305554,
+   "rescued_vs_D": 112,
+   "lost_vs_D": 442
+  },
+  {
+   "policy": "VBS {D,F+,F-} (free oracle)",
+   "solved": 3547,
+   "mean_PAR2": 349.94073167895743,
+   "gain_vs_D_pct": 10.85281346436668,
+   "total_CPU_h": 263.3806424425,
+   "rescued_vs_D": 162,
+   "lost_vs_D": 0
+  },
+  {
+   "policy": "static selector R54 mean3 (Mu's OOF predictions, Mac feature/query fees)",
+   "solved": 3423,
+   "mean_PAR2": 383.31795367638654,
+   "gain_vs_D_pct": 2.3499866537517122,
+   "total_CPU_h": 286.46595094413004,
+   "rescued_vs_D": 66,
+   "lost_vs_D": 28
+  },
+  {
+   "policy": "static selector, re-implemented, cluster fees",
+   "solved": 3424,
+   "mean_PAR2": 383.4496614498017,
+   "gain_vs_D_pct": 2.3164341793412673,
+   "total_CPU_h": 286.8052645504483,
+   "rescued_vs_D": 66,
+   "lost_vs_D": 27,
+   "actions": {
+    "D": 3613,
+    "Fplus": 558,
+    "Fminus": 548
+   },
+   "acquisition_failures_run_D": 19,
+   "mean_fee_s": 0.4323165918895952,
+   "free_feature_gain_vs_D_pct": 2.382310378218188,
+   "cuts": [
+    0.0,
+    0.0,
+    0.0376529660473416,
+    0.03466972190394782,
+    0.0
+   ],
+   "native_acquisition": {
+    "ok": 4700,
+    "failed": 19,
+    "mean_cpu_s": 0.4117139247721975,
+    "retried": 14
+   }
+  },
+  {
+   "policy": "F-largest (per-variable majority sign)",
+   "solved": 3011,
+   "mean_PAR2": 481.8885928294131,
+   "gain_vs_D_pct": -22.760823149244,
+   "total_CPU_h": 347.00896376722227,
+   "rescued_vs_D": 102,
+   "lost_vs_D": 476
+  },
+  {
+   "policy": "VBS {D,F+,F-,F-largest} (free oracle)",
+   "solved": 3575,
+   "mean_PAR2": 342.61302851345624,
+   "gain_vs_D_pct": 12.71954134665271,
+   "total_CPU_h": 258.4419115430556,
+   "rescued_vs_D": 190,
+   "lost_vs_D": 0
+  }
+ ],
+ "flargest_vs_D": {
+  "only_flargest_solved": 102,
+  "only_D_solved": 476,
+  "both_solved": 2909,
+  "flargest_2x_faster": 173,
+  "D_2x_faster": 454,
+  "majority_counts": {
+   "median_positive_share": 0.17604196059554833,
+   "median_negative_share": 0.4897466827503016,
+   "median_tie_share": 0.09517531008887586
+  }
+ }
+}

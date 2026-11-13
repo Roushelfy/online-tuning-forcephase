@@ -1,5 +1,7 @@
 # Online Tuning of Forcephase
 
+**2026-11-16 周更新：** 本周实验汇报见 [WEEK_20261116_REPORT.md](reports/anniversary2022_baseline/WEEK_20261116_REPORT.md)，包括 162 题 benchmark 清单、统一基线、试跑与 level 检验、F-largest、unit/unique 消融、按家族评估、运行中切换和端到端核对。
+
 **2026-11-09 更新：** 4719 题 T600 三配置基线已完成（14157 次运行全部有效）：解出 D 3385、F+ 3076、F− 3055，VBS 3547。见 [基线结果](reports/anniversary2022_baseline/BASELINE_RESULTS_20261109.md)。
 
 **2026-11-07 更新：** [2022 Anniversary 基线脚本](ANNIVERSARY_BASELINE.md)已实现并通过节点小样例验证。按用户最新选择，5355题主名单中排除官方所有赛道均未解出的636题，保留4719题；正式运行尚未启动，资源／恢复配置仍待完成。

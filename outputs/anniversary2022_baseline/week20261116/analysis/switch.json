@@ -1,0 +1,139 @@
+{
+ "round_robin_continue": [
+  {
+   "policy": "round robin D/F+/F-, slice 1 s, continuation",
+   "solved": 3092,
+   "mean_PAR2": 467.6462293121424,
+   "gain_vs_D_pct": -19.132589787866543,
+   "total_CPU_h": 341.8395989233333,
+   "rescued_vs_D": 49,
+   "lost_vs_D": 342
+  },
+  {
+   "policy": "round robin D/F+/F-, slice 2 s, continuation",
+   "solved": 3092,
+   "mean_PAR2": 467.50584776668796,
+   "gain_vs_D_pct": -19.096827675354678,
+   "total_CPU_h": 341.65558211416663,
+   "rescued_vs_D": 49,
+   "lost_vs_D": 342
+  },
+  {
+   "policy": "round robin D/F+/F-, slice 5 s, continuation",
+   "solved": 3092,
+   "mean_PAR2": 467.0257483731723,
+   "gain_vs_D_pct": -18.974522649632064,
+   "total_CPU_h": 341.02625182583336,
+   "rescued_vs_D": 49,
+   "lost_vs_D": 342
+  },
+  {
+   "policy": "round robin D/F+/F-, slice 20 s, continuation",
+   "solved": 3092,
+   "mean_PAR2": 464.9873673267642,
+   "gain_vs_D_pct": -18.455246329602097,
+   "total_CPU_h": 338.3542740041667,
+   "rescued_vs_D": 49,
+   "lost_vs_D": 342
+  },
+  {
+   "policy": "round robin D/F+/F-, slice 60 s, continuation",
+   "solved": 3101,
+   "mean_PAR2": 458.17175628989196,
+   "gain_vs_D_pct": -16.718973602665624,
+   "total_CPU_h": 330.92014386999995,
+   "rescued_vs_D": 46,
+   "lost_vs_D": 330
+  },
+  {
+   "policy": "round robin D/F+/F-, slice 200 s, continuation",
+   "solved": 3092,
+   "mean_PAR2": 445.6025678544183,
+   "gain_vs_D_pct": -13.516980566065728,
+   "total_CPU_h": 312.94403269583336,
+   "rescued_vs_D": 49,
+   "lost_vs_D": 342
+  }
+ ],
+ "two_stage": {
+  "cv_switch_time": {
+   "policy": "probe 2 s, learned choice, switch to 2nd choice at CV-chosen time",
+   "solved": 3407,
+   "mean_PAR2": 388.6102622809917,
+   "gain_vs_D_pct": 1.0017742861451044,
+   "total_CPU_h": 290.7366188066666,
+   "rescued_vs_D": 30,
+   "lost_vs_D": 8,
+   "switch_times_by_fold": [
+    "inf",
+    "inf",
+    "inf",
+    "inf",
+    "inf"
+   ]
+  },
+  "fixed_10": {
+   "policy": "two-stage, switch at 10 s (in-sample, no selection)",
+   "solved": 2970,
+   "mean_PAR2": 487.13693736490785,
+   "gain_vs_D_pct": -24.09783569723816,
+   "total_CPU_h": 347.05533539583337,
+   "rescued_vs_D": 89,
+   "lost_vs_D": 504
+  },
+  "fixed_30": {
+   "policy": "two-stage, switch at 30 s (in-sample, no selection)",
+   "solved": 3024,
+   "mean_PAR2": 474.1229902159356,
+   "gain_vs_D_pct": -20.782540651451228,
+   "total_CPU_h": 338.9962196747223,
+   "rescued_vs_D": 89,
+   "lost_vs_D": 450
+  },
+  "fixed_60": {
+   "policy": "two-stage, switch at 60 s (in-sample, no selection)",
+   "solved": 3073,
+   "mean_PAR2": 461.8039680682348,
+   "gain_vs_D_pct": -17.644277323062234,
+   "total_CPU_h": 331.0147014761111,
+   "rescued_vs_D": 83,
+   "lost_vs_D": 395
+  },
+  "fixed_120": {
+   "policy": "two-stage, switch at 120 s (in-sample, no selection)",
+   "solved": 3145,
+   "mean_PAR2": 442.68985116041534,
+   "gain_vs_D_pct": -12.774967776642995,
+   "total_CPU_h": 317.95927989611107,
+   "rescued_vs_D": 71,
+   "lost_vs_D": 311
+  },
+  "fixed_300": {
+   "policy": "two-stage, switch at 300 s (in-sample, no selection)",
+   "solved": 3205,
+   "mean_PAR2": 422.5247261909303,
+   "gain_vs_D_pct": -7.637914571821291,
+   "total_CPU_h": 301.5261619152778,
+   "rescued_vs_D": 49,
+   "lost_vs_D": 229
+  },
+  "fixed_inf": {
+   "policy": "two-stage, switch at inf s (in-sample, no selection)",
+   "solved": 3407,
+   "mean_PAR2": 388.6102622809917,
+   "gain_vs_D_pct": 1.0017742861451044,
+   "total_CPU_h": 290.7366188066666,
+   "rescued_vs_D": 30,
+   "lost_vs_D": 8
+  },
+  "choose_once_reference": {
+   "policy": "probe 2 s, learned choice, no switching",
+   "solved": 3407,
+   "mean_PAR2": 388.6102622809917,
+   "gain_vs_D_pct": 1.0017742861451044,
+   "total_CPU_h": 290.7366188066666,
+   "rescued_vs_D": 30,
+   "lost_vs_D": 8
+  }
+ }
+}

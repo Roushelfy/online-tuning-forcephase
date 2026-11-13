@@ -433,6 +433,37 @@ def cmd_switch(a):
         print(f"{p_['policy'][:70]:70s} solved {p_['solved']}  gain {p_['gain_vs_D_pct']:6.2f}%  {p_.get('switch_times_by_fold', '')}")
 
 
+# ------------------------------------------------------------------------------------------------------------------ e2e
+def cmd_e2e(a):
+    """Real end-to-end pipelines vs replay on the stratified 500-instance sample."""
+    root = Path(a.data) / "week20261116/e2e"; sample = json.loads((root / "sample.json").read_text())
+    meta = {r["instance_key"]: r for r in sample["instances"]}
+    rec = {}
+    for f in sorted(root.glob("e2e-*.jsonl")):
+        for line in f.open():
+            r = json.loads(line)
+            if "error" not in r: rec[r["instance_key"]] = r
+    weight = {"switch": sample["switch_population"] / 250, "rest": sample["rest_population"] / 250}
+    out = {"sample": len(meta), "completed": len(rec), "missing": sorted(set(meta) - set(rec))}
+    for pipe in ("static", "probe"):
+        rows = [(meta[k]["stratum"], r["replay"][pipe + "_PAR2"], r[pipe]["PAR2"], r[pipe]) for k, r in rec.items()]
+        rep = np.array([x[1] for x in rows]); real = np.array([x[2] for x in rows]); wts = np.array([weight[x[0]] for x in rows])
+        both = (rep < 1200) & (real < 1200); ratio = real[both] / np.maximum(rep[both], 1e-3)
+        dis = [(k, x[1], x[2], x[3].get("status"), x[3].get("chosen", x[3].get("action")), x[3].get("solved_in_probe"))
+               for k, x in zip(rec, rows) if (x[1] < 1200) != (x[2] < 1200)]
+        out[pipe] = {"solved_agree": int(((rep < 1200) == (real < 1200)).sum()), "replay_solved": int((rep < 1200).sum()), "real_solved": int((real < 1200).sum()),
+                     "real_over_replay_cost_both_solved": {"median": float(np.median(ratio)), "q10": float(np.quantile(ratio, .1)), "q90": float(np.quantile(ratio, .9))},
+                     "sum_replay_PAR2": float(rep.sum()), "sum_real_PAR2": float(real.sum()),
+                     "population_weighted_real_minus_replay_s": float((wts * (real - rep)).sum()),
+                     "population_weighted_real_minus_replay_pct_of_D": None, "disagreements": dis[:20]}
+    rows = sorted(S.read_csv(Path(a.data) / "cluster_v3_analysis/matrix.csv"), key=lambda r: r["instance_key"])
+    dsum = sum(float(r["D_par2"]) for r in rows)
+    for pipe in ("static", "probe"):
+        out[pipe]["population_weighted_real_minus_replay_pct_of_D"] = 100 * out[pipe]["population_weighted_real_minus_replay_s"] / dsum
+    write(a, "e2e", out)
+    print(json.dumps({k: (v if k not in ("static", "probe") else {x: y for x, y in v.items() if x != "disagreements"}) for k, v in out.items() if k != "missing"}, indent=1))
+
+
 # --------------------------------------------------------------------------------------------------------------- family
 def cmd_family(a):
     d = Data(a); costs = {p.stem: np.load(p) for p in sorted((Path(a.out) / "costs").glob("*.npy"))}
@@ -491,12 +522,12 @@ def cmd_family(a):
 
 
 def main():
-    p = argparse.ArgumentParser(); p.add_argument("cmd", choices=["baseline", "unitunique", "probe", "family", "switch"])
+    p = argparse.ArgumentParser(); p.add_argument("cmd", choices=["baseline", "unitunique", "probe", "family", "switch", "e2e"])
     for x in ("--data", "--gbd-base", "--gbd-meta", "--inputs", "--out"): p.add_argument(x, required=True)
     a = p.parse_args(); Path(a.out).mkdir(parents=True, exist_ok=True)
     from threadpoolctl import threadpool_limits
     with threadpool_limits(limits=4):
-        {"baseline": cmd_baseline, "unitunique": cmd_unitunique, "probe": cmd_probe, "family": cmd_family, "switch": cmd_switch}[a.cmd](a)
+        {"baseline": cmd_baseline, "unitunique": cmd_unitunique, "probe": cmd_probe, "family": cmd_family, "switch": cmd_switch, "e2e": cmd_e2e}[a.cmd](a)
 
 
 if __name__ == "__main__":

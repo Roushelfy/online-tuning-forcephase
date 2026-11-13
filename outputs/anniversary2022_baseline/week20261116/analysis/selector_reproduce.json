@@ -1,0 +1,27 @@
+{
+ "valid": 4719,
+ "cuts": [
+  0.018687720872147782,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "actions_equal_R13b_mean3": 4653,
+ "actions_equal_R54_mean3": 4652,
+ "parents": 4719,
+ "free": {
+  "policy": "reimplemented mean3, free features",
+  "mean_PAR2": 383.0325205552023,
+  "solved": 3423,
+  "gain_vs_D_pct": 2.4227005661207452,
+  "rescued_vs_D": 67,
+  "lost_vs_D": 29,
+  "actions": {
+   "D": 3549,
+   "Fplus": 604,
+   "Fminus": 566
+  },
+  "total_cost_s": 1807530.4644999998
+ }
+}
